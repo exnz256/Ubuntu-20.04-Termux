@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="gate" xml:lang="pt-BR">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    </info>
+    <title>Gate</title>
+    <p>Gates atenuam os sinais que se registram abaixo do limite. Esse tipo de processamento de sinal reduz o ruído perturbador entre sinais úteis.</p>
+    <p>PulseEffects usa o gate desenvolvido por Calf Studio.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Ataque</em>
+            </title>
+            <p>Quantidade de milissegundos que o sinal deve passar acima do limiar para que a redução de ganho comece.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Liberação</em>
+            </title>
+            <p>Quantidade de milissegundos que o sinal tem que passar abaixo do limar antes que a magnitude da redução seja novamente diminuída.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Limiar</em>
+            </title>
+            <p>Se um sinal subir acima deste nível ele afetará a redução de ganho.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Razão</em>
+            </title>
+            <p>Configura a razão pela a qual o sinal é reduzido.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Joelho</em>
+            </title>
+            <p>Controla o quão suave é a entrada na fase de redução de ganho.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Ganho de Saída</em>
+            </title>
+            <p>Amplifique seu sinal após o processamento.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Elo Stereo</em>
+            </title>
+            <p>Escolha se a redução será afetada pelo nível médio entre os canais ou pelo canal mais alto.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Detecção</em>
+            </title>
+            <p>Escolha se o gate deve tomar o pico do sinal para detecção ou o valor RMS (é mais suave).</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Redução de Ganho</em>
+            </title>
+            <p>O nível da redução de ganho quando o sinal está abaixo do limiar.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Referências</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://calf-studio-gear.org/doc/Gate.html" its:translate="no">
+                        https://calf-studio-gear.org/doc/Gate.html
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Noise_gate" its:translate="no">
+                        https://en.wikipedia.org/wiki/Noise_gate
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

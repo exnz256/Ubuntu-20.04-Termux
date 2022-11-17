@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="numeric-keypad" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="keyboard"/>
+    <desc>Ενεργοποίηση του αριθμητικού πληκτρολογίου από προεπιλογή.</desc>
+
+    <revision version="18.04" date="2018-03-19" status="review"/>
+
+    <credit type="author">
+      <name>Ομάδα τεκμηρίωσης Ubuntu</name>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>Αριθμητικό πληκτρολόγιο</title>
+
+  <p>Με το πλήκτρο <key>Num Lock</key> μπορείτε να ενεργοποιήσετε ή να απενεργοποιήσετε χειροκίνητα το αριθμητικό πληκτρολόγιο του πληκτρολογίου σας. Επίσης, οι ρυθμίσεις BIOS των υπολογιστών συχνά περιλαμβάνουν μια επιλογή για να ορίσετε εάν ο υπολογιστής σας θα εκκινείται με το αριθμητικό πληκτρολόγιο ενεργό. Διαφορετικά, αυτός είναι ο τρόπος για τη διαμόρφωσή του:</p>
+
+  <steps>
+    <item>
+      <p><link href="apt:numlockx">Install</link> the <em>numlockx</em> package.</p>
+    </item>
+    <item>
+      <p>Ανοίξτε τις <app><link xref="startup-applications">Εφαρμογές εκκίνησης</link></app> και προσθέστε μια εφαρμογή εκκίνησης με την εντολή: <cmd>numlockx on</cmd></p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Το δεύτερο βήμα μπορεί να είναι περιττό στον υπολογιστή σας, γι' αυτό πρώτα δοκιμάστε χωρίς αυτό.</p>
+  </note>
+
+</page>

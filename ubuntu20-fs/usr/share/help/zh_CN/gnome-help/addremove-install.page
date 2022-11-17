@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="addremove-install" xml:lang="zh-CN">
+
+  <info>
+    <credit type="author">
+      <name>Ubuntu 文档团队</name>
+    </credit>
+    <desc>通过 <app>Ubuntu 软件</app> 安装额外的应用程序使 Ubuntu 变得更加易用。</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <link type="guide" xref="addremove" group="#first"/>
+    <link type="seealso" xref="addremove-remove"/>
+    <link type="seealso" xref="addremove-install-synaptic"/>
+    <link type="seealso" xref="prefs-language-install"/>
+    <revision version="18.04" date="2018-03-18" status="review"/>
+  </info>
+
+  <title>安装额外的应用程序</title>
+
+  <p>应用是具有图形用户界面（GUI）的软件。 Ubuntu开发团队选择了一组默认的应用程序，这些应用程序使 Ubuntu 在大多数日常任务中非常有用。 但是，您当然希望安装更多的应用程序，以使 Ubuntu 对您更有用。 要安装应用程序，可以使用<app> Ubuntu 软件中心</app>。</p>
+
+   <p>应用程序有两种格式：snap 软件包和 Debian 软件包。现在可作为 snap 软件包使用的应用程序称为 <em>snap</em>。一些应用程序同时具有这两种格式。在这种情况下， <app>Ubuntu Software</app> 将会优先列出 snap 软件包。</p>
+
+   <p>您可能还希望安装没有图形窗口的软件，要安装此类软件，您可以使用 <link xref="addremove-install-synaptic">新立得</link>。 请注意，<app>新立得</app>不会列出快照。</p>
+
+  <p>安装一个应用程序：</p>
+
+  <steps>
+    <item>
+      <p>点击 <gui>Dock</gui> 中的 <app>Ubuntu 软件</app> 图标，或者在 <em>活动</em> 搜索框中输入 <input>软件</input>。</p>
+    </item>
+    <item>
+      <p>启动<app> Ubuntu软件中心</app>时，搜索应用程序，或选择一个类别并从列表中找到一个应用程序。</p>
+    </item>
+    <item>
+      <p>选择要安装的应用程序，然后单击<gui>安装</gui>。</p>
+    </item>
+    <item>
+      <p>输入管理员密码，验证通过后，开始安装。安装通常会很快完成，但是如果您的 Internet 连接速度较慢，则可能需要等待一段时间。</p>
+
+    </item>
+
+  </steps>
+  
+</page>

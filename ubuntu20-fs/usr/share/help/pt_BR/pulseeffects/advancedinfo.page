@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="advancedinfo" style="2column" xml:lang="pt-BR">
+    <info>
+        <link type="guide" xref="index#ui"/>
+    </info>
+    <title>Informações Avançadas</title>
+    <media type="image" src="figures/advancedinfo.png" its:translate="no"/>
+    <p>O processamento de áudio do PulseEffects é composto por 3 etapas principais. Cada uma delas precisa de um formato de áudio e taxa de amostragem específicos. Esta informação é mostrada na legenda da barra de cabeçalho.</p>
+    <p>Outra informação importante é a latência introduzida pelo processamento de áudio. Esta é a última informação mostrada. O valor exibido está em milissegundos.</p>
+</page>

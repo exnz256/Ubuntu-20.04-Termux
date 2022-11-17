@@ -1,0 +1,7 @@
+#! /bin/sh
+set -e
+
+if [ "$1" = rtupdate ]; then
+	py3clean -p bleachbit /usr/share/bleachbit
+	py3compile -p bleachbit  /usr/share/bleachbit
+fi

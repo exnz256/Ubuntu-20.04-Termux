@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="calibrationmic" xml:lang="it-IT">
+    <info>
+        <link type="guide" xref="index#calibration"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Digitalone</mal:name>
+      <mal:email>kurmikon@libero.it</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+    <title>Microfono</title>
+    <p>Se si dispone di un microfono con una risposta abbastanza piatta, è possibile utilizzarlo con un segnale test di rumore rosa per stimare quanto sia piatta la risposta in frequenza della configurazione audio.</p>
+    <item>
+        <title>
+            <em style="strong" its:withinText="nested">Finestra</em>
+        </title>
+        <p>La quantità di tempo in cui il segnale del microfono verrà misurato. Valori più alti riducono il rumore.</p>
+    </item>
+    <item>
+        <title>
+            <em style="strong" its:withinText="nested">Misura Rumore</em>
+        </title>
+        <p>Salva l'ultima misura per utilizzarla come rumore di fondo. Solitamente questa opzione è usata prima di attivare il rumore rosa.</p>
+    </item>
+    <item>
+        <title>
+            <em style="strong" its:withinText="nested">Sottrai Rumore</em>
+        </title>
+        <p>Sottrae il rumore di fondo memorizzato dal risultato della misurazione.</p>
+    </item>
+</page>

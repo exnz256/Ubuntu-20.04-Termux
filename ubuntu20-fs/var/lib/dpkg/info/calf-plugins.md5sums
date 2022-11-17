@@ -1,0 +1,854 @@
+434065ad3bb3d3edf88fda33a6223aad  usr/bin/calfjackhost
+7ff1659ee4750e8651494d18e1655e1f  usr/lib/aarch64-linux-gnu/calf/calf.a
+88300a7731032e594400407200180529  usr/lib/aarch64-linux-gnu/calf/calf.la
+cab6e9c0068879b0759a8f3c7359f539  usr/lib/aarch64-linux-gnu/calf/calf.so
+d7561d5c2bbaacc9f7a500669ee037a6  usr/lib/lv2/calf.lv2/Analyzer.ttl
+7e594aabaf2208c2b12f3e3ebef8e3d6  usr/lib/lv2/calf.lv2/BassEnhancer.ttl
+573b3d0d1004ae74edfbbd965f2d0170  usr/lib/lv2/calf.lv2/CompensationDelay.ttl
+c51a48d83336634ec53b4db9b91efc21  usr/lib/lv2/calf.lv2/Compressor.ttl
+596678f71c958060dd38a7aac7bfccf2  usr/lib/lv2/calf.lv2/Crusher.ttl
+db1a4beeb1cdcef9615890eb76562625  usr/lib/lv2/calf.lv2/Deesser.ttl
+d17d282ab3267e41930efa4e8601bdcc  usr/lib/lv2/calf.lv2/Emphasis.ttl
+f2acc7efcb0c7580f8cc308675a2d3c5  usr/lib/lv2/calf.lv2/EnvelopeFilter.ttl
+85bafd68a1184873f69ffe97e8c983b8  usr/lib/lv2/calf.lv2/Equalizer12Band.ttl
+e84912740c6eafd58c6a9915cfc36cc8  usr/lib/lv2/calf.lv2/Equalizer30Band.ttl
+ccd52c87f9e0f5a9705c90fb9bec1f17  usr/lib/lv2/calf.lv2/Equalizer5Band.ttl
+0635cab9360cc42771197ff781995b5b  usr/lib/lv2/calf.lv2/Equalizer8Band.ttl
+a929e1a83e6eb7431accd48238a2573e  usr/lib/lv2/calf.lv2/Exciter.ttl
+775816d6e138d052634b8b8f45ff434b  usr/lib/lv2/calf.lv2/Filter.ttl
+a5d1038527f803f06a3c83f8969e5ec0  usr/lib/lv2/calf.lv2/Filterclavier.ttl
+081e8e1233fca907e9cb66718c025ba4  usr/lib/lv2/calf.lv2/Flanger.ttl
+fc234473648d2040e1ec9c12b3d41c2e  usr/lib/lv2/calf.lv2/Fluidsynth.ttl
+67a827d93103418984f51f9ce71fe999  usr/lib/lv2/calf.lv2/Gate.ttl
+8d49445c7f11c0f9c2525c1b7f898ea4  usr/lib/lv2/calf.lv2/HaasEnhancer.ttl
+0b5a8c41589221301d30793dfacb5da8  usr/lib/lv2/calf.lv2/Limiter.ttl
+add12615954494f19c6d87efd72eb304  usr/lib/lv2/calf.lv2/MonoCompressor.ttl
+a09c7e75e9044d8eb7ae8ff7b5c5451a  usr/lib/lv2/calf.lv2/MonoInput.ttl
+0ec74fd5b308490bbdd8e2fb43e90390  usr/lib/lv2/calf.lv2/Monosynth.ttl
+0a618f4c8fb2ecc4aaedaecedb197bf0  usr/lib/lv2/calf.lv2/MultiChorus.ttl
+78be4cda6847c5e6c4ce473aea96838c  usr/lib/lv2/calf.lv2/MultiSpread.ttl
+1aaa9d888e323e94da4959cc3e89c15a  usr/lib/lv2/calf.lv2/MultibandCompressor.ttl
+d5db7b7653603cb710de7058a287902f  usr/lib/lv2/calf.lv2/MultibandEnhancer.ttl
+9eeb8488857549a5a8abf6608bcbd045  usr/lib/lv2/calf.lv2/MultibandGate.ttl
+fc824c94d0693e0feed829333ca4391e  usr/lib/lv2/calf.lv2/MultibandLimiter.ttl
+965f680121bb82c7e852adec34df13bc  usr/lib/lv2/calf.lv2/Organ.ttl
+2a4a3a508451b036f34787453efe5550  usr/lib/lv2/calf.lv2/Phaser.ttl
+516bc685a0562d22bda69e0110fab03d  usr/lib/lv2/calf.lv2/Pitch.ttl
+9453127dbe95ac6c1660d10358c04f27  usr/lib/lv2/calf.lv2/Pulsator.ttl
+7ff96e0bdce9bd77ab5c12ce9b583d45  usr/lib/lv2/calf.lv2/Reverb.ttl
+14b26774725f51af55fcd56c2fb958ca  usr/lib/lv2/calf.lv2/ReverseDelay.ttl
+7e0589dbdb9bde80aa7fd508cc52c90d  usr/lib/lv2/calf.lv2/RingModulator.ttl
+9e8927db91eec90917c7f555f3660b0c  usr/lib/lv2/calf.lv2/RotarySpeaker.ttl
+95ad65174ab995785c9801368b430c55  usr/lib/lv2/calf.lv2/Saturator.ttl
+f211820aa95e7dd49ec621369e8ef743  usr/lib/lv2/calf.lv2/SidechainCompressor.ttl
+ff2efa13caa24a79ab39523be028b036  usr/lib/lv2/calf.lv2/SidechainGate.ttl
+04275eabef8d7c2f3b8e089726d26185  usr/lib/lv2/calf.lv2/SidechainLimiter.ttl
+e7f0e0e4b96ea51c194d81d3febc4670  usr/lib/lv2/calf.lv2/StereoTools.ttl
+62207d752b3eaa737a2a93a0e49d974b  usr/lib/lv2/calf.lv2/TapeSimulator.ttl
+6433c5d619a3bb61e96c6af719ca0930  usr/lib/lv2/calf.lv2/TransientDesigner.ttl
+343c059e247eeb2b137e99458348a303  usr/lib/lv2/calf.lv2/VintageDelay.ttl
+0271865a4c29da82d8c99f2abc145791  usr/lib/lv2/calf.lv2/Vinyl.ttl
+e5c0852a45702b08e226ed27233f36af  usr/lib/lv2/calf.lv2/Vocoder.ttl
+e9c45e51f1150dc60eeda673a09895e6  usr/lib/lv2/calf.lv2/Wavetable.ttl
+6b454d90e406c14df715b585b5d6097e  usr/lib/lv2/calf.lv2/XOver2Band.ttl
+325948b17babb634c7b402ec73ce43eb  usr/lib/lv2/calf.lv2/XOver3Band.ttl
+23843968f363927e469896879b19b06f  usr/lib/lv2/calf.lv2/XOver4Band.ttl
+1d15f75533b16f63d7b52a9a3a9282ac  usr/lib/lv2/calf.lv2/calflv2gui.so
+c815c09aaeb4d81b068c49b9a47bda0d  usr/lib/lv2/calf.lv2/manifest.ttl
+093fc069caac34da95c5197e593e0d38  usr/lib/lv2/calf.lv2/presets-Filter.ttl
+1073cfe85d5f3146ddb798f530c8964c  usr/lib/lv2/calf.lv2/presets-Flanger.ttl
+61b29e870062ae0d9cbce7a12eb2d670  usr/lib/lv2/calf.lv2/presets-MonoCompressor.ttl
+be60cb260684fd8dc8a5471c771f0899  usr/lib/lv2/calf.lv2/presets-Monosynth.ttl
+717dddba10bc40760bf8a6364d883e01  usr/lib/lv2/calf.lv2/presets-Organ.ttl
+04f4c37e4cb5e197e41046411035df65  usr/lib/lv2/calf.lv2/presets-Reverb.ttl
+b75326b0163b1359a5c679a58485762d  usr/lib/lv2/calf.lv2/presets-Wavetable.ttl
+fdbb6890cc6485be9437a90300baa523  usr/share/applications/calf.desktop
+d288a9202ecde56d78c49f2e0740220f  usr/share/bash-completion/completions/calf
+555d0006bde6fe431d13d2adabb35f6e  usr/share/calf/calf-gui.xml
+138e299f85eb1ccd0e4b0f920d8ed4a4  usr/share/calf/gui-analyzer.xml
+85855ab58727d63806008aff62dcf290  usr/share/calf/gui-bassenhancer.xml
+7a12b01e09db0b968df611614cc71130  usr/share/calf/gui-compdelay.xml
+696af4aa5f3fe25810ccdf09d91312ee  usr/share/calf/gui-compressor.xml
+8f44034777eba8899ed13782f978a622  usr/share/calf/gui-crusher.xml
+e7a307412676ee7f4176f15489cb0874  usr/share/calf/gui-deesser.xml
+3c50a18caf6a8493859ea15731d713c5  usr/share/calf/gui-emphasis.xml
+765b668c6028cb616253043cdfec748a  usr/share/calf/gui-envelopefilter.xml
+aaf8eba8c0111579600ffa1a385dbb83  usr/share/calf/gui-eq12.xml
+69b59d189a93e5a13d52b3775b3e6e1e  usr/share/calf/gui-eq30.xml
+777fefad42e3c38169f0f819484ad549  usr/share/calf/gui-eq5.xml
+c050938f904670df4688aae43d09ae3e  usr/share/calf/gui-eq8.xml
+31c37ee691e224c538d9bbdef60bf9e4  usr/share/calf/gui-exciter.xml
+5802c3f2e73956cd7cc607cb0cbfb2e3  usr/share/calf/gui-filter.xml
+db6bf5c001137ad6d4ea064df92101ca  usr/share/calf/gui-filterclavier.xml
+545c1f9120d9bc109d7927a417aa5d4e  usr/share/calf/gui-flanger.xml
+d348d634d6fa9aeb030b8874d9282acc  usr/share/calf/gui-fluidsynth.xml
+beae6d01ade02741592ae62efc55368a  usr/share/calf/gui-gate.xml
+ac908ca0be1541aa34fc987777a437a2  usr/share/calf/gui-haasenhancer.xml
+568d8044aaca5e2808738f2a61d27c0d  usr/share/calf/gui-limiter.xml
+8236b5772acffb66e8af5cb1a4a2d350  usr/share/calf/gui-mono.xml
+d20404bf7f9342ac23279e5772676876  usr/share/calf/gui-monocompressor.xml
+431e1fea7c51c3748b6fa833f76250a6  usr/share/calf/gui-monosynth.xml
+737277b1490af181713fe0400038a6d5  usr/share/calf/gui-multibandcompressor.xml
+627cfee114006d3eecc1e3db738d7049  usr/share/calf/gui-multibandenhancer.xml
+44593a85ef079675c76d69cefd063846  usr/share/calf/gui-multibandgate.xml
+2a75bbc0a091a42c091b61ed1143786a  usr/share/calf/gui-multibandlimiter.xml
+af7e6093de83501f25ee1c07f1eb10f2  usr/share/calf/gui-multichorus.xml
+9f332d6a8ff3ff244ac6fa048729df26  usr/share/calf/gui-multispread.xml
+84ad4ac596c6661a9a0260ff02b9dd9a  usr/share/calf/gui-organ.xml
+91a18e99b0ce33c2c6791ec522a6c716  usr/share/calf/gui-phaser.xml
+6a6e9cdc9eb061ace7789fcdae78cc85  usr/share/calf/gui-pitch.xml
+62f7d2b10853595dac36f75503dfcda3  usr/share/calf/gui-pulsator.xml
+7feba7f138359cd224993494eb88722c  usr/share/calf/gui-reverb.xml
+6d17ce7cda0c2acfbc31fcb2f80b8224  usr/share/calf/gui-reversedelay.xml
+e7eec20a00181e86d59299e6dc7103c3  usr/share/calf/gui-ringmodulator.xml
+cc884bec2624e5ef45be43e5fb099147  usr/share/calf/gui-rotaryspeaker.xml
+8336bb868060fb05050424b7ce398a88  usr/share/calf/gui-saturator.xml
+4aec9d7935f257c80b059a2427bf060f  usr/share/calf/gui-sidechaincompressor.xml
+217263de4cca039da41e5948fee92c9b  usr/share/calf/gui-sidechaingate.xml
+0663cdb6247689a4cbc8b686fd68e0a2  usr/share/calf/gui-sidechainlimiter.xml
+3ae532c573115bb54af7663d8990c964  usr/share/calf/gui-stereo.xml
+d9b0d2c737b42249d870b72e0e918fa8  usr/share/calf/gui-tapesimulator.xml
+c102d935e3d74dc557b90a313398970d  usr/share/calf/gui-transientdesigner.xml
+f98d46de801c5150eeb58b7a323b91de  usr/share/calf/gui-vintagedelay.xml
+b578518649c104d19d52ddeae917a3ff  usr/share/calf/gui-vinyl.xml
+67bf11596b281c7dd42e1129952a1e50  usr/share/calf/gui-vocoder.xml
+d2fcc4ae3133c10554a28d3ccfc967e8  usr/share/calf/gui-wavetable.xml
+632318debc4782c8246e70e30c4749a0  usr/share/calf/gui-xover2.xml
+1df6c5efd873ad8fdbf2594c13055912  usr/share/calf/gui-xover3.xml
+970248aa3397cf3861e812f0ac9ad7ad  usr/share/calf/gui-xover4.xml
+057fc46fd7b21c5391a9feee0a9a7d18  usr/share/calf/gui/analyzer.xml
+097756e0c3fe849ba3d0706c85b4ac2a  usr/share/calf/gui/bassenhancer.xml
+34e846ca6fb0dfc66f4c979eb34979ab  usr/share/calf/gui/compdelay.xml
+3802fec2286dc572c9fbc40e197fc591  usr/share/calf/gui/compressor.xml
+1f7d605958a50b6528f01d7df1fda0fc  usr/share/calf/gui/crusher.xml
+c29df3e5370668875157880c82373c56  usr/share/calf/gui/deesser.xml
+7f3e459871ab1440bb65a4fbc0a0b220  usr/share/calf/gui/emphasis.xml
+498b90802619f1cf45507768999320ec  usr/share/calf/gui/envelopefilter.xml
+9c705a51c3eae2234ba817dcb0047c20  usr/share/calf/gui/eq12.xml
+ef5a58e151015436c916c9eb3fb6c68f  usr/share/calf/gui/eq30.xml
+168c0d4a68f21e86c4ba8eb27fdfedef  usr/share/calf/gui/eq5.xml
+5197f1fb5121a0391ebfd00ee8ad34cb  usr/share/calf/gui/eq8.xml
+58f3e14a35c09736314c8e99ca610e4c  usr/share/calf/gui/exciter.xml
+0a1f85cb12ea154dce82b2f31b6209c2  usr/share/calf/gui/filter.xml
+d181a7241334a8934a9f57434e4c76c8  usr/share/calf/gui/filterclavier.xml
+d479c744741c8ed272abda12f2eccc46  usr/share/calf/gui/flanger.xml
+ab1224fc62da0cb71a3665899b1c8637  usr/share/calf/gui/fluidsynth.xml
+f282c3befaae3c236e1e4d34084adbb5  usr/share/calf/gui/gate.xml
+3963efbba9f5c9891955e542b249b065  usr/share/calf/gui/haasenhancer.xml
+66d90fa137eece62e2d653ca15042af5  usr/share/calf/gui/limiter.xml
+dd381b862c4d44837cadc6b346935c54  usr/share/calf/gui/mono.xml
+7bda1376077a90883fab0eab4f2afa9f  usr/share/calf/gui/monocompressor.xml
+83c1c2f828e42b1c0e7a509da17817ae  usr/share/calf/gui/monosynth.xml
+2129e886e144fd7613d8e33913752f23  usr/share/calf/gui/multibandcompressor.xml
+ab5ebbbac88e074e85a5dda5b775baf2  usr/share/calf/gui/multibandenhancer.xml
+9eff534d3e4a7abfdb346a0abd5d7043  usr/share/calf/gui/multibandgate.xml
+97547a0cfc90505b3e691ea38417ed05  usr/share/calf/gui/multibandlimiter.xml
+c076d7b12fbae3dd37f66d82a7295343  usr/share/calf/gui/multichorus.xml
+6ab852e1ac95c5f24780b4a18f42219e  usr/share/calf/gui/multispread.xml
+9746537416f4eb7d3b86d6d7a8968720  usr/share/calf/gui/organ.xml
+0040ce9f62345f52e04681fcdeaf8c81  usr/share/calf/gui/phaser.xml
+11da08eb7f5cf6a6a5615572e99c2eb6  usr/share/calf/gui/pitch.xml
+6f9638855bbd77f04e41582b8563b2f3  usr/share/calf/gui/pulsator.xml
+ea8c6515fac4edeac9be23f87e21e8b4  usr/share/calf/gui/reverb.xml
+fd5e7617dd7db6b9d8d8b6965b2a578f  usr/share/calf/gui/reversedelay.xml
+140df998eeadbfe03eef0338942431e7  usr/share/calf/gui/ringmodulator.xml
+e2887fd9ff98053fb75ef9d1947c38b8  usr/share/calf/gui/rotaryspeaker.xml
+9054be59a19b87490325a3c9b648c660  usr/share/calf/gui/saturator.xml
+ad105c6172c5031fb0387567ccd4e9b7  usr/share/calf/gui/sidechaincompressor.xml
+91759a95c0fc3a66aa63088dd8315c4c  usr/share/calf/gui/sidechaingate.xml
+110bd29a4c4c719038db317cdd49a57d  usr/share/calf/gui/sidechainlimiter.xml
+e7ca474bb6de03bcda454d70481089ee  usr/share/calf/gui/stereo.xml
+5a82b8b9a4a255fc05f554c997504bd4  usr/share/calf/gui/tapesimulator.xml
+7256d66835d08a16a35d0a759a566108  usr/share/calf/gui/transientdesigner.xml
+a3d429c10395f206897ac345adfbc6d2  usr/share/calf/gui/vintagedelay.xml
+02cc0db2b5e30e2da6c99796309c2a6a  usr/share/calf/gui/vinyl.xml
+d51370f491b90e3cd43299a2436786a0  usr/share/calf/gui/vocoder.xml
+87063a6a9e141a395861edda36e075ef  usr/share/calf/gui/wavetable.xml
+eb793d1532963aa992e7f8bd6121386f  usr/share/calf/gui/xover2.xml
+1ecefc9c9958344f8a2074ea9d29c880  usr/share/calf/gui/xover3.xml
+f8db7a4be3f2e1e69c37f0e13892ed50  usr/share/calf/gui/xover4.xml
+00c4d7d2de5c7df9c1ecc2d01788a600  usr/share/calf/icons/LV2/Allpass.svg
+29a3bcdb6689ef60807258b24d2e12a9  usr/share/calf/icons/LV2/Amplifier.svg
+1639fa85f0b7f00d7bf0bb9df06f5bb9  usr/share/calf/icons/LV2/Analyser.svg
+0b0da3dabee0f4378ea14ab549724e1a  usr/share/calf/icons/LV2/Bandpass.svg
+c0678f76419581173179ac0fe8245b73  usr/share/calf/icons/LV2/Chorus.svg
+1e6ac80c868272d2d5666d953b297999  usr/share/calf/icons/LV2/Comb.svg
+684ca02ac1af45032483ce4dde4a0bc1  usr/share/calf/icons/LV2/Compressor.svg
+138a7093afe02e351a0ec5570080c0eb  usr/share/calf/icons/LV2/Constant.svg
+10378d0fd708d84e644d4390083460d7  usr/share/calf/icons/LV2/Converter.svg
+8c96921039c7d112bcb266ae7cd76d54  usr/share/calf/icons/LV2/Delay.svg
+e40dfb557281e7fece4cf7c588d69497  usr/share/calf/icons/LV2/Distortion.svg
+684ca02ac1af45032483ce4dde4a0bc1  usr/share/calf/icons/LV2/Dynamics.svg
+5360de648d7e37e7f87a6bf2834cc306  usr/share/calf/icons/LV2/EQ.svg
+c9079431f828dc2427f28c9d94ff4b8a  usr/share/calf/icons/LV2/Envelope.svg
+df3bac394ef71a117117ec698be764f4  usr/share/calf/icons/LV2/Expander.svg
+87b8e4ac3b772189433c492250e645c1  usr/share/calf/icons/LV2/Filter.svg
+c0678f76419581173179ac0fe8245b73  usr/share/calf/icons/LV2/Flanger.svg
+6b68ff385f830ac386ef5d9473129f23  usr/share/calf/icons/LV2/Function.svg
+df3bac394ef71a117117ec698be764f4  usr/share/calf/icons/LV2/Gate.svg
+138a7093afe02e351a0ec5570080c0eb  usr/share/calf/icons/LV2/Generator.svg
+e5720f15cee22c53af88a326feec7968  usr/share/calf/icons/LV2/Highpass.svg
+d965ea561ba4c29f422302d61145583b  usr/share/calf/icons/LV2/Instrument.svg
+f6790a24f79556b57e8016c21ba918dc  usr/share/calf/icons/LV2/Limiter.svg
+4fe275ff74b73e337ad77900354f6fdb  usr/share/calf/icons/LV2/Mixer.svg
+c0678f76419581173179ac0fe8245b73  usr/share/calf/icons/LV2/Modulator.svg
+5360de648d7e37e7f87a6bf2834cc306  usr/share/calf/icons/LV2/MultiEQ.svg
+138a7093afe02e351a0ec5570080c0eb  usr/share/calf/icons/LV2/Oscillator.svg
+5360de648d7e37e7f87a6bf2834cc306  usr/share/calf/icons/LV2/ParaEQ.svg
+c0678f76419581173179ac0fe8245b73  usr/share/calf/icons/LV2/Phaser.svg
+48c29ca4aeb15c0d374015c1b95cbc1c  usr/share/calf/icons/LV2/Pitch.svg
+f637f4006d71a0383973a93a8cf10433  usr/share/calf/icons/LV2/Reverb.svg
+bbf7912dbbded0b16bc09f35369dd04d  usr/share/calf/icons/LV2/Simulator.svg
+000b7c0c30c1cb48dffd78c601c47355  usr/share/calf/icons/LV2/Spatial.svg
+e3bb104b7bb731b1729f5cbc5e38e62b  usr/share/calf/icons/LV2/Spectral.svg
+10378d0fd708d84e644d4390083460d7  usr/share/calf/icons/LV2/Utility.svg
+e40dfb557281e7fece4cf7c588d69497  usr/share/calf/icons/LV2/Waveshaper.svg
+9d0a68e47f74809e8391237862c0b963  usr/share/calf/presets.xml
+0849d89956e652d6ced421253020bae7  usr/share/calf/sf2/Crackle.sf2
+b181c604f26c4f6edc266b43bd53e5b2  usr/share/calf/sf2/Crinkle.sf2
+b0ff17da227a42497f5593ff4e003488  usr/share/calf/sf2/Hum.sf2
+2fa75f29fd3eb1682e404ddc7aa0c7d5  usr/share/calf/sf2/Motor.sf2
+24a9c63ab68edaa56cff80ad8cf9bd31  usr/share/calf/sf2/Noise.sf2
+f10f3d1d17cf2e78109e55ee8088e13a  usr/share/calf/sf2/Rumble.sf2
+bab4d54ad2d3e21adc7f5f9bfcf39c62  usr/share/calf/sf2/Static.sf2
+ce6aafcbae9fee2d4ed074528be366b1  usr/share/calf/strips/bassenhancer.xml
+e7b00ab7ce2ca811ce7d4e67628da7b3  usr/share/calf/strips/compdelay.xml
+e2e9f529549318dde1051c88f4cd4679  usr/share/calf/strips/compressor.xml
+f613f8a7cdf249b4472a9cebd5ebd2e8  usr/share/calf/strips/crusher.xml
+002af9bdf5d3f328510e41cd8f916c27  usr/share/calf/strips/deesser.xml
+26de672da0c95ca981b9e13a0e71e3c3  usr/share/calf/strips/emphasis.xml
+7fbf281c2cb819c268b6a6354cd027c5  usr/share/calf/strips/envelopefilter.xml
+0770fbbac8f88b76939fa80eb1c7b8a2  usr/share/calf/strips/eq12.xml
+cc03c07da34817c010926780a5f5f646  usr/share/calf/strips/eq30.xml
+42c13a64a1fea023a0b91267945c83c5  usr/share/calf/strips/eq5.xml
+0770fbbac8f88b76939fa80eb1c7b8a2  usr/share/calf/strips/eq8.xml
+a53054f5b85b13e86226ef1b8cf796be  usr/share/calf/strips/exciter.xml
+17c30d49d239aa47477f84f82e47d036  usr/share/calf/strips/filter.xml
+1fb85c71e432c44b4615533f959e01ca  usr/share/calf/strips/filterclavier.xml
+6f2f418ed999723c43ce135ae88c837c  usr/share/calf/strips/flanger.xml
+57fad470e79217259051fe689552452b  usr/share/calf/strips/fluidsynth.xml
+b7ff22b9298baf24f7f2a6dd1afbb401  usr/share/calf/strips/gate.xml
+fc99778dbb8423ab1fe191bb69e5514c  usr/share/calf/strips/haasenhancer.xml
+374e7d59b791a1d8a5cd9c318ed3471b  usr/share/calf/strips/limiter.xml
+805cd4d0f84796537f7bd41215fc0ee1  usr/share/calf/strips/mono.xml
+e2e9f529549318dde1051c88f4cd4679  usr/share/calf/strips/monocompressor.xml
+fe2b0559b355617e2af0da9218d53252  usr/share/calf/strips/monosynth.xml
+1f6b67470846665c7ebf3168b276f4c7  usr/share/calf/strips/multibandcompressor.xml
+95ca6497208a283710cb25b63d9339ac  usr/share/calf/strips/multibandenhancer.xml
+1f6b67470846665c7ebf3168b276f4c7  usr/share/calf/strips/multibandgate.xml
+374e7d59b791a1d8a5cd9c318ed3471b  usr/share/calf/strips/multibandlimiter.xml
+c47411f932b0309d784acee05b69414d  usr/share/calf/strips/multichorus.xml
+aad73ce7f753b5a5ee68f77bce5c5d70  usr/share/calf/strips/multispread.xml
+6e3fde2e019050270f6d051ca36d4bef  usr/share/calf/strips/organ.xml
+6f2f418ed999723c43ce135ae88c837c  usr/share/calf/strips/phaser.xml
+8a9eafe3dd30ceb33ade2ee3aacdfe61  usr/share/calf/strips/pulsator.xml
+3678e4c1b91a4417131c1d32b6751056  usr/share/calf/strips/reverb.xml
+61cc893ad940764ed8d77d9e5ace6787  usr/share/calf/strips/reversedelay.xml
+55d19be499ee2963219745d261b38c3a  usr/share/calf/strips/ringmodulator.xml
+97248b4d09ad48ab813012be861b6e26  usr/share/calf/strips/rotaryspeaker.xml
+828f8260a3e8796cf4ee2cbc4d1abd43  usr/share/calf/strips/saturator.xml
+e2e9f529549318dde1051c88f4cd4679  usr/share/calf/strips/sidechaincompressor.xml
+b7ff22b9298baf24f7f2a6dd1afbb401  usr/share/calf/strips/sidechaingate.xml
+374e7d59b791a1d8a5cd9c318ed3471b  usr/share/calf/strips/sidechainlimiter.xml
+805cd4d0f84796537f7bd41215fc0ee1  usr/share/calf/strips/stereo.xml
+43e95a62f808d43c311345ef9cd037d1  usr/share/calf/strips/tapesimulator.xml
+34577ac5660a532f59cf43036e9d2284  usr/share/calf/strips/transientdesigner.xml
+a13e97f793a7df4ad4b719f7e7f0c52a  usr/share/calf/strips/vintagedelay.xml
+d517f27ee6dedc01df38e8fbd3a3444f  usr/share/calf/strips/vinyl.xml
+3bd1e255b6cd4ae971d6384effdedd64  usr/share/calf/strips/vocoder.xml
+6a1f9fe2e9d67d44d1742ae064ece8a3  usr/share/calf/strips/wavetable.xml
+fbbdb269ab3f4f803fb2202396c2f32a  usr/share/calf/strips/xover2.xml
+d65b6a40d577ed4caad91be110bc202e  usr/share/calf/strips/xover3.xml
+35851a3acf3f95c82acf36a8419817cf  usr/share/calf/strips/xover4.xml
+0547ac1bb070e0fefa87928086198dcb  usr/share/calf/styles/Calf_0.0.19/background_menu.png
+a0c3b4b8afb248f1f17a797fa8ed10f4  usr/share/calf/styles/Calf_0.0.19/background_plugin.png
+499665eb51961fc8336b8ecef7d78add  usr/share/calf/styles/Calf_0.0.19/background_rack.png
+5985b1a5818bfc20631d5f34f3726a9b  usr/share/calf/styles/Calf_0.0.19/combo_arrow.png
+160c8f547a7c959f49af6b09d0c17302  usr/share/calf/styles/Calf_0.0.19/gtk.rc
+2c4990ec1aae6eaf2f79505bbdc343d8  usr/share/calf/styles/Calf_0.0.19/knob_1.png
+a5a966e26a1c998c149260a26fde6aa7  usr/share/calf/styles/Calf_0.0.19/knob_2.png
+433ac6c85e21ed85c57ba91ca6e28d54  usr/share/calf/styles/Calf_0.0.19/knob_3.png
+07f44b0dd8d83fb80b041ea446230e48  usr/share/calf/styles/Calf_0.0.19/knob_4.png
+1ab7e20d390b0b394378523dbb931d00  usr/share/calf/styles/Calf_0.0.19/knob_5.png
+3046c7b0443cf627ad05f7f5996145ef  usr/share/calf/styles/Calf_0.0.19/light_bottom.png
+ab54da67b469d6cecfe26b72cc23c6cc  usr/share/calf/styles/Calf_0.0.19/light_top.png
+9f179682c20ddd317511d59150908da9  usr/share/calf/styles/Calf_0.0.19/notebook_screw.png
+d3745f515303808e7202bb299494dd44  usr/share/calf/styles/Calf_0.0.19/side_d_e.png
+cd26e2e65199a5e092b42022833f2c08  usr/share/calf/styles/Calf_0.0.19/side_d_ne.png
+d0ec846c91c75aad357bf053d135866e  usr/share/calf/styles/Calf_0.0.19/side_d_nw.png
+8feae634934c065d9eca86f2bf647bb3  usr/share/calf/styles/Calf_0.0.19/side_d_se.png
+ebc1fa5dc05094422555c6056c89b31f  usr/share/calf/styles/Calf_0.0.19/side_d_sw.png
+18f4bee46cb502894b51be95c318abc5  usr/share/calf/styles/Calf_0.0.19/side_d_w.png
+3b8d71572952fe68579a26f702c65a31  usr/share/calf/styles/Calf_0.0.19/side_e.png
+f9e95cd72e9dd197af74b97e87218035  usr/share/calf/styles/Calf_0.0.19/side_ne.png
+e186d4e5d0ab90b6c339a3268203534a  usr/share/calf/styles/Calf_0.0.19/side_nw.png
+35d37b54b4a753b088b803f284e52381  usr/share/calf/styles/Calf_0.0.19/side_se.png
+7b55c694e851bdd87e58029f7d4d71f8  usr/share/calf/styles/Calf_0.0.19/side_sw.png
+11d6c928b4c0288685a1bb004475755f  usr/share/calf/styles/Calf_0.0.19/side_w.png
+f939679c7718cd3249a9f7615ee27931  usr/share/calf/styles/Calf_0.0.19/slider_1_horiz.png
+a4e4a60ba1afb031db4a0153740c9882  usr/share/calf/styles/Calf_0.0.19/slider_1_vert.png
+2c970d86b9cc563a700fbd760023b1c5  usr/share/calf/styles/Calf_0.0.19/slider_2_horiz.png
+bf6599e3df4662fa51bc5fb31c18c7bb  usr/share/calf/styles/Calf_0.0.19/slider_2_vert.png
+92fe20db43a0fa7b0a7ad8b7a646c8ad  usr/share/calf/styles/Calf_0.0.19/tap_active.png
+3f2dd81be33fce7d0eb9a565c1d9d25d  usr/share/calf/styles/Calf_0.0.19/tap_inactive.png
+e4df26aa524918b02d6e5fb77be1e23b  usr/share/calf/styles/Calf_0.0.19/tap_prelight.png
+cfd44cfbc813003a74b2bb69d320091c  usr/share/calf/styles/Calf_0.0.19/toggle_0.png
+9c1b586799c915568d0f181aefde6747  usr/share/calf/styles/Calf_0.0.19/toggle_1.png
+2429d0e6ae7c37d79fd7a3419cb3139c  usr/share/calf/styles/Calf_0.0.19/toggle_2.png
+c650cf502f1722168b7c9be70502476f  usr/share/calf/styles/Calf_0.0.19/tubeH1.png
+9b395dbb8ea9df16385288e71d0df3a1  usr/share/calf/styles/Calf_0.0.19/tubeH2.png
+70167533e2f4f44da292a2a9e8d796c4  usr/share/calf/styles/Calf_0.0.19/tubeV1.png
+f1936ffd4f5e23d5e0559a9900cf0c1f  usr/share/calf/styles/Calf_0.0.19/tubeV2.png
+0547ac1bb070e0fefa87928086198dcb  usr/share/calf/styles/Calf_Default/background_menu.png
+e4fb1df9b9e9cf1c247885d0f8f44dca  usr/share/calf/styles/Calf_Default/background_plugin.png
+f02dcc5b97117fcf49f92e0559fd98b1  usr/share/calf/styles/Calf_Default/background_rack.png
+5985b1a5818bfc20631d5f34f3726a9b  usr/share/calf/styles/Calf_Default/combo_arrow.png
+57ff9bec098836d0bfb1437721b39088  usr/share/calf/styles/Calf_Default/gtk.rc
+5ef8ba6349f3cdd4a115da4487e96c3b  usr/share/calf/styles/Calf_Default/knob_1.png
+a79970f2a21e897321f48a23129ea746  usr/share/calf/styles/Calf_Default/knob_2.png
+5eff927d65c9049fa8993d8bfb43c3e7  usr/share/calf/styles/Calf_Default/knob_3.png
+61f7e923726140d0cefd83495162d98c  usr/share/calf/styles/Calf_Default/knob_4.png
+7c3e8f1df37ef6306e4c66867ddb760a  usr/share/calf/styles/Calf_Default/knob_5.png
+3046c7b0443cf627ad05f7f5996145ef  usr/share/calf/styles/Calf_Default/light_bottom.png
+ab54da67b469d6cecfe26b72cc23c6cc  usr/share/calf/styles/Calf_Default/light_top.png
+72f26d90cc964a0a246683655ac00123  usr/share/calf/styles/Calf_Default/notebook_screw.png
+7599353c5ab40e9447eb11addc28f19c  usr/share/calf/styles/Calf_Default/side_d_e.png
+dd71783da41babacecc191ee55765b9c  usr/share/calf/styles/Calf_Default/side_d_ne.png
+02dabdc36568fe635518cc06aeb9cdea  usr/share/calf/styles/Calf_Default/side_d_nw.png
+ba701f96f2be20e86030286031ae936d  usr/share/calf/styles/Calf_Default/side_d_se.png
+caf6b67e744875d216409f84eac25877  usr/share/calf/styles/Calf_Default/side_d_sw.png
+b47918b913d6f8f9386a5a14dd0735dd  usr/share/calf/styles/Calf_Default/side_d_w.png
+702c94cf7fcba0f37daa00506cdaeb40  usr/share/calf/styles/Calf_Default/side_e.png
+9981ceee773bc5bf2b7ccb2c9b6283bd  usr/share/calf/styles/Calf_Default/side_ne.png
+23c91cfdcbdaf6436cb7875cd3934d65  usr/share/calf/styles/Calf_Default/side_nw.png
+8be569faac58568f4dac5ee000f34041  usr/share/calf/styles/Calf_Default/side_se.png
+42342e3a8188855fb8216953b771ae85  usr/share/calf/styles/Calf_Default/side_sw.png
+42de324bf4cd0efe16100c325ef1d04e  usr/share/calf/styles/Calf_Default/side_w.png
+f7ef4b6e507c93c18af9547d35e8e8b6  usr/share/calf/styles/Calf_Default/slider_1_horiz.png
+501128024a5f571c8983fd89c3567d35  usr/share/calf/styles/Calf_Default/slider_1_vert.png
+60cb33298e45227484db2c49ec23c365  usr/share/calf/styles/Calf_Default/slider_2_horiz.png
+d2dad6c622ecd09364f01224f7e334df  usr/share/calf/styles/Calf_Default/slider_2_vert.png
+11b990b79aa66f9da8e045b3aa6679bf  usr/share/calf/styles/Calf_Default/tap_active.png
+29c385850ff57ac8eb76c0863a30619f  usr/share/calf/styles/Calf_Default/tap_inactive.png
+11737756117c631f4ba02c7c67267d1f  usr/share/calf/styles/Calf_Default/tap_prelight.png
+acd3ab56132099f26a23a5e3eafed35a  usr/share/calf/styles/Calf_Default/toggle_0.png
+2bfe2fb685a39b53f09340833d86f0db  usr/share/calf/styles/Calf_Default/toggle_1.png
+1d6beb2efa28da37c47511f0f48d466f  usr/share/calf/styles/Calf_Default/toggle_2.png
+afe719d55ca9eed0c230f4f16b7a042b  usr/share/calf/styles/Calf_Default/toggle_2_block.png
+cd7961a41b720f16c3fe6bf8e751522b  usr/share/calf/styles/Calf_Default/toggle_2_bypass.png
+80a27f5792883e58cbb13b7986f05420  usr/share/calf/styles/Calf_Default/toggle_2_bypass2.png
+e6afa8684c0dcce486d0950cde800bdf  usr/share/calf/styles/Calf_Default/toggle_2_connect.png
+5c97d0f8d28ec5e84474728da7d43b9c  usr/share/calf/styles/Calf_Default/toggle_2_fast.png
+3a44b8bf14f00e40189d9a2222b7c58a  usr/share/calf/styles/Calf_Default/toggle_2_gui.png
+d086295bc9982420fa1aedb258cf98fc  usr/share/calf/styles/Calf_Default/toggle_2_listen.png
+8df1204c903353c5bce9d830d50ee4fc  usr/share/calf/styles/Calf_Default/toggle_2_logarithmic.png
+063d3c8a6a9d6f7b8337eb34fe617cb9  usr/share/calf/styles/Calf_Default/toggle_2_magnetical.png
+6d92239386cd0c856c8cbe601d3420f6  usr/share/calf/styles/Calf_Default/toggle_2_mono.png
+a07305c60a3b3249744d2b3969a9f60e  usr/share/calf/styles/Calf_Default/toggle_2_muffle.png
+ffac655c2ba136ad56782eb90160cef6  usr/share/calf/styles/Calf_Default/toggle_2_mute.png
+1014eb2d55e18d306a50bec88242acb5  usr/share/calf/styles/Calf_Default/toggle_2_pauseplay.png
+8b305d4c7028b975168f95c4a6aa6fb2  usr/share/calf/styles/Calf_Default/toggle_2_phase.png
+df57b21c88b1ec6da398de95f1a7b89e  usr/share/calf/styles/Calf_Default/toggle_2_sc_comp.png
+d1453760387764ac651b00740d3b83ca  usr/share/calf/styles/Calf_Default/toggle_2_sc_filter.png
+9e46ad2b4fc991f53de6a3f493c02092  usr/share/calf/styles/Calf_Default/toggle_2_softclip.png
+dbfa341bd533742bfb3e901a4e4cf540  usr/share/calf/styles/Calf_Default/toggle_2_solo.png
+309a982ffb188dea6cba9cf4a8000f37  usr/share/calf/styles/Calf_Default/toggle_2_sync.png
+7906264321a3087b28284c6792ec73da  usr/share/calf/styles/Calf_Default/toggle_2_void.png
+c650cf502f1722168b7c9be70502476f  usr/share/calf/styles/Calf_Default/tubeH1.png
+9b395dbb8ea9df16385288e71d0df3a1  usr/share/calf/styles/Calf_Default/tubeH2.png
+70167533e2f4f44da292a2a9e8d796c4  usr/share/calf/styles/Calf_Default/tubeV1.png
+f1936ffd4f5e23d5e0559a9900cf0c1f  usr/share/calf/styles/Calf_Default/tubeV2.png
+862bc3065e59e1d48cf61c17aa53ef11  usr/share/calf/styles/Calf_Flat_Default/background_menu.png
+7aa2a74ef2a62b79a112e050372c25ea  usr/share/calf/styles/Calf_Flat_Default/background_plugin.png
+58aee7deb5ddfa7f3cf3bcaa9372150f  usr/share/calf/styles/Calf_Flat_Default/background_rack.png
+5985b1a5818bfc20631d5f34f3726a9b  usr/share/calf/styles/Calf_Flat_Default/combo_arrow.png
+d1c658970d85b63aa754a3c0029bb26d  usr/share/calf/styles/Calf_Flat_Default/gtk.rc
+fe06f37f98d65c7862b02086fbfff22e  usr/share/calf/styles/Calf_Flat_Default/knob_1.png
+669bee3a2d467e7a3e799d4cc10a74c3  usr/share/calf/styles/Calf_Flat_Default/knob_2.png
+ce586864bc50d5fe9d223ff321007d4d  usr/share/calf/styles/Calf_Flat_Default/knob_3.png
+ebf8abe4e2bfbe21aa7685eb87e8098a  usr/share/calf/styles/Calf_Flat_Default/knob_4.png
+e3e89f0c2da3ca8a711b9ed8367bcad7  usr/share/calf/styles/Calf_Flat_Default/knob_5.png
+3046c7b0443cf627ad05f7f5996145ef  usr/share/calf/styles/Calf_Flat_Default/light_bottom.png
+ab54da67b469d6cecfe26b72cc23c6cc  usr/share/calf/styles/Calf_Flat_Default/light_top.png
+ce2128c945f5c69cc852e48dff8b8221  usr/share/calf/styles/Calf_Flat_Default/notebook_screw.png
+6bb325b3ebf7d1b284bbdde025298fa1  usr/share/calf/styles/Calf_Flat_Default/side_d_e.png
+6bb325b3ebf7d1b284bbdde025298fa1  usr/share/calf/styles/Calf_Flat_Default/side_d_ne.png
+6bb325b3ebf7d1b284bbdde025298fa1  usr/share/calf/styles/Calf_Flat_Default/side_d_nw.png
+6bb325b3ebf7d1b284bbdde025298fa1  usr/share/calf/styles/Calf_Flat_Default/side_d_se.png
+6bb325b3ebf7d1b284bbdde025298fa1  usr/share/calf/styles/Calf_Flat_Default/side_d_sw.png
+6bb325b3ebf7d1b284bbdde025298fa1  usr/share/calf/styles/Calf_Flat_Default/side_d_w.png
+67f45c1e4ffc0faa4d04ea40da613e7c  usr/share/calf/styles/Calf_Flat_Default/side_e.png
+67f45c1e4ffc0faa4d04ea40da613e7c  usr/share/calf/styles/Calf_Flat_Default/side_ne.png
+67f45c1e4ffc0faa4d04ea40da613e7c  usr/share/calf/styles/Calf_Flat_Default/side_nw.png
+1d010e2920e31687e1aa88901597673f  usr/share/calf/styles/Calf_Flat_Default/side_se.png
+67f45c1e4ffc0faa4d04ea40da613e7c  usr/share/calf/styles/Calf_Flat_Default/side_sw.png
+67f45c1e4ffc0faa4d04ea40da613e7c  usr/share/calf/styles/Calf_Flat_Default/side_w.png
+1dccac88c788a37bc515ecbc511a2acd  usr/share/calf/styles/Calf_Flat_Default/slider_1_horiz.png
+add62fe194f6e55ffa8855d3f4936ebc  usr/share/calf/styles/Calf_Flat_Default/slider_1_vert.png
+afdf82c37eb6509806d79ea52400fc31  usr/share/calf/styles/Calf_Flat_Default/slider_2_horiz.png
+5df6d1c19d3b6cdc0c728a3a3822e447  usr/share/calf/styles/Calf_Flat_Default/slider_2_vert.png
+87193ae607b0fddf834b79fbb27a9f9e  usr/share/calf/styles/Calf_Flat_Default/tap_active.png
+34d664a4f068fb13a686032c92d15e48  usr/share/calf/styles/Calf_Flat_Default/tap_inactive.png
+bab8d5b37ce60bff7418fc75df3ee7b7  usr/share/calf/styles/Calf_Flat_Default/tap_prelight.png
+a6396f2423468fe1370363656fcd8917  usr/share/calf/styles/Calf_Flat_Default/toggle_0.png
+a76ec80190ff534fd0a96c24197f96fe  usr/share/calf/styles/Calf_Flat_Default/toggle_1.png
+8c23f1aacfa690bd59cfddd41a184be2  usr/share/calf/styles/Calf_Flat_Default/toggle_2.png
+1c6f7a296eec758ebadf66642b1177c4  usr/share/calf/styles/Calf_Flat_Default/toggle_2_block.png
+8722c96c1655bf94931d37633e6b55c7  usr/share/calf/styles/Calf_Flat_Default/toggle_2_bypass.png
+1f61bc49fd9ef22569884f505008c7ce  usr/share/calf/styles/Calf_Flat_Default/toggle_2_bypass2.png
+5059487edc65c8f4b718e5e28580a39a  usr/share/calf/styles/Calf_Flat_Default/toggle_2_connect.png
+ca99fac8d17989f7b3bc2947fee1c65b  usr/share/calf/styles/Calf_Flat_Default/toggle_2_fast.png
+05ce09bdf24f58b2a75550de72ac70af  usr/share/calf/styles/Calf_Flat_Default/toggle_2_gui.png
+ac65549f504dfe626e8003558af65654  usr/share/calf/styles/Calf_Flat_Default/toggle_2_listen.png
+87a0e336e65b51ffd6f908171b786934  usr/share/calf/styles/Calf_Flat_Default/toggle_2_logarithmic.png
+69899130f77254f2ab34f7642be3d5d9  usr/share/calf/styles/Calf_Flat_Default/toggle_2_magnetical.png
+d75e62ece7fa41382f7d34af1d815794  usr/share/calf/styles/Calf_Flat_Default/toggle_2_mono.png
+316449a8f017c5fad26f8f41616b9de5  usr/share/calf/styles/Calf_Flat_Default/toggle_2_muffle.png
+6182bbacdcd323cbcb8839992c2c082a  usr/share/calf/styles/Calf_Flat_Default/toggle_2_mute.png
+6f2c7fe71be075a8898e19e4e55dbffd  usr/share/calf/styles/Calf_Flat_Default/toggle_2_pauseplay.png
+31f020acde8c0aa9ad1134522195b012  usr/share/calf/styles/Calf_Flat_Default/toggle_2_phase.png
+dee6cfc74cfd911e111be53954b3d82e  usr/share/calf/styles/Calf_Flat_Default/toggle_2_sc_comp.png
+ce302a6a5492b33e133028d867137256  usr/share/calf/styles/Calf_Flat_Default/toggle_2_sc_filter.png
+200e67731ef9b0339a9e1443e62f5d70  usr/share/calf/styles/Calf_Flat_Default/toggle_2_softclip.png
+6b157198f89f1dec04e5a7e31e443fb6  usr/share/calf/styles/Calf_Flat_Default/toggle_2_solo.png
+4d8710abf5508c166014b0f31d3b3a81  usr/share/calf/styles/Calf_Flat_Default/toggle_2_sync.png
+34000394cef3b84363f23935c7653aef  usr/share/calf/styles/Calf_Flat_Default/toggle_2_void.png
+c650cf502f1722168b7c9be70502476f  usr/share/calf/styles/Calf_Flat_Default/tubeH1.png
+9b395dbb8ea9df16385288e71d0df3a1  usr/share/calf/styles/Calf_Flat_Default/tubeH2.png
+70167533e2f4f44da292a2a9e8d796c4  usr/share/calf/styles/Calf_Flat_Default/tubeV1.png
+f1936ffd4f5e23d5e0559a9900cf0c1f  usr/share/calf/styles/Calf_Flat_Default/tubeV2.png
+0547ac1bb070e0fefa87928086198dcb  usr/share/calf/styles/Calf_Hybreed/background_menu.png
+87acf8ec6ba70b6f53a026403c9e1543  usr/share/calf/styles/Calf_Hybreed/background_plugin.png
+5985b1a5818bfc20631d5f34f3726a9b  usr/share/calf/styles/Calf_Hybreed/combo_arrow.png
+4f667409eec1704e5b8a8fca63fda120  usr/share/calf/styles/Calf_Hybreed/gtk.rc
+ae62c1e4c987b6ce9c0085258dd4b624  usr/share/calf/styles/Calf_Hybreed/knob_1.png
+bf25a607e81470cead298093b8c1a85f  usr/share/calf/styles/Calf_Hybreed/knob_2.png
+6b1d36bc43c0d9093043abf575bec721  usr/share/calf/styles/Calf_Hybreed/knob_3.png
+367933ff657acf89860e785261f1c2c7  usr/share/calf/styles/Calf_Hybreed/knob_4.png
+b7aa3be5b34722a617f93e85daa7e3bb  usr/share/calf/styles/Calf_Hybreed/knob_5.png
+72f26d90cc964a0a246683655ac00123  usr/share/calf/styles/Calf_Hybreed/notebook_screw.png
+8f3bac8428b003aef9501d79a46e6837  usr/share/calf/styles/Calf_Hybreed/side_d_e.png
+44e9f45de8a5a18db1677c69e9f49acf  usr/share/calf/styles/Calf_Hybreed/side_d_ne.png
+3b7f50043ad237f0010b50d3f75da7d3  usr/share/calf/styles/Calf_Hybreed/side_d_nw.png
+6ebcd6f4243ec8198faf17a2c9e41c78  usr/share/calf/styles/Calf_Hybreed/side_d_se.png
+9f0a446c7e757b543264fdaf22dc5aaa  usr/share/calf/styles/Calf_Hybreed/side_d_sw.png
+c57d2420555b42684bab5c16090be0f4  usr/share/calf/styles/Calf_Hybreed/side_d_w.png
+8f3bac8428b003aef9501d79a46e6837  usr/share/calf/styles/Calf_Hybreed/side_e.png
+44e9f45de8a5a18db1677c69e9f49acf  usr/share/calf/styles/Calf_Hybreed/side_ne.png
+3b7f50043ad237f0010b50d3f75da7d3  usr/share/calf/styles/Calf_Hybreed/side_nw.png
+451175f7426067a1ee0bfbf11042f86e  usr/share/calf/styles/Calf_Hybreed/side_se.png
+9f0a446c7e757b543264fdaf22dc5aaa  usr/share/calf/styles/Calf_Hybreed/side_sw.png
+c57d2420555b42684bab5c16090be0f4  usr/share/calf/styles/Calf_Hybreed/side_w.png
+7e4028d1a9d00ff66ed707dff7764aed  usr/share/calf/styles/Calf_Hybreed/slider_1_horiz.png
+75444ffbb5b68a1de1d3ec5e442e314b  usr/share/calf/styles/Calf_Hybreed/slider_1_vert.png
+77a7d78fc345c136becebb9729443b7b  usr/share/calf/styles/Calf_Hybreed/slider_2_horiz.png
+da1c8a181682baed923a7ac2c357ee89  usr/share/calf/styles/Calf_Hybreed/slider_2_vert.png
+7dcf62b513f90daeb8c1e7487bf6faab  usr/share/calf/styles/Calf_Hybreed/tap_active.png
+11d22b18b16fe029fc4cb33c7b184291  usr/share/calf/styles/Calf_Hybreed/tap_inactive.png
+9299ab7fe37d16e84afac00ee42d0937  usr/share/calf/styles/Calf_Hybreed/tap_prelight.png
+0d729e0d41462eb13658d5daa41e4e87  usr/share/calf/styles/Calf_Hybreed/toggle_0.png
+4f0f540a5f09f45e306fd372c1610896  usr/share/calf/styles/Calf_Hybreed/toggle_1.png
+d114ed1c16dd214946ceb42d39fca2ac  usr/share/calf/styles/Calf_Hybreed/toggle_2.png
+0d0e394233b8d687d271d375fbc7974e  usr/share/calf/styles/Calf_Hybreed/toggle_2_block.png
+e55c2e594979ab67e65a894e933c1fc4  usr/share/calf/styles/Calf_Hybreed/toggle_2_bypass.png
+ac51a7714749265e0e309cee0b819e61  usr/share/calf/styles/Calf_Hybreed/toggle_2_bypass2.png
+38e62dfea7ff9401689c6e9b8235e932  usr/share/calf/styles/Calf_Hybreed/toggle_2_fast.png
+18c302c73fe62bd923b225082706758e  usr/share/calf/styles/Calf_Hybreed/toggle_2_listen.png
+8c192b27bb4831e31c4a45f3cb25e977  usr/share/calf/styles/Calf_Hybreed/toggle_2_logarithmic.png
+85ecdb90c9501b49ed6952120224affb  usr/share/calf/styles/Calf_Hybreed/toggle_2_magnetical.png
+1fff160c75f7a52037afa157f4001fd2  usr/share/calf/styles/Calf_Hybreed/toggle_2_mono.png
+703ce31a5ce886c64882a3dd7d4e93a8  usr/share/calf/styles/Calf_Hybreed/toggle_2_muffle.png
+66a09685596bdd8bf47ee092f17649cb  usr/share/calf/styles/Calf_Hybreed/toggle_2_mute.png
+11c24193f63fbad7a3f0cdd0149ed763  usr/share/calf/styles/Calf_Hybreed/toggle_2_pauseplay.png
+edeccdf6d5bbe7d0b99c4b3e8c44da3c  usr/share/calf/styles/Calf_Hybreed/toggle_2_phase.png
+8ba0eacecfc6b5bdaa3c787acdefa380  usr/share/calf/styles/Calf_Hybreed/toggle_2_sc_comp.png
+d8c3b22a679e75314f1a79e4b815fc71  usr/share/calf/styles/Calf_Hybreed/toggle_2_sc_filter.png
+08af3b8dc98da17ecd1dda86f7aadef9  usr/share/calf/styles/Calf_Hybreed/toggle_2_softclip.png
+c7f93130bf9de478cc30a4e510e34ea9  usr/share/calf/styles/Calf_Hybreed/toggle_2_solo.png
+944a33dc8b4c2fd3bea66a136a60692a  usr/share/calf/styles/Calf_Hybreed/toggle_2_sync.png
+1c9b9bebfdf42ead225a6e5ac5c9c4fc  usr/share/calf/styles/Calf_Hybreed/toggle_2_void.png
+c650cf502f1722168b7c9be70502476f  usr/share/calf/styles/Calf_Hybreed/tubeH1.png
+9b395dbb8ea9df16385288e71d0df3a1  usr/share/calf/styles/Calf_Hybreed/tubeH2.png
+70167533e2f4f44da292a2a9e8d796c4  usr/share/calf/styles/Calf_Hybreed/tubeV1.png
+f1936ffd4f5e23d5e0559a9900cf0c1f  usr/share/calf/styles/Calf_Hybreed/tubeV2.png
+0547ac1bb070e0fefa87928086198dcb  usr/share/calf/styles/Calf_Lost_Wages/background_menu.png
+bab7306bba135e1c870ce190a163be96  usr/share/calf/styles/Calf_Lost_Wages/background_plugin.png
+5985b1a5818bfc20631d5f34f3726a9b  usr/share/calf/styles/Calf_Lost_Wages/combo_arrow.png
+22dbb2aa156879de6ac47bfaa914c9a7  usr/share/calf/styles/Calf_Lost_Wages/gtk.rc
+6e3f2587308b4af99f83c173bf73da62  usr/share/calf/styles/Calf_Lost_Wages/knob_1.png
+dcfeaa0d081b5f4aca6a286fd8937858  usr/share/calf/styles/Calf_Lost_Wages/knob_2.png
+b84c6caacb6237506c2a1b8233ae02c8  usr/share/calf/styles/Calf_Lost_Wages/knob_3.png
+84f26e678bdda899d22520fdeedd009b  usr/share/calf/styles/Calf_Lost_Wages/knob_4.png
+75ce2e6ecc5d5146e71b03736b8a71cd  usr/share/calf/styles/Calf_Lost_Wages/knob_5.png
+3046c7b0443cf627ad05f7f5996145ef  usr/share/calf/styles/Calf_Lost_Wages/light_bottom.png
+fab3fb0dceafa74513b0d48719b3a9f3  usr/share/calf/styles/Calf_Lost_Wages/light_top.png
+9f179682c20ddd317511d59150908da9  usr/share/calf/styles/Calf_Lost_Wages/notebook_screw.png
+8a64845ae0f8c256621ba27fdfea0ff7  usr/share/calf/styles/Calf_Lost_Wages/side_d_e.png
+0729586fa3fdd3249fc11d65a3e9bd01  usr/share/calf/styles/Calf_Lost_Wages/side_d_ne.png
+a5251cb24132554c634d4ce71da96a97  usr/share/calf/styles/Calf_Lost_Wages/side_d_nw.png
+0729586fa3fdd3249fc11d65a3e9bd01  usr/share/calf/styles/Calf_Lost_Wages/side_d_se.png
+a5251cb24132554c634d4ce71da96a97  usr/share/calf/styles/Calf_Lost_Wages/side_d_sw.png
+654816e07874c0b5e84fff5db6ff27a9  usr/share/calf/styles/Calf_Lost_Wages/side_d_w.png
+8a64845ae0f8c256621ba27fdfea0ff7  usr/share/calf/styles/Calf_Lost_Wages/side_e.png
+0729586fa3fdd3249fc11d65a3e9bd01  usr/share/calf/styles/Calf_Lost_Wages/side_ne.png
+a5251cb24132554c634d4ce71da96a97  usr/share/calf/styles/Calf_Lost_Wages/side_nw.png
+a520bd0d2791f7f2347ce47c1bea9510  usr/share/calf/styles/Calf_Lost_Wages/side_se.png
+a5251cb24132554c634d4ce71da96a97  usr/share/calf/styles/Calf_Lost_Wages/side_sw.png
+654816e07874c0b5e84fff5db6ff27a9  usr/share/calf/styles/Calf_Lost_Wages/side_w.png
+318ea20cb1504a2edaad06f4c9f42c16  usr/share/calf/styles/Calf_Lost_Wages/slider_1_horiz.png
+bc661aaca73cd903c18840661d6e6fc5  usr/share/calf/styles/Calf_Lost_Wages/slider_1_vert.png
+45af6344f76e7e7962cf42502e2f2f7b  usr/share/calf/styles/Calf_Lost_Wages/slider_2_horiz.png
+768af6a7891d34b77bc4861f143f5d01  usr/share/calf/styles/Calf_Lost_Wages/slider_2_vert.png
+545e0c19ee9b2f688c890662154cab5c  usr/share/calf/styles/Calf_Lost_Wages/tap_active.png
+3ec0a13d975053f68180a14e09863d09  usr/share/calf/styles/Calf_Lost_Wages/tap_inactive.png
+d38ee2913d7a09ad7326f132a9d55ab7  usr/share/calf/styles/Calf_Lost_Wages/tap_prelight.png
+5c9dc81d41ab6f20bc32a9f03ce71265  usr/share/calf/styles/Calf_Lost_Wages/toggle_0.png
+5a451d93f4841b6fe140483b19df6638  usr/share/calf/styles/Calf_Lost_Wages/toggle_1.png
+d45546f2131b0d9826247d9bd58c2eae  usr/share/calf/styles/Calf_Lost_Wages/toggle_2.png
+13e1093a4ea89e062462b67cbd19ac06  usr/share/calf/styles/Calf_Lost_Wages/toggle_2_block.png
+66ab7e14cbf17ee4e9dca8f76194f99c  usr/share/calf/styles/Calf_Lost_Wages/toggle_2_bypass.png
+f5d3bf7135800886c4e6052053389bd3  usr/share/calf/styles/Calf_Lost_Wages/toggle_2_bypass2.png
+1495666f0e479b618c19621cbe69b30b  usr/share/calf/styles/Calf_Lost_Wages/toggle_2_fast.png
+5f36c7c1347a31dd5a8f8f70bbba2da4  usr/share/calf/styles/Calf_Lost_Wages/toggle_2_listen.png
+3b750501bea6b510315907afaa0d9282  usr/share/calf/styles/Calf_Lost_Wages/toggle_2_logarithmic.png
+976e24961eb0516ec54dbe24b62c4d6b  usr/share/calf/styles/Calf_Lost_Wages/toggle_2_magnetical.png
+f0fd477af922f0d3c7a166401c79d61e  usr/share/calf/styles/Calf_Lost_Wages/toggle_2_mono.png
+c50000dacd5c6f85d654f7f65858619c  usr/share/calf/styles/Calf_Lost_Wages/toggle_2_muffle.png
+b3b0fc66de784b1b7e88bdfa8f65ba3f  usr/share/calf/styles/Calf_Lost_Wages/toggle_2_mute.png
+4b638ca74210b6875cabdf21bda5252d  usr/share/calf/styles/Calf_Lost_Wages/toggle_2_pauseplay.png
+7ea4ef014bf028ee47d5856b8ca1e98d  usr/share/calf/styles/Calf_Lost_Wages/toggle_2_phase.png
+98a33bfa1a46d2374f1fc3e7a0b0a9bb  usr/share/calf/styles/Calf_Lost_Wages/toggle_2_sc_comp.png
+31000d2fe69a909986520a134dd14d8a  usr/share/calf/styles/Calf_Lost_Wages/toggle_2_sc_filter.png
+3743f9a9bbcaded11cc6e3931871961b  usr/share/calf/styles/Calf_Lost_Wages/toggle_2_softclip.png
+bcc07e002a90afb726f23e68dae45b36  usr/share/calf/styles/Calf_Lost_Wages/toggle_2_solo.png
+ef5aeed769e94e380b98f17690e59ce9  usr/share/calf/styles/Calf_Lost_Wages/toggle_2_sync.png
+5678cec9490983784dc317dac2c58038  usr/share/calf/styles/Calf_Lost_Wages/toggle_2_void.png
+c650cf502f1722168b7c9be70502476f  usr/share/calf/styles/Calf_Lost_Wages/tubeH1.png
+9b395dbb8ea9df16385288e71d0df3a1  usr/share/calf/styles/Calf_Lost_Wages/tubeH2.png
+70167533e2f4f44da292a2a9e8d796c4  usr/share/calf/styles/Calf_Lost_Wages/tubeV1.png
+f1936ffd4f5e23d5e0559a9900cf0c1f  usr/share/calf/styles/Calf_Lost_Wages/tubeV2.png
+ae3e1b43bb23d5c6cd9f82969b8dc51a  usr/share/calf/styles/Calf_Midnight/background.png
+36655dc68736b2997dcc0fca4d3d839f  usr/share/calf/styles/Calf_Midnight/background_menu.png
+5985b1a5818bfc20631d5f34f3726a9b  usr/share/calf/styles/Calf_Midnight/combo_arrow.png
+3268f2e1b31e86da2ded8bcb989913f4  usr/share/calf/styles/Calf_Midnight/gtk.rc
+a8afa68010d9157c4c3c3dcba3b20cb2  usr/share/calf/styles/Calf_Midnight/knob_1.png
+225a209e04524f074d3134b0ecab8bfd  usr/share/calf/styles/Calf_Midnight/knob_2.png
+9390ecbab42131809c666973ab3e237c  usr/share/calf/styles/Calf_Midnight/knob_3.png
+075823b5528cbefb786414fdec8a7a44  usr/share/calf/styles/Calf_Midnight/knob_4.png
+8c7a183d0f7f0f84b74b2ec52fb343bf  usr/share/calf/styles/Calf_Midnight/knob_5.png
+3046c7b0443cf627ad05f7f5996145ef  usr/share/calf/styles/Calf_Midnight/light_bottom.png
+4f62f9be85653e4d92a0759139ff36b8  usr/share/calf/styles/Calf_Midnight/light_top.png
+9f179682c20ddd317511d59150908da9  usr/share/calf/styles/Calf_Midnight/notebook_screw.png
+8a64845ae0f8c256621ba27fdfea0ff7  usr/share/calf/styles/Calf_Midnight/side_d_e.png
+0729586fa3fdd3249fc11d65a3e9bd01  usr/share/calf/styles/Calf_Midnight/side_d_ne.png
+a5251cb24132554c634d4ce71da96a97  usr/share/calf/styles/Calf_Midnight/side_d_nw.png
+0729586fa3fdd3249fc11d65a3e9bd01  usr/share/calf/styles/Calf_Midnight/side_d_se.png
+a5251cb24132554c634d4ce71da96a97  usr/share/calf/styles/Calf_Midnight/side_d_sw.png
+654816e07874c0b5e84fff5db6ff27a9  usr/share/calf/styles/Calf_Midnight/side_d_w.png
+8a64845ae0f8c256621ba27fdfea0ff7  usr/share/calf/styles/Calf_Midnight/side_e.png
+0729586fa3fdd3249fc11d65a3e9bd01  usr/share/calf/styles/Calf_Midnight/side_ne.png
+a5251cb24132554c634d4ce71da96a97  usr/share/calf/styles/Calf_Midnight/side_nw.png
+5d7f4feb7ba43ad566de767c96f71104  usr/share/calf/styles/Calf_Midnight/side_se.png
+a5251cb24132554c634d4ce71da96a97  usr/share/calf/styles/Calf_Midnight/side_sw.png
+654816e07874c0b5e84fff5db6ff27a9  usr/share/calf/styles/Calf_Midnight/side_w.png
+efc688db9217abae727c8dd53d8f3c17  usr/share/calf/styles/Calf_Midnight/slider_1_horiz.png
+f0fc71d4138d98c132babdf8c94f44e5  usr/share/calf/styles/Calf_Midnight/slider_1_vert.png
+1d3b58f313977d43b15214162fbd4148  usr/share/calf/styles/Calf_Midnight/slider_2_horiz.png
+562d858c6dfd5814bb3364f30c868bbc  usr/share/calf/styles/Calf_Midnight/slider_2_vert.png
+10801523fa48fe5f8aa85b1fdf53f0a9  usr/share/calf/styles/Calf_Midnight/tap_active.png
+fde10178001f8b4e3bea6d53ce244dc6  usr/share/calf/styles/Calf_Midnight/tap_inactive.png
+8c135db0e0c0cb09f704f5a8c051a3bc  usr/share/calf/styles/Calf_Midnight/tap_prelight.png
+e00239eacc667b999919f6e6b03207b4  usr/share/calf/styles/Calf_Midnight/toggle_0.png
+cbb50ef84aed28d738a081731cc08f02  usr/share/calf/styles/Calf_Midnight/toggle_1.png
+349ec18fcbbb19cc4ed46e67d38680e7  usr/share/calf/styles/Calf_Midnight/toggle_2.png
+b87277277a1e6f75fa845e6908c92a77  usr/share/calf/styles/Calf_Midnight/toggle_2_block.png
+cab6d60edd2669dd0236d1644aefa1d9  usr/share/calf/styles/Calf_Midnight/toggle_2_bypass.png
+9752ce0fc443e692b63866228009afe2  usr/share/calf/styles/Calf_Midnight/toggle_2_bypass2.png
+5a7e2175707ab9abb2290aad5053f5f8  usr/share/calf/styles/Calf_Midnight/toggle_2_fast.png
+22efca59d694ea9d95f780557bcb959c  usr/share/calf/styles/Calf_Midnight/toggle_2_listen.png
+86f744c4bc0475ddda13129890ac40ef  usr/share/calf/styles/Calf_Midnight/toggle_2_logarithmic.png
+b1d41bfb7f02e98e088bc1733b0cbb4e  usr/share/calf/styles/Calf_Midnight/toggle_2_magnetical.png
+e76f59fc761c45ce64076becfa879cd9  usr/share/calf/styles/Calf_Midnight/toggle_2_mono.png
+1216f73fb8455fd589f2f66438727477  usr/share/calf/styles/Calf_Midnight/toggle_2_muffle.png
+d7a242f93be251264e82ddf2d088e7b5  usr/share/calf/styles/Calf_Midnight/toggle_2_mute.png
+e62fd0799a026cb7bc50a2987c020b32  usr/share/calf/styles/Calf_Midnight/toggle_2_pauseplay.png
+5a62f0c5d04e210e6731dbf2ba1b8c0b  usr/share/calf/styles/Calf_Midnight/toggle_2_phase.png
+d5232154695570d145f3739f44aba134  usr/share/calf/styles/Calf_Midnight/toggle_2_sc_comp.png
+7886e8b22d84a77a72ee99100472da3f  usr/share/calf/styles/Calf_Midnight/toggle_2_sc_filter.png
+57c9f7504d006a0f3d629728d937c68d  usr/share/calf/styles/Calf_Midnight/toggle_2_softclip.png
+9fe0797d8eaa106083fd6c43b63f53ae  usr/share/calf/styles/Calf_Midnight/toggle_2_solo.png
+339e2de1beef0b6ec6f161a4dfa72836  usr/share/calf/styles/Calf_Midnight/toggle_2_sync.png
+cee21dd3cbd3c646b200755ca80829ca  usr/share/calf/styles/Calf_Midnight/toggle_2_void.png
+c650cf502f1722168b7c9be70502476f  usr/share/calf/styles/Calf_Midnight/tubeH1.png
+9b395dbb8ea9df16385288e71d0df3a1  usr/share/calf/styles/Calf_Midnight/tubeH2.png
+70167533e2f4f44da292a2a9e8d796c4  usr/share/calf/styles/Calf_Midnight/tubeV1.png
+f1936ffd4f5e23d5e0559a9900cf0c1f  usr/share/calf/styles/Calf_Midnight/tubeV2.png
+0547ac1bb070e0fefa87928086198dcb  usr/share/calf/styles/Calf_Orange/background_menu.png
+5e0bd9c730ef60c5700a7633e89df703  usr/share/calf/styles/Calf_Orange/background_plugin.png
+5985b1a5818bfc20631d5f34f3726a9b  usr/share/calf/styles/Calf_Orange/combo_arrow.png
+aac9029ea465e564fc7a7aedd5ff6d25  usr/share/calf/styles/Calf_Orange/gtk.rc
+ae62c1e4c987b6ce9c0085258dd4b624  usr/share/calf/styles/Calf_Orange/knob_1.png
+bf25a607e81470cead298093b8c1a85f  usr/share/calf/styles/Calf_Orange/knob_2.png
+6b1d36bc43c0d9093043abf575bec721  usr/share/calf/styles/Calf_Orange/knob_3.png
+367933ff657acf89860e785261f1c2c7  usr/share/calf/styles/Calf_Orange/knob_4.png
+b7aa3be5b34722a617f93e85daa7e3bb  usr/share/calf/styles/Calf_Orange/knob_5.png
+3046c7b0443cf627ad05f7f5996145ef  usr/share/calf/styles/Calf_Orange/light_bottom.png
+fab3fb0dceafa74513b0d48719b3a9f3  usr/share/calf/styles/Calf_Orange/light_top.png
+9f179682c20ddd317511d59150908da9  usr/share/calf/styles/Calf_Orange/notebook_screw.png
+bda81bbabc3fcc5c6cf466450d140e33  usr/share/calf/styles/Calf_Orange/side_d_e.png
+af0b186d536aaef01e17b0d044407ee2  usr/share/calf/styles/Calf_Orange/side_d_ne.png
+3fb7f11c4d9d3fedafaad556cee5b6c3  usr/share/calf/styles/Calf_Orange/side_d_nw.png
+af0b186d536aaef01e17b0d044407ee2  usr/share/calf/styles/Calf_Orange/side_d_se.png
+3fb7f11c4d9d3fedafaad556cee5b6c3  usr/share/calf/styles/Calf_Orange/side_d_sw.png
+ebce7ececf306c1d0fea21913ff0fe55  usr/share/calf/styles/Calf_Orange/side_d_w.png
+bda81bbabc3fcc5c6cf466450d140e33  usr/share/calf/styles/Calf_Orange/side_e.png
+af0b186d536aaef01e17b0d044407ee2  usr/share/calf/styles/Calf_Orange/side_ne.png
+3fb7f11c4d9d3fedafaad556cee5b6c3  usr/share/calf/styles/Calf_Orange/side_nw.png
+944b3ad05fc0c1ded85f2d16282ac998  usr/share/calf/styles/Calf_Orange/side_se.png
+3fb7f11c4d9d3fedafaad556cee5b6c3  usr/share/calf/styles/Calf_Orange/side_sw.png
+ebce7ececf306c1d0fea21913ff0fe55  usr/share/calf/styles/Calf_Orange/side_w.png
+7e4028d1a9d00ff66ed707dff7764aed  usr/share/calf/styles/Calf_Orange/slider_1_horiz.png
+75444ffbb5b68a1de1d3ec5e442e314b  usr/share/calf/styles/Calf_Orange/slider_1_vert.png
+77a7d78fc345c136becebb9729443b7b  usr/share/calf/styles/Calf_Orange/slider_2_horiz.png
+da1c8a181682baed923a7ac2c357ee89  usr/share/calf/styles/Calf_Orange/slider_2_vert.png
+7dcf62b513f90daeb8c1e7487bf6faab  usr/share/calf/styles/Calf_Orange/tap_active.png
+11d22b18b16fe029fc4cb33c7b184291  usr/share/calf/styles/Calf_Orange/tap_inactive.png
+9299ab7fe37d16e84afac00ee42d0937  usr/share/calf/styles/Calf_Orange/tap_prelight.png
+0d729e0d41462eb13658d5daa41e4e87  usr/share/calf/styles/Calf_Orange/toggle_0.png
+4f0f540a5f09f45e306fd372c1610896  usr/share/calf/styles/Calf_Orange/toggle_1.png
+d114ed1c16dd214946ceb42d39fca2ac  usr/share/calf/styles/Calf_Orange/toggle_2.png
+0d0e394233b8d687d271d375fbc7974e  usr/share/calf/styles/Calf_Orange/toggle_2_block.png
+e55c2e594979ab67e65a894e933c1fc4  usr/share/calf/styles/Calf_Orange/toggle_2_bypass.png
+ac51a7714749265e0e309cee0b819e61  usr/share/calf/styles/Calf_Orange/toggle_2_bypass2.png
+38e62dfea7ff9401689c6e9b8235e932  usr/share/calf/styles/Calf_Orange/toggle_2_fast.png
+18c302c73fe62bd923b225082706758e  usr/share/calf/styles/Calf_Orange/toggle_2_listen.png
+8c192b27bb4831e31c4a45f3cb25e977  usr/share/calf/styles/Calf_Orange/toggle_2_logarithmic.png
+85ecdb90c9501b49ed6952120224affb  usr/share/calf/styles/Calf_Orange/toggle_2_magnetical.png
+1fff160c75f7a52037afa157f4001fd2  usr/share/calf/styles/Calf_Orange/toggle_2_mono.png
+703ce31a5ce886c64882a3dd7d4e93a8  usr/share/calf/styles/Calf_Orange/toggle_2_muffle.png
+66a09685596bdd8bf47ee092f17649cb  usr/share/calf/styles/Calf_Orange/toggle_2_mute.png
+11c24193f63fbad7a3f0cdd0149ed763  usr/share/calf/styles/Calf_Orange/toggle_2_pauseplay.png
+edeccdf6d5bbe7d0b99c4b3e8c44da3c  usr/share/calf/styles/Calf_Orange/toggle_2_phase.png
+8ba0eacecfc6b5bdaa3c787acdefa380  usr/share/calf/styles/Calf_Orange/toggle_2_sc_comp.png
+d8c3b22a679e75314f1a79e4b815fc71  usr/share/calf/styles/Calf_Orange/toggle_2_sc_filter.png
+08af3b8dc98da17ecd1dda86f7aadef9  usr/share/calf/styles/Calf_Orange/toggle_2_softclip.png
+c7f93130bf9de478cc30a4e510e34ea9  usr/share/calf/styles/Calf_Orange/toggle_2_solo.png
+944a33dc8b4c2fd3bea66a136a60692a  usr/share/calf/styles/Calf_Orange/toggle_2_sync.png
+1c9b9bebfdf42ead225a6e5ac5c9c4fc  usr/share/calf/styles/Calf_Orange/toggle_2_void.png
+c650cf502f1722168b7c9be70502476f  usr/share/calf/styles/Calf_Orange/tubeH1.png
+9b395dbb8ea9df16385288e71d0df3a1  usr/share/calf/styles/Calf_Orange/tubeH2.png
+70167533e2f4f44da292a2a9e8d796c4  usr/share/calf/styles/Calf_Orange/tubeV1.png
+f1936ffd4f5e23d5e0559a9900cf0c1f  usr/share/calf/styles/Calf_Orange/tubeV2.png
+0547ac1bb070e0fefa87928086198dcb  usr/share/calf/styles/Calf_Wood/background_menu.png
+caab03f0b391cdfebc0f3899db25b2a0  usr/share/calf/styles/Calf_Wood/background_plugin.png
+5985b1a5818bfc20631d5f34f3726a9b  usr/share/calf/styles/Calf_Wood/combo_arrow.png
+fe6bc6eee211a8d9463a203e99bd3ebd  usr/share/calf/styles/Calf_Wood/gtk.rc
+ae62c1e4c987b6ce9c0085258dd4b624  usr/share/calf/styles/Calf_Wood/knob_1.png
+bf25a607e81470cead298093b8c1a85f  usr/share/calf/styles/Calf_Wood/knob_2.png
+6b1d36bc43c0d9093043abf575bec721  usr/share/calf/styles/Calf_Wood/knob_3.png
+367933ff657acf89860e785261f1c2c7  usr/share/calf/styles/Calf_Wood/knob_4.png
+b7aa3be5b34722a617f93e85daa7e3bb  usr/share/calf/styles/Calf_Wood/knob_5.png
+9f179682c20ddd317511d59150908da9  usr/share/calf/styles/Calf_Wood/notebook_screw.png
+976799912c0e7d7455da73b18541dc4d  usr/share/calf/styles/Calf_Wood/side_d_e.png
+a33b232b87afebe7dac486035e52209e  usr/share/calf/styles/Calf_Wood/side_d_ne.png
+f9be33054b665666b6dc82e618afa17a  usr/share/calf/styles/Calf_Wood/side_d_nw.png
+c8516d510855a9bd075d9c995ea4a62a  usr/share/calf/styles/Calf_Wood/side_d_se.png
+28e35d1b2ff607d552c177148fffab1d  usr/share/calf/styles/Calf_Wood/side_d_sw.png
+65268ea9c22c94d8bb6f46928bb0a8f1  usr/share/calf/styles/Calf_Wood/side_d_w.png
+976799912c0e7d7455da73b18541dc4d  usr/share/calf/styles/Calf_Wood/side_e.png
+a33b232b87afebe7dac486035e52209e  usr/share/calf/styles/Calf_Wood/side_ne.png
+f9be33054b665666b6dc82e618afa17a  usr/share/calf/styles/Calf_Wood/side_nw.png
+cbeadf03bd7d3115dd2549ec0d6eccb9  usr/share/calf/styles/Calf_Wood/side_se.png
+28e35d1b2ff607d552c177148fffab1d  usr/share/calf/styles/Calf_Wood/side_sw.png
+65268ea9c22c94d8bb6f46928bb0a8f1  usr/share/calf/styles/Calf_Wood/side_w.png
+7e4028d1a9d00ff66ed707dff7764aed  usr/share/calf/styles/Calf_Wood/slider_1_horiz.png
+75444ffbb5b68a1de1d3ec5e442e314b  usr/share/calf/styles/Calf_Wood/slider_1_vert.png
+77a7d78fc345c136becebb9729443b7b  usr/share/calf/styles/Calf_Wood/slider_2_horiz.png
+da1c8a181682baed923a7ac2c357ee89  usr/share/calf/styles/Calf_Wood/slider_2_vert.png
+7dcf62b513f90daeb8c1e7487bf6faab  usr/share/calf/styles/Calf_Wood/tap_active.png
+11d22b18b16fe029fc4cb33c7b184291  usr/share/calf/styles/Calf_Wood/tap_inactive.png
+9299ab7fe37d16e84afac00ee42d0937  usr/share/calf/styles/Calf_Wood/tap_prelight.png
+0d729e0d41462eb13658d5daa41e4e87  usr/share/calf/styles/Calf_Wood/toggle_0.png
+4f0f540a5f09f45e306fd372c1610896  usr/share/calf/styles/Calf_Wood/toggle_1.png
+d114ed1c16dd214946ceb42d39fca2ac  usr/share/calf/styles/Calf_Wood/toggle_2.png
+0d0e394233b8d687d271d375fbc7974e  usr/share/calf/styles/Calf_Wood/toggle_2_block.png
+e55c2e594979ab67e65a894e933c1fc4  usr/share/calf/styles/Calf_Wood/toggle_2_bypass.png
+ac51a7714749265e0e309cee0b819e61  usr/share/calf/styles/Calf_Wood/toggle_2_bypass2.png
+38e62dfea7ff9401689c6e9b8235e932  usr/share/calf/styles/Calf_Wood/toggle_2_fast.png
+18c302c73fe62bd923b225082706758e  usr/share/calf/styles/Calf_Wood/toggle_2_listen.png
+8c192b27bb4831e31c4a45f3cb25e977  usr/share/calf/styles/Calf_Wood/toggle_2_logarithmic.png
+85ecdb90c9501b49ed6952120224affb  usr/share/calf/styles/Calf_Wood/toggle_2_magnetical.png
+1fff160c75f7a52037afa157f4001fd2  usr/share/calf/styles/Calf_Wood/toggle_2_mono.png
+703ce31a5ce886c64882a3dd7d4e93a8  usr/share/calf/styles/Calf_Wood/toggle_2_muffle.png
+66a09685596bdd8bf47ee092f17649cb  usr/share/calf/styles/Calf_Wood/toggle_2_mute.png
+11c24193f63fbad7a3f0cdd0149ed763  usr/share/calf/styles/Calf_Wood/toggle_2_pauseplay.png
+edeccdf6d5bbe7d0b99c4b3e8c44da3c  usr/share/calf/styles/Calf_Wood/toggle_2_phase.png
+8ba0eacecfc6b5bdaa3c787acdefa380  usr/share/calf/styles/Calf_Wood/toggle_2_sc_comp.png
+d8c3b22a679e75314f1a79e4b815fc71  usr/share/calf/styles/Calf_Wood/toggle_2_sc_filter.png
+08af3b8dc98da17ecd1dda86f7aadef9  usr/share/calf/styles/Calf_Wood/toggle_2_softclip.png
+c7f93130bf9de478cc30a4e510e34ea9  usr/share/calf/styles/Calf_Wood/toggle_2_solo.png
+944a33dc8b4c2fd3bea66a136a60692a  usr/share/calf/styles/Calf_Wood/toggle_2_sync.png
+1c9b9bebfdf42ead225a6e5ac5c9c4fc  usr/share/calf/styles/Calf_Wood/toggle_2_void.png
+c650cf502f1722168b7c9be70502476f  usr/share/calf/styles/Calf_Wood/tubeH1.png
+9b395dbb8ea9df16385288e71d0df3a1  usr/share/calf/styles/Calf_Wood/tubeH2.png
+70167533e2f4f44da292a2a9e8d796c4  usr/share/calf/styles/Calf_Wood/tubeV1.png
+f1936ffd4f5e23d5e0559a9900cf0c1f  usr/share/calf/styles/Calf_Wood/tubeV2.png
+6c59cce13b3a2dae41d30752885cf4e7  usr/share/doc/calf-plugins/TODO.Debian
+c9d5be40e4e0667be47bc63971a328d4  usr/share/doc/calf-plugins/changelog.Debian.gz
+47b8e2b0290c33af398e7e75f69a54f8  usr/share/doc/calf-plugins/copyright
+a7b73d679f3f10a0477a7c24c887d695  usr/share/doc/calf/About.html
+6523c8d1f948c66f990a805a8b4f9fcd  usr/share/doc/calf/Analyzer.html
+874b22a127e383dc423ce0de6f014946  usr/share/doc/calf/Bass Enhancer.html
+3b1c937d920fd1d172bcf211d94ee5b3  usr/share/doc/calf/Calf.html
+0f67fe2302cbc8dfd9b3d892c4be9356  usr/share/doc/calf/Compensation Delay Line.html
+551e3df501fd4bc23fa0e968160c7360  usr/share/doc/calf/Compressor.html
+6a9780bf76f729bcea78a70ceb73424e  usr/share/doc/calf/Controls.html
+968a014ee79ee42356885493aa3722ee  usr/share/doc/calf/Crusher.html
+1551f853982d9e62fe7677eac0184119  usr/share/doc/calf/Deesser.html
+212f53aa73317ca0e2be8c30efb9cdd9  usr/share/doc/calf/Emphasis.html
+9a79076378dea6dcca36bfac561d3b9d  usr/share/doc/calf/Envelope Filter.html
+ae832dc67dab9e8764f84e60b71f2ef1  usr/share/doc/calf/Equalizer 12 Band.html
+befa8fc3c370d86f096588422eb5e823  usr/share/doc/calf/Equalizer 30 Band.html
+ffbdddd5d41b8de3b2162154d3242d59  usr/share/doc/calf/Equalizer 5 Band.html
+eb9691ae395b4806647fdf0e4ebbd738  usr/share/doc/calf/Equalizer 8 Band.html
+c74c3fae128c79ff03835a1dd6515a45  usr/share/doc/calf/Exciter.html
+1987f9903874f98af87d82ed01fcbc63  usr/share/doc/calf/Filter.html
+a13ada41887b06a552e3309d690d546c  usr/share/doc/calf/Filterclavier.html
+2fde442381f7fc2194ed2297f930cd7f  usr/share/doc/calf/Flanger.html
+da1c42803c34c77599b1f3c846e3ecc0  usr/share/doc/calf/Fluidsynth.html
+92f928996eef5299fcfa63f4ac8a431f  usr/share/doc/calf/Gate.html
+60d7bae670b1f7de1d305182839cae5e  usr/share/doc/calf/Haas Stereo Enhancer.html
+2a54ab0d95565ec6299a26553f54c58e  usr/share/doc/calf/Limiter.html
+6d2f2616770a955cb43a2c49c5d2db02  usr/share/doc/calf/Mono Compressor.html
+842a05df1cb679c47e3c2832b84cfe24  usr/share/doc/calf/Mono Input.html
+aef3b4bf6d3ee64aafcbec9aaa4d6271  usr/share/doc/calf/Monosynth.html
+4125a277583c3d194aee81606fcfdda6  usr/share/doc/calf/Multi Chorus.html
+4d1521a0376d3ce895e3c7088f209add  usr/share/doc/calf/Multi Spread.html
+30f4019c51babced43a2adaf10674ca2  usr/share/doc/calf/Multiband Compressor.html
+de681fbdfc37a6557d5f1811e60c1053  usr/share/doc/calf/Multiband Enhancer.html
+ccc4ec87e3ce36334c0344d022c5b301  usr/share/doc/calf/Multiband Gate.html
+da80764f68656ab352209aa8bc5f7828  usr/share/doc/calf/Multiband Limiter.html
+dcb4cba8478315304390da887bdb8a05  usr/share/doc/calf/Organ.html
+c70adb5fc145fc05367c9eef013f5545  usr/share/doc/calf/Phaser.html
+a11e0e8afd190e4bd4e0f066850d5593  usr/share/doc/calf/Pulsator.html
+43abc0f4146490d84a3eddcb3b60b9fc  usr/share/doc/calf/Reverb.html
+c13094e426fc43c26a12fa626e5efe6b  usr/share/doc/calf/Ring Modulator.html
+5b3d1b396ae68f1304bfe43987225495  usr/share/doc/calf/Rotary Speaker.html
+bd512f0fdbd2c9af1ce261c476680af0  usr/share/doc/calf/Saturator.html
+ea7a3a44b517f71e5a2a3418155a3c8d  usr/share/doc/calf/Sidechain Compressor.html
+d5b2075fcf614c038a60358501b3e661  usr/share/doc/calf/Sidechain Gate.html
+be423decfe088a61ebe3385bdfa1b8e3  usr/share/doc/calf/Sidechain Limiter.html
+948b16bbca410aa12c7b6c7ec7fc1eca  usr/share/doc/calf/Stereo Tools.html
+7c48c47199bba493a3f7c8b1b82823a6  usr/share/doc/calf/Tape Simulator.html
+1ca386d2cdd4d336dec1d26833503bdc  usr/share/doc/calf/Transient Designer.html
+46a238c1335b13e7f164586619f74474  usr/share/doc/calf/Vintage Delay.html
+a6d033536485871de9c88078f1782ad8  usr/share/doc/calf/Vinyl.html
+315dadb82d035e68282faeb2892a177f  usr/share/doc/calf/Vocoder.html
+3942330db5c8c5d8be50065610b508cc  usr/share/doc/calf/Wavetable.html
+72cedcc85de56d112f485ee459529c17  usr/share/doc/calf/X-Over 2 Band.html
+c75492b67265630bc826a82ad98bb9b7  usr/share/doc/calf/X-Over 3 Band.html
+08c7bfc997e48f004f35b9003fe79607  usr/share/doc/calf/X-Over 4 Band.html
+77b57e61a8c1c012ed55fb6889db3378  usr/share/doc/calf/_blank.html
+5c56060f2adce58374fbe79461d946f6  usr/share/doc/calf/images/About.png
+e5a206c9855a0944a51a4747dc14e8d8  usr/share/doc/calf/images/Calf - Analyzer - Spectralizer.jpg
+120263650f02552bf61726574869c54b  usr/share/doc/calf/images/Calf - Analyzer - Stereo Difference.jpg
+2ca058c988eebfcec1b30db2aafb1db6  usr/share/doc/calf/images/Calf - Analyzer - Stereo Image.jpg
+e30f2d00a66420731c6403284e4ff5ef  usr/share/doc/calf/images/Calf - Analyzer.jpg
+b992439f07f40c469ac48da16f516c18  usr/share/doc/calf/images/Calf - Bass Enhancer.jpg
+a8258306685bf7b3227697b611122246  usr/share/doc/calf/images/Calf - Compensation Delay Line.jpg
+70f4d6e3732ae6543b01bfa2fc703222  usr/share/doc/calf/images/Calf - Compressor.jpg
+d572a921a2e705e15a763d19772647c3  usr/share/doc/calf/images/Calf - Controls.jpg
+7bddf92ca4ecf51061706f8f9596f0e5  usr/share/doc/calf/images/Calf - Crusher.jpg
+33a8c89b14d2d31b959ef5b0e7568a71  usr/share/doc/calf/images/Calf - Deesser.jpg
+bad781cc78174ffa6342dd205d3f2915  usr/share/doc/calf/images/Calf - Emphasis.jpg
+271f9199c1d70d54ce1266a42e4879c9  usr/share/doc/calf/images/Calf - Envelope Filter.jpg
+bd0f5d7132e3fa1c658d30d87bf198f9  usr/share/doc/calf/images/Calf - Equalizer 12 Band.jpg
+104819a88006b18beb242c452057daa0  usr/share/doc/calf/images/Calf - Equalizer 30 Band.jpg
+b2c9ed51bca3ec0ee0e862e66661d310  usr/share/doc/calf/images/Calf - Equalizer 5 Band.jpg
+a58572e762ac439969faa5b8d5333a87  usr/share/doc/calf/images/Calf - Equalizer 8 Band.jpg
+e71d011c02a8ec4c589dcef75f195bf9  usr/share/doc/calf/images/Calf - Exciter.jpg
+a52612a49c00779cee83528bb9e46319  usr/share/doc/calf/images/Calf - Filter.jpg
+d8557a0b39de06efbc1fd20ef38b7c93  usr/share/doc/calf/images/Calf - Filterclavier.jpg
+e91e4d000e47b05d3aabcb0072be532e  usr/share/doc/calf/images/Calf - Flanger.jpg
+404856f2d63c87f343ac3a52ef16b0bd  usr/share/doc/calf/images/Calf - Fluidsynth.jpg
+bb1f4f8b62993204e6165627cde403fe  usr/share/doc/calf/images/Calf - Gate.jpg
+e97b9119b50006c03b12ef385f533396  usr/share/doc/calf/images/Calf - Haas Stereo Enhancer.jpg
+d534c5bca7f15c9a1992f446e7237f2d  usr/share/doc/calf/images/Calf - Limiter.jpg
+8f8ddefe9a694b74d3d12b06b7efcad1  usr/share/doc/calf/images/Calf - Limiters - ASC behaviours.jpg
+d9bfda8f07e3a642461fd90b0caa68a0  usr/share/doc/calf/images/Calf - Limiters - ASC.jpg
+c872c803600a96de49bed1aec61bee48  usr/share/doc/calf/images/Calf - Mono Compressor.jpg
+e4dfdabfa7d6d402b33e2385808502cd  usr/share/doc/calf/images/Calf - Mono Input.jpg
+e078fa6b731c286f0f4254929efd96bc  usr/share/doc/calf/images/Calf - Monosynth - Audio Path.jpg
+9fad935f749eeb691952511ac293804c  usr/share/doc/calf/images/Calf - Monosynth - Modulation Matrix.jpg
+b81a55572ab8bf74a1bda2785c67a885  usr/share/doc/calf/images/Calf - Monosynth - Modulation.jpg
+f2cf087979046e4d1036089ce6633432  usr/share/doc/calf/images/Calf - Multi Chorus.jpg
+38aa96d3d586793f16cd1a1021993a28  usr/share/doc/calf/images/Calf - Multi Spread.jpg
+38f3fc8246ccfaa27426943934a21378  usr/share/doc/calf/images/Calf - Multiband Compressor.jpg
+75a11946645ab447172efcf4f784afef  usr/share/doc/calf/images/Calf - Multiband Enhancer.jpg
+71de90bbd431a02db62628115c19767a  usr/share/doc/calf/images/Calf - Multiband Gate.jpg
+14aea15e55abdd3689cb14256db38e38  usr/share/doc/calf/images/Calf - Multiband Limiter.jpg
+84d3759bebca9c3a7543491b4b8789e4  usr/share/doc/calf/images/Calf - Organ - Sound Processor.jpg
+db3253b2a20b9a67001392d98bb5919a  usr/share/doc/calf/images/Calf - Organ - Tone Generator.jpg
+24df65598e1a53bff1ef81f1cd43ea6e  usr/share/doc/calf/images/Calf - Phaser.jpg
+cb2e06a17fce15c4b76b5d9b8e7b5c5e  usr/share/doc/calf/images/Calf - Pulsator.jpg
+aec084eddb94fad2a6420b328f37532d  usr/share/doc/calf/images/Calf - Reverb.jpg
+ff7a9b6a147f6f5acb2c7cc97b1f5da2  usr/share/doc/calf/images/Calf - Reverse Delay.jpg
+d4426bec6ed200660d0f5d5fa66a6bd6  usr/share/doc/calf/images/Calf - Ring Modulator.jpg
+55ce3935f8b3f83deed0887425867d44  usr/share/doc/calf/images/Calf - Rotary Speaker.jpg
+c55fc257cde3dcb5ce94b97670f37fff  usr/share/doc/calf/images/Calf - Saturator.jpg
+0b9f706941cfbe20019bfcb1f74463d9  usr/share/doc/calf/images/Calf - Sidechain Compressor.jpg
+41b37f9cba5887135756926d0787ae4e  usr/share/doc/calf/images/Calf - Sidechain Gate.jpg
+731292cbe1f53c39744465c6ab8ab93c  usr/share/doc/calf/images/Calf - Sidechain Limiter.jpg
+d2f5b685272b5ab0aa3b6fb54d729371  usr/share/doc/calf/images/Calf - Stereo Tools.jpg
+40c4230b0c33115497b481c5759fe808  usr/share/doc/calf/images/Calf - Tape Simulator.jpg
+c4ae92c529cc68af4b62b626da97bf70  usr/share/doc/calf/images/Calf - Transient Designer.jpg
+279bafa97c379620a852472dfe029e3b  usr/share/doc/calf/images/Calf - Vintage Delay.jpg
+226a1e3ab10198704081d761b8868bdc  usr/share/doc/calf/images/Calf - Vinyl.jpg
+c9289249c748c61e61146bade15506b6  usr/share/doc/calf/images/Calf - Vocoder.jpg
+455479318e40d2ba0bac5f1ae36ce303  usr/share/doc/calf/images/Calf - Wavetable.jpg
+1ea2e0a50c024d439e47e28d147d1e2c  usr/share/doc/calf/images/Calf - X-Over 2 Band.jpg
+ac7e1a9cbd5f7df8b3f798b962d499dc  usr/share/doc/calf/images/Calf - X-Over 3 Band.jpg
+22507d4705de1b56ad9f7e1d6476f27e  usr/share/doc/calf/images/Calf - X-Over 4 Band.jpg
+79471081d46f9308dc68d880703a97fe  usr/share/doc/calf/images/Calf JACK Host.jpg
+a8c65476e96746477bda1fd19e8d127d  usr/share/doc/calf/images/Calf Studio Gear.jpg
+e579c4d671dd0ae77adbf55798d4604c  usr/share/doc/calf/images/Calf.jpg
+915cab13faaf03b53c9d1d9ec04f7852  usr/share/doc/calf/images/Index.png
+66d587beab25d0a4af18a4c9932a2d9f  usr/share/doc/calf/images/icons/delay.png
+1ec92ce7490bcebc3924e6a0b3bdbabe  usr/share/doc/calf/images/icons/distortion.png
+c5d3ae14f987c42be0fc8a48f6faf655  usr/share/doc/calf/images/icons/dynamics.png
+3a85e39e0b33719a0452d2955f573aab  usr/share/doc/calf/images/icons/filters.png
+133082b89c99f60933a119452000ad6e  usr/share/doc/calf/images/icons/index.png
+7fac424de89e847144bdc2a03471fd9b  usr/share/doc/calf/images/icons/modulation.png
+eaffc8d6ade82e4e6e61038e10f73e41  usr/share/doc/calf/images/icons/synthesizer.png
+472cf268c3b1fd8169b807c787be715d  usr/share/doc/calf/images/icons/tools.png
+03c5da2f29c7082e4ac092b0273f47b5  usr/share/doc/calf/images/prettyPhoto/dark_rounded/btnNext.png
+48e131cc327121f0aa097d4d8327370e  usr/share/doc/calf/images/prettyPhoto/dark_rounded/btnPrevious.png
+7b55ce3419c55550609cc991145b0008  usr/share/doc/calf/images/prettyPhoto/dark_rounded/contentPattern.png
+ed52db277173876860b62071785a2177  usr/share/doc/calf/images/prettyPhoto/dark_rounded/default_thumbnail.gif
+4297900ae2d9d0c4eb00d1c15462fb19  usr/share/doc/calf/images/prettyPhoto/dark_rounded/loader.gif
+cd7356acf95e0e7cc67435565e2f0bb5  usr/share/doc/calf/images/prettyPhoto/dark_rounded/sprite.png
+53bcc8717c8dffd6b27d7c4d8c72b6d6  usr/share/doc/calf/images/style_logo.png
+661477ddeb6aa84902b26a23220f7c4a  usr/share/doc/calf/images/style_p.png
+c48373f414a62f63ea36fb629c7c937c  usr/share/doc/calf/index.html
+bbc73105daaecd0f3d222b16c882ba21  usr/share/doc/calf/scripts/manual.js
+eb82f9dc61aa10d8271a4db9878ea416  usr/share/doc/calf/scripts/style.css
+13f3c21b9be6c009bfccf2da6d993374  usr/share/icons/hicolor/128x128/apps/calf.png
+f3d11b60764987cbc8f33e9fb3790c8d  usr/share/icons/hicolor/128x128/apps/calf_plugin.png
+9841d95db2b93120dd11eaa75f32c234  usr/share/icons/hicolor/16x16/apps/calf.png
+1b224ab3f80a6d5a3b58998601dde1ac  usr/share/icons/hicolor/16x16/apps/calf_plugin.png
+d6c27cd6cdbc475d79dd9b415ddec214  usr/share/icons/hicolor/22x22/apps/calf.png
+9bcb751861790d4a8172c5adc51f2e7d  usr/share/icons/hicolor/22x22/apps/calf_plugin.png
+487cc803bcc6a092de6fd42a7117eb99  usr/share/icons/hicolor/24x24/apps/calf.png
+cd8d2cc172e99e5c2de064a525ee7aad  usr/share/icons/hicolor/24x24/apps/calf_plugin.png
+873d1a0bf48d911d8c4ae92d118c9729  usr/share/icons/hicolor/256x256/apps/calf.png
+d02d5462bbf83579743024f933a738f8  usr/share/icons/hicolor/256x256/apps/calf_plugin.png
+8b60c389ba635c0dd3608a7e3b411e72  usr/share/icons/hicolor/32x32/apps/calf.png
+c0b40fb3c6f0759154f165026adba517  usr/share/icons/hicolor/32x32/apps/calf_plugin.png
+76581959d6ba26e1e1b6f5852b98792d  usr/share/icons/hicolor/48x48/apps/calf.png
+7b918e79577a4b80fdfb3f752453acf5  usr/share/icons/hicolor/48x48/apps/calf_plugin.png
+490aa54ca3ae364e8566a3c7cd0ffa6b  usr/share/icons/hicolor/64x64/apps/calf.png
+09623203b50316a7fd4a32c515b160a7  usr/share/icons/hicolor/64x64/apps/calf_plugin.png
+53c0e1f834131d39a3dd7054556cf63a  usr/share/icons/hicolor/scalable/apps/calf.svg
+a36871025ffafe9d6cfc5d1d36f0ed44  usr/share/icons/hicolor/scalable/apps/calf_plugin.svg
+cee46abbbfe469f73a62b31af06a03b9  usr/share/man/man1/calfjackhost.1.gz
+fb233ffb14082e9b6f6ee1fd87a93148  usr/share/man/man7/calf.7.gz

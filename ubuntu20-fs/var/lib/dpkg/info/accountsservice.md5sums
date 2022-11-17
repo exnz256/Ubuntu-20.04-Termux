@@ -1,0 +1,17 @@
+4921454bddcf290452477bca1007cd63  lib/systemd/system/accounts-daemon.service
+778448fb6a47e6a93d0b0da8bf87fe4d  usr/lib/accountsservice/accounts-daemon
+10ade67b04d7ae73da4a685baee0509f  usr/share/dbus-1/interfaces/org.freedesktop.Accounts.User.xml
+21593073607e9cd21934054f5b6ea0cb  usr/share/dbus-1/interfaces/org.freedesktop.Accounts.xml
+14b6c530f6d42b253ac34610211b7ba2  usr/share/dbus-1/system-services/org.freedesktop.Accounts.service
+154e5447d53889114f006f084bf57816  usr/share/doc/accountsservice/README.md
+d607b26b8906cbf7c75341781aa8a77c  usr/share/doc/accountsservice/TODO
+c00ad4d92680ec465a5049709b62b1e3  usr/share/doc/accountsservice/copyright
+b99754f131da90e53b7095bf8a9e05f1  usr/share/language-tools/language-options
+bdee871ef024f64c1fd606f12fd6c003  usr/share/language-tools/language-validate
+fc1afec0e1c90e5c5de3bcabe6e8dfce  usr/share/language-tools/language2locale
+ca217f538f33b865b14f33f4d05c939d  usr/share/language-tools/locale2papersize
+e7d003d1f6976c3365fe3fa9f2e257d9  usr/share/language-tools/main-countries
+8aa813123520c683f884875f564a3210  usr/share/language-tools/save-to-pam-env
+6518de46202e6a0f2a3a5ff04cf29d73  usr/share/language-tools/set-language-helper
+ca270f371279816e7b1d2b37c0cff970  usr/share/language-tools/update-langlist
+7c69ff2632b9cc350b22ccd752da190b  usr/share/polkit-1/actions/org.freedesktop.accounts.policy

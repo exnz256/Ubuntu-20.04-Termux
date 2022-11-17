@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="testsignals" xml:lang="pt-BR">
+    <info>
+        <link type="guide" xref="index#calibration"/>
+    </info>
+    <title>Sinais de Teste</title>
+    <p>Estes sinais podem ser usados para testar a resposta em frequência dos seus auto-falantes.</p>
+</page>

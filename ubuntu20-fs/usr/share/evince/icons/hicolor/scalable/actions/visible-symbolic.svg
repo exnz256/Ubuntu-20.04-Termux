@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg7384" width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata id="metadata90">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>Barbara Muraus, Jakub Steiner, Klaus Staedtler</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:description>Images originally created as the "Art Libre" icon set. Extended and adopted for GIMP</dc:description>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs id="defs7386">
+  <linearGradient id="linearGradient19282-4" gradientTransform="matrix(.34683 0 0 .30621 26.648 342.04)" osb:paint="solid">
+   <stop id="stop19284-0" style="stop-color:#bebebe" offset="0"/>
+  </linearGradient>
+  <linearGradient id="linearGradient7142" x1="-55" x2="-49" y1="210" y2="210" gradientTransform="translate(403.72 85.791)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient7144" x1="-60" x2="-44" y1="210" y2="210" gradientTransform="translate(403.72 85.791)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+ </defs>
+ <g id="stock" transform="translate(54.09 81.24)">
+  <g id="gimp-visible" transform="translate(-235.09 -500.24)">
+   <path id="path11920" transform="translate(241 217)" d="m-52 207c-1.6569 0-3 1.3432-3 3s1.3431 3 3 3 3-1.3432 3-3-1.3431-3-3-3zm0 1.5312c0.78727 0 1.4375 0.65408 1.4375 1.4688s-0.65023 1.5-1.4375 1.5-1.4375-0.68533-1.4375-1.5 0.65023-1.4688 1.4375-1.4688z" style="fill:url(#linearGradient7142)"/>
+   <path id="path11928" transform="translate(241 217)" d="m-52 204c-4.4183 0-8 6-8 6s3.5817 6 8 6 8-6 8-6-3.5817-6-8-6zm0 2c3.866 0 6 4 6 4s-2.134 4-6 4-6-4-6-4 2.134-4 6-4z" style="fill:url(#linearGradient7144)"/>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="community-support" xml:lang="id">
+
+  <info>
+    <link type="guide" xref="more-help"/>
+    <desc>Dapatkan bantuan dari komunitas</desc>
+
+    <revision version="19.10" date="2019-05-11" status="review"/>
+
+    <credit type="author">
+      <name>Tim Dokumentasi Ubuntu</name>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>Dukungan komunitas</title>
+
+  <p>Anda dapat menemukan dukungan dari berbagai sumber yang disebutkan dan ditaut pada <link href="https://www.ubuntu.com/support/community-support">Dukungan komunitas</link>.</p>
+
+  <p>Setiap halaman di <link href="https://help.ubuntu.com">help.ubuntu.com</link> memiliki fitur pencarian di bagian kanan atas. Ini memungkinkan Anda melakukan pencarian Google kustom di dokumentasi Ubuntu dan sumber daya dukungan di web, untuk lebih mudah mencari tahu apakah pertanyaan Anda sudah dijawab.</p>
+
+  <p>Dukungan dalam bahasa Anda mungkin disediakan oleh <link href="http://loco.ubuntu.com/teams/">Tim Komunitas Lokal</link> Anda.</p>
+
+</page>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="saturated" style="2column" xml:lang="it-IT">
+    <info>
+        <link type="guide" xref="index#ui"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Digitalone</mal:name>
+      <mal:email>kurmikon@libero.it</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+    <title>Avviso di Saturazione</title>
+    <media type="image" src="figures/saturated.png" its:translate="no"/>
+    <p>Se il livello del segnale audio diretto in ingresso al plugin è troppo alto, verrà prodotta una distorsione del suono molto spiacevole. Quando ciò accade, l'avviso nell'immagine sopra è mostrato in modo che l'utente possa ridurre il livello dell'audio.</p>
+</page>

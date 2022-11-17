@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="loudness" xml:lang="it-IT">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Digitalone</mal:name>
+      <mal:email>kurmikon@libero.it</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+    <title>Loudness</title>
+    <p>PulseEffects utilizza il plugin Loudness di MDA.LV2. L'orecchio è meno sensibile alle basse frequenze quando si ascolta a basso volume. Questo plugin si basa sulla "equal loudness contours" di Stevens-Davis e consente di regolare il livello dei bassi per simulare o correggere questo effetto.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Loudness</em>
+            </title>
+            <p>Livello sorgente relativo al livello di ascolto (basato su un livello massimo di 100 dB SPL).</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Uscita</em>
+            </title>
+            <p>Cambia livello di uscita.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Link</em>
+            </title>
+            <p>Regola automaticamente l'uscita per mantenere un bilanciamento tonale coerente a tutti i livelli.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Note</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Loudness" its:translate="no">
+                        https://en.wikipedia.org/wiki/Loudness
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="http://mda.smartelectronix.com/vst/help/loudness.htm" its:translate="no">
+                        http://mda.smartelectronix.com/vst/help/loudness.htm
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

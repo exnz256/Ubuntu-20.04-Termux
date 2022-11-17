@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="net-chat-skype" xml:lang="el">
+  <info>
+    <link type="guide" xref="net-chat" group="#last"/>
+    <link type="seealso" xref="net-chat-video"/>
+
+    <revision version="18.04" date="2018-03-19" status="review"/>
+
+    <credit type="author">
+      <name>Ομάδα τεκμηρίωσης Ubuntu</name>
+    </credit>
+
+    <desc>Το <app>Skype</app> είναι ιδιόκτητο λογισμικό και πρέπει να εγκατασταθεί χειροκίνητα στο Ubuntu</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>Πώς μπορώ να χρησιμοποιήσω το Skype στο Ubuntu ;</title>
+
+  <p>Το <app>Skype</app> είναι ιδιόκτητο πρόγραμμα το οποίο επιτρέπει να πραγματοποιείτε κλήσεις μέσω διαδικτύου χρησιμοποιώντας τον υπολογιστή σας.</p>
+
+  <p>Το skype χρησιμοποιεί αποκεντρωμένες τεχνολογίες που μοιράζονται τους πόρους τους ισοδύναμα, έτσι ώστε οι κλήσεις σας δεν πηγαίνουν μέσα από ένα κεντρικό εξυπηρετητή, αλλά μέσα από κατανεμημένους εξυπηρετητές και άλλους χρήστες.</p>
+
+  <p>Το πρόγραμμα Skype είναι ελεύθερο για χρήση, αλλά δεν είναι ελεύθερο λογισμικό' ο πηγαίος κώδικας είναι ιδιοταγής και δεν είναι διαθέσιμος για επεξεργασία.</p>
+
+  <p>Το Skype δεν είναι προεγκατεστημένο στο Ubuntu. Ακολουθήστε αυτά τα βήματα για την εγκατάσταση του <app>Skype για Linux</app>:</p>
+
+  <list type="disc">
+
+    <item><p>Ανοίξτε τον περιηγητή διαδικτύου σας και πηγαίνετε στη σελίδα <link href="https://www.skype.com/get-skype/">Λήψη του Skype</link> page.</p></item>
+
+    <item><p>Πατήστε το κουμπί <gui>Λήψη του DEB Skype for Linux</gui> button.</p></item>
+
+    <item><p>Στο παράθυρο που θα εμφανιστεί, επιλέξτε <gui>Άνοιγμα με</gui> και <gui>Εγκατάσταση λογισμικού (προεπιλογή)</gui> και στη συνέχεια πατήστε το κουμπί <gui>Εντάξει</gui>.</p></item>
+
+    <item><p>Έχει ανοίξει το <app>Λογισμικό Ubuntu</app>. Πατήστε το κουμπί <gui>Εγκατάσταση</gui> και πληκτρολογήστε τον κωδικό σας στον έλεγχο ταυτότητας.</p></item>
+
+  </list>
+
+</page>

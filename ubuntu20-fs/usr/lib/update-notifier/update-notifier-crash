@@ -1,0 +1,22 @@
+#!/bin/sh
+set -e
+
+# if whoopsie in never report mode, don't show anything.
+which whoopsie
+has_whoopsie=$?
+systemctl -q is-enabled whoopsie
+whoopsie_enabled=$?
+if [ $has_whoopsie -eq 0 -a $whoopsie_enabled -ne 0 ]; then
+    exit 0
+fi
+
+if /usr/share/apport/apport-checkreports; then
+    /usr/share/apport/apport-gtk
+else
+    if /usr/share/apport/apport-checkreports --system; then
+        if groups | grep -qE "sudo|admin" ; then
+            /usr/lib/update-notifier/system-crash-notification
+        fi
+    fi
+fi
+

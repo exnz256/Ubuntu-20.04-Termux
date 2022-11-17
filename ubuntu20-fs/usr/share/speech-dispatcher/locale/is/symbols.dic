@@ -1,0 +1,93 @@
+﻿#locale/is/symbols.dic
+#A part of NonVisual Desktop Access (NVDA)
+#Copyright (c) 2011 Peter Vágner <peter.v@datagate.sk>
+#Copyright (c) 2013 Birkir R. Gunnarsson <birkir.gunnarsson@gmail.com>
+#Copyright (c) 2013 H M. Hreinsson <hm.hreinsson@gmail.com>
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+#
+
+symbols:
+# identifier	replacement[[	level][	preserve]][	# display name]
+
+# Complex symbols
+. sentence ending	punktur
+! sentence ending	upphrópun
+? sentence ending	spurningamerki
+; phrase ending	semíkomma
+: phrase ending	tvípunktur
+decimal point		none	always
+in-word '	úrfellingarmerki
+negative number	mínus
+
+# Whitespace
+\0	autt
+\t	dálkabil
+\n	ný lína
+\f	ný síða
+\r	línubil
+ 	bil
+ 	bil	char	# no-break space
+
+# Standard punctuation/symbols
+!	upphrópun
+"	gæsalöpp
+\#	oddakassi
+$	dollaramerki
+£	pundmerki
+€	evrur
+%	prósent
+&	og
+'	úrfellingarmerki
+(	svigi opnast
+)	svigi lokast
+*	stjarna
++	plús
+,	komma
+-	bandstrik
+.	punktur
+/	skástrik
+:	tvípunktur
+;	semíkomma
+<	minna en
+>	stærra en
+=	samasem
+?	spurningamerki
+@	hjá
+[	hornklofi opnast
+]	hornklofi lokast
+\\	öfugt skástrik
+^	veldismerki
+_	undirstrik
+`	bylgja
+{	slaufusvigi opnast
+}	slaufusvigi lokast
+|	pípa
+~	bylgja
+
+# Other characters
+•	upptalningarmerki
+…	punktur punktur punktur
+...	punktur punktur punktur
+	upptalningarmerki
+“	gæsalappir opnast
+”	gæsalappir lokast
+‘	vinstri komma
+’	hægri komma
+–	þankastrik styttra
+—	þankastrik lengra
+●	hringur
+¨	diaeresis
+‎	vinstri til hægri mark
+‏	hægri til vinstri mark

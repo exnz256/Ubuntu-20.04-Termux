@@ -1,0 +1,7 @@
+bc4991be3f1e67ad08c4393d34ef9322  usr/bin/Xtigervnc
+170caa646d7b4067266c497e203bbfae  usr/bin/tigervncserver
+de387e72b4d7b7ba11981d130a5b4b94  usr/share/doc/tigervnc-standalone-server/changelog.Debian.gz
+046a3ec93de7b82f151fb5114749e0f6  usr/share/doc/tigervnc-standalone-server/copyright
+f7cf07b91692a13cb7144f1c40b282b9  usr/share/man/man1/Xtigervnc.1.gz
+ec359b4a60e0f9b15b920c3edc114861  usr/share/man/man1/tigervncserver.1.gz
+fdd98c2164e3571dfbecb9d3eece0c25  usr/share/man/man5/vnc.conf.5x.gz

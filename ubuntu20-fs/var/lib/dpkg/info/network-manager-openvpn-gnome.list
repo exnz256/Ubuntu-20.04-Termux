@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/NetworkManager
+/usr/lib/NetworkManager/nm-openvpn-auth-dialog
+/usr/lib/aarch64-linux-gnu
+/usr/lib/aarch64-linux-gnu/NetworkManager
+/usr/lib/aarch64-linux-gnu/NetworkManager/libnm-vpn-plugin-openvpn-editor.so
+/usr/share
+/usr/share/appdata
+/usr/share/appdata/network-manager-openvpn.metainfo.xml
+/usr/share/doc
+/usr/share/doc/network-manager-openvpn-gnome
+/usr/share/doc/network-manager-openvpn-gnome/copyright
+/usr/share/doc/network-manager-openvpn-gnome/changelog.Debian.gz

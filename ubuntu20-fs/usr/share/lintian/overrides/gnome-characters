@@ -1,0 +1,2 @@
+# gnome-characters depends on libglib2.0-bin
+desktop-command-not-in-package usr/share/applications/org.gnome.Characters.desktop gapplication

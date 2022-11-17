@@ -1,0 +1,12 @@
+52a6435106a1d3b2a270d803ce5e8ec8  usr/bin/spd-conf
+6d5cca4b920f985679af72b05954e45b  usr/lib/python3/dist-packages/speechd/__init__.py
+d4165f1632650be5a04fb92cf7e0c809  usr/lib/python3/dist-packages/speechd/_test.py
+d28323085e6985f27789d873ff8d4d52  usr/lib/python3/dist-packages/speechd/client.py
+e3d95991485a44576f665de33872ee36  usr/lib/python3/dist-packages/speechd/paths.py
+8bf18656b9c3235ebd29d009fdd2716f  usr/lib/python3/dist-packages/speechd_config/__init__.py
+49de34fa2ea493815c7aa456ea37232a  usr/lib/python3/dist-packages/speechd_config/config.py
+73e72d4db1b5f276f4c1daa480c71f7c  usr/lib/python3/dist-packages/speechd_config/paths.py
+6c83ced89d88f013aeac570b8102c6dd  usr/share/doc/python3-speechd/changelog.Debian.gz
+a7ad66d14d897a5f7b2ee3b712f7d573  usr/share/doc/python3-speechd/copyright
+c6291fafdef05adbcd525f39034bd13e  usr/share/man/man1/spd-conf.1.gz
+aba42fc88716b34e1b3303b201521c64  usr/share/sounds/speech-dispatcher/test.wav

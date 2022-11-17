@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Emoji Choice
+Icon=ibus
+Exec=ibus emoji
+Type=Application
+NoDisplay=true
+X-Desktop-File-Install-Version=0.24
+X-Ubuntu-Gettext-Domain=ibus10

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="report-ubuntu-bug" xml:lang="id">
+
+  <info>
+    <link type="guide" xref="more-help"/>
+    <desc>Bagaimana dan di mana untuk melaporkan masalah dengan Ubuntu.</desc>
+
+    <revision version="13.10" date="2013-09-19" status="review"/>
+
+    <credit type="author">
+      <name>Tim Dokumentasi Ubuntu</name>
+      <email>ubuntu-doc@lists.ubuntu.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>Melaporkan masalah di Ubuntu</title>
+
+<p>Jika Anda melihat masalah di Ubuntu, Anda dapat mengajukan <em>laporan bug</em>.</p>
+
+<steps>
+ <item>
+  <p>Ketik <keyseq><key>Alt</key><key>F2</key> </keyseq> dan ketik <input>ubuntu-bug namaprogram</input></p>
+  <p>Jika Anda memiliki masalah perangkat keras atau tidak tahu nama program yang terpengaruh, cukup ketikkan<input>ubuntu-bug</input></p>
+ </item>
+
+ <item><p>Setelah menjalankan salah satu perintah di atas, Ubuntu akan mengumpulkan informasi tentang bug. Ini mungkin memakan waktu beberapa menit. Tinjau informasi yang dikumpulkan jika Anda inginkan. Klik <gui>Kirim</gui> untuk melanjutkan.</p>
+ </item>
+
+ <item><p>Tab peramban web baru akan terbuka untuk melanjutkan pemrosesan data bug. Ubuntu menggunakan situs web <app>Launchpad</app> untuk mengelola laporan bug. Jika Anda tidak memiliki akun Launchpad, Anda akan perlu mendaftar untuk mengajukan bug dan menerima surel pemutakhiran tentang statusnya. Anda dapat melakukannya dengan mengklik <gui>Create a new account</gui>.</p>
+ </item>
+
+
+ <item><p>Setelah masuk ke Launchpad, masukkan deskripsi masalah di bidang ringkasan.</p>
+ </item>
+
+ <item><p>Setelah mengklik <gui>Berikutnya</gui> Launchpad akan mencari bug yang sama dalam kasus bug yang Anda kirim telah dilaporkan. Jika bug telah dilaporkan, Anda dapat menandai bug tersebut sebagai juga mempengaruhi Anda. Anda juga dapat berlangganan laporan bug untuk menerima update tentang kemajuan dengan memperbaikinya. Jika bug belum dilaporkan, klik <gui>Tidak, saya perlu melaporkan bug baru</gui>.</p>
+ </item>
+
+ <item><p>Isi kolom deskripsi dengan informasi sebanyak mungkin. Penting bagi Anda untuk menentukan tiga hal:</p>
+
+  <list type="disc">
+  <item><p>Apa yang Anda harapkan terjadi</p></item>
+  <item><p>Apa yang sebenarnya terjadi</p></item>
+  <item><p>Jika mungkin, serangkaian langkah minimal yang diperlukan untuk mewujudkannya, di mana langkah 1 adalah "memulai program"</p></item></list>
+
+ </item>
+  <item><p>Laporan Anda akan diberikan nomor ID, dan statusnya akan diperbarui seperti ketika sedang ditangani. Terima kasih untuk membantu membuat Ubuntu lebih baik!</p>
+ </item>
+</steps>
+
+<note><p>Jika Anda mendapatkan kesalahan "Ini bukan paket Ubuntu asli", itu berarti bahwa perangkat lunak Anda coba untuk laporkan bugnya bukan dari repositori resmi Ubuntu. Dalam hal ini, Anda tidak dapat menggunakan alat pelaporan bug bawaan Ubuntu.</p></note>
+
+<p>Untuk informasi lebih lanjut tentang melaporkan bug di Ubuntu, silakan baca <link href="https://help.ubuntu.com/community/ReportingBugs">dokumentasi daring</link> yang ekstensif.</p>
+</page>

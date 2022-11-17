@@ -1,0 +1,13 @@
+2be78386e34e1eae15bde14e2d8d8972  usr/lib/systemd/user/xdg-desktop-portal.service
+93ce04c9d8a18f6c32e85ec1f518b078  usr/lib/systemd/user/xdg-document-portal.service
+1b2d149a716d0c31ccfcfe2e156dfda0  usr/lib/systemd/user/xdg-permission-store.service
+95fd7ea5f0143ca3954e7cb06a392827  usr/libexec/xdg-desktop-portal
+37d7c84f683a17dbc45fd3e008de8fe6  usr/libexec/xdg-desktop-portal-validate-icon
+ba07fd8285aedc17ba6f21ab1ae443d6  usr/libexec/xdg-document-portal
+b9d106c3b0e92d62dc59897fa12bce1a  usr/libexec/xdg-permission-store
+8494bf127e3d32b8429dd3893f80e407  usr/share/dbus-1/services/org.freedesktop.impl.portal.PermissionStore.service
+2f4647b7da115cfa18a97c7c109c1b4c  usr/share/dbus-1/services/org.freedesktop.portal.Desktop.service
+ded0f0b1b1c789ea3751d23937f616d9  usr/share/dbus-1/services/org.freedesktop.portal.Documents.service
+ef5264ad31fcc59086f5d85d89188178  usr/share/doc/xdg-desktop-portal/NEWS.gz
+9f3390943cd009ff53671f81a41d620d  usr/share/doc/xdg-desktop-portal/changelog.Debian.gz
+adaf4043d2ff69e87ec6c3585de05c1e  usr/share/doc/xdg-desktop-portal/copyright

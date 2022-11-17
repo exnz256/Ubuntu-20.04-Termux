@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="pulseaudio" xml:lang="de">
+    <info>
+        <link type="guide" xref="settingsmenu"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>David Keller</mal:name>
+      <mal:email>davidkeller@tuta.io</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+    <title>PulseAudio</title>
+    <p>PulseEffects verfügt über zwei GStreamer-Pipelines. Eine, die Effekte für die Ausgabe von Anwendungen anwendet und eine andere, die Effekte für das Mikrofon anwendet. Hier kann der Benutzer einige erweiterte Parameter für beide Pipelines einstellen.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Vorgabe verwenden</em>
+            </title>
+            <p>Verwenden des standardmäßigen Ein- oder Ausgabegerätes.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Puffer</em>
+            </title>
+            <p>Puffergröße des Pulsesrc-Plugins. Beeinflusst die Latenz</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Latenz</em>
+            </title>
+            <p>Pulsesrc-Plugin-Latenzwert.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Blockgröße</em>
+            </title>
+            <p>Hiermit wird die Größe des Audiopuffers gesteuert. Höhere Werte erhöhen die Latenzzeit, verringern aber die CPU-Nutzung einiger weniger Plugins.</p>
+        </item>
+    </terms>
+</page>

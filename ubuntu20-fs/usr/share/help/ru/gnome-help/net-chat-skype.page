@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="net-chat-skype" xml:lang="ru">
+  <info>
+    <link type="guide" xref="net-chat" group="#last"/>
+    <link type="seealso" xref="net-chat-video"/>
+
+    <revision version="18.04" date="2018-03-19" status="review"/>
+
+    <credit type="author">
+      <name>Команда документации Ubuntu</name>
+    </credit>
+
+    <desc><app>Skype</app> является проприетарной программой и в Ubuntu его придётся установить вручную</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>Как я могу использовать Skype в Ubuntu?</title>
+
+  <p><app>Skype</app> — это проприетарная программа, позволяющая осуществлять звонки через Интернет с помощью компьютера.</p>
+
+  <p>Skype использует технологии децентрализованных пиринговых (peer-to-peer) сетей, поэтому звонки проходят не через центральный сервер, а через распределённые серверы и других пользователей.</p>
+
+  <p>Skype — бесплатная, но не свободная программа, её исходный код закрыт и не доступен для изменений.</p>
+
+  <p>Skype не установлен в Ubuntu по умолчанию. Выполните следующие шаги для установки <app>Skype для Linux</app>:</p>
+
+  <list type="disc">
+
+    <item><p>Откройте веб-браузер и перейдите на страницу <link href="https://www.skype.com/get-skype/">Скачать  Skype</link>.</p></item>
+
+    <item><p>Нажмите кнопку <gui>Скачать Skype для Linux DEB</gui>.</p></item>
+
+    <item><p>В появившемся окне выберите <gui>Открыть в</gui> и <gui>Установка приложений (по умолчанию)</gui>, затем нажмите кнопку <gui>OK</gui>.</p></item>
+
+    <item><p>Откроется <app>Менеджер приложений Ubuntu</app>. Нажмите кнопку <gui>Установить</gui> и введите пароль.</p></item>
+
+  </list>
+
+</page>

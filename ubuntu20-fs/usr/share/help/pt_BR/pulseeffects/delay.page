@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="delay" xml:lang="pt-BR">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    </info>
+    <title>Atraso</title>
+    <p>Este plugin permite adicionar um pequeno atraso a cada canal individualmente</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Esquerdo</em>
+            </title>
+            <p>Atraso do canal esquerdo.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Direito</em>
+            </title>
+            <p>Atraso do canal direito.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Referências</title>
+        <list>
+            <item>
+                <p>
+                    <link href="http://lsp-plug.in/?page=manuals&amp;section=comp_delay_x2_stereo" its:translate="no">
+                        http://lsp-plug.in/?page=manuals&amp;section=comp_delay_x2_stereo
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Delay_(audio_effect)" its:translate="no">
+                        https://en.wikipedia.org/wiki/Delay_(audio_effect)
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

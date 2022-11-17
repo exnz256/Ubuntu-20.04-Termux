@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="addremove-creator" xml:lang="sl">
+
+  <info>
+    <credit type="author">
+      <name>Dokumentacijska ekipa Ubuntu</name>
+    </credit>
+
+    <desc>Pretvorite pomnilniško napravo USB v nosilec, s katerim boste lahko zagnali in namestili Ubuntu.</desc>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <link type="guide" xref="disk"/>
+    <link type="guide" xref="addremove" group="#last"/>
+
+    <revision version="17.10" date="2017-09-26" status="review"/>
+  </info>
+
+  <title>Ustvarite zagonski disk</title>
+
+  <p>V tem okvirju je zagonski disk pomnilniška naprava USB, s katerim lahko zaženete in <link href="https://www.ubuntu.com/download/desktop/install-ubuntu-desktop">namestite Ubuntu</link>. Velikost pomnilniške naprave USB mora biti vsaj 2 GB. Vsi podatki na pomnilniški napravi USB bodo izgubljeni, ko boste ustvarili zagonski disk.</p>
+
+  <p>Domneva se, da ste prenesli ISO odtisk Ubuntuja.</p>
+
+  <p>Za ustvarjanje zagonskega diska iz ISO odtiska Ubuntuja:</p>
+    
+  <steps>
+    <item>
+      <p>Odprite <app>Ustvarjalnik zagonskih diskov</app> preko <em>Dejavnosti</em> v iskalni vrstici.</p>
+    </item>
+    <item>
+      <p>
+        If the ISO image is in your <gui>Download</gui> folder and there is just one ISO image, <app>Startup Disk Creator</app> will have selected it,
+        otherwise select the correct ISO image.
+      </p>
+    </item>
+    <item>
+      <p>
+        If your computer has just one USB flash drive, <app>Startup Disk Creator</app> will have selected it, otherwise select the correct drive.
+      </p>
+    </item>
+    <item>
+      <p>Kliknite <gui>Ustvari zagonski disk</gui>.</p>
+    </item>
+    <item>
+      <p>Kliknite <gui>Da</gui> za potrditev. Opravilo bo trajalo deset minut ali manj.</p>
+    </item>
+
+    <item>
+      <p>Ko se odpre okno "Namestitev končana", kliknite <gui>Končaj</gui>.</p>
+    </item>
+
+  </steps>
+
+
+
+</page>

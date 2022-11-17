@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="numeric-keypad" xml:lang="lt">
+
+  <info>
+    <link type="guide" xref="keyboard"/>
+    <desc>Įjungti skaičių klaviatūrą (numeric keypad) automatiškai.</desc>
+
+    <revision version="18.04" date="2018-03-19" status="review"/>
+
+    <credit type="author">
+      <name>Ubuntu documentacijos komanda</name>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>Skaitmenų klaviatūra</title>
+
+  <p>Paspaudę <key>Num Lock</key> klavišą jūs galite įjungti arba išjungti skaitmenų klaviatūrą, kuri yra dešinėje klaviatūros pusėje. Dalies kompiuterių BIOS nustatymuose taip pat yra galimybė įjungti skaičių klaviatūrą (NumLock) startuojant kompiuteriui. Jei jums nepavyksta įjungti skaičių klaviatūros - išbandykite šį metodą:</p>
+
+  <steps>
+    <item>
+      <p><link href="apt:numlockx">Įdiekite</link> the <em>numlockx</em> paketą.</p>
+    </item>
+    <item>
+      <p>Atverkite <app><link xref="startup-applications">Paleidžiamų programų nustatymus</link></app> ir paspaudę <gui>Pridėti</gui> atsivėrusiame langelyje įrašykite į <gui>Komanda:</gui> laukelį: <cmd>numlockx on</cmd></p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Dauguma atvejų nebūtina pridėti <em>numlockx</em> prie automatiškai paleidžiamų programų, užtenka prisijungus savo naudotoju paspausti <key>Num Lock</key> ir skaičių klaviatūra bus įjungiama automatiškai kiekvieną kartą pasileidus Ubuntu darbastalio seansui.</p>
+  </note>
+
+</page>

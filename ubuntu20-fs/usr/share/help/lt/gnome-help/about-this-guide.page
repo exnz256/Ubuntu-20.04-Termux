@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="tip" id="about-this-guide" xml:lang="lt">
+
+  <info>
+    <credit type="author">
+      <name>GNOME projekto dokumentacijos komanda</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Ubuntu documentacijos komanda</name>
+    </credit>
+    <desc>Keletas patarimų kaip naudotis Ubuntu darbalaukio vadovu.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <link type="guide" xref="more-help"/>
+    <revision version="17.10" date="2017-05-02" status="review"/>
+  </info>
+
+  <title>Apie šį vadovą (žinyną)</title>
+
+  <p>Šiame vadove aprašomos Ubuntu operacinės sistemos darbalaukio galimybės, atsakoma į bendrus klausimus apie naudojimąsi kompiuteriais bei duodami patarimai kaip efektyviausiai naudotis kompiuteriu bei programomis.</p>
+
+  <list type="disc">
+    <item>
+      <p>Žinynas sudarytas iš lengvai suprantamų temų, kur aprašomos konkrečios užduotys, todėl jūs greitai surasite atsakymus į iškilusius klausimus.</p>
+    </item>
+    <item>
+      <p>Su rodoma informacija susiję patarimai yra rodomi teksto apačioje - paspauskte ant nuorodų į jums naudingą informaciją po užrašais „Daugiau informacijos“ bei „Taip pat žr."</p>
+    </item>
+    <item>
+      <p>Šio žinyno lango viršuje dešiniau yra <em>paieškos mygtukas</em>, kurį paspaudus viršuje atsiras <em>paieškos laukelis</em> - rašykite ten ko jums reikia ir surasti vadovo puslapiai bus rodomi iškart jums berašant.  Tuomet tiesiog spustelkite ant temos iš atsiradusio sąrašo.</p>
+    </item>
+    <item>
+      <p>Šis žinynas yra dažnai tobulinamas bei papildomas. Stengiamės pateikti kuo išsamesnę bei naudingesnę pagalbą, tačiau žinome, kad čia neatsakysime į visus jums iškylančius klausimus, todėl nuolat papildysime šį vadovą nauja, Jums naudingiausia informacija.</p>
+    </item>
+  </list>
+
+  <p>Dėkojame, kad naudojatės <em>Ubuntu Darbalaukio vadovu</em>.</p>
+
+  <p>-- Ubuntu Documentacijos komanda</p>
+
+</page>

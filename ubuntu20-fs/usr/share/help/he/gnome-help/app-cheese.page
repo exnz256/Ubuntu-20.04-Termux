@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="app-cheese" xml:lang="he">
+
+  <info>
+    <credit type="author">
+      <name>מיזם התיעוד של אובונטו</name>
+      <email>ubuntu-doc@lists.ubuntu.com</email>
+    </credit>
+    <desc>זה כמו תא צילום פרטי משלך.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <link type="guide" xref="media#videos"/>
+    <revision version="16.04" date="2016-03-16" status="review"/>
+  </info>
+
+  <title>מאפשר ליצור תמונות וסרטונים חמודים עם מצלמת הרשת שלך</title>
+
+  <p>עם היישום <app>Cheese</app> ומצלמת הרשת שלך, אפשר לצלם תמונות וסרטונים, להוסיף אפקטים מיוחדים משעשעים ולשתף את כל הכיף הזה עם אחרים.</p>
+
+  <p>לעזרה בשימוש ב־Cheese, מומלץ לקרוא את <link href="help:cheese">המדריך למשתמש ב־Cheese</link>.</p>
+
+</page>

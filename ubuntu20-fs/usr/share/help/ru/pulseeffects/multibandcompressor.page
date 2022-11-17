@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="multibandcompressor" xml:lang="ru">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    </info>
+    <title>Multiband Compressor</title>
+    <p>
+        This kind of compressor splits the signal in four different frequency ranges.
+        These ranges are compressed separately and mixed together afterwards again.
+    </p>
+    <p>PulseEffects использует плагин для усиления басов, разработанный Calf Studio.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Attack</em>
+            </title>
+            <p>Время (в миллисекундах), в течение которого «Компрессор» не уменьшает уровень сигнала после достижения сигналом уровнявыше «Порога срабатывания».</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Release</em>
+            </title>
+            <p>Время (в миллисекундах), в течение которого «Компрессор» продолжает уменьшать уровень сигнала после достижения сигналом уровняниже «Порога срабатывания».</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Порог срабатывания</em>
+            </title>
+            <p>Уровень сигнала, выше которого «Компрессор» уменьшает уровень сигнала на заданный пользователем коэффициент («Степень сжатия»).</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Степень сжатия</em>
+            </title>
+            <p>
+                Set the ratio by which the signal will be reduced.
+            </p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Колено (излом)</em>
+            </title>
+            <p>
+                Controls how smooth is the entrance in the gain reduction phase.
+            </p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Компенсирование</em>
+            </title>
+            <p>
+                It amplifies your signal after processing.
+            </p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Bypass</em>
+            </title>
+            <p>
+                Don't process anything, just bypass the signal of this strip.
+            </p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Detection</em>
+            </title>
+            <p>
+                Choose if the multibandcompressor should take the signal peak for detection or
+                the RMS value (it is smoother).
+            </p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Solo</em>
+            </title>
+            <p>
+                Mute all strips not set to solo.
+            </p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Режим</em>
+            </title>
+            <p>
+                The crossover mode. You can choose between the fourth order Linkwitz-Riley(LR4)
+                and the eighth order Linkwitz-Riley(LR8).
+            </p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Split 1/2</em>
+            </title>
+            <p>
+                Frequency that separates the sub band and the low band.
+            </p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Split 2/3</em>
+            </title>
+            <p>
+                Frequency that separates the low band and the mid band.
+            </p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Split 3/4</em>
+            </title>
+            <p>
+                Frequency that separates the mid band and the high band.
+            </p>
+        </item>
+    </terms>
+    <section>
+        <title>Отклики</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://calf-studio-gear.org/doc/Multiband Compressor.html" its:translate="no">
+                        https://calf-studio-gear.org/doc/Multiband Compressor.html
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Dynamic_range_compression" its:translate="no">
+                        https://en.wikipedia.org/wiki/Dynamic_range_compression
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

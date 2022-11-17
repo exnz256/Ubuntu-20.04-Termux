@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="blacklist" xml:lang="de">
+    <info>
+        <link type="guide" xref="settingsmenu"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>David Keller</mal:name>
+      <mal:email>davidkeller@tuta.io</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+    <title>Anwendungssperrliste</title>
+    <media type="image" src="figures/blacklist.png" its:translate="no"/>
+    <p>Im Einstellungsmenü gibt es eine Option, die es dem Benutzer erlaubt, Effekte auf alle Programme anzuwenden, ohne dass man jedes Programm einzeln einschalten muss. Es gibt jedoch Fälle, in denen der Benutzer möchte, dass eine bestimmte Anwendung von der "Alle aktivieren"-Funktionalität ausgeschlossen wird. Dies kann über eine Blacklist erfolgen. Füge einfach den Namen der Anwendung genau so hinzu, wie er im Eintrag "Anwendungen" angezeigt wird.</p>
+</page>

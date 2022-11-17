@@ -1,0 +1,34 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: xfce4-pulseaudio-plugin
+Source: https://git.xfce.org/panel-plugins/xfce4-pulseaudio-plugin/
+
+Files: *
+Copyright: 2009-2015, Steve Dodier-Lazaro <sidi@xfce.org>
+           2014, Eric Koegel <eric@xfce.org>
+           2015, Guido Berhoerster <guido+xfce@berhoerster.name>
+           2015, Simon Steinbeiss <ochosi@xfce.org>
+           2015-2017, Andrzej <andrzejr@xfce.org>
+           2017, Viktor Odintsev <zakhams@gmail.com>
+           2017, Sean Davis <bluesabre@xfce.org>
+License: GPL-2.0+
+
+Files: debian/*
+Copyright: 2015-2019, Unit 193 <unit193@ubuntu.com>
+License: GPL-2.0+
+
+License: GPL-2.0+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".

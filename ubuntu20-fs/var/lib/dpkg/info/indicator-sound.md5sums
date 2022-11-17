@@ -1,0 +1,12 @@
+1347d2e126ca3094a1c8aec113e12387  usr/lib/aarch64-linux-gnu/indicator-sound/indicator-sound-service
+06cb9d8398538adac98cba3add17b794  usr/lib/systemd/user/indicator-sound.service
+52e0159554ab5de1ce0eaba1bcb064f0  usr/share/apport/package-hooks/source_indicator-sound.py
+90112ad37d2425c7503070f96076d88e  usr/share/dbus-1/interfaces/com.canonical.indicator.sound.AccountsService.xml
+cdb91891fc81cad6d82a0386ca5a4760  usr/share/doc/indicator-sound/changelog.Debian.gz
+80a22e35cb1691d1290f30b65ebbeda6  usr/share/doc/indicator-sound/copyright
+5d2e1c56a742d4f6a85f53c55b44abaf  usr/share/glib-2.0/schemas/com.canonical.indicator.sound.gschema.xml
+8f7e9f5659e0d438a0d8a229fca208c8  usr/share/polkit-1/actions/com.canonical.indicator.sound.AccountsService.policy
+dacaa0b729a21587355435496b6edfbf  usr/share/unity/indicators/com.canonical.indicator.sound
+75d02155b464ba93161e4e2f24194edf  usr/share/upstart/sessions/indicator-sound.conf
+cf3f2a865fbea819dadd439586eaee31  usr/share/upstart/systemd-session/upstart/indicator-sound.override
+097fad1e460dede763d974da4f23a0b3  var/lib/polkit-1/localauthority/10-vendor.d/50-com.canonical.indicator.sound.AccountsService.pkla

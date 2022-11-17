@@ -1,0 +1,8 @@
+8d2a6533aa930c1668f4474bad0db154  usr/share/doc/ubuntu-settings/changelog.gz
+5e847b1c11d975839ed7016f3f945930  usr/share/doc/ubuntu-settings/copyright
+66745d04e0978815e3810a362311bdaf  usr/share/glib-2.0/schemas/10_ubuntu-settings.gschema.override
+4f8e45c39cf737c0f039b7f23a6f78bf  usr/share/ubuntu-wayland/applications/info.desktop
+02f4ada9d9247e5108bdaea8645e9415  usr/share/ubuntu-wayland/applications/texdoctk.desktop
+730939bea29f391b5befd4e6e49423f3  usr/share/ubuntu/applications/gnome-initial-setup.desktop
+4f8e45c39cf737c0f039b7f23a6f78bf  usr/share/ubuntu/applications/info.desktop
+02f4ada9d9247e5108bdaea8645e9415  usr/share/ubuntu/applications/texdoctk.desktop

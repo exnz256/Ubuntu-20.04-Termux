@@ -1,0 +1,11 @@
+200ce345e66853c419d1307c1a52aa8a  usr/bin/ubuntu-report
+54884a2399abdf059fe55f760d542786  usr/lib/systemd/user/ubuntu-report.path
+5684478a5c9790c9a8e6da9e7c0a89cd  usr/lib/systemd/user/ubuntu-report.service
+a761dc6db832531ad35e225e360d3d88  usr/share/bash-completion/completions/ubuntu-report
+3c5e98a634171399d15e62accf656765  usr/share/doc/ubuntu-report/changelog.gz
+2d1cf76f5a47f5784218f04ea5be2062  usr/share/doc/ubuntu-report/copyright
+50e8c062e26f48db5cb49b139c86a3a0  usr/share/man/man3/ubuntu-report-interactive.3.gz
+f7b9224e184492e289623e499f5dd363  usr/share/man/man3/ubuntu-report-send.3.gz
+8cfbd2c2c4d06f81b1f35fef86d98378  usr/share/man/man3/ubuntu-report-show.3.gz
+861143d89fe0a8b547ce95e1bebcdbe7  usr/share/man/man3/ubuntu-report.3.gz
+2cfffce3910d8becc5e8e8e26261a17d  usr/share/zsh/vendor-completions/_ubuntu-report

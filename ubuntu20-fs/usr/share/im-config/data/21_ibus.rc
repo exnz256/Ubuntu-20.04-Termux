@@ -1,0 +1,77 @@
+# start IBus
+# vim: set sts=4 expandtab:
+
+# back off if GNOME desktop and let the GNOME mechanisms handle
+# launching and configuration
+is_gnome () {
+    local OLDIFS="$IFS" desktop retval=1
+    IFS=':'
+    for desktop in $XDG_CURRENT_DESKTOP; do
+        [ "$desktop" = 'GNOME' ] && { retval=0; break; }
+    done
+    IFS="$OLDIFS"
+    return "$retval"
+}
+if is_gnome; then
+    return
+fi
+
+if [ "$IM_CONFIG_PHASE" = 2 ]; then
+# start IBus daemon
+IBUS_ENABLE_SYNC_MODE=0 /usr/bin/ibus-daemon --daemonize --xim
+fi
+
+if [ "$IM_CONFIG_PHASE" = 1 ]; then
+# set variables for the plain XIM
+XMODIFIERS=@im=ibus
+
+GTK_IM_MODULE=xim
+# use immodule only when available for both GTK 2.0 and 3.0
+IM_CONFIG_MARKER2=0
+IM_CONFIG_MARKER="$(imconfig_find_files_with_prefixpath_glob /usr/lib \
+        '/usr/lib/*/gtk-2.0/*/immodules/im-ibus.so' \
+        '/usr/lib/gtk-2.0/*/immodules/im-ibus.so')"
+if [ "x${IM_CONFIG_MARKER}" != "x" ]; then
+    IM_CONFIG_MARKER2=1
+fi
+
+IM_CONFIG_MARKER3=0
+IM_CONFIG_MARKER="$(imconfig_find_files_with_prefixpath_glob /usr/lib \
+        '/usr/lib/*/gtk-3.0/*/immodules/im-ibus.so' \
+        '/usr/lib/gtk-3.0/*/immodules/im-ibus.so')"
+if [ "x${IM_CONFIG_MARKER}" != "x" ]; then
+    IM_CONFIG_MARKER3=1
+fi
+if [ $IM_CONFIG_MARKER2 = 1 ] && [ $IM_CONFIG_MARKER3 = 1 ] ; then
+    GTK_IM_MODULE=ibus
+fi
+
+QT4_IM_MODULE=xim
+# use immodule when available for Qt4
+IM_CONFIG_MARKER="$(imconfig_find_files_with_prefixpath_glob /usr/lib \
+        '/usr/lib/*/qt4/plugins/inputmethods/libqtim-ibus.so' \
+        '/usr/lib/qt4/plugins/inputmethods/libqtim-ibus.so')"
+if [ "x${IM_CONFIG_MARKER}" != "x" ]; then
+    QT4_IM_MODULE=ibus
+fi
+
+QT_IM_MODULE=xim
+# use immodule when available for Qt5
+IM_CONFIG_MARKER="$(imconfig_find_files_with_prefixpath_glob /usr/lib \
+        '/usr/lib/*/qt5/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so' \
+        '/usr/lib/qt5/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so')"
+if [ "x${IM_CONFIG_MARKER}" != "x" ]; then
+    QT_IM_MODULE=ibus
+fi
+
+CLUTTER_IM_MODULE=xim
+# use immodule when available for clutter
+IM_CONFIG_MARKER="$(imconfig_find_files_with_prefixpath_glob /usr/lib \
+        '/usr/lib/*/clutter-imconttext/immodules/im-ibus.so' \
+        '/usr/lib/clutter-imcontext/immodules/im-ibus.so')"
+if [ "x${IM_CONFIG_MARKER}" != "x" ]; then
+    CLUTTER_IM_MODULE=ibus
+fi
+
+
+fi

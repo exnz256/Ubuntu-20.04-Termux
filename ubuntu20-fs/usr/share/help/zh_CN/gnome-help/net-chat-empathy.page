@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="net-chat-empathy" xml:lang="zh-CN">
+  <info>
+    <link type="guide" xref="net-chat"/>
+    <link type="seealso" xref="net-chat-video"/>
+    
+    <revision version="17.10" date="2017-05-02" status="review"/>
+
+    <credit type="author">
+      <name>Ubuntu 文档团队</name>
+      <email>ubuntu-doc@lists.ubuntu.com</email>
+    </credit>
+
+    <desc>使用 <app>Empathy</app>，您可以在多种网络上与朋友和同事聊天、通话和进行视频通讯。</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>在 Ubuntu 上使用即时通讯工具</title>
+
+  <p>使用 <app>Empathy</app> 即时通讯程序，您可与使用 Google Talk、AIM、Windows Live 和其他多种聊天程序的朋友和同事聊天。借助麦克风或网络摄像头，您还可以进行音频或视频通话。</p>
+
+  <p>默认情况下，Ubuntu 中未安装 Empathy，但是您可以从 Ubuntu 软件中心里<link href="apt:empathy">安装</link>。 有关使用 Empathy 的帮助，请阅读<link href="help:empathy">Empathy 手册</link>。</p>
+
+</page>

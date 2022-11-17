@@ -1,0 +1,59 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="display-night-light">
+  <info>
+    <link type="guide" xref="prefs-display"/>
+
+    <revision pkgversion="3.28" date="2018-07-28" status="review"/>
+    <revision pkgversion="3.33.3" date="2019-07-21" status="review"/>
+    <revision pkgversion="3.34" date="2019-11-11" status="review"/>
+
+    <credit type="author copyright">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2018</years>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Night Light changes the color of your displays according to the time
+    of day.</desc>
+  </info>
+
+  <title>Adjust the color temperature of your screen</title>
+
+  <p>A computer monitor emits blue light which contributes to sleeplessness and
+  eye strain after dark. <gui>Night Light</gui> changes the color of your
+  displays according to the time of day, making the color warmer in the
+  evening. To enable <gui>Night Light</gui>:</p>
+
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-introduction#activities">Activities</gui>
+      overview and start typing <gui>Displays</gui>.</p>
+    </item>
+    <item>
+      <p>Click <gui>Displays</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>Click <gui>Night Light</gui> to open the settings.</p>
+    </item>
+    <item>
+      <p>Press <gui>Sunset to Sunrise</gui> to make the screen color follow the
+      sunset and sunrise times for your location. Press the <gui>Manual</gui>
+      button to set the times to a custom schedule.</p>
+    </item>
+    <item>
+      <p>Use the slider to adjust the <gui>Color Temperature</gui> to be more
+      warm or less warm.</p>
+    </item>
+  </steps>
+      <note>
+        <p>The <link xref="shell-introduction">top bar</link> shows when
+        <gui>Night Light</gui> is active. It can be temporarily disabled from
+        the system menu.</p>
+      </note>
+
+
+
+</page>

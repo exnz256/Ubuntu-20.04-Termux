@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb/12.10ubuntu1
+dpkg-maintscript-helper rm_conffile /etc/fonts/conf.avail/69-language-selector-ko-kr.conf 0.75 -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/fonts/conf.avail/29-language-selector-ko-kr.conf 0.75 -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/fonts/conf.avail/69-language-selector-ka-ge.conf 0.86\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/fonts/conf.avail/69-language-selector-ja-jp.conf 0.100\~ -- "$@"
+dpkg-maintscript-helper mv_conffile /etc/profile.d/cedilla-brazil.sh /etc/profile.d/cedilla-portuguese.sh 0.153\~ -- "$@"
+dpkg-maintscript-helper mv_conffile /etc/fonts/conf.avail/69-language-selector-ar.conf /etc/fonts/conf.avail/56-language-selector-ar.conf 0.204.2\~ -- "$@"
+# End automatically added section

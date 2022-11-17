@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="autogain" xml:lang="it-IT">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Digitalone</mal:name>
+      <mal:email>kurmikon@libero.it</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+    <title>Normalizzatore</title>
+    <p>Il Normalizzatore di PulseEffects si basa sulla libreria libebur128. Questo plugin modifica il volume dell'audio basandosi su un livello di Loudness (intensità del volume) percepito che può essere regolato dall'utente.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Livello</em>
+            </title>
+            <p>Intensità della Loudness.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Reset</em>
+            </title>
+            <p>Pulisce la cronologia del Normalizzatore</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Rilevazione Silenzio</em>
+            </title>
+            <p>Quando il valore di intensità acustica momentanea è inferiore alla soglia relativa, si presuppone che l'audio stia producendo del silenzio e la modifica del guadagno viene disattivata . Questo comportamento può essere evitato disabilitando la rilevazione del silenzio.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Usa Media Geometrica</em>
+            </title>
+            <p>La stima della Loudness è ottenuta da una media geometrica dell'intensità acustica momentanea, a breve termine e integrata. Quando questa opzione è disattivata, viene utilizzata la media aritmetica ponderata.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Momentaneo</em>
+            </title>
+            <p>Determina quanto la quota di intensità acustica momentanea influenzerà la stima del livello di Loudness.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Breve Termine</em>
+            </title>
+            <p>Determina quanto la quota di intensità acustica a breve termine influenzerà la stima del livello di Loudness.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Integrato</em>
+            </title>
+            <p>Determina quanto la quota di intensità acustica integrata influenzerà la stima del livello di Loudness.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Relativo</em>
+            </title>
+            <p>Soglia relativa, usata per rilevare il silenzio. Ogni volta che la quota di intensità acustica momentanea è inferiore a questo livello, la modifica del guadagno in uscita viene disattivata.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Loudness</em>
+            </title>
+            <p>Loudness stimata in ingresso. La differenza tra il suo valore e il livello di Loudness determina il guadagno in uscita.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Gamma</em>
+            </title>
+            <p>Gamma della Loudness. Indica quanto è varia la gamma dinamica del segnale audio.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Guadagno</em>
+            </title>
+            <p>Valore del guadagno in uscita. Il segnale di ingresso verrà moltiplicato per questo valore di correzione del guadagno affinche la sua Loudness venga portata al valore impostato come Livello.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Note</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://tech.ebu.ch/loudness#tab" its:translate="no">https://tech.ebu.ch/loudness#tab</link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

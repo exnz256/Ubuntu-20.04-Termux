@@ -1,0 +1,28 @@
+
+[audacious]
+output_bit_depth=32
+
+[audgui]
+filebrowser_win=299,91,672,480
+filesel_path=/sdcard
+
+[gtkui]
+column_widths=10,275,175,10,175,175,10,100,36,10,275,275,275,10,275
+player_x=480
+player_y=53
+
+[gtkui-layout]
+item0_name=Blur Scope
+item0_pos=-1,0,0,276,180
+item1_name=OpenGL Spectrum Analyzer
+item1_pos=-1,0,0,276,180
+item2_name=Spectrum Analyzer
+item2_pos=-1,0,0,280,184
+item_count=3
+
+[skins]
+player_y=26
+skin=/usr/share/audacious/Skins/Refugee
+
+[skins-layout]
+gl-spectrum=9,26,288,192

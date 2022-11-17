@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib/aarch64-linux-gnu
+datadir=/usr/share
+includedir=/usr/include
+
+Name: libgcalc
+Description: GNOME Calculator Libray
+URL: http://live.gnome.org/
+Version: 3.36.0
+Requires: gio-2.0 >= 2.50 gee-0.8 >= 0.20
+Libs: -L${libdir} -lgcalc-2
+Cflags: -I${includedir}/gcalc-2

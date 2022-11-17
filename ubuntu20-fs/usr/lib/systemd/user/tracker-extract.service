@@ -1,0 +1,15 @@
+[Unit]
+Description=Tracker metadata extractor
+ConditionUser=!root
+
+[Service]
+Type=dbus
+BusName=org.freedesktop.Tracker1.Miner.Extract
+ExecStart=/usr/libexec/tracker-extract
+Restart=on-abnormal
+# Don't restart after tracker daemon -k (aka tracker-control -k)
+# Don't restart after seccomp raises SIGSYS either
+RestartPreventExitStatus=SIGKILL SIGSYS
+
+[Install]
+WantedBy=default.target

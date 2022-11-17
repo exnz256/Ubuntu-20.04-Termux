@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="general" xml:lang="it-IT">
+    <info>
+        <link type="guide" xref="settingsmenu"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Digitalone</mal:name>
+      <mal:email>kurmikon@libero.it</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+    <title>Generale</title>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Esegui Servizio all'Avvio</em>
+            </title>
+            <p>Avvia PulseEffects come servizio al prossimo accesso. Viene creato uno script di avvio in <cmd its:withinText="yes">~/.config/autostart</cmd></p>
+        </item>
+        <item>
+            <title id="title_enable_all_apps">
+                <em style="strong" its:withinText="nested">Elabora Ogni Uscita</em>
+            </title>
+            <p>Applica effetti all'uscita di tutte le applicazioni audio. Questa opzione attiverà automaticamente il selettore di tutti i programmi in riproduzione elencati nella voce Applicazioni.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Elabora Ogni Ingresso</em>
+            </title>
+            <p>Applica effetti all'ingresso (microfono) di tutte le applicazioni audio. Questa opzione attiverà automaticamente il selettore di tutti i programmi in registrazione elencati nella voce Applicazioni.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Usa Tema Scuro</em>
+            </title>
+            <p>Usa variante scura del tema GTK.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Reset</em>
+            </title>
+            <p>Reimposta tutti i parametri ai valori predefiniti. Verrà reimpostato anche l'ordine di tutti i plugin.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Tipo Priorità</em>
+            </title>
+            <p>Scegli tra modalità in tempo reale, livello nice o nessuno. Questo parametro consente di scegliere una priorità più alta per i thread dei plugin che elaborano l'audio.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Livello Nice</em>
+            </title>
+            <p>Valore Nice.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Valore Priorità</em>
+            </title>
+            <p>Priorità in tempo reale.</p>
+        </item>
+    </terms>
+</page>

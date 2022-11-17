@@ -1,0 +1,14 @@
+[Unit]
+Description=Tracker file system data miner
+ConditionUser=!root
+
+[Service]
+Type=dbus
+BusName=org.freedesktop.Tracker1.Miner.Files
+ExecStart=/usr/libexec/tracker-miner-fs
+Restart=on-failure
+# Don't restart after tracker daemon -k (aka tracker-control -k)
+RestartPreventExitStatus=SIGKILL
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,14 @@
+59d43d5a31c197a8aa6caacf59c3363d  lib/systemd/system/bolt.service
+ac3b82380563dda31bc1876069239057  lib/udev/rules.d/90-bolt.rules
+822db616ff2beaf892d96187dc92da49  usr/bin/boltctl
+6c7574037a38bb10b323670cc3284feb  usr/libexec/boltd
+f64318429a30577afe8c0096b93248d3  usr/share/dbus-1/interfaces/org.freedesktop.bolt.xml
+cd1a450379ce5649c47aa41f0c07bce6  usr/share/dbus-1/system-services/org.freedesktop.bolt.service
+aceb889c3ac5360e696637057a6a1a0e  usr/share/dbus-1/system.d/org.freedesktop.bolt.conf
+8c7172fe9e52ea0d4d72a23b3bfc2705  usr/share/doc/bolt/README.md
+ce8999adc0675831b2842a4f1b985277  usr/share/doc/bolt/changelog.Debian.gz
+39dbf900bd95b79effef1b04169fa3a9  usr/share/doc/bolt/copyright
+4c2c47b1666a32ccc712aecfa7843c04  usr/share/man/man1/boltctl.1.gz
+b9ea814705d486b23d475ca189277bf3  usr/share/man/man8/boltd.8.gz
+384e8c226d007aa2e11de9a79aa29a85  usr/share/polkit-1/actions/org.freedesktop.bolt.policy
+23ec4f47aa26dff72e764f705df8e530  usr/share/polkit-1/rules.d/org.freedesktop.bolt.rules

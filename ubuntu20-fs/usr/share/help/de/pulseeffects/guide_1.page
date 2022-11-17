@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="guide_1" style="2column" xml:lang="de">
+    <info>
+        <link type="guide" xref="index#guides"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>David Keller</mal:name>
+      <mal:email>davidkeller@tuta.io</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+    <title>Deine internen Notebook-Lautsprecher ohne Equalizer verbessern</title>
+    <p>Dieses Tutorial wurde von Markus Schmidt schmidt@boomshop.net am November 2019 geschrieben</p>
+    <section>
+        <title>Einleitung</title>
+        <p>Wenn du ein Notebook-Benutzer bist, der sich auf seine internen Lautsprecher verlässt, und du - wie ich - ein Modell besitzt, das unter einem blechernen, klirrenden Klang leidet, dann ist PulseEffects deine Rettung!</p>
+        <p>Kommerzielle Betriebssysteme auf Laptops kommen heutzutage oft mit Software wie Dolby Theatre und ähnlichem, um den Klang von lausigen Notebook-Lautsprechern zu etwas substanziellerem und akustisch reichhaltigerem zu machen. Unter Linux erledigt PulseEffects die Arbeit für dich, obwohl im Vergleich zu den kommerziellen Pendants einige manuelle Anpassungen erforderlich sind, bis die Community eine Datenbank mit Voreinstellungen für gängige Geräte eingerichtet hat.</p>
+        <p>Diese DSP-Software wird mit allem geliefert, was man braucht, um den Klang deiner Laptop-Lautsprecher fetter zu machen, mit einer Flexibilität, die man bei anderen Betriebssystemen nicht findet. Leider ist der Nachteil dieser Flexibilität, dass der durchschnittliche Benutzer sich in der schieren Menge der Möglichkeiten verliert. Aus diesem Grund wurde dieses Tutorial erstellt.</p>
+    </section>
+    <section>
+        <title>Warum kein Equalizer?</title>
+        <p>Wir werden die Probleme Stück für Stück mit speziellen Signalprozessoren angehen und dabei bewusst auf Equalizer verzichten. Equalizer helfen hier nicht weiter, sondern neigen dazu, solche Probleme noch zu verschlimmern. Das liegt an der Natur dieses Prozessors, aber auch daran, dass der Anwender dazu neigt, dem Signal etwas hinzuzufügen (additive Equalizer), anstatt zu versuchen, Probleme durch Entfernen aus dem Signal zu beseitigen (subtraktive Equalizer), wie es in der professionellen Welt üblich ist.</p>
+        <p>Aber selbst eine subtraktive Entzerrung würde nicht helfen, da die Verstärker und Lautsprecher in einem Notebook standardmäßig nicht laut genug sind, so dass der Versuch, Probleme auf diese Weise zu beseitigen, zu einem leisen und dennoch kastrierten Klang führt. Und eine nachträgliche Erhöhung der Lautstärke führt in der Regel zu verzerrten Klängen und anderen Problemen, da das System vorher an seinen Grenzen war und ein bloßes Herumfummeln am Frequenzgang gar nicht hilft.</p>
+    </section>
+    <section>
+        <title>Frequenzbereich</title>
+        <p>Wir müssen über den Frequenzbereich sprechen. Für ein besseres Verständnis und wegen der Art und Weise, wie wir unsere Probleme lösen werden, werde ich es auf fünf Bereiche herunterbrechen, nämlich:</p>
+        <list>
+            <item>
+                <p><em style="strong">Sub</em> Mehr oder weniger Vibrationen bis hin zu etwas, das ein Ohr kaum hören kann. Alles von 10Hz bis ~40Hz.</p>
+            </item>
+            <item>
+                <p><em style="strong">Tief oder Bass</em> Wo das gesamte Fundament eines Signals liegt. Hier finden sich die Tiefen von Bassdrums, Bass-Synthesizern und Bassgitarren. Filme besetzen diesen Bereich mit Explosionen, polterndem Wasser, Donner, schwerem Geschützfeuer und ähnlichem. Auf Notebooks und Tablets fehlen sie völlig. Technisch gesehen sind es ~60Hz - ~200Hz.</p>
+            </item>
+            <item>
+                <p><em style="strong">Tief-Mitten</em> Schlage auf einen 0,5m³ Karton und du weißt, was Tief-Mitten sind. Der "Punch" eines Sounds ist hier oft zu finden, auch der Saft von Snare Drums und E-Gitarren. In Filmen sind brüllende Motoren und Schrotflinten in diesem Bereich zu finden. Wir sprechen hier von ~250Hz - ~750Hz.</p>
+            </item>
+            <item>
+                <p><em style="strong">Hoch-Mitten</em> Dies ist der wichtigste und empfindlichste Bereich der Ohren. Die Hauptinformation jeder Art von Signal befindet sich hier. Die menschliche Stimme, das Picking der Gitarren, der Anschlag des Schlagzeugs, die Farbe eines Synthesizers - alles, was die Hauptinformationen des Klangs trägt. Etwas um ~1kHz - ~4kHz.</p>
+            </item>
+            <item>
+                <p><em style="strong">Höhen</em> Die Luft, das Atmen, das Brutzeln, das Plätschern - das ist der Bereich der Höhen. Alles um und über ~5kHz.</p>
+            </item>
+        </list>
+    </section>
+    <section>
+        <title>Testsignal</title>
+        <p>Dafür braucht man definitiv ein gutes Signal. Ich habe mich für Seeed entschieden: <link href="https://www.youtube.com/watch?v=OxAP6ieuDgI" its:translate="no">https://www.youtube.com/watch?v=OxAP6ieuDgI</link></p>
+        <p>Es ist ziemlich zackig, hat viel gut definierte Substanz, klare und helle Höhen, präsenten Gesang, kommt mit einem sehr ausgewogenen Frequenzgang und ist ein toller Mix in Kombination mit großartigem Mastering. Danach habe ich gegen verschiedene Filme und andere Sachen wie Vorträge, klassische Musik und ähnliches getestet und war vom Ergebnis überzeugt. Gut produzierte, moderne Popmusik (meide den 80er und 90er Jahre Kram) ist immer ein gutes Testsignal für diese Art von Arbeit. Filme sind viel zu dynamisch, klassische Musik auch, und sie decken normalerweise nicht einen gleichmäßigen, breiten Frequenzbereich wie diese Art von Signal ab.</p>
+        <p>Wir werden das Notebook nicht zum Hüpfen bringen können. Ziel ist es hier, dass alles, was in der Mischung enthalten ist, ausgewogen hörbar wird und einen präsenten, offenen, breiten und hoffentlich satten Sound erhält.</p>
+        <p>Ich nehme an, dass du keinen Player oder eine Quelle verwendest, die in der Lage ist, Pegel über 0dB zu erzeugen. Ich nehme auch an, dass du nicht z.B. die Lautstärkeleiste von Videoplayern verwendest, um die Lautstärke deiner Quelle zu senken. Dieser Ansatz funktioniert gut für definierte, gemischte und gemasterte Klangquellen wie Musik, Filme, Fernsehen und ähnliches, die mit 100% Lautstärke im Player abgespielt werden. Stelle die gewünschte Lautstärke auf deiner Hardware über PulseAudio <em style="strong">nach</em> der Bearbeitung ein.</p>
+    </section>
+    <section>
+        <title>Probleme</title>
+        <p>Lasst uns zuerst die größten Probleme untersuchen:</p>
+        <terms>
+            <item>
+                <title><em style="strong">Bass</em></title>
+                <p>Das offensichtlichste Problem von Notebook-Lautsprechern ist der blecherne, druckfreie Klang, der keinerlei Bässe wiedergibt. Das liegt an der Größe der Membranen und dem unzureichenden Gehäuse. Glücklicherweise kann Software dieses Problem zumindest ein wenig umgehen.</p>
+            </item>
+            <item>
+                <title><em style="strong">Höhen</em></title>
+                <p>Oft sind die Höhen recht zickig, repräsentieren nicht die "Luft", sondern quälen den Hörer mit ätzenden Zischlauten. Um das zu beheben, müssen wir diesen Frequenzbereich ausgleichen.</p>
+            </item>
+            <item>
+                <title><em style="strong">Gesamtfrequenzgang</em></title>
+                <p>Normalerweise ist das Verhältnis zwischen den verschiedenen Frequenzbereichen Tief, Tief-Mitte, Hoch-Mitte und Höhe ziemlich ungünstig. Dies muss korrigiert werden, obwohl ich ein Tutorial ohne EQ versprochen habe.</p>
+            </item>
+            <item>
+                <title><em style="strong">Verzerrung</em></title>
+                <p>Wegen des dünnen und kastrierten Sounds neigen Anwender dazu, die Lautstärke zu erhöhen oder sogar einen Equalizer hinzuzufügen, um fehlende Frequenzbereiche zu erhöhen. Dies führt in der Regel zu digitalen Verzerrungen, da jedes Signal oberhalb von 0 dB am Soundkarten-DAC von gelegentlichem Knacken bis hin zu einem völlig verzerrten Klang führt.</p>
+            </item>
+            <item>
+                <title><em style="strong">Dynamische Reichweite</em></title>
+                <p>Bei Filmen, aber auch bei Musik, neigen diese winzigen Wandler dazu, leise Geräusche wegzuwischen, aber bei lauten und bassigen Geräuschen durchzudrehen. Aus diesem Grund ist es empfehlenswert, den gesamten Dynamikbereich zu reduzieren, damit man nicht das Ohr auf die Handauflage drücken muss, wenn die Dame im Film zu flüstern beginnt.</p>
+            </item>
+            <item>
+                <title><em style="strong">Stereo-Bild</em></title>
+                <p>Die Stereobasis ist aufgrund der Positionierung der Lautsprecher im Inneren des Laptops recht schmal, was einen Eindruck von fast Monosignalen vermittelt.</p>
+            </item>
+        </terms>
+    </section>
+    <section>
+        <title>Lösungen</title>
+        <p>Fangen wir an, den Ton zu reparieren. Das Ergebnis wird nicht einmal annähernd an etwas Substantielleres heranreichen, aber immerhin werden wir in der Lage sein, das Beste aus den physikalischen Grenzen dieser Wandler herauszuholen.</p>
+        <p>Jeder Parameter, den wir einstellen werden, hängt absolut von deiner Situation und der Hardware ab, die du hast. Jedes Notebook hat seinen eigenen Frequenzgang und Dynamikbereich, so dass es kein Allheilmittel gibt. Aber die Audio-Signalprozessoren, ihre Reihenfolge und ihre Aufgaben sind gut definiert und reproduzierbar.</p>
+        <p>Kümmere dich nicht um das Clipping in den Pegelanzeigen der Plugins. Das Signal wird intern als 32bit-Zahlen verarbeitet (siehe Titelzeile), was einen nicht-clipping Overhead von hunderten von Dezibel ergibt. Das Einzige, was nicht passieren sollte, ist, dass es ein Clipping gibt, wenn das Signal auf den DAC (Digital-Analog-Wandler) der Soundkarte trifft, was zu digitalen Verzerrungen führen würde.</p>
+        <p>Kommen wir zur Signalkette:</p>
+        <terms>
+            <item>
+                <title><em style="strong">Limiter</em></title>
+                <p>Wir beginnen mit der Verwendung des <em style="strong">letzten</em> Signalprozessors. Wie ich bereits erklärt habe, muss das Signal, sobald es auf den DAC der Soundkarte trifft, unter 0dB liegen, da es sonst zu einem verzerrten, unsauberen Klang führt.</p>
+                <p>Ziehe den Limiter an den Anfang der Liste der Prozessoren und aktiviere ihn. Du wirst keinen Unterschied hören, was wir auch erwarten. Er wird sich einschalten, sobald wir das Signal mit allen anderen Prozessoren durcheinander bringen. Stelle den Ausblick auf 2ms, die Ausklingzeit auf 8ms und die Überabtastung auf x4.</p>
+                <p>Ein Limiter überwacht das Signal in (fast) Echtzeit und erkennt Spitzen über einem bestimmten Schwellenwert, in unserem Fall 0 dB. Sobald ein Peak erkannt wird, beginnt er die Lautstärke konstant (innerhalb der Vorausschau) zu senken, bis der Peak unter dem Schwellwert liegt. Danach erhöht er die Lautstärke wieder (innerhalb der Release-Zeit), bis sie wieder normal ist. Auf diese Weise vermeiden wir, dass Signale oberhalb des Thresholds unbemerkt auf den DAC treffen. Wenn man versucht, das Limitieren zu übertreiben, wird es definitiv zu Verzerrungen und anderen Nebenwirkungen führen, aber in unserem Fall ist es nur ein Fire-and-Forget Problemlöser, so dass wir uns auf die Ergebnisse konzentrieren können, ohne zu versuchen, immer wieder mit dem Einpegeln zu spielen.</p>
+                <p>Übertreib's nicht! Das könnte dein gesamtes Klangerlebnis schlechter machen als vorher.</p>
+                <p>Schauen wir uns jetzt die <em style="strong">echte</em> Verarbeitung an.</p>
+            </item>
+            <item>
+                <title><em style="strong">Filter</em></title>
+                <p>Zuerst sollten wir die nicht hörbaren Frequenzen entfernen, denn selbst wenn die Lautsprecher sie nicht wiedergeben können, wird viel Energie verschwendet. Dies führt zu Problemen wie der nicht vollständigen Ausnutzung des Dynamikbereichs und der Einführung von digitalen und physikalischen Verzerrungen.</p>
+                <p>Ziehe den Filter an den Anfang der Liste (oberhalb des Limiters) und aktiviere ihn. Setze den Typ auf 36 dB Hochpass (dies schneidet alles unterhalb einer Frequenz ab und lässt alles oberhalb passieren) und die Frequenz auf 50 Hz (was definitiv unterhalb der Fähigkeiten deines Laptops liegt). Erhöhe die Frequenz kontinuierlich um 10 Hz, bis du eine Veränderung am unteren Ende des akustischen Signals hörst, die etwa 130-160 Hz betragen sollte. Ziehe 10% (oder 15 Hz) ab und stelle diese als Filterfrequenz ein. Bei meiner Maschine beträgt sie 145 Hz, da das Signal schon bei 160Hz beeinflusst wird.</p>
+                <p>Was passiert ist, ist, dass wir alles entfernt haben, was die Lautsprecher überhaupt nicht wiedergeben können, so dass ein kleines bisschen Signal knapp unterhalb dieser Frequenz bleibt, was für den nächsten Schritt ziemlich wichtig ist.</p>
+            </item>
+            <item>
+                <title><em style="strong">Bass-Verstärker</em></title>
+                <p>Lassen wir dem Signal ein paar Hoden wachsen.</p>
+                <p>Ziehe den Bass-Verstärker an die zweite Position nach dem Filter-Plugin und aktiviere ihn. Setze den Boden auf 10Hz und vergiss es (wir haben bereits alles unterhalb der Cutoff-Frequenz des Filter-Plugins entfernt). Erhöhe die Obertöne auf 10 und beginne mit einem Bereich von 200Hz. Nun fange an, den Wert kontinuierlich zu erhöhen, bis der Bass die gesamte Energie übernimmt, was definitiv zu viel ist. Für mich funktioniert es am besten bei +24dB. Das ist riesig, aber mein ThinkPad P1 hat die schlechtesten Lautsprecher, die ich je in einem 2.8k € Notebook gehört habe.</p>
+                <p>Was passiert, ist, dass der Bass-Verstärker dem Signal Frequenzen hinzufügt, die vorher nicht vorhanden waren. Während ein Equalizer nur das anhebt, was bereits im Signal vorhanden ist, verbessert ein Bass-Verstärker das untere Ende, indem er Verzerrungen in einem bestimmten Frequenzbereich hinzufügt. Diese Art der Verzerrung fügt dem Signal so genannte Obertöne hinzu, die ein Vielfaches der vorhandenen Frequenzen sind. Du kannst nahtlos zwischen der 2. und 3. Oberwelle wählen, d.h. eine Frequenz von 100Hz erzeugt ein neues Signal von 200Hz/300Hz/400Hz/600Hz/800Hz/900Hz/... bei variierenden (durch die Oberwelleneinstellung bedingten) und ständig abnehmenden Pegeln. Das bedeutet, dass wir den unteren Bereich effektiv in etwas besser reproduzierbares anheben. Es addiert oder erhöht nicht das <em style="strong">echte</em> Fundament (damit Deine Hose nicht anfängt zu flattern), sondern macht mehr akustische Signale hörbar, die vorher von der Hardware verschluckt wurden.</p>
+                <p>Deine Ausgangsanzeigen werden definitiv anfangen, rot zu blinken, aber das sollte dich nicht kümmern, da es nicht zu einer digitalen Verzerrung des Gesamtsignals führt, wie bereits erklärt wurde.</p>
+                <p>Später, um das Ergebnis zu verfeinern, solltest du mit dem Parameter Betrag spielen, um den Basspegel zu definieren und vielleicht mit dem Bereich, um das obere Ende unserer zusätzlichen Obertöne zu definieren.</p>
+            </item>
+            <item>
+                <title><em style="strong">Multiband-Kompressor</em></title>
+                <p>Dies ist der anspruchsvollste Schritt in der Kette. Selbst Profis haben großen Respekt vor diesem Signalprozessor, da er absolut in der Lage ist, deine Signale im großen Stil zu zerstören. Aber seien wir ehrlich, wir sind Verbraucher und niemand wird den Unterschied zwischen 100 ms und 200 ms Angriffszeit hören - auch nicht bei Notebook- und Tablet-Lautsprechern. Das bedeutet, dass wir mit einigen zuverlässigen, gut etablierten Standardeinstellungen für das Timing und die Frequenzaufteilung arbeiten können.</p>
+                <p>Der Multiband-Kompressor wird für uns mehrere Dinge lösen. Er wird herausragende und störende Frequenzen absenken, die Gesamtdynamik senken und unser Gesamtfrequenzverhalten darstellen. Letzteres ist das, was die meisten Leute mit einem Equalizer zu erreichen versuchen. Die Sache ist die, dass Equalizer nicht dynamisch sind, was die Probleme noch verstärkt, anstatt sie zu lösen.</p>
+                <p>Ziehe den Multiband-Kompressor auf die dritte Position, nach dem Bass-Verstärker und vor dem Limiter.</p>
+                <p>Da der Bass-Verstärker die Energie und den Pegel des Signals wirklich erhöht hat, sollte die Eingangsverstärkung des Multiband-Kompressors als Ausgangspunkt auf -6 dB gesenkt werden. Stellen wir die Teilfrequenzen für die verschiedenen Bänder auf:</p>
+                <list>
+                    <item>
+                        <p>250 Hz</p>
+                    </item>
+                    <item>
+                        <p>1250 Hz</p>
+                    </item>
+                    <item>
+                        <p>5000 Hz</p>
+                    </item>
+                </list>
+                <p>Anschließend setzen wir einige Standardeinstellungen:</p>
+                <list>
+                    <item>
+                        <p>Niedriger Bereich</p>
+                        <list>
+                            <item>
+                                <p>Anstiegszeit: 150 ms</p>
+                            </item>
+                            <item>
+                                <p>Ausklingzeit: 300 ms</p>
+                            </item>
+                            <item>
+                                <p>Schwelle: -16 dB</p>
+                            </item>
+                            <item>
+                                <p>Verhältnis: 5:1</p>
+                            </item>
+                            <item>
+                                <p>Übergang: 12 dB</p>
+                            </item>
+                            <item>
+                                <p>Hebung: 4 dB</p>
+                            </item>
+                        </list>
+                    </item>
+                    <item>
+                        <p>Mittelniedriger Bereich</p>
+                        <list>
+                            <item>
+                                <p>Anstiegszeit: 150 ms</p>
+                            </item>
+                            <item>
+                                <p>Ausklingzeit: 200 ms</p>
+                            </item>
+                            <item>
+                                <p>Schwelle: -24 dB</p>
+                            </item>
+                            <item>
+                                <p>Verhältnis: 3:1</p>
+                            </item>
+                            <item>
+                                <p>Übergang: 9 dB</p>
+                            </item>
+                            <item>
+                                <p>Hebung: 4 dB</p>
+                            </item>
+                        </list>
+                    </item>
+                    <item>
+                        <p>Mittelhoher Bereich</p>
+                        <list>
+                            <item>
+                                <p>Anstiegszeit: 100 ms</p>
+                            </item>
+                            <item>
+                                <p>Ausklingzeit: 150 ms</p>
+                            </item>
+                            <item>
+                                <p>Schwelle: -24 dB</p>
+                            </item>
+                            <item>
+                                <p>Verhältnis: 3:1</p>
+                            </item>
+                            <item>
+                                <p>Übergang: 9 dB</p>
+                            </item>
+                            <item>
+                                <p>Hebung: 4 dB</p>
+                            </item>
+                        </list>
+                    </item>
+                    <item>
+                        <p>Hoher Bereich</p>
+                        <list>
+                            <item>
+                                <p>Anstiegszeit: 80 ms</p>
+                            </item>
+                            <item>
+                                <p>Ausklingzeit: 120 ms</p>
+                            </item>
+                            <item>
+                                <p>Schwelle: -24 dB</p>
+                            </item>
+                            <item>
+                                <p>Verhältnis: 4:1</p>
+                            </item>
+                            <item>
+                                <p>Übergang: 9 dB</p>
+                            </item>
+                            <item>
+                                <p>Hebung: 4 dB</p>
+                            </item>
+                        </list>
+                    </item>
+                </list>
+                <p>Diese Werte sollten ein guter Ausgangspunkt sein.</p>
+                <p>Ein Kompressor senkt Signalpegel, die oberhalb eines bestimmten Schwellwertes auftreten. Er addiert eine einfache Multiplikation zu dem durch das Verhältnis definierte Signal. Wenn die Schwelle auf -24 dB und das Verhältnis auf 2:1 gestellt ist, wird ein Signal von -12 dB tatsächlich zu -18 dB. In diesem Beispiel kann man dann den Makeup-Parameter auf 6dB anheben, da dies "verloren" ging. Wir geben also zunächst laute Signale leiser wieder, um dann die Gesamtlautstärke zu erhöhen, was zu einem geringeren Dynamikumfang führt, wobei leise Teile besser hörbar werden.</p>
+                <p>Die Timing-Einstellungen beeinflussen die "Geschwindigkeit" der Kompression. Anstiegszeit bedeutet, dass ein Signal die Schwelle für diese Zeitspanne überschreiten muss, bis der Kompressor die volle (negative) Verstärkung erreicht. Ausklingzeit legt fest, wie lange das Signal unter der Schwelle bleiben muss, bis die Verstärkung wieder auf 1 zurückgeht.</p>
+                <p>Ein Multiband-Kompressor teilt das Signal in verschiedene Frequenzbereiche auf, um diese ausschließlich mit dedizierten Kompressionsstufen zu bearbeiten. Das bedeutet, dass eine sehr laute Bassdrum kein Crash-Becken beeinträchtigen würde, da sie sich eindeutig in verschiedenen Bändern befinden.</p>
+                <p>Fange an, mit diesen Parametern herumzuspielen:</p>
+                <terms>
+                    <item>
+                        <p><em style="strong">Hebung</em> Dies ist wahrscheinlich die wichtigste Einstellung in diesem Konzept. Hebung hebt das Signal nach der Kompressionsstufe an, was bedeutet, dass es die wahrgenommene Lautstärke jedes einzelnen Bandes direkt beeinflusst. Oder anders ausgedrückt: <em style="strong">das ist Dein Equalizer</em> :) Erhöhe die Hebung einzelner Bänder, um sie lauter oder leiser zu machen. Am Ende hatte ich Low/Low-Mid/High-Mid/High: 4 dB / 3 dB / 6 dB / 6 dB auf meinem ThinkPad P1.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">Eingangspegel</em> Stelle ihn standardmäßig auf -6 dB ein, ich landete bei -3dB. Was passiert, ist, dass ein höherer Eingangspegel alle Bänder des Kompressors gleich stark belastet, was zu einem vermeintlich lauteren Klang führt (nun, die Lautstärke wurde tatsächlich erhöht), ohne dass jedes einzelne Band manuell angepasst werden muss. Dadurch wird der gesamte Dynamikbereich reduziert, leise Teile werden angehoben und laute Teile noch mehr gequetscht.</p>
+                    </item>
+                </terms>
+            </item>
+            <item>
+                <title><em style="strong">Stereowerkzeuge</em></title>
+                <p>Nachdem wir unseren Gesamtsound ausgearbeitet haben, schauen wir nach dem Sahnehäubchen auf dem Kuchen.</p>
+                <p>Ziehe die Stereowerkzeuge an die vierte Position, nach Multiband-Kompressor und vor Limiter. Dieses Werkzeug hat eine Menge Funktionalität, aber wir brauchen nur einen einzigen Parameter. Wechsel auf den letzten Reiter "Output" und stelle den Parameter Stereobasis auf 0,25 ein. Das war's schon.</p>
+                <p>Die Stereobasis wirkt auf die beiden Kanäle. Sie fügt invertierte Signale kreuzweise hinzu. Auf diese Weise kann man ein volles Stereosignal nahtlos auf Mono herunterbringen (durch negative Werte, -1 ist voll mono), aber auch die Stereobasis durch positive Werte anheben. Diese Einstellung hat viele Nebenwirkungen, also nicht übertreiben! Eines der größeren Probleme ist, dass sie den Bassbereich durch verschiedene Effekte reduziert, was wir <em style="strong">definitiv</em> hier nicht wollen.</p>
+                <p>Spiele mit der Stereobasis, um das Erscheinungsbild deines Sounds auf eine schöne, breite Bühne zu verbreiten, ohne die Mitte (Gesang, Snare Drums, Gespräche in Filmen) oder Substanz im unteren Bereich zu verlieren. Höchstwahrscheinlich werden Werte zwischen 0 und 0,5 gute Ergebnisse liefern.</p>
+            </item>
+        </terms>
+    </section>
+    <section>
+        <title>Nachwirkungen</title>
+        <p>Hoffentlich hast du am Ende einen <em style="strong">besseren</em> Sound als vorher. Diese Signalprozessorkette ist in der Lage, deinen Sound komplett zu zerstören, wenn er nicht richtig gemacht wird, kann ihn aber auch verbessern, um mit einigen hochklassigen Notebook-Lautsprechersystemen zu konkurrieren. Alle Hersteller ziehen sich die Hosen gleich an und Dolby Theatre ist keine Raketenwissenschaft, sondern nur einige Presets auf einem vermutlich vergleichbaren Set von Signalprozessoren, die in der vermutlich gleichen Weise wie in diesem Tutorial erklärt, aufgebaut sind.</p>
+        <p>Als mein Notebook neu war, habe ich zuerst das vorinstallierte Windows-System ausgeführt, um zu testen, ob die gesamte Hardware funktioniert. Klanglich erinnerte ich mich bei jedem Test an den schlechten Ruf dieser Maschine, also probierte ich einige Stücke auf Youtube aus - und war ziemlich überzeugt. Nach der Installation meines Linux-Systems war die Begeisterung völlig verflogen - der Sound wurde zu einem quäkenden, drucklosen Etwas. Es stellte sich heraus, dass alle Probleme der internen Lautsprecher auf den fehlenden DSP-Treiber des Soundchips zurückzuführen waren. Aber zum Glück verbrachte Wellington Wallace seine Freizeit damit, die wichtigsten Calf-Plugins für diesen Job in etwas zu gießen, das auf den Systemen der Verbraucher nutzbar ist. Vielen Dank dafür, Kumpel!</p>
+    </section>
+    <section>
+        <title>tl;dr</title>
+        <p>Sorry Kumpel, das geschieht nicht einfach durch das Laden eines Presets, da die Community nicht Apple, Lenovo oder Dell ist, die qualitativ hochwertige Dolby Theatre Treiber für dein spezielles Gerät anbieten.</p>
+    </section>
+</page>

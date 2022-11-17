@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="userpresets" style="2column" xml:lang="pt-BR">
+    <info>
+        <link type="guide" xref="index#ui"/>
+    </info>
+    <title>Criando e Importando Predefinições do Usuário</title>
+    <media type="image" src="figures/userpresets.png" its:translate="no"/>
+    <p>Você pode salvar suas próprias predefinições. Basta escrever um nome e clicar no botão adicionar. As predefinições podem ser importadas clicando no botão à esquerda.</p>
+    <p>Quando você salva uma predefinição, a configuração atual de todos os plugins é salva em seu arquivo. Isso significa que você pode ter predefinições que combinam os efeitos de diferentes plugins.</p>
+    <p>Você também pode fazer uma predefinição carregar automaticamente quando um dispositivo de entrada ou saída é adicionado ao sistema. Basta clicar no botão com setas curvas enquanto o dispositivo desejado estiver selecionado como o dispositivo padrão do sistema.</p>
+</page>

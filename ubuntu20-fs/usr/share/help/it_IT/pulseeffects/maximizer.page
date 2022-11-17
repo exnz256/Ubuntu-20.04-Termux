@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="maximizer" xml:lang="it-IT">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Digitalone</mal:name>
+      <mal:email>kurmikon@libero.it</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+    <title>Maximizer</title>
+    <p>Il Maximizer è un plugin versatile che può essere utilizzato come un compressore, un amplificatore e un limitatore. È controllato principalmente da soli due parametri: limite e soglia. La soglia è un valore relativo che rappresenta l'amplificazione del segnale mentre il limite è il livello massimo di uscita del segnale. Impostando entrambi i valori diversi da zero, il plugin funzionerà come un compressore ascendente con un limitatore impostato sul valore di limite (segnali molto amplificati quando il limite è impostato troppo in basso potrebbero produrre un suono distorto anche senza la presenza del clipping). Quando solo la soglia è impostata a zero, il plugin riduce l'ampiezza del segnale.</p>
+    <p>PulseEffects usa il Maximizer sviluppato da ZamAudio.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Soglia</em>
+            </title>
+            <p>Valore relativo che rappresenta l'amplificazione del segnale. Zero indica nessuna amplificazione. Valori più bassi produrranno un'amplificazione maggiore.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Limite Superiore</em>
+            </title>
+            <p>Massimo valore di picco ammesso in uscita.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Rilascio</em>
+            </title>
+            <p>Impostazione del tempo di rilascio in millisecondi.</p>
+        </item>
+    </terms>
+    <!-- <section> <title>References</title> <list> <item> <p> <link
+    href="http://www.zamaudio.com"> http://www.zamaudio.com </link> </p> </item>
+    </list> </section> -->
+</page>

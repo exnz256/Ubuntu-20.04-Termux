@@ -1,0 +1,17 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: thunar-media-tags-plugin
+Upstream-Contact: Jannis Pohlmann <jannis@xfce.org>
+Source: https://archive.xfce.org/src/thunar-plugins/thunar-media-tags-plugin/
+
+Files: *
+Copyright: © 2006 Jannis Pohlmann <jannis@xfce.org>
+           © 2006 Benedikt Meurer <benny@xfce.org>
+License: GPL-2+
+
+Files: debian/*
+Copyright: 2006 Yves-Alexis Perez <corsac@corsac.net>
+License: GPL-2+
+
+License: GPL-2+
+  On Debian systems, the complete text of the GNU General Public License can be
+  found in `/usr/share/common-licenses/GPL'.

@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb/12.10ubuntu1
+dpkg-maintscript-helper mv_conffile /etc/xdg/autostart/deja-dup-monitor.desktop /etc/xdg/autostart/org.gnome.DejaDup.Monitor.desktop 37.1-1\~ -- "$@"
+# End automatically added section

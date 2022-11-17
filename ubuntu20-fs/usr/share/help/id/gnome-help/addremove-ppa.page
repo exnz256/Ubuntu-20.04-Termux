@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="addremove-ppa" xml:lang="id">
+
+  <info>
+    <credit type="author">
+      <name>Tim Dokumentasi Ubuntu</name>
+    </credit>
+    <desc>Tambahkan PPA untuk mempeluas sumber perangkat lunak yang digunakan Ubuntu untuk instalasi dan peningkatan.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <link type="guide" xref="addremove"/>
+    <link type="seealso" xref="addremove-sources"/>
+    <revision version="18.04" date="2018-03-18" status="review"/>
+  </info>
+
+  <title>Menambahkan suatu Personal Package Archive (PPA, Arsip Paket Pribadi)</title>
+
+  <p><em>Personal Package Archives (PPA, Arsip Paket Pribadi)</em> adalah repositori perangkat lunak yang dirancang untuk pengguna Ubuntu dan lebih mudah dipasang daripada repositori pihak ketiga lainnya. PPA sering digunakan untuk mendistribusikan perangkat lunak prarilis sehingga dapat diuji.</p>
+
+  <note style="warning">
+    <p>Tambahkan repositori perangkat lunak hanya dari sumber yang Anda percayai!</p>
+    <p>Repositori perangkat lunak pihak ketiga tidak diperiksa untuk keamanan atau keandalan oleh anggota Ubuntu, dan mungkin berisi perangkat lunak yang berbahaya bagi komputer Anda.</p>
+  </note>
+
+  <steps>
+    <title>Menginstal PPA</title>
+    <item>
+      <p>Pada halaman ikhtisar PPA, cari tajuk yang <gui>Menambahkan PPA ini ke sistem Anda</gui>. Catat lokasi PPA, yang seharusnya terlihat mirip dengan: <code>ppa:mozillateam/firefox-next</code>.</p>
+    </item>
+    <item>
+      <p>Klik ikon <app>Perangkat Lunak Ubuntu</app> di <gui>Dok</gui>, atau cari <input>Perangkat Lunak</input> di bilah pencarian <em>Aktivitas</em>.</p>
+    </item>
+    <item>
+      <p>Ketika <app>Perangkat Lunak Ubuntu</app> meluncur, klik <gui>Perangkat Lunak &amp; Pembaruan</gui></p>
+    </item>
+    <item>
+      <p>Beralih ke tab <gui>Perangkat Lunak Lain</gui>.</p>
+    </item>
+    <item>
+      <p>Klik <gui>Tambah</gui> dan masukkan lokasi PPA (seperti yang tercantum pada langkah 1).</p>
+    </item>
+    <item>
+      <p>Klik <gui>Tambahkan Sumber</gui>. Masukkan kata sandi Anda di jendela Autentikasi.</p>
+    </item>
+    <item>
+      <p>Tutup jendela <app>Perangkat Lunak &amp; Pembaruan</app>. <app>Perangkat Lunak Ubuntu</app> akan memeriksa sumber perangkat lunak Anda untuk perangkat lunak baru.</p>
+    </item>
+  </steps>
+
+</page>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="addremove-creator" xml:lang="id">
+
+  <info>
+    <credit type="author">
+      <name>Tim Dokumentasi Ubuntu</name>
+    </credit>
+
+    <desc>Mengkonversi USB flash drive ke volume dari mana Anda dapat memulai dan menginstal Ubuntu.</desc>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <link type="guide" xref="disk"/>
+    <link type="guide" xref="addremove" group="#last"/>
+
+    <revision version="17.10" date="2017-09-26" status="review"/>
+  </info>
+
+  <title>Membuat disk awal mula</title>
+
+  <p>Dalam konteks ini disk awal mula adalah sebuah flash drive USB dari mana Anda dapat memulai dan <link href="https://www.ubuntu.com/download/desktop/install-ubuntu-desktop">menginstal Ubuntu</link>. Kapasitas flash drive USB harus minimal 2 GB. Data pada flash drive USB akan hilang ketika Anda membuat disk awal mula.</p>
+
+  <p>Diasumsikan bahwa Anda telah menunduh image ISO Ubuntu.</p>
+
+  <p>Untuk membuat disk awal mula dari image ISO Ubuntu:</p>
+    
+  <steps>
+    <item>
+      <p>Buka <app>Startup Disk Creator</app> melalui bilah pencarian <em>Aktivitas</em>.</p>
+    </item>
+    <item>
+      <p>Jika image ISO ada di dalam folder <gui>Download</gui> dan hanya ada satu image ISO, <app>Startup Disk Creator</app> akan memilihnya, jika tidak pilih image ISO yang benar.</p>
+    </item>
+    <item>
+      <p>Jika komputer Anda memiliki hanya satu flash drive USB, <app>Startup Disk Creator</app> akan memilihnya, jika tidak pilih drive yang benar.</p>
+    </item>
+    <item>
+      <p>Klik <gui>Buat Disk Awal Mula</gui>.</p>
+    </item>
+    <item>
+      <p>Klik <gui>Ya</gui> untuk mengonfirmasi. Proses mestinya makan waktu sepuluh menit atau kurang.</p>
+    </item>
+
+    <item>
+      <p>Ketika jendela "Instalasi Selesai" terbuka klik <gui>Keluar</gui>.</p>
+    </item>
+
+  </steps>
+
+
+
+</page>

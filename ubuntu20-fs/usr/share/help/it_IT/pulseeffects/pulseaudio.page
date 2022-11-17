@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="pulseaudio" xml:lang="it-IT">
+    <info>
+        <link type="guide" xref="settingsmenu"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Digitalone</mal:name>
+      <mal:email>kurmikon@libero.it</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+    <title>Pulseaudio</title>
+    <p>PulseEffects utilizza due pipeline GStreamer. Una che applica effetti all'uscita delle applicazioni e l'altra che applica effetti al microfono. Qui l'utente può impostare alcuni parametri avanzati per entrambe le pipeline.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Usa Predefinito</em>
+            </title>
+            <p>Usa dispositivo/sink di ingresso o uscita predefinito.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Buffer</em>
+            </title>
+            <p>Dimensione del buffer della Pipeline di PulseEffects. Influenza la latenza.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Latenza</em>
+            </title>
+            <p>Valore in microsecondi della latenza della Pipeline di PulseEffects.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Larghezza Blocco</em>
+            </title>
+            <p>Imposta la dimensione del buffer dell'audio. Valori più alti aumentano la latenza ma riducono l'utilizzo della CPU di alcuni plugin.</p>
+        </item>
+    </terms>
+</page>

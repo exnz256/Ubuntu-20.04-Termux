@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="stereotools" xml:lang="it-IT">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Digitalone</mal:name>
+      <mal:email>kurmikon@libero.it</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+    <title>Plugin Stereo</title>
+    <p>PulseEffects usa il Plugin Stereo sviluppato da Calf Studio.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Softclip</em>
+            </title>
+            <p>Crea una sorta di distorsione analogica invece di un hard clipping digitale di 0 db.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Bilanciamento</em>
+            </title>
+            <p>Configura il bilanciamento tra i due canali.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Livello S/C</em>
+            </title>
+            <p/>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Modalità</em>
+            </title>
+            <p>Imposta il normale comportamento stereo (LR-LR) o la conversione tra MS e LR.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Livello Laterale</em>
+            </title>
+            <p>Il livello del segnale laterale.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Bilanciamento Laterale</em>
+            </title>
+            <p>Bilanciamento del segnale laterale.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Livello Medio</em>
+            </title>
+            <p>Posizione del segnale medio nell'audio stereo.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Ritardo L/R</em>
+            </title>
+            <p>Ritardo del canale sinistro o destro (millisecondi). I valori negativi ritardano il canale sinistro e i valori positivi il canale destro.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Base Stereo</em>
+            </title>
+            <p>Imposta la base stereo del tuo materiale senza interruzioni tra mono e canali invertiti.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Fase Stereo</em>
+            </title>
+            <p>Configura la fase stereo del tuo materiale.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Note</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://calf-studio-gear.org/doc/Stereo%20Tools.html" its:translate="no">
+                        https://calf-studio-gear.org/doc/Stereo%20Tools.html
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

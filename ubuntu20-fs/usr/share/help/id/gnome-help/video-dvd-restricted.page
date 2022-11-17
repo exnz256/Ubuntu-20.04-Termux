@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="video-dvd-restricted" xml:lang="id">
+
+  <info>
+    <link type="guide" xref="media#videos" group="#last"/>
+    <link type="seealso" xref="video-dvd"/>
+    
+    <desc>Sebagian besar DVD komersial dienkripsi dan tidak akan dapat diputar tanpa dekripsi perangkat lunak.</desc>
+    
+    <revision version="18.04" date="2018-03-19" status="review"/>
+    <credit type="author">
+      <name>Proyek Dokumentasi Ubuntu</name>
+      <email>ubuntu-doc@lists.ubuntu.com</email>
+    </credit>
+    
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>Bagaimana cara mengaktifkan kodec terbatas untuk memutar DVD?</title>
+
+<p>Dukungan DVD tidak dapat disediakan secara baku di Ubuntu karena pembatasan hukum dan teknis. Sebagian besar DVD komersial dienkripsi dan memerlukan penggunaan perangkat lunak dekripsi untuk memainkannya.</p>
+
+<section id="fluendo">
+ <title>Gunakan Fluendo untuk secara legal memutar DVD</title>
+ <p>Anda dapat membeli dekoder DVD komersial yang dapat menangani perlindungan penyalinan dari <link href="https://fluendo.com/"> Fluendo</link>. Ia bekerja dengan Linux dan mestinya legal untuk digunakan di semua negara.</p>
+</section>
+
+<section id="restricted">
+ <title>Gunakan perangkat lunak dekripsi alternatif</title>
+
+ <note style="warning"><p>Di beberapa negara, penggunaan perangkat lunak dekripsi yang tidak berlisensi di bawah ini tidak diizinkan oleh hukum. Verifikasikan bahwa Anda punya hak untuk menggunakannya.</p></note>
+
+ <steps>
+  <item><p>Instal <link href="apt:libdvdnav4">libdvdnav4</link>, <link href="apt:libdvdread4">libdvdread4</link>, <link href="apt:gstreamer1.0-plugins-bad">gstreamer1.0-plugins-bad</link>, <link href="apt:gstreamer1.0-plugins-ugly">gstreamer1.0-plugins-ugly</link>, dan <link href="apt:libdvd-pkg">libdvd-pkg</link>.</p></item>
+  <item><p>Buka jendela terminal dengan menekan <keyseq><key>Ctrl</key><key>Alt</key><key>T</key></keyseq>.</p></item>
+  <item><p>Jalankan perintah</p>
+    <p><cmd its:translate="no">sudo dpkg-reconfigure libdvd-pkg</cmd></p>
+    <p>dan konfirmasikan untuk menginstal <em>libdvdcss2</em>.</p>
+  </item>
+</steps>
+</section>
+</page>

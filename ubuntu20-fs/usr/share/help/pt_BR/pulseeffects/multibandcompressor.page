@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="multibandcompressor" xml:lang="pt-BR">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    </info>
+    <title>Compressor Multibandas</title>
+    <p>Esse tipo de compressor divide o sinal em quatro faixas de frequência diferentes. Esses intervalos são compactados separadamente e misturados novamente depois.</p>
+    <p>PulseEffects usa o compressor multi bandas desenvolvido por Calf Studio.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Ataque</em>
+            </title>
+            <p>Quantidade de milissegundos que o sinal deve passar acima do limiar para que a redução de ganho comece.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Liberação</em>
+            </title>
+            <p>Quantidade de milissegundos que o sinal tem que passar abaixo do limar antes que a magnitude da redução seja novamente diminuída.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Limiar</em>
+            </title>
+            <p>Se um sinal subir acima deste nível ele afetará a redução de ganho.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Razão</em>
+            </title>
+            <p>Configura a razão pela a qual o sinal é reduzido.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Joelho</em>
+            </title>
+            <p>Controla o quão suave é a entrada na fase de redução de ganho.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Ganho de Saída</em>
+            </title>
+            <p>Amplifique seu sinal após o processamento.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Ignorar</em>
+            </title>
+            <p>Não processe nada, apenas passe adiante o sinal esta faixa.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Detecção</em>
+            </title>
+            <p>Escolha se o compressor deve tomar o pico do sinal para detecção ou o valor RMS(é mais suave).</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Sozinho</em>
+            </title>
+            <p>Silencia todas as faixas não configuradas para solo.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Modo</em>
+            </title>
+            <p>O modo de cruzamento. Você pode escolher entre a quarta ordem Linkwitz-Riley (LR4) e a oitava ordem Linkwitz-Riley (LR8).</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Disivão 1/2</em>
+            </title>
+            <p>Frequência que separa as bandas sub e baixa.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Disivão 2/3</em>
+            </title>
+            <p>Frequência que separa as bandas baixa e média.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Disivão 3/4</em>
+            </title>
+            <p>Frequência que separa as bandas média e alta.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Referências</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://calf-studio-gear.org/doc/Multiband Compressor.html" its:translate="no">
+                        https://calf-studio-gear.org/doc/Multiband Compressor.html
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Dynamic_range_compression" its:translate="no">
+                        https://en.wikipedia.org/wiki/Dynamic_range_compression
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

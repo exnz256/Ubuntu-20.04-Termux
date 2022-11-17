@@ -1,0 +1,11 @@
+33d706bc0320814a061cf698dc3a3013  usr/bin/bwrap
+9263abd03f443015622eca84602b0025  usr/share/bash-completion/completions/bwrap
+71ed4d0806bf382ff8a9c81a4a7326ae  usr/share/doc/bubblewrap/README.md.gz
+46fee203da8ef3a72b9ebcadb066edfc  usr/share/doc/bubblewrap/changelog.Debian.gz
+6c1d04470ed7c447f3776ce02c8fd524  usr/share/doc/bubblewrap/copyright
+4b804568f72df421edd88ccb3edf9619  usr/share/doc/bubblewrap/examples/bubblewrap-shell.sh
+6006336353f42e72bd7ff367f679fd3b  usr/share/doc/bubblewrap/examples/flatpak-run.sh
+429811b60fe9261d2a1838d39d7c24d2  usr/share/doc/bubblewrap/examples/flatpak.bpf
+7a2f420ff65e48ea591ebaf8542cafd0  usr/share/doc/bubblewrap/examples/userns-block-fd.py
+0eb516b3616eacff3a6f8eca0eef6940  usr/share/lintian/overrides/bubblewrap
+21b1c6d7c99efb038b703641be71e120  usr/share/man/man1/bwrap.1.gz

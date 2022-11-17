@@ -1,0 +1,3 @@
+# we do use fortify and ssp
+xfce4-sensors-plugin: hardening-no-stackprotector usr/bin/xfce4-sensors
+xfce4-sensors-plugin: hardening-no-fortify-functions usr/lib/x86_64-linux-gnu/xfce4/modules/libxfce4sensors.so.1.2.4

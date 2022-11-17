@@ -1,0 +1,64 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: libmypaint
+Source: https://github.com/mypaint/libmypaint
+#Files-Excluded: m4macros
+
+Files: *
+Copyright: 2007-2017 Martin Renold and contributors
+           2012-2020 the MyPaint Development Team
+           2012 Jon Nordby
+License: ISC
+
+Files: m4macros/ax_*.m4
+Copyright: 
+ 2008 Guido U. Draheim <guidod@gmx.de>
+ 2011 Maarten Bosmans <mkbosmans@gmail.com>
+License: GPL-3.0+
+Comment: Debian is not using those files; the distro-packaged autotools
+ macros are used instead.
+
+Files: m4macros/introspection.m4
+Copyright: 2009 Johan Dahlin
+License: permissive-1
+ This file is free software; the author(s) gives unlimited
+ permission to copy and/or distribute it, with or without
+ modifications, as long as this notice is preserved.
+Comment: Debian is not using this file; the distro-packaged autotools
+ macros are used instead.
+
+Files: rng-double.c
+Copyright: D E Knuth
+           Brendan McKay
+           Jon Nordby
+License: Public-Domain
+ This program by D E Knuth is in the public domain and freely copyable.
+
+License: ISC
+ Permission to use, copy, modify, and/or distribute this software for any
+ purpose with or without fee is hereby granted, provided that the above
+ copyright notice and this permission notice appear in all copies.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+License: GPL-3.0+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".

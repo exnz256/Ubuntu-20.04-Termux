@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="webrtc" xml:lang="de">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>David Keller</mal:name>
+      <mal:email>davidkeller@tuta.io</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+    <title>WebRTC</title>
+    <p>PulseEffects verwendet WebRTC von GStreamer. Dieses Plugin bietet einen Sprachverbesserungsfilter, der auf der WebRTC Audioverarbeitungs-Bibliothek basiert. Diese Bibliothek bietet eine breite Palette von Anreicherungsalgorithmen. Dieses Plugin versucht so viele davon zu aktivieren wie möglich. Die derzeit aktivierten Verbesserungen sind Hochpassfilter, Echounterdrückung, Rauschunterdrückung, automatische Verstärkungsregelung und einige erweiterte Filter.</p>
+    <section>
+        <title>Echounterdrückung</title>
+        <terms>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Erweiterter Filter</em>
+                </title>
+                <p>Aktiviert oder deaktiviert den erweiterten Filter.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Hochpassfilter</em>
+                </title>
+                <p>Aktiviert oder deaktiviert den Hochpassfilter.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Verzögerungsagnostisch</em>
+                </title>
+                <p>Aktiviert oder deaktiviert den Verzögerungsagnostischen Modus.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Unterdrückungsgrad</em>
+                </title>
+                <p>Kontrolliert die Aggressivität des Unterdrückers. Ein höherer Pegel tauscht die Doppelsprechleistung gegen eine erhöhte Echounterdrückung aus.</p>
+            </item>
+        </terms>
+    </section>
+    <section>
+        <title>Rauschunterdrücker</title>
+        <terms>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Unterdrückungsgrad</em>
+                </title>
+                <p>Kontrolliert die Aggressivität der Unterdrückung. Eine Erhöhung des Pegels reduziert den Geräuschpegel auf Kosten einer höheren Sprachverzerrung.</p>
+            </item>
+        </terms>
+    </section>
+    <section>
+        <title>Verstärkungsregler</title>
+        <terms>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Modus</em>
+                </title>
+                <p>Steuert den Modus der Kompressionsstufe.</p>
+            </item>
+        </terms>
+    </section>
+    <section>
+        <title>Kompressor</title>
+        <terms>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Limiter</em>
+                </title>
+                <p>Wenn aktiviert, wird die Kompressionsstufe das Signal hart auf den Zielpegel begrenzen. Andernfalls wird das Signal zwar komprimiert, aber nicht über den Zielpegel hinaus begrenzt.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Zielwert</em>
+                </title>
+                <p>Stellt den Zielspitzenpegel des Gain-Reglers in dBFS ein (Dezibel zur digitalen Vollaussteuerung).</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Maximale Verstärkung</em>
+                </title>
+                <p>Stellt die maximale Verstärkung ein, die die digitale Kompressionsstufe anwenden darf.</p>
+            </item>
+        </terms>
+    </section>
+    <section>
+        <title>Spracherkennung</title>
+        <terms>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Erkennungswahrscheinlichkeit</em>
+                </title>
+                <p>Gibt die Wahrscheinlichkeit an, dass ein Frame als mit Stimme versehen deklariert wird.</p>
+            </item>
+        </terms>
+        <terms>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Rahmengröße</em>
+                </title>
+                <p>Legt die Größe der Frames in ms fest, auf denen der VAD arbeitet. Größere Frames verbessern die Erkennungsgenauigkeit, reduzieren aber die Häufigkeit der Aktualisierungen.</p>
+            </item>
+        </terms>
+    </section>
+    <section>
+        <title>Referenzen</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://gstreamer.freedesktop.org/data/doc/gstreamer/head/gst-plugins-bad/html/gst-plugins-bad-plugins-webrtcdsp.html" its:translate="no">
+                        https://gstreamer.freedesktop.org/data/doc/gstreamer/head/gst-plugins-bad/html/gst-plugins-bad-plugins-webrtcdsp.html
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

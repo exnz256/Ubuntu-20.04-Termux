@@ -1,0 +1,7 @@
+bd39a073d07bb73063ab9df5143259d9  usr/lib/aarch64-linux-gnu/gtk-2.0/modules/libatk-bridge.so
+34900bd11562f427776ed2c05ba6002d  usr/lib/gnome-settings-daemon-3.0/gtk-modules/at-spi2-atk.desktop
+34900bd11562f427776ed2c05ba6002d  usr/lib/unity-settings-daemon-1.0/gtk-modules/at-spi2-atk.desktop
+3ff052ba24ce08755f222ccfd1bff3ef  usr/share/doc/libatk-adaptor/NEWS.gz
+81a3bdf36593b61d2dbb6ef9cfeec63c  usr/share/doc/libatk-adaptor/README
+0367efef71eceef8038d637e0c0999aa  usr/share/doc/libatk-adaptor/copyright
+9e668d14b1463136b74e177fe009e13f  usr/share/lintian/overrides/libatk-adaptor

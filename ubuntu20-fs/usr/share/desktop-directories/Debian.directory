@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Debian
+Comment=The Debian menu
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=debian-logo
+Type=Directory
+NoDisplay=true
+X-Ubuntu-Gettext-Domain=gnome-menus-3.0

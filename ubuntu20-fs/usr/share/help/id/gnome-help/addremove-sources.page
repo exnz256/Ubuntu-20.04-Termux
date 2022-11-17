@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="addremove-sources" xml:lang="id">
+
+  <info>
+    <credit type="author">
+      <name>Tim Dokumentasi Ubuntu</name>
+    </credit>
+    <desc>Menambahkan repositori untuk memperluas sumber perangkat lunak yang digunakan Ubuntu untuk instalasi dan peningkatan.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <link type="guide" xref="addremove"/>
+    <revision version="18.04" date="2018-03-18" status="review"/>
+  </info>
+
+  <title>Menambahkan repositori perangkat lunak</title>
+
+  <p>Perangkat lunak tersedia dari sumber pihak ketiga, serta dari repositori perangkat lunak Ubuntu baku. Jika Anda ingin menginstal perangkat lunak dari repositori perangkat lunak pihak ketiga, Anda harus menambahkannya ke daftar repositori yang tersedia di Ubuntu.</p>
+
+  <note style="warning">
+    <p>Tambahkan repositori perangkat lunak hanya dari sumber yang Anda percayai!</p>
+    <p>Repositori perangkat lunak pihak ketiga tidak diperiksa untuk keamanan atau keandalan oleh anggota Ubuntu, dan mungkin berisi perangkat lunak yang berbahaya bagi komputer Anda.</p>
+  </note>
+
+<p>
+</p>
+   <p>Untuk menambahkan repositori:</p>
+
+  <steps>
+    <item>
+      <p>Klik ikon <app>Perangkat Lunak Ubuntu</app> di <gui>Dok</gui>, atau cari <input>Perangkat Lunak</input> di bilah pencarian <em>Aktivitas</em>.</p>
+    </item>
+    <item>
+      <p>Ketika <app>Perangkat Lunak Ubuntu</app> meluncur, klik <gui>Perangkat Lunak &amp; Pembaruan</gui></p>
+    </item>
+    <item>
+      <p>Anda akan diminta untuk memasukkan kata sandi Anda. Setelah Anda melakukannya, beralih ke tab <gui>Perangkat Lunak Lain</gui>.</p>
+    </item>
+    <item>
+      <p>Klik <gui>Tambah</gui> dan masukkan baris APT untuk repositori. Ini mestinya tersedia dari situs web repositori, dan harus terlihat seperti:</p>
+      <p>
+        <code its:translate="no">deb http://archive.ubuntu.com/ubuntu/ focal main</code>
+      </p>
+    </item>
+    <item>
+      <p>Klik <gui>Tambahkan Sumber</gui> kemudian tutup jendela <app>Perangkat Lunak &amp; Pembaruan</app>. <app>Perangkat Lunak Ubuntu</app> kemudian akan memeriksa sumber perangkat lunak Anda untuk pemutakhiran baru.</p>
+    </item>
+    <item>
+      <p>Sebagian besar repositori menyediakan kunci penandatanganan untuk dapat memverifikasi paket yang diunduh. Jadi, selain langkah di atas, Anda harus mengikuti kemungkinan petunjuk tentang cara mengunduh dan menginstal kunci penandatanganan (kunci GPG).</p>
+    </item>
+  </steps>
+
+  <section id="canonical-partner">
+    <title>Mengaktifkan repositori Canonical Partner</title>
+    <p>Repositori Canonical Partner menawarkan beberapa aplikasi proprietari yang tidak memerlukan biaya untuk digunakan, tetapi merupakan sumber tertutup. Mereka termasuk perangkat lunak seperti <app>Adobe Flash Plugin</app>. Perangkat lunak dalam repositori ini akan muncul dalam hasil pencarian <app>Perangkat Lunak Ubuntu</app> tetapi tidak akan dapat diinstal sampai repositori ini diaktifkan.</p>
+    <p>Untuk mengaktifkan repositori, ikuti langkah di atas untuk membuka tab <gui>Perangkat Lunak Lain</gui> di <app>Perangkat Lunak &amp; Pembaruan</app>. Jika Anda melihat repositori <gui>Canonical Parters</gui> dalam daftar, pastikan itu dicentang lalu tutup jendela <app>Perangkat Lunak &amp; Pembaruan</app>. Jika Anda tidak melihatnya, klik <gui>Tambah</gui> dan masukkan:</p>
+    <p>
+      <code its:translate="no">deb http://archive.canonical.com/ubuntu focal partner</code>
+    </p>
+    <p>Klik <gui>Tambahkan Sumber</gui> kemudian tutup jendela <app>Perangkat Lunak &amp; Pembaruan</app>. Tunggu sejenak agar <app>Perangkat Lunak Ubuntu</app> mengunduh informasi repositori.</p>
+  </section>
+
+</page>

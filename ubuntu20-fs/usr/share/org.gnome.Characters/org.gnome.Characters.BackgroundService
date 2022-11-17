@@ -1,0 +1,7 @@
+#!/usr/bin/gjs
+imports.package.init({ name: "org.gnome.Characters",
+                       version: "3.34.0",
+                       prefix: "/usr",
+                       libdir: "/usr/lib/aarch64-linux-gnu" });
+imports.service.application_id = "org.gnome.Characters";
+imports.package.run(imports.service);

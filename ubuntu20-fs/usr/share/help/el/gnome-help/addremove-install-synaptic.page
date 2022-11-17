@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="addremove-install-synaptic" xml:lang="el">
+
+  <info>
+    <credit type="author">
+      <name>Ομάδα τεκμηρίωσης Ubuntu</name>
+    </credit>
+
+		<credit type="editor">
+      <name>Greg Beam</name>
+      <email>ki7mt@yahoo.com</email>
+    </credit>
+
+    <link type="guide" xref="addremove"/>
+    <revision pkgversion="0.80.4" version="0" date="2014-01-11" status="review"/>
+                <revision version="18.04" date="2018-03-18" status="review"/>
+                <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Το Synaptic είναι ένα ισχυρό, αλλά περίπλοκο πρόγραμμα διαχείρισης λογισμικού, εναλλακτικό του <app>Λογισμικού Ubuntu</app>.</desc>
+  </info>
+
+  <title>Χρησιμοποιήστε το Synaptic για πιο προχωρημένη  διαχείριση λογισμικού</title>
+
+  <p>Ο <app>Διαχειριστής πακέτων Synaptic</app> είναι πιο ισχυρός και μπορεί να κάνει μερικές εργασίες διαχείρισης λογισμικού που το <app>Λογισμικό Ubuntu</app> δε μπορεί. Η διεπαφή του Synaptic είναι πιο περίπλοκη και δεν υποστηρίζει νεότερα χαρακτηριστικά του <app>Λογισμικού Ubuntu</app>, όπως αξιολογήσεις και σχόλια, και επομένως δεν συνίσταται για χρήση από νέους χρήστες του Ubuntu.</p>
+
+  <p>Το Synaptic δεν είναι προεγκατεστημένο, όμως μπορείτε να το <link href="apt:synaptic">εγκαταστήσετε</link> από τα αποθετήρια πακέτων του Ubuntu.</p>
+
+  <section id="install-software-with-synaptic">
+    <title>Εγκατάσταση λογισμικού με το Synaptic</title>
+    <steps>
+      <item>
+        <p>Ανοίξτε το <app>Synaptic</app> μέσω της μπάρας αναζήτησης στις <em>Δραστηριότητες</em>. Θα απαιτηθεί εισαγωγή του κωδικού σας στο παράθυρο <gui>Πιστοποίηση</gui>.</p>
+      </item>
+      <item>
+        <p>Κάντε κλικ στην <gui>Αναζήτηση</gui> για να αναζητήσετε μια εφαρμογή, ή κάντε κλικ στα <gui>Τμήματα</gui> και κοιτάξτε μέσα στις κατηγορίες εφαρμογών για να βρείτε μία.</p>
+      </item>
+      <item>
+        <p>Κάντε δεξί κλικ σε μία εφαρμογή που θέλετε να εγκαταστήσετε και επιλέξτε <gui>Σημείωση για εγκατάσταση</gui>.</p>
+      </item>
+      <item>
+        <p>Αν σας ζητηθεί να επιλέξετε επιπρόσθετες αλλαγές, πατήστε <gui>Επιλογή</gui>.</p>
+      </item>
+      <item>
+        <p>Επιλέξτε οποιεσδήποτε άλλες εφαρμογές θέλετε να εγκαταστήσετε.</p>
+      </item>
+      <item>
+        <p>Κάντε κλικ στην επιλογή <gui>Εφαρμογή</gui> και ύστερα κάντε κλικ ξανά στην επιλογή <gui>Εφαρμογή</gui> στο παρύθυρο που θα εμφανιστεί. Οι εφαρμογές που επιλέξατε θα ληφθούν και θα εγκατασταθούν.</p>
+      </item>
+    </steps>
+
+    <p>Για περισσότερες πληροφορίες σχετικά με τη χρήση του <app>Synaptic</app>, συμβουλευτείτε το σύνδεσμο <link href="https://help.ubuntu.com/community/SynapticHowto">Synaptic How To</link>.</p>
+
+  </section>
+
+</page>

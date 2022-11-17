@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="stereotools" xml:lang="de">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>David Keller</mal:name>
+      <mal:email>davidkeller@tuta.io</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+    <title>Stereowerkzeuge</title>
+    <p>PulseEffects verwendet die Stereotools von Calf Studio.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Softclip</em>
+            </title>
+            <p>Mache eine Art analoge Verzerrung statt hartem digitalen 0db-Clipping.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Balance</em>
+            </title>
+            <p>Stelle die Balance zwischen beiden Kanälen ein.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">S/C-Level</em>
+            </title>
+            <p/>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Modus</em>
+            </title>
+            <p>Wähle normales Stereoverhalten (LR - LR) oder konvertiere zwischen MS und LR.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Seitenebene</em>
+            </title>
+            <p>Der Pegel des Seitensignals.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Seitenausgleich</em>
+            </title>
+            <p>Die Balance des Seitensignals.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Mittlere Ebene</em>
+            </title>
+            <p>Mittlere Signalposition im Stereopanorama.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Verzögerung L/R</em>
+            </title>
+            <p>Verzögere den linken oder den rechten Kanal (Millisekunden). Negative Werte verzögern den linken Kanal und positive Werte den rechten Kanal.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Stereo Basis</em>
+            </title>
+            <p>Stelle die Stereobasis deines Materials nahtlos zwischen Mono und invertierten Kanälen ein.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Stereo Phase</em>
+            </title>
+            <p>Stelle die Stereophase deines Materials ein.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Referenzen</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://calf-studio-gear.org/doc/Stereo%20Tools.html" its:translate="no">
+                        https://calf-studio-gear.org/doc/Stereo%20Tools.html
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

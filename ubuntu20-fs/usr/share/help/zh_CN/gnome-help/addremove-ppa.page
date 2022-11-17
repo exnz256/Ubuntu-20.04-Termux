@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="addremove-ppa" xml:lang="zh-CN">
+
+  <info>
+    <credit type="author">
+      <name>Ubuntu 文档团队</name>
+    </credit>
+    <desc>添加 PPA 以扩展 Ubuntu 用于安装和升级的软件源。</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <link type="guide" xref="addremove"/>
+    <link type="seealso" xref="addremove-sources"/>
+    <revision version="18.04" date="2018-03-18" status="review"/>
+  </info>
+
+  <title>添加个人软件包仓库(PPA)</title>
+
+  <p><em>个人软件包档案（PPA）</em>是为 Ubuntu 用户设计的软件存储库，比其他第三方存储库更易于安装。PPA 通常用于分发预发布软件，以便可以对其进行测试。</p>
+
+  <note style="warning">
+    <p>请务必确保您添加的软件源的安全性。</p>
+    <p>第三方软件库未经过 Ubuntu 开发者检查安全性和可靠性，可能包含对您的计算机有害的软件。</p>
+  </note>
+
+  <steps>
+    <title>安装 PPA</title>
+    <item>
+      <p>在 PPA 概述页面，寻找名为<gui>将此 PPA 添加到系统</gui>的标题。记下 PPA 的位置，它看起来类似于：<code>ppa:mozillateam/firefox-stable</code>。</p>
+    </item>
+    <item>
+      <p>点击 <gui>Dock</gui> 中的 <app>Ubuntu 软件</app> 图标，或者在 <em>活动</em> 搜索框中输入 <input>软件</input>。</p>
+    </item>
+    <item>
+      <p>启动 <app>Ubuntu 软件中心</app>，点击 <gui>软件和更新</gui></p>
+    </item>
+    <item>
+      <p>切换到<gui>其他软件</gui>标签页。</p>
+    </item>
+    <item>
+      <p>点<gui>添加</gui>，输入 PPA 的位置（像第1步里指出的）。</p>
+    </item>
+    <item>
+      <p>单击<gui>添加软件源</gui>并在认证窗口输入密码。</p>
+    </item>
+    <item>
+      <p>关闭 <app>软件和更新</app>窗口，<app>Ubuntu 软件和更新</app>将会为新软件检查软件源。</p>
+    </item>
+  </steps>
+
+</page>

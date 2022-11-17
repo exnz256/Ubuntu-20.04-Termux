@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="addremove-remove" xml:lang="zh-CN">
+
+  <info>
+    <credit type="author">
+      <name>Ubuntu 文档团队</name>
+    </credit>
+    <desc>移除不再使用的应用程序。</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <link type="guide" xref="addremove" group="#first"/>
+    <link type="seealso" xref="addremove-install-synaptic"/>
+    <revision version="18.04" date="2018-03-18" status="review"/>
+  </info>
+
+  <title>删除应用程序</title>
+
+  <p>应用程序是具有图形用户界面（GUI）的软件。您可以使用<app> Ubuntu软件中心</app>删除不再使用的应用程序。</p>
+
+   <p>应用程序有两种格式：snap 软件包和 Debian 软件包。现在可作为 snap 软件包使用的应用程序称为 <em>snap</em>。一些应用程序同时具有这两种格式。在这种情况下， <app>Ubuntu Software</app> 将会优先列出 snap 软件包。</p> 
+
+   <p>您可能还希望删除没有图形窗口界面的软件。要删除此类软件，可以使用<link xref="addremove-install-synaptic">新立得</link>。 请注意，<app>新立得</app>不会列出快照。</p>
+
+  <p>卸载一个应用程序：</p>
+    
+  <steps>
+    <item>
+      <p>点击 <gui>Dock</gui> 中的 <app>Ubuntu 软件</app> 图标，或者在 <em>活动</em> 搜索框中输入 <input>软件</input>。</p>
+    </item>
+    <item>
+      <p>打开<app> Ubuntu软件</app>时，单击顶部的<gui>已安装</gui>按钮。</p>
+    </item>
+    <item>
+      <p>使用搜索框或通过翻阅已安装应用列表找到要删除的应用程序。</p>
+    </item>
+    <item>
+      <p>选中该应用程序，然后单击<gui>删除</gui>。</p>
+    </item>
+    <item>
+      <p>请确认您想要卸载的软件。</p>
+    </item>
+    <item>
+      <p>按提示输入密码，通过验证后，应用程序就会被删除。</p>
+    </item>
+
+  </steps>
+
+  <note>
+    <p>有些应用程序依赖其他应用才能正常工作，若果您试图删除一个被依赖的应用程序，依赖它的应用程序也会被删除。软件中心会在删除动作之前跟您再次确认。</p>
+  </note>
+
+</page>

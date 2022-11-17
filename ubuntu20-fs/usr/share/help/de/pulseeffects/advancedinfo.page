@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="advancedinfo" style="2column" xml:lang="de">
+    <info>
+        <link type="guide" xref="index#ui"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>David Keller</mal:name>
+      <mal:email>davidkeller@tuta.io</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+    <title>Erweiterte Informationen</title>
+    <media type="image" src="figures/advancedinfo.png" its:translate="no"/>
+    <p>Die Audioverarbeitung von PulseEffects besteht aus 3 Hauptstufen. Jede dieser Stufen benötigt ein bestimmtes Audioformat und eine bestimmte Abtastrate. Diese Informationen werden im Untertitel in der Kopfleiste angezeigt.</p>
+    <p>Eine weitere wichtige Information ist die durch die Audioverarbeitung eingeführte Latenzzeit. Dies ist die zuletzt angezeigte Information. Der angezeigte Wert wird in Millisekunden angegeben.</p>
+</page>

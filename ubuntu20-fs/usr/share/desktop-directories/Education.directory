@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Education
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=applications-accessories
+Type=Directory
+X-Ubuntu-Gettext-Domain=gnome-menus-3.0

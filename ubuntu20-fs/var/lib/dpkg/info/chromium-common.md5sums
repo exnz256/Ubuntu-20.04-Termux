@@ -1,0 +1,7 @@
+eb89dff7b14fe150419332c08eb32f29  usr/lib/chromium/libEGL.so
+8570af417998c144693843d5507b8739  usr/lib/chromium/libGLESv2.so
+b70df7d5d3c886ae6852eaff5aefe239  usr/lib/chromium/snapshot_blob.bin
+c30f290c6812f3aa7aebf9f219b09224  usr/lib/chromium/v8_context_snapshot.bin
+2b38df758ceaf0a57db7359c76de8e9f  usr/share/doc/chromium-common/NEWS.Debian.gz
+230218956b4de9784db3902eeadf1f78  usr/share/doc/chromium-common/changelog.Debian.gz
+bf8f67dd899c1baa860c9eab3dd998b9  usr/share/doc/chromium-common/copyright

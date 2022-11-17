@@ -1,0 +1,69 @@
+# start fcitx
+# vim: set sts=4 expandtab:
+
+if [ "$IM_CONFIG_PHASE" = 2 ]; then
+    # start fcitx daemon
+    /usr/bin/fcitx -d 2> /dev/null &
+fi
+
+
+if [ "$IM_CONFIG_PHASE" = 1 ]; then
+# set variables for the plain XIM
+XMODIFIERS=@im=fcitx
+
+
+GTK_IM_MODULE=xim
+# use immodule only when available for both GTK 2.0 and 3.0
+IM_CONFIG_MARKER2=0
+IM_CONFIG_MARKER="$(imconfig_find_files_with_prefixpath_glob /usr/lib \
+        '/usr/lib/*/gtk-2.0/*/immodules/im-fcitx.so' \
+        '/usr/lib/gtk-2.0/*/immodules/im-fcitx.so')"
+if [ "x${IM_CONFIG_MARKER}" != "x" ]; then
+    IM_CONFIG_MARKER2=1
+fi
+
+IM_CONFIG_MARKER3=0
+IM_CONFIG_MARKER="$(imconfig_find_files_with_prefixpath_glob /usr/lib \
+        '/usr/lib/*/gtk-3.0/*/immodules/im-fcitx.so' \
+        '/usr/lib/gtk-3.0/*/immodules/im-fcitx.so')"
+if [ "x${IM_CONFIG_MARKER}" != "x" ]; then
+    IM_CONFIG_MARKER3=1
+fi
+
+if [ $IM_CONFIG_MARKER2 = 1 ] && [ $IM_CONFIG_MARKER3 = 1 ] ; then
+    GTK_IM_MODULE=fcitx
+fi
+
+
+QT4_IM_MODULE=xim
+# use immodule when available for Qt4
+IM_CONFIG_MARKER="$(imconfig_find_files_with_prefixpath_glob /usr/lib \
+        '/usr/lib/*/qt4/plugins/inputmethods/qtim-fcitx.so' \
+        '/usr/lib/qt4/plugins/inputmethods/qtim-fcitx.so')"
+if [ "x${IM_CONFIG_MARKER}" != "x" ]; then
+    QT4_IM_MODULE=fcitx
+fi
+
+
+QT_IM_MODULE=xim
+# use immodule when available for Qt5
+IM_CONFIG_MARKER="$(imconfig_find_files_with_prefixpath_glob /usr/lib \
+        '/usr/lib/*/qt5/plugins/platforminputcontexts/libfcitxplatforminputcontextplugin.so' \
+        '/usr/lib/qt5/plugins/platforminputcontexts/libfcitxplatforminputcontextplugin.so')"
+if [ "x${IM_CONFIG_MARKER}" != "x" ]; then
+    QT_IM_MODULE=fcitx
+fi
+
+
+# This is placeholder at this moment.
+CLUTTER_IM_MODULE=xim
+# use immodule when available for clutter
+IM_CONFIG_MARKER="$(imconfig_find_files_with_prefixpath_glob /usr/lib \
+        '/usr/lib/*/clutter-imcontext/immodules/im-fcitx.so' \
+        '/usr/lib/clutter-imconttext/immodules/im-fcitx.so')"
+if [ "x${IM_CONFIG_MARKER}" != "x" ]; then
+    CLUTTER_IM_MODULE=fcitx
+fi
+
+
+fi

@@ -1,0 +1,3 @@
+# xsessions files are not really desktop files, they don't have to follow the
+# specs. See also b.fd.o #85938
+xfce4-session: desktop-entry-lacks-keywords-entry usr/share/xsessions/xfce.desktop

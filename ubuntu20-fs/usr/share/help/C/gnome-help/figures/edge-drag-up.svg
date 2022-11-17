@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg6688" width="256" height="184" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata id="metadata6693">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(0 -868.36)">
+  <path id="path17610" d="m137.5 1008.9v-119.6" style="fill:none;stroke-width:6.4631;stroke:#000"/>
+  <path id="path17614" d="m123.9 896.37 13.75-13.75 13.75 13.75z" style="color:#000000"/>
+  <path id="path17616" d="m224.5 994.47v14h-203" style="fill:none;stroke-width:4;stroke:#000"/>
+  <path id="path17612" d="m140.23 980.15a5.0005 5.0005 0 0 1 4.6756 0.22337l29.717 17.159a5.0005 5.0005 0 0 1 0.17487 0.1155l2.219 1.2809 0.55771-0.9715-9.9057-5.7197a5.0005 5.0005 0 0 1-1.872-6.93 5.0005 5.0005 0 0 1 6.8686-1.7283l19.434 11.224 4.337 2.5119-2.4848 4.3212-4.7812 8.2813-1.3693 2.3783c-0.011 0.02-0.0269 0.038-0.0386 0.058l-1.104 1.9003-14.47 25.062c-1.6832 2.9154-5.5864 3.9576-8.5009 2.2778l-10.574-6.1277a5.0005 5.0005 0 0 1-0.20199-0.1l-0.10122-0.051-6.4393-3.7156a5.0005 5.0005 0 0 1-1.845-6.9456 5.0005 5.0005 0 0 1 6.3636-1.978l0.48072-0.8548-5.1762-2.9655a5.0005 5.0005 0 0 1-1.8449-6.9456 5.0005 5.0005 0 0 1 6.8415-1.7127l5.1762 2.9655 0.64613-1.1309-5.1491-2.981a5.0005 5.0005 0 0 1-1.8449-6.9456 5.0005 5.0005 0 0 1 6.8415-1.7126l5.1491 2.981 0.67324-1.1465-22.8-13.178a5.0005 5.0005 0 0 1-1.8294-6.9185 5.0005 5.0005 0 0 1 2.1773-1.9788z" style="block-progression:tb;color:#000000;fill:#fff;stroke:#000;text-indent:0;text-transform:none"/>
+  <g id="g17594" transform="matrix(-.5 .86603 .86603 .5 116.87 714.16)">
+   <path id="path17596" d="m159.45 121.1v34.295" style="fill:none;stroke-linecap:round;stroke-width:10;stroke:#000"/>
+   <path id="path17598" d="m170.77 141.43v13.965" style="fill:none;stroke-linecap:round;stroke-width:10;stroke:#000"/>
+   <path id="path17600" d="m182.08 141.43v13.965" style="fill:none;stroke-linecap:round;stroke-width:10;stroke:#000"/>
+   <path id="path17602" d="m193.04 147.97v7.4246" style="fill:none;stroke-linecap:round;stroke-width:10;stroke:#000"/>
+   <path id="path17604" d="m148.32 146.74v22.451h9.5459v-6.0104h-7.6014" style="color:#000000;fill:none;stroke-linecap:round;stroke-width:10;stroke:#000"/>
+   <rect id="rect17606" x="159.45" y="152.39" width="33.588" height="16.794" rx="1.2327" ry="1.2327" style="color:#000000;stroke-linecap:round;stroke-width:10;stroke:#000"/>
+  </g>
+ </g>
+</svg>

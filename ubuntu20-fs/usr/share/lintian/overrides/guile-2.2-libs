@@ -1,0 +1,4 @@
+guile-2.2-libs binary: package-name-doesnt-match-sonames libguile-2.2-1
+guile-2.2-libs binary: binary-from-other-architecture usr/lib/*guile/2.2/ccache/*.go
+guile-2.2-libs binary: shared-lib-without-dependency-information usr/lib/*guile/2.2/ccache/*.go
+guile-2.2-libs binary: unstripped-binary-or-object usr/lib/*guile/2.2/ccache/*.go

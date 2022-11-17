@@ -1,0 +1,5 @@
+0e2f6caf414c463632d20af976b93877  usr/bin/dconf
+0bb18d2298b84b614d970b5663616770  usr/share/bash-completion/completions/dconf
+0986de5d536023dd94efc4a313e2149e  usr/share/doc/dconf-cli/copyright
+8d40ded66e3bf19f05e85c0716ae2906  usr/share/man/man1/dconf.1.gz
+5058c96a3ff0813cda946d7eee5b8408  usr/share/man/man7/dconf.7.gz

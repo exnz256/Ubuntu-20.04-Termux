@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="convolver" xml:lang="pt-BR">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    </info>
+    <title>Convolver</title>
+    <p>Um convolver cria uma simulação de um ambiente de áudio. Ele é baseado na operação de convolução matemática e usa uma amostra de áudio pré-gravada da resposta de impulso do espaço que está sendo modelado.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Importar Impulso</em>
+            </title>
+            <p>Importe um arquivo de resposta de impulso para o diretório de configuração do PulseEffects.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Largura do Stereo</em>
+            </title>
+            <p>Modifica a imagem stereo da resposta de impulso.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Espectro</em>
+            </title>
+            <p>Visualize o espectro de frequência do canal selecionado.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Referências</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Convolution_reverb" its:translate="no">
+                        https://en.wikipedia.org/wiki/Convolution_reverb
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

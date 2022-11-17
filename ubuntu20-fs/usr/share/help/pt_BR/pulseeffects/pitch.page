@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="pitch" xml:lang="pt-BR">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    </info>
+    <title>Altura</title>
+    <p>Deslocamento de altura é uma técnica de gravação de som em que o tom original de um som é aumentado ou diminuído.</p>
+    <p>PulseEffects usa o deslocador de tom desenvolvido por GStreamer.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Mais Rápido</em>
+            </title>
+            <p/>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Preservar Formante</em>
+            </title>
+            <p>Habilita preservação de formantes quando deslocando altura.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Cents</em>
+            </title>
+            <p>Número de cents pelo qual a altura será aumentada ou diminuída.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Semitons</em>
+            </title>
+            <p>Número de semitons pelo qual a altura será aumentada ou diminuída.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Oitavas</em>
+            </title>
+            <p>Número de oitavas pelo qual a altura será aumentada ou diminuída.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Clareza</em>
+            </title>
+            <list type="none">
+                <item>
+                    <p>0 - Desativa a ressincronização de fase em transientes, a laminação de fase e usa uma janela de processamento mais longa.</p>
+                </item>
+                <item>
+                    <p>1 - Use um detector de transiente suave, desative a laminação de fase e use uma janela de processamento mais longa.</p>
+                </item>
+                <item>
+                    <p>2 - Desabilita a ressincronização de fase nos transientes e a laminação de fase.</p>
+                </item>
+                <item>
+                    <p>3 - Desabilita a ressincronização de fase nos transientes.</p>
+                </item>
+            </list>
+        </item>
+    </terms>
+    <section>
+        <title>Referências</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Pitch_shift" its:translate="no">
+                        https://en.wikipedia.org/wiki/Pitch_shift
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://breakfastquay.com/rubberband/" its:translate="no">
+                        https://breakfastquay.com/rubberband/
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://breakfastquay.com/rubberband/usage.txt" its:translate="no">
+                        https://breakfastquay.com/rubberband/usage.txt
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

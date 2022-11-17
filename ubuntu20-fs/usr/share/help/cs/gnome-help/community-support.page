@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="community-support" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="more-help"/>
+    <desc>Získat pomoc od komunity</desc>
+
+    <revision version="19.10" date="2019-05-11" status="review"/>
+
+    <credit type="author">
+      <name>Dokumentační tým Ubuntu</name>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>Komunitní podpora</title>
+
+  <p>Podporu je možné získat z různých zdrojů, které jsou zmíněny a odkazovány na <link href="https://www.ubuntu.com/support/community-support"> komunitní podpoře</link>.</p>
+
+  <p>Každá stránka na <link href="https://help.ubuntu.com">help.ubuntu.com</link> má vpravo nahoře funkci vyhledávání. Ta umožňuje provést přizpůsobené hledání prostřednictvím služby Google v dokumentaci k Ubuntu a prostředcích pro podporu, pro snazší zjištění, zda váš dotaz už byl někdy řešen.</p>
+
+  <p>Podpora ve vašem rodném jazyce může být poskytována <link href="http://loco.ubuntu.com/teams/">týmem místní komunity</link>.</p>
+
+</page>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="guide_1" style="2column" xml:lang="it-IT">
+    <info>
+        <link type="guide" xref="index#guides"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Digitalone</mal:name>
+      <mal:email>kurmikon@libero.it</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+    <title>Miglioramento dell'audio sui notebook senza l'utilizzo di un equalizzatore</title>
+    <p>Questo tutorial è stato scritto da Markus Schmidt schmidt@boomshop.net nel novembre del 2019. Tradotto in italiano da Digitalone.</p>
+    <section>
+        <title>Introduzione</title>
+        <p>Se sei un possessore di un notebook e, come me, soffri di altoparlanti di bassa qualità, PulseEffects è la tua salvezza!</p>
+        <p>I sistemi operativi commerciali offrono software specifici per migliorare l'audio su questi tipi di notebook. Su Linux si può ottenere un risultato simile con PulseEffects, anche se il procedimento non è immediato e richiede un lungo intervento manuale, a meno che in futuro la community non realizzi un database con le impostazioni per i modelli più comuni.</p>
+        <p>PulseEffects possiede tutti i plugin necessari per ottimizzare la qualità dell'audio a un livello addirittura superiore rispetto ad altri sistemi operativi, con lo svantaggio che però l'utente medio di fronte a una marea di opzioni non sa come muoversi. L'obiettivo di questa guida è proprio quello di spiegare questi passaggi.</p>
+    </section>
+    <section>
+        <title>Perché non l'equalizzatore?</title>
+        <p>Risolveremo i problemi singolarmente utilizzando specifici plugin, rinunciando deliberatamente all'equalizzatore. L'equalizzatore non è di alcun aiuto in questi casi, anzi, potrebbe addirittura peggiorare la qualità. Ciò è dato dalla natura di tale plugin, oltre al fatto che gli utenti tendono ad aggiungere al segnale (equalizzazione additiva) quando invece si dovrebbero eliminare i problemi sottraendo al segnale (equalizzazione sottrattiva) così come si opera nel mondo professionale.</p>
+        <p>Tuttavia anche l'equalizzazione sottrattiva non sarebbe d'aiuto siccome gli altoparlanti dei notebook non sono abbastanza potenti, dunque con questa tecnica si otterrebbe comunque un suono scarso e castrato. Inoltre con l'aumentare del volume si produce generalmente un suono distorto perché il sistema già era al limite precedentemente. Neanche andando a modificare la risposta in frequenza servirà a migliorare il risultato.</p>
+    </section>
+    <section>
+        <title>Intervalli di frequenza</title>
+        <p>Dobbiamo innanzitutto parlare degli intervalli di frequenza. Per capire meglio come risolvere i nostri problemi, farò una breve descrizione dei cinque fondamentali intervalli:</p>
+        <list>
+            <item>
+                <p><em style="strong">Fondo</em>: Vibrazioni che un orecchio a malapena può ascoltare: Qualsiasi cosa dai 10Hz ai ~40Hz.</p>
+            </item>
+            <item>
+                <p><em style="strong">Bassi</em>: Le fondamenta di un segnale. I bassi di una batteria, di un sintetizzatore e di una chitarra sono in questo intervallo. Nei film è caratterizzato dalle esplosioni, il fruscio dell'acqua, i tuoni, le armi di grosso calibro e cose simili. Assolutamente non percepibili su notebook e tablet. Tecnicamente tra ~60Hz e ~200Hz.</p>
+            </item>
+            <item>
+                <p><em style="strong">Medio-Bassi</em>: Colpisci una scatola di cartone da 0.5m3 e capirai cosa sono. L'energia di un suono è localizzata in questo intervallo. Anche il rullo di tamburi e le chitarre elettriche. Nei film, il rombo dei motori e i colpi d'arma da fuoco. Siamo tra i ~250Hz e ~750Hz.</p>
+            </item>
+            <item>
+                <p><em style="strong">Medio-Alti</em>: Questa è la zona più importante e sensibile per l'orecchio. Le informazioni più significative di qualsiasi tipo di segnale sono localizzate in questo intervallo. La voce umana, i pizzichi di una chitarra, gli attacchi di una batteria, il tono di un sintetizzatore. Nel mezzo tra ~1kHz - ~4kHz.</p>
+            </item>
+            <item>
+                <p><em style="strong">Alti</em>: L'aria, la brezza, lo sfrigolio, gli schizzi d'acqua. Siamo intorno e oltre i ~5kHz.</p>
+            </item>
+        </list>
+    </section>
+    <section>
+        <title>Segnale di Test</title>
+        <p>Per questo lavoro hai bisogno di un buon segnale. Io ho deciso di utilizzare il singolo Seeed: <link href="https://www.youtube.com/watch?v=OxAP6ieuDgI" its:translate="no">https://www.youtube.com/watch?v=OxAP6ieuDgI</link></p>
+        <p>È abbastanza rapido, ha molta sostanza, alti puliti e vivaci, buoni vocali, presenta una risposta in frequenza ben bilanciata ed è un gran bel mix. Dopodiché ho testato con diversi film e robe come discussioni e musica classica e mi sono convinto del risultato. I film sono troppo dinamici, così come la musica classica, e normalmente non presentano una stabile risposta in frequenza.</p>
+        <p>Non riusciremo a far rimbalzare il notebook. Il nostro scopo è di fare in modo che qualsiasi cosa contenuta in un mix sia ascoltabile in maniera bilanciata e con un suono ricco.</p>
+        <p>Nei prossimi passaggi si presuppone che tu non utilizzi un player in grado di riprodurre livelli superiori a 0db e che non usi la barra di volume del video player. Da questa guida si otterrà il meglio con sorgenti audio riprodotte al 100% del volume del player. Imposta il volume che desideri sulla scheda audio tramite PulseAudio così che il livello sia modificato solo <em style="strong">dopo</em> che tutti gli effetti siano stati applicati.</p>
+    </section>
+    <section>
+        <title>Problemi</title>
+        <p>Investighiamo inizialmente i problemi più rilevanti:</p>
+        <terms>
+            <item>
+                <title><em style="strong">Bassi</em></title>
+                <p>Il problema più ovvio dei notebook è il suono metallico che non riproduce niente nella parte bassa del segnale. Questo avviene a causa della ridotta grandezza delle membrane degli altoparlanti.</p>
+            </item>
+            <item>
+                <title><em style="strong">Alti</em></title>
+                <p>Spesso gli alti si traducono in un suono stridulo che tortura le orecchie.</p>
+            </item>
+            <item>
+                <title><em style="strong">Risposta in Frequenza</em></title>
+                <p>Rappresenta la differenza tra i vari intervalli di frequenza: basso, medio-basso, medio-alto e alto. Sui notebook può essere molto marcata e va corretta, anche se non ricorreremo a un equalizzatore.</p>
+            </item>
+            <item>
+                <title><em style="strong">Distorsione</em></title>
+                <p>A causa della scarsa qualità del suono che generalmente viene riprodotto, l'utente tende ad alzare il volume o ad usare un equalizzatore per gli intervalli di frequenza che latitano. Questo purtroppo causa una distorsione digitale che peggiora ancora di più la qualità perché ogni segnale sopra i 0db risulta in un suono scricchiolante che si dovrebbe evitare.</p>
+            </item>
+            <item>
+                <title><em style="strong">Intervallo Dinamico</em></title>
+                <p>Gli altoparlanti di bassa qualità tendono a ridurre i segnali di basso livello mentre possono dare la percezione di volume massimo su quelli oltre una certa soglia. Per questo motivo è necessario ridurre l'intervallo dinamico in modo da rendere i livelli più stabili.</p>
+            </item>
+            <item>
+                <title><em style="strong">Stereofonia</em></title>
+                <p>A causa della posizione degli altoparlanti, talvolta può sembrare che si stia riproducendo un audio mono nonostante la traccia abbia due canali.</p>
+            </item>
+        </terms>
+    </section>
+    <section>
+        <title>Soluzioni</title>
+        <p>Iniziamo con questa guida tenendo bene in mente che il risultato non sarà neanche minimamente considerevole, però almeno avremo ottenuto il meglio da ciò che abbiamo in mano.</p>
+        <p>Ogni parametro che analizzeremo dipenderà dallo specifico modello di notebook utilizzato, nonché dalla tipologia di altoparlanti che l'hardware possiede. Per ogni modello si ha una diversa risposta in frequenza e un diverso intervallo dinamico, quindi non esiste un unico insieme di impostazioni valido per tutti. In ogni caso, lo scopo dei plugin audio e il loro ordine è ben definito e può essere applicato più o meno su qualsiasi sistema.</p>
+        <p>Non c'è da preoccuparsi in caso di clipping tra i vari plugin all'interno di PulseEffects siccome il segnale è processato in numeri da 32 bit. Piuttosto il problema da tenere in considerazione è quando il clipping avviene sulla scheda audio perché questo può causare una distorsione del suono riprodotto dalle casse.</p>
+        <p>Occupiamoci dunque della catena di plugin:</p>
+        <terms>
+            <item>
+                <title><em style="strong">Limitatore</em></title>
+                <p>Cominciamo con l'<em style="strong">ultimo</em> plugin da utilizzare. Come ho spiegato precedentemente, dobbiamo fare in modo che alla scheda audio arrivi un segnale al di sotto dei 0 db, altrimenti si avrà un suono distorto.</p>
+                <p>Trascina il Limitatore in cima alla lista e abilitalo. Non sentirai alcuna differenza, che è proprio ciò che vogliamo. La sua influenza avverrà non appena modificheremo il segnale attraverso altri plugin. Imposta il Lookahead a 2ms, il Rilascio a 8 ms e il Sovracampionamento a 4.</p>
+                <p>Il Limitatore monitora il segnale (quasi) in tempo reale e rileva i picchi oltre una certa soglia, che nel nostro caso è rappresentata dal Limite di 0db. Non appena un picco viene rilevato, il plugin abbassa il volume costantemente (all'interno dell'intervallo di Lookahead) finché il picco non ritorna al di sotto del Limite impostato. Dopodiché il volume viene aumentato (all'interno del tempo di Rilascio) per ritornare al livello originale. In questo modo noteremo di meno la distorsione di un segnale al di sopra della soglia che viene riprodotto dalla scheda audio. Se questo processo viene estremizzato, possono presentarsi degli svantaggi e altre problematiche, oltre alla marcata distorsione.</p>
+                <p>Perciò non esagerare troppo col Limitatore, piuttosto concentriamoci su altri plugin senza stare a smanettare eccessivamente col livello finale del segnale, anche perché la qualità finale potrebbe risentirne.</p>
+                <p>Entriamo ora nel <em style="strong">vivo</em> dei processi.</p>
+            </item>
+            <item>
+                <title><em style="strong">Filtro</em></title>
+                <p>Innanzitutto dobbiamo eliminare le frequenze che non possono essere ascoltate. Lo faremo per due motivi: il primo è che le casse dei notebook non sono in grado di riprodurle, il secondo è per non sprecare inutilmente risorse nel lavorare queste frequenze nei successivi plugin.</p>
+                <p>Trascina il Filtro in cima alla lista (sopra il Limitatore) e abilitalo. Imposta il tipo a "Passa alto 36 db/ott" (questo taglierà qualsiasi cosa al di sotto di una determinata frequenza, lasciando passare tutto ciò che c'è sopra) e la Frequenza a 50 Hz (che non potrà mai essere riprodotta dagli altoparlanti del tuo laptop). Ora aumenta la Frequenza di 10 Hz finché non cominci ad ascoltare un cambiamento nelle parti basse del segnale, che dovrebbe essere intorno ai 130-160 Hz. Sottrai il 10% (o 15 Hz) e impostala come Frequenza del Filtro. Sul mio sistema è 145 Hz, dato che ho cominciato a percepire delle differenze a 160 Hz.</p>
+                <p>Quello che è successo è che abbiamo rimosso tutto cio che le casse non possono riprodurre, lasciando solo un po' di segnale al di sotto della frequenza prescelta, il che è molto importate per il prossimo step.</p>
+            </item>
+            <item>
+                <title><em style="strong">Enfasi Bassi</em></title>
+                <p>Tiriamo fuori le palle dal segnale.</p>
+                <p>Trascina il plugin di Enfasi Bassi alla seconda posizione della lista, proprio sotto il Filtro, e abilitalo. Imposta il Limite Inferiore a 10 Hz e non prenderlo più in considerazione (abbiamo già rimosso tutto sotto la Frequenza impostata nel Filtro precedente). Alza le Armoniche a 10 e comincia con un valore di 200 Hz per la soglia. Poi inizia ad aumentare la Quantità poco alla volta affinché i bassi non acquistino una grossa energia. Sul mio sistema il valore migliore è 24 dB, che è definitivamente enorme, ma d'altronde il mio ThinkPad P1 ha i peggiori altoparlanti che abbia mai visto per un notebook di 2.8k €.</p>
+                <p>Quello che è successo è che l'Enfasi Bassi ha aggiunto delle frequenze al segnale che originariamente non c'erano. Mentre un equalizzatore modifica qualcosa che già c'è nel segnale, questo plugin invece migliora la parte bassa dell'audio andando ad aggiungere delle distorsioni in uno specifico intervallo di frequenze. Questo tipo di distorsioni aggiungono delle cosiddette Armoniche che sono un multiplo delle frequenze esistenti. Puoi scegliere tra 2a e 3a come Mix Armoniche, il che significa che una frequenza di 100Hz produrrà un nuovo segnale di 200Hz/300Hz/400Hz/600Hz/800Hz/900Hz/... al variare e al ridursi dei livelli (in base alle Armoniche impostate). Questo comporta un incremento nell'intervallo basso affinché si abbia qualcosa che suoni meglio sul nostro particolare sistema. Non aggiunge, né aumenta, i <em style="strong">reali</em> fondamentali del suono originale (dunque il tuo notebook non comincerà a sobbalzare), ma rende più udibili i segnali che l'hardware inizialmente non riusciva a riprodurre correttamente.</p>
+                <p>L'indicatore del livello di output ora ti inizierà a lampeggiare di rosso, ma non farci troppo caso perché non ci sarà una vera e propria distorsione digitale, come ho spiegato in precedenza.</p>
+                <p>Più tardi, per dare il tocco finale, dovresti provare a modificare il parametro della Quantità per definire il livello dei bassi. E magari anche con quello del Mix Armoniche per definire la parte superiore delle armoniche.</p>
+            </item>
+            <item>
+                <title><em style="strong">Compressore Multibanda</em></title>
+                <p>Questo è lo step più arduo della nostra catena di plugin. Persino i professionisti hanno un profondo rispetto nei confronti di questo processo che, potenzialmente, sarebbe in grado di rovinare ancora di più un segnale già scarso. Ma, onestamente, siamo semplici consumatori e nessuno di noi sarà in grado di percepire la differenza tra un attacco di 100 e 200 ms, a maggior ragione se usiamo le casse di un notebook. Ciò significa che possiamo lavorare su parametri predefiniti per quanto riguarda i tempi e le frequenze.</p>
+                <p>Il Compressore Multibanda ci aiuterà a risolvere diversi aspetti. Taglierà delle frequenze troppo forti, ridurrà l'intervallo dinamico e armonizzerà la risposta in frequenza. La maggior parte delle persone prova a migliorare la risposta in frequenza attraverso gli equalizzatori, ma questi ultimi non sono dinamici, per cui tendono ad aumentare i problemi piuttosto che risolverli.</p>
+                <p>Trascina il plugin Compressore Multibanda alla terza posizione, dopo l'Enfasi Bassi e prima del Limitatore.</p>
+                <p>Dato che il processo di Enfasi Bassi ha aumentato l'energia e il livello del segnale, iniziamo con l'abbassare l'Ingresso del Compressore a -6db. Poi impostiamo le Frequenze Split per determinare le singole bande:</p>
+                <list>
+                    <item>
+                        <p>250 Hz</p>
+                    </item>
+                    <item>
+                        <p>1250 Hz</p>
+                    </item>
+                    <item>
+                        <p>5000 Hz</p>
+                    </item>
+                </list>
+                <p>Dopodiché, impostiamo questi valori predefiniti:</p>
+                <list>
+                    <item>
+                        <p>Sottobanda</p>
+                        <list>
+                            <item>
+                                <p>Attacco: 150 ms</p>
+                            </item>
+                            <item>
+                                <p>Rilascio: 300 ms</p>
+                            </item>
+                            <item>
+                                <p>Soglia: -16 dB</p>
+                            </item>
+                            <item>
+                                <p>Rapporto: 5</p>
+                            </item>
+                            <item>
+                                <p>Curvatura: 12 dB</p>
+                            </item>
+                            <item>
+                                <p>Guadagno: 4 dB</p>
+                            </item>
+                        </list>
+                    </item>
+                    <item>
+                        <p>Banda Bassa</p>
+                        <list>
+                            <item>
+                                <p>Attacco: 150 ms</p>
+                            </item>
+                            <item>
+                                <p>Rilascio: 200 ms</p>
+                            </item>
+                            <item>
+                                <p>Soglia: -24 dB</p>
+                            </item>
+                            <item>
+                                <p>Rapporto: 3</p>
+                            </item>
+                            <item>
+                                <p>Curvatura: 9 dB</p>
+                            </item>
+                            <item>
+                                <p>Guadagno: 4 dB</p>
+                            </item>
+                        </list>
+                    </item>
+                    <item>
+                        <p>Banda Media</p>
+                        <list>
+                            <item>
+                                <p>Attacco: 100 ms</p>
+                            </item>
+                            <item>
+                                <p>Rilascio: 150 ms</p>
+                            </item>
+                            <item>
+                                <p>Soglia: -24 dB</p>
+                            </item>
+                            <item>
+                                <p>Rapporto: 3</p>
+                            </item>
+                            <item>
+                                <p>Curvatura: 9 dB</p>
+                            </item>
+                            <item>
+                                <p>Guadagno: 4 dB</p>
+                            </item>
+                        </list>
+                    </item>
+                    <item>
+                        <p>Banda Alta</p>
+                        <list>
+                            <item>
+                                <p>Attacco: 80 ms</p>
+                            </item>
+                            <item>
+                                <p>Rilascio: 120 ms</p>
+                            </item>
+                            <item>
+                                <p>Soglia: -24 dB</p>
+                            </item>
+                            <item>
+                                <p>Rapporto: 4</p>
+                            </item>
+                            <item>
+                                <p>Curvatura: 9 dB</p>
+                            </item>
+                            <item>
+                                <p>Guadagno: 4 dB</p>
+                            </item>
+                        </list>
+                    </item>
+                </list>
+                <p>Questi valori sono un buon inizio per poi effettuare delle piccole correzioni.</p>
+                <p>Un compressore abbassa il livello del segnale quando questo oltrepassa una determinata Soglia. A grandi linee, se la Soglia è -24 dB e il Rapporto 2:1, un segnale di -12 db sarà ridotto a -18 db. Considerando questo semplice esempio, potremmo aumentare il Guadagno a 6 db, in modo da recuperare ciò che sarebbe stato "perso". Così renderemmo i segnali forti più bassi, in modo da incrementare il volume generale. Questo fa sì che l'intervallo dinamico sia minore e le parti più silenziose siano maggiormente ascoltabili.</p>
+                <p>I parametri temporali riguardano la "velocità" della compressione. L'attacco indica che il segnale deve andare oltre la Soglia in quell'intervallo di tempo affinché la compressione raggiunga il massimo effetto (di riduzione). Il Rilascio invece definisce la quantità di tempo per cui il segnale deve stare al di sotto della Soglia affinché l'amplificazione ritorni nuovamente a 1.</p>
+                <p>Il Compressore Multibanda divide il segnale in 4 bande di frequenza separate, lavorando su di ognuna di esse in maniera indipendente e con valori specifici.</p>
+                <p>Per ridefinire il risultato, modifica questi parametri:</p>
+                <terms>
+                    <item>
+                        <p><em style="strong">Guadagno</em>. Questo è forse il parametro più importante per ciò che vogliamo fare. Il guadagno incrementa il livello del segnale dopo aver applicato il processo di compressione. Ciò significa che tale valore influenzerà il volume percepito della banda selezionata. Oppure in altre parole: <em style="strong">questo è il tuo equalizzatore</em>. :) Varia il Guadagno di ogni singola banda per alzarne o diminuirne il volume. Io alla fine sul mio ThinkPad P1 ho impostato Sottobanda/Banda Bassa/Banda Media/Banda Alta a: 4 dB / 3 dB / 6 dB / 6 dB.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">Ingresso</em>. In predefinito a -6 dB, ho poi finito per alzarlo a -3 dB. Ciò che succede è che un ingresso più alto spinge tutte le bande del compressore a un livello più o meno equo, risultando in un suono presumibilmente più forte senza il bisogno di variare i valori delle singole bande. Alla fine si ottiene un bassissimo intervallo dinamico, aumentando le parti silenziose e abbassando quelle più forti ancora di più.</p>
+                    </item>
+                </terms>
+            </item>
+            <item>
+                <title><em style="strong">Plugin Stereo</em></title>
+                <p>Adesso veniamo alla ciliegina sulla torta.</p>
+                <p>Trascina il Plugin Stereo alla quarta posizione, dopo il Compressore Multibanda e prima del Limitatore. Questo processo ha un sacco di funzionalità, ma a noi ne interessa soltanto una. Clicca su Output e imposta il parametro Base Stereo su 0.25. Ecco fatto.</p>
+                <p>Questo valore influenza la percezione della stereofonia. Portato a -1, la traccia viene trasformata in un completo mono. Si può aumentare la percezione stereofonica con valori positivi, ma non esagerare, perché valori troppo alti sono controproducenti. Per esempio, potrebbe ridurre l'intervallo dei bassi a causa di diversi effetti, che è una cosa che vogliamo definitivamente <em style="strong">evitare.</em></p>
+                <p>Varia il valore in modo da ottenere un buon risultato. Di solito un valore compreso tra 0 e 0.5 è apprezzabile, non di più, né di meno. </p>
+            </item>
+        </terms>
+    </section>
+    <section>
+        <title>Risultato</title>
+        <p>Fortunatamente sono riuscito a ottenere una qualità del suono <em style="strong">migliore</em> di quella iniziale. Questa catena di plugin sarebbe in grado di rovinare l'esperienza acustica se non impostata nel modo corretto, ma coi giusti passi può anche rendere il suono paragonabile a quello di notebook con altoparlanti di buona fattura. Tutti i produttori forniscono dei driver audio con dei preset per migliorare l'acustica, che più o meno funzionano alla stessa maniera di come ho spiegato in questa guida.</p>
+        <p>Quando ho comprato il mio notebook, anche se ricordavo la brutta reputazione che aveva il sistema audio, dopo aver effettuato alcuni test su Windows, il suono mi aveva comunque ben convinto. Però, dopo aver installato Linux, il mio entusiasmo era totalmente crollato. La qualità era orribile. Questo perché i driver erano mancanti di tutti quei processi software presenti su Windows e che invece su Linux non era possibile avere. Ma fortunatamente, grazie a Wellington Wallace, con PulseEffects è possibile utilizzare i migliori plugin audio di Calf in un'unica applicazione così da poter migliorare la qualità come su altri sistemi operativi. Grazie mille per il tuo ottimo lavoro, Wallace!</p>
+    </section>
+    <section>
+        <title>tl;dr</title>
+        <p>Scusa amico, ma purtroppo questa guida non consiste di una semplice impostazione da caricare nelle opzioni del programma. Questa comunità non è come quella di Apple, Lenovo o Dell che ti offrono i driver Dolby Theatre per il tuo specifico sistema.</p>
+    </section>
+</page>

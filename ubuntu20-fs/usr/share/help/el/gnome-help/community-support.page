@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="community-support" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="more-help"/>
+    <desc>Λάβετε βοήθεια από την κοινότητα</desc>
+
+    <revision version="19.10" date="2019-05-11" status="review"/>
+
+    <credit type="author">
+      <name>Ομάδα τεκμηρίωσης Ubuntu</name>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>Community support</title>
+
+  <p>Μπορείτε να βρείτε βοήθεια από μια ποικιλία πηγών που αναφέρονται στην <link href="https://www.ubuntu.com/support/community-support">Υποστήριξη από την κοινότητα</link>.</p>
+
+  <p>Κάθε σελίδα στο <link href="https://help.ubuntu.com">help.ubuntu.com</link> έχει ένα σημείο αναζήτησης πάνω δεξιά. Βοηθά να πραγματοποιήσετε μια προσαρμοσμένη αναζήτηση στο Google για τεκμηρίωση του Ubuntu και πηγές υποστήριξης στο διαδίκτυο, προκειμένου να δείτε αν το ερώτημά σας έχει ήδη απαντηθεί.</p>
+
+  <p>Υποστήριξη στη γλώσσα σας μπορεί να παρέχεται στην <link href="http://loco.ubuntu.com/teams/">Ομάδα τοπικής κοινότητας</link>.</p>
+
+</page>

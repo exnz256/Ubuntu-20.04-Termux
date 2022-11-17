@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="community-support" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="more-help"/>
+    <desc>Pomoc od społeczności</desc>
+
+    <revision version="19.10" date="2019-05-11" status="review"/>
+
+    <credit type="author">
+      <name>Zespół dokumentacji Ubuntu</name>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>Wsparcie społeczności</title>
+
+  <p><link href="https://www.ubuntu.com/support/community-support">Strona wsparcia społeczności</link> zawiera różne źródła pomocy.</p>
+
+  <p>W górnym prawym rogu każdej strony <link href="https://help.ubuntu.com">help.ubuntu.com</link> znajduje się funkcja wyszukiwania. Umożliwia użycie wyszukiwarki Google do przeszukiwania dokumentacji Ubuntu i zasobów pomocy w Internecie, aby łatwiej dowiedzieć się, czy ktoś już odpowiedział na zadawane pytanie.</p>
+
+  <p><link href="http://loco.ubuntu.com/teams/">Zespoły społeczności lokalnych</link> mogą zapewnić pomoc w języku użytkownika.</p>
+
+</page>

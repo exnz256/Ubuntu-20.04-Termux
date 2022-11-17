@@ -1,0 +1,28 @@
+#!/bin/sh
+
+set -e
+
+# Ask D-Bus to reload its configuration.
+if [ "$1" = configure -a -x "/etc/init.d/dbus" ]; then
+	invoke-rc.d dbus force-reload || true
+fi
+
+# Automatically added by dh_installdeb/12.10ubuntu1
+dpkg-maintscript-helper rm_conffile /etc/dbus-1/system.d/net.reactivated.Fprint.conf 1.90.1-1\~ -- "$@"
+# End automatically added section
+# Automatically added by dh_installsystemd/12.10ubuntu1
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] || [ "$1" = "abort-deconfigure" ] || [ "$1" = "abort-remove" ] ; then
+	if [ -d /run/systemd/system ]; then
+		systemctl --system daemon-reload >/dev/null || true
+		if [ -n "$2" ]; then
+			_dh_action=restart
+		else
+			_dh_action=start
+		fi
+		deb-systemd-invoke $_dh_action 'fprintd.service' >/dev/null || true
+	fi
+fi
+# End automatically added section
+
+
+exit 0

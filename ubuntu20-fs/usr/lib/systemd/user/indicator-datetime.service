@@ -1,0 +1,8 @@
+[Unit]
+Description=Indicator Date & Time Backend
+PartOf=graphical-session.target
+After=indicators-pre.target
+
+[Service]
+ExecStart=/usr/lib/aarch64-linux-gnu/indicator-datetime/indicator-datetime-service
+Restart=on-failure

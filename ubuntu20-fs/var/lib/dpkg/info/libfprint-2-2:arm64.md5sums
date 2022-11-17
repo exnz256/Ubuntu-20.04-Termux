@@ -1,0 +1,8 @@
+898647cc37c3ad3c40f01d0a35040380  lib/udev/rules.d/60-libfprint-2.rules
+d599fd74bf24c202cd03521a581c7e45  usr/lib/aarch64-linux-gnu/libfprint-2.so.2.0.0
+9a74a8e5fd329cc5afc06b3f34679316  usr/share/doc/libfprint-2-2/NEWS.gz
+7f780990076e8821e6bb8965fc720117  usr/share/doc/libfprint-2-2/README
+4b4f6a114084c64a351879f07c6443c5  usr/share/doc/libfprint-2-2/TODO
+d400238b4a826ae7f90268fa0db687ee  usr/share/doc/libfprint-2-2/changelog.Debian.gz
+df88688f26bcd3f58baa36ef03a7784a  usr/share/doc/libfprint-2-2/copyright
+90ac492724ddc1455eb199fd29c9541f  usr/share/lintian/overrides/libfprint-2-2

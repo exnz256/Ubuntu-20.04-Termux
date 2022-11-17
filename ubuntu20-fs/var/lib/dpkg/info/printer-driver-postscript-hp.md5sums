@@ -1,0 +1,5 @@
+5b39e50394858ee40390d5441798434c  usr/lib/cups/driver/postscript-hp
+f9b57350395370974c86e27c46a53f65  usr/lib/cups/filter/hpps
+2e7cea99d95c016eb95c3c860e2899ce  usr/share/cups/ppd-updaters/printer-driver-postscript-hp.ppd-updater
+9043e983a137b6793df85466c00de06e  usr/share/doc/printer-driver-postscript-hp/changelog.Debian.gz
+4eaa991ca5725174363536965c7a8f25  usr/share/doc/printer-driver-postscript-hp/copyright

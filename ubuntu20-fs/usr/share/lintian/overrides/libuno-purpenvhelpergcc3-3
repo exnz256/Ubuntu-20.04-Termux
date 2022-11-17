@@ -1,0 +1,2 @@
+libuno-purpenvhelpergcc3-3: shlibs-declares-dependency-on-other-package libuno-purpenvhelpergcc3-3 (*), ure
+libuno-purpenvhelpergcc3-3: symbols-declares-dependency-on-other-package ure

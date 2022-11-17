@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Mahjongg
+Comment=Disassemble a pile of tiles by removing matching pairs
+# Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+Keywords=game;strategy;puzzle;board;
+Exec=gnome-mahjongg
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=org.gnome.Mahjongg
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Game;BoardGame;
+StartupNotify=true
+X-Ubuntu-Gettext-Domain=gnome-mahjongg

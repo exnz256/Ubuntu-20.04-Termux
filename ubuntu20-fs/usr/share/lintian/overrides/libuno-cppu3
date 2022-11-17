@@ -1,0 +1,2 @@
+libuno-cppu3: shlibs-declares-dependency-on-other-package libuno-cppu3 (*), ure
+libuno-cppu3: symbols-declares-dependency-on-other-package ure

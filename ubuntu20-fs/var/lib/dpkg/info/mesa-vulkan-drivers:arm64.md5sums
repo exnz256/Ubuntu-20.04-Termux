@@ -1,0 +1,16 @@
+c5c057fc2be1c7a45c90f9b73580a681  usr/bin/mesa-overlay-control.py
+ac8b868d9cd73dd2db4012d52a11134b  usr/lib/aarch64-linux-gnu/libVkLayer_MESA_device_select.so
+cb134bddbe824c69cee24784248050d8  usr/lib/aarch64-linux-gnu/libVkLayer_MESA_overlay.so
+873b8ca337634861ef2eaf34bea27181  usr/lib/aarch64-linux-gnu/libvulkan_broadcom.so
+5ca215483a11f7254959d2d61e2478a0  usr/lib/aarch64-linux-gnu/libvulkan_lvp.so
+c42863d9e47db8ca6dba7431bcef6894  usr/lib/aarch64-linux-gnu/libvulkan_radeon.so
+7f0d95ab544ef194372363bb93229ede  usr/share/bug/mesa-vulkan-drivers/control
+114f277e413ffae0a725cc024a955b47  usr/share/bug/mesa-vulkan-drivers/script
+581f60a16c5431207359ed6febdcdf6a  usr/share/doc/mesa-vulkan-drivers/changelog.Debian.gz
+2e2ab611d68364893311e9a62c77c3a5  usr/share/doc/mesa-vulkan-drivers/copyright
+9c2d8a3c5c9966a8b71290be5ba7d8a8  usr/share/lintian/overrides/mesa-vulkan-drivers
+be8c538ef5885e2ee6343913f3722afd  usr/share/vulkan/explicit_layer.d/VkLayer_MESA_overlay.json
+e409d89667743faf79ca05d1a5c29c7c  usr/share/vulkan/icd.d/broadcom_icd.aarch64.json
+919e4488cd48065547cf9ce290ecd6d9  usr/share/vulkan/icd.d/lvp_icd.aarch64.json
+328d27db3035315d4f51de9d7790d6bf  usr/share/vulkan/icd.d/radeon_icd.aarch64.json
+43f8fcd1adab76e61013c894783b500c  usr/share/vulkan/implicit_layer.d/VkLayer_MESA_device_select.json

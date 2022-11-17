@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="bassenhancer" xml:lang="ru">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    </info>
+    <title>Усиление басов (бас-энхансер)</title>
+    <p>
+        The brain perceives the pitch of a tone not only by its fundamental frequency
+        but also by the periodicity implied by the relationship between the higher
+        harmonics. We may perceive the same pitch even if the fundamental frequency is
+        missing from a tone.
+    </p>
+    <p>PulseEffects использует плагин бас-энхансера (генерирует высшие гармоники низких частот, благодаря чему повышается локализация низких частот и их «читаемость»), разработанный Calf Studio.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Amount</em>
+            </title>
+            <p>Уровень гармоник, добавленных к исходному сигналу</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Гармоники</em>
+            </title>
+            <p>Количество вновь созданных гармоник</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Диапазон частот</em>
+            </title>
+            <p>Диапазон частот, для которых генерируются гармоники.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Нижний предел частоты (кнопка)</em>
+            </title>
+            <p>Включение/выключение ограничения эффекта по нижнему пределу полосы частот.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Нижний предел частоты (значение)</em>
+            </title>
+            <p>Для частот ниже выставленной данным регулятором гармоники генерироваться не будут</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Смешение гармоник</em>
+            </title>
+            <p>"Цвет" (или октава) гармоник</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Прослушать</em>
+            </title>
+            <p>Выключить исходный сигнал и прослушать только гармоники</p>
+        </item>
+    </terms>
+    <section>
+        <title>Отклики</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://calf-studio-gear.org/doc/Bass%20Enhancer.html" its:translate="no">
+                        https://calf-studio-gear.org/doc/Bass%20Enhancer.html
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Missing_fundamental" its:translate="no">
+                        https://en.wikipedia.org/wiki/Missing_fundamental
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

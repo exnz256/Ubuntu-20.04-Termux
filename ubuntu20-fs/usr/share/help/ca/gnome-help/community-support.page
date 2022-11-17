@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="community-support" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="more-help"/>
+    <desc>Ontingueu ajuda de la comunitat</desc>
+
+    <revision version="19.10" date="2019-05-11" status="review"/>
+
+    <credit type="author">
+      <name>Equip de documentació de l'Ubuntu</name>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>Suport de la comunitat</title>
+
+  <p>Podeu trobar suport des d'una varietat de fonts que es mencionen i s'enllacen a <link href="https://www.ubuntu.com/support/community-support">suport de la comunitat</link>.</p>
+
+  <p>Cada pàgina de <link href="https://help.ubuntu.com">help.ubuntu.com</link> té una eina de cerca a dalt a la dreta. Us permet de fer una cerca de Google personalitzada a la documentació i recursos de suport a la web, per trobar més fàcilment si la vostra pregunta ja ha estat resposta.</p>
+
+  <p>El suport en el vostre idioma el pot proveir el vostre <link href="http://loco.ubuntu.com/teams/">Local Community Team</link>.</p>
+
+</page>

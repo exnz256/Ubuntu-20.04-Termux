@@ -1,0 +1,5 @@
+0e38b50b35a0880ff707d10588fbf3b7  usr/lib/aarch64-linux-gnu/libsuitesparseconfig.so.5.7.1
+b73f568d625b203ab463c9b6a662cdad  usr/share/doc/libsuitesparseconfig5/NEWS.Debian.gz
+810b0493782bf1926524554354eff725  usr/share/doc/libsuitesparseconfig5/changelog.Debian.gz
+95a14358c40ddbbbf66e627208099d00  usr/share/doc/libsuitesparseconfig5/copyright
+00cef9b9077fb31ef55d168306349ce8  usr/share/lintian/overrides/libsuitesparseconfig5

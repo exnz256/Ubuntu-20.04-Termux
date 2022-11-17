@@ -1,0 +1,7 @@
+2b387056caefc5e0e9918fb62005c583  lib/aarch64-linux-gnu/libply-boot-client.so.5.0.0
+60962279cf5c81b9ceccaa18426c0069  lib/aarch64-linux-gnu/libply-splash-core.so.5.0.0
+d2592cd6cd5676fd384c7ffc0c3373fb  lib/aarch64-linux-gnu/libply-splash-graphics.so.5.0.0
+983250135dcaeb607fa258a1663fbe87  lib/aarch64-linux-gnu/libply.so.5.0.0
+2d25b55adbfb9fe99d0583c53ee5ca0d  usr/share/doc/libplymouth5/changelog.Debian.gz
+fac32bda1cab0ce9d7cc74a97852d80e  usr/share/doc/libplymouth5/copyright
+8dda37e6f2383c05f4f45887d34a6684  usr/share/lintian/overrides/libplymouth5

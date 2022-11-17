@@ -1,0 +1,20 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: xfce4-taskmanager
+Source: http://goodies.xfce.org/projects/applications/xfce4-taskmanager
+
+Files: *
+Copyright: 2006, Johannes Zellner <webmaster@nebulon.de>
+ 2008, Mike Massonnet <mmassonnet@xfce.org>
+License: GPL-2+
+
+Files: debian/*
+Copyright: 2005, Markus Bergholz <markuman@gmail.com>
+License: GPL-2+
+
+License: GPL-2+
+ You are free to distribute this software under the terms of
+ the GNU General Public License version 2 or (at your option) any later
+ version.
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License can be found in the file `/usr/share/common-licenses/GPL-2'.

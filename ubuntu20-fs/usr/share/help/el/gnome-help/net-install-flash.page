@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:ui="http://projectmallard.org/ui/1.0/" type="topic" style="task" id="net-install-flash" xml:lang="el">
+  <info>
+    <link type="guide" xref="net-browser"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+    <revision version="18.04" date="2018-01-23" status="review"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ομάδα τεκμηρίωσης Ubuntu</name>
+    </credit>
+
+    <desc>Μπορεί να χρειάζεται η εγκατάσταση του Flash για να μπορείτε να δείτε κάποιες ιστοσελίδες που περιέχουν βίντεο ή διαδραστικό περιεχόμενο.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>Εγκατάσταση πρόσθετου για το flash</title>
+
+<p>Το Flash είναι ένα <em>πρόσθετο (plug-in)</em> για τον περιηγητή διαδικτύου που επιτρέπει την παρακολούθηση βίντεο και διαδραστικών σελίδων σε κάποιους δικτυακούς τόπους. Ενώ το HTML5, που είναι μια πιο σύγχρονη λύση, παρέχεται όλο και περισσότερο, υπάρχουν ακόμη κάποιοι ιστότοποι που δεν λειτουργούν χωρίς Flash.</p>
+
+<p>Αν δεν έχετε εγκατεστημένο το flash, θα δείτε πιθανότατα ένα μήνυμα που σας ενημερώνει όταν επισκέπτεστε μια ιστοσελίδα που το χρειάζεται. Το flash είναι διαθέσιμο για δωρεάν λήψη (αλλά όχι ανοιχτού κώδικα) από τα περισσότερα προγράμματα περιήγησης δικτύου.</p>
+
+<note style="warning">
+ <p>Η Adobe έχει ανακοινώσει τη διακοπή της αναβάθμισης και διανομής του Flash Player μέχρι το τέλος του 2020. Επομένως, για λόγους ασφαλείας, το Adobe Flash plug-in δε θα πρέπει να χρησιμοποιείται μετά το 2020.</p>
+</note>
+
+<p>Υπάρχουν δυο είδη πρόσθετων (plug-in) διαθέσιμα:</p>
+
+<list>
+ <item>
+  <p><em>NPAPI</em> για <app>Firefox</app> και άλλους βασισμένους στο Gecko περιηγητές διαδικτύου</p>
+ </item>
+ <item>
+  <p><em>PPAPI</em> για <app>Chromium</app> και άλλους βασισμένους στο Blink περιηγητές διαδικτύου, συμπεριλαμβανομένων των <app>Opera</app> και <app>Vivaldi</app></p>
+ </item>
+</list>
+
+<note>
+ <p>Το <app>Google Chrome</app> έρχεται με το Flash ενσωματωμένο και δεν απαιτεί πρόσθετο.</p>
+</note>
+
+<section id="flashplugin-installer">
+ <title>flashplugin-installer</title>
+
+ <p>Το πακέτο <app>flashplugin-installer</app> παρέχει το πρόσθετο NPAPI για το Firefox. <link href="apt:flashplugin-installer">Εγκατάσταση πακέτου</link> και επανεκκινήστε τον περιηγητή διαδικτύου.</p>
+
+</section>
+
+<section id="adobe-flashplugin">
+ <title>adobe-flashplugin</title>
+
+ <p>Το πακέτο <app>adobe-flashplugin</app> παρέχει αμφότερα τα πρόσθετα NPAPI και PPAPI, δηλαδή παρέχει το Flash για περιηγητές διαδικτύου βασισμένους τόσο στον Firefox όσο και στον Chromium.</p>
+
+ <steps>
+  <item>
+   <p>Make sure that the <link xref="addremove-sources#canonical-partner">Canonical Partner repository is activated</link>.</p>
+  </item>
+  <item>
+   <p>Εγκαταστήστε το πακέτο <link href="apt:adobe-flashplugin">adobe-flashplugin</link>.</p>
+  </item>
+  <item>
+   <p>Επανεκκινήστε τον περιηγητή διαδικτύου.</p>
+  </item>
+ </steps>
+
+</section>
+
+<section id="browser-plugin-freshplayer-pepperflash">
+ <title>browser-plugin-freshplayer-pepperflash</title>
+
+ <p>Μερικά χαρακτηριστικά του προσθέτου PPAPI, όπως η επιτάχυνση 3D και το DRM, δεν είναι διαθέσιμα στο πρόσθετο NPAPI. Εάν χρησιμοποιείτε Firefox ή άλλον βασισμένο στο Gecko περιηγητή διαδικτύου και χρειάζεστε αυτά τα χαρακτηριστικά, μπορείτε να εγκαταστήσετε το πακέτο <app>browser-plugin-freshplayer-pepperflash</app>. Είναι ένα wrapper που κάνει τον Firefox να χρησιμοποιεί το πρόσθετο PPAPI.</p>
+
+ <steps>
+  <item>
+   <p>Διασφαλίστε ότι το <app>adobe-flashplugin</app> είναι εγκατεστημένο.</p>
+  </item>
+  <item>
+   <p>Ανοίξτε ένα παράθυρο τερματικού πατώντας <keyseq><key>Ctrl</key><key>Alt</key><key>T</key></keyseq> και εγκαταστήστε το πακέτο <app>browser-plugin-freshplayer-pepperflash</app>:</p>
+   <p><cmd its:translate="no">sudo apt install browser-plugin-freshplayer-pepperflash</cmd></p>
+  </item>
+  <item>
+   <p>Επανεκκινήστε τον περιηγητή διαδικτύου.</p>
+  </item>
+ </steps>
+
+</section>
+
+<section id="snap">
+ <title>Περιηγητής διαδικτύου παρεχόμενος ως πακέτο snap</title>
+
+ <p>Εάν χρησιμοποιείτε το <app>Firefox</app> ή το <app>Chromium</app> ως snap, τα πακέτα που περιγράφονται παραπάνω δεν είναι χρήσιμα. Αντιθέτως, προκειμένου να είναι διαθέσιμο το Flash συστήτονται τα παρακάτω βήματα.</p>
+
+ <p>Παρακαλούμε σημειώστε ότι πρέπει να χρησιμοποιείτε πάντα την τελευταία έκδοση του Flash. Αυτό σημαίνει ότι πρέπει να επαναλαμβάνετε τα βήματα 2-7 κάθε τόσο ώστε να συνεχίζετε να έχετε πρόσβαση σε διαδικτυακές υπηρεσίες που απαιτούν Flash.</p>
+
+ <steps ui:expanded="false">
+ <title>Firefox ως snap</title>
+  <item>
+   <p its:locNote="Translators: Don't translate 'plugins' - it's the name of a folder on the file    system.">Δημιουργήστε ένα φάκελο <sys>plugins</sys>:</p>
+   <p><cmd its:translate="no">mkdir ~/snap/firefox/common/.mozilla/plugins</cmd></p>
+  </item>
+  <item>
+   <p>Πηγαίνετε στο <link href="https://get.adobe.com/flashplayer/">https://get.adobe.com/flashplayer/</link>.</p>
+  </item>
+  <item>
+   <p>Λήψη του αρχείου <sys>.tar.gz</sys> για Linux.</p>
+  </item>
+  <item>
+   <p>Μεταβείτε στο φάκελο Λήψεις.</p>
+  </item>
+  <item>
+   <p>Εξάγετε τα αρχεία από το ληφθέν αρχείο:</p>
+   <p><cmd its:translate="no">tar xf flash_player*</cmd></p>
+  </item>
+  <item>
+   <p>Αντιγράψτε το αρχείο <sys>libflashplayer.so</sys> στο φάκελο <sys>plugins</sys>:</p>
+   <p><cmd its:translate="no">cp libflashplayer.so ~/snap/firefox/common/.mozilla/plugins</cmd></p>
+  </item>
+  <item>
+   <p>Επανεκκινήστε τον περιηγητή διαδικτύου.</p>
+  </item>
+ </steps>
+
+ <steps ui:expanded="false">
+ <title>Chromium ως snap</title>
+  <item>
+   <p its:locNote="Translators: Don't translate 'lib' - it's the name of a folder on the file    system.">Δημιουργήστε ένα φάκελο <sys>lib</sys>:</p>
+   <p><cmd its:translate="no">mkdir ~/snap/chromium/current/.local/lib</cmd></p>
+  </item>
+  <item>
+   <p>Πηγαίνετε στο <link href="https://get.adobe.com/flashplayer/">https://get.adobe.com/flashplayer/</link>.</p>
+  </item>
+  <item>
+   <p>Λήψη του αρχείου <sys>.tar.gz</sys> για Linux.</p>
+  </item>
+  <item>
+   <p>Μεταβείτε στο φάκελο Λήψεις.</p>
+  </item>
+  <item>
+   <p>Εξάγετε τα αρχεία από το ληφθέν αρχείο:</p>
+   <p><cmd its:translate="no">tar xf flash_player*</cmd></p>
+  </item>
+  <item>
+   <p>Αντιγράψτε το αρχείο <sys>libpepflashplayer.so</sys> στο φάκελο <sys>lib</sys>:</p>
+   <p><cmd its:translate="no">cp libpepflashplayer.so ~/snap/chromium/current/.local/lib</cmd></p>
+  </item>
+  <item>
+   <p>Επανεκκινήστε τον περιηγητή διαδικτύου.</p>
+  </item>
+ </steps>
+
+</section>
+
+</page>

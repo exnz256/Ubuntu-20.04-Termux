@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="startup-applications" xml:lang="lt">
+
+  <info>
+    <link type="guide" xref="shell-overview#apps"/>
+    <link type="guide" xref="prefs"/>
+    <desc>Automatiškai startuokite norimas programas pasileidus operacinei sistemai.</desc>
+
+    <revision version="18.04" date="2018-03-19" status="review"/>
+
+    <credit type="author">
+      <name>Ubuntu documentacijos komanda</name>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>Startuojant paleidžiamos programos</title>
+
+  <p>Galite nustatyti kokios programos turėtų pasileisti jums prisijungus (startavus operacinei sistemai) arba išjungti standartiškai automatiškai paleidžiamas programas.</p>
+
+  <steps>
+    <item>
+      <p>Atverkite <gui>Paleidžiamos programos</gui> langą per <gui xref="shell-introduction#activities">Apžvalga</gui> paiešką arba paspauskite <keyseq><key>Alt</key><key>F2</key></keyseq> ir įrašę <cmd>gnome-session-properties</cmd> komandą paspauskite <key>Enter</key>.</p>
+    </item>
+    <item>
+      <p>Paspauskite ant mygtuko <gui>Pridėti</gui> ir įveskite norimos automatiškai startuoti programos paleidimo komandą (neprivaloma įvesti pavadinimo bei komentarų). Pvz. jei norite kad pasileidus operacinei sistemai automatiškai startuotų Firefox naršyklė - <em>Pridėti paleidimo programą</em> lange paprasčiausiai įrašykite <cmd>firefox</cmd> laukelyje <gui>Komanda</gui> ir  spustelėkite <gui>Pridėti</gui>.</p>
+    </item>
+  </steps>
+
+  <note>
+    <p>Jei tiksliai nežinote norimos paleisti programos komandos - paspauskite mygtuką <gui>Naršyti...</gui> ir pasirinkite programos vykdomąjį failą. Įprastai vykdomieji failai yra <code>/usr/bin</code> (žr. <em>Kitos vietos-&gt;Kompiuteris </em>) aplanke.</p>
+  </note>
+
+</page>

@@ -1,0 +1,2 @@
+# we build hardening options
+thunar-volman: hardening-no-fortify-functions usr/bin/thunar-volman

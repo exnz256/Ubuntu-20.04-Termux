@@ -1,0 +1,7 @@
+f647cf152ad49264fc82c7d650973cbf  lib/systemd/system/kerneloops.service
+fd728bc3ea1db73795b6fcd0d3975325  usr/bin/kerneloops-submit
+e238ef5365fa98b252eb8a3503255e76  usr/sbin/kerneloops
+c4b5b7ac97cc67751cb39aedc8f60556  usr/share/apport/package-hooks/source_kerneloops.py
+dd5538be6dfd9441aef1cef4d794d11b  usr/share/doc/kerneloops/changelog.Debian.gz
+4105a6ec7ebc358f8fc2963f40020c76  usr/share/doc/kerneloops/copyright
+5a0ca32e7510191bf4cc28ca9d6575c7  usr/share/man/man8/kerneloops.8.gz

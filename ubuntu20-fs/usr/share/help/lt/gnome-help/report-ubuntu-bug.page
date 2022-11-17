@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="report-ubuntu-bug" xml:lang="lt">
+
+  <info>
+    <link type="guide" xref="more-help"/>
+    <desc>Kaip ir kur pranešti apie nesklandumus naudojant Ubuntu operacinę sistemą bei programas ar pastebėtas klaidas.</desc>
+
+    <revision version="13.10" date="2013-09-19" status="review"/>
+
+    <credit type="author">
+      <name>Ubuntu documentacijos komanda</name>
+      <email>ubuntu-doc@lists.ubuntu.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>Pranešti apie klaidą Ubuntu OS ar programose</title>
+
+<p>Mes labai norėtume jei praneštumėte mums apie pastebėtas klaidas programose ar operacinėje sistemoje  (angliškai <em>bug report</em>).</p>
+
+<steps>
+ <item>
+  <p>Jei žinote tikslų programos, kurioj aptikote klaidą, failo pavadinimą (komandą) - paspauskite <keyseq><key>Alt</key><key>F2</key></keyseq> ir atsiradusiame langelyje įrašykite <input>ubuntu-bug programospavadinimas</input> ir paspauskite <key>Enter</key></p>
+  <p>Jei nežinote tikslaus programos vykdomojo failo pavadinimo  arba iškilo problema su aparatine įranga, pvz. „pakimba“ kompiuteris paspaudę <keyseq><key>Alt</key><key>F2</key></keyseq>  tiesiog įrašykite <input>ubuntu-bug</input> ir paspauskite <key>Enter</key></p>
+ </item>
+
+ <item><p>Įvykdžius <input>ubuntu-bug</input>, Ubuntu sistema surinks reikiamą informaciją apie klaidą iš jūsų kompiuterio. Tai gali užtrukti kelias minutes. Jei norite galite peržvelgti surinktą informaciją - tuomet paspauskite mygtuką Click <gui>Siųsti</gui>.</p>
+ </item>
+
+ <item><p>Atsivers interneto naršyklės langas (kortelė) kuriame galėsite pranešti apie klaidą Ubuntu sistemos kūrėjams. Tam šiuo metu yra naudojama <app>Launchpad.net</app> svetainė, kurioje jūs turėtumėte užregistruoti savo el. paštą, kad Ubuntu kūrėjai galėtų jus informuoti apie praneštos klaidos taisymo progresą. Tai galite padaryti spustelėdami ant <gui>Create a new account</gui>.</p>
+ </item>
+
+
+ <item><p>Prisijungę prie <app>Launchpad.net</app> svetainės įrašykite problemos aprašymą anglų kalba (jei galite) laukelyje <em>summary</em></p>
+ </item>
+
+ <item><p>After clicking <gui>Next</gui> Launchpad will search for similar bugs in case the bug you
+are reporting has already been reported. If the bug has already been reported, you can mark that bug as 
+also affecting you. You can also subscribe to the bug report to receive updates about progress with
+fixing it. If the bug has not already been reported, click <gui>No, I need to report a new bug</gui>.</p>
+ </item>
+
+ <item><p>Išsamiai aprašykite pastebėtą klaidą ar nesklandumą angliškai į <em>description</em> laukelį. Svarbiausia yra kuo aiškiau aprašyti šiuos tris dalykus:</p>
+
+  <list type="disc">
+  <item><p>Kaip jūsų manymu turi veikti</p></item>
+  <item><p>Kas atsitiko dabar</p></item>
+  <item><p>Jei galite, pažingsniui aprašykite ką reikia atlikti kad pakartoti klaidą (nesklandumą), pirmas žingsnis galėtų būti "paleidžiu programą xx"</p></item></list>
+
+ </item>
+  <item><p>Your report will be given an ID number, and its status will be updated as it is being dealt with. Thanks for helping make Ubuntu better!</p>
+ </item>
+</steps>
+
+<note><p>Klaidos pranešimas "This is not a genuine Ubuntu package" reiškia, kad neteisingai nurodėte programos pavadinimą arba programos nėra oficialioje Ubuntu programų saugykloje. Tuomet pranešimui apie klaidą netinka <em>ubuntu-bug</em> įrankis.</p></note>
+
+<p>Daugiau informacijos apie Ubuntu sistemos bei programinės įrangos klaidų ar nesklandumų pranešimus rasite <link href="https://help.ubuntu.com/community/ReportingBugs">help.ubuntu.com/community/ReportingBugs</link>.</p>
+</page>

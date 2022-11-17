@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="net-chat-video" xml:lang="ca">
+  <info>
+    <link type="guide" xref="net-chat"/>
+
+    <revision version="20.04" date="2020-04-20" status="review"/>
+
+    <credit type="author">
+      <name>Equip de documentació de l'Ubuntu</name>
+    </credit>
+
+    <desc>Quines aplicacions puc fer servir per fer vídeo trucades?</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>Trucades de vídeo</title>
+
+  <list type="disc">
+    <title>Les aplicacions amb suport per vídeo trucades inclouen</title>
+
+    <item><p>L'<app><link xref="net-chat-empathy">Empathy</link></app></p></item>
+
+    <item><p>L'<app><link xref="net-chat-skype">Skype</link></app></p></item>
+
+    <item><p>
+      <app><link href="apt:jami">Jami</link></app>
+    </p></item>
+
+  </list>
+
+</page>

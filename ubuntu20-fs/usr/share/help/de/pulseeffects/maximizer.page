@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="maximizer" xml:lang="de">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>David Keller</mal:name>
+      <mal:email>davidkeller@tuta.io</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+    <title>Maximierer</title>
+    <p>Der Maximierer ist ein vielseitiges Plugin, das sich zu einem Kompressor, einem Verstärker und einem Limiter zusammenstellen lässt. Es wird im Grunde nur durch zwei Parameter gesteuert: Obergrenze und Schwellwert. Die Schwelle ist ein relativer Wert, der die Verstärkung des Signals repräsentiert, während die Obergrenze die maximal zulässige Ausgangsspitze ist. Wenn beide Werte von Null verschieden sind, wirkt das Plugin wie ein Aufwärtskompressor mit einem Limiter an der Obergrenze (ein zu stark verstärktes Signal mit zu niedrig eingestellter Obergrenze kann zu verzerrtem Klang führen, auch ohne das Vorhandensein von Clipping). Wenn nur der Schwellwert auf Null gesetzt wird, reduziert dies die Amplitude des Signals.</p>
+    <p>PulseEffects verwendet den Maximierer von ZamAudio.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Schwelle</em>
+            </title>
+            <p>Relativer Wert, der die Verstärkung des Signals darstellt. Null ist keine Verstärkung. Kleinere Werte, höhere Verstärkung.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Grenze</em>
+            </title>
+            <p>Maximal zulässiger Spitzenpegel des Ausgangssignals.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Ausklingzeit</em>
+            </title>
+            <p>Stelle die Ausklingzeit in Millisekunden ein.</p>
+        </item>
+    </terms>
+    <!-- <section> <title>References</title> <list> <item> <p> <link
+    href="http://www.zamaudio.com"> http://www.zamaudio.com </link> </p> </item>
+    </list> </section> -->
+</page>

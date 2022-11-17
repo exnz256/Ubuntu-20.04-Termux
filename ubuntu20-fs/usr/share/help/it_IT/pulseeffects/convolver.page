@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="convolver" xml:lang="it-IT">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Digitalone</mal:name>
+      <mal:email>kurmikon@libero.it</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+    <title>Convolutore</title>
+    <p>Un Convolutore crea una simulazione di un ambiente audio. Si basa sull'operazione matematica di convoluzione e utilizza un campione audio pre-registrato della risposta all'impulso dello spazio da modellare.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Importa Impulso</em>
+            </title>
+            <p>Importa un file di risposta all'impulso nella cartella di configurazione di PulseEffects.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Ampiezza Stereo</em>
+            </title>
+            <p>Modifica l'ampiezza dell'immagine stereo della risposta all'impulso.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Spettro</em>
+            </title>
+            <p>Visualizza lo spettro di frequenza del canale selezionato.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Note</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Convolution_reverb" its:translate="no">
+                        https://en.wikipedia.org/wiki/Convolution_reverb
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

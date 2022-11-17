@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="delay" xml:lang="it-IT">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Digitalone</mal:name>
+      <mal:email>kurmikon@libero.it</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+    <title>Ritardo</title>
+    <p>Questo plugin consente di aggiungere un tempo di ritardo a ciascun canale stereo.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Sinistro</em>
+            </title>
+            <p>Ritardo del canale sinistro.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Destro</em>
+            </title>
+            <p>Ritardo del canale destro.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Note</title>
+        <list>
+            <item>
+                <p>
+                    <link href="http://lsp-plug.in/?page=manuals&amp;section=comp_delay_x2_stereo" its:translate="no">
+                        http://lsp-plug.in/?page=manuals&amp;section=comp_delay_x2_stereo
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Delay_(audio_effect)" its:translate="no">
+                        https://en.wikipedia.org/wiki/Delay_(audio_effect)
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

@@ -1,0 +1,134 @@
+﻿#locale/pt_BR/symbols.dic
+#A part of NonVisual Desktop Access (NVDA)
+#Copyright (c) 2011 Peter Vágner <peter.v@datagate.sk>
+#Copyright (c) 2011 James Teh <jamie@jantrid.net>
+#Copyright (c) 2011-2015 Cleverson Casarin Uliana <clever92000@yahoo.com.br>
+#Copyright (c) 2012-2015 Marlin Rodrigues <marlincgrodrigues@yahoo.com.br>
+#Copyright (c) 2013-2014 Mesar Hameed <mhameed@src.gnome.org>
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+#
+
+complexSymbols:
+# identifier	regexp
+# Sentence endings.
+. fim de sentença	(?<=[^\s.])\.(?=[\"'”’)\s]|$)
+! fim de sentença	(?<=[^\s!])\!(?=[\"'”’)\s]|$)
+? fim de sentença	(?<=[^\s?])\?(?=[\"'”’)\s]|$)
+# Phrase endings.
+; fim de período	(?<=[^\s;]);(?=\s|$)
+: fim de período	(?<=[^\s:]):(?=\s|$)
+# Others
+ponto decimal	(?<=\d),(?=\d)
+' em palavra	(?<=[^\W_])['’]
+número negativo	(?<!\w)-(?=[$£€¥]?\d)
+
+symbols:
+# identifier	replacement[[	level][	preserve]][	# display name]
+
+# Complex symbols
+. fim de sentença	ponto	all	always
+! fim de sentença	exclamação	all	always
+? fim de sentença	interrogação	all	always
+; fim de período	ponto e vírgula	most	always
+: fim de período	dois pontos	most	always
+ponto decimal		none	always
+' em palavra	apóstrofo	all	norep
+número negativo	menos	none	norep
+
+# Whitespace
+\0	em branco	char
+\t	tab
+\n	nova linha	char
+\f	quebra de página	none
+\r	retôrno	char
+ 	espaço	char
+ 	espaço	char	# no-break space
+
+# Standard punctuation/symbols
+!	exclamação	all
+"	aspas	most
+\#	cardinal	most
+$	cifrão	all	norep
+£	libra	all	norep
+€	euro	all	norep
+¢	Centavos	all	norep
+¥	iene	all	norep
+%	porcento	some
+&	êh comercial	some
+'	apóstrofo	all
+(	abre parênteses	most
+)	fecha parênteses	most
+*	asterisco	some
++	mais	some
+,	vírgula	all	always
+-	hífen	most
+.	ponto	some
+/	barra	some
+:	dois pontos	most	norep
+;	ponto e vírgula	most
+<	menor	most
+>	maior	most
+=	igual	some
+?	interrogação	all
+@	arrôba	some
+[	abre colchetes	most
+]	fecha colchetes	most
+\\	barra invertida	most
+^	circunflexo	most
+_	sublinhado	most
+`	grave	most
+{	abre chaves	most
+}	fecha chaves	most
+|	barra vertical	most
+~	til	most
+
+# Other characters
+•	bolinha	some
+…	reticências	all	always
+...	reticências	all	always
+	bolinha	some
+“	aspas esquerdas	most
+”	aspas direitas	most
+‘	apóstrofo esquerdo	most
+’	apóstrofo direito	most
+–	travessão N	most
+—	travessão M	most
+●	círculo	most
+¨	trema	most
+‎	esquerda para direita	char
+‏	direita para esquerda	char
+■	barra vertical cortada	some
+▪	barra vertical cortada	some
+◾	barra vertical cortada	some
+◦	bolinha branca	some
+➔	seta à direita	some
+§	parágrafo	all
+°	graus	some
+«	abre aspas duplas
+»	fecha aspas duplas
+µ	micro	some
+¹	1 superescrito	some
+²	2 superescrito	some
+³	3 superescrito	some
+®	registrado	some
+™	marca registrada	some
+©	Copyright	some
+±	mais ou menos	most
+×	vezes	most
+÷	dividido por	most
+←	seta à esquerda	some
+→	seta à direita	some
+✓	marca	some
+✔	marca	some

@@ -1,0 +1,7 @@
+2dc1df5d6819fb2014a25cccdb35b10d  lib/systemd/system/switcheroo-control.service
+30152e6ab2f02de3d7b6c14eb047451d  lib/udev/hwdb.d/30-pci-intel-gpu.hwdb
+3d9bb53a7b9090f9a40797caee7b4742  usr/libexec/switcheroo-control
+c7c8e5f4e63845cc2f761e79afbc6a02  usr/share/doc/switcheroo-control/NEWS.gz
+fb1fe9c05ed753e8bcc47f4f0734d732  usr/share/doc/switcheroo-control/README.md
+6109b0003c43a6cca2a6bcc17eddeeb6  usr/share/doc/switcheroo-control/changelog.Debian.gz
+7df8414f5dfd60525442a3a7f6ac7450  usr/share/doc/switcheroo-control/copyright

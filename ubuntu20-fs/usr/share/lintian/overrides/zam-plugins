@@ -1,0 +1,11 @@
+# These entries are not spelling errors.
+# Can't to find them in source code.
+zam-plugins: spelling-error-in-binary usr/lib/lv2/ZaMaximX2.lv2/ZaMaximX2_dsp.so pres press
+zam-plugins: spelling-error-in-binary usr/lib/lv2/ZaMultiCompX2.lv2/ZaMultiCompX2_dsp.so pres press
+zam-plugins: spelling-error-in-binary usr/lib/lv2/ZamCompX2.lv2/ZamCompX2_dsp.so pres press
+zam-plugins: spelling-error-in-binary usr/lib/lv2/ZamDelay.lv2/ZamDelay_dsp.so pres press
+zam-plugins: spelling-error-in-binary usr/lib/lv2/ZamGateX2.lv2/ZamGateX2_dsp.so pres press
+zam-plugins: spelling-error-in-binary usr/lib/lv2/ZamHeadX2.lv2/ZamHeadX2_dsp.so pres press
+zam-plugins: spelling-error-in-binary usr/lib/lv2/ZamDynamicEQ.lv2/ZamDynamicEQ_dsp.so pres press
+zam-plugins: spelling-error-in-binary usr/lib/lv2/ZamGEQ31.lv2/ZamGEQ31_dsp.so pres press
+zam-plugins: spelling-error-in-binary usr/lib/lv2/ZamPhono.lv2/ZamPhono_dsp.so pres press

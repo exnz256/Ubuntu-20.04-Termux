@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="deesser" xml:lang="ru">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    </info>
+    <title>Антишипение (деэссер)</title>
+    <p>
+        PulseEffects uses the deesser developed by Calf Studio. A deesser is used to
+        dynamically reduce high frequencies. The standard field of use is the reduction
+        of "sssss" and "shhhh" in vocal tracks.
+    </p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Допуск на срабатывание</em>
+            </title>
+            <p>Значение данного параметра позволяет пропускать без обработки короткие пики сигнала.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Порог срабатывания</em>
+            </title>
+            <p>Уровень сигнала, выше которого «Компрессор» уменьшает уровень сигнала на заданный пользователем коэффициент («Степень сжатия»).</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Степень сжатия</em>
+            </title>
+            <p>
+                Set the ratio by which the signal will be reduced.
+            </p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Компенсирование</em>
+            </title>
+            <p>
+                It amplifies your signal after processing.
+            </p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Частота раздела</em>
+            </title>
+            <p>Уровень сигнала в полосе частот выше «Частоты раздела» при работе «Деэссера» будет уменьшен</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Усиление</em>
+            </title>
+            <p>В широкополосном режиме данный параметр влияет на работу «Боковой цепи/(Sidechain)»,в режиме разделения по частоте — на обрабатываемые высокие частоты.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Пик</em>
+            </title>
+            <p>Центр частоты фильтра типа «колокол». Позволяет произвести более точную настройкусигнала «Боковой цепи/(Sidechain)»</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Уровень</em>
+            </title>
+            <p>Увеличение или уменьшение уровня частот вокруг центральной частоты фильтра типа «колокол»</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Добротность (Q)</em>
+            </title>
+            <p>Добротность фильтра типа «колокол». Более высокое значение добротности означает, что фильтр типа «колокол» влияет на более узкую полосу частот вокруг центральной частоты фильтра,более низкое значение добротности — на более широкую полосу частот вокруг центральной частоты фильтра.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Detection</em>
+            </title>
+            <p>Выберите, какой параметр сигнала управляет работой «Деэссера»:среднеквадратичный (RMS) или пиковый</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Режим</em>
+            </title>
+            <p>Выберите режим работы: «Широкополосный» или «С разделение по частоте»</p>
+        </item>
+    </terms>
+    <section>
+        <title>Отклики</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/De-essing" its:translate="no">
+                        https://en.wikipedia.org/wiki/De-essing
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://calf-studio-gear.org/doc/Deesser.html" its:translate="no">
+                        https://calf-studio-gear.org/doc/Deesser.html
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

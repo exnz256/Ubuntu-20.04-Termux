@@ -1,0 +1,4 @@
+2f1ad364c25bfd8dcee21c2d6ea97a3a  /etc/papersize
+6dbdc3a27e1953d209f929df7aff0c57  /etc/ssh/sshd_config
+febb9ae629564c6684ff51197b3ca639  /etc/gdm3/greeter.dconf-defaults
+1c261d6541420797f8b824d65ac5c197  /etc/apt/apt.conf.d/20auto-upgrades

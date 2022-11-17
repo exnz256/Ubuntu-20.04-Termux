@@ -1,0 +1,16 @@
+### This file is part of the dictionaries-common package.
+### It has been automatically generated.
+### DO NOT EDIT!
+
+package Debian::DictionariesCommon::dbfile;
+
+%dictionaries = (
+  'English (American)' => {
+     'coding-system' => 'UTF-8',
+     'emacsen-name' => 'english_american',
+     'hash-name' => 'en_US',
+     'package' => 'hunspell-en-us'
+  }
+);
+
+1;

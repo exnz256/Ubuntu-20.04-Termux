@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="general" xml:lang="pt-BR">
+    <info>
+        <link type="guide" xref="settingsmenu"/>
+    </info>
+    <title>Geral</title>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Inicializar Serviço no Login</em>
+            </title>
+            <p>Inicie o PulseEffects como um serviço no próximo login. Isso é feito criando um arquivo de autoinicialização em <cmd its:withinText="yes">~/.config/autostart</cmd></p>
+        </item>
+        <item>
+            <title id="title_enable_all_apps">
+                <em style="strong" its:withinText="nested">Processar Todas as Saídas</em>
+            </title>
+            <p>Aplicar efeitos na saída de todos os aplicativos de áudio. Isso ativará automaticamente o interruptor de cada aplicativo que pode ser vista na entrada Aplicativos.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Processar Todas as Entradas</em>
+            </title>
+            <p>Aplicar efeitos na entrada de todos os aplicativos de áudio. Isso ativará automaticamente o interruptor de cada aplicativo que pode ser vista na entrada Aplicativos.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Usar Tema Escuro</em>
+            </title>
+            <p>Usar a variante escura do tema GTK.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Resetar</em>
+            </title>
+            <p>Redefine todos os parâmetros para seus valores padrões. Isto redefinirá os plugins também.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Tipo de Prioridade</em>
+            </title>
+            <p>Escolha entre o modo de tempo real, gentileza ou nenhum. Esse parâmetro permite escolher uma prioridade mais alta para os segmentos que processam áudio.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Gentileza</em>
+            </title>
+            <p>Valor da gentileza.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Prioridade</em>
+            </title>
+            <p>Prioridade em tempo real.</p>
+        </item>
+    </terms>
+</page>

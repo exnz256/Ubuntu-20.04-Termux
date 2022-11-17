@@ -1,0 +1,298 @@
+2504d141a8e7a6e55003f4353e437820  usr/share/doc/remmina-common/changelog.Debian.gz
+cb10b6e87cdc085f622938193a59d4d9  usr/share/doc/remmina-common/copyright
+2d4516bcc906925228f4f9e458a8e3cf  usr/share/icons/hicolor/128x128/apps/org.remmina.Remmina.png
+f14bfaff1a7d839fc1abe45200d449af  usr/share/icons/hicolor/128x128/apps/remmina-panel-inverted.png
+b0e590a2ccceb509213a357ff04b4140  usr/share/icons/hicolor/128x128/apps/remmina-panel.png
+95eb6aa0c44633880224bed627a8cbaf  usr/share/icons/hicolor/16x16/apps/org.remmina.Remmina.png
+de63e22bdec19325d3dac3be02bf6c3f  usr/share/icons/hicolor/16x16/apps/remmina-panel-inverted.png
+20bb11d17fde65e6a078ce6cdf60b42c  usr/share/icons/hicolor/16x16/apps/remmina-panel.png
+bf68d8e45f26ad03267c92c0550a1c8b  usr/share/icons/hicolor/22x22/apps/org.remmina.Remmina.png
+48f433910bbc570e5499338ba717717e  usr/share/icons/hicolor/22x22/apps/remmina-panel-inverted.png
+7fda0403b6e24703203a7a25b5356517  usr/share/icons/hicolor/22x22/apps/remmina-panel.png
+3d37cee5e435c987058070fc04ad9ced  usr/share/icons/hicolor/24x24/apps/org.remmina.Remmina.png
+845d2b6f89ab759a6b58bc2227f87ec9  usr/share/icons/hicolor/24x24/apps/remmina-panel-inverted.png
+5a0b04b5be75b4c2f1ac57d8a5713f26  usr/share/icons/hicolor/24x24/apps/remmina-panel.png
+6d0446a1bf10ce2dc5cc5d87a515d483  usr/share/icons/hicolor/256x256/apps/org.remmina.Remmina.png
+ae436dc6bf7afb7519e5cda3824f8627  usr/share/icons/hicolor/256x256/apps/remmina-panel-inverted.png
+8dff49d1ca799c8c15d8f0dc38ba1d7b  usr/share/icons/hicolor/256x256/apps/remmina-panel.png
+435cb122511f4beb19d7bd56adfd7f4f  usr/share/icons/hicolor/32x32/apps/org.remmina.Remmina.png
+65d06b3af69b0163f990e3f3338e9c51  usr/share/icons/hicolor/32x32/apps/remmina-panel-inverted.png
+62680b874b6971f504e050b8029db24b  usr/share/icons/hicolor/32x32/apps/remmina-panel.png
+ac4957ac6bf9c918ea01b8fa5053a44e  usr/share/icons/hicolor/48x48/apps/org.remmina.Remmina.png
+8bb5462ecee129737133e745a9b5977c  usr/share/icons/hicolor/48x48/apps/remmina-panel-inverted.png
+4c034038e9db7a515695465b7afe90cc  usr/share/icons/hicolor/48x48/apps/remmina-panel.png
+41ce412f8b268376555a5fdb8529d9bb  usr/share/icons/hicolor/64x64/apps/org.remmina.Remmina.png
+f7b82e2cf8871e75bc3f49e986181ae5  usr/share/icons/hicolor/64x64/apps/remmina-panel-inverted.png
+e00a5b9c11fad82abf62e6bbb56918af  usr/share/icons/hicolor/64x64/apps/remmina-panel.png
+90ee7e00895dd528e7281e65593ad1e3  usr/share/icons/hicolor/72x72/apps/org.remmina.Remmina.png
+75b4d2bc82a56708c4850e8868caeae5  usr/share/icons/hicolor/72x72/apps/remmina-panel-inverted.png
+0368bcc90e3e295d8278b74b3fbd8d62  usr/share/icons/hicolor/72x72/apps/remmina-panel.png
+e47bab94ae7a738e603cb7ac68426e27  usr/share/icons/hicolor/96x96/apps/org.remmina.Remmina.png
+c68ed97e1045e99f30a5f428f5fa2f64  usr/share/icons/hicolor/96x96/apps/remmina-panel-inverted.png
+57bcdb60bfae6d6acb33c6a684ecb1b2  usr/share/icons/hicolor/96x96/apps/remmina-panel.png
+62556bf31598521741073003d6922c37  usr/share/icons/hicolor/apps/org.remmina.Remmina-symbolic.svg
+c751a9ab4a55b0d06bcc7d9fec5335eb  usr/share/icons/hicolor/apps/remmina-symbolic.svg
+5ca24102182435c4a416dcdf131217d0  usr/share/icons/hicolor/scalable/actions/remmina-camera-photo-symbolic.svg
+ba2d048dd7207d3389d8abd8f0b8265f  usr/share/icons/hicolor/scalable/actions/remmina-connect-symbolic.svg
+d033e8e0d95a48e2d537d11d7cc44674  usr/share/icons/hicolor/scalable/actions/remmina-disconnect-symbolic.svg
+f4a7cb53a178f694770df341f56a4061  usr/share/icons/hicolor/scalable/actions/remmina-document-save-symbolic.svg
+03b015fc12900d03ab81b1e9957a73b8  usr/share/icons/hicolor/scalable/actions/remmina-document-send-symbolic.svg
+15f7693bd248c7d96ac0170a18a5636c  usr/share/icons/hicolor/scalable/actions/remmina-duplicate-symbolic.svg
+528d6ade34102e381c3b0840cfceb854  usr/share/icons/hicolor/scalable/actions/remmina-dynres-symbolic.svg
+eb89eafb9dde4dd7c14543dbf622cd19  usr/share/icons/hicolor/scalable/actions/remmina-fit-window-symbolic.svg
+1d1c3ca7238237487116f293bd2432b7  usr/share/icons/hicolor/scalable/actions/remmina-fullscreen-symbolic.svg
+cea5e5824dfb1ca7f83c8c5d1eb9bd05  usr/share/icons/hicolor/scalable/actions/remmina-go-bottom-symbolic.svg
+327455f15361652fb5dbcea660987ed0  usr/share/icons/hicolor/scalable/actions/remmina-keyboard-symbolic.svg
+00b27c6bbcdc5e3c924b155ef99e5b23  usr/share/icons/hicolor/scalable/actions/remmina-pan-down-symbolic.svg
+fa890c95870c7d09d730d798c80f8802  usr/share/icons/hicolor/scalable/actions/remmina-pan-up-symbolic.svg
+5ceec867b89cddbbe2b5bf2a664b3b2b  usr/share/icons/hicolor/scalable/actions/remmina-pin-down-symbolic.svg
+fa890c95870c7d09d730d798c80f8802  usr/share/icons/hicolor/scalable/actions/remmina-pin-up-symbolic.svg
+95267c12726a2f7142da4edf1c66b484  usr/share/icons/hicolor/scalable/actions/remmina-preferences-system-symbolic.svg
+f4319c72c891d651846406a2d8c6b902  usr/share/icons/hicolor/scalable/actions/remmina-scale-symbolic.svg
+8ed0602288b3ce4f9e0c6fcc57a6b21d  usr/share/icons/hicolor/scalable/actions/remmina-switch-page-symbolic.svg
+81472f98577f0cfc2a79987f88720813  usr/share/icons/hicolor/scalable/actions/remmina-system-run-symbolic.svg
+f5020bccdb8d3e27f22d17ad0fd9d79c  usr/share/icons/hicolor/scalable/actions/view-list.svg
+4f6a056884f664dd5e34b16254494fc0  usr/share/icons/hicolor/scalable/apps/org.remmina.Remmina.svg
+4d878e31bba4a811a9cabe990d32ee37  usr/share/icons/hicolor/scalable/apps/remmina-panel-inverted.svg
+bf48c5f545318c01e1ba47853caacc27  usr/share/icons/hicolor/scalable/apps/remmina-panel.svg
+31ec1cd8f181d9f11032f7ea227d3864  usr/share/icons/hicolor/scalable/emblems/remmina-nx-symbolic.svg
+2c23ec932d1a04c1a7085c90ca3f23de  usr/share/icons/hicolor/scalable/emblems/remmina-rdp-ssh-symbolic.svg
+2d04133ed736ab4d3072f7beab4cce14  usr/share/icons/hicolor/scalable/emblems/remmina-rdp-symbolic.svg
+d6c6573dc3548ca1ab429d28da6c0a50  usr/share/icons/hicolor/scalable/emblems/remmina-sftp-symbolic.svg
+0f1f249088b923e9d2b46ba607cd3267  usr/share/icons/hicolor/scalable/emblems/remmina-spice-ssh-symbolic.svg
+3719c4beacc3f2cb9104fd9d7d7839c3  usr/share/icons/hicolor/scalable/emblems/remmina-spice-symbolic.svg
+3636983f27a2a48b444888cab2fe488e  usr/share/icons/hicolor/scalable/emblems/remmina-ssh-symbolic.svg
+4818d802369a66e6c84940662063283b  usr/share/icons/hicolor/scalable/emblems/remmina-tool-symbolic.svg
+7ed50561b28cb425e50b5872bc93bfe7  usr/share/icons/hicolor/scalable/emblems/remmina-vnc-ssh-symbolic.svg
+35d4131cc0c74f3d9f14dfd1ec0bb031  usr/share/icons/hicolor/scalable/emblems/remmina-vnc-symbolic.svg
+47f13b98f89b58ac248f4370c5c7d17d  usr/share/icons/hicolor/scalable/emblems/remmina-www-symbolic.svg
+0d95aaf1e560d7db0c91aa26a7ff3481  usr/share/icons/hicolor/scalable/emblems/remmina-xdmcp-ssh-symbolic.svg
+eda0708eff2cbb629d200459c2168f0c  usr/share/icons/hicolor/scalable/emblems/remmina-xdmcp-symbolic.svg
+4d878e31bba4a811a9cabe990d32ee37  usr/share/icons/hicolor/scalable/panel/remmina-panel-inverted.svg
+bf48c5f545318c01e1ba47853caacc27  usr/share/icons/hicolor/scalable/panel/remmina-panel.svg
+35b7de737c2f24532af8856975315771  usr/share/remmina/external_tools/functions.sh
+fe1bda4bb62670f8ce69bc7cef4edd4a  usr/share/remmina/external_tools/launcher.sh
+233d27cd0c0ab82e91dafa9e111b1f55  usr/share/remmina/external_tools/remmina_filezilla_sftp.sh
+f38e8142ed2fc3240184ae866ff6fe51  usr/share/remmina/external_tools/remmina_filezilla_sftp_pki.sh
+1c411dd9492181ddf9c90290013f7950  usr/share/remmina/external_tools/remmina_nslookup.sh
+1201b9552ebb1ed1a903d7a7bdb86f03  usr/share/remmina/external_tools/remmina_ping.sh
+f06dc3a23829962c8f9951f6719b9bf7  usr/share/remmina/external_tools/remmina_traceroute.sh
+7d7bd782668544df88dae7c10e9e17f6  usr/share/remmina/res/www-js.js
+a01806992d8635b54893243510573e03  usr/share/remmina/theme/3024 Day.colors
+5b8562eef83f997f9dbd3760f1729e05  usr/share/remmina/theme/3024 Night.colors
+6d7bd82b1fc2eee4fd277b78372f8b32  usr/share/remmina/theme/AdventureTime.colors
+3ed5f4ec94b35ff5fd81869acd52efd5  usr/share/remmina/theme/Afterglow.colors
+face399c0fd5f3ca105508f3da79c294  usr/share/remmina/theme/AlienBlood.colors
+6dbbe716283da9d825fcac9dc2ca7cbe  usr/share/remmina/theme/Andromeda.colors
+ee07b905dbc9e27517f1e04f05b85fbd  usr/share/remmina/theme/Argonaut.colors
+b816dd73d9ada11e6b1a52b1bee8e5a1  usr/share/remmina/theme/Arthur.colors
+8f3b90bfa0b58a766858e25f8b02298f  usr/share/remmina/theme/AtelierSulphurpool.colors
+5cfc5d576acd43230794db055fa9cb7f  usr/share/remmina/theme/Atom.colors
+8d474adda06015398171033d0afe00c7  usr/share/remmina/theme/AtomOneLight.colors
+0821fae5ac4be97743a558c255e007a5  usr/share/remmina/theme/Batman.colors
+1e1a56a0253f87ab2cdfc444e559ca1c  usr/share/remmina/theme/Belafonte Day.colors
+205f3daf3bf41234e12d32b5b49910f1  usr/share/remmina/theme/Belafonte Night.colors
+b1872f44b8e54218fc030684abfde325  usr/share/remmina/theme/BirdsOfParadise.colors
+960186b65e0dd4161cf46237a7adfb34  usr/share/remmina/theme/Blazer.colors
+a6d0de1ce6f6520fa291e656e8308a70  usr/share/remmina/theme/BlulocoDark.colors
+a87b23289ed6177de24090fd0a1eeca6  usr/share/remmina/theme/BlulocoLight.colors
+ce2f1bfe20731f210b7ee1495f048907  usr/share/remmina/theme/Borland.colors
+5b14d4923b1c2dac210cb33c1bafe5d1  usr/share/remmina/theme/Bright Lights.colors
+741bb74b58954f9cbabd1fdf600bedda  usr/share/remmina/theme/Broadcast.colors
+b8042a0dd9c88d8824087c9263f59a5a  usr/share/remmina/theme/Brogrammer.colors
+4d662aed2f196cf18f15e1c24143f033  usr/share/remmina/theme/Builtin Dark.colors
+1ac9ffcd3aa889ed31d7bfcdc3f01680  usr/share/remmina/theme/Builtin Light.colors
+44d10a3189c35067ba8b9418f476eb20  usr/share/remmina/theme/Builtin Pastel Dark.colors
+6588da475633562f23b7443c5d91d6e3  usr/share/remmina/theme/Builtin Solarized Dark.colors
+09218cb19eac0f6ee308c67a55def7a7  usr/share/remmina/theme/Builtin Solarized Light.colors
+7784b9eeca9a35471c862e350f9606f1  usr/share/remmina/theme/Builtin Tango Dark.colors
+8dea5813114a60213ed2b31149a9a861  usr/share/remmina/theme/Builtin Tango Light.colors
+b41c192030997d6eaada03ca8c324f7b  usr/share/remmina/theme/C64.colors
+654e6e6d4b63ae6e6cafc23a544458bf  usr/share/remmina/theme/CLRS.colors
+161bb23f40a89fe221fd01cfa16a4b22  usr/share/remmina/theme/Calamity.colors
+bd23deb984c08c1bf23f0bdc997878b8  usr/share/remmina/theme/Chalk.colors
+dba144c343d65cfdee7007c761d8ee5b  usr/share/remmina/theme/Chalkboard.colors
+c6152e1306a0042158c3c5a3c01472b8  usr/share/remmina/theme/ChallengerDeep.colors
+190eb21ce54c6c5d6f773dea19ddd9f5  usr/share/remmina/theme/Chester.colors
+e71ac655fed771c8c97abaa6bbdc0554  usr/share/remmina/theme/Ciapre.colors
+daa1a22b2e29ecbcafd7d5f99834cb95  usr/share/remmina/theme/Cobalt Neon.colors
+23edf03ad772663540c0bc4d8e675f02  usr/share/remmina/theme/Cobalt2.colors
+0324344c6488ec741e92d4c856865906  usr/share/remmina/theme/CrayonPonyFish.colors
+44ac7bcf5485e11cdffa72043fc55c57  usr/share/remmina/theme/Dark Pastel.colors
+c1d6bebb506915b68cd08a229b10af9f  usr/share/remmina/theme/Dark+.colors
+48773a1f0f532e5161791f1d0ddc5a76  usr/share/remmina/theme/Darkside.colors
+84b73be84e7226a861ef1dfcdaad728e  usr/share/remmina/theme/Desert.colors
+4c637b2be11727962a85a62e94e587ab  usr/share/remmina/theme/DimmedMonokai.colors
+ba24d548b6fe0231d1fa39c0b8ad6fe9  usr/share/remmina/theme/DotGov.colors
+0ebd7e1f9144462c415acb995609d9cd  usr/share/remmina/theme/Dracula.colors
+793e74bcbe64888accfa740ea42c3c45  usr/share/remmina/theme/Duotone Dark.colors
+24bc7f3c7821901ae38c61ce6a9a7fe6  usr/share/remmina/theme/ENCOM.colors
+fbb8f83e03eaa5246e5ff771862b5d96  usr/share/remmina/theme/Earthsong.colors
+ed961a8fea43edb98e35267df8cec0ff  usr/share/remmina/theme/Elemental.colors
+a63fd2608db9bd1981f3f98dd8b2def5  usr/share/remmina/theme/Elementary.colors
+3311db3d4111909a4b678caf24a7fee8  usr/share/remmina/theme/Espresso Libre.colors
+f1d21e84b047e3cc3cb1c00d8537bbf4  usr/share/remmina/theme/Espresso.colors
+7c95587aeb28de7a7f6f8d615ec22ae8  usr/share/remmina/theme/Fahrenheit.colors
+ef63e11b7db81433614c7ffa744af4d2  usr/share/remmina/theme/Fideloper.colors
+d933923812b9859b49761b2f4602b970  usr/share/remmina/theme/FirefoxDev.colors
+b65b2516faf3b09045df4c7df672558b  usr/share/remmina/theme/Firewatch.colors
+4300d11d9ed2188199e9e1204fa2c846  usr/share/remmina/theme/FishTank.colors
+9a077f226d53ded4d434b496dde7701e  usr/share/remmina/theme/Flat.colors
+4d24b839239894992b80fa931eae2e41  usr/share/remmina/theme/Flatland.colors
+4701774a958b3909fe705ccf21932768  usr/share/remmina/theme/Floraverse.colors
+e80b30dd58b349980fba50f8b476291b  usr/share/remmina/theme/ForestBlue.colors
+5ef34d5cf3b226f2c8f07d0ea85ca888  usr/share/remmina/theme/Framer.colors
+12c2bf5b27343e31fd1c912c4cc39f28  usr/share/remmina/theme/FrontEndDelight.colors
+54b754265252cb385ccf17a09455075d  usr/share/remmina/theme/FunForrest.colors
+47ee403c2d2cb748ea2b6ccd9604dba6  usr/share/remmina/theme/Galaxy.colors
+e891c9040f7d725c31f9e5ba0acf7b4c  usr/share/remmina/theme/Github.colors
+39290bec15fe129dcb7a9c58690e1b2d  usr/share/remmina/theme/Glacier.colors
+98a33fe4a9b38ba9f96ad28abd04fba1  usr/share/remmina/theme/Grape.colors
+d951d75fea601ce15689b34b2fdbe2a3  usr/share/remmina/theme/Grass.colors
+ddefc6ab1e8ed80829602012df437872  usr/share/remmina/theme/Gruvbox Dark.colors
+09aea56da4102397e7004460b6f7d0a6  usr/share/remmina/theme/Hacktober.colors
+dfe9303cf85da0ad022eee18df1a8ade  usr/share/remmina/theme/Hardcore.colors
+6917bd488b18b076972e241128b7998b  usr/share/remmina/theme/Harper.colors
+a543f8597c069b7c63f7850a49a3ea6b  usr/share/remmina/theme/Highway.colors
+e49f2b2a8cd801266b0de8d81c383e4f  usr/share/remmina/theme/Hipster Green.colors
+9b3db7551a886ddc185163651216d460  usr/share/remmina/theme/Homebrew.colors
+2480987e31c58f6586b8f8f0ab23e162  usr/share/remmina/theme/Hopscotch.256.colors
+b8f04dd923ecc1c8a05451262b96f4a4  usr/share/remmina/theme/Hopscotch.colors
+4fc9c46ba35614e2a059fa06fe445e35  usr/share/remmina/theme/Hurtado.colors
+14ec58fb94f8f02ea520af1c85cc9a4c  usr/share/remmina/theme/Hybrid.colors
+599f490dae9197a78229c83bb2456906  usr/share/remmina/theme/IC_Green_PPL.colors
+27f0df6da26b344f29e8655a267d4c47  usr/share/remmina/theme/IC_Orange_PPL.colors
+4c67a0e58a4a73ff7fa09c0ae452624a  usr/share/remmina/theme/IR_Black.colors
+fa8cff76cffbe40883383307d3d779b1  usr/share/remmina/theme/Jackie Brown.colors
+6c3f8dad76ce5dbc7e1ba1607d9f6d58  usr/share/remmina/theme/Japanesque.colors
+6551dea9fbc38e00b7a85350e06853cc  usr/share/remmina/theme/Jellybeans.colors
+869ae14bd53eb18f61f8f4fef5b3e115  usr/share/remmina/theme/JetBrains Darcula.colors
+383c163f5f8265c8eb8c17d91ba4e10b  usr/share/remmina/theme/Kibble.colors
+febad54b03dbd2d4e4053600c5113813  usr/share/remmina/theme/Kolorit.colors
+0095b5dc90375493314652e638a4c8ad  usr/share/remmina/theme/Lab Fox.colors
+94e21eb124fb38220097306a2217ff0a  usr/share/remmina/theme/Later This Evening.colors
+2ddf24762c9bcb10cbc23d65c80676ba  usr/share/remmina/theme/Lavandula.colors
+615265e01a7099d915367daf6a80ccd1  usr/share/remmina/theme/LiquidCarbon.colors
+2afe24da25e9a750f231cc048c7667b7  usr/share/remmina/theme/LiquidCarbonTransparent.colors
+48601d6b2816cd024633af9a970ead0c  usr/share/remmina/theme/LiquidCarbonTransparentInverse.colors
+34c6d08c3c4bde017b509b5336ed0106  usr/share/remmina/theme/Man Page.colors
+f0093f77400b72a4ffcd66f7fede1826  usr/share/remmina/theme/Material.colors
+3712e2b2b97da1f16e7214ef9cb00ba0  usr/share/remmina/theme/MaterialDark.colors
+f936493381b8cde8be58d3fcc2050070  usr/share/remmina/theme/MaterialOcean.colors
+d68e78ae69465cb6c8b10e3f4b22ec20  usr/share/remmina/theme/Mathias.colors
+6657b2c94d456bb63be70f22083bb417  usr/share/remmina/theme/Medallion.colors
+7b81a6534b2e2e0a28a10e1ea1da9bbc  usr/share/remmina/theme/Misterioso.colors
+50b1387b5a49bd533d7a2073691fc8c7  usr/share/remmina/theme/Molokai.colors
+c668ee74d70d1c735ac18fd40a6e3f83  usr/share/remmina/theme/MonaLisa.colors
+d5c45ea24460b1f109a2f5f570a1c033  usr/share/remmina/theme/Monokai Remastered.colors
+230fe1544c2cf47cd799ca5b6880aba0  usr/share/remmina/theme/Monokai Soda.colors
+47a6154e5aab9e9745439d5fba9bca37  usr/share/remmina/theme/Monokai Vivid.colors
+f86afe2492fa8a4901bdaec7383999fe  usr/share/remmina/theme/N0tch2k.colors
+df9579670c3a4e6342a3ad04bd19658a  usr/share/remmina/theme/Neopolitan.colors
+25dd83020b51e550162af6c327035bf6  usr/share/remmina/theme/Neutron.colors
+8d5041e376e8235a1469d8ec038b4732  usr/share/remmina/theme/Night Owlish Light.colors
+780cf948c7d744683564e2a5ac8f088d  usr/share/remmina/theme/NightLion v1.colors
+39a210dec1b349977cf527cc87a64d4f  usr/share/remmina/theme/NightLion v2.colors
+4e7a509cb25d9e9002664b1ffbf41504  usr/share/remmina/theme/Nocturnal Winter.colors
+819c34873ff959b8927eb8fe673b6a8b  usr/share/remmina/theme/Novel.colors
+22f520632941e93fab902ce770627f87  usr/share/remmina/theme/Obsidian.colors
+0a7fcce27f014b0358c2835b9c000b22  usr/share/remmina/theme/Ocean.colors
+3074a23b08691769647fd7121350f81f  usr/share/remmina/theme/OceanicMaterial.colors
+713091fff157fab7dca8960bb33fd9ec  usr/share/remmina/theme/Ollie.colors
+c17b41954485e63c6321894734c667a4  usr/share/remmina/theme/OneHalfDark.colors
+6974551ccb7c926714e6b714580b0fd3  usr/share/remmina/theme/OneHalfLight.colors
+4f04bc0929af164dacdd1346f3a5c185  usr/share/remmina/theme/Operator Mono Dark.colors
+704acf24ff6a5f6b0bba891032b91735  usr/share/remmina/theme/Pandora.colors
+c0abe3c767d0f0a0f2a4c6cc205f9822  usr/share/remmina/theme/Paraiso Dark.colors
+c0abe3c767d0f0a0f2a4c6cc205f9822  usr/share/remmina/theme/Parasio Dark.colors
+3fa5861f898b4ed96da1f8a5ae551ff6  usr/share/remmina/theme/PaulMillr.colors
+b9a4f670572348bc5af5687191dbe4bf  usr/share/remmina/theme/PencilDark.colors
+f680f44c584482aa1de3ec854a978d92  usr/share/remmina/theme/PencilLight.colors
+5d638ecb5b0fbf569c36ca7a7812bee3  usr/share/remmina/theme/Piatto Light.colors
+4511ffdc36584fe4d28fcb3ea11e377f  usr/share/remmina/theme/Pnevma.colors
+bb10a77b1471f1e7da108a946f3f95b8  usr/share/remmina/theme/Pro Light.colors
+46300fbdff9ee4152a14ac6523260849  usr/share/remmina/theme/Pro.colors
+e1497381b085adadb6ee73f3a6b5c1bf  usr/share/remmina/theme/Purple Rain.colors
+d9bfb489aa81d3dae3f6d89dd9d86683  usr/share/remmina/theme/Red Alert.colors
+0ea19ffefea498fde7d436f03f450311  usr/share/remmina/theme/Red Planet.colors
+f1b26d62685e5722fc1d9fa738201171  usr/share/remmina/theme/Red Sands.colors
+4032b36386ec44e11cf9f7a6565e4348  usr/share/remmina/theme/Relaxed.colors
+a4cf7853d67034975f784d496149deb7  usr/share/remmina/theme/Rippedcasts.colors
+a3fd8e4d178c8888042d8ed178c5c589  usr/share/remmina/theme/Royal.colors
+4cb210928b9c460ea10c66f0cbac9b7c  usr/share/remmina/theme/Ryuuko.colors
+c11b87c82af88d7169e4412234defada  usr/share/remmina/theme/SeaShells.colors
+446f2b3cba4742b725554464f81d66ce  usr/share/remmina/theme/Seafoam Pastel.colors
+b430d268b8920059040a3c5b99861199  usr/share/remmina/theme/Seti.colors
+f30e05bbb32b961f364460939795f84e  usr/share/remmina/theme/Shaman.colors
+c19898559dd7041edaa899ec1ca1049f  usr/share/remmina/theme/Slate.colors
+c188ed60463aefa557bc28c8b45606c1  usr/share/remmina/theme/Smyck.colors
+1c786e13eea06589b53bd1243e8520e8  usr/share/remmina/theme/Snazzy.colors
+aa66dd0b3cd0fadd30ea1fc11919ade0  usr/share/remmina/theme/SoftServer.colors
+081c18b7b40e1229c14609569b97b3e7  usr/share/remmina/theme/Solarized Darcula.colors
+a8da05da16b4363eb54205d76615a559  usr/share/remmina/theme/Solarized Dark - Patched.colors
+14cef7d06fd133d1151216da4c6f05e2  usr/share/remmina/theme/Solarized Dark Higher Contrast.colors
+3203f0fdc7e9bf67382bcc06947f0f9b  usr/share/remmina/theme/Solarized Dark.colors
+ce9b17dcaa7f923334b55440173a1cad  usr/share/remmina/theme/Solarized Light.colors
+4b221b9668996ec6fc93b8d0900f24bc  usr/share/remmina/theme/SpaceGray Eighties Dull.colors
+5ac5fb5ea808bf00bc76a24443d544da  usr/share/remmina/theme/SpaceGray Eighties.colors
+1aa72eaf554fbf4287fccf8faa1fa730  usr/share/remmina/theme/SpaceGray.colors
+ee8412e893a85d3cdc46e8eaad08e114  usr/share/remmina/theme/Spacedust.colors
+56d9a0b5a4b7d78af30243b5bfcd92b9  usr/share/remmina/theme/Spiderman.colors
+8d08bd65ed19dd859c02fc8f5b06c131  usr/share/remmina/theme/Spring.colors
+41eb7af3af05bdf1ed0ded1a920d605b  usr/share/remmina/theme/Square.colors
+3ef5d5597288eb70cf081a10173a11f7  usr/share/remmina/theme/Subliminal.colors
+ce09d12f46c28adf77eba312fe249059  usr/share/remmina/theme/Sundried.colors
+202ef6143c0b3709ebe985af938b32a2  usr/share/remmina/theme/Symfonic.colors
+3b86d928862038654106b7a62345e687  usr/share/remmina/theme/Tango Adapted.colors
+2e02c78fd69eef1bbc00c41d0b90292e  usr/share/remmina/theme/Tango Half Adapted.colors
+b3446795530e6d98cd74c4cc9d772632  usr/share/remmina/theme/Teerb.colors
+be23d93f864201e886734b17580c41da  usr/share/remmina/theme/Terminal Basic.colors
+c6acd9364a174afc23ec7b3eccf63021  usr/share/remmina/theme/Thayer Bright.colors
+28846aaf37e90caf5f14023720fbce44  usr/share/remmina/theme/The Hulk.colors
+1762eeecd205a7242c9589c5e5613e27  usr/share/remmina/theme/Tomorrow Night Blue.colors
+e283cd3fd36734df370790482e287f70  usr/share/remmina/theme/Tomorrow Night Bright.colors
+e1d0e418a1c5bc919ed0b03e47a8e445  usr/share/remmina/theme/Tomorrow Night Burns.colors
+9139db801631017e1d532097bbc6a0e5  usr/share/remmina/theme/Tomorrow Night Eighties.colors
+57d6ff9cc9b9ffffbd4ee89beaa1b13b  usr/share/remmina/theme/Tomorrow Night.colors
+12814cd9c8525b2a894ac900945aa915  usr/share/remmina/theme/Tomorrow.colors
+85237f19e18f01e9efff468680e946df  usr/share/remmina/theme/ToyChest.colors
+8e7901f5a14a98206168d7900f586eb4  usr/share/remmina/theme/Treehouse.colors
+9c4de5ff48f967c1b927a8eb8b5ccda3  usr/share/remmina/theme/Twilight.colors
+bab0d18046d332f6dc98140880649adb  usr/share/remmina/theme/Ubuntu.colors
+9370a133a1b91ad2dd89486d118dcd1c  usr/share/remmina/theme/UltraViolent.colors
+8ba70304ba2196003b554810abdc4c9a  usr/share/remmina/theme/UnderTheSea.colors
+1074bcc2730c882494a891a359f57dfa  usr/share/remmina/theme/Unikitty.colors
+918912e10a8a1dde6eee82744c7596d3  usr/share/remmina/theme/Urple.colors
+b4ed6555baaaf7fd722583f23389d1c2  usr/share/remmina/theme/Vaughn.colors
+26920bfac054e40d790eab5849724b4f  usr/share/remmina/theme/VibrantInk.colors
+735ae9bf2a4b0d5abe98184c00ac689b  usr/share/remmina/theme/Violet Dark.colors
+edceb2bf5dd0c03bdc1f381a27f161a4  usr/share/remmina/theme/Violet Light.colors
+4f4dacf5903ce11c2aad72f0775136e6  usr/share/remmina/theme/WarmNeon.colors
+b8be06461d737c02d957f0afd8d59cee  usr/share/remmina/theme/Wez.colors
+18234c512a7e54329a4ee2fcff14280a  usr/share/remmina/theme/Whimsy.colors
+7ccdde927192e8bf728424e147a07ecc  usr/share/remmina/theme/WildCherry.colors
+3b2e498329e775d41b040c665c273c72  usr/share/remmina/theme/Wombat.colors
+e84f9e5c142b2bd3680d5a390aa3dd43  usr/share/remmina/theme/Wryan.colors
+2f9f905e6381c5627aaa7fdb81aa57d1  usr/share/remmina/theme/Zenburn.colors
+d171d3cc7539e6c23df8be54423e314f  usr/share/remmina/theme/ayu.colors
+44a81a48e5cfe07c11736d4c09d25b08  usr/share/remmina/theme/ayu_light.colors
+5c74b77c4a2acf5746723a9bd0af8d00  usr/share/remmina/theme/cyberpunk.colors
+106cf3af50d0144615cbb3d58f9a8382  usr/share/remmina/theme/deep.colors
+6f5fc08705b0b7070a1404d22b29a4f7  usr/share/remmina/theme/idea.colors
+274eb5c234306c09a5954c908eff2ab2  usr/share/remmina/theme/idleToes.colors
+6f128abda749187287e4435beedb821a  usr/share/remmina/theme/lovelace.colors
+b38c7e52e8a8ccff3210488dcebd591a  usr/share/remmina/theme/midnight-in-mojave.colors
+d3e1a3caeef69ace504dddd6cdf062cb  usr/share/remmina/theme/primary.colors
+26770f8c209a7dbcbbc7a5f04283a8e2  usr/share/remmina/theme/purplepeter.colors
+997fd44ccccc5d3d6ccf6d7172fba386  usr/share/remmina/theme/rebecca.colors
+720ba395b99b1daa1f562915caa23500  usr/share/remmina/theme/synthwave.colors
+8cfe775f23b929c9e1ca5955f86a36c1  usr/share/remmina/ui/remmina_about.glade
+7451f4307dc21062565ba9f09dfa5f3a  usr/share/remmina/ui/remmina_key_chooser.glade
+9bd70b53e5474b04ca4047fde4c2181b  usr/share/remmina/ui/remmina_main.glade
+1cbb97b938341ad123fffc2108a477a5  usr/share/remmina/ui/remmina_mpc.glade
+1de3f16c31ff67a515fddf520324b304  usr/share/remmina/ui/remmina_news.glade
+c439617018c92fa6ef76e46c6bfa7375  usr/share/remmina/ui/remmina_preferences.glade
+e29143af1b5f08dbe7dba57693a26a5f  usr/share/remmina/ui/remmina_snap_info_dialog.glade
+312404572d4b920252e0b88c17554885  usr/share/remmina/ui/remmina_spinner.glade
+5ca7800b67c085c913524423c359b5b7  usr/share/remmina/ui/remmina_string_list.glade
+d647c40b669b886e15fb959782311782  usr/share/remmina/ui/remmina_unlock.glade

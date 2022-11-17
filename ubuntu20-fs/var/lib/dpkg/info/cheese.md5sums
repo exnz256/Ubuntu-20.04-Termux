@@ -1,0 +1,9 @@
+46c488c25c113a0ee5ef7b96a4ccbc53  usr/bin/cheese
+ccf5ec1be6470ec5917cdfd66f3ef3aa  usr/share/applications/org.gnome.Cheese.desktop
+47f2a253a32c85ce8a02a183329884d2  usr/share/dbus-1/services/org.gnome.Cheese.service
+74ac5ab12d0fbb3d7d9ca403c800e26a  usr/share/doc/cheese/AUTHORS
+1cb5144c747453a4c708fc3d2d746372  usr/share/doc/cheese/NEWS.gz
+acee96f2611de5bc506dc32c89233f9a  usr/share/doc/cheese/README
+c6a7aa4fa83fa584ad91668b99aef8a3  usr/share/doc/cheese/copyright
+2891e04c6d8fb5cf32496e6fb958e25a  usr/share/man/man1/cheese.1.gz
+ecd8aa027ff3b05129c8601476c39f27  usr/share/metainfo/org.gnome.Cheese.appdata.xml

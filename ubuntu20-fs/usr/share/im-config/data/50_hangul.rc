@@ -1,0 +1,45 @@
+# start thai
+# vim: set sts=4 expandtab:
+
+if [ "$IM_CONFIG_PHASE" = 2 ]; then
+/usr/bin/nabi &
+fi
+
+if [ "$IM_CONFIG_PHASE" = 1 ]; then
+# set variables for the plain XIM
+XMODIFIERS="@im=nabi"
+
+GTK_IM_MODULE=xim
+# use gtk-im-libthai only when available for both GTK 2.0 and 3.0
+IM_CONFIG_MARKER2=0
+IM_CONFIG_MARKER="$(imconfig_find_files_with_prefixpath_glob /usr/lib \
+        '/usr/lib/*/gtk-2.0/*/immodules/im-hangul.so' \
+        '/usr/lib/gtk-2.0/*/immodules/im-hangul.so')"
+if [ "x${IM_CONFIG_MARKER}" != "x" ]; then
+    IM_CONFIG_MARKER2=1
+fi
+
+IM_CONFIG_MARKER3=0
+IM_CONFIG_MARKER="$(imconfig_find_files_with_prefixpath_glob /usr/lib \
+        '/usr/lib/*/gtk-3.0/*/immodules/im-hangul.so' \
+        '/usr/lib/gtk-3.0/*/immodules/im-hangul.so')"
+if [ "x${IM_CONFIG_MARKER}" != "x" ]; then
+    IM_CONFIG_MARKER3=1
+fi
+
+if [ $IM_CONFIG_MARKER2 = 1 ] && [ $IM_CONFIG_MARKER3 = 1 ] ; then
+    GTK_IM_MODULE=hangul2
+fi
+
+# No IM modules for Qt and Clutter for now
+QT4_IM_MODULE=xim
+IM_CONFIG_MARKER="$(imconfig_find_files_with_prefixpath_glob /usr/lib \
+        '/usr/lib/*/qt4/plugins/inputmethods/libqimhangul.so' \
+        '/usr/lib/qt4/plugins/inputmethods/libqimhangul.so')"
+if [ "x${IM_CONFIG_MARKER}" != "x" ]; then
+    QT4_IM_MODULE=hangul2
+fi
+
+CLUTTER_IM_MODULE=xim
+
+fi

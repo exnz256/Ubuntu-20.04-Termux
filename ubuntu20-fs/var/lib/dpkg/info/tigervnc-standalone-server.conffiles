@@ -1,0 +1,4 @@
+/etc/X11/Xvnc-session
+/etc/tigervnc/ecparams.pem
+/etc/tigervnc/ssleay.cnf
+/etc/vnc.conf

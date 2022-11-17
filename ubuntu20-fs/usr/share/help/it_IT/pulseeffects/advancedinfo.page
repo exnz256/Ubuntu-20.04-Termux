@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="advancedinfo" style="2column" xml:lang="it-IT">
+    <info>
+        <link type="guide" xref="index#ui"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Digitalone</mal:name>
+      <mal:email>kurmikon@libero.it</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+    <title>Informazioni Avanzate</title>
+    <media type="image" src="figures/advancedinfo.png" its:translate="no"/>
+    <p>L'elaborazione audio di PulseEffects è composta da 3 fasi principali. Ogni fase ha bisogno di un formato audio e di una frequenza di campionamento specifici. Queste informazioni sono mostrate nella barra superiore.</p>
+    <p>Un'altra informazione da non sottovalutare è la latenza introdotta dall'elaborazione dell'audio. Questo dato è visualizzato per ultimo ed è misurato in millisecondi.</p>
+</page>

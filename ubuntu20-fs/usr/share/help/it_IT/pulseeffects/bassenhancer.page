@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="bassenhancer" xml:lang="it-IT">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Digitalone</mal:name>
+      <mal:email>kurmikon@libero.it</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+    <title>Enfasi Bassi</title>
+    <p>Il cervello percepisce la tonalità di un suono non solo dalla sua frequenza fondamentale, ma anche dalla periodicità intesa come la relazione tra le armoniche più alte. Possiamo percepire la stessa tonalità anche se la frequenza fondamentale è assente da un suono.</p>
+    <p>PulseEffects usa il plugin di Enfasi Bassi sviluppato da Calf Studio.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Quantità</em>
+            </title>
+            <p>Quantità di armoniche aggiunte al segnale originale.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Armoniche</em>
+            </title>
+            <p>Quantità di nuove armoniche create.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Soglia</em>
+            </title>
+            <p>La frequenza oltre la quale vengono prodotte le armoniche.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Limite Inferiore(pulsante)</em>
+            </title>
+            <p>Impedisce l'enfasi nella parte inferiore.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Limite Inferiore(valore)</em>
+            </title>
+            <p>Frequenza al di sotto della quale non verrà prodotta alcuna armonica.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Mix Armoniche</em>
+            </title>
+            <p>Il "colore" (o ottava) delle armoniche.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Ascolta</em>
+            </title>
+            <p>Disattiva il segnale originale e ascolta esclusivamente le armoniche.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Note</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://calf-studio-gear.org/doc/Bass%20Enhancer.html" its:translate="no">
+                        https://calf-studio-gear.org/doc/Bass%20Enhancer.html
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Missing_fundamental" its:translate="no">
+                        https://en.wikipedia.org/wiki/Missing_fundamental
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

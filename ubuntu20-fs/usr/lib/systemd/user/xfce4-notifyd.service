@@ -1,0 +1,7 @@
+[Unit]
+Description=XFCE notifications service
+
+[Service]
+Type=dbus
+BusName=org.freedesktop.Notifications
+ExecStart=/usr/lib/aarch64-linux-gnu/xfce4/notifyd/xfce4-notifyd

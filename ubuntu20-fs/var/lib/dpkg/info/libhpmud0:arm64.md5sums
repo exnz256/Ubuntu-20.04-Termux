@@ -1,0 +1,7 @@
+e6e226bafafd82dc850745fab89b6a13  usr/lib/aarch64-linux-gnu/libhpdiscovery.so.0.0.1
+2bbeb8d5197ac26d3582c78c8a674777  usr/lib/aarch64-linux-gnu/libhpip.so.0.0.1
+640e0aa7025538c2cde4b4c3433cb668  usr/lib/aarch64-linux-gnu/libhpipp.so.0.0.1
+15cf6acb91aea9af773c31ba711d4440  usr/lib/aarch64-linux-gnu/libhpmud.so.0.0.6
+55354f97839fb9a8bb47d229248f812a  usr/share/doc/libhpmud0/changelog.Debian.gz
+4eaa991ca5725174363536965c7a8f25  usr/share/doc/libhpmud0/copyright
+513b4e5ea0eadb1fd23d22026ab6192f  usr/share/lintian/overrides/libhpmud0

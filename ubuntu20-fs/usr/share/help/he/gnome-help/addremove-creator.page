@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="addremove-creator" xml:lang="he">
+
+  <info>
+    <credit type="author">
+      <name>מיזם התיעוד של אובונטו</name>
+    </credit>
+
+    <desc>להמיר כונן USB לכרך ממנו ניתן להפעיל ולהתקין את אובונטו.</desc>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <link type="guide" xref="disk"/>
+    <link type="guide" xref="addremove" group="#last"/>
+
+    <revision version="17.10" date="2017-09-26" status="review"/>
+  </info>
+
+  <title>ליצור כונן הפעלה</title>
+
+  <p>בהקשר הזה, כונן הפעלה הוא כונן USB נייד ממנו ניתן להפעיל את המחשב ו<link href="https://www.ubuntu.com/download/desktop/install-ubuntu-desktop">להתקין אובונטו</link>. נפח כונן ה־USB חייב להיות 2 ג״ב לכל הפחות. אם יש מידע כלשהו על כונן ה־USB הוא יאבד בעת יצירת כונן ההפעלה.</p>
+
+  <p>ההנחה היא שכבר הורדת את קובץ ה־ISO של אובונטו.</p>
+
+  <p>כדי ליצור כונן הפעלה מקובץ ISO של אובונטו:</p>
+    
+  <steps>
+    <item>
+      <p>לפתוח את <app>יוצר הכוננים להפעלה</app> דרך סרגל החיפוש <em>פעילויות</em>.</p>
+    </item>
+    <item>
+      <p>אם דמות ה־ISO נמצאת בתיקיית ה<gui>הורדות</gui> ויש שם רק דמות ISO אחת, <app>יוצר כונני האתחול</app> יבחר אותה אוטומטית, בכל מקרה אחר נא לבחור את דמות ה־ISO הנכונה.</p>
+    </item>
+    <item>
+      <p>אם למחשב שלך יש כונן USB אחד בלבד, <app>יוצר כונני האתחול</app> יבחר אותו, במקרים אחרים יש לבחור את הכונן הנכון.</p>
+    </item>
+    <item>
+      <p>ללחוץ על <gui>יצירת כונן אתחול</gui>.</p>
+    </item>
+    <item>
+      <p>ללחוץ על <gui>כן</gui> לאישור. התהליך אמור לארוך עשר דקות או פחות.</p>
+    </item>
+
+    <item>
+      <p>כאשר נפתחת החלונית „ההתקנה הושלמה” יש ללחוץ על <gui>יציאה</gui>.</p>
+    </item>
+
+  </steps>
+
+
+
+</page>

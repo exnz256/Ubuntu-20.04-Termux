@@ -1,0 +1,45 @@
+# match all devices with this udev subsystem
+[NVME]
+Plugin = nvme
+
+# Phison
+[NVME\VEN_1987]
+Flags = force-align,needs-shutdown
+
+# Kingston
+[NVME\VEN_2646]
+Flags = needs-shutdown
+
+# KIOXIA
+[NVME\VEN_1179]
+Flags = signed-payload
+[NVME\VEN_1E0F]
+Flags = signed-payload
+
+# Samsung
+[NVME\VEN_144D]
+Flags = signed-payload
+
+# SSSTC
+[NVME\VEN_14A4]
+Flags = signed-payload
+[NVME\VEN_1E95]
+Flags = signed-payload
+
+# SK Hynix
+[NVME\VEN_1C5C]
+Flags = signed-payload
+
+# Kingston
+[NVME\VEN_2646&DEV_5013]
+Flags = signed-payload
+[NVME\VEN_2646&DEV_500A]
+Flags = signed-payload
+[NVME\VEN_2646&DEV_500B]
+Flags = unsigned-payload
+[NVME\VEN_2646&DEV_5012]
+Flags = unsigned-payload
+
+# Western Digital
+[NVME\VEN_101C]
+Flags = signed-payload

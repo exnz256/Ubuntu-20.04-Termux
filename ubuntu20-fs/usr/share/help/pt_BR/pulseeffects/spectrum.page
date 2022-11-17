@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="spectrum" xml:lang="pt-BR">
+    <info>
+        <link type="guide" xref="settingsmenu"/>
+    </info>
+    <title>Espectro</title>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Mostrar</em>
+            </title>
+            <p>Esconder ou mostrar o espectro.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Pontos</em>
+            </title>
+            <p>Número de pontos exibidos.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Altura</em>
+            </title>
+            <p>Altura do espectro.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Escala</em>
+            </title>
+            <p>Fator de escala da altura da barra.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Expoente</em>
+            </title>
+            <p>Expoente do fator de escala.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Amostragem</em>
+            </title>
+            <p>Frequência de atualização do espectro.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Largura da Linha</em>
+            </title>
+            <p>Largura da linha da barra.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Preencher</em>
+            </title>
+            <p>Desenhar barras preenchidas.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Borda</em>
+            </title>
+            <p>Mostrar borda da barra.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Usar Cor Customizada</em>
+            </title>
+            <p>Utilize uma cor definida pelo usuário ou a cor do tema GTK.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Cor do Espectro</em>
+            </title>
+            <p>Cor definida pelo usuário.</p>
+        </item>
+    </terms>
+</page>

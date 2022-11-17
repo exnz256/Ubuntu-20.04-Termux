@@ -1,0 +1,293 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: zam-plugins
+Upstream-Contact: Damien Zammit <damien@zamaudio.com>
+Source: https://github.com/zamaudio/zam-plugins
+
+Files: *
+Copyright: 2013-2015 Damien Zammit
+License: GPL-2+
+
+Files: debian/*
+Copyright: 2013-2017 Jaromír Mikeš <mira.mikes@seznam.cz>
+License: GPL-2+
+
+Files:
+ dpf/dgl/Base.hpp
+ dpf/dgl/ImageWidgets.hpp
+ dpf/dgl/Image.hpp
+ dpf/dgl/Widget.hpp
+ dpf/dgl/Geometry.hpp
+ dpf/dgl/Window.hpp
+ dpf/dgl/Application.hpp
+ dpf/dgl/Color.hpp
+ dpf/dgl/NanoVG.hpp
+ dpf/dgl/src/Common.hpp
+ dpf/dgl/src/Geometry.cpp
+ dpf/dgl/src/Widget.cpp
+ dpf/dgl/src/WidgetPrivateData.hpp
+ dpf/dgl/src/NanoVG.cpp
+ dpf/dgl/src/ApplicationPrivateData.hpp
+ dpf/dgl/src/ImageWidgets.cpp
+ dpf/dgl/src/Window.cpp
+ dpf/dgl/src/Color.cpp
+ dpf/dgl/src/Image.cpp
+ dpf/dgl/src/Application.cpp
+ dpf/dgl/StandaloneWindow.hpp
+ dpf/distrho/DistrhoPluginMain.cpp
+ dpf/distrho/DistrhoInfo.hpp
+ dpf/distrho/DistrhoUI.hpp
+ dpf/distrho/DistrhoUtils.hpp
+ dpf/distrho/extra/Mutex.hpp
+ dpf/distrho/extra/Sleep.hpp
+ dpf/distrho/extra/Base64.hpp
+ dpf/distrho/extra/String.hpp
+ dpf/distrho/extra/LeakDetector.hpp
+ dpf/distrho/extra/Thread.hpp
+ dpf/distrho/extra/ScopedPointer.hpp
+ dpf/distrho/DistrhoUIMain.cpp
+ dpf/distrho/DistrhoPlugin.hpp
+ dpf/distrho/src/DistrhoPluginVST.cpp
+ dpf/distrho/src/DistrhoUI.cpp
+ dpf/distrho/src/DistrhoPluginLADSPA+DSSI.cpp
+ dpf/distrho/src/DistrhoPlugin.cpp
+ dpf/distrho/src/DistrhoUIInternal.hpp
+ dpf/distrho/src/DistrhoPluginInternal.hpp
+ dpf/distrho/src/DistrhoPluginLV2.cpp
+ dpf/distrho/src/DistrhoPluginChecks.h
+ dpf/distrho/src/lv2/lv2_programs.h
+ dpf/distrho/src/lv2/lv2_kxstudio_properties.h
+ dpf/distrho/src/DistrhoPluginLV2export.cpp
+ dpf/distrho/src/DistrhoUILV2.cpp
+ dpf/distrho/src/DistrhoUIDSSI.cpp
+ dpf/distrho/src/DistrhoDefines.h
+Copyright: 2012-2015 Filipe Coelho <falktx@falktx.com>
+License: ISC
+
+Files:
+ dpf/dgl/src/pugl/pugl_osx.m
+ dpf/dgl/src/pugl/glu.h
+ dpf/dgl/src/pugl/pugl_internal.h
+ dpf/dgl/src/pugl/pugl.h
+ dpf/dgl/src/pugl/gl.h
+ dpf/dgl/src/pugl/pugl_win.cpp
+ dpf/dgl/src/pugl/common.h
+ dpf/dgl/src/pugl/event.h
+ dpf/distrho/src/lv2/port-groups.h
+ dpf/distrho/src/lv2/time.h
+ dpf/distrho/src/lv2/instance-access.h
+ dpf/distrho/src/lv2/resize-port.h
+ dpf/distrho/src/lv2/uri-map.h
+ dpf/distrho/src/lv2/units.h
+ dpf/distrho/src/lv2/atom-forge.h
+ dpf/distrho/src/lv2/atom.h
+ dpf/distrho/src/lv2/atom-util.h
+ dpf/distrho/src/lv2/logger.h
+ dpf/distrho/src/lv2/log.h
+ dpf/distrho/src/lv2/midi.h
+ dpf/distrho/src/lv2/worker.h
+ dpf/distrho/src/lv2/event-helpers.h
+ dpf/distrho/src/lv2/parameters.h
+ dpf/distrho/src/lv2/options.h
+ dpf/distrho/src/lv2/buf-size.h
+ dpf/distrho/src/lv2/patch.h
+ dpf/distrho/src/lv2/data-access.h
+ dpf/distrho/src/lv2/morph.h
+ dpf/distrho/src/lv2/presets.h
+ dpf/distrho/src/lv2/port-props.h
+Copyright: 2007-2014 David Robillard <http://drobilla.net>
+License: ISC
+
+Files:
+ plugins/ZamNoise/Denoise.cpp
+ plugins/ZamNoise/Denoise.hpp
+Copyright: 2001 Jeffrey J. Welty
+License: GPL-2+
+
+Files:
+ dpf/dgl/src/nanovg/nanovg.c
+ dpf/dgl/src/nanovg/nanovg.h
+ dpf/dgl/src/nanovg/nanovg_gl.h
+ dpf/dgl/src/nanovg/fontstash.h
+ dpf/dgl/src/nanovg/nanovg_gl_utils.h
+Copyright: 2009-2013 Mikko Mononen <memon@inside.org>
+License: CUSTOM
+
+Files:
+ dpf/distrho/src/lv2/lv2-miditype.h
+ dpf/distrho/src/lv2/lv2-midifunctions.h
+Copyright: 2006 Lars Luthman <lars.luthman@gmail.com>
+License: LGPL-2+
+
+Files:
+ dpf/distrho/src/DistrhoPluginJack.cpp
+ dpf/distrho/src/DistrhoPluginCarla.cpp
+Copyright: 2012-2015 Filipe Coelho <falktx@falktx.com>
+License: LGPL
+
+Files:
+ dpf/distrho/src/lv2/dynmanifest.h
+Copyright: 2008-2011 Stefano D'Angelo <zanga.mail@gmail.com>
+License: ISC
+
+Files:
+ dpf/dgl/src/pugl/pugl_x11.c
+Copyright: 2011-2012 Ben Loftis, Harrison Consoles / 2012-2014 David Robillard <http://drobilla.net>
+License: ISC
+
+Files:
+ dpf/distrho/src/lv2/urid.h
+Copyright: 2008-2012 David Robillard <http://drobilla.net> / 2011 Gabriel M. Beddingfield <gabrbedd@gmail.com>
+License: ISC
+
+Files:
+ dpf/distrho/src/lv2/event.h
+ dpf/distrho/src/lv2/ui.h
+Copyright: 2006-2011 Lars Luthman <lars.luthman@gmail.com> / 2006-2014 David Robillard <d@drobilla.net>
+License: ISC
+
+Files:
+ dpf/distrho/src/lv2/state.h
+Copyright: 2010-2012 David Robillard <http://drobilla.net> / 2010 Leonard Ritter <paniq@paniq.org>
+License: ISC
+
+Files:
+ dpf/distrho/src/lv2/atom-helpers.h
+Copyright: 2008-2012 David Robillard <http://drobilla.net> / 2005-2013, rncbc aka Rui Nuno Capela
+License: GPL-2+
+
+Files:
+ dpf/distrho/src/lv2/lv2.h
+Copyright: 2006-2012 Steve Harris, David Robillard / 2000-2002 Richard W.E. Furse
+License: ISC
+
+Files:
+ dpf/distrho/src/vestige/aeffectx.h
+Copyright: 2006 Javier Serrano Polo <jasp00/at/users.sourceforge.net>
+License: GPL-2+
+
+Files:
+ dpf/distrho/src/dssi/dssi.h
+Copyright: 2004, 2009 Chris Cannam, Steve Harris and Sean Bolton
+License: LGPL-2.1+
+
+Files:
+ dpf/distrho/src/ladspa/ladspa.h	
+Copyright: 2000-2002 Richard W.E. Furse, Paul Barton-Davis
+License: LGPL-2.1+
+
+Files:
+ dpf/dgl/src/sofd/libsofd.c
+ dpf/dgl/src/sofd/libsofd.h
+Copyright: 2014 Robin Gareus <robin@gareus.org>
+License: MIT/X11
+
+Files:
+ plugins/ZamSFZ/libsfz/sfz.cpp
+ plugins/ZamSFZ/libsfz/sfz.h
+Copyright: 2008-2009, Anders Dahnielson
+License: GPL-2+
+
+License: GPL-2+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+License: ISC
+ Permission to use, copy, modify, and/or distribute this software for any
+ purpose with or without fee is hereby granted, provided that the above
+ copyright notice and this permission notice appear in all copies.
+ .
+ THIS SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License can be found in `/usr/share/common-licenses/LGPL-2.1'.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or modify it
+ under the terms of the GNU Library General Public License as published
+ by the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+Comment:
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License can be found in `/usr/share/common-licenses/LGPL-2'.
+
+License: CUSTOM
+ This software is provided 'as-is', without any express or implied
+ warranty.  In no event will the authors be held liable for any damages
+ arising from the use of this software.
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it
+ freely, subject to the following restrictions:
+ 1. The origin of this software must not be misrepresented; you must not
+    claim that you wrote the original software. If you use this software
+    in a product, an acknowledgment in the product documentation would be
+    appreciated but is not required.
+ 2. Altered source versions must be plainly marked as such, and must not be
+    misrepresented as being the original software.
+ 3. This notice may not be removed or altered from any source distribution.
+
+License: MIT/X11
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+
+License: LGPL
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU Lesser General Public License for more details.

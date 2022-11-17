@@ -1,0 +1,15 @@
+a4e3b6bda5fce7b705225450b6e7740f  lib/systemd/system/fprintd.service
+645c60e785fbb54349ccbfeeeac8aae0  usr/bin/fprintd-delete
+3290028afa0addad308752753685c6bf  usr/bin/fprintd-enroll
+a6efdd889ce22fcd91f218fee2b27a32  usr/bin/fprintd-list
+ed0494fa7af29e0cfe57041a957fe008  usr/bin/fprintd-verify
+b89fd6c2630ed428c82427b0b21d95ac  usr/libexec/fprintd
+37b17ddbf302549e3a6afa74773c6d4d  usr/share/dbus-1/interfaces/net.reactivated.Fprint.Device.xml
+137b16ed3401a1e990252cf5729d6359  usr/share/dbus-1/interfaces/net.reactivated.Fprint.Manager.xml
+573d93bb6a3005c45140ca742e9ffe33  usr/share/dbus-1/system-services/net.reactivated.Fprint.service
+a7d79a273a0f0c7c4e0c72bb6cf61e8e  usr/share/dbus-1/system.d/net.reactivated.Fprint.conf
+fb0567b80f4f7272602203f2834ad0d8  usr/share/doc/fprintd/NEWS.Debian.gz
+52dc5c57cef83f22e2da3029b27cbc82  usr/share/doc/fprintd/changelog.Debian.gz
+cae0c1575d46122d2cec7c0338136843  usr/share/doc/fprintd/copyright
+bf2e58ba5a835d06ff815f41b7a372b9  usr/share/man/man1/fprintd.1.gz
+a4e6ba019fcbb91f605c66f3b6359025  usr/share/polkit-1/actions/net.reactivated.fprint.device.policy

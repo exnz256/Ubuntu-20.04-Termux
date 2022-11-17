@@ -1,0 +1,14 @@
+b972ec173fca0afab5e2190dfb32fcf8  usr/bin/nautilus
+82dcf26050fc1894dabee3e799b81ac8  usr/bin/nautilus-autorun-software
+b518b3af823bb054a4c70940bdc6d738  usr/lib/aarch64-linux-gnu/nautilus/extensions-3.0/libnautilus-image-properties.so
+290f6486303e4be70d636911fec06163  usr/lib/aarch64-linux-gnu/nautilus/extensions-3.0/libnautilus-sendto.so
+7f8b304bc878e33c98cff3ade5ee7de6  usr/lib/aarch64-linux-gnu/nautilus/extensions-3.0/libtotem-properties-page.so
+e0ccdec2d84988e4b697548117e57069  usr/share/applications/nautilus-autorun-software.desktop
+73a26df8ff4a5ec9b56d391e5edf5a6c  usr/share/applications/org.gnome.Nautilus.desktop
+fc9deda511cc9d65a001c7b9bcaf28aa  usr/share/dbus-1/services/org.freedesktop.FileManager1.service
+86f8018e1389cbe818abca2130340418  usr/share/dbus-1/services/org.gnome.Nautilus.service
+b862cbfc3330f8af18db927cd255f4dd  usr/share/doc/nautilus/NEWS.gz
+acf2930beb90719645987e76502ac5ab  usr/share/doc/nautilus/copyright
+0e12ca7dba51938f053838af0ae90906  usr/share/man/man1/nautilus-autorun-software.1.gz
+f63eccdbfabee9f2be9c16e140998fde  usr/share/man/man1/nautilus.1.gz
+069317d6fd92bdd72caee33c11daa6c5  usr/share/metainfo/org.gnome.Nautilus.appdata.xml

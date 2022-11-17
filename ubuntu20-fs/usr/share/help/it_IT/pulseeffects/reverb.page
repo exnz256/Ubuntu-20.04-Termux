@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="reverb" xml:lang="it-IT">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Digitalone</mal:name>
+      <mal:email>kurmikon@libero.it</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+    <title>Riverbero</title>
+    <p>Il riverbero, in acustica e psicoacustica, indica una persistenza del suono che si manifesta successivamente alla sua produzione. Un riverbero è generato quando un suono o un segnale viene riflesso e ripetuto nel tempo. Le riflessioni decadono quando il suono viene assorbito dalle superfici degli oggetti nello spazio. Questo plugin può essere usato per riprodurre artificialmente tale effetto.</p>
+    <p>PulseEffects usa il plugin di Riverbero sviluppato da Calf Studio.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Pre Ritardo</em>
+            </title>
+            <p>Ritardo aggiuntivo: corrisponde a una distanza tra la sorgente sonora e l'ostacolo più vicino.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Tempo di Decadimento</em>
+            </title>
+            <p>Tempo necessario affinchè l'effetto di riverbero scompaia.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Quantità</em>
+            </title>
+            <p>Quantità di segnale elaborato (riverbero) in uscita.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Trascuranza</em>
+            </title>
+            <p>Quantità di segnale non elaborato in uscita.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Taglio Bassi</em>
+            </title>
+            <p>Rimuove le basse frequenze dal riverbero.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Taglio Alti</em>
+            </title>
+            <p>Rimuove le alte frequenze dal riverbero.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Diffusione</em>
+            </title>
+            <p>Aumenta il valore per un riverbero meno uniforme.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Dimensione Ambiente</em>
+            </title>
+            <p>Dimensione dello spazio in cui si verifica la simulazione del riverbero - determina i tempi tra le riflessioni.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Smorzamento Alte frequenze</em>
+            </title>
+            <p>Taglia le alte frequenze delle riflessioni - fa sì che le frequenze più alte diminuiscano più velocemente.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Note</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Reverberation" its:translate="no">
+                        https://en.wikipedia.org/wiki/Reverberation
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://calf-studio-gear.org/doc/Reverb.html" its:translate="no">
+                        https://calf-studio-gear.org/doc/Reverb.html
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

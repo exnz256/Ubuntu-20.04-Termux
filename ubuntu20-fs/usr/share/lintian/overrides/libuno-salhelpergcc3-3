@@ -1,0 +1,2 @@
+libuno-salhelpergcc3-3: shlibs-declares-dependency-on-other-package libuno-salhelpergcc3-3 (*), ure
+libuno-salhelpergcc3-3: symbols-declares-dependency-on-other-package ure

@@ -1,0 +1,11 @@
+c17ef2eacf922ec9be7d820a30601370  usr/share/GConf/gsettings/mutter-schemas.convert
+0891fa30d449bb672389736c06498752  usr/share/doc/mutter-common/changelog.Debian.gz
+a96f04eb2a5153e942b06f0ed0e91f19  usr/share/doc/mutter-common/copyright
+855819d3535c1c3a11ebe38561b265d1  usr/share/glib-2.0/schemas/org.gnome.mutter.gschema.xml
+079c0ccfea56f89f6c7ab6cf9745db75  usr/share/glib-2.0/schemas/org.gnome.mutter.wayland.gschema.xml
+f2e93a9403b450b4a7c43cd7e665cd57  usr/share/glib-2.0/schemas/org.gnome.mutter.x11.gschema.xml
+48a4e9f39a1bb498de98a59806744fb0  usr/share/gnome-control-center/keybindings/50-mutter-navigation.xml
+e2d22628f0a119f1da557c21f185f28d  usr/share/gnome-control-center/keybindings/50-mutter-system.xml
+14661c9f20b9853e2e5919575ce83d79  usr/share/gnome-control-center/keybindings/50-mutter-wayland.xml
+35bd9b8b392ab797ee9e708b5b313a15  usr/share/gnome-control-center/keybindings/50-mutter-windows.xml
+721727d6d717fff6999b5d55b4470c8e  usr/share/man/man1/mutter.1.gz

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="deesser" xml:lang="de">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>David Keller</mal:name>
+      <mal:email>davidkeller@tuta.io</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+    <title>Deesser</title>
+    <p>PulseEffects verwendet den Deesser von Calf Studio. Ein Deesser wird verwendet, um hohe Frequenzen dynamisch zu reduzieren. Das Standardeinsatzgebiet ist die Reduktion von "sssss" und "shhhh" in Gesangsspuren.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Nachgiebigkeit</em>
+            </title>
+            <p>Die Reaktion des Deessers. Hohe Werte haben keinen Einfluss auf kurze Ausschläge.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Schwelle</em>
+            </title>
+            <p>Übersteigt ein Signal diesen Wert, wird die Amplitudenreduktion beeinflusst.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Verhältnis</em>
+            </title>
+            <p>Setze das Verhältnis, bei welchem das Signal reduziert wird.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Hebung</em>
+            </title>
+            <p>Es verstärkt das Signal nach der Verarbeitung.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Teilen</em>
+            </title>
+            <p>Die Teilungsfrequenz. Alle Signale oberhalb dieser Frequenz wirken sich auf die Amplitudenreduktion aus (und im Teilen-Modus werden sie ebenfalls von der Reduktion betroffen).</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Verstärkung</em>
+            </title>
+            <p>Verschiebt die Lautstärke des hohen Bandes. Im Breitbandmodus wirkt es sich auf die Sidechain aus. Im Teilen-Modus wirkt es auch auf die verarbeiteten hohen Frequenzen.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Hochpunkt</em>
+            </title>
+            <p>Mittenfrequenz des Glockenfilters. Ermöglicht eine genauere Auswahl des Sidechain-Signals.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Ebene</em>
+            </title>
+            <p>Erhöht oder verringert die Frequenzen um die mittlere Glockenfrequenz.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Höchstwert Q</em>
+            </title>
+            <p>Legt die Qualität der Glocke fest. Höhere Werte beeinflussen einen engeren Frequenzbereich. Niedrigere Werte beeinflussen ein breiteres Band.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Erkennung</em>
+            </title>
+            <p>Wähle, ob der Deesser die Signalspitze oder den RMS-Wert (glatter) für die Erkennung nehmen soll.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Modus</em>
+            </title>
+            <p>Wähle die Betriebsart zwischen Breitband und Teilen</p>
+        </item>
+    </terms>
+    <section>
+        <title>Referenzen</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/De-essing" its:translate="no">
+                        https://en.wikipedia.org/wiki/De-essing
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://calf-studio-gear.org/doc/Deesser.html" its:translate="no">
+                        https://calf-studio-gear.org/doc/Deesser.html
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

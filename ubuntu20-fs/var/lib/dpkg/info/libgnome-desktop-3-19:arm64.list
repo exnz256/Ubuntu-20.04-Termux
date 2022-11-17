@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/lib
+/usr/lib/aarch64-linux-gnu
+/usr/lib/aarch64-linux-gnu/libgnome-desktop-3-19
+/usr/lib/aarch64-linux-gnu/libgnome-desktop-3-19/gnome-rr-debug
+/usr/lib/aarch64-linux-gnu/libgnome-desktop-3.so.19.0.8
+/usr/share
+/usr/share/doc
+/usr/share/doc/libgnome-desktop-3-19
+/usr/share/doc/libgnome-desktop-3-19/AUTHORS
+/usr/share/doc/libgnome-desktop-3-19/NEWS.gz
+/usr/share/doc/libgnome-desktop-3-19/README
+/usr/share/doc/libgnome-desktop-3-19/changelog.Debian.gz
+/usr/share/doc/libgnome-desktop-3-19/copyright
+/usr/lib/aarch64-linux-gnu/libgnome-desktop-3.so.19

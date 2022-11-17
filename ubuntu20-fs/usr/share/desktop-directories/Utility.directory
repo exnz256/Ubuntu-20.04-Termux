@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Accessories
+Comment=Desktop accessories
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=applications-utilities
+Type=Directory
+X-Ubuntu-Gettext-Domain=gnome-menus-3.0

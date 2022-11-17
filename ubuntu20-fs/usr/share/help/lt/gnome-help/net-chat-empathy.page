@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="net-chat-empathy" xml:lang="lt">
+  <info>
+    <link type="guide" xref="net-chat"/>
+    <link type="seealso" xref="net-chat-video"/>
+    
+    <revision version="17.10" date="2017-05-02" status="review"/>
+
+    <credit type="author">
+      <name>Ubuntu documentacijos komanda</name>
+      <email>ubuntu-doc@lists.ubuntu.com</email>
+    </credit>
+
+    <desc>Naudodami <app>Empathy</app> programą jūs galite bendrauti vaizdo ar garso skambučiais bei susirašinėti su draugais ar bendradarbiais, naudojančiais įvairiausius socialinius tinklus bei susirašinėjimo programas.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>Pokalbiai bei susirašinėjimas internete</title>
+
+  <p>Naudodami <app>Empathy</app> programą jūs galite bendrauti vaizdo ar garso skambučiais bei susirašinėti su draugais ar bendradarbiais, naudojančiais IRC, XMPP (Jabber), Facebook, Yahoo!, Windows Live, MSN, AIM bei kitas susirašinėjimo platformas. Jei turite mikrofoną ar kompiuterinę kamerą - galite kalbėtis garsu bei daryti vaizdo konferencijas.</p>
+
+  <p>Empathy programą automatiškai nepateikiama įdiegiant Ubuntu, tačiau jūs galite <link href="apt:empathy">įdiegti empaty</link> iš įprastų Ubuntu programų saugyklų. Jei reikės pagalbos naudojant Empathy - perskaitykite <link href="help:empathy">Empathy naudojimo vadovą</link>.</p>
+
+</page>

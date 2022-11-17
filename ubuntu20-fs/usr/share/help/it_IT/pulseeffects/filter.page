@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="filter" xml:lang="it-IT">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Digitalone</mal:name>
+      <mal:email>kurmikon@libero.it</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+    <title>Filtro</title>
+    <p>Il plugin Filtro può essere usato per amplificare, far passare o attenuare (tagliare) alcune bande di frequenza del segnale audio.</p>
+    <p>PulseEffects utilizza il Filtro sviluppato da Calf Studio. Può essere usato per rimuovere determinate parti dello spettro delle frequenze.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Frequenza</em>
+            </title>
+            <p>La frequenza centrale (o di taglio) del filtro.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Risonanza</em>
+            </title>
+            <p>Aggiunge un'enfasi alla frequenza centrale. Quando è utilizzato in un filtro passa banda, le frequenze circostanti diminuiscono di livello e la banda diventa più stretta. La banda esclusa viene ridotta a un ago sottile.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Inerzia</em>
+            </title>
+            <p>Rende più fluidi i salti tra le frequenze.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Note</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Audio_filter" its:translate="no">
+                        https://en.wikipedia.org/wiki/Audio_filter
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://calf-studio-gear.org/doc/Filter.html" its:translate="no">
+                        https://calf-studio-gear.org/doc/Filter.html
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

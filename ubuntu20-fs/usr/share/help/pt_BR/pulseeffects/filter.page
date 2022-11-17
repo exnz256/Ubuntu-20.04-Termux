@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="filter" xml:lang="pt-BR">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    </info>
+    <title>Filtro</title>
+    <p>Os filtros de áudio podem amplificar (aumentar), atenuar ou atenuar (cortar) algumas faixas de frequência.</p>
+    <p>PulseEffects usa o filtro do Calf Studio. Pode ser usado para remover partes definidas de um espectro de frequência.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Frequência</em>
+            </title>
+            <p>A frequência central ou de corte do filtro.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Ressonância</em>
+            </title>
+            <p>Adicione uma acentuação à frequência central. Quando usado em um passa-banda, as frequências circundantes diminuem de nível e a faixa fica mais estreita, um objeto de banda é reduzido a uma agulha fina.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Inércia</em>
+            </title>
+            <p>Saltos suaves entre as frequências.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Referências</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Audio_filter" its:translate="no">
+                        https://en.wikipedia.org/wiki/Audio_filter
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://calf-studio-gear.org/doc/Filter.html" its:translate="no">
+                        https://calf-studio-gear.org/doc/Filter.html
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

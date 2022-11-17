@@ -1,0 +1,14 @@
+3eeaa30a72ff07717d0da00d5be0f51c  usr/bin/gnome-calendar
+65c8dcaefbb78e4a421d6b8816e8ebc0  usr/share/applications/org.gnome.Calendar.desktop
+b73782c7286f3a6099e51ea78979ec04  usr/share/dbus-1/services/org.gnome.Calendar.service
+b85d837dcb4786f03023eeb8476f9ae3  usr/share/doc/gnome-calendar/NEWS.gz
+da55f63f1e1998ecb3be41599f8e2be8  usr/share/doc/gnome-calendar/changelog.Debian.gz
+a84f0d47a0d0e61616b07b42dc387e3c  usr/share/doc/gnome-calendar/copyright
+f14ddd05ed81fa711a314f814a85e7e7  usr/share/glib-2.0/schemas/org.gnome.calendar.enums.xml
+d96362ce340e31582df4f84aedc61970  usr/share/glib-2.0/schemas/org.gnome.calendar.gschema.xml
+3b606ad27bd5584ee3e2a3b8dda08eab  usr/share/gnome-shell/search-providers/org.gnome.Calendar.search-provider.ini
+d240326425c919179c0369c7492ef538  usr/share/icons/hicolor/scalable/apps/org.gnome.Calendar.Devel.svg
+7f48e54b8155b091e9d3eb84e34f6ace  usr/share/icons/hicolor/scalable/apps/org.gnome.Calendar.svg
+c69838c78b806e3250aaeb011c049a32  usr/share/icons/hicolor/symbolic/apps/org.gnome.Calendar-symbolic.svg
+c69838c78b806e3250aaeb011c049a32  usr/share/icons/hicolor/symbolic/apps/org.gnome.Calendar.Devel-symbolic.svg
+c89da190649b1d4990f00f0ae79df54c  usr/share/metainfo/org.gnome.Calendar.appdata.xml

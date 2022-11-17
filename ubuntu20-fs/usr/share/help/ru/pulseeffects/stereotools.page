@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="stereotools" xml:lang="ru">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    </info>
+    <title>Stereo Tools</title>
+    <p>PulseEffects использует плагин для усиления басов, разработанный Calf Studio.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Softclip</em>
+            </title>
+            <p>
+                Do kind of analog distortion instead of harsh digital 0db clipping.
+            </p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Баланс</em>
+            </title>
+            <p>Настройка баланса между обоими каналами.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">S/C Level</em>
+            </title>
+            <p/>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Режим</em>
+            </title>
+            <p>
+                Choose normal stereo behavior (LR - LR) or convert between MS and LR.
+            </p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Side Level</em>
+            </title>
+            <p>
+                The level of the side signal.
+            </p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Side Balance</em>
+            </title>
+            <p>
+                The balance of the side signal.
+            </p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Middle Level</em>
+            </title>
+            <p>
+                Middle signal position in the stereo panorama.
+            </p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Delay L/R</em>
+            </title>
+            <p>
+                Delay the left or the right channel (milliseconds). Negative values delay the
+                left channel and positive values the right channel.
+            </p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Stereo Base</em>
+            </title>
+            <p>
+                Set the stereo base of your material seamless between Mono and inverted
+                Channels.
+            </p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Stereo Phase</em>
+            </title>
+            <p>
+                Set the stereo phase of your material.
+            </p>
+        </item>
+    </terms>
+    <section>
+        <title>Отклики</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://calf-studio-gear.org/doc/Stereo%20Tools.html" its:translate="no">
+                        https://calf-studio-gear.org/doc/Stereo%20Tools.html
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="net-chat-video" xml:lang="lt">
+  <info>
+    <link type="guide" xref="net-chat"/>
+
+    <revision version="20.04" date="2020-04-20" status="review"/>
+
+    <credit type="author">
+      <name>Ubuntu documentacijos komanda</name>
+    </credit>
+
+    <desc>Kokios programos skirtos bendravimui ir vaizdo pokalbiams internetu?</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>Vaizdo skambučiai</title>
+
+  <list type="disc">
+    <title>Štai keletas bendravimo programų, palaikančių vaizdo pokalbius:</title>
+
+    <item><p><app><link xref="net-chat-empathy">Empathy</link></app></p></item>
+
+    <item><p><app><link xref="net-chat-skype">Skype</link></app></p></item>
+
+    <item><p>
+      <app><link href="apt:jami">Jami</link></app>
+    </p></item>
+
+  </list>
+
+</page>

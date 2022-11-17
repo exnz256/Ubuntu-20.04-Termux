@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="saturated" style="2column" xml:lang="de">
+    <info>
+        <link type="guide" xref="index#ui"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>David Keller</mal:name>
+      <mal:email>davidkeller@tuta.io</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+    <title>Übersteuerungswarnung</title>
+    <media type="image" src="figures/saturated.png" its:translate="no"/>
+    <p>Wenn das am Eingang des Plugins ankommende Audiosignal zu hoch ist, werden sehr unangenehme Geräusche erzeugt. In diesem Fall wird die Warnung im obigen Bild angezeigt, so dass der Anwender den Audiopegel reduzieren kann.</p>
+</page>

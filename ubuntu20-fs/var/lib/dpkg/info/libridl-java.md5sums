@@ -1,0 +1,6 @@
+ae6ef6f007f8575e5abf599a5d4247fd  usr/share/bug/libridl-java/presubj
+67487cc5002ed5b27cc914c79c284e18  usr/share/doc/libridl-java/changelog.Debian.gz
+c92f3a9b7fc07358987f755d5060ce80  usr/share/doc/libridl-java/copyright
+046a6108542f1e3392eb726b234d9e60  usr/share/java/ridl-6.4.7.jar
+6c007e6fa56fe262c2b06691ad527a04  usr/share/maven-repo/org/libreoffice/ridl/6.4.7/ridl-6.4.7.pom
+6fca87c36e2c6601ee0e7600ac9c5e34  usr/share/maven-repo/org/libreoffice/ridl/debian/ridl-debian.pom

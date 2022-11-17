@@ -1,0 +1,15 @@
+2382827e8a474e3256467135d2e9901e  usr/share/dbus-1/services/org.gnome.Todo.service
+a41d7fb7db1fe715963e0a601cc079ac  usr/share/doc/gnome-todo-common/changelog.Debian.gz
+899516d135bef3c29621f0af775f75a0  usr/share/doc/gnome-todo-common/copyright
+e405518e1f13338e3b0a6b9c1d9ba9ee  usr/share/glib-2.0/schemas/org.gnome.todo.background.gschema.xml
+3cd7cc29f851079dd3a7b4cc294690b2  usr/share/glib-2.0/schemas/org.gnome.todo.enums.xml
+addf80483c0c6d539416fe224d58794b  usr/share/glib-2.0/schemas/org.gnome.todo.gschema.xml
+4a6371e24e25fb0489cb4dca11070c7a  usr/share/glib-2.0/schemas/org.gnome.todo.txt.gschema.xml
+b8b8b7b49c63c41f36175edce42afd4b  usr/share/gnome-todo/org.gnome.Todo.Autostart.desktop
+7e44add10e9f509d634d4e406a512d31  usr/share/icons/hicolor/16x16/apps/org.gnome.Todo.png
+b98345b8485a0620d27602cb103e0faa  usr/share/icons/hicolor/22x22/apps/org.gnome.Todo.png
+a4b0fffe259db81281ee8a2292c941dd  usr/share/icons/hicolor/256x256/apps/org.gnome.Todo.png
+6ce40fc23e3ab61d2c745058d025ee37  usr/share/icons/hicolor/32x32/apps/org.gnome.Todo.png
+cba98e6c568108974f5db61fd8c9ead6  usr/share/icons/hicolor/48x48/apps/org.gnome.Todo.png
+ab8e4214e171c81cab91fc2e1d05f145  usr/share/icons/hicolor/512x512/apps/org.gnome.Todo.png
+454712e35eb2be5aaf692178bc3e5524  usr/share/icons/hicolor/symbolic/apps/org.gnome.Todo-symbolic.svg

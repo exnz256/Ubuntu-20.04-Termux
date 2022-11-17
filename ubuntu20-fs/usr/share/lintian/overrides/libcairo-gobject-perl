@@ -1,0 +1,2 @@
+# False positive caused by --as-needed. For details, see #940517.
+libcairo-gobject-perl: library-not-linked-against-libc usr/lib/*/perl5/5.*/auto/Cairo/GObject/GObject.so

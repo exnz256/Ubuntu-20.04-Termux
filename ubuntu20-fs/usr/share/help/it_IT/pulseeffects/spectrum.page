@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="spectrum" xml:lang="it-IT">
+    <info>
+        <link type="guide" xref="settingsmenu"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Digitalone</mal:name>
+      <mal:email>kurmikon@libero.it</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+    <title>Spettro</title>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Mostra</em>
+            </title>
+            <p>Nasconde o mostra lo spettro.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Punti</em>
+            </title>
+            <p>Numero di punti mostrati.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Altezza</em>
+            </title>
+            <p>Altezza spettro.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Scala</em>
+            </title>
+            <p>Fattore di scala dell'altezza della barra.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Esponente</em>
+            </title>
+            <p>Esponente del fattore di scala.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Campionamento</em>
+            </title>
+            <p>Frequenza di aggiornamento dello spettro.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Spessore Linea</em>
+            </title>
+            <p>Spessore dei contorni della barra.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Riempimento</em>
+            </title>
+            <p>Disegna barre piene.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Bordo</em>
+            </title>
+            <p>Mostra bordo della barra.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Personalizza Colore</em>
+            </title>
+            <p>Usa un colore definito dall'utente o il predefinito del tema GTK.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Colore Spettro</em>
+            </title>
+            <p>Usa colore definito dall'utente.</p>
+        </item>
+    </terms>
+</page>

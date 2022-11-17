@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="maximizer" xml:lang="pt-BR">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    </info>
+    <title>Maximizador</title>
+    <p>O Maximizer é um plugin versátil que pode ser ajustado para ser um compressor, um amplificador e um limitador. É basicamente controlado por apenas dois parâmetros: teto e limite. O limiar é um valor relativo que representa a amplificação do sinal, enquanto o teto é o nível de pico de saída máximo permitido. Definindo ambos os valores diferentes de zero, o plugin funcionará como um compressor ascendente com um limitador no nível do teto (sinal excessivamente amplificado com o teto ajustado muito baixo pode resultar em som distorcido mesmo sem a presença de cortes). Quando apenas o limite é definido como zero, reduz a amplitude do sinal.</p>
+    <p>PulseEffects usa o maximizador desenvolvido por Zamaudio.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Limiar</em>
+            </title>
+            <p>Valor relativo representando a amplificação do sinal. Zero não é amplificação. Valores mais baixos, maior amplificação.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Teto</em>
+            </title>
+            <p>Máximo valor de pico permitido para o sinal de saída.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Liberação</em>
+            </title>
+            <p>Definir a liberação em milissegundos.</p>
+        </item>
+    </terms>
+    <!-- <section> <title>References</title> <list> <item> <p> <link
+    href="http://www.zamaudio.com"> http://www.zamaudio.com </link> </p> </item>
+    </list> </section> -->
+</page>

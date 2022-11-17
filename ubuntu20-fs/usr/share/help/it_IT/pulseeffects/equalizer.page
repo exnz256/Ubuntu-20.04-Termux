@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="equalizer" xml:lang="it-IT">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Digitalone</mal:name>
+      <mal:email>kurmikon@libero.it</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+    <title>Equalizzatore</title>
+    <p>PulseEffects utilizza l'Equalizzatore parametrico ideato da Linux Studio Plugins. È possibile scegliere tra 1 e 30 bande. Si può anche modificare la frequenza centrale e la larghezza di ogni banda in base alle proprie necessità.</p>
+    <section>
+        <title>Menu Principale</title>
+
+        <terms>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Modalità</em>
+                </title>
+                <list>
+                    <item>
+                        <p><em style="strong">IIR</em> - Infinite Impulse Response (Filtri con Risposta Impulsiva Infinita), fase minima non lineare. Nella maggior parte dei casi non aggiunge una latenza significativa al segnale di uscita.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">FIR</em> - Finite Impulse Response (Filtri a Risposta Impulsiva Finita) con fase lineare, approssimazione finita della risposta all'impulso dell'equalizzatore. Aggiunge una latenza significativa al segnale di uscita.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">FFT</em> - Fast Fourier Transform (Approssimazione della Trasformata Rapida di Fourier) del grafico di frequenza, fase lineare. Aggiunge una latenza significativa al segnale di uscita.</p>
+                    </item>
+                </list>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Bande</em>
+                </title>
+                <p>Il numero di bande dell'equalizzatore.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Dividi Canali</em>
+                </title>
+                <p>Quando questa opzione è attivata, è possibile applicare diverse equalizzazioni ai canali sinistro e destro.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Risposta Piatta</em>
+                </title>
+                <p>Questa funzione imposta il guadagno di ogni banda a 0.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Calcola Frequenze</em>
+                </title>
+                <p>Questa funzione può essere utilizzata per calcolare le frequenze centrali e la larghezza di banda di un equalizzatore grafico con il numero corrente di bande selezionate. Utile quando l'utente non preferisce il numero predefinito di 30 bande e non ha idea di quali frequenze e larghezza di banda dovrebbe scegliere.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Reset Equalizzatore</em>
+                </title>
+                <p>Reimposta l'equalizzatore alle opzioni predefinite.</p>
+            </item>
+
+        </terms>
+    </section>
+
+    <section>
+        <title>Menu Banda</title>
+        <terms>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Tipo</em>
+                </title>
+                <list>
+                    <item>
+                        <p><em style="strong">Inattivo</em> - Il filtro è disabilitato.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">A Campana</em> - Filtro a campana con picchi/rientranze fluidi.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">Passa Alto</em> - Filtro passa alto con scarto delle basse frequenze.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">Sopra Soglia</em> - Filtro a scaffale con regolazione dell'intervallo delle alte frequenze.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">Passa Basso</em> - Filtro passa basso con scarto delle alte frequenze.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">Sotto Soglia</em> - Filtro a scaffale con regolazione dell'intervallo delle basse frequenze.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">Elimina Banda</em> - Filtro elimina banda con esclusione totale della frequenza selezionata.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">Risonanza</em> - Filtro di risonanza con picchi/rientranze accentuati.</p>
+                    </item>
+                </list>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Modalità</em>
+                </title>
+                <list>
+                    <item>
+                        <p><em style="strong">RLC</em> - Filtri molto fluidi basati su cascate simili di contorni RLC.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">BWC</em> - Filtri basati su Butterworth-Chebyshev tipo 1. Non influenzano i filtri di Risonanza ed Elimina Banda.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">LRX</em> - Filtri basati su Linkwitz-Riley. Non influenzano i filtri di Risonanza ed Elimina Banda.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">APO</em> - Filtri biquadratici digitali, derivati dai prototipi canonici, digitalizzati tramite trasformata Bilineare. Questi sono filtri da manuale <link href="https://shepazu.github.io/Audio-EQ-Cookbook/audio-eq-cookbook.html" its:translate="no"/> implementati come nel software <link href="https://equalizerapo.com/" its:translate="no">
+                                Equalizer APO
+                            </link>.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">(BT)</em> - La trasformata Z Bilineare è utilizzata per la mappatura polo/zero.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">(MT)</em> - La trasformata Z combinata viene utilizzata per la mappatura polo/zero.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">(DR)</em> - Un'implementazione diretta viene utilizzata per ottenere i coefficienti del filtro digitale direttamente nel dominio digitale, senza eseguire trasformazioni.</p>
+                    </item>
+                </list>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Pendenza</em>
+                </title>
+                <p>La pendenza della curva caratteristica del filtro.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Isola</em>
+                </title>
+                <p>Rende questa banda l'unica attiva.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Muto</em>
+                </title>
+                <p>Silenzia la banda.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Frequenza</em>
+                </title>
+                <p>Frequenza centrale della banda.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Larghezza</em>
+                </title>
+                <p>Larghezza di banda. Calcolata a partire da <code its:withinText="nested">larghezza = frequenza / qualità</code>.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Qualità</em>
+                </title>
+                <p>Fattore di qualità.</p>
+            </item>
+        </terms>
+    </section>
+
+    <section>
+        <title>Note</title>
+        <list>
+            <item>
+                <p>
+                    <link href="http://lsp-plug.in/?page=manuals&amp;section=para_equalizer_x32_lr" its:translate="no">
+                        http://lsp-plug.in/?page=manuals&amp;section=para_equalizer_x32_lr
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Equalization_(audio)" its:translate="no">
+                        https://en.wikipedia.org/wiki/Equalization_(audio)
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Q_factor" its:translate="no">
+                        https://en.wikipedia.org/wiki/Q_factor
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://howtoeq.wordpress.com/2010/10/07/q-factor-and-bandwidth-in-eq-what-it-all-means/" its:translate="no">
+                        https://howtoeq.wordpress.com/2010/10/07/q-factor-and-bandwidth-in-eq-what-it-all-means/
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

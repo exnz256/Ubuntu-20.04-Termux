@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/aarch64-linux-gnu
+/usr/lib/aarch64-linux-gnu/speech-dispatcher
+/usr/lib/aarch64-linux-gnu/speech-dispatcher/spd_alsa.so
+/usr/lib/aarch64-linux-gnu/speech-dispatcher/spd_libao.so
+/usr/lib/aarch64-linux-gnu/speech-dispatcher/spd_oss.so
+/usr/lib/aarch64-linux-gnu/speech-dispatcher/spd_pulse.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/speech-dispatcher-audio-plugins
+/usr/share/doc/speech-dispatcher-audio-plugins/changelog.Debian.gz
+/usr/share/doc/speech-dispatcher-audio-plugins/copyright

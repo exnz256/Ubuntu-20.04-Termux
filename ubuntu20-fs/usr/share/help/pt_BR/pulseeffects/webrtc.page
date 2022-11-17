@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="webrtc" xml:lang="pt-BR">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    </info>
+    <title>Webrtc</title>
+    <p>O PulseEffects usa o webrtc do GStreamer. Este plugin oferece um filtro de aprimoramento de voz baseado na biblioteca WebRTC Audio Processing. Esta biblioteca fornece uma grande variedade de algoritmos de aprimoramento. Este plugin tenta habilitar o máximo possível. Os aprimoramentos atualmente ativados são o Filtro Passa Alta, o Cancelamento de Eco, a Supressão de Ruído, o Controle de Ganho Automático e alguns filtros estendidos.</p>
+    <section>
+        <title>Cancelador de Eco</title>
+        <terms>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Filtro Estendido</em>
+                </title>
+                <p>Habilita ou desabilita o filtro extendido.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Filtro Passa-Alta</em>
+                </title>
+                <p>Habilita ou desabilita o filtro passa altas.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Atraso Agnóstico</em>
+                </title>
+                <p>Habilita ou desabilita o filtro passa altas.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Nível de Supressão</em>
+                </title>
+                <p>Controla a agressividade do supressor. Um nível mais alto reduz o desempenho de conversa dupla para aumentar a supressão de eco.</p>
+            </item>
+        </terms>
+    </section>
+    <section>
+        <title>Supressor de Ruído</title>
+        <terms>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Nível de Supressão</em>
+                </title>
+                <p>Controla a agressividade da supressão. Aumentar o nível reduzirá o nível de ruído em detrimento de uma distorção de fala mais alta.</p>
+            </item>
+        </terms>
+    </section>
+    <section>
+        <title>Controlador de Ganho</title>
+        <terms>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Modo</em>
+                </title>
+                <p>Controla o modo do estágio de compressão.</p>
+            </item>
+        </terms>
+    </section>
+    <section>
+        <title>Compressor</title>
+        <terms>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Limitador</em>
+                </title>
+                <p>Quando ativado, o estágio de compactação limitará o sinal ao nível alvo. Caso contrário, o sinal será comprimido mas não limitado acima do nível alvo.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Nível Alvo</em>
+                </title>
+                <p>Define o nível do pico alvo do controle de ganho em dBFS (decibéis de escala digital completa).</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Ganho Máximo</em>
+                </title>
+                <p>Define o ganho máximo que o estágio de compressão digital pode aplicar.</p>
+            </item>
+        </terms>
+    </section>
+    <section>
+        <title>Detector de Voz</title>
+        <terms>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Probabilidade de Detecção</em>
+                </title>
+                <p>Especifica a probabilidade de que um quadro seja declarado como contendo voz.</p>
+            </item>
+        </terms>
+        <terms>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Tamanho do Quadro</em>
+                </title>
+                <p>Define o tamanho dos quadros em ms em que o VAD irá operar. Quadros maiores melhoram a precisão da detecção mas reduzem a frequência das atualizações.</p>
+            </item>
+        </terms>
+    </section>
+    <section>
+        <title>Referências</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://gstreamer.freedesktop.org/data/doc/gstreamer/head/gst-plugins-bad/html/gst-plugins-bad-plugins-webrtcdsp.html" its:translate="no">
+                        https://gstreamer.freedesktop.org/data/doc/gstreamer/head/gst-plugins-bad/html/gst-plugins-bad-plugins-webrtcdsp.html
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

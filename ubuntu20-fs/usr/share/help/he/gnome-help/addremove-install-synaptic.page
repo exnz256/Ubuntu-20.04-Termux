@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="addremove-install-synaptic" xml:lang="he">
+
+  <info>
+    <credit type="author">
+      <name>מיזם התיעוד של אובונטו</name>
+    </credit>
+
+		<credit type="editor">
+      <name>גרג בים</name>
+      <email>ki7mt@yahoo.com</email>
+    </credit>
+
+    <link type="guide" xref="addremove"/>
+    <revision pkgversion="0.80.4" version="0" date="2014-01-11" status="review"/>
+                <revision version="18.04" date="2018-03-18" status="review"/>
+                <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Synaptic היא חלופה רבת עצמה אך מורכבת לניהול תכנה על פני <app>התכנה של אובונטו</app>.</desc>
+  </info>
+
+  <title>ב־Synaptic מוטב להשתמש לניהול מתקדם יותר של תכנה</title>
+
+  <p><app>מנהל החבילות Synaptic</app> הוא עצמתי יותר ומסוגל לבצע משימות ניהוליות ש<app>התכנה של אובונטו</app> לא יכולה. המנשק של Synaptic הוא מורכב יותר ואינו תומך בתכונות חדשות יותר של <app>התכנה של אובונטו</app> כגון דירוגים וביקורות ולכן אינו מומלץ לשימוש למשתמשים חדשים באובונטו.</p>
+
+  <p>מנהל החבילות Synaptic אינו מותקן כבררת מחדל אך ניתן <link href="apt:synaptic">להתקין</link> אותו מארכיון החבילות של אובונטו.</p>
+
+  <section id="install-software-with-synaptic">
+    <title>התקנת תכניות עם Synaptic</title>
+    <steps>
+      <item>
+        <p>לפתוח את <app>Synaptic</app> דרך סרגל החיפוש <em>פעילויות</em>. יהיה עליך להקליד את הססמה שלך בחלון <gui>הזדהות</gui>.</p>
+      </item>
+      <item>
+        <p>ללחוץ על <gui>חיפוש</gui> כדי לחפש יישום, או ללחוץ על <gui>סעיפים</gui> ולחפש בין הקטגוריות כדי למצוא אחד.</p>
+      </item>
+      <item>
+        <p>ללחוץ במקש ימני על היישום שברצונך להתקין ולבחור ב<gui>סימון להתקנה</gui>.</p>
+      </item>
+      <item>
+        <p>אם נדרשת לסמן שינויים נוספים, יש ללחוץ על <gui>סימון</gui>.</p>
+      </item>
+      <item>
+        <p>לבחור יישומים אחרים שברצונך להתקין.</p>
+      </item>
+      <item>
+        <p>ללחוץ על <gui>החלה</gui>, ואז ללחוץ על <gui>החלה</gui> בחלון שמופיע. היישומים שבחרת יתקבלו ויותקנו.</p>
+      </item>
+    </steps>
+
+    <p>למידע נוסף על השימוש ב־<app>Synaptic</app>, יש להיוועץ ב<link href="https://help.ubuntu.com/community/SynapticHowto">מדריך השימוש ב־Synaptic</link>.</p>
+
+  </section>
+
+</page>

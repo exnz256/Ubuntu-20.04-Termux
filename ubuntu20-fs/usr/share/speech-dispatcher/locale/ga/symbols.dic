@@ -1,0 +1,132 @@
+﻿#locale/ga/symbols.dic
+#A part of NonVisual Desktop Access (NVDA)
+#Copyright (c) 2013 Mesar Hameed <mhameed@src.gnome.org>
+#Copyright (c) 2014-2017 Ronan McGuirk <ronan.p.mcguirk@gmail.com>
+#Copyright (c) 2017 Kevin Scannell <kscanne@gmail.com>
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+#
+
+complexSymbols:
+# identifier	regexp
+# Sentence endings.
+. sentence ending	(?<=[^\s.])\.(?=[\"'”’)\s]|$)
+! sentence ending	(?<=[^\s!])\!(?=[\"'”’)\s]|$)
+? sentence ending	(?<=[^\s?])\?(?=[\"'”’)\s]|$)
+# Phrase endings.
+; phrase ending	(?<=[^\s;]);(?=\s|$)
+: phrase ending	(?<=[^\s:]):(?=\s|$)
+# Others
+decimal point	(?<=\d)\.(?=\d)
+in-word '	(?<=[^\W_])['’]
+negative number	(?<!\w)-(?=[$£€¥]?\d)
+
+symbols:
+# identifier	replacement[[	level][	preserve]][	# display name]
+
+# Complex symbols
+. sentence ending	ponc	all	always
+! sentence ending	uaillbhreas	all	always
+? sentence ending	comhartha ceiste	all	always
+; phrase ending	leathstad	most	always
+: phrase ending	idirstad	most	always
+decimal point		none	always
+in-word '	uaschamóg	all	norep
+negative number	míneas	none	norep
+in-word -	fleiscín	none	always
+
+# Whitespace
+\0	blanc	char	# null
+\t	tab
+\n	fotha líne	char
+\f	briseadh idir leathanaigh	none
+\r	aisfhilleadh carráiste	char
+ 	spás	char
+ 	spás	char	# no-break space
+
+# Standard punctuation/symbols
+!	uaillbhreas	all
+"	athfhriotal 	most
+\#	uimhir	most
+$	dollar	all	norep
+£	punt	all	norep
+€	euro	all	norep
+¢	Cent	all	norep
+¥	Yen	all	norep
+%	faoin gcéad	some
+&	amparsan	some
+'	uaschamóg	all
+(	lúibín clé	most
+)	lúibín deas	most
+*	réalta	most
++	móide	most
+,	camóg	all	always
+-	fleiscín	most	always
+.	ponc	some
+/	slais	some
+:	idirstad	most	norep
+;	leathstad	most
+<	níos lú ná	most
+>	níos mó ná	most
+=	cothrom le	most
+?	comhartha ceiste	all
+@	ag	some
+[	lúibín cearnach ar chlé	most
+]	lúibín cearnach ar dheis	most
+\\	cúlslais	most
+^	caret	most
+_	líne faoi	most
+`	graif	most
+{	lúibín slabhrach ar chlé	most
+}	lúibín slabhrach ar dheis	most
+|	barra ingearach	most
+~	tilde	most
+
+# Other characters
+•	pointe urchair	some
+…	focalbhá	all	never
+...	ponc ponc ponc	all	always
+	urchar	some
+“	athfhriotal clé	most
+”	athfhriotal deas	most
+‘	athfhriotal singil ar chlé	most
+’	athfhriotal singil ar dheis	most
+–	einfhleasc	most
+—	eimfhleasc	most
+●	urchar ciorclach	most
+¨	deireis	most
+‎	mairc chlé go deas	char
+‏	mairc dheas go clé	char
+■	cearnóg dhubh	some
+➔	saighead dheas	some
+§	rannóg	all
+°	céimeanna	some
+«	lúibín uilleach an dá rinn ar chlé
+»	lúibín uilleach an dá rinn ar dheis
+µ	micrea	some
+¹	forscript 1	some
+²	forscript 2	some
+³	forscript 3	some
+®	cláraithe	some
+™	trádmharc	some
+©	cóipcheart	some
+±	móide nó míneas	most
+×	méadaithe faoi	most
+÷	roinnte ar	most
+→	saighead dheas	some
+✓	ticeáil	some
+✔	ticeáil	some
+·	lárphonc	some
+¶	comhartha ailt	some
+ 

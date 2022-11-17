@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="exciter" xml:lang="ru">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    </info>
+    <title>Exciter</title>
+    <p>
+        An exciter is used to enhance a signal by dynamic equalization, phase
+        manipulation, harmonic synthesis of high frequency signals, and through the
+        addition of subtle harmonic distortion.
+    </p>
+    <p>PulseEffects использует плагин для усиления басов, разработанный Calf Studio.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Amount</em>
+            </title>
+            <p>Уровень гармоник, добавленных к исходному сигналу</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Гармоники</em>
+            </title>
+            <p>Количество вновь созданных гармоник</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Диапазон частот</em>
+            </title>
+            <p>Диапазон частот, для которых генерируются гармоники.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Ceiling(button)</em>
+            </title>
+            <p>
+                Constrain the excitement on the upper end.
+            </p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Ceiling(value)</em>
+            </title>
+            <p>
+                The frequency no harmonics are produced above.
+            </p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Смешение гармоник</em>
+            </title>
+            <p>"Цвет" (или октава) гармоник</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Прослушать</em>
+            </title>
+            <p>Выключить исходный сигнал и прослушать только гармоники</p>
+        </item>
+    </terms>
+    <section>
+        <title>Отклики</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://calf-studio-gear.org/doc/Exciter.html" its:translate="no">
+                        https://calf-studio-gear.org/doc/Exciter.html
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Exciter_(effect)" its:translate="no">
+                        https://en.wikipedia.org/wiki/Exciter_(effect)
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

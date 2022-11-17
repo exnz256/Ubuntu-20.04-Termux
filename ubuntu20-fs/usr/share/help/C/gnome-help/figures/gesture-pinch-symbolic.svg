@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg6535" width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata id="metadata6540">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(180 -470.15)">
+  <path id="rect6515" transform="translate(-180 470.15)" d="m40 8c-2.216 0-4 1.8668-4 4.1855v23.814h-1v-6.8145c0-0.16266-0.02783-0.31689-0.044922-0.47461a4.0004 4.0004 0 0 0-2.5566-3.7168l-4.4375-1.7402c-0.38262-4.6062-4.2598-8.2539-8.9609-8.2539-4.9528 0-9 4.0472-9 9 0 1.4188 0.34126 2.7588 0.93164 3.9551-4.9213 0.037442-8.9316 4.0664-8.9316 8.9961 0 4.9528 4.0472 9 9 9 0.65701 0 1.2963-0.075832 1.9141-0.21094l9.0859 11.26h9 2.0977 24.902c2.216 0 4-1.8668 4-4.1855v-12.629-9c0-2.3188-1.784-4.1855-4-4.1855s-4 1.8668-4 4.1855v4.8145h-1v-10.814c0-2.3188-1.784-4.1855-4-4.1855s-4 1.8668-4 4.1855v10.814h-1v-23.814c0-2.3188-1.784-4.1855-4-4.1855zm-21 10c2.6088 0 4.804 1.6395 5.6367 3.9492l-4.2227-1.6582a4.0004 4.0004 0 0 0-1.5625-0.29688 4.0004 4.0004 0 0 0-1.3594 7.7441l4.1738 1.6387c-0.80249 0.3959-1.7051 0.62305-2.666 0.62305-3.3315 0-6-2.6685-6-6s2.6685-6 6-6zm5.9961 12.684 2.0039 0.78711v8.7148 2.3496l-4.3945 1.9492-3.3555-3.9512c0.48066-1.0993 0.75-2.3101 0.75-3.582 0-1.4192-0.34097-2.7585-0.93164-3.9551 2.275-0.017309 4.3483-0.89454 5.9277-2.3125zm-13.996 0.26758c3.3315 0 6 2.6685 6 6 0 0.2912-0.02697 0.57574-0.066406 0.85547l-2.8281-3.3281c-0.75588-0.95863-1.9081-1.5196-3.1289-1.5234-3.4008-0.0111-5.2635 3.9574-3.082 6.5664l2.7539 3.4121c-3.1649-0.18078-5.6484-2.7695-5.6484-5.9824 0-3.3315 2.6685-6 6-6z" style="color-rendering:auto;color:#000000;image-rendering:auto;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;stroke-width:0"/>
+  <rect id="rect7304" x="-253" y="495.15" width="8" height="32" rx="4" ry="4.1855" style="color-rendering:auto;color:#000000;image-rendering:auto;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;stroke-width:0"/>
+  <rect id="rect7306" x="-244" y="478.15" width="8" height="49" rx="4" ry="4.1855" style="color-rendering:auto;color:#000000;image-rendering:auto;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;stroke-width:0"/>
+  <rect id="rect7308" x="-235" y="491.15" width="8" height="36" rx="4" ry="4.1855" style="color-rendering:auto;color:#000000;image-rendering:auto;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;stroke-width:0"/>
+  <rect id="rect7310" x="-226" y="497.15" width="8" height="30" rx="4" ry="4.1855" style="color-rendering:auto;color:#000000;image-rendering:auto;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;stroke-width:0"/>
+  <rect id="rect7312" x="-253" y="506.15" width="35" height="21" rx="4" ry="4.1855" style="color-rendering:auto;color:#000000;image-rendering:auto;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;stroke-width:0"/>
+  <ellipse id="ellipse7314" cx="-269" cy="507.1" rx="7.5" ry="7.5" style="color:#000000;fill:none;stroke-linecap:round;stroke-width:3;stroke:#000"/>
+  <ellipse id="ellipse7316" cx="-261" cy="494.15" rx="7.5" ry="7.5" style="color:#000000;fill:none;stroke-linecap:round;stroke-width:3;stroke:#000"/>
+  <ellipse id="ellipse7318" cx="-261" cy="494.15" rx="4.1029" ry="3.9987" style="fill-opacity:.31565;fill:#4a90d9;stroke-width:0"/>
+  <path id="path7320" d="m-261.15 490.14a4.0004 4.0004 0 0 0-1.3594 7.7441l11.982 4.7031a4.0004 4.0004 0 1 0 2.9238-7.4473l-11.984-4.7031a4.0004 4.0004 0 0 0-1.5625-0.29687z" style="block-progression:tb;color-rendering:auto;color:#000000;fill-rule:evenodd;image-rendering:auto;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none;white-space:normal"/>
+  <path id="path7322" d="m-269.02 503.1c-3.4008-0.0111-5.2635 3.9574-3.082 6.5664l14.105 17.478h11.098l5.9024-11-11.895-3.5112-4.5 1.9951-8.5-10.005c-0.75588-0.95863-1.9081-1.5196-3.1289-1.5234z" style="block-progression:tb;color-rendering:auto;color:#000000;fill-rule:evenodd;image-rendering:auto;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none;white-space:normal"/>
+ </g>
+</svg>

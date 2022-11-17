@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="addremove-ppa" xml:lang="he">
+
+  <info>
+    <credit type="author">
+      <name>מיזם התיעוד של אובונטו</name>
+    </credit>
+    <desc>ניתן להוסיף מאגרי PPA כדי להרחיב את מקורות התכנה בהם משתמשת מערכת אובונטו להתקנה ולעדכונים.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <link type="guide" xref="addremove"/>
+    <link type="seealso" xref="addremove-sources"/>
+    <revision version="18.04" date="2018-03-18" status="review"/>
+  </info>
+
+  <title>הוספת Personal Package Archive - ארכיון חבילות אישי (PPA)</title>
+
+  <p><em>Personal Package Archives - ארכיוני חבילות אישיים (PPAs)</em> הם מאגרי תכנה שתוכננו עבור משתמשי אובונטו וקל יותר להתקין אותם מאשר מאגרי צד־שלישי. PPAs בדרך כלל משמשים להפיץ תכנית טרם הפצתה הרשמית כדי לאפשר את בדיקתה.</p>
+
+  <note style="warning">
+    <p>יש להוסיף מאגרי תכנה ממקורות מהימנים בלבד!</p>
+    <p>אבטחתם ואמינותם של מאגרי תכנה מצד־שלישי אינם נבדקים והם עשויים להזיק למחשב שלך.</p>
+  </note>
+
+  <steps>
+    <title>התקנת PPA</title>
+    <item>
+      <p>בעמוד הסקירה של ה־PPA, יש לחפש את הכותרת <gui>Adding this PPA to your system</gui> (הוספת ה־PPA הזה למערכת שלך). נא לשים לב למיקום של ה־PPA, שאמור להיראות בערך כך: <code>ppa:mozillateam/firefox-next</code>.</p>
+    </item>
+    <item>
+      <p>ללחוץ על סמל <app>התכנה של אובונטו</app> ב<gui>מעגן</gui>, או לחפש אחר <input>תכנה</input> בסרגל החיפוש <em>פעילויות</em>.</p>
+    </item>
+    <item>
+      <p>עם טעינת <app>התכנה של אובונטו</app>, עליך ללחוץ על <gui>תכנה ועדכונים</gui></p>
+    </item>
+    <item>
+      <p>לעבור ללשונית <gui>תכנה נוספת</gui></p>
+    </item>
+    <item>
+      <p>ללחוץ על <gui>הוספה</gui> ולמלא את כתובת ה־PPA (כפי שצוין בשלב 1).</p>
+    </item>
+    <item>
+      <p>ללחוץ על <gui>הוספת מקור</gui>. למלא את הססמה שלך בחלון האימות.</p>
+    </item>
+    <item>
+      <p>לסגור את החלון <app>תכנה ועדכונים</app>. לאחר מכן יתבצע חיפוש אחר תכנה חדשה במאגרי התכנה שלך על ידי <app>התכנה של אובונטו</app>.</p>
+    </item>
+  </steps>
+
+</page>

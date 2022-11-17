@@ -1,0 +1,7 @@
+da53289762929c314ef12d1f48e70c83  usr/lib/aarch64-linux-gnu/libpkcs11-helper.so.1.0.0
+8bc2be2e917c6e45c9acb2ee49211ee9  usr/share/doc/libpkcs11-helper1/AUTHORS
+e2a25912df224e4e0e6dab96c80ffd4e  usr/share/doc/libpkcs11-helper1/README
+05c02cf1b1de0ee6e958917ef33456fb  usr/share/doc/libpkcs11-helper1/THANKS
+2a3cb333d90190e9b9e4f63b9780ef63  usr/share/doc/libpkcs11-helper1/changelog.Debian.gz
+c7fea2e5d61db2322d9f0fc9dc8b3469  usr/share/doc/libpkcs11-helper1/copyright
+50623fe53ecf59633f9372d9ed108df6  usr/share/man/man8/pkcs11-helper-1.8.gz

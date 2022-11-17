@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component type="console-application">
+  <id>org.freedesktop.appstream.cli</id>
+  <name>AppStream CLI</name>
+  <name xml:lang="zh_TW">AppStream 命令列介面</name>
+  <name xml:lang="zh_CN">AppStream 命令行界面</name>
+  <name xml:lang="uk">Командний рядок AppStream</name>
+  <name xml:lang="tr">AppStream CLI</name>
+  <name xml:lang="sv">AppStream-CLI</name>
+  <name xml:lang="sr@latin">CLI za Programski tok</name>
+  <name xml:lang="sr">ЦЛИ за Програмски ток</name>
+  <name xml:lang="sk">Textové používateľské rozhranie pre AppStream</name>
+  <name xml:lang="ru">Интерфейс командной строки AppStream</name>
+  <name xml:lang="pt_BR">CLI do AppStream</name>
+  <name xml:lang="pt">Interface de linha de comandos do AppStream</name>
+  <name xml:lang="pl">Interfejs AppStream dla wiersza poleceń</name>
+  <name xml:lang="nl">AppStream-CLI</name>
+  <name xml:lang="nb">Kommandolinjegrensesnitt for AppStream</name>
+  <name xml:lang="lt">AppStream komandų eilutė</name>
+  <name xml:lang="ko">AppStream CLI(Command Line Interface)</name>
+  <name xml:lang="ja">AppStream CLI</name>
+  <name xml:lang="it">CLI AppStream</name>
+  <name xml:lang="id">CLI AppStream</name>
+  <name xml:lang="hu">AppStream parancssori felület</name>
+  <name xml:lang="gl">Interface de consola de AppStream</name>
+  <name xml:lang="gd">Eadar-aghaidh loidhne-àithne AppStream</name>
+  <name xml:lang="fr">Interface en ligne de commande AppStream</name>
+  <name xml:lang="fi">AppStream-komentorivityökalu</name>
+  <name xml:lang="es">Interfaz de consola de AppStream</name>
+  <name xml:lang="en_GB">AppStream CLI</name>
+  <name xml:lang="de">AppStream-CLI</name>
+  <name xml:lang="da">AppStream CLI</name>
+  <name xml:lang="cs">Textové uživatelské rozhraní pro AppStream</name>
+  <name xml:lang="ca">Interfície de línia d'ordres d'AppStream</name>
+  <summary>An utility to work with AppStream metadata</summary>
+  <summary xml:lang="zh_TW">處理 AppStream 中介資料的公用程式</summary>
+  <summary xml:lang="zh_CN">用于操作 AppStream 元数据的实用工具</summary>
+  <summary xml:lang="uk">Інструмент для обробки метаданих AppStream</summary>
+  <summary xml:lang="tr">AppStream üst verisiyle çalışmak için bir araç</summary>
+  <summary xml:lang="sv">Ett verktyg för att jobba med AppStream-metadata</summary>
+  <summary xml:lang="sk">Nástroj pre prácu s AppStream mataúdajmi</summary>
+  <summary xml:lang="ru">Утилита для работы с метаданными AppStream</summary>
+  <summary xml:lang="pt_BR">Um utilitário para trabalhar com os metadados do AppStream</summary>
+  <summary xml:lang="pt">Um utilitário para trabalhar com os metadados do AppStream</summary>
+  <summary xml:lang="pl">Narzędzie do działania z metadanymi AppStream</summary>
+  <summary xml:lang="nl">Een hulpmiddel om te werken met AppStream-metagegevens</summary>
+  <summary xml:lang="nb">Et verktøy for å jobbe med AppStream-metadata</summary>
+  <summary xml:lang="lt">Paslaugų programa, skirta darbui su AppStream metaduomenimis</summary>
+  <summary xml:lang="ko">AppStream 메타 데이터 작업용 유틸리티</summary>
+  <summary xml:lang="ja">AppStream メタデータを使用して動作するユーティリティー</summary>
+  <summary xml:lang="it">Uno strumento per lavorare con metadati AppStream</summary>
+  <summary xml:lang="id">Utilitas untuk bekerja dengan metadata AppStream</summary>
+  <summary xml:lang="hu">Egy segédprogram az AppStream metaadatokkal való munkához</summary>
+  <summary xml:lang="gl">Unha utilidade para traballar con metadatos de AppStream</summary>
+  <summary xml:lang="gd">Goireas gus obair le meata-dàta AppStream</summary>
+  <summary xml:lang="fr">Un utilitaire travaillant sur les métadonnées AppStream</summary>
+  <summary xml:lang="es">Utilidad para trabajar con metadatos de AppStream</summary>
+  <summary xml:lang="en_GB">An utility to work with AppStream metadata</summary>
+  <summary xml:lang="de">Ein Dienstprogramm zum Arbeiten mit AppStream-Metadaten</summary>
+  <summary xml:lang="da">Et redskab til at arbejde med AppStream-metadata</summary>
+  <summary xml:lang="cs">Nástroj pro práci s AppStream metadaty</summary>
+  <summary xml:lang="ca">Una utilitat per treballar amb les metadades AppStream</summary>
+  <summary xml:lang="ar">أداة للتعامل مع بيانات AppStream الوصفية</summary>
+  <metadata_license>FSFAP</metadata_license>
+  <project_license>GPL-2.0+</project_license>
+  <project_group>Freedesktop</project_group>
+  <description>
+    <p>
+      AppStream is a cross-distribution specification to provide metadata about software components.
+    </p>
+    <p xml:lang="uk">AppStream — багатоплатформова специфікація надання метаданих щодо компонентів програмного забезпечення.</p>
+    <p xml:lang="tr">AppStream, yazılım bileşenleri hakkında meta veri sağlayan dağıtımlararası bir spesifikasyondur.</p>
+    <p xml:lang="sv">AppStream är en multiplattform-specifikation för att tillhandahålla metadata om programkomponenter.</p>
+    <p xml:lang="pt_BR">AppStream é uma especificação independente de distribuição para provimento de metadados sobre componentes de software.</p>
+    <p xml:lang="pl">AppStream to specyfikacja używana przez wiele dystrybucji do dostarczania metadanych o składnikach oprogramowania.</p>
+    <p xml:lang="ja">AppStream は、ソフトウェアコンポーネントに関するメタデータを提供するための、ディストリビューション間で共通の仕様です。</p>
+    <p xml:lang="it">AppStream è una specifica multi-distribuzione che fornisce metadati riguardo ai componenti software.</p>
+    <p xml:lang="hu">Az AppStream egy disztribúciók közötti specifikáció, amely metaadatokat biztosít a szoftverösszetevőkről.</p>
+    <p xml:lang="fr">AppStream est une spécification multi-distribution qui fournit des métadonnées concernant les composants logiciels.</p>
+    <p xml:lang="es">AppStream es una especificación diseñada para funcionar en cualquier distribución cuyo fin es proporcionar metadatos sobre componentes de «software».</p>
+    <p xml:lang="en_GB">AppStream is a cross-distribution specification to provide metadata about software components.</p>
+    <p xml:lang="de">AppStream ist eine distributionsübergreifende Spezifikation zur Bereitstellung von Metadaten über Softwarekomponenten.</p>
+    <p xml:lang="da">AppStream er en specifikation på tværs af distributioner, som leverer metadata om softwarekomponenter.</p>
+    <p>
+      This tool allows for reading, writing, validating and transformation of AppStream XML or YAML metadata.
+      It also gives access to the system metadata pool, for example to query for software that provides a
+      specific MIME-type, and installing it by its software component identifier.
+    </p>
+    <p xml:lang="zh_TW">本工具可以讀寫、驗證與變換 AppStream XML 或 YAML 中介資料；此外還能存取系統中介資料池，搜尋諸如提供某特定 MIME 類型使用的軟體，並按照其軟體組件辨識碼安裝等。</p>
+    <p xml:lang="uk">За допомогою цієї програми ви зможете читати, записувати, перевіряти та перетворювати метадані AppStream у форматах XML і YAML. Також за її допомогою можна отримувати доступ до буфера загальносистемних метаданих, наприклад, для того, щоб визначити програмне забезпечення для обробки даних певного типу MIME та його встановлення за ідентифікатором компонента програмного забезпечення.</p>
+    <p xml:lang="tr">Bu araç, AppStream XML veya YAML meta verilerinin okunmasına, yazılmasına, onaylanmasına ve dönüştürülmesine izin verir. Ayrıca sistem meta veri havuzuna erişim sağlar, örneğin belirli bir MIME türü sağlayan yazılımın sorgulanması ve yazılım bileşen tanımlayıcısı ile kurulması.</p>
+    <p xml:lang="sv">Det här verktyget möjliggör läsning, skrivning, validering och transformering av AppStream XML- eller YAML-metadata. Det ger också åtkomst till systemmetadatapoolen för att till exempel söka efter program som innehåller en specifik MIME-typ och installera den med dess programidentifierare.</p>
+    <p xml:lang="sk">Tento nástroj umožňuje čítanie, zápis, overovanie a premenu AppStream XML alebo Yamli metaúdajov. Tiež sprístupňuje systémový fond metaúdajov napríklad pre dotazovanie sa na softvér, poskytujúci konkrétny MIME typ a jeho inštaláciu na základe identifikátora softvérovej súčasti.</p>
+    <p xml:lang="ru">Эта утилита позволяет читать, записывать, проверять и преобразовывать метаданные AppStream в формате XML или YAML. Она также даёт доступ к системному пулу метаданных, например, для запроса ПО, работающего с определённым типом файлов, и его установки по идентификатору программного компонента.</p>
+    <p xml:lang="pt_BR">Esta ferramenta permite ler, escrever, validar e transformar metadados AppStream em XML ou YAML. Também permite acessar o pool de metadados do sistema para, por exemplo, consultar por um software fornecendo um Tipo MIME específico e instalá-lo usando o identificador de componente de seu software.</p>
+    <p xml:lang="pt">Esta ferramenta permite ler, escrever, validar e transformar metadados AppStream em XML ou YAML. Também permite acessar o grupo de metadados do sistema para, por exemplo, consultar por um software fornecendo um tipo MIME específico e instalá-lo usando o identificador de componente do seu software.</p>
+    <p xml:lang="pl">To narzędzie umożliwia odczytywanie, zapisywanie, sprawdzanie poprawności i przekształcanie metadanych AppStream w językach XML i YAML. Umożliwia także dostęp do puli metadanych systemu, aby na przykład wyszukać oprogramowanie dostarczające podany typ MIME i zainstalować je według jego identyfikatora składnika oprogramowania.</p>
+    <p xml:lang="nl">Dit hulpprogramma stelt u in staat AppStream XML of YAML-metagegevens te lezen, schrijven, valideren en wijzigen. Het stelt u tevens in staat om toegang te krijgen tot de systeem-metagegevenspool. U kunt daar bijv. zoeken naar software die een bepaald mimetype aanbiedt en deze installeren middels de ID.</p>
+    <p xml:lang="nb">Dette verktøyet tillater lesing, skriving og godkjenning av transformering av AppStream -XML eller -YAML-metadata. Det gir også tilgang til systemets metadatagrunnlag, for eksempel for spørringer til programvare som tilbyr en spesifikk MIME-type, og installasjon av dens programvarekomponentidentifikator.</p>
+    <p xml:lang="lt">Šis įrankis leidžia skaityti, rašyti, patikrinti ir transformuoti AppStream XML ar YAML metaduomenis. Jis taip pat suteikia prieigą prie metaduomenų telkinio, pavyzdžiui, tam, kad užklausti programinę įrangą, kurį teikia tam tikrą MIME tipą, ir leidžia įdiegti ją pagal jos programinės įrangos komponento identifikatorių.</p>
+    <p xml:lang="ko">이 도구는 AppStream XML 또는 YAML 메타 데이터의 읽기, 쓰기, 유효성 검사 및 변환을 허용합니다. 또한 시스템 메타 데이터 풀에 대한 액세스를 제공합니다, 예를 들면 특정 MIME 유형을 제공하는 소프트웨어를 쿼리 하며 소프트웨어 구성 요소 식별자로 설치합니다.</p>
+    <p xml:lang="it">Questo strumento consente di leggere, scrivere, validare e trasformare metadati AppStream XML o YAML. Consente inoltre di accedere all'insieme dei metadati del sistema per, per esempio, eseguire ricerche su un software che fornisce uno specifico tipo di MIME e installarlo attraverso il suo identificativo.</p>
+    <p xml:lang="id">Alat ini memungkinkan pembacaan, penulisan, validasi, dan transformasi metadata XML atau YAML AppStream. Ini memberi akses ke pool metadata sistem untuk misalnya mengkueri perangkat lunak yang menyediakan MIME-type tertentu dan memasangnya dengan identifier komponen perangkat lunaknya.</p>
+    <p xml:lang="hu">Ezzel az eszközzel AppStream XML vagy YAML metaadatokat olvashat, írhat, érvényesíthet és alakíthat át. Hozzáférést is biztosít a rendszer metaadataihoz, például le tudja kérdezni a szoftvereket, amelyek bizonyos MIME-típusokat biztosítanak, és telepíteni tudja a szoftverösszetevő-azonosítója alapján.</p>
+    <p xml:lang="gd">Leigidh an t-inneal seo leat meata-dàta XML no YAML AppStream a leughadh, a sgrìobhadh, a dhearbhadh agus cruth-atharrachadh. Leigidh e leat cuideachd amar meata-dàta an t-siostaim inntrigeadh, can airson ceasnachadh air bathar-bog a bheir seòrsa MIME sònraichte dhut agus airson a stàladh a-rèir an aithnichear co-phàirt bathair-bhog aige.</p>
+    <p xml:lang="fr">Cet outil permet la lecture, l'écriture, la validation et la transformation des métadonnées XML ou YAML d'AppStream. Il permet également d'accéder à l'ensemble de métadonnées système pour, par exemple, chercher un logiciel supportant un type mime spécifique et l'installer en utilisant son identifiant de composant logiciel.</p>
+    <p xml:lang="es">Esta herramienta permite leer, escribir, validar y transformar metadatos de AppStream en XML o YAML. Además permite acceder a los metadatos del sistema para, por ejemplo, buscar programas que proporcionen un tipo MIME concreto e instalarlo por su identificador de componente de software.</p>
+    <p xml:lang="en_GB">This tool allows for reading, writing, validating and transformation of AppStream XML or YAML metadata. It also gives access to the system metadata pool, for example to query for software that provides a specific MIME-type, and installing it by its software component identifier.</p>
+    <p xml:lang="de">Dieses Werkzeug ermöglicht das Lesen, Schreiben, Überprüfen und Umwandeln von AppStream XML- oder YAML-Metadaten. Es erlaubt auch den Zugriff auf den System-Metadaten-Pool, z. B. Abfrage nach Anwendungen, die einen bestimmten MIME-Typ liefert und Installation anhand der Softwarekomponentenkennung.</p>
+    <p xml:lang="da">Værktøjet gør det muligt at læse, skrive, validere og transformere AppStream XML- eller YAML-metadata. Det giver også adgang til systemets metadatasamling, f.eks. til at forespørge software der bruger en bestemt MIME-type og installere den med dens softwarekomponent-identifikator.</p>
+    <p xml:lang="cs">Tento nástroj umožňuje čtení, zápis, ověřování a přeměnu AppStream XML nebo YAML metadat. Také zpřístupňuje systémový fond metadat například pro dotazování se na software, poskytující konkrétní MIME typ a jeho instalaci na základě identifikátoru softwarové součásti.</p>
+    <p xml:lang="ca">Aquesta eina permet llegir, escriure, validar i transformar les metadades XML o YAML d'AppStream. També dóna accés a l'agrupació de metadades del sistema, per exemple consultar quin programari proporciona un tipus MIME específic i instal·lar-lo pel seu identificador de component de programari.</p>
+  </description>
+  <url type="homepage">https://www.freedesktop.org/wiki/Distributions/AppStream/</url>
+  <url type="help">https://www.freedesktop.org/software/appstream/docs/chap-AppStream-ManualPages.html</url>
+  <translation type="gettext">appstream</translation>
+  <releases>
+    <release type="stable" version="0.12.10" date="2019-01-18T00:00:00Z">
+      <description>
+        <p>This release drops its optional dependency on Curl in favor of a non-optional dependency on libsoup.</p>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>Sort addons less prominently than applications</li>
+          <li>validator: Display wrong data hint if metadata_license is invalid</li>
+          <li>Split tokens for descriptions as well</li>
+          <li>validator: Replace curl with libsoup for download tests</li>
+          <li>Update content rating for OARS 1.1, make CSM age conversion public API</li>
+          <li>tests: Don't duplicate XML/YAML preambles in test data</li>
+          <li>Add asynchronous method for loading the metadata pool</li>
+          <li>Try to reuse initial temporary cache when loading data into pool</li>
+          <li>Reduce minimum required GLib version to 2.58</li>
+          <li>Implement support for "runtime" component type</li>
+          <li>Use SPDX JSON and filter out license exceptions in static data</li>
+          <li>Update SPDX and TLD data</li>
+          <li>Implement support for the WITH operator in recent SPDX</li>
+          <li>Add function to test if a license string is for free software</li>
+          <li>qt: Add wrappers for license exception and freeness tests</li>
+          <li>ascli: Add vercmp shorthand for compare-versions subcommand</li>
+          <li>ascli: Don't print validation issues in color and bold - color is enough</li>
+          <li>its: Mark name_variant_suffix as translatable</li>
+          <li>Make AsContext public API</li>
+          <li>Add convenience methods to direcly serialize a component to XML</li>
+        </ul>
+        <p>This release updates documentation:</p>
+        <ul>
+          <li>docs: Adjust Freedesktop spec URLs to their new redirect locations</li>
+          <li>Document &amp; implement the new name_variant_suffix tag</li>
+          <li>spec: Specify the "runtime" component type</li>
+          <li>spec: Permit alternative IDs in appstream URIs</li>
+        </ul>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>Fix double-free error when trying to dump bad XML markup</li>
+          <li>validator: Check URLs correctly if they have leading/trailing spaces</li>
+          <li>Remove deprecated GLib API</li>
+          <li>Don't autofree a temporary error that may be propagated</li>
+          <li>Don't attempt to add a zero-length search token to the index</li>
+          <li>Filter out search tokens that are stemmed to nothing</li>
+          <li>Prefer locale with region code over plain language code if possible</li>
+          <li>Use the same locale fallback algorithm everywhere</li>
+          <li>validator: Don't fail when encountering WITH operator</li>
+          <li>contrib/vapi: Add deprecated ProvidedKind.MIMETYPE to preserve API</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="0.12.9" date="2019-09-24T00:00:00Z">
+      <description>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>validator: Add method to retrieve list of all tags</li>
+          <li>ascli: Add command to make a desktop-entry file from a metainfo file</li>
+          <li>ascli: Add command for YAMl NEWS file conversion</li>
+          <li>ascli: Convert text NEWS file as well</li>
+          <li>Recognize Specification/Documentation as new section type when converting NEWS</li>
+          <li>Augment metainfo file with release information automatically</li>
+          <li>Use gperf for description markup as well</li>
+          <li>validator: Make file-extension checks work with complex URIs</li>
+          <li>Implement support for release issues</li>
+        </ul>
+        <p>This release updates documentation:</p>
+        <ul>
+          <li>docs: Actually give a metadata license recommendation</li>
+          <li>Document the issue tag, which can be part of release information</li>
+          <li>spec: Explicitly allow WebP for images in metainfo files</li>
+          <li>Permit requires/recommends relations on firmware, like Fwupd uses</li>
+        </ul>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>docs: Move compulsory_for_desktop where it belongs</li>
+          <li>docs: Mention how to exclude .desktop files from being processed</li>
+          <li>Make -Wdeprecated-copy non-fatal in maintainer mode for now</li>
+          <li>cache: Relax LMDB database max size assumption a bit to help 32bit builds</li>
+          <li>validator: Don't crash in assertion if we have no filename</li>
+          <li>Catch more errors when parsing YAML and _ref less often</li>
+          <li>Interleave translated/untranslated paragraphs when generating metainfo XML</li>
+          <li>Don't format cached XML</li>
+          <li>Don't emit language tag for screenshot if it is unnecessary</li>
+          <li>docs: Add missing documentation to API reference</li>
+          <li>docs: Document a few missing ascli subcommands</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="0.12.8" date="2019-08-16T00:00:00Z">
+      <description>
+        <p>This release changes the output of appstreamcli's validate actions. Please account for that if you were parsing it! The new `--format=yaml` flag for ascli may be interesting to produce machine-readable output.</p>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>Add install-docs meson build option</li>
+          <li>Use more portable deprecation macro</li>
+          <li>Deprecate AsIssueImportance, use equivalent AsIssueSeverity instead</li>
+          <li>validator: Implement first bits of tag-based validation</li>
+          <li>cli: Print terse issue list by default, make long explanation explicit</li>
+          <li>Assume releases are sorted in metainfo, fail validation on wrong sorting</li>
+          <li>validator: Allow returning validator output as structured YAML</li>
+          <li>validator: Refine YAML output and allow CLI to generate it for validate-tree</li>
+          <li>Improve XML node dumping functions</li>
+          <li>Permit &lt;em/&gt; and &lt;code/&gt; in description paragraphs and lists</li>
+          <li>validator: Don't complain about &lt;em/&gt; and &lt;code/&gt; in paragraphs</li>
+          <li>validator: Validate release info better, check release dates</li>
+          <li>Recognize more "provides" item types</li>
+          <li>validator: Check relations for loops with the component itself</li>
+          <li>its: Handle new inline markup correctly in translations</li>
+          <li>Add AsVideo object to contain screenshot video data</li>
+          <li>Implement video support for screenshots</li>
+          <li>validator: Validate the new video screenshot element</li>
+          <li>qt: Add support for screenshot videos</li>
+          <li>validator: The default screenshot must not contain a video</li>
+          <li>validator: Add methods to query tag severity/explanation explicitly</li>
+          <li>Implement support for icon-theme components</li>
+        </ul>
+        <p>This release updates documentation:</p>
+        <ul>
+          <li>spec: Recommend latest-to-oldest release order for metainfo</li>
+          <li>spec: Permit use of &lt;em/&gt; and &lt;code/&gt; for description formatting</li>
+          <li>docs: Clarify when/why to use .appdata.xml instead of .metainfo.xml extensions</li>
+          <li>docs: Explain why name/summary should not be omitted for app metainfo files</li>
+          <li>spec: Clarify that ISO 8601 dates in AppStream require the complete date</li>
+          <li>spec: Specify videos as a screenshot option</li>
+          <li>spec: Specify an icon-theme component type</li>
+        </ul>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>Change spelling: DBus → D-Bus, MIME types → Media types</li>
+          <li>pool: Use fallback tempdir if user /home does not exist</li>
+          <li>Restore compatibility with GLib &lt; 2.58</li>
+          <li>Find LMDB even if no pkg-config file was installed</li>
+          <li>pool: Improve error reporting on cache refreshes</li>
+          <li>Fix possible NULL dereference</li>
+          <li>Fix division-by-zero if there are no components available at all</li>
+          <li>pool: Fix some error checks when adding components</li>
+          <li>Report better errors when counting cached components fails</li>
+          <li>Fix infinite recursion if component has itself listed as an addon</li>
+          <li>validator: Correctly read line numbers in long files</li>
+          <li>Catch out-of-context XML reading errors again</li>
+          <li>Protect against addon extension loops in the cache</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="0.12.7" date="2019-06-16T00:00:00Z">
+      <description>
+        <p>This release changes the way AsPool caches components and will also permanently keep components in an LMDB-based cache. Additionally, the GVariant AsComponent serialization was removed.</p>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>Depend on LMDB</li>
+          <li>tests: Test pool cache and XML read performance separately</li>
+          <li>Improvements to data caching and fulltext search</li>
+          <li>Add new LMDB based component cache</li>
+          <li>cache: Implicitly hash keys if they are too long for the database</li>
+          <li>cache: Implement all supported search modes</li>
+          <li>cache: Implement various performance optimizations and helpers</li>
+          <li>cache: Allow switch to nosync mode, make insertions threadsafe</li>
+          <li>Refactor component pool to make use of the mmap'ed caches by default</li>
+          <li>Don't limit term length in user search queries</li>
+          <li>Ignore one-letter search terms</li>
+          <li>pool: Mask removed components in readonly caches so they can not be queried</li>
+          <li>Remove component GVariant serialization</li>
+          <li>cache: Use binary representations for cache values</li>
+          <li>cache: Always refine launchable entries, to make them searchable</li>
+          <li>Make component scope API public</li>
+          <li>Handle LicenseRef URLs explicitly when extracing a license URL</li>
+          <li>Update static data</li>
+          <li>tests: Update perf test with test for the new cache implementation</li>
+          <li>its: Add "translatable" option in metainfo.its</li>
+        </ul>
+        <p>This release updates documentation:</p>
+        <ul>
+          <li>Add a note about not dropping .desktop suffix from existing IDs</li>
+          <li>spec: clarify &lt;translation/&gt; purpose</li>
+          <li>docs: Explicitly rule out nested lists</li>
+          <li>docs: Add link to project page to specification abstract</li>
+          <li>spec: Clarify format of the appstream: URI</li>
+          <li>spec: Clarify how to denote proprietary licenses</li>
+        </ul>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>tests: Fix potential wrong output when two tests fail in parallel</li>
+          <li>validator: Allow some top-level tags to be empty</li>
+          <li>Only match all things for broad queries, for invalid ones return nothing</li>
+          <li>Determine system cache age correctly and don't needlessly refresh it</li>
+          <li>Never attempt to load the system cache when it is not needed</li>
+          <li>Assume "unknown" distribution ID by default (if /etc/os-release is missing)</li>
+          <li>cache: Ensure previous cache is closed before opening a new one</li>
+          <li>Put test data in alphabetical order</li>
+          <li>Generate XML and YAML in alphabetical order</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="0.12.6" date="2019-03-02T00:00:00Z">
+      <description>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>Implement artifacts</li>
+          <li>Search improvements</li>
+        </ul>
+        <p>This release updates documentation:</p>
+        <ul>
+          <li>doc: help distinguish the 2 'languages' tags</li>
+          <li>spec: Document the new artifacts tag</li>
+        </ul>
+        <p>This release updates translations.</p>
+      </description>
+    </release>
+    <release type="stable" version="0.12.5" date="2019-01-26T00:00:00Z">
+      <description>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>qt: expose the spdx parser to Qt users</li>
+          <li>Implement operating-system component and add convenience functions</li>
+          <li>qt: Add operating-system component type and a few utility functions</li>
+          <li>Allow fetching the ISO8601 date directly alongside the timestamp in AsRelease</li>
+          <li>Implement date_eol for AsRelease</li>
+          <li>Add convenience methods for retrieving date_eol as UNIX timestamp</li>
+          <li>qt: Allow retrieving the EOL timestamp for releases</li>
+          <li>Implement new release details URL</li>
+          <li>Make rDNS conversion function more generic and add more extensive tests</li>
+        </ul>
+        <p>This release updates documentation:</p>
+        <ul>
+          <li>docs: &lt;release&gt; tag can have details url</li>
+          <li>spec: Specify the operating-system component</li>
+          <li>spec: Specify date_eol for releases</li>
+          <li>docs: Explicitly state list items are allowed in ol/ul lists</li>
+        </ul>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>Don't warn about issues in a cache refresh if there weren't any</li>
+          <li>Ensure releases are always sorted in descending order</li>
+          <li>pool: Fix g-i for get_components_*() while GPtrArray owns its elements</li>
+        </ul>
+        <p>This release updates translations.</p>
+      </description>
+    </release>
+  </releases>
+  <provides>
+    <binary>appstreamcli</binary>
+  </provides>
+</component>

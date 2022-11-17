@@ -1,0 +1,65 @@
+/* Theme overrides. */
+.categories {
+    background-color: shade(@theme_bg_color, 0.99)
+}
+
+.category {
+    padding: 15px;
+    padding-right: 30px;
+}
+
+.detail-comm, .detail-audit_session, .detail-kernel_device, .detail-message, .detail-priority, .detail-time, .detail-subject, .detail-definedby, .detail-support, .detail-documentation {
+    padding: 3px;
+}
+
+.detail-field-label {
+    padding-left: 3px;
+}
+
+.event {
+    padding: 5px;
+}
+
+.event-time {
+    font-size: small;
+}
+
+.title-menu-button {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.compressed-entries-label {
+    background-color: shade(@borders, 1.15);
+    color: @theme_selected_fg_color;
+    font-size: small;
+    border-radius: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.compressed-row {
+    background-color: shade(@theme_base_color, 0.95);
+}
+  .compressed-row:hover {
+      background-color: shade(@theme_base_color, 0.99);
+  }
+
+.compressed-row-header {
+    background-color: @theme_base_color;
+}
+  .compressed-row-header:hover {
+      background-color: shade(@theme_base_color, 1.05);
+  }
+
+.popover-activated-row {
+    color: @theme_selected_fg_color;
+    background-color: @theme_selected_bg_color;
+}
+
+.compressed-rows-group-separator {
+  background-color: shade(@borders,0.98);
+}

@@ -1,0 +1,20 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = configure ]; then
+    # create system user required to run the openvpn daemon unprivileged
+    adduser --quiet --system \
+            --home /var/lib/openvpn/chroot \
+            --gecos "NetworkManager OpenVPN" \
+            --group nm-openvpn
+
+    # create directory used for running the openvpn daemon in a chroot
+    install -o nm-openvpn -g nm-openvpn -d /var/lib/openvpn/chroot/tmp
+fi
+
+# Automatically added by dh_installdeb/12.9ubuntu1
+dpkg-maintscript-helper rm_conffile /etc/NetworkManager/VPN/nm-openvpn-service.name 1.2.8-3\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/dbus-1/system.d/nm-openvpn-service.conf 1.8.8-2\~ -- "$@"
+# End automatically added section
+

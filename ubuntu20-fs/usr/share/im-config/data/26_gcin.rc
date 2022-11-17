@@ -1,0 +1,60 @@
+# start gcin
+# vim: set sts=4 expandtab:
+
+if [ "$IM_CONFIG_PHASE" = 2 ]; then
+# start gcin daemon
+/usr/bin/gcin &
+fi
+
+if [ "$IM_CONFIG_PHASE" = 1 ]; then
+# set variables for the plain XIM
+XMODIFIERS=@im=gcin
+
+GTK_IM_MODULE=xim
+# use gcin immodule only when available for both GTK 2.0 and 3.0
+
+IM_CONFIG_MARKER2=0
+IM_CONFIG_MARKER="$(imconfig_find_files_with_prefixpath_glob /usr/lib \
+        '/usr/lib/*/gtk-2.0/*/immodules/im-gcin.so' \
+        '/usr/lib/gtk-2.0/*/immodules/im-gcin.so')"
+if [ "x${IM_CONFIG_MARKER}" != "x" ]; then
+    IM_CONFIG_MARKER2=1
+fi
+
+IM_CONFIG_MARKER3=0
+IM_CONFIG_MARKER="$(imconfig_find_files_with_prefixpath_glob /usr/lib \
+        '/usr/lib/*/gtk-3.0/*/immodules/im-gcin.so' \
+        '/usr/lib/gtk-3.0/*/immodules/im-gcin.so')"
+if [ "x${IM_CONFIG_MARKER}" != "x" ]; then
+    IM_CONFIG_MARKER3=1
+fi
+
+if [ $IM_CONFIG_MARKER2 = 1 ] && [ $IM_CONFIG_MARKER3 = 1 ] ; then
+    GTK_IM_MODULE=gcin
+fi
+
+
+QT4_IM_MODULE=xim
+# use immodule when available for Qt4
+IM_CONFIG_MARKER="$(imconfig_find_files_with_prefixpath_glob /usr/lib \
+        '/usr/lib/*/qt4/plugins/inputmethods/im-gcin.so' \
+        '/usr/lib/qt4/plugins/inputmethods/im-gcin.so')"
+if [ "x${IM_CONFIG_MARKER}" != "x" ]; then
+    QT4_IM_MODULE=gcin
+fi
+
+QT_IM_MODULE=xim
+# use immodule when available for Qt5
+IM_CONFIG_MARKER="$(imconfig_find_files_with_prefixpath_glob /usr/lib \
+        '/usr/lib/*/qt5/plugins/platforminputcontexts/libgcinplatforminputcontextplugin.so' \
+        '/usr/lib/qt5/plugins/platforminputcontexts/libgcinplatforminputcontextplugin.so')"
+if [ "x${IM_CONFIG_MARKER}" != "x" ]; then
+    QT_IM_MODULE=gcin
+fi
+
+
+# gcin has no clutter support, and qt3 immodule is not compiled.
+CLUTTER_IM_MODULE=xim
+
+
+fi

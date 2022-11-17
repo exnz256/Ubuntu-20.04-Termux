@@ -1,0 +1,16 @@
+b8d60604ec0d94fcba49700f0609bef4  usr/bin/rhythmbox
+5d2df42fded53f2ad5efa87c3baef91e  usr/bin/rhythmbox-client
+5fc13cf15637f698485a5ed524780799  usr/lib/mime/packages/rhythmbox
+a26aee6f31fec0c827f07913206a2255  usr/lib/rhythmbox/rhythmbox-metadata
+e73cd16541b2b40d01a1c8958c947bc6  usr/share/applications/rhythmbox-device.desktop
+8c9beee60e2550e4b91c0d4db5c834ee  usr/share/applications/rhythmbox.desktop
+9855bc450cde0ec17b2a5e34b996b912  usr/share/doc/rhythmbox/AUTHORS
+f0c064dff02295e4182b8a1b6121c4d1  usr/share/doc/rhythmbox/NEWS.gz
+568be81c547cc0fc31d1e343967af1b7  usr/share/doc/rhythmbox/README
+9295d03f5a8d0ebc2bdb11d9bbc7dbcd  usr/share/doc/rhythmbox/README.Debian
+88c5bc3016ef1a4794fa49e4bf1f6c5a  usr/share/doc/rhythmbox/THANKS
+239a1149030108d098ca1822daccbe61  usr/share/doc/rhythmbox/TODO.Debian
+db4aca5e5c32954f4c6c91423dd9996f  usr/share/doc/rhythmbox/copyright
+c4465d82e1487f644966ba3451d90b07  usr/share/man/man1/rhythmbox-client.1.gz
+89484708f58912085a7a3c76e715c115  usr/share/man/man1/rhythmbox.1.gz
+c2d35bf6720bc4947cca2f9cf2b7eb96  usr/share/metainfo/rhythmbox.appdata.xml

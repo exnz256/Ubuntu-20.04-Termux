@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="bassenhancer" xml:lang="pt-BR">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    </info>
+    <title>Reforçador de Graves</title>
+    <p>O cérebro interpreta a frequência de um som baseado não apenas na frequência fundamental mas também na periodicidade vinda da relação desta frequência com seus harmônicos superiores. Nós podemos ter a sensação de ouvir uma frequência ainda que ela esteja ausente no som ouvido.</p>
+    <p>PulseEffects usa o reforçador de grave desenvolvido por Calf Studio.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Quantidade</em>
+            </title>
+            <p>A quantidade de harmônicos adicionada ao som original.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Harmônicos</em>
+            </title>
+            <p>A quantidade de novos harmônicos.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Escopo</em>
+            </title>
+            <p>A frequência acima da qual harmônicos são produzidos.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Piso(botão)</em>
+            </title>
+            <p>Restringir o reforço à extremidade inferior.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Piso(valor)</em>
+            </title>
+            <p>A frequência abaixo da qual nenhum harmônico é produzido.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Misturar Harmônicos</em>
+            </title>
+            <p>A "cor"(ou oitava) dos harmônicos.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Escutar</em>
+            </title>
+            <p>Silenciar o sinal original e escutar exclusivamente aos harmônicos.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Referências</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://calf-studio-gear.org/doc/Bass%20Enhancer.html" its:translate="no">
+                        https://calf-studio-gear.org/doc/Bass%20Enhancer.html
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Missing_fundamental" its:translate="no">
+                        https://en.wikipedia.org/wiki/Missing_fundamental
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

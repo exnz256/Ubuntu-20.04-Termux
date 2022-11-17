@@ -1,0 +1,2 @@
+# False positive
+libsuitesparseconfig5: hardening-no-fortify-functions usr/lib/*/libsuitesparseconfig.so.5.*

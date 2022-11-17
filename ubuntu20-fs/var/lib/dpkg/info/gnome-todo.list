@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/bin
+/usr/bin/gnome-todo
+/usr/share
+/usr/share/applications
+/usr/share/applications/org.gnome.Todo.desktop
+/usr/share/doc
+/usr/share/doc/gnome-todo
+/usr/share/doc/gnome-todo/NEWS.gz
+/usr/share/doc/gnome-todo/copyright
+/usr/share/metainfo
+/usr/share/metainfo/org.gnome.Todo.appdata.xml
+/usr/share/doc/gnome-todo/changelog.Debian.gz

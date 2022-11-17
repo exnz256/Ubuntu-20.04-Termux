@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="addremove-sources" xml:lang="he">
+
+  <info>
+    <credit type="author">
+      <name>מיזם התיעוד של אובונטו</name>
+    </credit>
+    <desc>הוספת מאגרים מרחיבה את מקורות התכנה בהם נעשה שימוש על ידי אובונטו להתקנה ולשדרוגים.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <link type="guide" xref="addremove"/>
+    <revision version="18.04" date="2018-03-18" status="review"/>
+  </info>
+
+  <title>הוספת מאגרי תכנה</title>
+
+  <p>
+    Software is available from third-party sources, as well as from the default 
+    Ubuntu software repositories. If you want to install software from a 
+    third-party software repository, you must add it to Ubuntu's list of 
+    available repositories.
+  </p>
+
+  <note style="warning">
+    <p>יש להוסיף מאגרי תכנה ממקורות מהימנים בלבד!</p>
+    <p>אבטחתם ואמינותם של מאגרי תכנה מצד־שלישי אינם נבדקים והם עשויים להזיק למחשב שלך.</p>
+  </note>
+
+<p>
+</p>
+   <p>כדי להוסיף מאגר:</p>
+
+  <steps>
+    <item>
+      <p>ללחוץ על סמל <app>התכנה של אובונטו</app> ב<gui>מעגן</gui>, או לחפש אחר <input>תכנה</input> בסרגל החיפוש <em>פעילויות</em>.</p>
+    </item>
+    <item>
+      <p>עם טעינת <app>התכנה של אובונטו</app>, עליך ללחוץ על <gui>תכנה ועדכונים</gui></p>
+    </item>
+    <item>
+      <p>תופיע בקשה למלא ססמה. לאחר שביצעת זאת, יש לעבור ללשונית <gui>תכנה נוספת</gui>.</p>
+    </item>
+    <item>
+      <p>ללחוץ על <gui>הוספה</gui> ולמלא את שורת ה־ APT של המאגר. היא אמורה להיות זמינה מהאתר של המאגר ואמורה להיראות בערך כך:</p>
+      <p>
+        <code its:translate="no">deb http://archive.ubuntu.com/ubuntu/ focal main</code>
+      </p>
+    </item>
+    <item>
+      <p>ללחוץ על <gui>הוספת מקור</gui> ואז לסגור את החלון <app>תכנה ועדכונים</app>. יתבצע חיפוש במקורות התכנה שלך אחר עדכונים חדשים על ידי <app>התכנה של אובונטו</app>.</p>
+    </item>
+    <item>
+      <p>רוב המאגרים מספקים מפתח חתימה כדי שיהיה אפשר לאמת את החבילות שהתקבלו מהם. לכן, נוסף על הצעדים שלהלן, יכול להיות שתופענה גם הנחיות להורדה ולהתקנה של מפתח חתימה (מפתח GPG) שיהיה עליך לבצע.</p>
+    </item>
+  </steps>
+
+  <section id="canonical-partner">
+    <title>להפעיל את מאגר השותפים של Canonical</title>
+    <p>
+      The Canonical Partner repository offers some proprietary applications 
+      that don't cost any money to use but are closed source. They include 
+      software like <app>Adobe Flash Plugin</app>. Software in this
+      repository will appear in <app>Ubuntu Software</app> search results
+      but won't be installable until this repository is enabled.
+    </p>
+    <p>
+      To enable the repository, follow the steps above to open the <gui>Other 
+      Software</gui> tab in <app>Software &amp; Updates</app>. If you see the 
+      <gui>Canonical Partners</gui> repository in the list, make sure it is 
+      checked then close the <app>Software &amp; Updates</app> window. If you don't see it, click 
+      <gui>Add</gui> and enter:
+    </p>
+    <p>
+      <code its:translate="no">deb http://archive.canonical.com/ubuntu focal partner</code>
+    </p>
+    <p>
+      Click <gui>Add Source</gui> then close the <app>Software &amp; Updates</app> window. Wait a 
+      moment for <app>Ubuntu Software</app> to download the repository information.
+    </p>
+  </section>
+
+</page>

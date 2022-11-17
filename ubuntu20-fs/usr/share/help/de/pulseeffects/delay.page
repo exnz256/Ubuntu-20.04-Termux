@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="delay" xml:lang="de">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>David Keller</mal:name>
+      <mal:email>davidkeller@tuta.io</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+    <title>Verzögerung</title>
+    <p>Dieses Plugin erlaubt es, jedem einzelnen Kanal des Stereokanals ein kurzes Delay hinzuzufügen</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Links</em>
+            </title>
+            <p>Verzögerung des linken Kanals.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Rechts</em>
+            </title>
+            <p>Verzögerung des rechten Kanals.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Referenzen</title>
+        <list>
+            <item>
+                <p>
+                    <link href="http://lsp-plug.in/?page=manuals&amp;section=comp_delay_x2_stereo" its:translate="no">
+                        http://lsp-plug.in/?page=manuals&amp;section=comp_delay_x2_stereo
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Delay_(audio_effect)" its:translate="no">
+                        https://en.wikipedia.org/wiki/Delay_(audio_effect)
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

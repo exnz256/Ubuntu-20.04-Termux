@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="startup-applications" xml:lang="id">
+
+  <info>
+    <link type="guide" xref="shell-overview#apps"/>
+    <link type="guide" xref="prefs"/>
+    <desc>Pilih aplikasi yang akan dimulai saat Anda masuk.</desc>
+
+    <revision version="18.04" date="2018-03-19" status="review"/>
+
+    <credit type="author">
+      <name>Tim Dokumentasi Ubuntu</name>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>Aplikasi Awal Mula</title>
+
+  <p>Anda dapat mengkonfigurasi aplikasi apa yang harus dimulai saat login, selain aplikasi awal mula baku yang dikonfigurasi pada sistem.</p>
+
+  <steps>
+    <item>
+      <p>Buka <gui>Aplikasi Awal Mula</gui> melalui ringkasan <gui xref="shell-introduction#activities">Aktivitas</gui>. Atau Anda dapat menekan <keyseq><key>Alt</key><key>F2</key></keyseq> dan menjalankan perintah <cmd>gnome-session-properties</cmd>.</p>
+    </item>
+    <item>
+      <p>Klik <gui>Tambah</gui> dan masukkan perintah yang akan dieksekusi saat login (nama dan komentar adalah opsional). Misalnya, untuk membuat Firefox mulai secara otomatis, cukup mengetikkan <cmd>firefox</cmd> di bidang <gui>Perintah</gui> dan konfirmasikan dengan <gui>Tambah</gui>.</p>
+    </item>
+  </steps>
+
+  <note>
+    <p>Anda dapat mengetikkan perintah, atau klik tombol <gui>Ramban...</gui> dan pilih perintah. Aplikasi untuk autostart biasanya terletak di folder <code>/usr/bin</code>.</p>
+  </note>
+
+</page>

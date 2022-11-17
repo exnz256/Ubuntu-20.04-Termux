@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="testsignals" xml:lang="it-IT">
+    <info>
+        <link type="guide" xref="index#calibration"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Digitalone</mal:name>
+      <mal:email>kurmikon@libero.it</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+    <title>Segnali di Test</title>
+    <p>Questi segnali possono essere utilizzati per testare la risposta in frequenza degli altoparlanti.</p>
+</page>

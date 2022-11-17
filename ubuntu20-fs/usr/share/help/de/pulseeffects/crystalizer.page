@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="crystalizer" xml:lang="de">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>David Keller</mal:name>
+      <mal:email>davidkeller@tuta.io</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+    <title>Crystalizer</title>
+    <p>Dieses Plugin kann verwendet werden, um Liedern, die übermäßig komprimiert wurden, ein wenig Dynamikumfang hinzuzufügen</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Aggressiver Modus</em>
+            </title>
+            <p>Wenn diese Option aktiviert ist, wird das Signal amplitudenabhängig verstärkt. Achte darauf, dass das nächste Plugin in der Verarbeitungskette nicht übersteuert wird.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Intensitäten</em>
+            </title>
+            <p>Je höher der Wert, desto größer ist der Größenunterschied zwischen den lautesten und leisesten Tönen. Du kannst für jedes Frequenzband unterschiedliche Intensitäten einstellen.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Umleitung</em>
+            </title>
+            <p>Wenn aktiv, wird das dieses Band durchlaufende Audiosignal nicht verändert.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Stummschalten</em>
+            </title>
+            <p>Schaltet das Band stumm.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Referenzen</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Dynamic_range" its:translate="no">
+                        https://en.wikipedia.org/wiki/Dynamic_range
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="community-support" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="more-help"/>
+    <desc>Få hjälp från gemenskapen</desc>
+
+    <revision version="19.10" date="2019-05-11" status="review"/>
+
+    <credit type="author">
+      <name>Ubuntus dokumentationsgrupp</name>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>Gemenskapssupport</title>
+
+  <p>Du kan få support på en mängd sätt vilka nämns och länkas till på sidan <link href="https://www.ubuntu.com/support/community-support"> Community support</link>.</p>
+
+  <p>Varje sida på <link href="https://help.ubuntu.com">help.ubuntu.com</link> har en sökruta uppe till höger. Den låter dig göra en anpassad Google-sökning på Ubuntu's dokumentation och supportresurser på webben, för att lättare ta reda på om din fråga redan är besvarad.</p>
+
+  <p>Support på ditt egna språk kanske tillhandahålls av din <link href="http://loco.ubuntu.com/teams/">lokala gemenskap</link>.</p>
+
+</page>

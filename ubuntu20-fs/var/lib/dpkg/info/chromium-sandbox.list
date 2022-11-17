@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/chromium
+/usr/lib/chromium/chrome-sandbox
+/usr/share
+/usr/share/doc
+/usr/share/doc/chromium-sandbox
+/usr/share/doc/chromium-sandbox/NEWS.Debian.gz
+/usr/share/doc/chromium-sandbox/changelog.Debian.gz
+/usr/share/doc/chromium-sandbox/copyright
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/chromium-sandbox

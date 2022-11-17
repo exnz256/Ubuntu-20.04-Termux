@@ -1,0 +1,7 @@
+e54a9633820ff3b289e221c45deb8980  usr/bin/tigervncconfig
+326df2c41de58df8615b72a2b6d92f6f  usr/bin/tigervncpasswd
+aa1ff8c1d58795350cf38b55d6a6cee1  usr/share/doc/tigervnc-common/README.rst.gz
+4bb4ce7599c65e2a373b837409803946  usr/share/doc/tigervnc-common/changelog.Debian.gz
+046a3ec93de7b82f151fb5114749e0f6  usr/share/doc/tigervnc-common/copyright
+208e8d4928cabd87470a6dae60918bbe  usr/share/man/man1/tigervncconfig.1.gz
+f8d14af90df487a6ef04110afb038770  usr/share/man/man1/tigervncpasswd.1.gz

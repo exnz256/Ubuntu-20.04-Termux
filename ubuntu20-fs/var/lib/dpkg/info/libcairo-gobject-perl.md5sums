@@ -1,0 +1,10 @@
+db336ce370af93a8d8a7eed7ced896f0  usr/lib/aarch64-linux-gnu/perl5/5.30/Cairo/GObject.pm
+bff5c3e43fa85e87234625eb68b60a28  usr/lib/aarch64-linux-gnu/perl5/5.30/Cairo/GObject/Install/Files.pm
+8476d416b392530402bd3ec1e783e735  usr/lib/aarch64-linux-gnu/perl5/5.30/auto/Cairo/GObject/GObject.so
+c478de322e5b4028a54bcc997ca2b4bf  usr/share/doc/libcairo-gobject-perl/README
+c53ee49cc96223501b1261552bf2ed07  usr/share/doc/libcairo-gobject-perl/changelog.Debian.gz
+5730b4a7bda1377d08dc7aeb9b10eec6  usr/share/doc/libcairo-gobject-perl/copyright
+f542b048fcd45836ebe09ccbbae2ab05  usr/share/doc/libcairo-gobject-perl/examples/draw-widget.pl
+f1afd39b53c71817d2246bca39a94142  usr/share/doc/libcairo-gobject-perl/examples/gst-cairo-overlay.pl
+fc8d00d40d3e0f406dc20135218af122  usr/share/lintian/overrides/libcairo-gobject-perl
+5dc69c063fe110f8dc41aeb410d64c65  usr/share/man/man3/Cairo::GObject.3pm.gz

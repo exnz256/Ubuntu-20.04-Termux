@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/ladspa
+/usr/lib/ladspa/ladspa-rubberband.cat
+/usr/lib/ladspa/ladspa-rubberband.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/rubberband-ladspa
+/usr/share/doc/rubberband-ladspa/changelog.Debian.gz
+/usr/share/doc/rubberband-ladspa/copyright
+/usr/share/ladspa
+/usr/share/ladspa/rdf
+/usr/share/ladspa/rdf/ladspa-rubberband.rdf

@@ -1,0 +1,10 @@
+2f0054e7522722906dd54fe43b37a568  usr/lib/systemd/user/vino-server.service
+82ae997f38ef0a7b6b1a7c0b13e6c506  usr/lib/vino/vino-server
+313a1230c5b8abc50ea3ee8f2a9ca31d  usr/share/applications/vino-server.desktop
+3abb2b558ecf37122d0835af45ecb533  usr/share/doc/vino/AUTHORS
+3311e498fad116d95d750d38acfc31fb  usr/share/doc/vino/NEWS.gz
+359585ab93a87d3a6819d1523dae1b52  usr/share/doc/vino/README
+d43411385d8d370fd679ef11175a5575  usr/share/doc/vino/changelog.Debian.gz
+61465c0409d7bc7be7135cd4aaaffdf4  usr/share/doc/vino/copyright
+549275339b5b078de893315e70802b86  usr/share/glib-2.0/schemas/org.gnome.Vino.enums.xml
+46c8b9072605d249a7254f95db5fa5fb  usr/share/glib-2.0/schemas/org.gnome.Vino.gschema.xml

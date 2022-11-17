@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="net-chat-empathy" xml:lang="ca">
+  <info>
+    <link type="guide" xref="net-chat"/>
+    <link type="seealso" xref="net-chat-video"/>
+    
+    <revision version="17.10" date="2017-05-02" status="review"/>
+
+    <credit type="author">
+      <name>Equip de documentació de l'Ubuntu</name>
+      <email>ubuntu-doc@lists.ubuntu.com</email>
+    </credit>
+
+    <desc>Amb l'<app>Empathy</app> podeu xatejar, trucar i videotrucar amb amics i coŀlegues en una varietat de xarxes.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>Missatgeria instantània a l'Ubuntu</title>
+
+  <p>Amb l'aplicació <app>Empathy</app>, podeu xatejar amb la gent en línia i amb amics i coŀlegues que facin servir el Google Talk, AIM, Windows Live i molts altres programes de xat. Amb un micròfon o una webcam, podeu tenir també àudio o vídeo trucades.</p>
+
+  <p>L'Empathy no ve instaŀlat a l'Ubuntu per defecte, però el podeu <link href="apt:empathy">instaŀlar</link> des de l'arxiu de paquets de l'Ubuntu. Per a ajuda usant l'Empathy, llegiu el <link href="help:empathy">manual de l'Empathy</link>.</p>
+
+</page>

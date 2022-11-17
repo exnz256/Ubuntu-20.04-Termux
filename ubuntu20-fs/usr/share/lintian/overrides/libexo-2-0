@@ -1,0 +1,2 @@
+# we build with hardening enabled
+libexo-2-0: hardening-no-fortify-functions usr/lib/x86_64-linux-gnu/libexo-2.so.0.1.0

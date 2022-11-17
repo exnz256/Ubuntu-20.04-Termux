@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="calibrationmic" xml:lang="de">
+    <info>
+        <link type="guide" xref="index#calibration"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>David Keller</mal:name>
+      <mal:email>davidkeller@tuta.io</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+    <title>Mikrofon</title>
+    <p>Wenn du ein Mikrofon mit relativ flachem Frequenzgang hast, kannst du es zusammen mit einem rosa Rauschen-Testsignal verwenden, um abzuschätzen, wie flach dein Audio-Setup-Frequenzgang ist.</p>
+    <item>
+        <title>
+            <em style="strong" its:withinText="nested">Fenster</em>
+        </title>
+        <p>Die Zeitdauer, in der das Mikrofonsignal gemessen wird. Höhere Werte reduzieren die Störgeräusche.</p>
+    </item>
+    <item>
+        <title>
+            <em style="strong" its:withinText="nested">Rauschen messen</em>
+        </title>
+        <p>Speichert die letzte Messung, die als Hintergrundgeräusch verwendet werden soll. Normalerweise würde man diese verwenden, bevor das rosa Rauschen einschaltet wird.</p>
+    </item>
+    <item>
+        <title>
+            <em style="strong" its:withinText="nested">Rauschen reduzieren</em>
+        </title>
+        <p>Ziehe das gespeicherte Hintergrundrauschen von der Messung ab.</p>
+    </item>
+</page>

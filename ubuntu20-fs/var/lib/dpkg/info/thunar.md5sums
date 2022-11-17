@@ -1,0 +1,15 @@
+61e6f45f836d9115306476409eaa61a1  usr/bin/thunar
+c79f3d90b9d1c3940c0d2e4c63272608  usr/bin/thunar-settings
+e0fccd88646b83d234117201a8eeff50  usr/lib/aarch64-linux-gnu/Thunar/ThunarBulkRename
+baab31115603658d2c7c55b7b68d5ed8  usr/lib/aarch64-linux-gnu/Thunar/thunar-sendto-email
+d0c5afbd8ca8385b59a3eb5948c9d975  usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libthunar-tpa.so
+50f87648310220524eac19f6e366f046  usr/share/Thunar/sendto/thunar-sendto-email.desktop
+2080674f358e09595a45e68148f77572  usr/share/applications/thunar-bulk-rename.desktop
+a4f8d845651f8cf6b748d064dcddaf6c  usr/share/applications/thunar-settings.desktop
+ca53a91cd285e83ed2a34dd90ef9afdb  usr/share/applications/thunar.desktop
+2335d04fe63ba2f3216009a88311952d  usr/share/doc/thunar/copyright
+51f0c15c6d50d4e451296f0c01f61c44  usr/share/man/man1/Thunar.1.gz
+a0720a7c6dadfd1617b526bf721d632e  usr/share/man/man1/thunar-settings.1.gz
+747579095dcd70770a1a5492e8fc3937  usr/share/metainfo/org.xfce.thunar.appdata.xml
+d5f6ee9169101d4205970a7e6634e761  usr/share/polkit-1/actions/org.xfce.thunar.policy
+ad24c3e4dd0a8d10fd3ef09db3315e40  usr/share/xfce4/panel/plugins/thunar-tpa.desktop

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="gate" xml:lang="de">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>David Keller</mal:name>
+      <mal:email>davidkeller@tuta.io</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+    <title>Gate</title>
+    <p>Gates dämpfen Signale, die unterhalb des Schwellwerts liegen. Diese Art der Signalverarbeitung reduziert störendes Rauschen zwischen den Nutzsignalen.</p>
+    <p>PulseEffects verwendet das von Calf Studio entwickelte Gate.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Anstiegszeit</em>
+            </title>
+            <p>Anzahl der Millisekunden, die das Signal über die Schwelle steigen muss, bevor die Amplitudenreduktion beginnt.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Ausklingzeit</em>
+            </title>
+            <p>Anzahl der Millisekunden, die das Signal unter die Schwelle fallen muss, bevor die Reduktion wieder verringert wird.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Schwelle</em>
+            </title>
+            <p>Übersteigt ein Signal diesen Wert, wird die Amplitudenreduktion beeinflusst.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Verhältnis</em>
+            </title>
+            <p>Setze das Verhältnis, bei welchem das Signal reduziert wird.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Übergang</em>
+            </title>
+            <p>Regelt, wie sanft der Eintritt in die Phase der Amplitudenreduktion erfolgt.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Hebung</em>
+            </title>
+            <p>Es verstärkt das Signal nach der Verarbeitung.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Stereoverbindung</em>
+            </title>
+            <p>Wähle, ob die Amplitudenreduktion durch den lauteren Kanal oder durch den Durchschnittspegel zwischen den Kanälen beeinflusst wird.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Erkennung</em>
+            </title>
+            <p>Wähle, ob das Gate die Signalspitze oder den RMS-Wert (glatter) für die Erkennung nehmen soll.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Verstärkungsreduzierung</em>
+            </title>
+            <p>Der Pegel der Verstärkungsreduzierung, wenn das Signal unter dem Schwellenwert liegt.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Referenzen</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://calf-studio-gear.org/doc/Gate.html" its:translate="no">
+                        https://calf-studio-gear.org/doc/Gate.html
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Noise_gate" its:translate="no">
+                        https://en.wikipedia.org/wiki/Noise_gate
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

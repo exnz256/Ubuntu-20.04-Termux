@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/chromium
+/usr/lib/chromium/libEGL.so
+/usr/lib/chromium/libGLESv2.so
+/usr/lib/chromium/snapshot_blob.bin
+/usr/lib/chromium/v8_context_snapshot.bin
+/usr/share
+/usr/share/doc
+/usr/share/doc/chromium-common
+/usr/share/doc/chromium-common/NEWS.Debian.gz
+/usr/share/doc/chromium-common/changelog.Debian.gz
+/usr/share/doc/chromium-common/copyright

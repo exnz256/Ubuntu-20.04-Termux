@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="bassenhancer" xml:lang="de">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>David Keller</mal:name>
+      <mal:email>davidkeller@tuta.io</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+    <title>Bassverstärker</title>
+    <p>Das Gehirn nimmt die Tonhöhe eines Tones nicht nur durch seine Grundfrequenz wahr, sondern auch durch die Periodizität, die durch die Beziehung zwischen den höheren Harmonischen impliziert wird. Wir können die gleiche Tonhöhe auch dann wahrnehmen, wenn die Grundfrequenz in einem Ton fehlt.</p>
+    <p>PulseEffects verwendet den Bassverstärker von Calf Studio.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Betrag</em>
+            </title>
+            <p>Betrag der Obertöne, die dem Originalsignal hinzugefügt wird.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Obertöne</em>
+            </title>
+            <p>Betrag der neu erstellten Obertöne.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Bereich</em>
+            </title>
+            <p>Die Frequenzobertöne werden darüber erzeugt.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Boden(Knopf)</em>
+            </title>
+            <p>Beschränke die Verstärkung auf das untere Ende.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Boden(Wert)</em>
+            </title>
+            <p>Die Frequenz, unter der keine Obertöne erzeugt werden.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Oberwellen mischen</em>
+            </title>
+            <p>Die "Farbe" (oder Oktave) der Obertöne.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Zuhören</em>
+            </title>
+            <p>Schaltet das Originalsignal stumm und spielt ausschließlich die Obertöne ab.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Referenzen</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://calf-studio-gear.org/doc/Bass%20Enhancer.html" its:translate="no">
+                        https://calf-studio-gear.org/doc/Bass%20Enhancer.html
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Missing_fundamental" its:translate="no">
+                        https://en.wikipedia.org/wiki/Missing_fundamental
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="webrtc" xml:lang="it-IT">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Digitalone</mal:name>
+      <mal:email>kurmikon@libero.it</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+    <title>WebRTC</title>
+    <p>PulseEffects utilizza il plugin WebRTC di GStreamer. Questo plugin fornisce un filtro di miglioramento vocale basato sulla libreria di elaborazione audio denominata WebRTC. Tale libreria offre un'ampia varietà di algoritmi di miglioramento e questo plugin tenta di utilizzarne il maggior numero possibile. Le funzioni attualmente abilitate sono Filtro Passa Alto, Rimozione Eco, Soppressore del rumore, Normalizzazione e alcuni altri filtri estesi.</p>
+    <section>
+        <title>Rimozione Eco</title>
+        <terms>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Filtro Esteso</em>
+                </title>
+                <p>Abilita o disabilita il filtro esteso.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Filtro Passa Alto</em>
+                </title>
+                <p>Abilita o disabilita il filtro passa alto.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Delay Agnostic</em>
+                </title>
+                <p>Abilita o disabilita la modalità Delay Agnostic.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Livello di Soppressione</em>
+                </title>
+                <p>Controlla l'aggressività del filtro di soppressione. Un livello più alto sfrutta la doppia conversazione per migliorare la soppressione dell'eco.</p>
+            </item>
+        </terms>
+    </section>
+    <section>
+        <title>Soppressore Rumore</title>
+        <terms>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Livello di Soppressione</em>
+                </title>
+                <p>Controlla l'aggressività del soppressore. Incrementando il valore si riduce il livello del rumore a discapito di una maggiore distorsione del parlato.</p>
+            </item>
+        </terms>
+    </section>
+    <section>
+        <title>Normalizzatore</title>
+        <terms>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Modalità</em>
+                </title>
+                <p>Controlla la modalità della fase di compressione.</p>
+            </item>
+        </terms>
+    </section>
+    <section>
+        <title>Compressore</title>
+        <terms>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Limitatore</em>
+                </title>
+                <p>Se abilitato, la fase di compressione limiterà aggressivamente il segnale tenendolo al di sotto del livello della soglia. In caso contrario, il segnale verrà compresso ma non forzato a stare sotto la soglia.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Livello Soglia</em>
+                </title>
+                <p>Imposta il livello massimo dei picchi del segnale, espressi in dBFS (decibel in digital full-scale).</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Guadagno Massimo</em>
+                </title>
+                <p>Imposta il guadagno massimo che può essere applicato in fase di compressione.</p>
+            </item>
+        </terms>
+    </section>
+    <section>
+        <title>Rilevatore Voce</title>
+        <terms>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Accuratezza Rilevamento</em>
+                </title>
+                <p>Specifica la probabilità che un frame sia dichiarato come contenente voce.</p>
+            </item>
+        </terms>
+        <terms>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Dimensione Frame</em>
+                </title>
+                <p>Imposta la dimensione dei frame in ms su cui opererà il VAD. Frame più ampi migliorano l'accuratezza del rilevamento, ma riducono la frequenza degli aggiornamenti.</p>
+            </item>
+        </terms>
+    </section>
+    <section>
+        <title>Note</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://gstreamer.freedesktop.org/data/doc/gstreamer/head/gst-plugins-bad/html/gst-plugins-bad-plugins-webrtcdsp.html" its:translate="no">
+                        https://gstreamer.freedesktop.org/data/doc/gstreamer/head/gst-plugins-bad/html/gst-plugins-bad-plugins-webrtcdsp.html
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

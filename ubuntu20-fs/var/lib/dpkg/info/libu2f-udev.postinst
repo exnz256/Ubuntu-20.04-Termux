@@ -1,0 +1,35 @@
+#!/bin/bash
+
+# This maintainer script does not set -e on purpose:
+#  the package should not be put in a configuration-failed state
+#  should the udev rules fail to be reloaded, for any reason.
+set -u -o pipefail
+
+# Reload rules
+udevadm control --reload
+
+# Deal with already-plugged-in device
+while IFS='' read -r line || [[ -n "$line" ]]; do
+	# Skip comment
+	if [[ "$line" == \#* ]] || [[ -z "$line" ]] ||
+	   [[ "$line" == ACTION* ]] || [[ "$line" == LABEL* ]]; then
+		continue
+	fi
+
+	IFS=', ' read -r kernel subsystem idVendor idProduct _ <<< "$line"
+
+	if [[ "$kernel" != 'KERNEL=="hidraw*"' ]] ||
+	   [[ "$subsystem" != 'SUBSYSTEM=="hidraw"' ]]; then
+		echo "Skipping unexpected rule: '$line'" >&2
+		continue
+	fi
+
+	udevadm trigger -s hidraw -a "$idVendor" -a "$idProduct" -v
+
+done < /lib/udev/rules.d/70-u2f.rules
+
+
+# Exit on errors for debhelper actions
+set -e
+
+

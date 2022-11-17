@@ -1,0 +1,970 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: gegl
+Upstream-Contact: Øyvind Kolås <pippin@gimp.org>
+Source: http://www.gegl.org
+
+Files: *
+Copyright: 2003-2017 Øyvind Kolås <pippin@gimp.org>
+License: LGPL-3+
+
+Files: gegl/gegl-apply.*
+       gegl/gegl-types*
+       gegl/graph/gegl-connection.*
+       gegl/graph/gegl-pad.*
+       gegl/graph/gegl-visitable.*
+       gegl/process/gegl-eval-manager.c
+Copyright: 2003 Calvin Williamson
+License: LGPL-3+
+
+Files: gegl/gegl-cpuaccel-private.h
+       gegl/gegl-cpuaccel.h
+Copyright: 1995-1997 Peter Mattis and Spencer Kimball
+License: LGPL-2+
+
+Files: gegl/gegl-introspection-support.*
+Copyright: 2013 Daniel Sabo
+License: LGPL-3+
+
+Files: gegl/gegl-cpuaccel.c
+Copyright: 1995-1997 Peter Mattis and Spencer Kimball
+           1999-2001 Aaron Holtzman
+           Manish Singh
+License: LGPL-3+
+
+Files: gegl/gegl-dot-visitor.*
+       gegl/property-types/gegl-color.*
+       operations/common/gegl-buffer-load-op.c
+       operations/common/gegl-buffer-save-op.c
+Copyright: 2006, 2009-2010 Martin Nordholts
+License: LGPL-3+
+
+Files: gegl/gegl-enums.h
+       operations/common/map-absolute.c
+       operations/common/map-relative.c
+       operations/common/warp.c
+Copyright: 2010-2011 Michael Muré
+License: LGPL-3+
+
+Files: gegl/gegl-gio*
+       operations/transform/rotate-on-center.c
+       operations/transform/scale-size-keepaspect.c
+Copyright: 2014 Jon Nordby, The Grid
+License: LGPL-3+
+
+Files: gegl/gegl-matrix.c
+       operations/transform/module.c
+       operations/transform/rotate.c
+       operations/transform/scale-ratio.c
+       operations/transform/scale-size.c
+       operations/transform/shear.c
+       operations/transform/transform-core.c
+       operations/transform/translate.c
+Copyright: 2006 Philip Lafleur
+License: LGPL-3+
+
+Files: gegl/gegl-operations-util.h
+       gegl/gegl-utils.c
+       gegl/gegl-version.*
+       gegl/gegl.h
+       gegl/gegl-init*
+Copyright: 2003-2007 Calvin Williamson
+           2003-2007 Øyvind Kolås
+License: LGPL-3+
+
+Files: gegl/gegl-random.*
+       operations/common/pixelize.c
+Copyright: 2006, 2012-2013 Øyvind Kolås
+           2013 Téo Mazars
+License: LGPL-3+
+
+Files: gegl/buffer/gegl-buffer-access.c
+       gegl/buffer/gegl-buffer-iterator.*
+       gegl/buffer/gegl-tile-backend-ram.c
+Copyright: 2006-2012, 2014-2017 Øyvind Kolås
+           2013 Daniel Sabo
+License: LGPL-3+
+
+Files: gegl/buffer/gegl-buffer-iterator-private.h
+       operations/external/lcms-from-profile.c
+       operations/external/webp-load.c
+       operations/external/webp-save.c
+Copyright: 2013 Michael Henning
+License: LGPL-3+
+
+Files: gegl/buffer/gegl-region-generic.*
+       gegl/buffer/gegl-buffer-iterator.*
+Copyright: 1987-1988, 1998 The Open Group
+           1987-1988 Digital Equipment Corporation
+License: X-Open-Group-DEC
+
+Files: gegl/buffer/gegl-region.h
+Copyright: 1995-1997 Peter Mattis, Spencer Kimball and Josh MacDonald
+           1997-2000 GTK+ Team and others
+License: LGPL-3+
+
+Files: gegl/buffer/gegl-sampler.c
+Copyright: 2007 Øyvind Kolås
+           2009,2012 Nicolas Robidoux
+           2011 Adam Turcotte
+License: LGPL-3+
+
+Files: gegl/buffer/gegl-sampler-cubic.c
+       gegl/buffer/gegl-sampler-linear.c
+Copyright: 2012 Nicolas Robidoux
+           2012 Massimo Valentini
+License: LGPL-3+
+
+Files: gegl/buffer/gegl-sampler-lohalo.c
+Copyright: 2012, 2017 Nicolas Robidoux
+License: LGPL-3+
+
+Files: gegl/buffer/gegl-sampler-nohalo.c
+Copyright: 2009-2012 Nicolas Robidoux
+           2009-2011 Adam Turcotte
+           2009-2011 Chantal Racette
+           2009-2011 Anthony Thyssen
+           2009-2011 John Cupitt
+           2009-2011 Øyvind Kolås
+License: LGPL-3+
+
+Files: gegl/buffer/gegl-tile-backend-file-async.c
+       gegl/buffer/gegl-tile-backend-swap.c
+Copyright: 2006-2008 Øyvind Kolås
+           2012-2013 Ville Sokk
+License: LGPL-3+
+
+Files: gegl/buffer/gegl-tile-backend-swap.h
+       tools/gegl-tester.c
+Copyright: 2012 Ville Sokk
+License: LGPL-3+
+
+Files: gegl/graph/gegl-callback-visitor.*
+       gegl/graph/gegl-node-output-visitable.*
+       tests/simple/test-buffer-hot-tile.c
+Copyright: 2016-2017 Ell
+License: LGPL-3+
+
+Files: gegl/graph/gegl-visitor.*
+Copyright: 2003 Calvin Williamson
+           2017 Ell
+License: LGPL-3+
+
+Files: gegl/graph/gegl-node.c
+Copyright: 2003 Calvin Williamson
+           2006 Øyvind Kolås
+           2013 Daniel Sabo
+License: LGPL-3+
+
+Files: gegl/graph/gegl-node.h
+       gegl/graph/gegl-node-private.h
+Copyright: 2003 Calvin Williamson
+           2006 Øyvind Kolås
+License: LGPL-3+
+
+Files: gegl/module/gegldatafiles.*
+       gegl/graph/gegl-node-private.h
+Copyright: 1996 Federico Mena Quintero
+License: LGPL-3+
+
+Files: gegl/module/geglmodule.c
+Copyright: 1999 Austin Donnelly
+License: LGPL-3+
+
+Files: gegl/module/geglmodule.h
+Copyright: 1995-1997, Peter Mattis and Spencer Kimball
+           1999 Austin Donnelly
+License: LGPL-3+
+
+Files: gegl/opencl/*.h
+Copyright: 2008-2010 The Kronos Group Inc.
+License: Expat
+
+Files: gegl/buffer/gegl-buffer-cl*
+       gegl/opencl/gegl*
+       opencl/bilateral-filter-fast.cl.h
+       opencl/colors-8bit-lut.cl.h
+       operations/common/edge-sobel.c
+       operations/workshop/bilateral-filter-fast.c
+Copyright: 2011-2013 Victor Oliveira
+License: LGPL-3+
+
+Files: gegl/opencl/gegl-cl-random.*
+       opencl/alien-map.cl.h
+       opencl/contrast-curve.cl.h
+       opencl/noise-hurl.cl.h
+       opencl/posterize.cl.h
+       opencl/random.cl.h
+       opencl/red-eye-removal.cl.h
+       opencl/stretch-contrast.cl.h
+Copyright: 2013 Carlos Zubieta
+License: LGPL-3+
+
+Files: gegl/opencl/gegl-cl-init.c
+       opencl/colors-8bit-lut.cl.h
+Copyright: 2012 Victor Oliveira
+           2013 Daniel Sabo
+License: LGPL-3+
+
+Files: gegl/process/gegl-graph-debug.h
+       gegl/process/gegl-graph-traversal-debug.c
+       gegl/process/gegl-graph-traversal-private.h
+       gegl/process/gegl-graph-traversal.c
+       gegl/process/gegl-graph-traversal.h
+       tests/simple/test-backend-file.c
+       tests/simple/test-buffer-tile-voiding.c
+       tests/simple/test-convert-format.c
+       tests/simple/test-format-sensing.c
+       tests/simple/test-license-check.c
+       tests/simple/test-node-properties.c
+       tests/simple/test-object-forked.c
+       tests/simple/test-opencl-colors.c
+       tests/simple/test-scaled-blit.c
+       tests/simple/test-svg-abyss.c
+Copyright: 2013-2014 Daniel Sabo
+License: GPL-3+
+
+Files: gegl/process/gegl-eval-manager.h
+Copyright: 2003 Calvin Williamson
+           2013 Daniel Sabo
+License: LGPL-3+
+
+Files: gegl/property-types/gegl-paramspecs.c
+       gegl/property-types/gegl-paramspecs.h
+Copyright: 1995-2006 Spencer Kimball, Peter Mattis and others.
+           2003 Calvin Williamson
+License: LGPL-3+
+
+Files: gegl/property-types/gegl-curve.c
+Copyright: 1997 David Mosberger
+           2006 Mark Probst
+License: LGPL-3+
+
+Files: gegl/property-types/gegl-curve.h
+       operations/common/contrast-curve.c
+       operations/common/mono-mixer.c
+Copyright: 2006-2007 Mark Probst
+License: LGPL-3+
+
+Files: gegl/property-types/gegl-path.c
+Copyright: 2006 Mark Probst
+           2008 Øyvind Kolås
+           2011 Michael Muré
+License: LGPL-3+
+
+Files: gegl/property-types/gegl-path.h
+Copyright: 2007 Øyvind Kolås
+           2011 Michael Muré
+License: LGPL-3+
+
+Files: gcut/iconographer.c
+Copyright: 2015 Rituwall Inc, authored by pippin@gimp.org
+License: ISC
+
+Files: libs/npd/*
+Copyright: 2013 Marek Dvoroznak
+License: LGPL-3+
+
+Files: libs/poly2tri-c/*
+Copyright: 2009-2010 Poly2Tri Contributors
+           Barak Itkin
+           2012 Jonathan Richard Shewchuk
+License: BSD-3-clause-Poly2Tri
+
+Files: libs/rgbe/*
+       operations/common/exp-combine.c
+       operations/common/fattal02.c
+       operations/common/mantiuk06.c
+       operations/common/reinhard05.c
+       operations/common/save.c
+       operations/external/matting-levin.c
+       operations/external/rgbe-load.c
+       operations/external/rgbe-save.c
+Copyright: 2010 Danny Robson
+License: LGPL-3+
+
+Files: opencl/color-exchange.cl.h
+       operations/common/component-extract.c
+       operations/common/image-gradient.c
+       operations/common/median-blur.c
+       operations/common/rgb-clip.c
+       operations/common/slic.c
+       operations/common/waterpixels.c
+       operations/common/watershed-transform.c
+       operations/common/wavelet-blur.c
+       operations/workshop/integral-image.c
+       operations/workshop/segment-kmeans.c
+Copyright: 2015-2017 Thomas Manni
+License: LGPL-3+
+
+Files: opencl/gblur-1d.cl.h
+Copyright: 2012-2013 Victor Oliveira
+           2013 Téo Mazars
+License: LGPL-3+
+
+Files: opencl/pixelize.cl.h
+Copyright: 2012-2013 Victor Oliveira
+           2013 Carlos Zubieta
+License: LGPL-3+
+
+Files: operations/common-gpl3+/*
+Copyright: 2005 Øyvind Kolås <pippin@gimp.org>
+License: GPL-3+
+
+Files: operations/common-gpl3+/antialias.c
+Copyright: 1995 Spencer Kimball and Peter Mattis
+           2005 Adam D. Moss
+           2013 Barak Itkin
+License: GPL-3+
+
+Files: operations/common-gpl3+/apply-lens.c
+Copyright: 1997 Morten Eriksen
+           2013 Bastian Pirk
+           2013 Emanuel Schrade
+           2013 Pascal Giessler
+           2013 Stephan Seifermann
+           2015 Thomas Manni
+License: GPL-3+
+
+Files: operations/common-gpl3+/bump-map.c
+Copyright: 1995 Spencer Kimball and Peter Mattis
+License: GPL-3+
+
+Files: operations/common-gpl3+/cartoon.c
+Copyright: 1997 Spencer Kimball
+           2012 Maxime Nicco
+License: GPL-3+
+
+Files: operations/common-gpl3+/channel-mixer.c
+Copyright: 2002 Martin Guldahl
+           2013 Barak Itkin
+License: GPL-3+
+
+Files: operations/common-gpl3+/color-to-alpha.c
+Copyright: 1995 Spencer Kimball and Peter Mattis
+           2011 Robert Sasu <sasu.robert@gmail.com>
+           2012 Øyvind Kolås
+License: GPL-3+
+
+Files: operations/common-gpl3+/cubism.c
+Copyright: 1996 Spencer Kimball, Tracy Scott
+           2011 Robert Sasu
+License: GPL-3+
+
+
+Files: operations/common-gpl3+/deinterlace.c
+Copyright: 1996 Federico Mena Quintero
+           1997 Andrew Kieschnick
+           2011 Robert Sasu
+License: GPL-3+
+
+Files: operations/common-gpl3+/diffraction-patterns.c
+Copyright: 1997 Federico Mena Quintero and David Bleecker
+License: GPL-3+
+
+Files: operations/common-gpl3+/edge-laplace.c
+Copyright: 1997 Thorsten Schnier
+           2011 Victor Oliveira
+License: GPL-3+
+
+Files: operations/common-gpl3+/emboss.c
+Copyright: 1997 Eric L. Hernes
+           2011 Robert Sasu
+License: GPL-3+
+
+Files: operations/common-gpl3+/engrave.c
+Copyright: 1995 Spencer Kimball and Peter Mattis
+           1996-1997 Torsten Martinsen
+           1997 Eiichi Takamori
+License: GPL-3+
+
+Files: operations/common-gpl3+/fractal-explorer.c
+Copyright: 2006 Kevin Cozens <kcozens@cvs.gnome.org>
+License: GPL-3+
+
+Files: operations/common-gpl3+/fractal-trace.c
+Copyright: 1997 Hirotsuna Mizuno
+           2011 Robert Sasu
+License: GPL-3+
+
+Files: operations/common-gpl3+/lens-distortion.c
+Copyright: 1995 Spencer Kimball and Peter Mattis
+           2001-2005 David Hodson
+           2008 Aurimas Juška
+           2011 Robert Sasu
+           2013 Téo Mazars
+License: GPL-3+
+
+Files: operations/common-gpl3+/maze.c
+       operations/common-gpl3+/tile-paper.c
+Copyright: 2015 Akash Hiremath
+License: GPL-3+
+
+Files: operations/common-gpl3+/mosaic.c
+Copyright: 1996 Spencer Kimball
+           1997 Elliot Lee
+           2013 Téo Mazars
+License: GPL-3+
+
+Files: operations/common-gpl3+/motion-blur-circular.c
+       operations/common-gpl3+/motion-blur-zoom.c
+Copyright: 1995 Spencer Kimball and Peter Mattis
+           1996 Federico Mena Quintero
+           1996 Heinz W. Werntges
+           1996 Torsten Martinsen
+           1997 Daniel Skarda
+           2006 Øyvind Kolås
+           2007 Joerg Gittinger
+           2013 Téo Mazars
+License: GPL-3+
+
+Files: operations/common-gpl3+/noise-slur.c
+Copyright: 1997 Miles O'Neal
+           2012 Maxime Nicco
+License: GPL-3+
+
+Files: operations/common-gpl3+/noise-solid.c
+Copyright: 1997-1998 Marcelo de Gomensoro Malheiros
+License: GPL-3+
+
+Files: operations/common-gpl3+/oilify.c
+Copyright: 1995 Spencer Kimball and Peter Mattis
+           1996 Torsten Martinsen
+           2007 Daniel Richard G.
+           2011 Hans Lo
+License: GPL-3+
+
+Files: operations/common-gpl3+/photocopy.c
+Copyright: 1997 Spencer Kimball
+           2011 Hans Lo
+License: GPL-3+
+
+Files: operations/common-gpl3+/plasma.c
+Copyright: 1996 Eiichi Takamori
+           1996 Stephen Norris
+           2000 Tim Copperfield
+           2011 Robert Sasu
+           2013 Téo Mazars
+License: GPL-3+
+
+Files: operations/common-gpl3+/polar-coordinates.c
+Copyright: 1996 Marc Bless
+           1997 Daniel Dunbar
+           1997 Federico Mena Quintero
+           2011, Robert Sasu
+License: GPL-3+
+
+Files: operations/common-gpl3+/red-eye-removal.c
+Copyright: 2004 Robert Merkel
+           2006 Andreas Røsdal
+           2011 Robert Sasu
+License: GPL-3+
+
+Files: operations/common-gpl3+/ripple.c
+Copyright: 1997 Brian Degenhardt
+           2011 Hans Lo
+           2011 Michael Muré
+           2011 Robert Sasu
+License: GPL-3+
+
+Files: operations/common-gpl3+/shift.c
+Copyright: 1997 Brian Degenhardt
+           1997 Federico Mena Quinter
+           2012 Hans Lo
+License: GPL-3+
+
+Files: operations/common-gpl3+/sinus.c
+Copyright: 1997 Xavier Bouchoux
+License: GPL-3+
+
+Files: operations/common-gpl3+/softglow.c
+Copyright: 1997 Spencer Kimball
+           2012 Maxime Nicco
+           2013 Téo Mazars
+License: GPL-3+
+
+Files: operations/common-gpl3+/spiral.c
+       operations/common/spherize.c
+       operations/workshop/bayer-matrix.c
+       operations/workshop/linear-sinusoid.c
+       tests/simple/test-node-exponential.c
+Copyright: 2017 Ell
+License: GPL-3+
+
+Files: operations/common-gpl3+/texturize-canvas.c
+Copyright: 1997 Karl-Johan Andersson
+           2013 Andreas Fischer
+License: GPL-3+
+
+Files: operations/common-gpl3+/tile-glass.c
+Copyright: 2014 Denis Knoepfle
+           Karl-Johan Andersson and Tim Copperfield
+License: GPL-3+
+
+Files: operations/common-gpl3+/waves.c
+Copyright: 1997 Eric L. Hernes
+           1997 Stephen Norris
+           2011 Audrey Mandet
+License: GPL-3+
+
+Files: operations/common-gpl3+/whirl-pinch.c
+Copyright: 1997 Federico Mena Quintero
+           1997 Scott Goehring
+           2010 Barak Itkin
+License: GPL-3+
+
+Files: operations/common-gpl3+/wind.c
+Copyright: 2000 Tim Copperfield
+           2011 Hans Lo
+           Nigel Wetten
+License: GPL-3+
+
+Files: operations/common/convolution-matrix.c
+Copyright: 1997 Lauri Alanko
+           2011 Robert Sasu
+License: LGPL-3+
+
+Files: operations/common/color-rotate.c
+Copyright: 1995 Spencer Kimball and Peter Mattis
+           1999 Sven Anders
+           2011 Mukund Sivaraman
+           2011 Robert Sasu
+License: LGPL-3+
+
+Files: operations/common/color-temperature.c
+Copyright: 2008 Jan Heller
+License: LGPL-3+
+
+Files: operations/common/distance-transform.c
+Copyright: 2014 Simon Budig
+License: LGPL-3+
+
+Files: operations/common/display.c
+       operations/core/json.c
+Copyright: 2011, 2014 Jon Nordby
+License: LGPL-3+
+
+Files: operations/common/dither.c
+Copyright: 2008 Hans Petter Jansson
+License: LGPL-3+
+
+Files: operations/common/edge-neon.c
+Copyright: 2017 Peter O'Regan
+License: LGPL-3+
+
+Files: operations/common/exposure.c
+Copyright: 2012-2013 Felix Ulber
+License: LGPL-3+
+
+Files: operations/common/gaussian-blur.c
+Copyright: 2013 Massimo Valentini
+License: LGPL-3+
+
+Files: operations/common/gblur-1d.c
+Copyright: 2006 Dominik Ernst
+           2013 Massimo Valentini
+License: LGPL-3+
+
+Files: operations/common/high-pass.c
+       operations/common/tile.c
+Copyright: 2012-2013 Ville Sokk
+License: LGPL-3+
+
+Files: operations/common/hue-chroma.c
+Copyright: 2017 Elle Stone
+License: LGPL-3+
+
+Files: operations/common/image-compare.c
+Copyright: 2010 Øyvind Kolås
+           2012 Ville Sokk
+           2013 Téo Mazars
+License: LGPL-3+
+
+Files: operations/common/matting-global.c
+Copyright: 2011 Jan RÃ¼egg
+License: LGPL-3+
+
+Files: operations/common/mirrors.c
+Copyright: 1999, 2002 Kelly Martin, updated 2005 by Matthew Plough
+           2006 Øyvind Kolås
+           2010 Alexia Death
+License: LGPL-3+
+
+Files: operations/common/noise-cell.c
+       operations/common/noise-simplex.c
+Copyright: 2014, Dimitris Papavasiliou
+License: LGPL-3+
+
+Files: operations/common/noise-cie-lch.c
+Copyright: 2012, Maxime Nicco
+License: LGPL-3+
+
+Files: operations/common/noise-hsv.c
+Copyright: 1995 Spencer Kimball and Peter Mattis
+           1996 Torsten Martinsen
+           2000 Tim Copperfield
+           2012 Maxime Nicco
+License: LGPL-3+
+
+Files: operations/common/noise-hurl.c
+Copyright: 1997, Miles O'Neal
+           2012, Maxime Nicco
+License: LGPL-3+
+
+Files: operations/common/noise-pick.c
+Copyright: 1997, Miles O'Neal
+           2012 Maxime Nicco
+           2013 Téo Mazars
+License: LGPL-3+
+
+Files: operations/common/noise-reduction.c
+Copyright: 2011 Ali Alsam
+           2011 Hans Jakob Rivertz
+           2011 Øyvind Kolås
+License: LGPL-3+
+
+Files: operations/common/noise-rgb.c
+Copyright: 1995 Spencer Kimball and Peter Mattis
+           1996 Torsten Martinsen
+           2000 Tim Copperfield
+           2012, 2016 Øyvind Kolås
+           2012 Maxime Nicco
+License: LGPL-3+
+
+Files: operations/common/noise-spread.c
+Copyright: 1997 Brian Degenhardt and Federico Mena Quintero
+           2011 Barak Itkin
+License: LGPL-3+
+
+Files: operations/common/opacity.c
+Copyright: 2006 Øyvind Kolås
+           2013 Daniel Sabo
+License: LGPL-3+
+
+Files: operations/common/perlin/*
+Copyright: Ken Perlin
+License: LGPL-3+
+
+Files: operations/common/saturation.c
+       operations/common/sepia.c
+Copyright: 2015-2016 Red Hat, Inc.
+License: LGPL-3+
+
+Files: operations/common/stretch-contrast.c
+Copyright: 1996 Federico Mena Quintero
+           2006 Øyvind Kolås
+License: LGPL-3+
+
+Files: operations/common/stretch-contrast-hsv.c
+Copyright: 1996 Federico Mena Quintero
+           1997 Scott Goehring
+           2006 Øyvind Kolås
+           2013 Carlos Zubieta
+License: LGPL-3+
+
+Files: operations/common/svg-huerotate.c
+       operations/common/svg-luminancetoalpha.c
+       operations/common/svg-matrix.c
+       operations/common/svg-saturate.c
+Copyright: 2006 Geert Jordaens
+           2006 Øyvind Kolås
+License: LGPL-3+
+
+Files: operations/common/value-invert.c
+Copyright: 2007 Mukund Sivaraman
+License: LGPL-3+
+
+Files: operations/common/wavelet-blur-1d.c
+Copyright: 2016 Miroslav Talasek
+License: LGPL-3+
+
+Files: operations/core/cast-format.c
+Copyright: 2014 Michael Natterer
+License: LGPL-3+
+
+Files: operations/core/convert-format.c
+Copyright: 2006 Øyvind Kolås
+           2007 Étienne Bersac
+           2013 Daniel Sabo
+License: LGPL-3+
+
+Files: operations/external/exr-load.cpp
+Copyright: 2006 Dominik Ernst
+License: LGPL-3+
+
+Files: operations/external/exr-save.cc
+Copyright: 2011 Rasmus Hahn
+License: LGPL-3+
+
+Files: operations/external/jp2-load.c
+       operations/external/jpg-save.c
+Copyright: 2010-2011, Mukund Sivaraman
+License: LGPL-3+
+
+Files: operations/external/npd.c
+Copyright: 2013 Marek Dvoroznak
+License: LGPL-3+
+
+Files: operations/external/npy-save.c
+Copyright: 2013 Dov Grobgeld
+License: LGPL-3+
+
+Files: operations/external/ppm-load.*
+Copyright: 2009 Henrik Akesson
+License: LGPL-3+
+
+Files: operations/external/raw-load.c
+Copyright: 2006 Øyvind Kolås
+           2008 Hubert Figuière
+           2011 Chong Kai Xiong
+           2011 Paul Sbarra
+License: LGPL-3+
+
+Files: operations/external/save-pixbuf.c
+Copyright: 2007 Étienne Bersac
+License: LGPL-3+
+
+Files: operations/external/svg-load.c
+Copyright: 2006 Kevin Cozens
+License: LGPL-3+
+
+Files: operations/external/tiff-load.c
+       operations/external/tiff-save.c
+Copyright: 2015 Martin Blanchard
+License: LGPL-3+
+
+Files: operations/external/v4lutils/*
+Copyright: 2001-2002 FUKUCHI Kentaro
+           2012 Nick Black
+License: LGPL-2+
+
+Files: operations/seamless-clone/seamless-clone-compose.c
+       operations/seamless-clone/seamless-clone.c
+       seamless-clone/*
+Copyright: 2011-2012 Barak Itkin
+License: GPL-3+
+
+Files: operations/transform/reflect.c
+Copyright: 2006 Dominik Ernst
+License: LGPL-3+
+
+Files: operations/workshop/demosaic-bimedian.c
+Copyright: 2006 Øyvind Kolås
+           2008 Bradley Broom
+License: LGPL-3+
+
+Files: operations/workshop/ditto.c
+Copyright: 1997 Brian Degenhardt
+           2011 Hans Lo
+           2011 Michael Muré
+           2011 Robert Sasu
+License: LGPL-3+
+
+# Included in git repo but not distributed currently
+#Files: operations/workshop/external/lens-correct.c
+#Copyright: 2006 Øyvind Kolås
+#           2008 Bradley Broom
+#           2011 Robert Sasu
+#License: LGPL-3+
+
+Files: operations/workshop/gradient-map.c
+Copyright: 2006-2014 Øyvind Kolås
+           2014 The Grid, Jon Nordby
+License: LGPL-3+
+
+Files: operations/common-gpl3+/shadows-highlights-correction.c
+       operations/common-gpl3+/shadows-highlights.c
+Copyright: 2012-2015 Ulrich Pegelow
+License: GPL-3+
+
+Files: tests/simple/test-buffer-cast.c
+       tests/simple/test-buffer-extract.c
+       tests/simple/test-change-processor-rect.c
+       tests/simple/test-color-op.c
+       tests/simple/test-gegl-rectangle.c
+       tests/simple/test-misc.c
+       tests/simple/test-proxynop-processing.c
+       tests/simple/test-gegl-tile.c
+Copyright: 2009-2011 Martin Nordholts
+License: GPL-3+
+
+Files: tests/simple/test-buffer-sharing.c
+       tests/simple/test-gegl-color.c
+       tests/xml/*
+Copyright: 2011, 2014, 2017 Jon Nordby
+License: GPL-3+
+
+Files: tests/simple/test-node-connections.c
+Copyright: 2013 Daniel Sabo
+           2016 Red Hat Inc.
+License: GPL-3+
+
+Files: tests/simple/test-serialize.c
+Copyright: 2016 Øyvind Kolås
+License: GPL-3+
+
+Files: tests/simple/test-node-passthrough.c
+Copyright: 2017 Red Hat Inc.
+License: GPL-3+
+
+Files: tests/simple/test-image-compare.c
+Copyright: 2013 Téo Mazars
+License: LGPL-3+
+
+Files: tools/detect_opencl.c
+Copyright: 2013 Daniel Sabo
+License: GPL-3+
+
+Files: tools/gobj2dot.rb
+Copyright: 2009 Henrik Akesson
+License: GPL-3+
+
+Files: debian/*
+Copyright: 2007 Étienne Bersac <bersace03@laposte.net>
+           2012-2015 Matteo F. Vescovi <mfv@debian.org>
+License: LGPL-3+
+
+License: X-Open-Group-DEC
+ Copyright 1987, 1988, 1998  The Open Group
+ .
+ All Rights Reserved.
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+ OPEN GROUP BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+ AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ .
+ Except as contained in this notice, the name of The Open Group shall not be
+ used in advertising or otherwise to promote the sale, use or other dealings
+ in this Software without prior written authorization from The Open Group.
+ .
+ Copyright 1987, 1988 by Digital Equipment Corporation, Maynard, Massachusetts.
+ .
+ All Rights Reserved
+ .
+ Permission to use, copy, modify, and distribute this software and its
+ documentation for any purpose and without fee is hereby granted,
+ provided that the above copyright notice appear in all copies and that
+ both that copyright notice and this permission notice appear in
+ supporting documentation, and that the name of Digital not be
+ used in advertising or publicity pertaining to distribution of the
+ software without specific, written prior permission.
+ .
+ DIGITAL DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING
+ ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO EVENT SHALL
+ DIGITAL BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR
+ ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
+ WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,
+ ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS
+ SOFTWARE.
+
+License: BSD-3-clause-Poly2Tri
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are
+ met:
+ * Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+ * Neither the name of Poly2Tri nor the names of its contributors
+   may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: LGPL-2+
+ This file is free software; you can redistribute it and/or modify it
+ under the terms of the GNU Library General Public License as
+ published by the Free Software Foundation; either version 2 of the
+ License, or (at your option) any later version.
+ .
+ This file is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License version 2 can be found in `/usr/share/common-licenses/LGPL-2'.
+
+License: LGPL-3+
+ This file is free software; you can redistribute it and/or modify it
+ under the terms of the GNU Lesser General Public License as
+ published by the Free Software Foundation; either version 3 of the
+ License, or (at your option) any later version.
+ .
+ This file is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
+
+License: ISC
+ Permission to use, copy, modify, and/or distribute this software for any
+ purpose with or without fee is hereby granted, provided that the above
+ copyright notice and this permission notice appear in all copies.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.

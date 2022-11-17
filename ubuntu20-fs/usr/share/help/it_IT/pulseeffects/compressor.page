@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="compressor" xml:lang="it-IT">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Digitalone</mal:name>
+      <mal:email>kurmikon@libero.it</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+    <title>Compressore</title>
+    <p>Il Compressore viene utilizzato per ridurre la gamma dinamica del segnale audio.</p>
+    <p>PulseEffects usa il Compressore sviluppato da Linux Studio Plugins.</p>
+    <section>
+        <terms>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Attacco</em>
+                </title>
+                <p>L'attacco indica il tempo in millisecondi (ms) nel quale il plugin applica interamente la compressione del segnale una volta superato il valore della soglia. Se il segnale supera la soglia e ritorna velocemente al di sotto di essa, allora non riceverà una compressione completa.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Rilascio</em>
+                </title>
+                <p>Il rilascio indica il tempo in millisecondi (ms) nel quale il plugin termina di applicare la fase di compressione quando il segnale scende al di sotto del valore della soglia. Un rilascio breve fa sì che il compressore smetta velocemente di comprimere il segnale. Un rilascio più lungo invece terminerà la fase di compressione più lentamente quando il segnale ritorna sotto il valore di soglia.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Soglia</em>
+                </title>
+                <p>Se il segnale supera il valore specificato, verrà applicata la compressione. In modalità discendente, il segnale verrà ridotto in ampiezza se salirà oltre la soglia, mentre in modalità ascendente il segnale verrà amplificato se scenderà sotto la soglia.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Rapporto</em>
+                </title>
+                <p>Imposta il rapporto di compressione. 1 non applica alcuna compressione, mentre valori maggiori applicano una compressione più marcata.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Curvatura</em>
+                </title>
+                <p>Valore che determina la fluidità con cui si entra nella fase di compressione. 0 indica un'applicazione immediata, mentre valori più alti applicano la compressione in modo più soffice.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Guadagno</em>
+                </title>
+                <p>Valore di amplificazione del segnale dopo l'applicazione della compressione.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Modalità di Compressione</em>
+                </title>
+                <list>
+                    <item>
+                        <p><em style="strong">Discendente</em> - Riduce l'ampiezza delle parti di segnale che superano il valore della soglia.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">Ascendente</em> - Amplifica l'ampiezza delle parti di segnale che si trovano al di sotto della soglia.</p>
+                    </item>
+                </list>
+            </item>
+        </terms>
+    </section>
+    <section>
+        <title>Sidechain</title>
+        <terms>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Ascolta</em>
+                </title>
+                <p>Consente di ascoltare il segnale elaborato in sidechain.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Tipo</em>
+                </title>
+                <list>
+                    <item>
+                        <p><em style="strong">Prelievo in ingresso</em> - Il modulo di sidechain preleva il segnale all'ingresso del compressore. Compressione più aggressiva.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">Prelievo in uscita</em> - Il modulo di sidechain preleva il segnale all'uscita del compressore. Compressione più accurata in stile vintage.</p>
+                    </item>
+                </list>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Modalità</em>
+                </title>
+                <list>
+                    <item>
+                        <p><em style="strong">Picco</em> - Misura il picco del segnale.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">RMS</em> - Valore medio quadratico del segnale di ingresso.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">Passa Basso</em> - Il segnale di ingresso è elaborato da un filtro passa basso.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">Uniforme</em> - Il segnale di ingresso è elaborato da un filtro uniforme.</p>
+                    </item>
+                </list>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Sorgente</em>
+                </title>
+                <list>
+                    <item>
+                        <p><em style="strong">Centro</em> - La parte centrale del segnale è usata per l'elaborazione in sidechain.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">Lato</em> - La parte laterale del segnale é usata per l'elaborazione in sidechain.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">Sinistra</em> - Solo il canale sinistro è usato per l'elaborazione in sidechain.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">Destra</em> - Solo il canale destro è usato per l'elaborazione in sidechain.</p>
+                    </item>
+                </list>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Pre-amplificazione</em>
+                </title>
+                <p>Pre-amplificazione del segnale di sidechain.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Reattività</em>
+                </title>
+                <p>Reattività del segnale di sidechain.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Lookahead</em>
+                </title>
+                <p>Tempo di look-ahead in sidechain, relativo al segnale di ingresso.</p>
+            </item>
+        </terms>
+    </section>
+    <section>
+        <title>Note</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://www.blackghostaudio.com/blog/the-ultimate-guide-to-compression" its:translate="no">
+                        https://www.blackghostaudio.com/blog/the-ultimate-guide-to-compression
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://lsp-plug.in/?page=manuals&amp;section=compressor_stereo" its:translate="no">
+                        https://lsp-plug.in/?page=manuals&amp;section=compressor_stereo
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Dynamic_range_compression" its:translate="no">
+                        https://en.wikipedia.org/wiki/Dynamic_range_compression
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

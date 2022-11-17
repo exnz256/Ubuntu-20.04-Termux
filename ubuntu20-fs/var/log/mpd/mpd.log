@@ -1,0 +1,33 @@
+Nov 11 19:17 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 11 19:17 : avahi: Failed to create client: Daemon not running
+Nov 11 19:17 : exception: Failed to open '/var/lib/mpd/state': No such file or directory
+Nov 11 19:41 : avahi: Failed to create client: Daemon not running
+Nov 11 19:41 : exception: Failed to open '/var/lib/mpd/state': No such file or directory
+Nov 11 19:41 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 12 22:43 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 12 22:43 : avahi: Failed to create client: Daemon not running
+Nov 12 22:43 : exception: Failed to open '/var/lib/mpd/state': No such file or directory
+Nov 13 17:33 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 13 17:33 : avahi: Failed to create client: Daemon not running
+Nov 13 17:33 : exception: Failed to open '/var/lib/mpd/state': No such file or directory
+Nov 13 18:14 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 13 18:14 : avahi: Failed to create client: Daemon not running
+Nov 13 18:14 : exception: Failed to open '/var/lib/mpd/state': No such file or directory
+Nov 13 19:05 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 13 19:05 : avahi: Failed to create client: Daemon not running
+Nov 13 19:05 : exception: Failed to open '/var/lib/mpd/state': No such file or directory
+Nov 13 19:10 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 13 19:10 : avahi: Failed to create client: Daemon not running
+Nov 13 19:10 : exception: Failed to open '/var/lib/mpd/state': No such file or directory
+Nov 13 19:14 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 13 19:14 : avahi: Failed to create client: Daemon not running
+Nov 13 19:14 : exception: Failed to open '/var/lib/mpd/state': No such file or directory
+Nov 14 00:25 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 14 00:25 : avahi: Failed to create client: Daemon not running
+Nov 14 00:25 : exception: Failed to open '/var/lib/mpd/state': No such file or directory
+Nov 14 16:05 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 14 16:05 : avahi: Failed to create client: Daemon not running
+Nov 14 16:05 : exception: Failed to open '/var/lib/mpd/state': No such file or directory
+Nov 15 19:42 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 19:42 : avahi: Failed to create client: Daemon not running
+Nov 15 19:42 : exception: Failed to open '/var/lib/mpd/state': No such file or directory

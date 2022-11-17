@@ -1,0 +1,512 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: audacious-plugins
+Source: https://www.audacious-media-player.org/
+
+Files: *
+Copyright: 2001-2018, Audacious development team
+           2017-2018, René J.V. Bertin
+           2017, John Lindgren and Eugene Paskevich
+           2015-2016, Róbert Čerňanský
+           2015-2016, Róbert Čerňanský and John Lindgren
+           2015, Eugene Paskevich <eugene@raptor.kiev.ua>
+           2014, Michał Lipski and William Pitcock
+           2013, Martin Steiger and John Lindgren
+           2012-2013, Luís Picciochi Oliveira <Pitxyoki@Gmail.com>
+           2011-2017, John Lindgren and René J.V. Bertin
+           2011-2012, John Lindgren, William Pitcock, and Michał Lipski
+           2011, Joachim Bengtsson
+           2010-2017, Michał Lipski and John Lindgren
+           2010-2017, John Lindgren
+           2010-2015, Michał Lipski <tallica@o2.pl>
+           2010-2014, William Pitcock
+           2010-2013, William Pitcock and John Lindgren
+           2010, Spotify AB
+           2009-2012, William Pitcock, Tomasz Moń, Michał Lipski, and John Lindgren
+           2007-2008, R. Belmont and Richard Bannister
+           2007-2008, Sascha Hlusiak <contact@saschahlusiak.de>
+           2006-2014, Giacomo Lozito, John Lindgren, and Thomas Lange
+           2006-2014, William Pitcock <nenolod@nenolod.net>
+           2005-2007, Giacomo Lozito <james@develia.org>
+           2000-2008, Richard F. Bannister
+License: BSD-2-clause
+
+Files: src/alarm/*
+       src/amidiplug/amidi-plug.cc
+       src/amidiplug/backend-fluidsynth/*
+       src/amidiplug/i_backend.h
+       src/amidiplug/i_configure-fluidsynth.cc
+       src/amidiplug/i_configure-fluidsynth.h
+       src/amidiplug/i_configure.cc
+       src/amidiplug/i_configure.h
+       src/amidiplug/i_fileinfo.cc
+       src/amidiplug/i_fileinfo.h
+       src/amidiplug/i_midi.cc
+       src/amidiplug/i_midi.h
+       src/amidiplug/i_midievent.h
+       src/aosd/*
+       src/blur_scope/*
+       src/bs2b/*
+       src/cd-menu-items/*
+       src/cue/*
+       src/ffaudio/*
+       src/filewriter/*
+       src/flac/flacng.h
+       src/flac/plugin.cc
+       src/flac/seekable_stream_callbacks.cc
+       src/flac/tools.cc
+       src/gio/*
+       src/glspectrum/gl-spectrum.cc
+       src/hotkey/*
+       src/lirc/*
+       src/m3u/*
+       src/metronom/*
+       src/mms/*
+       src/neon/*
+       src/pls/*
+       src/psf/peops/*
+       src/psf/peops2/*
+       src/pulse/pulse_audio.cc
+       src/qtglspectrum/gl-spectrum.cc
+       src/sid/*
+       src/sndfile/*
+       src/statusicon/*
+       src/tonegen/*
+       src/vorbis/*
+       src/vtx/*
+       src/xspf/*
+Copyright: 2005-2015, Audacious development team
+           2013, Christophe Budé, John Lindgren, and Carlo Bramini
+           2013, Cristian Morales Vega and Hans de Goede
+           2012, Joonas Harjumäki <jharjuma@gmail.com>
+           2012, Thomas Lange
+           2010-2013, Michał Lipski <tallica@o2.pl>
+           2009-2016, John Lindgren <john.lindgren@aol.com>
+           2009, Jussi Judin
+           2009, Sebastian Pipping <sebastian@pipping.org>
+           2009, Tony Vroon <chainsaw@gentoo.org>
+           2008, Cristi Măgherușan <majeru@gentoo.ro>
+           2008, Eugene Zagidullin <e.asphyx@gmail.com>
+           2007-2015, William Pitcock and John Lindgren
+           2007-2008, Sascha Hlusiak <contact@saschahlusiak.de>
+           2007, Daniel Bradshaw
+           2007, Michael Färber
+           2006-2010, William Pitcock, Tony Vroon, George Averill, Giacomo
+           2006-2007, Bastien Nocera
+           2006-2007, shash
+           2006-2007, Theo Berkau
+           2006-2007, Vladimir Paskov <vlado.paskov@gmail.com>
+           2006-2007, Yoshiki Yazawa
+           2006, Christian Birchinger <joker@netswarm.net>
+           2006, Evan Martin <martine@danga.com>
+           2006, The ScummVM project
+           2006, thoduv
+           2006, Torbjorn Andersson and Johannes Schickel
+           2006, William Pitcock, Tony Vroon, George Averill
+           2006, yopyop
+           2005-2014, William Pitcock <nenolod@dereferenced.org>
+           2005-2008, Marcel Holtmann
+           2005-2007, Ralf Ertzinger
+           2005-2007, Giacomo Lozito <james@develia.org>
+           2005-2006, Guillaume Duhamel
+           2004, Clemens Ladisch <clemens@ladisch.de>
+           2003-2005, M. Bakker, Nero AG, http://www.nero.com
+           2003-2004, BMP development team
+           2003, Chris Moeller, eh, whatever
+           2002-2004, Sashnov Alexander
+           2002, Gian-Carlo Pascutto <gcp@sjeng.org>
+           2002, Lars Siebold <khandha5@gmx.net>
+           2002, Pete Bernert
+           2000-2002, Erik de Castro Lopo
+           2000-2002, Ville Syrjälä <syrjala@sci.fi>
+           2000, Christoph Bartelmus <xmms@bartelmus.de>
+           2000, Martin Strauß <mys@faveve.uni-stuttgart.de>
+           1999-2009, Tecnic Software productions (TNSP)
+           1999-2002, Haavard Kvaalen <havardk@sol.no>
+           1998-2000, Peter Alm, Mikael Alm, Olle Hallnas, Thomas Nilsson
+           1998-2003, XMMS development team
+           1998-1999, Carl van Schaik <carl@leg.uct.ac.za>
+License: GPL-2+
+
+Files: src/adplug/*
+       src/console/*
+       src/ladspa/*
+Copyright: 2005-2014, Audacious development team
+           2003-2006, Chris Morgan
+           2003-2007, Shay Green
+           2002-2007, Simon Peter <dn.tlp@gmx.net>
+           2002, Brad Martin
+           2002, Jarek Burczynski
+           2002, Stéphane Dallongeville <gens@consolemul.com>
+           2000-2002, Richard W.E. Furse, Paul Barton-Davis
+           2000-2002, Richard W.E. Furse, Paul Barton-Davis, Stefan Westerfeld
+           1999-2000, Tatsuyuki Satoh , MultiArcadeMachineEmurator development
+           1998-2001, Ken Silverman
+License: LGPL-2.1+
+
+Files: src/cdaudio/cdaudio-ng.cc
+       src/skins-qt/actions-mainwin.h
+       src/skins-qt/actions-playlist.h
+       src/skins-qt/actions.cc
+       src/skins-qt/button.cc
+       src/skins-qt/button.h
+       src/skins-qt/dnd.h
+       src/skins-qt/eq-graph.cc
+       src/skins-qt/eq-graph.h
+       src/skins-qt/eq-slider.cc
+       src/skins-qt/eq-slider.h
+       src/skins-qt/equalizer.cc
+       src/skins-qt/equalizer.h
+       src/skins-qt/hslider.cc
+       src/skins-qt/hslider.h
+       src/skins-qt/main.cc
+       src/skins-qt/main.h
+       src/skins-qt/menurow.cc
+       src/skins-qt/menurow.h
+       src/skins-qt/monostereo.cc
+       src/skins-qt/monostereo.h
+       src/skins-qt/number.cc
+       src/skins-qt/number.h
+       src/skins-qt/playlist-slider.cc
+       src/skins-qt/playlist-slider.h
+       src/skins-qt/playlist-widget.cc
+       src/skins-qt/playlist-widget.h
+       src/skins-qt/playlistwin.cc
+       src/skins-qt/playlistwin.h
+       src/skins-qt/playstatus.cc
+       src/skins-qt/playstatus.h
+       src/skins-qt/plugin.cc
+       src/skins-qt/plugin.h
+       src/skins-qt/skin-ini.cc
+       src/skins-qt/skin.cc
+       src/skins-qt/skin.h
+       src/skins-qt/skins_cfg.cc
+       src/skins-qt/skins_cfg.h
+       src/skins-qt/skins_util.cc
+       src/skins-qt/skins_util.h
+       src/skins-qt/skinselector.h
+       src/skins-qt/svis.cc
+       src/skins-qt/textbox.cc
+       src/skins-qt/textbox.h
+       src/skins-qt/vis-callbacks.cc
+       src/skins-qt/vis-callbacks.h
+       src/skins-qt/vis.cc
+       src/skins-qt/vis.h
+       src/skins/*
+       src/songchange/formatter.cc
+Copyright: 2005-2015, Audacious development team
+           2009-2012, John Lindgren <john.lindgren@aol.com>
+           2009-2011, John Lindgren
+           2009, Tomasz Moń <desowin@gmail.com>
+           2008, William Pitcock
+           2007-2012, Calin Crisan <ccrisan@gmail.com>
+           2007-2008, Tomasz Moń
+           2005-2007, Audacious team
+           2003-2004, BMP development team
+           1999-2003, Haavard Kvaalen
+           1998-2003, Peter Alm, Mikael Alm, Olle Hallnas
+           Thomas Nilsson and 4Front Technologies
+           1998-2003, XMMS development team
+License: GPL-3
+
+Files: src/xsf/desmume/*
+Copyright: 2006-2007, shash
+           2006, thoduv
+           2006, yopyop <yopyop156@ifrance.com>
+           2005-2007, Theo Berkau
+           2005-2006, Guillaume Duhamel
+License: GPL-2+
+Comment: No explicit license found, using license(s) from:
+ src/xsf/desmume/COPYING
+
+Files: src/skins-qt/dock.cc
+       src/skins-qt/drag-handle.cc
+       src/skins-qt/drag-handle.h
+       src/skins-qt/menus.cc
+       src/skins-qt/menus.h
+       src/skins-qt/plugin-window.cc
+       src/skins-qt/plugin-window.h
+       src/skins-qt/skinselector.cc
+       src/skins-qt/view.cc
+       src/skins-qt/view.h
+       src/skins-qt/widget.cc
+       src/skins-qt/widget.h
+       src/skins-qt/window.cc
+       src/skins-qt/window.h
+       src/skins/dock.cc
+       src/skins/drag-handle.cc
+       src/skins/drag-handle.h
+       src/skins/menus.cc
+       src/skins/menus.h
+       src/skins/plugin-window.cc
+       src/skins/plugin-window.h
+       src/skins/skinselector.cc
+       src/skins/surface.cc
+       src/skins/surface.h
+       src/skins/view.cc
+       src/skins/view.h
+       src/skins/widget.cc
+       src/skins/widget.h
+       src/skins/window.cc
+       src/skins/window.h
+Copyright: 2003-2004, BMP Development Team
+           2009-2015, John Lindgren
+           1998-2003, XMMS Development Team
+License: GPL-2 or GPL-3
+
+Files: build-aux/*
+       src/albumart/*
+       src/aosd/ghosd-internal.h
+       src/aosd/ghosd-license
+       src/aosd/ghosd-main.c
+       src/aosd/ghosd.c
+       src/aosd/ghosd.h
+       src/cairo-spectrum/*
+       src/crystalizer/*
+       src/lyricwiki/*
+       src/mpg123/*
+       src/voice_removal/*
+Copyright: 2010-2013, John Lindgren <john.lindgren@tds.net>
+           2007-2011, William Pitcock <nenolod@dereferenced.org>
+           2007, Giacomo Lozito <james@develia.org>
+           2006, Evan Martin <martine@danga.com>
+           2005, Shay Green
+           1994, X Consortium
+License: Expat
+
+Files: src/mac-media-keys/SPInvocationGrabbing.h
+       src/mac-media-keys/SPInvocationGrabbing.m
+       src/mac-media-keys/SPMediaKeyTap.h
+       src/mac-media-keys/SPMediaKeyTap.m
+       src/psf/corlett.cc
+       src/psf/eng_psf.cc
+       src/psf/eng_psf2.cc
+       src/psf/eng_spx.cc
+       src/psf/plugin.cc
+       src/psf/psx_hw.cc
+       src/xsf/corlett.cc
+       src/xsf/plugin.cc
+Copyright: 2011, Joachim Bengtsson
+           2007-2008, R. Belmont and Richard Bannister
+           2000-2008, Richard F. Bannister
+           2010, Spotify AB
+License: BSD-3-clause
+
+Files: src/modplug/*
+Copyright: No copyright holders
+License: public-domain
+ This source code is public domain.
+Comment: A list of original authors follows:
+ Olivier Lapicque
+ Adam Goode
+ Kenton Varda
+
+Files: src/flac/metadata.cc
+       src/notify/*
+Copyright: 2010, John Lindgren
+           2011-2013, John Lindgren and Jean-Alexandre Anglès d'Auriac
+           2010-2011, John Lindgren <john.lindgren@tds.net>
+           2010, Maximilian Bogner <max@mbogner.de>
+           2010, Michał Lipski <tallica@o2.pl>
+           2005, Ralf Ertzinger
+License: GPL-3+
+
+Files: buildsys.mk.in
+       m4/*
+       src/cairo-spectrum/cairo-spectrum.cc
+       src/crystalizer/crystalizer.cc
+       src/lyricwiki-qt/lyricwiki.cc
+       src/lyricwiki/lyricwiki.cc
+       src/mpg123/mpg123.cc
+       src/voice_removal/voice_removal.cc
+Copyright: 2010-2012, John Lindgren <john.lindgren@tds.net>
+           2007-2017, Jonathan Schleifer <js@heap.zone>
+           2010-2014, William Pitcock <nenolod@dereferenced.org>
+           2008, William Pitcock <nenolod@nenolod.net>
+License: ISC
+
+Files: src/vorbis/vcedit.cc
+       src/vorbis/vcedit.h
+       src/vtx/ayemu.h
+       src/vtx/ayemu_8912.h
+       src/vtx/ayemu_vtxfile.h
+Copyright: 2000-2001, Michael Smith <msmith@labyrinth.net.au>
+           2003-2004, Sashnov Alexander
+License: LGPL-2
+
+Files: debian/*
+Copyright: 2012-2013, Alessio Treglia <alessio@debian.org>
+           2010, Benjamin Drung <bdrung@ubuntu.com>
+           2010, Chris Taylor
+           2006-2009, Adam Cécile (Le_Vert)
+License: GPL-2+
+
+License: BSD-2-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ .
+ 1. Redistributions of source code must retain the above copyright notice,
+    this list of conditions, and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright notice,
+    this list of conditions, and the following disclaimer in the documentation
+    provided with the distribution.
+ .
+ This software is provided "as is" and without any warranty, express or
+ implied. In no event shall the authors be liable for any damages arising from
+ the use of this software.
+
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ .
+ - Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+ .
+ - Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+ .
+ - Neither the names of R. Belmont and Richard Bannister nor the names of its
+   contributors may be used to endorse or promote products derived from this
+   software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+ LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: Expat
+ Permission to use, copy, modify, and/or distribute this software for
+ any purpose with or without fee is hereby granted, provided that the above
+ copyright notice and this permission notice appear in all copies.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: GPL-2
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; under version 2 of the License.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+Comment:
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses>.
+ .
+ On Debian systems, the full text of the GNU General Public License version 2
+ can be found in the file `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+Comment:
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses>.
+ .
+ On Debian systems, the full text of the GNU General Public License version 2
+ can be found in the file `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-3
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; under version 3 of the License.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+Comment:
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses>.
+ .
+ On Debian systems, the full text of the GNU General Public License version 3
+ can be found in the file `/usr/share/common-licenses/GPL-3'.
+
+License: GPL-3+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+Comment:
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses>.
+ .
+ On Debian systems, the full text of the GNU General Public License version 3
+ can be found in the file `/usr/share/common-licenses/GPL-3'.
+
+License: ISC
+ Permission to use, copy, modify, and/or distribute this software for any
+ purpose with or without fee is hereby granted, provided that the above
+ copyright notice and this permission notice appear in all copies.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+License: LGPL-2
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; version
+ 2 of the License.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+Comment:
+ You should have received a copy of the GNU Lesser General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses>.
+ .
+ On Debian systems, the full text of the GNU Lesser General Public License
+ version 2 can be found in the file `/usr/share/common-licenses/LGPL-2'.
+
+License: LGPL-2.1+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+Comment:
+ You should have received a copy of the GNU Lesser General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses>.
+ .
+ On Debian systems, the full text of the GNU Lesser General Public License
+ version 2 can be found in the file `/usr/share/common-licenses/LGPL-2'.

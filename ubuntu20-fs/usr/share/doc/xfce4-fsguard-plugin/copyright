@@ -1,0 +1,39 @@
+This package was debianized by Rudy Godoy <rudy@kernel-panik.org> on
+Tue, 01 Feb 2005 12:36:12 -0500.
+
+Upstream Authors and copyright holders:
+© 2003 Andre Lerche <a.lerche@gmx.net>
+© 2003 Benedikt Meurer <benedikt.meurer@unix-ag.uni-siegen.de>
+© 2007 Mike Massonnet <mmassonnet@xfce.org>
+
+Translations © 2003-2004 Andre Lerche <a.lerche@gmx.net> except:
+
+ca.po, hu.po, ja.po, ko.po, lt.po, pl.po, sq.po, zh_TW.po:
+  © 2003-2004 Andre Lerche <a.lerche@gmx.net>
+  © 2005 Stefan Ott <stefan@desire.ch>
+
+de.po, eu.po, fr.po: © 2005 Stefan Ott <stefan@desire.ch>.
+gl.po: © 2006 Canonical Ltd, and Rosetta Contributors 2006
+uk.po: © 2007 Dmitry Nikitin
+
+Licensing:
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.

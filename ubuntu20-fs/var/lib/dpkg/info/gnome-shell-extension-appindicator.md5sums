@@ -1,0 +1,17 @@
+5e8a77b7f2d5c52d6a6f2f3cd79f3d18  usr/share/doc/gnome-shell-extension-appindicator/AUTHORS.md
+dc6668f349974b8bb6495dfb56aaf204  usr/share/doc/gnome-shell-extension-appindicator/README.md
+94a77265793e195e2f3c34a0614e8cd3  usr/share/doc/gnome-shell-extension-appindicator/changelog.Debian.gz
+6f665d4417d7f031276a6e10128cb19f  usr/share/doc/gnome-shell-extension-appindicator/copyright
+5c88176f4031a9838e2c4127d0c6495e  usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js
+21e406d27a9964b3cedd951144979641  usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/dbusMenu.js
+6ebb8f57343e3ebcd986a4b2be7744d7  usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js
+020fee6364b07f80195acc7936ffefbf  usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/iconCache.js
+ef21ddbff76279a84ba6bc2cde6f1040  usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js
+852fd0ff5220673ce26c139eb41d05b0  usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/interfaces-xml/DBusMenu.xml
+eeca8b9048de1ff2e35b72bc90fd56ba  usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/interfaces-xml/Properties.xml
+d9d335fc28e9815f5ef89498cf759a3e  usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/interfaces-xml/StatusNotifierItem.xml
+a5bad4ba2c38f6b2f84b089e38e48c12  usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/interfaces-xml/StatusNotifierWatcher.xml
+36258d70f6dedded01f2cfdf7a661919  usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/interfaces.js
+2fe8dad607ec5c6677e69f895c6aac4a  usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/metadata.json
+dc148f07acc76db489455c1207172c85  usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js
+b3d7e55f7043f60e21f255f0d20a6934  usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/util.js

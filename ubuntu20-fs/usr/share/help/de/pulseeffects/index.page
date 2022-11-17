@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="index" xml:lang="de">
+    <info>
+        <credit type="author">
+            <name its:translate="no">Wellington Wallace</name>
+            <email its:translate="no">wellingtonwallace@gmail.com</email>
+        </credit>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>David Keller</mal:name>
+      <mal:email>davidkeller@tuta.io</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+    <title>PulseEffects</title>
+    <p>PulseEffects wendet Audioeffekte auf Pulseaudio-Anwendungen an. Du kannst Effekte auf die Ausgabe von Anwendungen oder auf dein Mikrofon anwenden, bevor die Audiodaten an eine Aufnehmende Anwendung gesendet werden.</p>
+    <section id="guides" style="2column">
+        <title>Anleitungen</title>
+    </section>
+    <section id="ui" style="2column">
+        <title>Benutzeroberfläche</title>
+    </section>
+    <section id="plugins" style="2column">
+        <title>Plugins</title>
+    </section>
+    <section id="calibration" style="2column">
+        <title>Kalibrierung</title>
+    </section>
+</page>

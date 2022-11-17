@@ -1,0 +1,51 @@
+#!/bin/sh
+set -e
+
+
+
+case "$1" in
+    purge|remove)
+
+#
+# remove obsolete directory
+# new at release 2.4.4-1
+#
+	if [ -d /usr/lib/openvpn ]; then
+	    rmdir --ignore-fail-on-non-empty /usr/lib/openvpn
+	fi
+    ;;
+
+esac
+
+# Automatically added by dh_installinit/12.10ubuntu1
+if [ "$1" = "purge" ] ; then
+	update-rc.d openvpn remove >/dev/null
+fi
+# End automatically added section
+# Automatically added by dh_installdeb/12.10ubuntu1
+dpkg-maintscript-helper rm_conffile /etc/tmpfiles.d/openvpn.conf 2.4.3-3\~ openvpn -- "$@"
+# End automatically added section
+# Automatically added by dh_installsystemd/12.10ubuntu1
+if [ "$1" = "remove" ]; then
+	if [ -x "/usr/bin/deb-systemd-helper" ]; then
+		deb-systemd-helper mask 'openvpn.service' >/dev/null || true
+	fi
+fi
+
+if [ "$1" = "purge" ]; then
+	if [ -x "/usr/bin/deb-systemd-helper" ]; then
+		deb-systemd-helper purge 'openvpn.service' >/dev/null || true
+		deb-systemd-helper unmask 'openvpn.service' >/dev/null || true
+	fi
+fi
+# End automatically added section
+# Automatically added by dh_installdebconf/12.10ubuntu1
+if [ "$1" = purge ] && [ -e /usr/share/debconf/confmodule ]; then
+	. /usr/share/debconf/confmodule
+	db_purge
+fi
+# End automatically added section
+
+
+exit 0
+

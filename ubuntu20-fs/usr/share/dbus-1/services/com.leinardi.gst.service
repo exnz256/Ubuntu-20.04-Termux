@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=com.leinardi.gst
+Exec=/usr/bin/gst --gapplication-service

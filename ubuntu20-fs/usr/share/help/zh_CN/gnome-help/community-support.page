@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="community-support" xml:lang="zh-CN">
+
+  <info>
+    <link type="guide" xref="more-help"/>
+    <desc>获得社区的帮助</desc>
+
+    <revision version="19.10" date="2019-05-11" status="review"/>
+
+    <credit type="author">
+      <name>Ubuntu 文档团队</name>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>社区支持</title>
+
+  <p>您可以从<link href="https://www.ubuntu.com/support/community-support">社区支持</link>中，找到各种来源的支持。</p>
+
+  <p><link href="https://help.ubuntu.com">help.ubuntu.com</link> 每个页面的右上角都有搜索功能。您可以在 Ubuntu 文档和支持的资源上进行自定义 Google 搜索，以更轻松地查找问题是否已得到回答。</p>
+
+  <p>您的<link href="http://loco.ubuntu.com/teams/">本地社区小组</link>可能会以您自己的语言提供支持。</p>
+
+</page>

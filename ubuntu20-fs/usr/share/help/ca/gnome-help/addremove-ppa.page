@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="addremove-ppa" xml:lang="ca">
+
+  <info>
+    <credit type="author">
+      <name>Equip de documentació de l'Ubuntu</name>
+    </credit>
+    <desc>Afegeix PPA per estendre les font que usa l'Ubuntu per a instaŀlacions i actualitzacions.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <link type="guide" xref="addremove"/>
+    <link type="seealso" xref="addremove-sources"/>
+    <revision version="18.04" date="2018-03-18" status="review"/>
+  </info>
+
+  <title>Afegiu un arxiu de paquets personal (PPA)</title>
+
+  <p>Els <em>Personal Package Archives (PPAs)</em> són repositoris de programari dissenyats per usuaris d'Ubuntu i són més fàcils d'instaŀlar que altres repositoris de tercers. Els PPA s'usen sovint per distribuir programari abans del llançament oficial perquè es pugui provar.</p>
+
+  <note style="warning">
+    <p>Afegiu només dipòsits de programari de fonts en les quals confieu.</p>
+    <p>Els dipòsits de programari de terceres parts no estan verificats en quant a la seva seguretat o fiabilitat per membres de l'Ubuntu, i poden contenir programari que pot ser danyí per al vostre ordinador.</p>
+  </note>
+
+  <steps>
+    <title>Instal·leu un PPA</title>
+    <item>
+      <p>A la pàgina de detalls dels PPA, busqueu la capçalera <gui>Afegeix aquest PPA al vostre sistema</gui>. Feu una nota sobre la ubicació del PPA, que hauríeu de ser semblant a: <code>ppa:mozillateam/firefox-next</code>.</p>
+    </item>
+    <item>
+      <p>Cliqueu la icona de l'<app>Ubuntu Software</app> a l'<gui>Acoblador</gui>, o cerqueu <input>Programari</input> a la barra de cerca <em>Activitats</em>.</p>
+    </item>
+    <item>
+      <p>Quan s'iniciï el <app>Programari de l'Ubuntu</app>, cliqueu <gui>Programari i actualitzacions</gui></p>
+    </item>
+    <item>
+      <p>Canvieu a la pestanya <gui>Altre programari</gui>.</p>
+    </item>
+    <item>
+      <p>Cliqueu <gui>Afegeix</gui> i introduïu la localització del PPA (com està anotat al pas 1).</p>
+    </item>
+    <item>
+      <p>Cliqueu <gui>Afegeix la font</gui>. Entreu la vostra contrasenya a la finestra Autentifica.</p>
+    </item>
+    <item>
+      <p>Tanqueu la finestra de <app>Programari i actualitzacions</app>. El <app>Programari de l'Ubuntu</app> comprovarà les fonts de programari per nou programari.</p>
+    </item>
+  </steps>
+
+</page>

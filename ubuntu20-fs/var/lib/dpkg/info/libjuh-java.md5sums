@@ -1,0 +1,6 @@
+ae6ef6f007f8575e5abf599a5d4247fd  usr/share/bug/libjuh-java/presubj
+c92f3a9b7fc07358987f755d5060ce80  usr/share/doc/libjuh-java/copyright
+c9b7fa82a26c0467be5ce82307c63a00  usr/share/java/juh-6.4.7.jar
+8be31c85e6486867066656ba6e5b35bf  usr/share/lintian/overrides/libjuh-java
+075c6f24054826438afd8d4358d92932  usr/share/maven-repo/org/libreoffice/juh/6.4.7/juh-6.4.7.pom
+6519b1b92025bdfc079ccebc2c12e80c  usr/share/maven-repo/org/libreoffice/juh/debian/juh-debian.pom

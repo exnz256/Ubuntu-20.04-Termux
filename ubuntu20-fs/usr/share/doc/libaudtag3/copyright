@@ -1,0 +1,146 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: audacious
+Source: https://audacious-media-player.org/
+
+Files: *
+Copyright:
+ 2005-2018 Audacious Development Team:
+           John Lindgren <john@jlindgren.net>,
+           Michał Lipski,
+           William Pitcock <nenolod@nenolod.net>,
+           George Averill <nhjm449@gmail.com>,
+           René Bertin,
+           Christian Birchinger,
+           Ralf Ertzinger,
+           Michael Färber <0102@gmx.at>,
+           Matti Hämäläinen,
+           Michael Hanselmann,
+           Jussi Judin,
+           Anders Johansson,
+           Thomas Lange,
+           Giacomo Lozito <james@develia.org>,
+           Tomasz Moń <desowin@gmail.com>,
+           Ben Tucker <ben@tucker.org>,
+           Tony Vroon <chainsaw@gentoo.org>,
+           Yoshiki Yazawa <yaz@cc.or.rim.jp>,
+           Eugene Zagidullin <e.asphyx@gmail.com>,
+           and others
+ 2003-2004 BMP Development Team
+ 1998-2003 XMMS Development Team
+License: BSD-2-clause
+
+Files: buildsys.mk.in
+Copyright: 2007—2017 Jonathan Schleifer <js@heap.zone>
+
+Files: src/libaudtag/*
+Copyright:
+ 2009-2010, Paula Stanciu,
+            John Lindgren,
+            Tony Vroon,
+            William Pitcock,
+            Mikael Magnusson,
+            Michał Lipski
+License: BSD-2-clause
+
+Files: po/*
+Copyright:
+ 2012 Ibrahim Saed <ibraheem5000@hotmail.com>
+ 2015 Rached Noureddine <rached.noureddine@gmail.com>
+ 2016 Abouzakaria Kov <zakariakov@gmail.com>
+ 2009 Darafei Praliaskouski
+ 2012—2015, 2017 Mikalai Udodau <crom-a@tut.by>
+ 2014 Aleh Mazok <mazokoleg@gmail.com>
+ 2013, 2015—2017 Радослав Иванов <reckku@gmail.com>
+ 2012, 2014—2015 Kiril Kirilov <cybercop_montana@abv.bg>
+ 2007—2008 Ernest Adrogué <eadrogue@gmx.net>
+ 2015—2016 David Surroca Estrada <david.tb303@gmail.com>
+ 2016—2018 Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>
+ 2011 Ruei-Yuan Lu <RueiYuan.Lu@gmail.com>
+ 2004 Thierry Vignaud
+ 2007—2010 Petr Písař
+ 2014, 2017 Petr Šimáček <petr.simacek@gmail.com>
+ 2016 Roman Horník <roman.hornik@debian-linux.cz>
+ 2013—2014, 2016 Joe Hansen <joedalton2@yahoo.dk>
+ 2011, 2014—2015 Thomas Lange
+ 2004 Edward Brocklesby
+ 2006 Stavros Giannouris
+ 2006 Stathis Kamperis
+ 2011—2014 Γιάννης Ανθυμίδης
+ 2006 Gustavo D. Vrangjes,
+ 2008 Jeki SInneo Leinos
+ 2007 Strahinja Kustudić
+ 2007 Diego Petteno
+ 2004 Rimas Kudelis
+ 2007 Jovan Naumovski
+ 2006 Tony Vroon
+ 2006 Wojciech Myrda
+ 2010 Luis Picciochi
+ 2007 Cristi Măgherușan
+ 2007 Alexander Orlov
+ 2007-2010 Andrej Herceg
+ 2007 Strahinja Kustudić
+ 2005 Mykola Lynnyk
+      and others
+License: BSD-2-clause
+
+Files: debian/*
+Copyright:
+ 2006—2010 Adam Cécile (Le_Vert) <gandalf@le-vert.net>
+ 2008—2009 William Pitcock <nenolod@sacredspiral.co.uk>
+ 2010 Chris Taylor <ctaylor@debian.org>
+ 2010 Benjamin Drung <bdrung@ubuntu.com>
+ 2012—2014 Alessio Treglia <alessio@debian.org>
+ 2014, 2015 Sebastian Ramacher <sebastian@ramacher.at>
+ 2014, 2016 Andrej Shadura <andrewsh@debian.org>
+ 2015—2017 Mateusz Łukasik <mati75@linuxmint.pl>
+ 2016, 2017 Nicholas D Steeves <nsteeves@gmail.com>
+ 2017 Mattia Rizzolo <mattia@debian.org>
+License: BSD-2-clause
+
+License: BSD-2-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ .
+ 1. Redistributions of source code must retain the above copyright notice,
+    this list of conditions, and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright notice,
+    this list of conditions, and the following disclaimer in the documentation
+    provided with the distribution.
+ .
+ This software is provided "as is" and without any warranty, express or
+ implied. In no event shall the authors be liable for any damages arising from
+ the use of this software.
+
+Files: src/libguess/guess.scm
+ src/libguess/guess_impl.c
+ src/libguess/libguess.h
+Copyright: 2000-2003, Shiro Kawai
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ .
+ 3. Neither the name of the authors nor the names of its contributors
+    may be used to endorse or promote products derived from this
+    software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED
+ TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+ LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+

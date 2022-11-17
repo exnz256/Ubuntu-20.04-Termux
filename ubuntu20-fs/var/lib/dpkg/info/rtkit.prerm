@@ -1,0 +1,20 @@
+#!/bin/sh
+
+set -e
+
+# Automatically added by dh_installsystemd/12ubuntu1
+if [ -d /run/systemd/system ] && [ "$1" = remove ]; then
+	deb-systemd-invoke stop 'rtkit-daemon.service' >/dev/null || true
+fi
+# End automatically added section
+# Automatically added by dh_installdeb/12ubuntu1
+dpkg-maintscript-helper rm_conffile /etc/dbus-1/system.d/org.freedesktop.RealtimeKit1.conf 0.12-1\~ rtkit -- "$@"
+# End automatically added section
+
+
+if [ "$1" = "remove" ] ; then
+	# don't prevent uninstallation if stopping fails (eg, no dbus daemon)
+	rtkitctl --exit 2>/dev/null || true
+fi
+
+exit 0

@@ -1,0 +1,2 @@
+# versioned so name
+libadplug-2.3.1-0: dev-pkg-without-shlib-symlink usr/lib/*/libadplug-*.so.*

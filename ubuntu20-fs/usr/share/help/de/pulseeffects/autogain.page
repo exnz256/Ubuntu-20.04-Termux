@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="autogain" xml:lang="de">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>David Keller</mal:name>
+      <mal:email>davidkeller@tuta.io</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+    <title>Automatische Verstärkungsregelung</title>
+    <p>Die automatische Verstärkung von PulseEffects basiert auf der Bibliothek libebur128. Sie verändert die Audiolautstärke auf einen empfundenen Lautheitspegel, der vom Benutzer eingestellt werden kann.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Ziel</em>
+            </title>
+            <p>Lautheitsgrad.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Zurücksetzen</em>
+            </title>
+            <p>Setzt den Verlauf der automatischen Verstärkung zurück.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Stille erkennen</em>
+            </title>
+            <p>Wenn die momentane Lautstärke unter der relativen Lautstärke liegt, nehmen wir an, dass das Audiomaterial einen kurzen Moment der Stille durchläuft und keine Änderungen an der Ausgangsverstärkung vorgenommen werden. Wird dieses Verhalten nicht gewünscht, kann die Stille-Erkennung deaktiviert werden.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Geometrisches Mittel nutzen</em>
+            </title>
+            <p>Die geschätzte Lautheit ergibt sich aus dem geometrischen Mittel der momentanen, kurzfristigen und integrierten Lautheit. Wenn diese Option deaktiviert ist, wird ein gewichteter Mittelwert verwendet.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Momentan</em>
+            </title>
+            <p>Steuert, wie stark der momentane Wert die Schätzung des Lautheitspegels beeinflusst.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Kurzfristig</em>
+            </title>
+            <p>Steuert, wie stark der kurzfristige Wert die Abschätzung des Lautheitspegels beeinflusst.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Integriert</em>
+            </title>
+            <p>Steuert, wie stark der integrierte Wert die Abschätzung des Lautheitspegels beeinflusst.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Relativ</em>
+            </title>
+            <p>Relativer Schwellenwert. Er wird verwendet, um Stille zu erkennen. Immer wenn der momentane Wert unter diesem Schwellwert liegt, werden Änderungen der Ausgangsverstärkung deaktiviert.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Lautstärke</em>
+            </title>
+            <p>Geschätzte Eingangslautstärke. Die Differenz zwischen seinem Wert und der Soll-Lautheit bestimmt die Ausgangsverstärkung.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Umfang</em>
+            </title>
+            <p>Lautstärkebereich. Zeigt an, wie groß der Dynamikbereich des Materials ist.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Verstärkung</em>
+            </title>
+            <p>Wert der Ausgangsverstärkung. Das Eingangssignal wird mit dieser Korrekturverstärkung multipliziert, um seine Lautstärke auf den Sollwert zu bringen.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Referenzen</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://tech.ebu.ch/loudness#tab" its:translate="no">https://tech.ebu.ch/loudness#tab</link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

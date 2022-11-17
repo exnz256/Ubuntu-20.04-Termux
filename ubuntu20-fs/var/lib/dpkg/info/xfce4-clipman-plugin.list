@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/lib
+/usr/lib/aarch64-linux-gnu
+/usr/lib/aarch64-linux-gnu/xfce4
+/usr/lib/aarch64-linux-gnu/xfce4/panel
+/usr/lib/aarch64-linux-gnu/xfce4/panel/plugins
+/usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libclipman.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/xfce4-clipman-plugin
+/usr/share/doc/xfce4-clipman-plugin/copyright
+/usr/share/xfce4
+/usr/share/xfce4/panel
+/usr/share/xfce4/panel/plugins
+/usr/share/xfce4/panel/plugins/xfce4-clipman-plugin.desktop
+/usr/share/doc/xfce4-clipman-plugin/changelog.Debian.gz

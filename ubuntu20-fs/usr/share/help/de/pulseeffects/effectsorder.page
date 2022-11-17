@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="effectsorder" style="2column" xml:lang="de">
+    <info>
+        <link type="guide" xref="index#ui"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>David Keller</mal:name>
+      <mal:email>davidkeller@tuta.io</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+    <title>Reihenfolge der Effekte ändern</title>
+    <media type="image" src="figures/effectsorder.png" its:translate="no"/>
+    <p>Du kannst die Reihenfolge der Plugins in der Effektkette ändern. Klicke einfach auf die Auf- und Abwärts-Pfeile neben dem Plugin-Namen. Das erste Plugin von oben nach unten ist das erste, das das Audiosignal empfängt.</p>
+</page>

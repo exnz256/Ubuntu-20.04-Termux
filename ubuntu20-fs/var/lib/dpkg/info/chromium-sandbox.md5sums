@@ -1,0 +1,5 @@
+28f9d86c9ca3e40b0c122304f9661b75  usr/lib/chromium/chrome-sandbox
+2b38df758ceaf0a57db7359c76de8e9f  usr/share/doc/chromium-sandbox/NEWS.Debian.gz
+230218956b4de9784db3902eeadf1f78  usr/share/doc/chromium-sandbox/changelog.Debian.gz
+bf8f67dd899c1baa860c9eab3dd998b9  usr/share/doc/chromium-sandbox/copyright
+37ebcb9bb2199cbec7f7edb108fdef5c  usr/share/lintian/overrides/chromium-sandbox

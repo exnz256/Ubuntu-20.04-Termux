@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="autogain" xml:lang="pt-BR">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    </info>
+    <title>Ganho Automático</title>
+    <p>O ganho automático de PulseEffects é baseado na biblioteca libebur128. Ele altera o volume do áudio para um nível de intensidade percebido que pode ser ajustado pelo usuário.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Alvo</em>
+            </title>
+            <p>Nível de Sonoridade.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Resetar</em>
+            </title>
+            <p>Redefinir histórico do ganho automático.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Detectar Silêncio</em>
+            </title>
+            <p>Quando o volume momentâneo está abaixo do relativo, assumimos que o material de áudio está passando por um breve momento de silêncio e nenhuma alteração é aplicada ao ganho de saída. Se você não deseja esse comportamento, desative a detecção de silêncio.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Use Geometric Mean</em>
+            </title>
+            <p>The estimated loudness is obtained from the geometric mean of the momentary, short-term and integrated loudness. When this option is disabled a weighted average is used.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Momentâneo</em>
+            </title>
+            <p>Controla o quanto a estimativa de sonoridade será influenciada pelo termo momentâneo.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Curto Prazo</em>
+            </title>
+            <p>Controla o quanto a estimativa de sonoridade será influenciada pelo termo de curto prazo.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Integrada</em>
+            </title>
+            <p>Controla o quanto a estimativa de sonoridade será influenciada pelo termo integrado.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Relativo</em>
+            </title>
+            <p>Limiar relativo. É usado para detectar o silêncio. Sempre que o termo momentâneo estiver abaixo deste limite as modificações no ganho de saída serão desativadas.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Sonoridade</em>
+            </title>
+            <p>Sonoridade de entrada estimada. A diferença entre seu valor e a sonoridade alvo determina o ganho de saída.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Alcance</em>
+            </title>
+            <p>Intervalo de sonoridade. Indica quão grande é a faixa dinâmica do material.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Ganho</em>
+            </title>
+            <p>Valor do ganho de saída. O sinal de entrada será multiplicado por este ganho de correção para trazer sua sonoridade para o valor alvo.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Referências</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://tech.ebu.ch/loudness#tab" its:translate="no">https://tech.ebu.ch/loudness#tab</link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

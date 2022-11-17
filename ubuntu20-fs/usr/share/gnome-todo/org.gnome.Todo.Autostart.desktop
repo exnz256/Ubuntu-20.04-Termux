@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Exec=gapplication action org.gnome.Todo start-client
+NoDisplay=True
+X-Ubuntu-Gettext-Domain=gnome-todo

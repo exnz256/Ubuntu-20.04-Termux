@@ -1,0 +1,2 @@
+# False positive
+libamd2: library-not-linked-against-libc usr/lib/*/libamd.so.2.*

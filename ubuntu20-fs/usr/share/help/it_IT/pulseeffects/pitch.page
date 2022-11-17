@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="pitch" xml:lang="it-IT">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Digitalone</mal:name>
+      <mal:email>kurmikon@libero.it</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+    <title>Pitch</title>
+    <p>Il cambio di intonazione (pitch in inglese) è una tecnica di registrazione del suono in cui il tono originale viene aumentato o diminuito.</p>
+    <p>PulseEffects usa il plugin Pitch ideato da RubberBand.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Più Veloce</em>
+            </title>
+            <p/>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Preserva Formato</em>
+            </title>
+            <p>Abilita la preservazione del formato durante il cambio di intonazione.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Centesimi</em>
+            </title>
+            <p>Numero di centesimi in base al quale l'intonazione verrà aumentata o diminuita.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Semitoni</em>
+            </title>
+            <p>Numero di semitoni in base al quale l'intonazione verrà aumentata o diminuita.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Ottave</em>
+            </title>
+            <p>Numero di ottave in base al quale l'intonazione verrà aumentata o diminuita.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Chiarezza</em>
+            </title>
+            <list type="none">
+                <item>
+                    <p>0 - Disabilita la risincronizzazione di fase nei transitori, la laminazione di fase e utilizza una finestra di elaborazione più lunga.</p>
+                </item>
+                <item>
+                    <p>1 - Utilizza un rilevatore di transitori morbido, disabilita la laminazione di fase e utilizza una finestra di elaborazione più lunga.</p>
+                </item>
+                <item>
+                    <p>2 - Disabilita la risincronizzazione di fase nei transitori e la laminazione di fase.</p>
+                </item>
+                <item>
+                    <p>3 - Disabilita la risincronizzazione di fase nei transitori.</p>
+                </item>
+            </list>
+        </item>
+    </terms>
+    <section>
+        <title>Note</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Pitch_shift" its:translate="no">
+                        https://en.wikipedia.org/wiki/Pitch_shift
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://breakfastquay.com/rubberband/" its:translate="no">
+                        https://breakfastquay.com/rubberband/
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://breakfastquay.com/rubberband/usage.txt" its:translate="no">
+                        https://breakfastquay.com/rubberband/usage.txt
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

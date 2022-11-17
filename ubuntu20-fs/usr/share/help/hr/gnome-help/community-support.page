@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="community-support" xml:lang="hr">
+
+  <info>
+    <link type="guide" xref="more-help"/>
+    <desc>Potražite pomoć od zajednice</desc>
+
+    <revision version="19.10" date="2019-05-11" status="review"/>
+
+    <credit type="author">
+      <name>Tim Ubuntu dokumentacije</name>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>Podrška zajednice</title>
+
+  <p>Možete pronaći pomoć iz raznih izvora koji su spomenuti i povezani s <link href="https://www.ubuntu.com/support/community-support"> Podrškom zajednice</link>.</p>
+
+  <p>Svaka stranica na <link href="https://help.ubuntu.com">help.ubuntu.com</link> ima značajku pretraživanja pri vrhu desno. Dopušta vam prilagođenu Google pretragu Ubuntu dokumentacije i resursa podrške na webu, u svrhu lakšeg pronalaska ako je na vaše pitanje već odgovoreno.</p>
+
+  <p>Podrška na vašem jeziku može biti pružena kod vašeg <link href="http://loco.ubuntu.com/teams/">Tima lokalne zajednice</link>.</p>
+
+</page>

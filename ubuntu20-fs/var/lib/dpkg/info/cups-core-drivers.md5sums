@@ -1,0 +1,5 @@
+2885855c3f2aafa5f5e14f5c08fc265a  usr/lib/cups/filter/commandtops
+d6edd6791573f44d245af3d308a0751e  usr/lib/cups/filter/gziptoany
+7388ad3b049263adb14823e15893ae8b  usr/lib/cups/filter/pstops
+c7298c1d661a7793548529d2dc9cf573  usr/share/cups/mime/mime.convs
+d81aa881cde029be56cf5b160a713242  usr/share/doc/cups-core-drivers/copyright

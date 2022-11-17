@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Directory
+Name=Administration
+Comment=Change system-wide settings (affects all users)
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=preferences-system
+X-Ubuntu-Gettext-Domain=gnome-menus-3.0

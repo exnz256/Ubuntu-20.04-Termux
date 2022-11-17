@@ -1,0 +1,13 @@
+[Plugin]
+Name = Unscheduled Panel
+Module = unscheduled-panel
+Description = Adds a panel to show unscheduled tasks
+Version = 3.28.1
+Authors = Georges Basile Stavracas Neto <gbsneto@gnome.org>
+Copyright = Copyleft © The To Do maintainers
+Website = https://wiki.gnome.org/Apps/Todo
+Builtin = false
+Hidden = false
+License = GPL
+Loader = python3
+Depends =

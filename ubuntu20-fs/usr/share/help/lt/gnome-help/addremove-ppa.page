@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="addremove-ppa" xml:lang="lt">
+
+  <info>
+    <credit type="author">
+      <name>Ubuntu documentacijos komanda</name>
+    </credit>
+    <desc>Pridėdami kitų tiekėjų asmenines paketų saugyklas (PPA) išplėsite įdiegti ar atnaujinti galimų programų kiekį.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <link type="guide" xref="addremove"/>
+    <link type="seealso" xref="addremove-sources"/>
+    <revision version="18.04" date="2018-03-18" status="review"/>
+  </info>
+
+  <title>Pridėti kitų tiekėjų (privačias) paketų saugyklas (PPA)</title>
+
+  <p><em>Privačios paketų saugyklos (PPA)</em> - tai programinės įrangos saugyklos sukurtos specialiai Ubuntu naudotojams, jas naudoti yra paprasčiau ir saugiau nei kitų tiekėjų siūlomas saugyklas. PPA saugyklos dažnai yra naudojamos platinti naujausią programinę įrangą, kuri dar nėra įdėta į oficialias Ubuntu programų saugyklas.</p>
+
+  <note style="warning">
+    <p>Pridėkite tik patikimas programinės įrangos saugyklas!</p>
+    <p>Kitų tiekėjų programinės įrangos saugyklos nėra tikrinamos Ubuntu kūrėjų dėl saugumo spragų bei patikimumo, todėl čia gali būti jūsų kompiuteriui pavojingų programų.</p>
+  </note>
+
+  <steps>
+    <title>Norėdami pridėti Privačią paketų saugyklą (PPA)</title>
+    <item>
+      <p>PPA saugyklos puslapyje internete (pvz. <link href="https://launchpad.net/~baltix/+archive/ubuntu/ppa">launchpad.net/~baltix/+archive</link>) raskite antraštę <gui>Adding this PPA to your system</gui>. Įsidėmėkite arba nusikopijuokite PPA: adresą (žr. pastorintą tekstą), jis atrodo taip: <code>ppa:baltix/ppa</code>.</p>
+    </item>
+    <item>
+      <p>Spustelėkite ant <app>„Programų centras“</app> (<app>Programinė įranga</app>) leistuko <gui>Skydelyje</gui> arba ieškokite įvesdami <input>program</input> <em>Apžvalgos</em> paieškoje.</p>
+    </item>
+    <item>
+      <p>Susiraskite <app>Programų saugyklos, atnaujinimai</app> įrankyje <app>Programinė įranga</app> arba per <em>Apžvalgos</em> paiešką</p>
+    </item>
+    <item>
+      <p>Pereikite į <gui>Kitos programų saugyklos</gui> kortelę.</p>
+    </item>
+    <item>
+      <p>Spustelėkite mygtuką <gui>Pridėti...</gui> ir įveskite PPA adresą (pvz. ppa:baltix/ppa).</p>
+    </item>
+    <item>
+      <p>Paspauskite mygtuką <gui>Pridėti saugyklą</gui>. Jei paprašys patvirtinti tapatybę - įveskite savo arba administravimo teises turinčio naudotojo slaptažodį.</p>
+    </item>
+    <item>
+      <p>Užverkite <app>Programos, atnaujinimai, saugyklos</app> langą. Tada <app>Programų centras</app> patikrins ir atsiųs naujai prieinamų programų sąrašą iš saugyklų.</p>
+    </item>
+  </steps>
+
+</page>

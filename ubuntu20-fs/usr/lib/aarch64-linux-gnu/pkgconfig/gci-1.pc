@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib/aarch64-linux-gnu
+datadir=/usr/share
+includedir=/usr/include
+
+Name: libgcalc
+Description: GNOME Calculator Libray GTK Interface
+URL: http://live.gnome.org/
+Version: 3.36.0
+Requires: gcalc-2 >= 3.34 gtk+-3.0 > 3.19.3
+Libs: -L${libdir} -lgci-1
+Cflags: -I${includedir}/gci-1

@@ -1,0 +1,39 @@
+# StarLite Mk II
+[797f8bae-0ea2-4c0f-8a30-7d10ccfacbc0]
+Flags = no-ux-capsule
+
+# StarLite Mk III
+[d9d7b13b-e4db-4f91-8bf6-8952a9caa82a]
+Flags = no-ux-capsule
+
+# Silicom Minnowboard Turbot D0/D1 PLATFORM
+[386c2f52-44ec-55d3-b802-47631bfb8451]
+Flags = uefi-force-enable
+
+# Lenovo
+[6de5d951-d755-576b-bd09-c5cf66b27234]
+Flags = supports-boot-order-lock,use-legacy-bootmgr-desc,no-ux-capsule,no-lid-closed
+
+# Lenovo ThinkPad X1 Yoga 4th
+[1138930e-8df1-5ae0-b946-7b0d9c9b4a79]
+Flags = no-coalesce
+
+# Lenovo ThinkPad X1 Carbon 5th
+[595a0c1a-9819-52f6-8ea7-e0924c073f64]
+Flags = no-coalesce
+
+# Lenovo ThinkPad X1 Carbon 7th
+[30ddbc9b-8200-5581-8dfd-6bb26e2e42d7]
+Flags = no-coalesce
+
+# Lenovo ThinkPad T460s
+[90706264-e399-575b-a9fb-077ead03b9b4]
+Flags = no-coalesce
+
+# Dynabook (né Toshiba) X30, X40
+[28108d08-5027-42c2-a5b8-92d6ede9b97b]
+VersionFormat = bcd
+
+# HP Dev One
+[9f7962c7-7d0e-473d-8a01-c168912f1f14]
+Flags = no-ux-capsule

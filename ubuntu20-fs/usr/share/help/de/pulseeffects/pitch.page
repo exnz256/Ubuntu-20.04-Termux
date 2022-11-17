@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="pitch" xml:lang="de">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>David Keller</mal:name>
+      <mal:email>davidkeller@tuta.io</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+    <title>Tonhöhe</title>
+    <p>Die Tonhöhenverschiebung ist eine Tonaufnahmetechnik, bei der die ursprüngliche Tonhöhe eines Tons angehoben oder abgesenkt wird.</p>
+    <p>PulseEffects verwendet den Tonhöhenschieber von RubberBand.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Schneller</em>
+            </title>
+            <p/>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Formant erhalten</em>
+            </title>
+            <p>Aktiviere die Formanterhaltung beim Verschieben der Tonhöhe.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Cent</em>
+            </title>
+            <p>Anzahl der Cents, um die die Tonhöhe erhöht oder verringert wird.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Halbtöne</em>
+            </title>
+            <p>Anzahl der Halbtöne, um die die Tonhöhe erhöht oder verringert wird.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Oktaven</em>
+            </title>
+            <p>Anzahl der Oktaven, um die die Tonhöhe erhöht oder verringert wird.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Klarheit</em>
+            </title>
+            <list type="none">
+                <item>
+                    <p>0 - Deaktivieren der Phasenresynchronisation bei Transienten, Phasenlaminierung und Verwendung eines längeren Verarbeitungsfensters.</p>
+                </item>
+                <item>
+                    <p>1 - Verwenden eines weichen Transientendetektors, deaktivieren der Phasenlaminierung und verwenden eines längeren Verarbeitungsfensters.</p>
+                </item>
+                <item>
+                    <p>2 - Deaktivieren der Phasenresynchronisation bei Transienten und Phasenlaminierung.</p>
+                </item>
+                <item>
+                    <p>3 - Deaktivieren der Phasenresynchronisation bei Transienten.</p>
+                </item>
+            </list>
+        </item>
+    </terms>
+    <section>
+        <title>Referenzen</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Pitch_shift" its:translate="no">
+                        https://en.wikipedia.org/wiki/Pitch_shift
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://breakfastquay.com/rubberband/" its:translate="no">
+                        https://breakfastquay.com/rubberband/
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://breakfastquay.com/rubberband/usage.txt" its:translate="no">
+                        https://breakfastquay.com/rubberband/usage.txt
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

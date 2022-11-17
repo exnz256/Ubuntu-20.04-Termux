@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="enableapp" style="2column" xml:lang="pt-BR">
+    <info>
+        <link type="guide" xref="index#ui"/>
+    </info>
+    <title>Habilitar ou Desabilitar uma Aplicação</title>
+    <media type="image" src="figures/enableapp.png" its:translate="no"/>
+    <p>Você pode escolher quais aplicativos têm efeitos aplicados por meio do interruptor ao lado de seu nome. Se você sempre quiser aplicar efeitos a todos os aplicativos, dê uma olhada em <link xref="general#title_enable_all_apps" its:withinText="yes">Enable All Applications</link>.</p>
+</page>

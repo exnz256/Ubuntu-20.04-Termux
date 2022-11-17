@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="enableapp" style="2column" xml:lang="de">
+    <info>
+        <link type="guide" xref="index#ui"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>David Keller</mal:name>
+      <mal:email>davidkeller@tuta.io</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+    <title>Eine Anwendung aktivieren oder deaktivieren</title>
+    <media type="image" src="figures/enableapp.png" its:translate="no"/>
+    <p>Man kann wählen, bei welchen Programmen die Effekte angewendet werden, indem man den Schalter neben dem Namen des Programms betätigt. Wenn die Effekte immer auf alle Anwendungen angewendet werden sollen, schaue dir <link xref="general#title_enable_all_apps" its:withinText="yes">Alle Anwendungen aktivieren</link> an.</p>
+</page>

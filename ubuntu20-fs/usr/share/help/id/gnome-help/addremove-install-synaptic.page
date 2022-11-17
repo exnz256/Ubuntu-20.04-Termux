@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="addremove-install-synaptic" xml:lang="id">
+
+  <info>
+    <credit type="author">
+      <name>Tim Dokumentasi Ubuntu</name>
+    </credit>
+
+		<credit type="editor">
+      <name>Greg Beam</name>
+      <email>ki7mt@yahoo.com</email>
+    </credit>
+
+    <link type="guide" xref="addremove"/>
+    <revision pkgversion="0.80.4" version="0" date="2014-01-11" status="review"/>
+                <revision version="18.04" date="2018-03-18" status="review"/>
+                <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Synaptic adalah alternatif manajemen perangkat lunak yang kuat namun rumit untuk <app>Perangkat Lunak Ubuntu</app>.</desc>
+  </info>
+
+  <title>Gunakan Synaptic untuk manajemen perangkat lunak yang lebih canggih</title>
+
+  <p><app>Synaptic Package Manager</app> lebih kuat dan dapat melakukan beberapa tugas manajemen perangkat lunak yang <app>Perangkat Lunak Ubuntu</app> tidak bisa. Antarmuka Synaptic yang lebih rumit dan tidak mendukung fitur lebih baru miliki <app>Perangkat Lunak Ubuntu</app> seperti peringkat dan ulasan dan karena itu tidak dianjurkan untuk digunakan oleh mereka yang baru mengenal Ubuntu.</p>
+
+  <p>Synaptic tidak diinstal secara default, tetapi Anda dapat <link href="apt:synaptic">menginstalnya</link> dari arsip paket Ubuntu.</p>
+
+  <section id="install-software-with-synaptic">
+    <title>Menginstal perangkat lunak dengan Synaptic</title>
+    <steps>
+      <item>
+        <p>Buka <app>Synaptic</app> melalui bilah pencarian <em>Activities</em>. Anda akan perlu untuk memasukkan kata sandi Anda di jendela <gui>Autentikasi</gui>.</p>
+      </item>
+      <item>
+        <p>Klik <gui>Cari</gui> untuk mencari aplikasi, atau klik <gui>Bagian</gui> dan lihat melalui kategori untuk menemukan sesuatu.</p>
+      </item>
+      <item>
+        <p>Klik kanan aplikasi yang ingin Anda instal dan pilih <gui>Tandai untuk Instalasi</gui>.</p>
+      </item>
+      <item>
+        <p>Jika Anda diminta untuk menandai perubahan tambahan, klik <gui>Tandai</gui>.</p>
+      </item>
+      <item>
+        <p>Pilih aplikasi lain yang ingin Anda instal.</p>
+      </item>
+      <item>
+        <p>Klik <gui>Terapkan</gui>, dan kemudian klik <gui>Terapkan</gui> di jendela yang muncul. Aplikasi yang Anda pilih akan diunduh dan diinstal.</p>
+      </item>
+    </steps>
+
+    <p>Untuk informasi lebih lanjut tentang menggunakan <app>Synaptic</app>, baca <link href="https://help.ubuntu.com/community/SynapticHowto">Cara Memakai Synaptic</link>.</p>
+
+  </section>
+
+</page>

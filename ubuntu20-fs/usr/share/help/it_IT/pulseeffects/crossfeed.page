@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="crossfeed" xml:lang="it-IT">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Digitalone</mal:name>
+      <mal:email>kurmikon@libero.it</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+    <title>Crossfeed</title>
+    <p>PulseEffects usa il plugin Crossfeed di GStreamer. Questo plugin si basa sulla libreria bs2b e può essere utilizzato per migliorare l'ascolto dell'audio stereo tramite le cuffie. Il suo funzionamento consiste nel mescolare i due canali in modo che venga simulato l'ascolto dell'audio tramite un altoparlante mentre si utilizzano le cuffie.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Taglio</em>
+            </title>
+            <p>Frequenza di taglio del filtro passa basso.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Alimentazione</em>
+            </title>
+            <p>Quantità del segnale di uno specifico canale da inviare all'altro.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Note</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Crossfeed" its:translate="no">
+                        https://en.wikipedia.org/wiki/Crossfeed
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="http://bs2b.sourceforge.net/" its:translate="no">
+                        http://bs2b.sourceforge.net/
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://gstreamer.freedesktop.org/data/doc/gstreamer/head/gst-plugins-bad/html/gst-plugins-bad-plugins-bs2b.html" its:translate="no">
+                        https://gstreamer.freedesktop.org/data/doc/gstreamer/head/gst-plugins-bad/html/gst-plugins-bad-plugins-bs2b.html
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

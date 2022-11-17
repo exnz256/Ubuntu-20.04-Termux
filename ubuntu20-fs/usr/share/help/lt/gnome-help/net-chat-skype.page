@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="net-chat-skype" xml:lang="lt">
+  <info>
+    <link type="guide" xref="net-chat" group="#last"/>
+    <link type="seealso" xref="net-chat-video"/>
+
+    <revision version="18.04" date="2018-03-19" status="review"/>
+
+    <credit type="author">
+      <name>Ubuntu documentacijos komanda</name>
+    </credit>
+
+    <desc><app>Skype</app> yra nuosavybinė programa, todėl jos nėra standartinėse Ubuntu programų saugyklose - jūs turite ją įdiegti pats.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>Kaip įdiegti Skype programą į Ubuntu operacinę sistemą?</title>
+
+  <p>
+    <app>Skype</app> is proprietary software that allows you to make calls over
+    the Internet using your computer.
+  </p>
+
+  <p>
+    Skype uses decentralized peer-to-peer technologies, so your calls do not go
+    through a central server, but through distributed servers and other users.
+  </p>
+
+  <p>Nors Skype yra nemokama programa, tačiau ji nėra laisva programinė įranga, jos kodas yra uždaras ir todėl jos negali pataisyti ar patobulinti  Ubuntu kūrėjai.</p>
+
+  <p>Skype nėra standartinėse Ubuntu programų saugyklose - norėdami įdiegti <app>Skype for Linux</app> sekite instrukcijomis žemiau:</p>
+
+  <list type="disc">
+
+    <item><p>Paleiskite interneto naršyklė ir nueikite į <link href="https://www.skype.com/get-skype/">Atsisiųsti Skype</link> puslapį.</p></item>
+
+    <item><p>Spustelėkite <gui>Get Skype for Linux DEB</gui> mygtuką.</p></item>
+
+    <item><p>Atsivėrusiame failo atvėrimo lange spustelėkite ant <gui>atverti programa</gui> ir pasirinkite<gui>Programinės įrangos diegimas (numatytoji)</gui>, tuomet spustelėkite <gui>Gerai</gui>.</p></item>
+
+    <item><p>Atsidarys <app>„Programų centras“</app>. Spustelėkite <gui>Įdiegti</gui> mygtuką ir patvirtinkite tapatybę įvesdami naudotojo slaptažodį.</p></item>
+
+  </list>
+
+</page>

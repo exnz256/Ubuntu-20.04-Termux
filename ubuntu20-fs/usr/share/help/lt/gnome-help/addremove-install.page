@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="addremove-install" xml:lang="lt">
+
+  <info>
+    <credit type="author">
+      <name>Ubuntu documentacijos komanda</name>
+    </credit>
+    <desc>Naudokite <app>„Programų centras“</app> arba <app>Programinė įranga</app> įrankį papildomų programų įdiegimui - pritaikykite operacinę sistemą savo poreikiams.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <link type="guide" xref="addremove" group="#first"/>
+    <link type="seealso" xref="addremove-remove"/>
+    <link type="seealso" xref="addremove-install-synaptic"/>
+    <link type="seealso" xref="prefs-language-install"/>
+    <revision version="18.04" date="2018-03-18" status="review"/>
+  </info>
+
+  <title>Įdiegti papildomas programas</title>
+
+  <p>Ubuntu kūrėjai parinko naudingiausias programas kasdieniniams darbams ir pateikia jas kartu su operacine sistema. Tačiau Jūs tikrai  norėsite įdiegti daugiau programų, kad pritaikyti operacinę sistemą savo poreikiams. Programinės įrangos įdiegimui galite naudoti <app>„Programų centras“</app> (<app>Programinė įranga</app>) arba <app>„Programų paketų tvarkytuvė“</app>.</p>
+
+   <p>Programos gali būti pateikiamos dviem formatais: <em>snap</em> paketuose (tinka visoms Linux šeimos OS) bei Debian paketuose (.deb, tinka tik Debian/Ubuntu pagrindu sukurtoms OS). Dalis programų pateikiama abiem formatais - tokiu atveju <app>„Programų centras“</app> (<app>Programinė įranga</app>) rodys <em>snap</em> paketą pirmiau.</p>
+
+   <p>Jums gali prireikti įdiegti programinę įrangą kuri neturi grafinės sąsajos, pvz. specialių archyvų išskleidimui. Tokios programinės įrangos įdiegimui naudokite „Paketų tvarkytuvę“, pvz. <link xref="addremove-install-synaptic">Synaptic</link> arba komandą <input>apt</input>. Tik atminkite - <app>Synaptic</app> bei <input>apt</input> įrankiai skirti patyrusiems ir nepalaiko <em>snap</em> paketų.</p>
+
+  <p>Programinės įrangos įdiegimui:</p>
+
+  <steps>
+    <item>
+      <p>Spustelėkite ant <app>„Programų centras“</app> (<app>Programinė įranga</app>) leistuko <gui>Skydelyje</gui> arba ieškokite įvesdami <input>program</input> <em>Apžvalgos</em> paieškoje.</p>
+    </item>
+    <item>
+      <p>Atsivėrus <app>Programų centro</app> langui ieškokite norimos programos pagal jos aprašymo raktinius žodžius arba pasirinkite kategoriją ir susiraskite tinkamiausias programas iš sąrašo.</p>
+    </item>
+    <item>
+      <p>Paspaudę ant norimos įdiegti programos spustelėkite mygtuką <gui>Įdiegti</gui>.</p>
+    </item>
+    <item>
+      <p>Jūsų paprašys patvirtinti tapatybę - įveskite savo (arba programų įdiegimo teises turinčio naudotojo) slaptažodį. Įvedus tinkamą slaptažodį bus pradėtas programų diegimas. Įdiegimas įprastai trunka neilgai, nebent pasirinkote daug vietos užimančią programą arba jūsų interneto ryšys yra lėtas.</p>
+
+    </item>
+
+  </steps>
+  
+</page>

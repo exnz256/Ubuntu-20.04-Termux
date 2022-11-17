@@ -1,0 +1,6 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb/12.10ubuntu1
+dpkg-maintscript-helper rm_conffile /etc/xdg/autostart/im-launch-wayland.desktop 0.43-1\~ im-config -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/profile.d/input-method-config.sh 0.43-1ubuntu1\~ im-config -- "$@"
+# End automatically added section

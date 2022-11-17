@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg6688" width="256" height="128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata id="metadata6693">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(0 -924.36)">
+  <g id="g6371" transform="translate(-44.658 888.32)">
+   <path id="path6373" d="m159.58 77.103-0.125 38.295" style="fill:none;stroke-linecap:round;stroke-width:10;stroke:#000"/>
+   <path id="path6375" d="m178.02 83.249-7.25 32.148" style="fill:none;stroke-linecap:round;stroke-width:10;stroke:#000"/>
+   <path id="path17660-7" d="m189.22 71.725c-2.1325 0-4.1157 0.6393-5.7812 1.7187-1.6141-0.9851-3.5019-1.5625-5.5312-1.5625-5.8818 0-10.656 4.7744-10.656 10.656 0 5.8819 4.7744 10.656 10.656 10.656 2.1419 0 4.1424-0.6306 5.8125-1.7187 1.6064 0.9717 3.4856 1.5312 5.5 1.5312 0.28386 0 0.56549-0.0407 0.84375-0.0625 1.1715 4.6091 5.3076 8.0313 10.281 8.0313 5.8818 0 10.656-4.7745 10.656-10.656s-4.7744-10.656-10.656-10.656c-0.28141 0-0.53658 0.0411-0.8125 0.0626-1.1756-4.6032-5.3431-8-10.312-8z" style="color:#000000;fill:none;stroke-linecap:round;stroke-width:6;stroke:#000"/>
+   <path id="path6377" d="m189.33 83.072-7.25 32.325" style="fill:none;stroke-linecap:round;stroke-width:10;stroke:#000"/>
+   <path id="path6379" d="m200.29 91.734-7.25 23.663" style="fill:none;stroke-linecap:round;stroke-width:10;stroke:#000"/>
+   <path id="path6381" d="m148.32 106.74v22.451h9.5459v-6.0104h-7.6014" style="color:#000000;fill:none;stroke-linecap:round;stroke-width:10;stroke:#000"/>
+   <rect id="rect6383" x="159.45" y="112.39" width="33.588" height="16.794" rx="1.2327" ry="1.2327" style="color:#000000;stroke-linecap:round;stroke-width:10;stroke:#000"/>
+   <path id="path17660-1" transform="matrix(.56053 0 0 .56053 72.822 11.877)" d="m152.79 134.32c-10.472-0.66641-18.421-9.6961-17.755-20.168 0.66641-10.472 9.6961-18.421 20.168-17.755 7.827 0.49807 14.544 5.7541 16.909 13.232" style="color:#000000;fill:none;stroke-linecap:round;stroke-width:7.1361;stroke:#000"/>
+  </g>
+ </g>
+</svg>

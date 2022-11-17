@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="numeric-keypad" xml:lang="id">
+
+  <info>
+    <link type="guide" xref="keyboard"/>
+    <desc>Fungsikan keypad numerik secara baku.</desc>
+
+    <revision version="18.04" date="2018-03-19" status="review"/>
+
+    <credit type="author">
+      <name>Tim Dokumentasi Ubuntu</name>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>Keypad numerik</title>
+
+  <p>Dengan tombol <key>Num Lock</key>, Anda dapat mengaktifkan atau menonaktifkan keypad numerik secara manual pada papan tik. Juga, pengaturan BIOS komputer sering punya pilihan untuk memutuskan apakah komputer harus dimulai dengan keypad numerik diaktifkan. Jika tidak, ini adalah cara untuk mengkonfigurasinya:</p>
+
+  <steps>
+    <item>
+      <p><link href="apt:numlockx">Instal</link> paket <em>numlockx</em>.</p>
+    </item>
+    <item>
+      <p>Open <app><link xref="startup-applications">Startup Applications</link></app>
+      and add a startup program with the command: <cmd>numlockx on</cmd></p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Langkah kedua mungkin redundan pada komputer Anda, jadi cobalah tanpa itu terlebih dahulu.</p>
+  </note>
+
+</page>

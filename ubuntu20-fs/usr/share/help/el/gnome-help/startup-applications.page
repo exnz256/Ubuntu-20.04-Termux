@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="startup-applications" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="shell-overview#apps"/>
+    <link type="guide" xref="prefs"/>
+    <desc>Επιλέξτε ποιες εφαρμογές θα εκκινούνται όταν συνδέεστε.</desc>
+
+    <revision version="18.04" date="2018-03-19" status="review"/>
+
+    <credit type="author">
+      <name>Ομάδα τεκμηρίωσης Ubuntu</name>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>Εφαρμογές εκκίνησης</title>
+
+  <p>Μπορείτε να διαμορφώσετε ποιες εφαρμογές θα εκκινούνται κατά τη σύνδεση, επιπλέον των προεπιλεγμένων εφαρμογών εκκίνησης που έχουν ρυθμιστεί στο σύστημα.</p>
+
+  <steps>
+    <item>
+      <p>Ανοίξτε τις <gui>Εφαρμογές εκκίνησης</gui> μέσω της επισκόπησης στις <gui xref="shell-introduction#activities">Δραστηριότητες</gui>. Εναλλακτικά μπορείτε να πατήσετε <keyseq><key>Alt</key><key>F2</key></keyseq> και να εκτελέσετε την εντολή <cmd>gnome-session-properties</cmd>.</p>
+    </item>
+    <item>
+      <p>Πατήστε <gui>Προσθήκη</gui> και εισάγετε την εντολή που θα εκτελείται κατά τη σύνδεση (το όνομα και ένα σχόλιο είναι προαιρετικά. Για παράδειγμα, αν θέλετε να κάνετε το Firefox να ξεκινάει αυτόματα, είναι αρκετό να πληκτρολογήσετε <cmd>firefox</cmd> στο πεδίο <gui>Εντολή</gui> και να επιβεβαιώσετε με <gui>Προσθήκη</gui>.</p>
+    </item>
+  </steps>
+
+  <note>
+    <p>Μπορείτε είτε να πληκτρολογήσετε την εντολή ή να πατήσετε στο κουμπί <gui>Περιήγηση...</gui> και να επιλέξετε μια εντολή. Οι εφαρμογές για αυτόματη εκκίνηση είναι συνήθως στο φάκελο <code>/usr/bin</code>.</p>
+  </note>
+
+</page>

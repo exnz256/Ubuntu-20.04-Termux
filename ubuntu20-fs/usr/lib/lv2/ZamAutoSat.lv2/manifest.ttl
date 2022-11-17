@@ -1,0 +1,15 @@
+@prefix lv2:  <http://lv2plug.in/ns/lv2core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ui:   <http://lv2plug.in/ns/extensions/ui#> .
+
+<urn:zamaudio:ZamAutoSat>
+    a lv2:Plugin ;
+    lv2:binary <ZamAutoSat_dsp.so> ;
+    rdfs:seeAlso <ZamAutoSat_dsp.ttl> .
+
+<urn:zamaudio:ZamAutoSat#UI>
+    a ui:X11UI ;
+    ui:binary <ZamAutoSat_ui.so> ;
+    rdfs:seeAlso <ZamAutoSat_ui.ttl> .
+
+

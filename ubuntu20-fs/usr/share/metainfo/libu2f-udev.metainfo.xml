@@ -1,0 +1,19 @@
+<component>
+  <id>libu2f-udev</id>
+  <metadata_license>LGPL-2.1+</metadata_license>
+  <name>libu2f-udev</name>
+  <summary>Provide user access to U2F devices</summary>
+  <description>
+    <p>
+      Libu2f is a package for doing Universal 2nd Factor (U2F) host
+      communication and has functionality for the Registration and
+      Authentication operations.
+    </p>
+    <p>
+      This package provides the udev rules file required to support U2F devices.
+    </p>
+  </description>
+  <provides>
+    
+  <modalias>usb:v1050p0113d*</modalias><modalias>usb:v1050p0114d*</modalias><modalias>usb:v1050p0115d*</modalias><modalias>usb:v1050p0116d*</modalias><modalias>usb:v1050p0120d*</modalias><modalias>usb:v1050p0200d*</modalias><modalias>usb:v1050p0402d*</modalias><modalias>usb:v1050p0403d*</modalias><modalias>usb:v1050p0406d*</modalias><modalias>usb:v1050p0407d*</modalias><modalias>usb:v1050p0410d*</modalias><modalias>usb:v2581pF1D0d*</modalias><modalias>usb:v1E0DpF1D0d*</modalias><modalias>usb:v1E0DpF1AEd*</modalias><modalias>usb:v096Ep0880d*</modalias><modalias>usb:v2CCFp0880d*</modalias><modalias>usb:v096Ep0850d*</modalias><modalias>usb:v096Ep0852d*</modalias><modalias>usb:v096Ep0853d*</modalias><modalias>usb:v096Ep0854d*</modalias><modalias>usb:v096Ep0856d*</modalias><modalias>usb:v096Ep0858d*</modalias><modalias>usb:v096Ep085Ad*</modalias><modalias>usb:v096Ep085Bd*</modalias><modalias>usb:v096Ep085Dd*</modalias><modalias>usb:v24DCp0101d*</modalias><modalias>usb:v24DCp0501d*</modalias><modalias>usb:v10C4p8ACFd*</modalias><modalias>usb:v1A44p00BBd*</modalias><modalias>usb:v2ABEp1002d*</modalias><modalias>usb:v1EA8pF025d*</modalias><modalias>usb:v20A0p4287d*</modalias><modalias>usb:v18D1p5026d*</modalias><modalias>usb:v0483pCDABd*</modalias><modalias>usb:v0483pA2CAd*</modalias><modalias>usb:v1209p5070d*</modalias><modalias>usb:v1209p50B0d*</modalias><modalias>usb:v534Cp0001d*</modalias><modalias>usb:v1209p53C1d*</modalias><modalias>usb:v2C97p0001d*</modalias><modalias>usb:v2C97p0004d*</modalias><modalias>usb:v06CBp0088d*</modalias><modalias>usb:v4C4DpF703d*</modalias></provides>
+</component>

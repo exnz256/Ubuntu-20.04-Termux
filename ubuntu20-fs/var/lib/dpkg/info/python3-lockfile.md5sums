@@ -1,0 +1,17 @@
+430f3ddb7caca88a16a247c3952f03f1  usr/lib/python3/dist-packages/lockfile-0.12.2.egg-info/PKG-INFO
+68b329da9893e34099c7d8ad5cb9c940  usr/lib/python3/dist-packages/lockfile-0.12.2.egg-info/dependency_links.txt
+68b329da9893e34099c7d8ad5cb9c940  usr/lib/python3/dist-packages/lockfile-0.12.2.egg-info/not-zip-safe
+5f120bcdc05eaa4e326537e7431c8e46  usr/lib/python3/dist-packages/lockfile-0.12.2.egg-info/pbr.json
+606c03311ebc38bc48d8436ba5f695cb  usr/lib/python3/dist-packages/lockfile-0.12.2.egg-info/top_level.txt
+b788ceb517f4b160953bcf369eaeada2  usr/lib/python3/dist-packages/lockfile/__init__.py
+e9baba57603ef66a53578c6e146ec107  usr/lib/python3/dist-packages/lockfile/linklockfile.py
+66c2bf05f563bed4d0fe7331c11092a9  usr/lib/python3/dist-packages/lockfile/mkdirlockfile.py
+02331dd40d0fb9a86cb0e76e08183e4c  usr/lib/python3/dist-packages/lockfile/pidlockfile.py
+2f72dcab147f59c8c80294f0fde5087a  usr/lib/python3/dist-packages/lockfile/sqlitelockfile.py
+5497e0fadcb2016d937c4452add2d70e  usr/lib/python3/dist-packages/lockfile/symlinklockfile.py
+8c525945d4d8ad678966a6f82dd15b2f  usr/share/doc/python3-lockfile/ACKS
+b0656ccea790c3e7b5d3b944209d1a70  usr/share/doc/python3-lockfile/AUTHORS
+fc6e02f72887d36ed0f51a84186a088e  usr/share/doc/python3-lockfile/NEWS.Debian.gz
+2f5e47c8cf134534954cb06715552c74  usr/share/doc/python3-lockfile/README.rst
+7a027ee0e68687e6abcc50a5f3be4273  usr/share/doc/python3-lockfile/changelog.Debian.gz
+ae095346268941cfec653041518acf06  usr/share/doc/python3-lockfile/copyright

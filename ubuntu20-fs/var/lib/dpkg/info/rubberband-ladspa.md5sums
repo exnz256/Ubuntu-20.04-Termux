@@ -1,0 +1,5 @@
+638e35d2947429696a39a1678bee5aba  usr/lib/ladspa/ladspa-rubberband.cat
+a33414eb02510367f481c036434e2652  usr/lib/ladspa/ladspa-rubberband.so
+ce55e41f8f4cbc1c667bd2db2f76172f  usr/share/doc/rubberband-ladspa/changelog.Debian.gz
+dc920695d49211f4da4555408c06d54b  usr/share/doc/rubberband-ladspa/copyright
+8e3128daf680e5a7824ba823dfe1788f  usr/share/ladspa/rdf/ladspa-rubberband.rdf

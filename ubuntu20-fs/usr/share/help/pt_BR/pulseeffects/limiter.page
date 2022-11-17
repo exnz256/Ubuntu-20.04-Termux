@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="limiter" xml:lang="pt-BR">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    </info>
+    <title>Limitador</title>
+    <p>Um limitador permite que os sinais abaixo de uma potência de entrada especificada ou nível passem sem serem afetados enquanto atenua (abaixa) os picos de sinais mais fortes que excedem esse limite.</p>
+    <p>PulseEffects usa o limitador desenvolvido por Calf Studio.</p>
+    <title>Limitador</title>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Ganho de Entrada</em>
+            </title>
+            <p>Aumenta o volume antes que ele seja enviado ao estágio de compressão.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Limite</em>
+            </title>
+            <p>Nenhum sinal acima deste nível passará pelo limitador.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Lookahead</em>
+            </title>
+            <p>O Limitador alcançará seu nível de atenuação neste período de tempo (a saída será atrasada duas vezes neste momento).</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Liberação</em>
+            </title>
+            <p>Pare a atenuação após esta quantidade de milissegundos.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Oversampling</em>
+            </title>
+            <p>Aumenta a amostragem do sinal para detectar melhor os picos. A taxa de amostragem é reduzida após o processamento.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">ASC</em>
+            </title>
+            <p>Quando a redução de ganho é sempre necessária, o ASC se encarrega de liberar para um nível médio de redução em vez de atingir uma redução de 0 no tempo de liberação.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Nível de ASC</em>
+            </title>
+            <p>Selecione o quanto o tempo de liberação é afetado pelo ASC, 0 significa quase nenhuma mudança no tempo de liberação enquanto 1 produz tempos de liberação mais altos.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Referências</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Limiter" its:translate="no">
+                        https://en.wikipedia.org/wiki/Limiter
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://calf-studio-gear.org/doc/Limiter.html" its:translate="no">
+                        https://calf-studio-gear.org/doc/Limiter.html
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

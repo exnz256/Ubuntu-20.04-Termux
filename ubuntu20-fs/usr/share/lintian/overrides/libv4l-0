@@ -1,0 +1,2 @@
+libv4l-0: package-name-doesnt-match-sonames libv4l1-0 libv4l2-0
+libv4l-0: library-not-linked-against-libc usr/lib/i386-linux-gnu/libv4l/v4l1compat.so

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="crystalizer" xml:lang="pt-BR">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    </info>
+    <title>Cristalizador</title>
+    <p>Este plugin pode ser usado para adicionar um pouco de faixa dinâmica a músicas que foram excessivamente compactadas</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Modo Agressivo</em>
+            </title>
+            <p>Quando esta opção é ativada, amplificação dependente da amplitude da amostra será aplicada ao sinal. Tome cuidado para não saturar o próximo plugin na cadeia de processamento.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Intensidades</em>
+            </title>
+            <p>Quanto maior o valor, maior é a diferença de magnitude entre os sons mais altos e os mais quietos. Você pode configurar intensidades diferentes para cada banda de frequência.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Ignorar</em>
+            </title>
+            <p>Quando ativo, o sinal de áudio que passa por esta banda não será modificado.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Mudo</em>
+            </title>
+            <p>Silencia a banda.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Referências</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Dynamic_range" its:translate="no">
+                        https://en.wikipedia.org/wiki/Dynamic_range
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

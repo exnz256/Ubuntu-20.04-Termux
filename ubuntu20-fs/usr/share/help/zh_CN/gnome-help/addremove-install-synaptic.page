@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="addremove-install-synaptic" xml:lang="zh-CN">
+
+  <info>
+    <credit type="author">
+      <name>Ubuntu 文档团队</name>
+    </credit>
+
+		<credit type="editor">
+      <name>Greg Beam</name>
+      <email>ki7mt@yahoo.com</email>
+    </credit>
+
+    <link type="guide" xref="addremove"/>
+    <revision pkgversion="0.80.4" version="0" date="2014-01-11" status="review"/>
+                <revision version="18.04" date="2018-03-18" status="review"/>
+                <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Synaptic 是 <app>Ubuntu 软件</app> 强大而复杂的软件管理替代品。</desc>
+  </info>
+
+  <title>使用新立得进行更高级的软件管理</title>
+
+  <p><app>新立得软件包管理器</app>功能更强大，可以执行<app> Ubuntu 软件中心</app>无法执行的某些软件管理任务。新立得的界面更为复杂，不支持<app> Ubuntu软件</app>的新功能（例如评分和评论），因此不建议Ubuntu的新手使用。</p>
+
+  <p>新立得默认情况下没有安装，但是您可以从 Ubuntu 软件中心里<link href="apt:synaptic">安装</link>。</p>
+
+  <section id="install-software-with-synaptic">
+    <title>使用新立得安装软件</title>
+    <steps>
+      <item>
+        <p>在<em>活动</em>视图的搜索栏里，搜索<app> Synaptic </app>。 您需要在<gui>认证</gui>窗口中输入密码。</p>
+      </item>
+      <item>
+        <p><app>新立得</app> 打开时，单击<gui>搜索</gui>搜索应用程序，或单击<gui>组别</gui>，浏览类别以查找。</p>
+      </item>
+      <item>
+        <p>右键单击您想要安装的应用程序，并选择<gui>标记以便安装</gui>。</p>
+      </item>
+      <item>
+        <p>如果提示您标记其他修改，请单击<gui>标记</gui>。</p>
+      </item>
+      <item>
+        <p>选择您想要安装的其他应用程序。</p>
+      </item>
+      <item>
+        <p>单击<gui>应用</gui>，然后在出现的窗口中单击<gui>应用</gui>。您选择的应用程序将下载并安装。</p>
+      </item>
+    </steps>
+
+    <p>关于使用 <app>新立得(Synaptic)</app> 的更多详细信息，请访问 <link href="https://help.ubuntu.com/community/SynapticHowto">如何使用新立得</link>。</p>
+
+  </section>
+
+</page>

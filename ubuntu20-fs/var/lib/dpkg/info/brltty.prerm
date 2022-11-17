@@ -1,0 +1,17 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installsystemd/12.9ubuntu1
+if [ -d /run/systemd/system ] && [ "$1" = remove ]; then
+	deb-systemd-invoke stop 'brltty-udev.service' 'brltty.service' >/dev/null || true
+fi
+# End automatically added section
+# Automatically added by dh_installsystemd/12.9ubuntu1
+if [ -d /run/systemd/system ] && [ "$1" = remove ]; then
+	deb-systemd-invoke stop 'brltty-udev.service' >/dev/null || true
+fi
+# End automatically added section
+# Automatically added by dh_installsystemd/12.9ubuntu1
+if [ -d /run/systemd/system ] && [ "$1" = remove ]; then
+	deb-systemd-invoke stop 'brltty.service' >/dev/null || true
+fi
+# End automatically added section

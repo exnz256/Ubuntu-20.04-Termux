@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=Rygel
+GenericName=UPnP/DLNA Services
+# Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+Keywords=mediaserver;mediarenderer;share;audio;video;pictures;
+Exec=rygel
+Terminal=false
+Type=Application
+NoDisplay=true
+StartupNotify=true
+X-GNOME-Autostart-enabled=true
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=Rygel
+X-GNOME-Bugzilla-Component=general
+X-GNOME-Bugzilla-Version=0.38.3
+X-Ubuntu-Gettext-Domain=rygel

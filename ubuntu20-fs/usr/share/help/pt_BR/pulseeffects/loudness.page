@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="loudness" xml:lang="pt-BR">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    </info>
+    <title>Sonoridade</title>
+    <p>PulseEffects usa o plugin de sonoridade do MDA.LV2. O ouvido é menos sensível às baixas frequências quando escuta com volume baixo. Este plugin é baseado nos contornos de volume iguais do Stevens-Davis e permite que o nível de graves seja ajustado para simular ou corrigir este efeito.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Sonoridade</em>
+            </title>
+            <p>Nível de origem relativo ao nível de audição (com base em um nível máximo de 100 dB SPL).</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Saída</em>
+            </title>
+            <p>Mudar nível de saída.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Elo</em>
+            </title>
+            <p>Ajusta automaticamente a saída para manter um equilíbrio tonal consistente em todos os níveis.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Referências</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Loudness" its:translate="no">
+                        https://en.wikipedia.org/wiki/Loudness
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="http://mda.smartelectronix.com/vst/help/loudness.htm" its:translate="no">
+                        http://mda.smartelectronix.com/vst/help/loudness.htm
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

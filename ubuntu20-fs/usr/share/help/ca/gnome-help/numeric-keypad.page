@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="numeric-keypad" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="keyboard"/>
+    <desc>Habilita el teclat numèric per defecte.</desc>
+
+    <revision version="18.04" date="2018-03-19" status="review"/>
+
+    <credit type="author">
+      <name>Equip de documentació de l'Ubuntu</name>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>Teclat numèric</title>
+
+  <p>Amb la tecla <key>Num Lock</key>, podeu habilitar i deshabilitar el teclat numèric en el vostre teclat. Així mateix, els arranjaments de les BIOS dels ordinadors inclouen sovint una opció per decidir si l'ordinador s'ha d'engegar amb el teclat numèric habilitat. Sinó, aquesta és una manera de configurar-lo:</p>
+
+  <steps>
+    <item>
+      <p><link href="apt:numlockx">Instaŀleu</link> el paquet <em>numlockx</em>.</p>
+    </item>
+    <item>
+      <p>Obriu <app><link xref="startup-applications">Aplicacions a l'inici</link></app> i afegiu-hi un programa d'inici amb la comanda: <cmd>numlockx on</cmd>.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>La segona passa pot ser redundant al vostre ordinador, així que proveu sense aquesta primer.</p>
+  </note>
+
+</page>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="limiter" xml:lang="de">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>David Keller</mal:name>
+      <mal:email>davidkeller@tuta.io</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+    <title>Limiter</title>
+    <p>Ein Limiter lässt Signale unter einer bestimmten Eingangsleistung oder einem bestimmten Pegel unbeeinflusst passieren, während die Spitzen stärkerer Signale, die diesen Schwellenwert überschreiten, gedämpft (abgesenkt) werden.</p>
+    <p>PulseEffects verwendet den Limiter von Calf Studio.</p>
+    <title>Limiter</title>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Eingabeverstärkung</em>
+            </title>
+            <p>Erhöht die Tonlautstärke, bevor der Ton in die Kompressionsstufe geschickt wird.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Grenze</em>
+            </title>
+            <p>Kein Signal oberhalb dieses Pegels wird den Limiter passieren.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Ausblick</em>
+            </title>
+            <p>Der Limiter erreicht in dieser Zeit seinen Dämpfungspegel (die Ausgabe wird in dieser Zeit zweimal verzögert).</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Ausklingzeit</em>
+            </title>
+            <p>Stoppt die Dämpfung nach dieser Anzahl an Millisekunden.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Überabtastung</em>
+            </title>
+            <p>Erhöht die Signalabtastung zur besseren Erkennung der Signalspitzen. Das Signal wird nach der Verarbeitung heruntergesampelt.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">ASC</em>
+            </title>
+            <p>Wenn die Amplitudenreduktion immer benötigt wird, kümmert sich ASC darum, dass die Freigabe auf einen mittleren Reduzierungspegel erfolgt, anstatt eine Reduzierung von 0 in der Freigabezeit zu erreichen.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">ASC-Pegel</em>
+            </title>
+            <p>Wähle aus, wie stark die Ausklangszeit durch ASC beeinflusst wird, 0 bedeutet nahezu keine Veränderung der Ausklangszeit, während 1 höhere Ausklangszeiten erzeugt.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Referenzen</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Limiter" its:translate="no">
+                        https://en.wikipedia.org/wiki/Limiter
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://calf-studio-gear.org/doc/Limiter.html" its:translate="no">
+                        https://calf-studio-gear.org/doc/Limiter.html
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

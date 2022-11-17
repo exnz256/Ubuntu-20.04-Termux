@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="userpresets" style="2column" xml:lang="de">
+    <info>
+        <link type="guide" xref="index#ui"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>David Keller</mal:name>
+      <mal:email>davidkeller@tuta.io</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+    <title>Erstellen und Importieren von Benutzer-Presets</title>
+    <media type="image" src="figures/userpresets.png" its:translate="no"/>
+    <p>Du kannst deine eigenen Voreinstellungen speichern. Gebe einfach einen Namen ein und klicke auf den Hinzufügen Knopf. Presets können mit einem Klick auf den Button links importiert werden.</p>
+    <p>Wird ein Preset gespeichert, wird die aktuelle Konfiguration aller Plugins in dessen Datei gespeichert. Das bedeutet, dass du Voreinstellungen haben kannst, die die Effekte verschiedener Plugins kombinieren.</p>
+    <p>Du kannst auch ein Preset erstellen, das automatisch geladen wird, wenn ein Ein- oder Ausgabegerät zum System hinzugefügt wird. Klicke einfach auf die Schaltfläche mit den geschwungenen Pfeilen, während das gewünschte Gerät als Standardgerät des Systems ausgewählt ist.</p>
+</page>

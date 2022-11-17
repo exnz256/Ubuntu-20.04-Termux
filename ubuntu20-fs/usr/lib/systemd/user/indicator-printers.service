@@ -1,0 +1,8 @@
+[Unit]
+Description=Indicator Printers Service
+PartOf=graphical-session.target
+After=indicators-pre.target
+
+[Service]
+ExecStart=/usr/lib/aarch64-linux-gnu/indicator-printers/indicator-printers-service
+Restart=on-failure

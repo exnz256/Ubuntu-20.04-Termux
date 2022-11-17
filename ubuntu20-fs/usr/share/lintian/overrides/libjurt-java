@@ -1,0 +1,1 @@
+libjurt-java: classpath-contains-relative-path usr/share/java/jurt.jar: ridl.jar unoloader.jar ../../lib/ /usr/lib/ure/lib/ ../bin/

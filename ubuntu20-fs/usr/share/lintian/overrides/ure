@@ -1,0 +1,1 @@
+ure: classpath-contains-relative-path usr/share/java/java_uno.jar: jurt.jar ridl.jar ../../lib/ ../bin/

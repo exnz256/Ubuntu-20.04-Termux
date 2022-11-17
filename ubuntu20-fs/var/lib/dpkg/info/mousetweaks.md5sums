@@ -1,0 +1,14 @@
+fee2b29ead95f5ed6f98d6a68999461e  usr/bin/mousetweaks
+318f9fb145dbf5f64e330420e5850991  usr/share/GConf/gsettings/mousetweaks.convert
+c80e812c21fcbb26adaf2906c2db4379  usr/share/doc/mousetweaks/NEWS.gz
+e19d9ad1c3cea63ad3d98e10acc8f013  usr/share/doc/mousetweaks/README
+53d0d688f79257102bbe26c2f5e2c1fa  usr/share/doc/mousetweaks/changelog.Debian.gz
+d30e730729dbd52b0006c9e7b5f7ddcc  usr/share/doc/mousetweaks/copyright
+f4b32d9309e10ef5ad9cd1cd3eb71923  usr/share/glib-2.0/schemas/org.gnome.mousetweaks.enums.xml
+116217da25546769a02e4e60b8032af2  usr/share/glib-2.0/schemas/org.gnome.mousetweaks.gschema.xml
+b0014c8718cc87e807a8bfdf6c45aaf1  usr/share/man/man1/mousetweaks.1.gz
+6933a0eeb81c4ad80ca834f2f1fe231d  usr/share/mousetweaks/double-click.png
+49c9797bdfaf1b06a3581ff066b68a48  usr/share/mousetweaks/drag-click.png
+8ddebe97ca3773edcc5ee439edc85435  usr/share/mousetweaks/mousetweaks.ui
+f98072dbde2b669baa985e40f8ddf005  usr/share/mousetweaks/right-click.png
+1227acdfa13f74ea10b4f118294db861  usr/share/mousetweaks/single-click.png

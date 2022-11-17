@@ -1,0 +1,35 @@
+{
+    "seeded": {
+        "core18": {
+            "from_channel": "stable",
+            "to_channel": "stable",
+            "metapkg": "ubuntu-desktop"
+        },
+        "gnome-3-34-1804": {
+            "metapkg": "ubuntu-desktop"
+        },
+        "gtk-common-themes": {
+            "metapkg": "ubuntu-desktop"
+        },
+        "snap-store": {
+            "deb": "gnome-software",
+            "metapkg": "ubuntu-desktop"
+        }
+    },
+    "unseeded": {
+        "gnome-3-28-1804": {
+        },
+        "gnome-calculator": {
+            "deb": "gnome-calculator",
+            "metapkg": "ubuntu-desktop"
+        },
+        "gnome-characters": {
+            "deb": "gnome-characters",
+            "metapkg": "ubuntu-desktop"
+        },
+        "gnome-logs": {
+            "deb": "gnome-logs",
+            "metapkg": "ubuntu-desktop"
+        }
+    }
+}

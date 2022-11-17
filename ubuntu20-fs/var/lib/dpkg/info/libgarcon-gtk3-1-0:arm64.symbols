@@ -1,0 +1,15 @@
+libgarcon-gtk3-1.so.0 libgarcon-gtk3-1-0 #MINVER#
+ garcon_gtk_menu_get_menu@Base 0.6.0
+ garcon_gtk_menu_get_right_click_edits@Base 0.6.0
+ garcon_gtk_menu_get_show_desktop_actions@Base 0.6.0
+ garcon_gtk_menu_get_show_generic_names@Base 0.6.0
+ garcon_gtk_menu_get_show_menu_icons@Base 0.6.0
+ garcon_gtk_menu_get_show_tooltips@Base 0.6.0
+ garcon_gtk_menu_get_type@Base 0.6.0
+ garcon_gtk_menu_new@Base 0.6.0
+ garcon_gtk_menu_set_menu@Base 0.6.0
+ garcon_gtk_menu_set_right_click_edits@Base 0.6.0
+ garcon_gtk_menu_set_show_desktop_actions@Base 0.6.0
+ garcon_gtk_menu_set_show_generic_names@Base 0.6.0
+ garcon_gtk_menu_set_show_menu_icons@Base 0.6.0
+ garcon_gtk_menu_set_show_tooltips@Base 0.6.0

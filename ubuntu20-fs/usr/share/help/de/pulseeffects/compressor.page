@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="compressor" xml:lang="de">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>David Keller</mal:name>
+      <mal:email>davidkeller@tuta.io</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+    <title>Kompressor</title>
+    <p>Ein Kompressor wird verwendet, um den Dynamikbereich des Audiosignals zu reduzieren.</p>
+    <p>PulseEffects verwendet den Kompressor von Linux Studio Plugins.</p>
+    <section>
+        <terms>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Anstiegszeit</em>
+                </title>
+                <p>Die Anstiegszeit bestimmt, wie viele Millisekunden (ms) der Kompressor benötigt, um eine volle Dosis an Kompression auf das Audiosignal anzuwenden, sobald es die Schwelle passiert hat. Wenn das Signal über der Schwelle einen Spitzenwert erreicht und schnell wieder unter die Schwelle zurückkehrt, erhält es möglicherweise nie die volle Dosis an Kompression.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Ausklingzeit</em>
+                </title>
+                <p>Die Ausklingzeit bestimmt, wie viele Millisekunden (ms) der Kompressor benötigt, um die Abschwächung der Verstärkung zu beenden, sobald das Audiosignal unter die Schwelle fällt. Eine schnelle Ausklingzeit bewirkt, dass der Kompressor die Abschwächung der Verstärkung schnell beendet, sobald das Signal wieder unter die Schwelle fällt. Eine langsame Ausklingzeit bewirkt, dass der Kompressor die Abschwächung der Verstärkung langsam beendet, sobald das Signal wieder unter die Schwelle fällt.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Schwelle</em>
+                </title>
+                <p>Wenn ein Signal diesen Pegel überschreitet, löst es die Kompressionsstufe aus.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Verhältnis</em>
+                </title>
+                <p>Setze das Verhältnis, bei welchem das Signal reduziert wird.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Übergang</em>
+                </title>
+                <p>Regelt, wie sanft der Eintritt in die Phase der Amplitudenreduktion erfolgt.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Hebung</em>
+                </title>
+                <p>Es verstärkt das Signal nach der Verarbeitung.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Kompressionsmodus</em>
+                </title>
+                <list>
+                    <item>
+                        <p><em style="strong">Abwärts</em> - Verringert die Amplitude der Signalabschnitte, die über dem Schwellwert liegen.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">Aufwärts</em> - Erhöht die Amplitude der Signalabschnitte, die unter dem Schwellwert liegen.</p>
+                    </item>
+                </list>
+            </item>
+        </terms>
+    </section>
+    <section>
+        <title>Sidechain</title>
+        <terms>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Zuhören</em>
+                </title>
+                <p>Ermöglicht das Abhören des bearbeiteten Sidechain-Signals.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Typ</em>
+                </title>
+                <list>
+                    <item>
+                        <p><em style="strong">Feed-forward</em> - Der Sidechain-Eingang wird mit dem Eingang des Kompressors verbunden. Aggressivere Kompression.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">Feed-back</em> - Der Sidechain-Eingang wird mit dem Ausgang des Kompressors verbunden. Eine genauere Kompression im Vintage-Stil.</p>
+                    </item>
+                </list>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Modus</em>
+                </title>
+                <list>
+                    <item>
+                        <p><em style="strong">Hochpunkt</em> - Misst die Signalspitzen.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">RMS</em> - Quadratischer Mittelwert des Eingangssignals.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">Tiefenpass</em> - Das Eingangssignal wird mit einem Tiefpassfilter bearbeitet.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">Einheitlich</em> - Das Eingangssignal wird durch einen Einheitsfilter bearbeitet.</p>
+                    </item>
+                </list>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Quelle</em>
+                </title>
+                <list>
+                    <item>
+                        <p><em style="strong">Mitte</em> - Der mittlere Teil des Signals wird für die Sidechain-Verarbeitung verwendet.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">Seite</em> - Der seitliche Teil des Signals wird für die Sidechain-Verarbeitung verwendet.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">Links</em> - Der linke Teil des Signals wird für die Sidechain-Verarbeitung verwendet.</p>
+                    </item>
+                    <item>
+                        <p><em style="strong">Rechts</em> - Der rechte Teil des Signals wird für die Sidechain-Verarbeitung verwendet.</p>
+                    </item>
+                </list>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Vorverstärkung</em>
+                </title>
+                <p>Vorverstärkung des Sidechain-Signals.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Reaktivität</em>
+                </title>
+                <p>Reaktivität des Sidechain-Signals.</p>
+            </item>
+            <item>
+                <title>
+                    <em style="strong" its:withinText="nested">Ausblick</em>
+                </title>
+                <p>Vorlaufzeit der Sidechain relativ zum Eingangssignal.</p>
+            </item>
+        </terms>
+    </section>
+    <section>
+        <title>Referenzen</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://www.blackghostaudio.com/blog/the-ultimate-guide-to-compression" its:translate="no">
+                        https://www.blackghostaudio.com/blog/the-ultimate-guide-to-compression
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://lsp-plug.in/?page=manuals&amp;section=compressor_stereo" its:translate="no">
+                        https://lsp-plug.in/?page=manuals&amp;section=compressor_stereo
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Dynamic_range_compression" its:translate="no">
+                        https://en.wikipedia.org/wiki/Dynamic_range_compression
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

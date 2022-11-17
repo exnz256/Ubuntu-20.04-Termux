@@ -1,0 +1,22 @@
+This package was debianized by Emanuele Rocca <ema@debian.org> on
+Tue, 03 Jan 2006 21:32:06 +0100
+
+It was downloaded from <http://people.debian.org/~ema/>
+
+Files: src/smartbookmark.c
+Copyright: © 2005,2006 Emanuele Rocca <ema@debian.org>
+Copyright: ©      2003 Biju Philip Chacko (botsie@users.sf.net)
+Copyright: ©      2003 Eduard Roccatello (master@spine-group.org)
+Copyright: ©      2005 Benedikt Meurer <benedikt.meurer@unix-ag.uni-siegen.de>
+Copyright: ©      2005 Bernhard Walle  <bernhard.walle@gmx.de>
+Copyright: ©      2005 Hendrik Scholz  <hscholz@raisdorf.net>
+Copyright: ©           Nicolas Masse <masse.nicolas@gmail.com>
+License: GPL-2+
+
+This program is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation; either version 2 of the License, or (at your option) any later
+version.
+
+On Debian systems, the complete text of the GNU General Public License, Version
+2 can be found in the file /usr/share/common-licenses/GPL

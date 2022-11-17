@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="effectsorder" style="2column" xml:lang="pt-BR">
+    <info>
+        <link type="guide" xref="index#ui"/>
+    </info>
+    <title>Mudando a Ordem dos Efeitos</title>
+    <media type="image" src="figures/effectsorder.png" its:translate="no"/>
+    <p>Você pode alterar a ordem dos plugins na cadeia de efeitos. Basta clicar nas setas para cima e para baixo ao lado do nome do plugin. O primeiro plugin de cima para baixo é o primeiro a receber o sinal de áudio.</p>
+</page>

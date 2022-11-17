@@ -1,0 +1,12 @@
+9233ef97eac8f7aefcc710587215a820  lib/systemd/system/rtkit-daemon.service
+1944bd44948ee1389e1b623c28cf37ab  usr/libexec/installed-tests/rtkit/rtkit-test
+c4584e93fb0087d012c7965b0bdb4a88  usr/libexec/rtkit-daemon
+a3156e9bc6356e6a8a66142df4124fd4  usr/sbin/rtkitctl
+e7c2894917395c360168e694f0a98382  usr/share/dbus-1/interfaces/org.freedesktop.RealtimeKit1.xml
+852f8cb9a66698e7acd1d553c905067f  usr/share/dbus-1/system-services/org.freedesktop.RealtimeKit1.service
+b25a6fdfd2c34e01338ec6f83556a190  usr/share/dbus-1/system.d/org.freedesktop.RealtimeKit1.conf
+52b1fa1ad13a2be7b95d2af20b997801  usr/share/doc/rtkit/README.gz
+b5691a6dbba71301ff40f1ff823dafb5  usr/share/doc/rtkit/changelog.Debian.gz
+2b782b2f1652c46c8cffc9257263a99d  usr/share/doc/rtkit/copyright
+9c230e5eae9f9de48d77b4f8aaa38558  usr/share/man/man8/rtkitctl.8.gz
+00a0c761e02dc231e2b91fc3c019a6c0  usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy

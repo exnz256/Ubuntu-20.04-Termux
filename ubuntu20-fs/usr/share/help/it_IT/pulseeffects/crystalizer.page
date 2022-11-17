@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="crystalizer" xml:lang="it-IT">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Digitalone</mal:name>
+      <mal:email>kurmikon@libero.it</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+    <title>Crystalizer</title>
+    <p>Il plugin Crystalizer può essere usato per incrementare un po' la gamma dinamica alle tracce che sono state eccessivamente compresse.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Modalità Aggressiva</em>
+            </title>
+            <p>Quando questa opzione è attiva, verrà applicata al segnale l'amplificazione basata sulla larghezza del campione. Bisogna tuttavia fare attenzione a non saturare il plugin successivo nella catena di elaborazione.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Intensità</em>
+            </title>
+            <p>Più è alto il valore, maggiore sarà la differenza in ampiezza tra i suoni più alti e bassi. Si possono impostare intensità diverse per ogni banda di frequenza.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Bypass</em>
+            </title>
+            <p>Se attivato, il segnale audio della banda selezionata non verrà alterato.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Muto</em>
+            </title>
+            <p>Silenzia la banda.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Note</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Dynamic_range" its:translate="no">
+                        https://en.wikipedia.org/wiki/Dynamic_range
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

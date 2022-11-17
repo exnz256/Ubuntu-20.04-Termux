@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="addremove-creator" xml:lang="lt">
+
+  <info>
+    <credit type="author">
+      <name>Ubuntu documentacijos komanda</name>
+    </credit>
+
+    <desc>Įdėkite Ubuntu ar kitos Linux operacinės sistemos įdiegimo failus į išorinę USB laikmeną (atmintuką ar nešiojamą diską).</desc>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <link type="guide" xref="disk"/>
+    <link type="guide" xref="addremove" group="#last"/>
+
+    <revision version="17.10" date="2017-09-26" status="review"/>
+  </info>
+
+  <title>Sukurkite paleidžiamąjį diską (USB laikmeną)</title>
+
+  <p>Kaip Linux paleidimo diską patogiausia naudoti išimamą USB atmintuką (flash) ar išorinį USB diską, kurio pagalba Jūs galėsite paleisti bei <link href="https://www.ubuntu.com/download/desktop/install-ubuntu-desktop">įdiegti Ubuntu</link> ar kitą Linux šeimos operacinę sistemą. USB laikmenos talpa drive turėtų būti bent 2-3 GB. 
+DĖMESIO: bus ištrinti visi duomenys esantys įkištoje USB laikmenoje darant paleidžiamąją (įdiegimo) laikmeną šiuo būdu.</p>
+
+  <p>Prieš pradedant atsisiųskite Ubuntu ar Baltix GNU/Linux įdiegimo atvaizdį (.ISO failą) į savo kompiuterį.</p>
+
+  <p>Paleidimo laikmenai iš atsiųsto Ubuntu ar kitos Linux sistemos ISO failo padaryti:</p>
+    
+  <steps>
+    <item>
+      <p>Atverkite <app>Paleidimo laikmenos kūrimas</app> programą - ją galite surasti <em>Apžvalgos</em> paieškoje arba per „Programos“.</p>
+    </item>
+    <item>
+      <p>
+        If the ISO image is in your <gui>Download</gui> folder and there is just one ISO image, <app>Startup Disk Creator</app> will have selected it,
+        otherwise select the correct ISO image.
+      </p>
+    </item>
+    <item>
+      <p>Jei prie kompiuterio prijungtas tik viena išimama USB („flash“) laikmena - <app>Paleidimo laikmenos kūrimas</app> programa ją pasirinks automatiškai, kitu atveju iš sąrašo apačioje atidžiai pasirinkite laikmeną įdiegimui (kad neparastumėte duomenų rekomenduojame atjungti kitas USB laikmenas).</p>
+    </item>
+    <item>
+      <p>Paspauskite mygtuką <gui>Sukurti paleidimo laikmeną</gui>.</p>
+    </item>
+    <item>
+      <p>Patvirtinimo dialoge spustelkite <gui>Taip</gui>. Įdiegimo atvaizdžio kopijavimas į USB laikmeną užtruks iki 10 min. (priklausomai nuo laikmenos spartos).</p>
+    </item>
+
+    <item>
+      <p>Atsivėrus langui „Diegimas baigtas“ spustelėkite mygtuką <gui>Baigti</gui>.</p>
+    </item>
+
+  </steps>
+
+
+
+</page>

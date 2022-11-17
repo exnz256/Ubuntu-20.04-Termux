@@ -1,0 +1,2 @@
+libuno-sal3: shlibs-declares-dependency-on-other-package libuno-sal3 (*), ure
+libuno-sal3: symbols-declares-dependency-on-other-package ure

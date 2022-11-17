@@ -1,0 +1,3 @@
+libaudtag.so.3 libaudtag3 #MINVER#
+ _ZN6audtag11write_tupleER7VFSFileRK5TupleNS_7TagTypeE@Base 3.8
+ _ZN6audtag8read_tagER7VFSFileR5TupleP5IndexIcE@Base 3.8

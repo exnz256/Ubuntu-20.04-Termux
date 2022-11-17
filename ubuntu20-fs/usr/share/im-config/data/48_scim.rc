@@ -1,0 +1,83 @@
+# start SCIM
+# vim: set sts=4 expandtab:
+
+if [ "$IM_CONFIG_PHASE" = 2 ]; then
+# start SCIM daemon
+/usr/bin/scim --daemon
+fi
+
+if [ "$IM_CONFIG_PHASE" = 1 ]; then
+# set variables for the plain XIM
+XMODIFIERS=@im=SCIM
+
+GTK_IM_MODULE=xim
+
+# use scim immodule only when available for both GTK 2.0 and 3.0
+IM_CONFIG_MARKER2=0
+IM_CONFIG_MARKER="$(imconfig_find_files_with_prefixpath_glob /usr/lib \
+        '/usr/lib/*/gtk-2.0/*/immodules/im-scim.so' \
+        '/usr/lib/gtk-2.0/*/immodules/im-scim.so')"
+if [ "x${IM_CONFIG_MARKER}" != "x" ]; then
+    IM_CONFIG_MARKER2=1
+fi
+
+IM_CONFIG_MARKER3=0
+IM_CONFIG_MARKER="$(imconfig_find_files_with_prefixpath_glob /usr/lib \
+        '/usr/lib/*/gtk-3.0/*/immodules/im-scim.so' \
+        '/usr/lib/gtk-3.0/*/immodules/im-scim.so')"
+if [ "x${IM_CONFIG_MARKER}" != "x" ]; then
+    IM_CONFIG_MARKER3=1
+fi
+
+if [ $IM_CONFIG_MARKER2 = 1 ] && [ $IM_CONFIG_MARKER3 = 1 ] ; then
+    GTK_IM_MODULE=scim
+fi
+
+
+# Backport support
+# use scim-bridge immodule only when available for both GTK 2.0 and 3.0
+IM_CONFIG_MARKER2=0
+IM_CONFIG_MARKER="$(imconfig_find_files_with_prefixpath_glob /usr/lib \
+        '/usr/lib/*/gtk-2.0/*/immodules/im-scim-bridge.so' \
+        '/usr/lib/gtk-2.0/*/immodules/im-scim-bridge.so')"
+if [ "x${IM_CONFIG_MARKER}" != "x" ]; then
+    IM_CONFIG_MARKER2=1
+fi
+
+IM_CONFIG_MARKER3=0
+IM_CONFIG_MARKER="$(imconfig_find_files_with_prefixpath_glob /usr/lib \
+        '/usr/lib/*/gtk-3.0/*/immodules/im-scim-bridge.so' \
+        '/usr/lib/gtk-3.0/*/immodules/im-scim-bridge.so')"
+if [ "x${IM_CONFIG_MARKER}" != "x" ]; then
+    IM_CONFIG_MARKER3=1
+fi
+
+if [ $IM_CONFIG_MARKER2 = 1 ] && [ $IM_CONFIG_MARKER3 = 1 ] ; then
+    GTK_IM_MODULE=scim-bridge
+fi
+
+
+# Qt5 support not exist yet; Qt3 support is dropped already
+QT_IM_MODULE=xim
+
+
+QT4_IM_MODULE=xim
+# use immodule when available for Qt4
+IM_CONFIG_MARKER="$(imconfig_find_files_with_prefixpath_glob /usr/lib \
+        '/usr/lib/*/qt4/plugins/inputmethods/im-scim.so' \
+        '/usr/lib/qt4/plugins/inputmethods/im-scim.so')"
+if [ "x${IM_CONFIG_MARKER}" != "x" ]; then
+    QT4_IM_MODULE=scim
+fi
+
+
+CLUTTER_IM_MODULE=xim
+# use immodule when available for clutter
+IM_CONFIG_MARKER="$(imconfig_find_files_with_prefixpath_glob /usr/lib \
+        '/usr/lib/*/clutter-imconttext/immodules/im-scim.so' \
+        '/usr/lib/clutter-imcontext/immodules/im-scim.so')"
+if [ "x${IM_CONFIG_MARKER}" != "x" ]; then
+    CLUTTER_IM_MODULE=scim
+fi
+
+fi

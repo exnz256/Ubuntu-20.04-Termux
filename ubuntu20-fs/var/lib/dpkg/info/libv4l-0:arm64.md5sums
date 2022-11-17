@@ -1,0 +1,12 @@
+d75a6ea375d594144a7728ce6dd4b264  usr/lib/aarch64-linux-gnu/libv4l/plugins/libv4l-mplane.so
+a246aca980ae5165f90fb82dc6413aac  usr/lib/aarch64-linux-gnu/libv4l/v4l1compat.so
+05d98856d41d5517867a38a95be29653  usr/lib/aarch64-linux-gnu/libv4l/v4l2convert.so
+a38072a837ee9c1375a533ba1389df13  usr/lib/aarch64-linux-gnu/libv4l1.so.0.0.0
+570bc1959f267c0befad400f5bedda34  usr/lib/aarch64-linux-gnu/libv4l2.so.0.0.0
+b8490b6d22321b3cb75fb6dd2f40aca8  usr/share/doc/libv4l-0/README.Debian
+9ec058ef384992973b2e0152c4324c40  usr/share/doc/libv4l-0/README.gz
+b54692bec80cb41a01b9209a0b3ff995  usr/share/doc/libv4l-0/README.lib-multi-threading
+f03896322bb0a85f8708d473400978e0  usr/share/doc/libv4l-0/README.libv4l.gz
+f5c231424eb4394531115d4f28c4fe97  usr/share/doc/libv4l-0/TODO
+f5e022ccf3e8c47d818a0f45f91e8788  usr/share/doc/libv4l-0/copyright
+8394f678b593871c4a95f4f4d0872179  usr/share/lintian/overrides/libv4l-0

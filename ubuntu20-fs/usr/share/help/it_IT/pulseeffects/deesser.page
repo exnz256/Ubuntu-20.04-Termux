@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="deesser" xml:lang="it-IT">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Digitalone</mal:name>
+      <mal:email>kurmikon@libero.it</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+    <title>Deesser</title>
+    <p>PulseEffects utilizza il Deesser sviluppato da Calf Studio. Questo plugin è usato per ridurre dinamicamente le frequenze più alte. Il campo di utilizzo predefinito è la riduzione dei "sssss" e "shhhh" nelle tracce vocali.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Trascuranza</em>
+            </title>
+            <p>Tempo di reazione del deesser. Valori più alti non influenzeranno picchi molto brevi.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Soglia</em>
+            </title>
+            <p>Se il segnale supera il valore specificato, verrà applicata la compressione.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Rapporto</em>
+            </title>
+            <p>Imposta il rapporto di compressione. 1 non applica alcuna compressione, mentre valori maggiori applicano una compressione più marcata.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Guadagno</em>
+            </title>
+            <p>Valore di amplificazione del segnale dopo l'applicazione della compressione.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Split</em>
+            </title>
+            <p>Indica la frequenza di split. Tutti i segnali al di sopra di questa frequenza saranno interessati dalla riduzione in ampiezza.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Guadagno</em>
+            </title>
+            <p>Modifica il volume della banda più alta. In modalità Banda Larga influisce sull'elaborazione in sidechain. In modalità Split influisce anche sulle alte frequenze elaborate.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Picco</em>
+            </title>
+            <p>Frequenza centrale del filtro a campana. Consente una selezione più precisa del segnale in sidechain.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Livello</em>
+            </title>
+            <p>Aumenta o diminuisce l'ampiezza delle frequenze intorno alla frequenza centrale del filtro a campana.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Picco Q</em>
+            </title>
+            <p>Imposta la qualità del filtro a campana. Valori più grandi influenzeranno un intervallo di frequenze più ristretto. Valori più bassi influenzeranno un intervallo più ampio.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Rilevamento</em>
+            </title>
+            <p>Imposta il metodo di rilevamento del plugin di deesser. Valore di picco (più aggressivo) o valore RMS (più morbido).</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Modalità</em>
+            </title>
+            <p>Seleziona il metodo di funzionamento tra modalità a Banda Larga o Split.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Note</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/De-essing" its:translate="no">
+                        https://en.wikipedia.org/wiki/De-essing
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://calf-studio-gear.org/doc/Deesser.html" its:translate="no">
+                        https://calf-studio-gear.org/doc/Deesser.html
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

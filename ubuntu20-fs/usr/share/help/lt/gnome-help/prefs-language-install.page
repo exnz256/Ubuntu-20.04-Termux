@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="prefs-language-install" xml:lang="lt">
+
+  <info>
+    <link type="guide" xref="addremove" group="#last"/>
+    <link type="seealso" xref="prefs-language"/>
+
+    <desc>Jums suprantama kalba naudokitės programomis bei įdiekite kitus kalbų palaikymui reikalingus paketus, kaip rašybos tikrinimas.</desc>
+    <revision version="17.10" date="2017-09-25" status="review"/>
+    <credit type="author">
+      <name>Gunnar Hjalmarsson</name>
+      <email>gunnarhj@ubuntu.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>Įdiegti naujų kalbų palaikymą</title>
+
+  <p>Ubuntu operacinės sistemos įdiegimo metu pasirinktai kalbai bei anglų kalbai atsiunčiami programų sąsajos vertimai bei kiti reikalingi paketai, kaip rašybos tikrinimas, tačiau jūs galite įdiegti ir kitų kalbų palaikymą, arba atsiųsti Jūsų kalbai reikiamus paketus, jei įdiegimo metu nebuvote prisijungęs prie interneto.</p>
+
+  <steps>
+    <item>
+      <p>Atverkite <gui xref="shell-introduction#activities">Apžvalga</gui> ekrano kairėje ir paieškoje rašykite <gui>Region</gui>.</p>
+    </item>
+    <item>
+      <p>Spustelėkite ant <gui>Kalbų ir regionų nustatymai</gui> (<gui>Region &amp; Language</gui>) ir šiek tiek palaukite.</p>
+    </item>
+    <item>
+      <p>Jei atvėrėte sistemų nustatymų skyrių „Regionas ir kalba“ - paspauskite mygtuką <gui>Tvarkyti kalbų palaikymą</gui> (<gui>Manage Installed Languages</gui>) - atsidarys langas <gui>Kalbų ir regionų nustatymai</gui>.</p>
+    </item>
+    <item>
+      <p>Paspauskite <gui>Įdiegti / šalinti kalbas..</gui>. Atsivėrusiame lange <gui>Įdiegtos kalbos</gui> matysite kalbų sąrašą, kuriame uždėtos varnelės ant jau įdiegtų kalbų (vertimų).</p>
+    </item>
+    <item>
+      <p>Uždėkite varneles ant kalbų, kurioms norite turėti programų vertimus bei rašybos tikrinimą ir nuimkite varneles nuo nereikalingų kalbų. Rekomeduojama palikti varnelę ant Anglų bei Lietuvių kalbų.</p>
+    </item>
+    <item>
+      <p>Spustelėkite mygtuką <gui>Pritaikyti</gui>.</p>
+    </item>
+    <item>
+      <p>Šiam veiksmui įvykdyti reikia turėti <link xref="user-admin-explain">Administravimo teisę</link>. Įveskite savo arba administravimo teisę turinčio naudotojo slaptažodį.</p>
+    </item>
+  </steps>
+
+  <p>Kartu su programų sąsajos, meniu bei pranešimų vertimais bus įdiegti ir kiti pilnam kalbos palaikymui reikalingi komponentai, kaip rašybos tikrinimo žodynai, šriftai bei klaviatūros įvesties metodai ir išdėstymai.</p>
+
+  <note>
+    <p>Ne visos programos yra 100% išverstos, taip pat kai kurios programos gali būti visai neišverstos į jūsų kalbą.</p>
+  </note>
+
+</page>

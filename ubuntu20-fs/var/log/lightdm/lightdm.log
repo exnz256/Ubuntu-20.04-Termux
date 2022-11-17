@@ -1,0 +1,31 @@
+[+0.00s] DEBUG: Logging to /var/log/lightdm/lightdm.log
+[+0.00s] DEBUG: Starting Light Display Manager 1.30.0, UID=0 PID=32613
+[+0.00s] DEBUG: Loading configuration dirs from /usr/share/lightdm/lightdm.conf.d
+[+0.00s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-disable-guest.conf
+[+0.00s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-disable-log-backup.conf
+[+0.00s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-greeter-wrapper.conf
+[+0.00s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-guest-wrapper.conf
+[+0.00s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-ubuntu.conf
+[+0.00s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-unity-greeter.conf
+[+0.00s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-xserver-command.conf
+[+0.00s] DEBUG: Loading configuration dirs from /usr/local/share/lightdm/lightdm.conf.d
+[+0.00s] DEBUG: Loading configuration dirs from /etc/xdg/lightdm/lightdm.conf.d
+[+0.00s] DEBUG: Loading configuration from /etc/lightdm/lightdm.conf
+[+0.00s] DEBUG: Registered seat module local
+[+0.00s] DEBUG: Registered seat module xremote
+[+0.00s] DEBUG: Using D-Bus name org.freedesktop.DisplayManager
+[+0.03s] DEBUG: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+[+0.03s] WARNING: Failed to get system bus: Could not connect: No such file or directory
+[+0.03s] DEBUG: Adding default seat
+[+0.03s] DEBUG: Seat seat0: Loading properties from config section Seat:*
+[+0.03s] DEBUG: Seat seat0: Starting
+[+0.03s] DEBUG: Seat seat0: Creating greeter session
+[+0.03s] DEBUG: Seat seat0: Creating display server of type x
+[+0.03s] DEBUG: posix_spawn avoided (fd close requested) 
+[+0.06s] DEBUG: Using VT 7
+[+0.06s] DEBUG: Seat seat0: Starting local X display on VT 7
+[+0.06s] DEBUG: XServer 0: Logging to /var/log/lightdm/x-0.log
+[+0.06s] DEBUG: XServer 0: Writing X server authority to /var/run/lightdm/root/:0
+[+0.07s] DEBUG: XServer 0: Launching X Server
+[+0.08s] DEBUG: Launching process 32617: /bin/X -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+[+0.08s] DEBUG: XServer 0: Waiting for ready signal from X server :0

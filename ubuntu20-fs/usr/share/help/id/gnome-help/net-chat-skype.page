@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="net-chat-skype" xml:lang="id">
+  <info>
+    <link type="guide" xref="net-chat" group="#last"/>
+    <link type="seealso" xref="net-chat-video"/>
+
+    <revision version="18.04" date="2018-03-19" status="review"/>
+
+    <credit type="author">
+      <name>Tim Dokumentasi Ubuntu</name>
+    </credit>
+
+    <desc><app>Skype</app> adalah perangkat lunak proprietary dan harus diinstal secara manual pada Ubuntu</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>Bagaimana saya bisa menggunakan Skype di Ubuntu?</title>
+
+  <p><app>Skype</app> adalah perangkat lunak proprietary yang memungkinkan Anda untuk membuat panggilan melalui Internet menggunakan komputer Anda.</p>
+
+  <p>Skype menggunakan teknologi peer-to-peer terdesentralisasi, sehingga panggilan Anda tidak melalui server pusat, tetapi melalui server terdistribusi dan pengguna lain.</p>
+
+  <p>Perangkat lunak Skype bebas untuk digunakan, tetapi bukan perangkat lunak bebas; kode sumber adalah proprietary dan tidak tersedia untuk modifikasi.</p>
+
+  <p>Skype tidak diinstal secara default di Ubuntu. Ikuti langkah berikut untuk menginstal <app>Skype untuk Linux</app>:</p>
+
+  <list type="disc">
+
+    <item><p>Buka peramban web Anda dan pergi ke halaman  <link href="https://www.skype.com/get-skype/">Unduh Skype</link>.</p></item>
+
+    <item><p>Klik tombol <gui>Get Skype for Linux DEB</gui>.</p></item>
+
+    <item><p>Di jendela yang muncul, pilih <gui>Buka dengan</gui> dan <gui>Pasang Perangkat Lunak (baku)</gui>, dan kemudian klik tombol <gui>OK</gui>.</p></item>
+
+    <item><p><app>Perangkat Lunak Ubuntu</app> terbuka. Klik tombol <gui>Pasang</gui> dan autentikasi.</p></item>
+
+  </list>
+
+</page>

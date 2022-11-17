@@ -1,0 +1,50 @@
+This package was debianized by Jani Monoses <jani@ubuntu.com> on
+Tue, Jan 31 19:15:04 EET 2006
+
+It was downloaded from http://spuriousinterrupt.org/projects/mailwatch/
+
+© 2005-2008 Brian Tarricone <kelnos@xfce.org>
+
+except:
+
+panel-plugin/
+* mailwatch-plugin-4.2.c: © 2005 Tarricone <bjt23@cornell.edu>
+* mailwatch-plugin.c:
+  - © 2005 Jasper Huijsmans <jasper@xfce.org>
+  - © 2005-2008 Brian Tarricone <kelnos@xfce.org>
+
+libmailwatch-core/
+* mailwatch.{c,h}: © 2005 Brian Tarricone <bjt23@cornell.edu>
+* mailwatch-common.c: © 2009 Brian Tarricone <bjt23@cornell.edu>
+* mailwatch-mailbox-maildir.c
+  mailwatch-mailbox-mh.c
+  - © 2005 Pasi Orovuo <pasi.ov@gmail.com>
+  - © 2008 Brian Tarricone <bjt23@cornell.edu>
+* mailwatch-mailbox-mbox.c:
+  - © 2005 Pasi Orovuo <pasi.ov@gmail.com>
+  - © 2005,2008 Brian Tarricone <bjt23@cornell.edu>
+* mailwatch-net-conn.{c,h}: © 2008 Brian Tarricone <bjt23@cornell.edu>
+* mailwatch-utils.c:
+  - © 1995-1999 Kungliga Tekniska Högskolan
+  - © 2005-2008 Brian Tarricone <bjt23@cornell.edu>
+* mailwatch-utils.h:
+  - © 2005-2008 Brian Tarricone <bjt23@cornell.edu>
+
+License:
+
+   This package is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; version 2 dated June, 1991.
+
+   This package is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this package; if not, write to the Free Software
+   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+   02110-1301, USA.
+
+On Debian systems, the complete text of the GNU General Public License
+(version 2) can be found in `/usr/share/common-licenses/GPL-2'.

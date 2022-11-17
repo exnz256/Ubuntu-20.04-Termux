@@ -1,0 +1,296 @@
+{
+  "difficulty_category" : "Easy Difficulty",
+  "time_elapsed" : 13.626563000000001,
+  "cells" : [
+    {
+      "position" : [
+        0,
+        2
+      ],
+      "value" : 7,
+      "fixed" : true,
+      "earmarks" : [
+      ]
+    },
+    {
+      "position" : [
+        0,
+        6
+      ],
+      "value" : 3,
+      "fixed" : true,
+      "earmarks" : [
+      ]
+    },
+    {
+      "position" : [
+        0,
+        7
+      ],
+      "value" : 4,
+      "fixed" : true,
+      "earmarks" : [
+      ]
+    },
+    {
+      "position" : [
+        1,
+        2
+      ],
+      "value" : 9,
+      "fixed" : true,
+      "earmarks" : [
+      ]
+    },
+    {
+      "position" : [
+        1,
+        5
+      ],
+      "value" : 7,
+      "fixed" : true,
+      "earmarks" : [
+      ]
+    },
+    {
+      "position" : [
+        1,
+        8
+      ],
+      "value" : 5,
+      "fixed" : true,
+      "earmarks" : [
+      ]
+    },
+    {
+      "position" : [
+        2,
+        0
+      ],
+      "value" : 5,
+      "fixed" : true,
+      "earmarks" : [
+      ]
+    },
+    {
+      "position" : [
+        2,
+        1
+      ],
+      "value" : 6,
+      "fixed" : true,
+      "earmarks" : [
+      ]
+    },
+    {
+      "position" : [
+        2,
+        2
+      ],
+      "value" : 1,
+      "fixed" : true,
+      "earmarks" : [
+      ]
+    },
+    {
+      "position" : [
+        2,
+        7
+      ],
+      "value" : 2,
+      "fixed" : true,
+      "earmarks" : [
+      ]
+    },
+    {
+      "position" : [
+        3,
+        1
+      ],
+      "value" : 5,
+      "fixed" : true,
+      "earmarks" : [
+      ]
+    },
+    {
+      "position" : [
+        3,
+        2
+      ],
+      "value" : 8,
+      "fixed" : false,
+      "earmarks" : [
+      ]
+    },
+    {
+      "position" : [
+        3,
+        5
+      ],
+      "value" : 9,
+      "fixed" : true,
+      "earmarks" : [
+      ]
+    },
+    {
+      "position" : [
+        4,
+        2
+      ],
+      "value" : 4,
+      "fixed" : true,
+      "earmarks" : [
+      ]
+    },
+    {
+      "position" : [
+        4,
+        3
+      ],
+      "value" : 5,
+      "fixed" : true,
+      "earmarks" : [
+      ]
+    },
+    {
+      "position" : [
+        4,
+        5
+      ],
+      "value" : 2,
+      "fixed" : true,
+      "earmarks" : [
+      ]
+    },
+    {
+      "position" : [
+        4,
+        6
+      ],
+      "value" : 6,
+      "fixed" : true,
+      "earmarks" : [
+      ]
+    },
+    {
+      "position" : [
+        5,
+        3
+      ],
+      "value" : 6,
+      "fixed" : true,
+      "earmarks" : [
+      ]
+    },
+    {
+      "position" : [
+        5,
+        7
+      ],
+      "value" : 1,
+      "fixed" : true,
+      "earmarks" : [
+      ]
+    },
+    {
+      "position" : [
+        6,
+        1
+      ],
+      "value" : 2,
+      "fixed" : true,
+      "earmarks" : [
+      ]
+    },
+    {
+      "position" : [
+        6,
+        6
+      ],
+      "value" : 8,
+      "fixed" : true,
+      "earmarks" : [
+      ]
+    },
+    {
+      "position" : [
+        6,
+        7
+      ],
+      "value" : 3,
+      "fixed" : true,
+      "earmarks" : [
+      ]
+    },
+    {
+      "position" : [
+        6,
+        8
+      ],
+      "value" : 7,
+      "fixed" : true,
+      "earmarks" : [
+      ]
+    },
+    {
+      "position" : [
+        7,
+        0
+      ],
+      "value" : 9,
+      "fixed" : true,
+      "earmarks" : [
+      ]
+    },
+    {
+      "position" : [
+        7,
+        3
+      ],
+      "value" : 1,
+      "fixed" : true,
+      "earmarks" : [
+      ]
+    },
+    {
+      "position" : [
+        7,
+        6
+      ],
+      "value" : 4,
+      "fixed" : true,
+      "earmarks" : [
+      ]
+    },
+    {
+      "position" : [
+        8,
+        1
+      ],
+      "value" : 3,
+      "fixed" : true,
+      "earmarks" : [
+      ]
+    },
+    {
+      "position" : [
+        8,
+        2
+      ],
+      "value" : 6,
+      "fixed" : true,
+      "earmarks" : [
+      ]
+    },
+    {
+      "position" : [
+        8,
+        6
+      ],
+      "value" : 9,
+      "fixed" : true,
+      "earmarks" : [
+      ]
+    }
+  ]
+}

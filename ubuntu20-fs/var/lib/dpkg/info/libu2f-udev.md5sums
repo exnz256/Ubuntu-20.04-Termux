@@ -1,0 +1,4 @@
+b0c7ab7083116bbc608bcf5461a06c42  lib/udev/rules.d/70-u2f.rules
+80d87424600705e11b8184f0f9b8c725  usr/share/doc/libu2f-udev/changelog.Debian.gz
+30e9e133ec417a76dfd051e50c865c7e  usr/share/doc/libu2f-udev/copyright
+ef9d2ef655ab9048fa4a0d69c24ae29e  usr/share/metainfo/libu2f-udev.metainfo.xml

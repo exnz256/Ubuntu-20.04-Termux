@@ -1,0 +1,48 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: xfce4-cpufreq-plugin
+Upstream-Contact: Florian Frivoal <frivoal@xfce.org>
+Source: http://goodies.xfce.org/projects/panel-plugins/xfce4-cpufreq-plugin
+License: GPL-2+
+
+Files: *
+Copyright: Florian Frivoal
+License: GPL-2+
+
+Files: debian/*
+Copyright: Debian Xfce maintainers
+License: GPL-2+
+
+Files: panel-plugin/xfce4-cpufreq-configure.c
+ panel-plugin/xfce4-cpufreq-configure.h
+ panel-plugin/xfce4-cpufreq-linux.c
+ panel-plugin/xfce4-cpufreq-overview.c
+ panel-plugin/xfce4-cpufreq-plugin.c
+ panel-plugin/xfce4-cpufreq-plugin.h
+Copyright: 2006, Thomas Schreck <shrek@xfce.org>
+  2010-2011, Florian Rivoal <frivoal@xfce.org>
+  2013, Harald Judt <h.judt@gmx.at>
+License: GPL-2+
+
+Files: panel-plugin/xfce4-cpufreq-linux.h
+ panel-plugin/xfce4-cpufreq-overview.h
+Copyright: 2006, Thomas Schreck <shrek@xfce.org>
+  2013, Harald Judt <h.judt@gmx.at>
+License: GPL-2+
+
+Files: panel-plugin/xfce4-cpufreq-utils.c
+Copyright: 2006, Thomas Schreck <shrek@xfce.org>
+  2010-2011, Florian Rivoal <frivoal@xfce.org>
+License: GPL-2+
+
+Files: ltmain.sh
+Copyright: 1996-2017, Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: panel-plugin/xfce4-cpufreq-utils.h
+Copyright: 2006, Thomas Schreck <shrek@xfce.org>
+License: GPL-2+
+
+License: GPL-2+
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in
+ `/usr/share/common-licenses/GPL-2'.

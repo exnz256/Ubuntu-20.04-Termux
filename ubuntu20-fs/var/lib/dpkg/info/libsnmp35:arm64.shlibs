@@ -1,0 +1,6 @@
+libnetsnmp 35 libsnmp35 (>= 5.8+dfsg)
+libnetsnmpagent 35 libsnmp35 (>= 5.8+dfsg)
+libnetsnmphelpers 35 libsnmp35 (>= 5.8+dfsg)
+libnetsnmpmibs 35 libsnmp35 (>= 5.8+dfsg)
+libnetsnmptrapd 35 libsnmp35 (>= 5.8+dfsg)
+libsnmp 35 libsnmp35 (>= 5.8+dfsg)

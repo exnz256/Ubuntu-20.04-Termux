@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/lib
+/usr/lib/aarch64-linux-gnu
+/usr/lib/aarch64-linux-gnu/libpytalloc-util.cpython-38-aarch64-linux-gnu.so.2.3.1
+/usr/lib/python3
+/usr/lib/python3/dist-packages
+/usr/lib/python3/dist-packages/talloc.cpython-38-aarch64-linux-gnu.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/python3-talloc
+/usr/share/doc/python3-talloc/copyright
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/python3-talloc
+/usr/lib/aarch64-linux-gnu/libpytalloc-util.cpython-38-aarch64-linux-gnu.so.2
+/usr/share/doc/python3-talloc/changelog.Debian.gz

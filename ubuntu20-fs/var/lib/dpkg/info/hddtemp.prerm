@@ -1,0 +1,7 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installinit/11.1.2ubuntu1
+if [ -x "/etc/init.d/hddtemp" ] && [ "$1" = remove ]; then
+	invoke-rc.d hddtemp stop || exit 1
+fi
+# End automatically added section

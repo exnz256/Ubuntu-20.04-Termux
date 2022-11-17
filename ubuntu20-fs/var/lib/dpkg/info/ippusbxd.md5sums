@@ -1,0 +1,9 @@
+bbafb6592dcbf97102d460795e5551b0  lib/systemd/system/ippusbxd@.service
+6295d550f6bfde763d660c158627c62a  lib/udev/rules.d/55-ippusbxd.rules
+e904eef1b60ce707c0fb30450e5de992  usr/sbin/ippusbxd
+e45e45162213c8a4594c2f4c761cbc80  usr/share/doc/ippusbxd/changelog.Debian.gz
+af8da0c43bbc12dc1db80ad1d18766a7  usr/share/doc/ippusbxd/copyright
+bbafb6592dcbf97102d460795e5551b0  usr/share/doc/ippusbxd/examples/ippusbxd@.service
+224fda61884dc0978e139112c0796e72  usr/share/doc/ippusbxd/examples/ippusbxd@.service.dummy0
+c6fb440fcf10fdfe81eef745039f2402  usr/share/doc/ippusbxd/readme.md.gz
+b5996c84290d88d25e9c899f570dc39e  usr/share/man/man8/ippusbxd.8.gz

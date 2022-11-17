@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="report-ubuntu-bug" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="more-help"/>
+    <desc>On i com podeu informar sobre problemes amb l'Ubuntu.</desc>
+
+    <revision version="13.10" date="2013-09-19" status="review"/>
+
+    <credit type="author">
+      <name>Equip de documentació de l'Ubuntu</name>
+      <email>ubuntu-doc@lists.ubuntu.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>Informeu d'un problema a l'Ubuntu</title>
+
+<p>Si us trobeu amb un problema a l'Ubuntu, podeu fer un <em>informe d'errors</em> (en anglès).</p>
+
+<steps>
+ <item>
+  <p>Teclegeu <keyseq><key>Alt</key><key>F2</key></keyseq> i teclegeu <input>ubuntu-bug nameofprogram</input>.</p>
+  <p>Si teniu un problema de maquinari o no sabeu el nom del programa afectar, teclegeu només <input>ubuntu-bug</input>.</p>
+ </item>
+
+ <item><p>Després de fer córrer una de les comandes de dalt, l'Ubuntu recollirà informació sobre l'error. Això pot trigar uns minuts. Reviseu la informació recol·lectada si voleu. Cliqueu <gui>Envia</gui> per continuar.</p>
+ </item>
+
+ <item><p>S'obrirà una nova pestanya al navegador per continuar processant les dades de l'error. L'Ubuntu usa el lloc web <app>Launchpad</app> per gestionar els seus informes d'error. Si no teniu un compte al Launchpad, us hi haureu de registrar per tal de reportar l'error i rebreu actualitzacions per correu electrònic sobre el seu estat. Ho podeu fer clicant <gui>Create a new account</gui>.</p>
+ </item>
+
+
+ <item><p>Després d'entrar al Launchpad amb el vostre usuari, introduïu una descripció del problema al camp del sumari.</p>
+ </item>
+
+ <item><p>Després de clicar <gui>Next</gui>, el  Launchpad cercarà errors similars per si l'error que reporteu ja s'ha reportat abans. Si l'error ja s'havia reportat, podeu marcar que aquest error també us afecta. També us podeu subscriure a l'informe d'error per tal de rebre actualitzacions sobre el progrés reparant-lo. Si l'error encara no s'havia reportat, cliqueu <gui>No, I need to report a new bug</gui>.</p>
+ </item>
+
+ <item><p>Ompliu el camp de descripció amb tanta informació com pugueu. És important que especifiqueu tres coses:</p>
+
+  <list type="disc">
+  <item><p>Què esperàveu que passés</p></item>
+  <item><p>Què va passar realment</p></item>
+  <item><p>Si és possible, una mínima sèrie de passes necessàries perquè passi, on la primera passa seria "start the program"</p></item></list>
+
+ </item>
+  <item><p>Al vostre informe se li donarà un número d'identificació i el seu estat s'anirà actualitzant a mida que se'l vagi solucionant. Gràcies per ajudar a fer millor l'Ubuntu!</p>
+ </item>
+</steps>
+
+<note><p>Si us surt l'error "This is not a genuine Ubuntu package", vol dir que el programari del que intenteu reportar un error no és dels repositoris oficials de l'Ubuntu. En aquest cas, no podreu usar l'eina de reports d'errors integrada de l'Ubuntu.</p></note>
+
+<p>Per a més informació sobre reportar errors a l'Ubuntu, si us plau, llegiu l'extensa <link href="https://help.ubuntu.com/community/ReportingBugs">documentació en línia</link>.</p>
+</page>

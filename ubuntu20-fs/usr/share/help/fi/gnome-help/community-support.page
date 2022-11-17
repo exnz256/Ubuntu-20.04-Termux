@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="community-support" xml:lang="fi">
+
+  <info>
+    <link type="guide" xref="more-help"/>
+    <desc>Yhteisön tarjoama tuki</desc>
+
+    <revision version="19.10" date="2019-05-11" status="review"/>
+
+    <credit type="author">
+      <name>Ubuntun dokumentointitiimi</name>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>Yhteisön tuki</title>
+
+  <p>Yhteisön tukea on saatavilla useista eri lähteistä. Lähteet on mainittu <link href="https://www.ubuntu.com/support/community-support">Community support</link> -sivulla.</p>
+
+  <p>Jokaisella <link href="https://help.ubuntu.com">help.ubuntu.com</link>in alaisella sivulla on hakutoiminto oikeassa yläreunassa. Haun avulla voit tehdä mukautetun Google-haun Ubuntun dokumentaation ja verkossa oleviin tukiresursseihin.</p>
+
+  <p>Tukea omalla kielellä on mahdollisesti tarjolla <link href="http://loco.ubuntu.com/teams/">paikallistiimin</link> toimesta.</p>
+
+</page>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="effectsorder" style="2column" xml:lang="it-IT">
+    <info>
+        <link type="guide" xref="index#ui"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Digitalone</mal:name>
+      <mal:email>kurmikon@libero.it</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+    <title>Modifica dell'Ordine degli Effetti</title>
+    <media type="image" src="figures/effectsorder.png" its:translate="no"/>
+    <p>L'ordine dei plugin nella catena degli effetti può essere modificato cliccando sulle frecce accanto al loro nome. Il primo plugin dall'alto verso il basso è il primo a ricevere il segnale audio.</p>
+</page>

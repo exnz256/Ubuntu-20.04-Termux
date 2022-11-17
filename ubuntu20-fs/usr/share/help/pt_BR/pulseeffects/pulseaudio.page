@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="pulseaudio" xml:lang="pt-BR">
+    <info>
+        <link type="guide" xref="settingsmenu"/>
+    </info>
+    <title>Pulseaudio</title>
+    <p>O PulseEffects possui duas pipelines do GStreamer. Uma que aplica efeitos para a saída de aplicativos e outra que aplica efeitos para o microfone. Aqui o usuário pode ajustar alguns parâmetros avançados para ambas as pipelines.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Usar Padrão</em>
+            </title>
+            <p>Usar dispositivo de entrada ou saída padrão.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Buffer</em>
+            </title>
+            <p>Tamanho do buffer do plugin pulsesrc. Ele afeta a latência</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Latência</em>
+            </title>
+            <p>Valor de latência do plugin pulsesrc.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Tamanho do Bloco</em>
+            </title>
+            <p>Isto controla o tamanho do buffer de áudio. Valores mais altos aumentam a latência mas reduzem o uso de cpu de alguns plugins.</p>
+        </item>
+    </terms>
+</page>

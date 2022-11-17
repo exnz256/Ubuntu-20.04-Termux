@@ -1,0 +1,5 @@
+b77a62527415a6c2ac9fba4593c2f27a  lib/aarch64-linux-gnu/security/pam_fprintd.so
+401991bd1857bffc68549ee1e4672af6  usr/share/doc/libpam-fprintd/README
+cae0c1575d46122d2cec7c0338136843  usr/share/doc/libpam-fprintd/copyright
+85fb5d3841ad9f666562f835e3cf5303  usr/share/man/man8/pam_fprintd.8.gz
+d784dde69de69a17a49de81de28d7186  usr/share/pam-configs/fprintd

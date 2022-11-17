@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="addremove-install-synaptic" xml:lang="lt">
+
+  <info>
+    <credit type="author">
+      <name>Ubuntu documentacijos komanda</name>
+    </credit>
+
+		<credit type="editor">
+      <name>Greg Beam</name>
+      <email>ki7mt@yahoo.com</email>
+    </credit>
+
+    <link type="guide" xref="addremove"/>
+    <revision pkgversion="0.80.4" version="0" date="2014-01-11" status="review"/>
+                <revision version="18.04" date="2018-03-18" status="review"/>
+                <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Synaptic paketų tvarkytuvė - tai galingas, bet gana sudėtingas programinės įrangos įdiegimo, pašalinimo bei paieškos įrankis, naudojamas kaip <app>Programų centro</app> alternatyva.</desc>
+  </info>
+
+  <title>Naudokite Synaptic ar kitą paketų tvarkytuvę papildomos programinės įrangos tvarkymui</title>
+
+  <p><app>Paketų tvarkytuvė Synaptic</app> - tai galingas programinės įrangos tvarkymo įrankis, kuriuo galėsite įdiegti visą prieinamą programinę įrangą bei atlikti kitus tvarkymo darbus, kurių nepalaiko <app>Programų centras</app>. Synaptic valdymo sąsaja yra sudėtingesnė, taip pat jis nepalaiko naujausių <app>Programų centro</app> galimybių, kaip programų reitingavimas bei apžvalgos, todėl Synaptic nerekomenduojame naujokams.</p>
+
+  <p>Synaptic įrankis įprastai nėra įdiegtas, bet jūs galite <link href="apt:synaptic">įdiegti</link> jį iš standartinių Ubuntu programinės įrangos saugyklų.</p>
+
+  <section id="install-software-with-synaptic">
+    <title>Programinės įrangos įdiegimas su paketų tvarkytuve Synaptic</title>
+    <steps>
+      <item>
+        <p>Atverkite <app>Paketų tvarkytuvė Synaptic</app> programą surasdami ją <em>Apžvalgos</em> paieškoje arba spustelėję mygtuką <em>Paleisti programas</em>. Jūsų paprašys patvirtinti tapatybę - įveskite savo (arba programų įdiegimo teises turinčio naudotojo) slaptažodį.</p>
+      </item>
+      <item>
+        <p>Norimą programą rasite paspaudę mygtuką <gui>Ieškoti</gui> Synaptic lango viršuje, arba spustelėkite <gui>Skyriai</gui> kairėje ir susiraskite norimą programą iš atitinkamo skyriaus (kategorijos).</p>
+      </item>
+      <item>
+        <p>2 kartus spustelėkite norimos programos pavadinimą arba paspauskite dešinį pelės klavišą ant programos ir iš atsiradusio meniu pasirinkite <gui>Pažymėti įdiegimui</gui>.</p>
+      </item>
+      <item>
+        <p>Jei jūsų paprašys „Pažymėti papildomus pakeitimus“ - spustelėkite mygtuką <gui>Pažymėti</gui>.</p>
+      </item>
+      <item>
+        <p>Jei norite įdiegti daugiau programų - susiraskite jas ir pažymėkite taip pat.</p>
+      </item>
+      <item>
+        <p>Paspauskite mygtuką <gui>Pritaikyti</gui> ir atsidariusiame lange patikrinkite ar nepašalinsite reikalingų programų. Jei viskas gerai - spustelėkite mygtuką <gui>Taikyti</gui>. Jūsų pasirinkta (pažymėta) programinė įranga bus atsiųsta ir įdiegta.</p>
+      </item>
+    </steps>
+
+    <p>Daugiau informacijos apie naudojimąsi <app>Paketų tvarkytuve Synaptic</app> gausite pasirinkę meniu <gui>Pagalba-&gt;Trumpa įžanga</gui> bei <link href="https://help.ubuntu.com/community/SynapticHowto">Synaptic žinyne internete</link>.</p>
+
+  </section>
+
+</page>

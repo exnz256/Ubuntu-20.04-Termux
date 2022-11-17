@@ -1,0 +1,14 @@
+edd99f368a2ef6ab118b416d08b66b47  usr/share/doc/gnome-shell-extension-desktop-icons/changelog.Debian.gz
+4e076968384648e21543fa920fb9c681  usr/share/doc/gnome-shell-extension-desktop-icons/copyright
+8dabec46541ca0f54f671caf48c98e60  usr/share/glib-2.0/schemas/org.gnome.shell.extensions.desktop-icons.gschema.xml
+01ec1a51d5ff65b0b789fb72184306cb  usr/share/gnome-shell/extensions/desktop-icons@csoriano/createFolderDialog.js
+ba7de84fe90ef246bc5885055ec7e319  usr/share/gnome-shell/extensions/desktop-icons@csoriano/createThumbnail.js
+7e2cdcfea5759ad907d818e034322248  usr/share/gnome-shell/extensions/desktop-icons@csoriano/dbusUtils.js
+fd45f5e2e0f5f2989b848a4621c185ac  usr/share/gnome-shell/extensions/desktop-icons@csoriano/desktopGrid.js
+ee255dbc9ece7c6ce22a8aeecc458004  usr/share/gnome-shell/extensions/desktop-icons@csoriano/desktopIconsUtil.js
+06f876ba17054d3025a89052057af7bc  usr/share/gnome-shell/extensions/desktop-icons@csoriano/desktopManager.js
+5bf1b4bc3f895d4329d7bde437ae2532  usr/share/gnome-shell/extensions/desktop-icons@csoriano/extension.js
+3cb45f89073aeadbe384b90a0bb74ff1  usr/share/gnome-shell/extensions/desktop-icons@csoriano/fileItem.js
+8865b6affaf0cbef2e77c72570db5de8  usr/share/gnome-shell/extensions/desktop-icons@csoriano/metadata.json
+4928bec398e5325df71ffb7983066b90  usr/share/gnome-shell/extensions/desktop-icons@csoriano/prefs.js
+b8d6cb4c6cf792b88b0a7ca1db9346b1  usr/share/gnome-shell/extensions/desktop-icons@csoriano/stylesheet.css

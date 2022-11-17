@@ -1,0 +1,11 @@
+3010504315c770e8b1ecc78170d7d283  usr/bin/totem
+35f9d9b623138e1904cf26d49f2e0158  usr/bin/totem-video-thumbnailer
+355ebcc2ddc520d0f0b57dd5d4cc7137  usr/libexec/totem-gallery-thumbnailer
+6463ee8a8b2194211205ecf4597f3292  usr/share/applications/org.gnome.Totem.desktop
+07caf874be261379cf54f2a25fe55ecb  usr/share/dbus-1/services/org.gnome.Totem.service
+470300cf7ccbc46c3a5d2f2fa83c294c  usr/share/doc/totem/AUTHORS
+988eec1ba7d39d6146045254060adc07  usr/share/doc/totem/NEWS.gz
+e95655d061df9d84ce98678af14e85a1  usr/share/doc/totem/README
+f69e1e4c3db9f7adb5efcf6d4dcc9285  usr/share/doc/totem/README.Debian
+895062c3f6b7fb6b09b39fca8cbaacab  usr/share/doc/totem/copyright
+6e8164262c62094d411c3e916099f74e  usr/share/metainfo/org.gnome.Totem.appdata.xml

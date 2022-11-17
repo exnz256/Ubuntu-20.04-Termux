@@ -1,0 +1,13 @@
+f0808b28bb24f7ec26ae606bbb60d1e9  usr/bin/inetutils-dnsdomainname
+c6e953cabef60301e3c2509f7947226b  usr/bin/inetutils-hostname
+1ee67f54ff0080e7df0b3bc737afa93d  usr/bin/inetutils-ifconfig
+0f9aa54e6785c0623eb4e084592cdcd5  usr/bin/inetutils-logger
+240d0e72aa9bcfe731a19787bf394cd1  usr/share/doc/inetutils-tools/AUTHORS
+9814abdb8f3eb55883c920514ce27644  usr/share/doc/inetutils-tools/NEWS.gz
+8bccd4dcf30914aa46d7f2e009fa2860  usr/share/doc/inetutils-tools/THANKS
+532e189db314b8f60691d523d09b2828  usr/share/doc/inetutils-tools/changelog.Debian.gz
+03c39402ddda7a755f392aa3ae50c728  usr/share/doc/inetutils-tools/copyright
+956ac776b2b1845820f1773ebbf7f7f7  usr/share/man/man1/inetutils-dnsdomainname.1.gz
+7a923508538f36cb686d34934fe62f43  usr/share/man/man1/inetutils-hostname.1.gz
+d679d9b6866093734f472e6f6764da54  usr/share/man/man1/inetutils-ifconfig.1.gz
+b4d1ede034ba325c3fcfef1a9c01a028  usr/share/man/man1/inetutils-logger.1.gz

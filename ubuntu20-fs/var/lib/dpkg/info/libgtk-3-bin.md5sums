@@ -1,0 +1,14 @@
+997be6d54f1a70da6d1638aed59bc5c0  usr/bin/broadwayd
+e87fb48cefe9c692d446b47cc9ca20e2  usr/bin/gtk-builder-tool
+be1d802d93649a1d6c1744c024b4e0c1  usr/bin/gtk-encode-symbolic-svg
+8fdaf2994ba6a19862d21cfd88e27f17  usr/bin/gtk-launch
+d12631a970798035daf091e67589f426  usr/bin/gtk-query-settings
+ed4fa690ad26b0e144e8e5945069c7cd  usr/share/doc/libgtk-3-bin/copyright
+fcac07ba23461f0e839d198d174b8e08  usr/share/gettext/its/gtkbuilder.its
+259afb64ae43bfb7f47db92189704f04  usr/share/gettext/its/gtkbuilder.loc
+143c38910d6689da8f37d4702e58784c  usr/share/man/man1/broadwayd.1.gz
+2776ef65f9325b0a31f841ad6e35578f  usr/share/man/man1/gtk-builder-tool.1.gz
+9f81ead3b0daf3b006c834a648a2ef2f  usr/share/man/man1/gtk-encode-symbolic-svg.1.gz
+e98cc75f4dc2db88000f28de55eb3acf  usr/share/man/man1/gtk-launch.1.gz
+65f944c7043a1517d99948b6d2d88fcf  usr/share/man/man1/gtk-query-immodules-3.0.1.gz
+3d4f64c8e5545f2c1647d4530c84dcea  usr/share/man/man1/gtk-query-settings.1.gz

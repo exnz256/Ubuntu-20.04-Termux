@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="testsignals" xml:lang="de">
+    <info>
+        <link type="guide" xref="index#calibration"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>David Keller</mal:name>
+      <mal:email>davidkeller@tuta.io</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+    <title>Testsignale</title>
+    <p>Diese Signale können verwendet werden, um den Frequenzgang deiner Lautsprecher zu testen.</p>
+</page>

@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2017 Patrik Nilsson -->
+<component type="desktop">
+  <id>com.github.wwmm.pulseeffects.desktop</id>
+  <name>PulseEffects</name>
+  <name xml:lang="sv">PulseEffects</name>
+  <name xml:lang="sk">PulseEffects</name>
+  <name xml:lang="ru">PulseEffects</name>
+  <name xml:lang="pt_BR">PulseEffects</name>
+  <name xml:lang="pl">PulseEffects</name>
+  <name xml:lang="it_IT">PulseEffects</name>
+  <name xml:lang="id_ID">PulseEffects</name>
+  <name xml:lang="hr">PulseEffects</name>
+  <name xml:lang="fr_FR">PulseEffects</name>
+  <name xml:lang="de">PulseEffects</name>
+  <name xml:lang="cs">PulseEffects</name>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0</project_license>
+  <summary>Audio Effects for PulseAudio Applications</summary>
+  <summary xml:lang="sv">Ljudeffekter för PulseAudio applikationer</summary>
+  <summary xml:lang="ru">Аудиоэффекты для приложений PulseAudio</summary>
+  <summary xml:lang="pt_BR">Efeitos de Áudio para Programas que Utilizam Pulseaudio</summary>
+  <summary xml:lang="pl">Efekty dźwiękowe dla programu Pulseaudio</summary>
+  <summary xml:lang="it_IT">Effetti Audio per Applicazioni PulseAudio</summary>
+  <summary xml:lang="id_ID">Penerap Efek Suara untuk Aplikasi Berbasis Pulseaudio</summary>
+  <summary xml:lang="hr">Zvučni efekti za Pulseaudio aplikacije</summary>
+  <summary xml:lang="fr_FR">Effets audio pour applications PulseAudio</summary>
+  <summary xml:lang="de">Audio Effekte für Pulseaudio Anwendungen</summary>
+  <summary xml:lang="cs">Zvukové efekty pro programy využívající PulseAudio</summary>
+  <developer_name>Wellington Wallace</developer_name>
+  <description>
+    <p>
+      PulseEffects is an advanced audio manipulation tools. It includes an
+      equalizer, limiter, compressor and a reverberation tool, just to mention
+      a few. To complement this there is also a built in spectrum analyzer.
+    </p>
+    <p xml:lang="sv">PulseEffects är ett avancerat verktyg för manipulation av ljud. Det innehåller en ljudutjämnare (equalizer), ljudbegränsare (limiter), kompressor och ett efterklangsverktyg (eko), för att bara nämna några få. Där finns även en inbyggd frekvensanalysator som kompletterar dessa.</p>
+    <p xml:lang="ru">PulseEffects — это продвинутая программа манипуляции звуком в режиме реального времени. Она включает в себя эквалайзер, ограничитель (лимитер), компрессор, утилиту для ревербации и многое другое. Более того, имеется встроенный анализатор аудиоспектра.</p>
+    <p xml:lang="pt_BR">PulseEffects é uma ferramenta avançada de edição de áudio. Ele inclui equalizador, limitador, compressor e um plugin de reverberação. Estas ferramentas são complementadas por um analisador de espectro.</p>
+    <p xml:lang="pl">PulseEffects to zaawansowane narzędzie do manipulacji dźwiękiem. Zawiera między innymi korektor, limiter, kompresor i narzędzie do generowania pogłosu. Uzupełnieniem tego jest wbudowany analizator widma.</p>
+    <p xml:lang="it_IT">PulseEffects è uno strumento avanzato di manipolazione dell'audio. Include diversi plugin tra cui un equalizzatore, un limitatore, un compressore e uno strumento per il riverbero. È dotato inoltre di un analizzatore di spettro.</p>
+    <p xml:lang="id_ID">PulseEffects merupakan aplikasi pengubah efek suara. Berisi modul-modul seperti ekualiser, pembatas, kompresor, dan modul penggema. Dilengkapi juga dengan Penganalisis Spektrum untuk memantau efek yang diterapkan.</p>
+    <p xml:lang="hr">PulseEffects je napredan alat za manipulaciju zvukom. Uključuje ekvalizator, graničnik, kompresor, alat odjeka te mnoge druge druge alate. Još sadrži i ugrađeni analizator spektra.</p>
+    <p xml:lang="fr_FR">PulseEffects est un outil avancé de manipulation audio. Il inclut, entre autres, un égaliseur, limiteur, compresseur et effet de réverbération. Aussi présent est un analyseur de fréquences.</p>
+    <p xml:lang="de">PulseEffects ist ein Audio-Manipulations-Tool. Es enthält einen Equalizer, Limiter, Kompressor, Hall und ein Spektrumanalysator.</p>
+    <p xml:lang="cs">PulseEffects je pokročilým nástrojem pro zacházení se zvukem. Obsahuje mimo jiné nástroj ekvalizéru, omezovače (limiter), kompresoru a dozvuku. Na doplnění je také vestavěn analyzátor spektra.</p>
+    <p>
+      Because PulseEffects uses the default PulseAudio sound server it will
+      work with most, if not all, applications you use. All supported
+      applications are presented in the main window, where each can be enabled
+      individually.
+    </p>
+    <p xml:lang="sv">Eftersom PulseEffects använder sig av standard PulseAudio som ljudserver stödjer den de flesta, om inte alla, program du använder. Alla applikationer som stöds presenteras i huvudfönstret, där var och en kan aktiveras individuellt.</p>
+    <p xml:lang="ru">Так как PulseEffects использует стандартный сервер PulseAudio, программа будет работать с большинством используемых Вами приложений. Все поддерживаемые представлены в главном окне, где для каждого могут быть произведены настройки эффектов </p>
+    <p xml:lang="pt_BR">Como o PulseEffects usa o servidor de áudio padrão PulseAudio ele irá funcionar com a maioria das aplicações que você usa, senão todas. Todos os aplicativos suportados estão presentes na janela principal, onde cada uma pode ser habilitada individualmente.</p>
+    <p xml:lang="pl">Ponieważ PulseEffects używa domyślnego serwera dźwięku PulseAudio, będzie on działał z większością, jeśli nie wszystkimi używanymi programami. Wszystkie obsługiwane programy są prezentowane w oknie głównym, gdzie każdy z nich może być aktywowany indywidualnie.</p>
+    <p xml:lang="it_IT">Utilizzando il server audio predefinito PulseAudio, PulseEffects funzionerà con quasi tutte le applicazione installate. Le applicazioni supportate sono mostrate nella finestra principale dove si possono abilitare individualmente.</p>
+    <p xml:lang="id_ID">PulseEffects bekerja dengan aplikasi berbasis PulseAudio. Aplikasi yang mendukung PulseEffects akan ditampilkan pada jendela utama aplikasi.</p>
+    <p xml:lang="hr">Zato što PulseEffects koristi zadani PulseAudio zvučni poslužitelj, radit će s većinom, ako ne i sa svim aplikacijama koje koristite. Sve podržane aplikacije su prikazane u glavnom prozoru, gdje se na svaku pojedinačno može omogućiti utjecaj efekata.</p>
+    <p xml:lang="fr_FR">Parce que PulseEffects utilise le serveur PulseAudio par défaut, cet outil fonctionne avec la grande majorité des applications. Les applications compatibles sont présentées dans la fenêtre principale, où vous pouvez les activer manuellement.</p>
+    <p xml:lang="de">Da PulseEffects den Standard PulseAudio Sound Server benutzt, funktioniert es mit so ziemlich allen Anwendungen. Alle unterstützten Anwendungen werden im Hauptfenster angezeigt, wo alle individuell Ein-/Ausgeschaltet werden können.</p>
+    <p xml:lang="cs">Protože PulseEffects používá výchozí zvukový server PulseAudio, bude pracovat s většinou, pokud už ne se všemi vámi používanými programy. Všechny podporované programy jsou ukázány v hlavním okně, v němž je možné kterýkoli z nich ručně povolit.</p>
+    <p>
+      Besides manipulating sound output, PulseEffects is able to apply effects
+      to an input device, such as a microphone. This is, for example, useful in
+      audio recording, but it also works well during voice conversations.
+    </p>
+    <p xml:lang="sv">Förutom att manipulera dina programs ljud kan PulseEffects tillämpa effekter på en ingångsenhet, såsom en mikrofon. Detta är exempelvis användbart vid ljudinspelning, men det fungerar även bra under röstsamtal.</p>
+    <p xml:lang="ru">Помимо изменения звука на выходе, PulseEffects также может добавлять аудиоэффекты к входным аудиопотокам, таким как микрофон. Это полезно, например, во время аудиозаписи или голосовой конференции.</p>
+    <p xml:lang="pt_BR">Além de manipular saída de som o PulseEffects também é capaz de aplicar efeitos em dispositivos de entrada, como um microfone. Isto é útil, por exemplo, em gravação de áudio mas também funciona em conversas.</p>
+    <p xml:lang="pl">Oprócz manipulowania wyjściem dźwiękowym, PulseEffects jest w stanie zastosować efekty do urządzenia wejściowego, takiego jak mikrofon. Jest to przydatne na przykład przy nagrywaniu dźwięku, ale sprawdza się również podczas rozmów głosowych.</p>
+    <p xml:lang="it_IT">Oltre a manipolare il suono in uscita, PulseEffects è in grado di applicare effetti ad un dispositivo di input, come un microfono. È utile, per esempio, nelle registrazioni audio e nelle conversazioni vocali.</p>
+    <p xml:lang="id_ID">Selain mengolah suara yang keluar, PulseEffects dapat mengolah efek suara seperti pada mikrofon dan pengakat masukan lainnya. PulseEffects juga bekerja dengan baik ketika dipakai dalam percakapan suara.</p>
+    <p xml:lang="hr">Osim manipuliranja izlaza zvuka, PulseEffects može primijeniti efekte i na ulazni uređaj, poput mikrofona. To je na primjer korisno pri snimanju zvuka, ali isto tako funkcionira dobro i tijekom glasovnih razgovora.</p>
+    <p xml:lang="fr_FR">En plus de la manipulation de la sortie audio, PulseEffects peut aussi manipuler l'entrée audio, depuis par exemple un microphone; ce qui est utile pour l'enregistrement audio ou pour une conversation.</p>
+    <p xml:lang="de">Neben der Sound Manipulation des Ausgangs, kann PulseEffects auch Effekte auf Eingabegeräte, z.B. Mikrofone, anwenden. Dies ist sinnvoll für z.B. Audioaufnahmen oder VOIP Anwendungen.</p>
+    <p xml:lang="cs">Vedle práce se zvukovým výstupem dokáže PulseEffects efekty použít i na vstupní zařízení, jako je mikrofon. To je užitečné mimo jiné při nahrávání zvuku, pracuje to ale dobře během hlasových hovorů.</p>
+    <p>
+      When PulseEffects is launched it will conveniently remember the
+      configuration used in the last session. It is also possible to save
+      all the current settings as profiles.
+    </p>
+    <p xml:lang="sv">När PulseEffects startas kommer det ihåg konfigurationen som användes under den senaste sessionen. Det är också möjligt att spara alla aktuella inställningar som profiler.</p>
+    <p xml:lang="ru">Удобно то, что при запуске PulseEffects автоматически подгрузит настройки из предыдущей сессии работы. Также можно сохранить текущие настройки в набор преднастроек.</p>
+    <p xml:lang="pt_BR">Quando inicializado, o PulseEffects irá convenientemente lembrar das configurações utilizadas na última sessão. Também é possível salvar todas as configurações
+como perfis.</p>
+    <p xml:lang="pl">Podczas uruchamiania, PulseEffects wygodnie przypomni sobie konfigurację użytą w ostatniej sesji. Możliwe jest również zapisanie wszystkich bieżących ustawień w postaci profilów.</p>
+    <p xml:lang="it_IT">All'avvio di PulseEffects verrà caricata la configurazione usata nell'ultima sessione. È anche possibile salvare tutte le impostazioni correnti in file di profili.</p>
+    <p xml:lang="id_ID">Ketika PulseEffects dijalankan, preset terakhir yang dipakai akan termuat otomatis. Anda juga dapat menyimpan pengaturan yang telah dibuat ke dalam profil tersendiri.</p>
+    <p xml:lang="hr">Kad je PulseEffects pokrenut, upotrijebit će podešavanja od prošlog puta. Također je moguće spremiti sve trenutne postavke kao predloške.</p>
+    <p xml:lang="fr_FR">PuseEffets se rappelle de la configuration utilisée lors du lancement précédent. Il est aussi possible de sauvegarder tous les paramètres dans des profils personnalisés.</p>
+    <p xml:lang="de">Wenn PulseEffects startet, stellt es die Konfiguration der letzten Sitzung wieder her. Es ist auch möglich, die aktuellen Einstellungen als Profil / Preset in einer Datei zu speichern.</p>
+    <p xml:lang="cs">Když je PulseEffects spuštěn, zapamatuje si příhodně nastavení používané při posledním sezení. Je možné i uložení všech nynějších nastavení jako profilů.</p>
+  </description>
+  <launchable type="desktop-id">com.github.wwmm.pulseeffects.desktop</launchable>
+  <url type="homepage">https://github.com/wwmm/pulseeffects</url>
+  <url type="bugtracker">https://github.com/wwmm/pulseeffects/issues</url>
+  <url type="help">https://github.com/wwmm/pulseeffects/blob/master/README.md</url>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/wwmm/pulseeffects/master/images/appdata-screenshot-01.png</image>
+      <caption>Set the volume and turn on/off effects</caption>
+      <caption xml:lang="ru">Настройка громкости и вкл/откл эффектов</caption>
+      <caption xml:lang="pt_BR">Definir o volume e ligar / desligar efeitos</caption>
+      <caption xml:lang="it_IT">Imposta il volume e abilita/disabilita effetti</caption>
+      <caption xml:lang="id_ID">Atur Volume dan hidupkan/matikan Efek</caption>
+      <caption xml:lang="hr">Postavi razinu zvuka te uključi/isključi efekte</caption>
+      <caption xml:lang="de">Einstellen der Lautstärke und Ein-/Ausschalten von Effekten</caption>
+      <caption xml:lang="cs">Nastavit hlasitost a zapnout/vypnout efekty</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/wwmm/pulseeffects/master/images/appdata-screenshot-02.png</image>
+      <caption>Includes an equalizer with built-in presets</caption>
+      <caption xml:lang="ru">Содержит эквалайзер с предустановками</caption>
+      <caption xml:lang="pt_BR">Inclui um equalizador com predefinições incorporadas</caption>
+      <caption xml:lang="it_IT">Include un equalizzatore con profili preesistenti</caption>
+      <caption xml:lang="id_ID">Dilengkapi dengan Ekualiser dengan Preset Bawaan</caption>
+      <caption xml:lang="hr">Uključuje i ekvalizator s ugrađenim predlošcima</caption>
+      <caption xml:lang="de">Enthält einen Equalizer mit integrierten Presets</caption>
+      <caption xml:lang="cs">Zahrnuje ekvalizér s vestavěnými přednastaveními</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/wwmm/pulseeffects/master/images/appdata-screenshot-03.png</image>
+      <caption>Input Limiter</caption>
+      <caption xml:lang="sv">Ingångs-begränsning</caption>
+      <caption xml:lang="sk">Vstupný obmedzovač</caption>
+      <caption xml:lang="ru">Ограничитель ввода</caption>
+      <caption xml:lang="pt_BR">Limitador de Entrada</caption>
+      <caption xml:lang="pl">Limiter wejścia</caption>
+      <caption xml:lang="it_IT">Limitatore Ingresso</caption>
+      <caption xml:lang="id_ID">Pembatas Masukan</caption>
+      <caption xml:lang="hr">Graničnik ulaza</caption>
+      <caption xml:lang="fr_FR">Limiteur d'entrée</caption>
+      <caption xml:lang="de">Eingabe-Limiter</caption>
+      <caption xml:lang="cs">Omezovač vstupu</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/wwmm/pulseeffects/master/images/appdata-screenshot-04.png</image>
+      <caption>Compressor</caption>
+      <caption xml:lang="sv">Kompressor</caption>
+      <caption xml:lang="sk">Kompresor</caption>
+      <caption xml:lang="ru">Компрессор</caption>
+      <caption xml:lang="pt_BR">Compressor</caption>
+      <caption xml:lang="pl">Kompresor</caption>
+      <caption xml:lang="it_IT">Compressore</caption>
+      <caption xml:lang="id_ID">Kompresor</caption>
+      <caption xml:lang="hr">Kompresor</caption>
+      <caption xml:lang="fr_FR">Compresseur</caption>
+      <caption xml:lang="de">Kompressor</caption>
+      <caption xml:lang="cs">Kompresor</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/wwmm/pulseeffects/master/images/appdata-screenshot-05.png</image>
+      <caption>Calibration</caption>
+      <caption xml:lang="sv">Kalibrering</caption>
+      <caption xml:lang="ru">Калибровка</caption>
+      <caption xml:lang="pt_BR">Calibração</caption>
+      <caption xml:lang="pl">Kalibracja</caption>
+      <caption xml:lang="it_IT">Calibrazione</caption>
+      <caption xml:lang="id_ID">Kalibrasi</caption>
+      <caption xml:lang="hr">Kalibracija</caption>
+      <caption xml:lang="fr_FR">Calibration</caption>
+      <caption xml:lang="de">Kalibrierung</caption>
+      <caption xml:lang="cs">Kalibrace</caption>
+    </screenshot>
+  </screenshots>
+  <releases>
+    <release version="4.6.8" date="2019-09-16"/>
+    <release version="4.6.7" date="2019-09-10"/>
+    <release version="4.6.6" date="2019-08-04"/>
+    <release version="4.6.5" date="2019-06-23"/>
+    <release version="4.6.4" date="2019-06-19"/>
+    <release version="4.6.3" date="2019-06-02"/>
+    <release version="4.6.2" date="2019-05-30"/>
+    <release version="4.6.1" date="2019-05-22"/>
+    <release version="4.6.0" date="2019-04-28"/>
+    <release version="4.5.9" date="2019-04-13"/>
+    <release version="4.5.8" date="2019-03-21"/>
+    <release version="4.5.7" date="2019-03-19"/>
+    <release version="4.5.6" date="2019-03-13"/>
+    <release version="4.5.5" date="2019-03-06"/>
+    <release version="4.5.4" date="2019-03-03"/>
+    <release version="4.5.3" date="2019-02-27"/>
+    <release version="4.5.2" date="2019-02-24"/>
+    <release version="4.5.0" date="2019-02-10"/>
+    <release version="4.4.7" date="2019-01-21"/>
+    <release version="4.4.6" date="2019-01-09"/>
+    <release version="4.4.5" date="2019-01-04"/>
+    <release version="4.4.4" date="2018-12-31"/>
+    <release version="4.4.3" date="2018-12-30"/>
+    <release version="4.4.2" date="2018-12-30"/>
+    <release version="4.4.1" date="2018-12-03"/>
+    <release version="4.4.0" date="2018-10-31"/>
+    <release version="4.3.9" date="2018-10-24"/>
+    <release version="4.3.8" date="2018-10-16"/>
+    <release version="4.3.7" date="2018-09-25"/>
+    <release version="4.3.6" date="2018-09-25"/>
+    <release version="4.3.5" date="2018-09-16"/>
+    <release version="4.3.4" date="2018-09-01"/>
+    <release version="4.3.3" date="2018-08-31"/>
+    <release version="4.3.2" date="2018-08-30"/>
+    <release version="4.3.1" date="2018-08-28"/>
+    <release version="4.3.0" date="2018-08-28"/>
+    <release version="4.2.9" date="2018-08-26"/>
+    <release version="4.2.8" date="2018-08-14"/>
+    <release version="4.2.7" date="2018-08-12"/>
+    <release version="4.2.6" date="2018-08-10"/>
+    <release version="4.2.5" date="2018-08-09"/>
+    <release version="4.2.4" date="2018-08-05"/>
+    <release version="4.2.3" date="2018-07-30"/>
+    <release version="4.2.2" date="2018-07-29"/>
+    <release version="4.2.1" date="2018-07-28"/>
+    <release version="4.2.0" date="2018-07-24"/>
+    <release version="4.1.9" date="2018-07-18"/>
+    <release version="4.1.8" date="2018-07-16"/>
+    <release version="4.1.7" date="2018-07-14"/>
+    <release version="4.1.6" date="2018-07-14"/>
+    <release version="4.1.5" date="2018-07-13"/>
+    <release version="4.1.4" date="2018-07-13"/>
+    <release version="4.1.3" date="2018-07-06"/>
+    <release version="4.1.2" date="2018-07-01"/>
+    <release version="4.1.1" date="2018-06-27"/>
+    <release version="4.1.0" date="2018-06-24"/>
+    <release version="4.0.9" date="2018-06-24"/>
+    <release version="4.0.8" date="2018-06-19"/>
+    <release version="4.0.7" date="2018-06-17"/>
+    <release version="4.0.6" date="2018-06-16"/>
+    <release version="4.0.5" date="2018-06-15"/>
+    <release version="4.0.4" date="2018-06-12"/>
+    <release version="4.0.3" date="2018-06-12"/>
+    <release version="4.0.2" date="2018-06-08"/>
+    <release version="4.0.1" date="2018-06-04"/>
+    <release version="4.0.0" date="2018-06-03"/>
+    <release version="3.2.3" date="2018-04-21"/>
+    <release version="3.2.2" date="2018-04-20"/>
+    <release version="3.2.1" date="2018-03-01"/>
+    <release version="3.2.0" date="2018-02-04"/>
+    <release version="3.1.9" date="2018-01-30"/>
+    <release version="3.1.8" date="2018-01-30"/>
+    <release version="3.1.7" date="2018-01-23"/>
+    <release version="3.1.6" date="2017-12-31"/>
+    <release version="3.1.5" date="2017-12-25"/>
+    <release version="3.1.4" date="2017-12-18"/>
+    <release version="3.1.3" date="2017-12-13"/>
+    <release version="3.1.2" date="2017-12-12"/>
+    <release version="3.1.1" date="2017-12-09"/>
+    <release version="3.1.0" date="2017-12-09"/>
+    <release version="3.0.9" date="2017-11-28"/>
+    <release version="3.0.8" date="2017-11-16"/>
+    <release version="3.0.7" date="2017-11-11"/>
+    <release version="3.0.6" date="2017-10-31"/>
+    <release version="3.0.5" date="2017-10-22"/>
+    <release version="3.0.4" date="2017-10-22"/>
+    <release version="3.0.3" date="2017-10-21"/>
+    <release version="3.0.2" date="2017-10-21"/>
+    <release version="3.0.1" date="2017-10-14"/>
+    <release version="3.0.0" date="2017-09-21"/>
+    <release version="2.3.6" date="2017-09-01"/>
+    <release version="2.3.5" date="2017-08-25"/>
+    <release version="2.3.4" date="2017-08-25"/>
+    <release version="2.3.3" date="2017-08-22"/>
+    <release version="2.3.2" date="2017-08-21"/>
+    <release version="2.3.1" date="2017-08-20"/>
+    <release version="2.3.0" date="2017-08-20"/>
+    <release version="2.2.1" date="2017-08-15"/>
+    <release version="2.2.0" date="2017-08-15"/>
+    <release version="2.1.2" date="2017-07-29"/>
+    <release version="2.1.1" date="2017-07-23"/>
+    <release version="2.1.0" date="2017-07-17"/>
+    <release version="2.0.9" date="2017-07-16"/>
+    <release version="2.0.8" date="2017-07-15"/>
+    <release version="2.0.7" date="2017-07-11"/>
+    <release version="2.0.6" date="2017-07-08"/>
+    <release version="2.0.5" date="2017-07-07"/>
+    <release version="2.0.4" date="2017-07-07"/>
+    <release version="2.0.3" date="2017-07-04"/>
+    <release version="2.0.2" date="2017-07-02"/>
+    <release version="2.0.1" date="2017-07-01"/>
+    <release version="2.0.0" date="2017-06-30"/>
+    <release version="1.6.7" date="2017-06-26"/>
+    <release version="1.6.6" date="2017-06-25"/>
+    <release version="1.6.5" date="2017-06-24"/>
+    <release version="1.6.4" date="2017-06-22"/>
+    <release version="1.6.3" date="2017-06-20"/>
+    <release version="1.6.2" date="2017-06-18"/>
+    <release version="1.6.1" date="2017-06-17"/>
+    <release version="1.6.0" date="2017-06-15"/>
+    <release version="1.5.8" date="2017-06-13"/>
+    <release version="1.5.7" date="2017-06-11"/>
+    <release version="1.5.6" date="2017-06-10"/>
+    <release version="1.5.5" date="2017-06-08"/>
+    <release version="1.5.4" date="2017-06-08"/>
+    <release version="1.5.3" date="2017-06-06"/>
+    <release version="1.5.2" date="2017-06-06"/>
+    <release version="1.5.1" date="2017-06-04"/>
+    <release version="1.5.0" date="2017-06-04"/>
+    <release version="1.4.8" date="2017-06-03"/>
+    <release version="1.4.7" date="2017-06-01"/>
+    <release version="1.4.6" date="2017-05-30"/>
+    <release version="1.4.5" date="2017-05-30"/>
+    <release version="1.4.4" date="2017-05-28"/>
+    <release version="1.4.3" date="2017-05-27"/>
+    <release version="1.4.2" date="2017-05-27"/>
+    <release version="1.4.1" date="2017-05-25"/>
+    <release version="1.4.0" date="2017-05-23"/>
+    <release version="1.3.6" date="2017-05-20"/>
+    <release version="1.3.5" date="2017-05-20"/>
+    <release version="1.3.4" date="2017-05-20"/>
+    <release version="1.3.3" date="2017-05-18"/>
+    <release version="1.3.2" date="2017-05-16"/>
+    <release version="1.3.1" date="2017-05-12"/>
+    <release version="1.3.0" date="2017-05-10"/>
+    <release version="1.2.9" date="2017-05-09"/>
+    <release version="1.2.8" date="2017-05-06"/>
+    <release version="1.2.7" date="2017-05-02"/>
+    <release version="1.2.6" date="2017-05-01"/>
+    <release version="1.2.5" date="2017-04-25"/>
+    <release version="1.2.4" date="2017-04-23"/>
+    <release version="1.2.3" date="2017-04-23"/>
+    <release version="1.2.2" date="2017-04-23"/>
+    <release version="1.2.1" date="2017-04-22"/>
+    <release version="1.2.0" date="2017-04-21"/>
+    <release version="1.1.9" date="2017-04-21"/>
+    <release version="1.1.8" date="2017-04-20"/>
+    <release version="1.1.7" date="2017-04-20"/>
+    <release version="1.1.6" date="2017-04-19"/>
+    <release version="1.1.5" date="2017-04-18"/>
+    <release version="1.1.4" date="2017-04-17"/>
+    <release version="1.1.3" date="2017-04-14"/>
+    <release version="1.1.2" date="2017-04-14"/>
+    <release version="1.1.1" date="2017-04-13"/>
+    <release version="1.1.0" date="2017-04-11"/>
+    <release version="1.0.9" date="2017-04-09"/>
+    <release version="1.0.8" date="2017-04-07"/>
+    <release version="1.0.7" date="2017-03-28"/>
+    <release version="1.0.6" date="2017-03-28"/>
+    <release version="1.0.5" date="2017-03-28"/>
+    <release version="1.0.4" date="2017-03-27"/>
+    <release version="1.0.3" date="2017-03-27"/>
+    <release version="1.0.2" date="2017-03-25"/>
+    <release version="1.0.1" date="2017-03-25"/>
+    <release version="1.0" date="2017-03-25"/>
+    <release version="0.9" date="2017-03-24"/>
+    <release version="0.8" date="2017-03-23"/>
+    <release version="0.7" date="2017-03-23"/>
+    <release version="0.6" date="2017-03-23"/>
+    <release version="0.5" date="2017-03-23"/>
+    <release version="0.4" date="2017-03-23"/>
+    <release version="0.3" date="2017-03-23"/>
+    <release version="0.2" date="2017-03-23"/>
+    <release version="0.1" date="2017-03-21"/>
+  </releases>
+  <content_rating type="oars-1.0">
+    <content_attribute id="violence-cartoon">none</content_attribute>
+    <content_attribute id="violence-fantasy">none</content_attribute>
+    <content_attribute id="violence-realistic">none</content_attribute>
+    <content_attribute id="violence-bloodshed">none</content_attribute>
+    <content_attribute id="violence-sexual">none</content_attribute>
+    <content_attribute id="drugs-alcohol">none</content_attribute>
+    <content_attribute id="drugs-narcotics">none</content_attribute>
+    <content_attribute id="drugs-tobacco">none</content_attribute>
+    <content_attribute id="sex-nudity">none</content_attribute>
+    <content_attribute id="sex-themes">none</content_attribute>
+    <content_attribute id="language-profanity">none</content_attribute>
+    <content_attribute id="language-humor">none</content_attribute>
+    <content_attribute id="language-discrimination">none</content_attribute>
+    <content_attribute id="social-chat">none</content_attribute>
+    <content_attribute id="social-info">none</content_attribute>
+    <content_attribute id="social-audio">none</content_attribute>
+    <content_attribute id="social-location">none</content_attribute>
+    <content_attribute id="social-contacts">none</content_attribute>
+    <content_attribute id="money-purchasing">none</content_attribute>
+    <content_attribute id="money-gambling">none</content_attribute>
+  </content_rating>
+  <update_contact>contact_AT_hembas.se</update_contact>
+  <translation type="gettext">PulseEffects</translation>
+</component>

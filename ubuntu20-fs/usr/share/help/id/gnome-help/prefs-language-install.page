@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="prefs-language-install" xml:lang="id">
+
+  <info>
+    <link type="guide" xref="addremove" group="#last"/>
+    <link type="seealso" xref="prefs-language"/>
+
+    <desc>Instal lebih banyak terjemahan dan paket dukungan bahasa terkait.</desc>
+    <revision version="17.10" date="2017-09-25" status="review"/>
+    <credit type="author">
+      <name>Gunnar Hjalmarsson</name>
+      <email>gunnarhj@ubuntu.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>Menginstal bahasa</title>
+
+  <p>Ketika Anda menginstal Ubuntu, bahasa yang Anda pilih di instalasi akan diinstal bersama-sama dengan bahasa Inggris, tetapi Anda dapat menambahkan bahasa lebih lanjut.</p>
+
+  <steps>
+    <item>
+      <p>Buka ringkasan <gui xref="shell-introduction#activities">Aktivitas</gui> dan mulai mengetik <gui>Wilayah &amp; Bahasa</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Region &amp; Language</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>Klik tombol <gui>Kelola Bahasa yang Diinstal</gui> untuk membuka <gui>Dukungan Bahasa</gui>.</p>
+    </item>
+    <item>
+      <p>Klik <gui>Instal/Hapus Bahasa...</gui>. Jendela <gui>Bahasa yang Diinstal</gui> menampilkan daftar semua bahasa yang tersedia, dengan bahasa yang saat ini diinstal dicentang.</p>
+    </item>
+    <item>
+      <p>Centang bahasa yang ingin Anda instal, dan hapus centang bahasa yang saat ini diinstal yang ingin Anda hapus.</p>
+    </item>
+    <item>
+      <p>Klik <gui>Terapkan Perubahan</gui>.</p>
+    </item>
+    <item>
+      <p><link xref="user-admin-explain">Hak akses administratif</link> diperlukan. Masukkan kata sandi, atau kata sandi untuk akun administrator yang diminta.</p>
+    </item>
+  </steps>
+
+  <p>Selain terjemahan yang digunakan untuk menampilkan menu dan pesan, dengan bahasa baru mungkin mengikut berbagai komponen dukungan bahasa seperti kamus untuk memeriksa ejaan, fonta, dan metode masukan.</p>
+
+  <note>
+    <p>Beberapa terjemahan mungkin tidak lengkap, dan aplikasi tertentu mungkin tidak mendukung bahasa Anda sama sekali.</p>
+  </note>
+
+</page>

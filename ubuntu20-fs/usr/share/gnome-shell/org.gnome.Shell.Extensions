@@ -1,0 +1,5 @@
+imports.package.start({
+    name: 'gnome-shell',
+    prefix: '/usr',
+    libdir: '/usr/lib',
+});

@@ -1,0 +1,7 @@
+d6cebbb2ba18879b76f39210936cafb0  usr/lib/aarch64-linux-gnu/libburn.so.4.105.0
+0888d9b2329c987d5099bd1eba959d88  usr/share/doc/libburn4/AUTHORS
+65926a146bbf07047fc9286b55277790  usr/share/doc/libburn4/NEWS.gz
+50966457211ecfaa2aa8738510e95594  usr/share/doc/libburn4/README.gz
+667042a1e62206f823d1d764c8b0d143  usr/share/doc/libburn4/changelog.Debian.gz
+25655a458f159d249cee21b522135933  usr/share/doc/libburn4/copyright
+e0df49a90015014e43cfecc3cca4573e  usr/share/lintian/overrides/libburn4

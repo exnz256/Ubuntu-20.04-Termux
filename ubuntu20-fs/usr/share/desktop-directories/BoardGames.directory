@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Board
+Comment=Board games
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=desktop
+Type=Directory
+X-Ubuntu-Gettext-Domain=gnome-menus-3.0

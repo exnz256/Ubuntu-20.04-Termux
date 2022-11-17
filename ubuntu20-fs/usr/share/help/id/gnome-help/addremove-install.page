@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="addremove-install" xml:lang="id">
+
+  <info>
+    <credit type="author">
+      <name>Tim Dokumentasi Ubuntu</name>
+    </credit>
+    <desc>Gunakan <app>Perangkat Lunak Ubuntu</app> untuk menginstal aplikasi tambahan dan membuat Ubuntu lebih berguna.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <link type="guide" xref="addremove" group="#first"/>
+    <link type="seealso" xref="addremove-remove"/>
+    <link type="seealso" xref="addremove-install-synaptic"/>
+    <link type="seealso" xref="prefs-language-install"/>
+    <revision version="18.04" date="2018-03-18" status="review"/>
+  </info>
+
+  <title>Menginstal aplikasi tambahan</title>
+
+  <p>Aplikasi adalah perangkat lunak yang memiliki antarmuka pengguna grafis (GUI). Tim pengembangan Ubuntu telah memilih seperangkat aplikasi yang menurut kami membuat Ubuntu sangat berguna untuk tugas sehari-hari. Namun, Anda pasti ingin menginstal lebih banyak aplikasi untuk membuat Ubuntu lebih berguna bagi Anda. Untuk menginstal aplikasi, Anda dapat menggunakan <app>Perangkat Lunak Ubuntu</app>.</p>
+
+   <p>Aplikasi tersedia dalam dua format: paket snap dan paket Debian. Sebuah aplikasi yang tersedia sebagai paket snap dari sekarang disebut sebagai <em>snap</em>. Beberapa aplikasi tersedia dalam kedua format. Dalam kasus seperti itu di <app>Perangkat Lunak Ubuntu</app> snap akan dicantumkan pertama.</p>
+
+   <p>Anda mungkin juga ingin menginstal perangkat lunak yang tidak memiliki GUI. Untuk menginstal perangkat lunak tersebut, Anda dapat menggunakan <link xref="addremove-install-synaptic">Synaptic</link>. Perhatikan bahwa <app>Synaptic</app> tidak mencantumkan daftar snap.</p>
+
+  <p>Untuk memasang suatu aplikasi:</p>
+
+  <steps>
+    <item>
+      <p>Klik ikon <app>Perangkat Lunak Ubuntu</app> di <gui>Dok</gui>, atau cari <input>Perangkat Lunak</input> di bilah pencarian <em>Aktivitas</em>.</p>
+    </item>
+    <item>
+      <p>Ketika <app>Perangkat Lunak Ubuntu</app> meluncur, cari aplikasi, atau pilih kategori dan temukan aplikasi dari daftar.</p>
+    </item>
+    <item>
+      <p>Pilih aplikasi yang ingin Anda instal dan klik <gui>Instal</gui>.</p>
+    </item>
+    <item>
+      <p>Anda akan diminta untuk mengotentikasi dengan memasukkan kata sandi Anda. Setelah Anda melakukan itu instalasi akan dimulai. Instalasi biasanya selesai dengan cepat, tetapi bisa memakan waktu lama jika Anda memiliki koneksi internet yang lambat.</p>
+
+    </item>
+
+  </steps>
+  
+</page>

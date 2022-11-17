@@ -1,0 +1,10 @@
+fb6c2b065f3e88b64f1923cc3fb43731  usr/lib/cups/filter/c2esp
+f6ff3c4ef9792c9deab70441344aed20  usr/lib/cups/filter/c2espC
+864cac015c1ac8c0bca59b96dca7949d  usr/lib/cups/filter/command2esp
+ecefca70a0341c31ce4d5f3b4dc8af58  usr/share/apport/package-hooks/source_c2esp.py
+9e767088aed786e767aa58940a3710aa  usr/share/cups/drv/c2esp.drv
+fae87d3a0e1935527e2ebfb6cf22e3ad  usr/share/cups/drv/c2espC.drv
+758077ad1adf0c987263c76335c21148  usr/share/cups/ppd-updaters/printer-driver-c2esp.ppd-updater
+df00ab21839c5d4843e25e72262811e2  usr/share/doc/printer-driver-c2esp/README.gz
+c419f341e708cc6997dc9da7b9ff35b6  usr/share/doc/printer-driver-c2esp/changelog.Debian.gz
+f74a5720cd8039344f2b305094b85baa  usr/share/doc/printer-driver-c2esp/copyright

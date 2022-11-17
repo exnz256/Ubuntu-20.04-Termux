@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:ui="http://projectmallard.org/ui/1.0/" type="topic" style="task" id="net-install-flash" xml:lang="sl">
+  <info>
+    <link type="guide" xref="net-browser"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+    <revision version="18.04" date="2018-01-23" status="review"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Dokumentacijska ekipa Ubuntu</name>
+    </credit>
+
+    <desc>Mogoče morate namestiti Flash, da si boste lahko ogledovali nekatera spletišča, ki prikazujejo videoposnetke in odzivne spletne strani.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>Nameščanje vstavka Flash</title>
+
+<p>Flash je <em>vstavek</em> za vaš spletni brskalnik, ki vam omogoča ogled videoposnetkov in uporabo odzivnih spletnih strani na nekaterih spletiščih. Medtem ko je HTML5 bolj moderna rešitev in vedno bolj ponujena, so še vedno nekatera spletišča, ki ne delujejo brez Flash.</p>
+
+<p>V primeru da Flasha nimate nameščenega, boste verjetno videli sporočilo, ki vas bo obvestilo, da ga spletišče potrebuje. Flash je na voljo kot brezplačen (toda ne odprtokoden) prejem za večino spletnih brskalnikov.</p>
+
+<note style="warning">
+ <p>Adobe has announced that they will stop updating and distributing the Flash Player at the end
+ of 2020. Consequently, for security reasons, the Flash plug-in should not be used after 2020.</p>
+</note>
+
+<p>Na voljo sta dve vrsti vstavkov:</p>
+
+<list>
+ <item>
+  <p><em>NPAPI</em> za <app>Firefox</app> in druge spletne brskalnike, ki temeljijo na Gecko</p>
+ </item>
+ <item>
+  <p><em>PPAPI</em> je <app>Chromium</app> in druge spletne brskalnike, ki temeljijo na Blink, vključno z <app>Opera</app> in <app>Vivaldi</app></p>
+ </item>
+</list>
+
+<note>
+ <p>Brskalnik <app>Google Chrome</app> ima že priložen Flash in ne potrebuje vstavka.</p>
+</note>
+
+<section id="flashplugin-installer">
+ <title>flashplugin-installer</title>
+
+ <p>The <app>flashplugin-installer</app> package provides the NPAPI plug-in for Firefox.
+ <link href="apt:flashplugin-installer">Install the package</link> and restart your browser.</p>
+
+</section>
+
+<section id="adobe-flashplugin">
+ <title>adobe-flashplugin</title>
+
+ <p>Paket <app>adobe-flashplugin</app> vsebuje vstavke NPAPI in PPAPI, torej že ima Flash tako za Firefox in Chromium ter njima podobne.</p>
+
+ <steps>
+  <item>
+   <p>Prepričajte se, da je <link xref="addremove-sources#canonical-partner">skladišče Canonical Partner dejavno</link>.</p>
+  </item>
+  <item>
+   <p>Namestite paket <link href="apt:adobe-flashplugin">adobe-flashplugin</link>.</p>
+  </item>
+  <item>
+   <p>Ponovno zaženite brskalnik.</p>
+  </item>
+ </steps>
+
+</section>
+
+<section id="browser-plugin-freshplayer-pepperflash">
+ <title>browser-plugin-freshplayer-pepperflash</title>
+
+ <p>Some features of the PPAPI plug-in, such as 3D acceleration and premium video DRM, are not available
+ in the NPAPI plugin. If you use Firefox or some other Gecko-based browser and need those features, you
+ can install the <app>browser-plugin-freshplayer-pepperflash</app> package. It's a wrapper which makes
+ Firefox use the PPAPI plug-in.</p>
+
+ <steps>
+  <item>
+   <p>Prepričajte se, da je <app>adobe-flashplugin</app> nameščen.</p>
+  </item>
+  <item>
+   <p>Odprite okno terminala s pritiskom <keyseq><key>Ctrl</key><key>Alt</key><key>T</key></keyseq> in namestite paket <app>browser-plugin-freshplayer-pepperflash</app>:</p>
+   <p><cmd its:translate="no">sudo apt install browser-plugin-freshplayer-pepperflash</cmd></p>
+  </item>
+  <item>
+   <p>Ponovno zaženite brskalnik.</p>
+  </item>
+ </steps>
+
+</section>
+
+<section id="snap">
+ <title>Web browser provided as a snap package</title>
+
+ <p>If you use <app>Firefox</app> or <app>Chromium</app> as a snap, the packages described above do
+ not help. Instead the steps below are suggested to make Flash available.</p>
+
+ <p>Please note that you are supposed to always use the latest version of Flash. It means that you
+ need to repeat step 2 - 7 once in a while to keep accessing web services which require Flash.</p>
+
+ <steps ui:expanded="false">
+ <title>Firefox as snap</title>
+  <item>
+   <p its:locNote="Translators: Don't translate 'plugins' - it's the name of a folder on the file    system.">Create a <sys>plugins</sys> folder:</p>
+   <p><cmd its:translate="no">mkdir ~/snap/firefox/common/.mozilla/plugins</cmd></p>
+  </item>
+  <item>
+   <p>Go to <link href="https://get.adobe.com/flashplayer/">https://get.adobe.com/flashplayer/</link>.</p>
+  </item>
+  <item>
+   <p>Download the <sys>.tar.gz</sys> file for Linux.</p>
+  </item>
+  <item>
+   <p>Navigate to the folder for downloaded files.</p>
+  </item>
+  <item>
+   <p>Extract the files from the downloaded archive file:</p>
+   <p><cmd its:translate="no">tar xf flash_player*</cmd></p>
+  </item>
+  <item>
+   <p>Copy <sys>libflashplayer.so</sys> to the <sys>plugins</sys> folder:</p>
+   <p><cmd its:translate="no">cp libflashplayer.so ~/snap/firefox/common/.mozilla/plugins</cmd></p>
+  </item>
+  <item>
+   <p>Ponovno zaženite brskalnik.</p>
+  </item>
+ </steps>
+
+ <steps ui:expanded="false">
+ <title>Chromium as snap</title>
+  <item>
+   <p its:locNote="Translators: Don't translate 'lib' - it's the name of a folder on the file    system.">Create a <sys>lib</sys> folder:</p>
+   <p><cmd its:translate="no">mkdir ~/snap/chromium/current/.local/lib</cmd></p>
+  </item>
+  <item>
+   <p>Go to <link href="https://get.adobe.com/flashplayer/">https://get.adobe.com/flashplayer/</link>.</p>
+  </item>
+  <item>
+   <p>Download the <sys>.tar.gz</sys> file for Linux.</p>
+  </item>
+  <item>
+   <p>Navigate to the folder for downloaded files.</p>
+  </item>
+  <item>
+   <p>Extract the files from the downloaded archive file:</p>
+   <p><cmd its:translate="no">tar xf flash_player*</cmd></p>
+  </item>
+  <item>
+   <p>Copy <sys>libpepflashplayer.so</sys> to the <sys>lib</sys> folder:</p>
+   <p><cmd its:translate="no">cp libpepflashplayer.so ~/snap/chromium/current/.local/lib</cmd></p>
+  </item>
+  <item>
+   <p>Ponovno zaženite brskalnik.</p>
+  </item>
+ </steps>
+
+</section>
+
+</page>

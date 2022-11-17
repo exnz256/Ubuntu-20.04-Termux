@@ -1,0 +1,132 @@
+#!/bin/sh
+
+set -e
+
+update_lool_systemplate() {
+        echo -n "Updating LibreOffice Online systemplate... "
+        su lool --shell=/bin/sh -c 'loolwsd-systemplate-setup /var/lib/lool/systemplate /usr/lib/libreoffice >/dev/null 2>&1'
+        echo "done."
+}
+validate_extensions() {
+  INSTDIR=`mktemp -d`
+  if HOME=$INSTDIR /usr/lib/libreoffice/program/unopkg list --bundled >/dev/null 2>/dev/null; then
+	HOME=$INSTDIR /usr/lib/libreoffice/program/unopkg validate -v --bundled
+  fi
+}
+
+make_lo_sync_extensions() {
+	touch /usr/lib/libreoffice/share/extensions
+}
+
+if [ "$1" = "triggered" ]; then
+        for triggername in $2; do
+                case "$triggername" in
+                        # new "bundled" extensions (since 3.3)
+                        "/usr/lib/libreoffice/share/extensions")
+                          make_lo_sync_extensions
+                        ;;
+                        "/usr/lib/libreoffice")
+                        # check also whether /usr/bin/loolwsd-systemplate-setup
+                        # is +x do to not fail when it's gone but
+                        # /var/lib/lool/systemplate is still there (loolwsd
+			# removed but not purged)
+                          if [ -x /usr/bin/loolwsd-systemplate-setup -a \
+				-d /var/lib/lool/systemplate ]; then
+                            update_lool_systemplate
+                          fi
+                        ;;
+                esac
+        done
+fi
+
+# Automatically added by dh_icons/12.10ubuntu1
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] || [ "$1" = "abort-deconfigure" ] || [ "$1" = "abort-remove" ] ; then
+	if which update-icon-caches >/dev/null 2>&1 ; then
+		update-icon-caches /usr/share/icons/locolor
+	fi
+fi
+# End automatically added section
+# Automatically added by dh_apparmor/2.13.3-7ubuntu5
+if [ "$1" = "configure" ]; then
+    APP_PROFILE="/etc/apparmor.d/usr.lib.libreoffice.program.oosplash"
+    if [ -f "$APP_PROFILE" ]; then
+        # Add the local/ include
+        LOCAL_APP_PROFILE="/etc/apparmor.d/local/usr.lib.libreoffice.program.oosplash"
+
+        test -e "$LOCAL_APP_PROFILE" || {
+            mkdir -p `dirname "$LOCAL_APP_PROFILE"`
+            install --mode 644 /dev/null "$LOCAL_APP_PROFILE"
+        }
+
+        # Reload the profile, including any abstraction updates
+        if aa-enabled --quiet 2>/dev/null; then
+            apparmor_parser -r -T -W "$APP_PROFILE" || true
+        fi
+    fi
+fi
+# End automatically added section
+# Automatically added by dh_apparmor/2.13.3-7ubuntu5
+if [ "$1" = "configure" ]; then
+    APP_PROFILE="/etc/apparmor.d/usr.lib.libreoffice.program.senddoc"
+    if [ -f "$APP_PROFILE" ]; then
+        # Add the local/ include
+        LOCAL_APP_PROFILE="/etc/apparmor.d/local/usr.lib.libreoffice.program.senddoc"
+
+        test -e "$LOCAL_APP_PROFILE" || {
+            mkdir -p `dirname "$LOCAL_APP_PROFILE"`
+            install --mode 644 /dev/null "$LOCAL_APP_PROFILE"
+        }
+
+        # Reload the profile, including any abstraction updates
+        if aa-enabled --quiet 2>/dev/null; then
+            apparmor_parser -r -T -W "$APP_PROFILE" || true
+        fi
+    fi
+fi
+# End automatically added section
+# Automatically added by dh_apparmor/2.13.3-7ubuntu5
+if [ "$1" = "configure" ]; then
+    APP_PROFILE="/etc/apparmor.d/usr.lib.libreoffice.program.soffice.bin"
+    if [ -f "$APP_PROFILE" ]; then
+        # Add the local/ include
+        LOCAL_APP_PROFILE="/etc/apparmor.d/local/usr.lib.libreoffice.program.soffice.bin"
+
+        test -e "$LOCAL_APP_PROFILE" || {
+            mkdir -p `dirname "$LOCAL_APP_PROFILE"`
+            install --mode 644 /dev/null "$LOCAL_APP_PROFILE"
+        }
+
+        # Reload the profile, including any abstraction updates
+        if aa-enabled --quiet 2>/dev/null; then
+            apparmor_parser -r -T -W "$APP_PROFILE" || true
+        fi
+    fi
+fi
+# End automatically added section
+# Automatically added by dh_apparmor/2.13.3-7ubuntu5
+if [ "$1" = "configure" ]; then
+    APP_PROFILE="/etc/apparmor.d/usr.lib.libreoffice.program.xpdfimport"
+    if [ -f "$APP_PROFILE" ]; then
+        # Add the local/ include
+        LOCAL_APP_PROFILE="/etc/apparmor.d/local/usr.lib.libreoffice.program.xpdfimport"
+
+        test -e "$LOCAL_APP_PROFILE" || {
+            mkdir -p `dirname "$LOCAL_APP_PROFILE"`
+            install --mode 644 /dev/null "$LOCAL_APP_PROFILE"
+        }
+
+        # Reload the profile, including any abstraction updates
+        if aa-enabled --quiet 2>/dev/null; then
+            apparmor_parser -r -T -W "$APP_PROFILE" || true
+        fi
+    fi
+fi
+# End automatically added section
+# Automatically added by dh_installdeb/12.10ubuntu1
+dpkg-maintscript-helper mv_conffile /etc/apparmor.d/usr.lib.libreofficeprogram.oosplash /etc/apparmor.d/usr.lib.libreoffice.program.oosplash 1:5.4.4-0ubuntu1 -- "$@"
+dpkg-maintscript-helper mv_conffile /etc/apparmor.d/usr.lib.libreofficeprogram.senddoc /etc/apparmor.d/usr.lib.libreoffice.program.senddoc 1:5.4.4-0ubuntu1 -- "$@"
+dpkg-maintscript-helper mv_conffile /etc/apparmor.d/usr.lib.libreofficeprogram.soffice.bin /etc/apparmor.d/usr.lib.libreoffice.program.soffice.bin 1:5.4.4-0ubuntu1 -- "$@"
+dpkg-maintscript-helper mv_conffile /etc/apparmor.d/usr.lib.libreofficeprogram.xpdfimport /etc/apparmor.d/usr.lib.libreoffice.program.xpdfimport 1:5.4.4-0ubuntu1 -- "$@"
+# End automatically added section
+
+

@@ -1,0 +1,7 @@
+6a41514ed241dc9ebcf8c7c91b7835a0  usr/share/apport/package-hooks/source_nautilus.py
+253b8141d0baa127de35984dd5d70db8  usr/share/doc/nautilus-data/changelog.Debian.gz
+acf2930beb90719645987e76502ac5ab  usr/share/doc/nautilus-data/copyright
+a4718a9a91cfb76a7308b7d6088fa766  usr/share/glib-2.0/schemas/org.gnome.nautilus.gschema.xml
+d2da2bfa545713025c592087e34ba376  usr/share/gnome-shell/search-providers/org.gnome.Nautilus.search-provider.ini
+c0df0a5e6e1517149cc837dfa516f876  usr/share/icons/hicolor/scalable/apps/org.gnome.Nautilus.svg
+22381d9e70ab3aef3ca1a97945648183  usr/share/icons/hicolor/symbolic/apps/org.gnome.Nautilus-symbolic.svg

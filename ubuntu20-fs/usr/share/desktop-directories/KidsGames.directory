@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Kids
+Comment=Games for kids
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=gnome-amusements
+Type=Directory
+X-Ubuntu-Gettext-Domain=gnome-menus-3.0

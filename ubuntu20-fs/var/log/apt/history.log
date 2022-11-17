@@ -1,0 +1,671 @@
+
+Start-Date: 2020-04-23  07:35:55
+Commandline: apt-get install --reinstall adduser
+Reinstall: adduser:arm64 (3.118ubuntu2)
+End-Date: 2020-04-23  07:35:57
+
+Start-Date: 2020-04-23  07:35:59
+Commandline: apt-get install --reinstall apt
+Reinstall: apt:arm64 (2.0.2)
+End-Date: 2020-04-23  07:36:02
+
+Start-Date: 2020-04-23  07:36:05
+Commandline: apt-get install --reinstall base-files
+Reinstall: base-files:arm64 (11ubuntu5)
+End-Date: 2020-04-23  07:36:06
+
+Start-Date: 2020-04-23  07:36:09
+Commandline: apt-get install --reinstall base-passwd
+Reinstall: base-passwd:arm64 (3.5.47)
+End-Date: 2020-04-23  07:36:11
+
+Start-Date: 2020-04-23  07:36:14
+Commandline: apt-get install --reinstall bash
+Reinstall: bash:arm64 (5.0-6ubuntu1)
+End-Date: 2020-04-23  07:36:15
+
+Start-Date: 2020-04-23  07:36:18
+Commandline: apt-get install --reinstall bsdutils
+Reinstall: bsdutils:arm64 (1:2.34-0.1ubuntu9)
+End-Date: 2020-04-23  07:36:19
+
+Start-Date: 2020-04-23  07:36:22
+Commandline: apt-get install --reinstall bzip2
+Reinstall: bzip2:arm64 (1.0.8-2)
+End-Date: 2020-04-23  07:36:23
+
+Start-Date: 2020-04-23  07:36:26
+Commandline: apt-get install --reinstall coreutils
+Reinstall: coreutils:arm64 (8.30-3ubuntu2)
+End-Date: 2020-04-23  07:36:27
+
+Start-Date: 2020-04-23  07:36:30
+Commandline: apt-get install --reinstall dash
+Reinstall: dash:arm64 (0.5.10.2-6)
+End-Date: 2020-04-23  07:36:32
+
+Start-Date: 2020-04-23  07:36:35
+Commandline: apt-get install --reinstall debconf
+Reinstall: debconf:arm64 (1.5.73)
+End-Date: 2020-04-23  07:36:36
+
+Start-Date: 2020-04-23  07:36:39
+Commandline: apt-get install --reinstall debianutils
+Reinstall: debianutils:arm64 (4.9.1)
+End-Date: 2020-04-23  07:36:40
+
+Start-Date: 2020-04-23  07:36:43
+Commandline: apt-get install --reinstall diffutils
+Reinstall: diffutils:arm64 (1:3.7-3)
+End-Date: 2020-04-23  07:36:45
+
+Start-Date: 2020-04-23  07:36:48
+Commandline: apt-get install --reinstall dpkg
+Reinstall: dpkg:arm64 (1.19.7ubuntu3)
+End-Date: 2020-04-23  07:36:50
+
+Start-Date: 2020-04-23  07:36:52
+Commandline: apt-get install --reinstall e2fsprogs
+Reinstall: e2fsprogs:arm64 (1.45.5-2ubuntu1)
+End-Date: 2020-04-23  07:36:54
+
+Start-Date: 2020-04-23  07:36:57
+Commandline: apt-get install --reinstall fdisk
+Reinstall: fdisk:arm64 (2.34-0.1ubuntu9)
+End-Date: 2020-04-23  07:36:58
+
+Start-Date: 2020-04-23  07:37:01
+Commandline: apt-get install --reinstall findutils
+Reinstall: findutils:arm64 (4.7.0-1ubuntu1)
+End-Date: 2020-04-23  07:37:02
+
+Start-Date: 2020-04-23  07:37:05
+Commandline: apt-get install --reinstall gcc-10-base:arm64
+Reinstall: gcc-10-base:arm64 (10-20200411-0ubuntu1)
+End-Date: 2020-04-23  07:37:06
+
+Start-Date: 2020-04-23  07:37:09
+Commandline: apt-get install --reinstall gpgv
+Reinstall: gpgv:arm64 (2.2.19-3ubuntu2)
+End-Date: 2020-04-23  07:37:10
+
+Start-Date: 2020-04-23  07:37:13
+Commandline: apt-get install --reinstall grep
+Reinstall: grep:arm64 (3.4-1)
+End-Date: 2020-04-23  07:37:14
+
+Start-Date: 2020-04-23  07:37:17
+Commandline: apt-get install --reinstall gzip
+Reinstall: gzip:arm64 (1.10-0ubuntu4)
+End-Date: 2020-04-23  07:37:18
+
+Start-Date: 2020-04-23  07:37:21
+Commandline: apt-get install --reinstall hostname
+Reinstall: hostname:arm64 (3.23)
+End-Date: 2020-04-23  07:37:22
+
+Start-Date: 2020-04-23  07:37:25
+Commandline: apt-get install --reinstall init-system-helpers
+Reinstall: init-system-helpers:arm64 (1.57)
+End-Date: 2020-04-23  07:37:27
+
+Start-Date: 2020-04-23  07:37:29
+Commandline: apt-get install --reinstall libacl1:arm64
+Reinstall: libacl1:arm64 (2.2.53-6)
+End-Date: 2020-04-23  07:37:31
+
+Start-Date: 2020-04-23  07:37:34
+Commandline: apt-get install --reinstall libapt-pkg6.0:arm64
+Reinstall: libapt-pkg6.0:arm64 (2.0.2)
+End-Date: 2020-04-23  07:37:35
+
+Start-Date: 2020-04-23  07:37:38
+Commandline: apt-get install --reinstall libattr1:arm64
+Reinstall: libattr1:arm64 (1:2.4.48-5)
+End-Date: 2020-04-23  07:37:39
+
+Start-Date: 2020-04-23  07:37:42
+Commandline: apt-get install --reinstall libaudit-common
+Reinstall: libaudit-common:arm64 (1:2.8.5-2ubuntu6)
+End-Date: 2020-04-23  07:37:43
+
+Start-Date: 2020-04-23  07:37:46
+Commandline: apt-get install --reinstall libaudit1:arm64
+Reinstall: libaudit1:arm64 (1:2.8.5-2ubuntu6)
+End-Date: 2020-04-23  07:37:48
+
+Start-Date: 2020-04-23  07:37:50
+Commandline: apt-get install --reinstall libblkid1:arm64
+Reinstall: libblkid1:arm64 (2.34-0.1ubuntu9)
+End-Date: 2020-04-23  07:37:52
+
+Start-Date: 2020-04-23  07:37:54
+Commandline: apt-get install --reinstall libbz2-1.0:arm64
+Reinstall: libbz2-1.0:arm64 (1.0.8-2)
+End-Date: 2020-04-23  07:37:56
+
+Start-Date: 2020-04-23  07:37:59
+Commandline: apt-get install --reinstall libc-bin
+Reinstall: libc-bin:arm64 (2.31-0ubuntu9)
+End-Date: 2020-04-23  07:38:00
+
+Start-Date: 2020-04-23  07:38:04
+Commandline: apt-get install --reinstall libc6:arm64
+Reinstall: libc6:arm64 (2.31-0ubuntu9)
+End-Date: 2020-04-23  07:38:07
+
+Start-Date: 2020-04-23  07:38:10
+Commandline: apt-get install --reinstall libcap-ng0:arm64
+Reinstall: libcap-ng0:arm64 (0.7.9-2.1build1)
+End-Date: 2020-04-23  07:38:12
+
+Start-Date: 2020-04-23  07:38:14
+Commandline: apt-get install --reinstall libcom-err2:arm64
+Reinstall: libcom-err2:arm64 (1.45.5-2ubuntu1)
+End-Date: 2020-04-23  07:38:15
+
+Start-Date: 2020-04-23  07:38:18
+Commandline: apt-get install --reinstall libcrypt1:arm64
+Reinstall: libcrypt1:arm64 (1:4.4.10-10ubuntu4)
+End-Date: 2020-04-23  07:38:20
+
+Start-Date: 2020-04-23  07:38:23
+Commandline: apt-get install --reinstall libdb5.3:arm64
+Reinstall: libdb5.3:arm64 (5.3.28+dfsg1-0.6ubuntu2)
+End-Date: 2020-04-23  07:38:25
+
+Start-Date: 2020-04-23  07:38:27
+Commandline: apt-get install --reinstall libdebconfclient0:arm64
+Reinstall: libdebconfclient0:arm64 (0.251ubuntu1)
+End-Date: 2020-04-23  07:38:29
+
+Start-Date: 2020-04-23  07:38:32
+Commandline: apt-get install --reinstall libext2fs2:arm64
+Reinstall: libext2fs2:arm64 (1.45.5-2ubuntu1)
+End-Date: 2020-04-23  07:38:33
+
+Start-Date: 2020-04-23  07:38:35
+Commandline: apt-get install --reinstall libfdisk1:arm64
+Reinstall: libfdisk1:arm64 (2.34-0.1ubuntu9)
+End-Date: 2020-04-23  07:38:36
+
+Start-Date: 2020-04-23  07:38:39
+Commandline: apt-get install --reinstall libffi7:arm64
+Reinstall: libffi7:arm64 (3.3-4)
+End-Date: 2020-04-23  07:38:41
+
+Start-Date: 2020-04-23  07:38:44
+Commandline: apt-get install --reinstall libgcc-s1:arm64
+Reinstall: libgcc-s1:arm64 (10-20200411-0ubuntu1)
+End-Date: 2020-04-23  07:38:45
+
+Start-Date: 2020-04-23  07:38:48
+Commandline: apt-get install --reinstall libgcrypt20:arm64
+Reinstall: libgcrypt20:arm64 (1.8.5-5ubuntu1)
+End-Date: 2020-04-23  07:38:49
+
+Start-Date: 2020-04-23  07:38:52
+Commandline: apt-get install --reinstall libgmp10:arm64
+Reinstall: libgmp10:arm64 (2:6.2.0+dfsg-4)
+End-Date: 2020-04-23  07:38:53
+
+Start-Date: 2020-04-23  07:38:56
+Commandline: apt-get install --reinstall libgnutls30:arm64
+Reinstall: libgnutls30:arm64 (3.6.13-2ubuntu1)
+End-Date: 2020-04-23  07:38:57
+
+Start-Date: 2020-04-23  07:39:00
+Commandline: apt-get install --reinstall libgpg-error0:arm64
+Reinstall: libgpg-error0:arm64 (1.37-1)
+End-Date: 2020-04-23  07:39:01
+
+Start-Date: 2020-04-23  07:39:04
+Commandline: apt-get install --reinstall libhogweed5:arm64
+Reinstall: libhogweed5:arm64 (3.5.1+really3.5.1-2)
+End-Date: 2020-04-23  07:39:05
+
+Start-Date: 2020-04-23  07:39:08
+Commandline: apt-get install --reinstall libidn2-0:arm64
+Reinstall: libidn2-0:arm64 (2.2.0-2)
+End-Date: 2020-04-23  07:39:10
+
+Start-Date: 2020-04-23  07:39:12
+Commandline: apt-get install --reinstall liblz4-1:arm64
+Reinstall: liblz4-1:arm64 (1.9.2-2)
+End-Date: 2020-04-23  07:39:14
+
+Start-Date: 2020-04-23  07:39:16
+Commandline: apt-get install --reinstall liblzma5:arm64
+Reinstall: liblzma5:arm64 (5.2.4-1)
+End-Date: 2020-04-23  07:39:18
+
+Start-Date: 2020-04-23  07:39:21
+Commandline: apt-get install --reinstall libmount1:arm64
+Reinstall: libmount1:arm64 (2.34-0.1ubuntu9)
+End-Date: 2020-04-23  07:39:22
+
+Start-Date: 2020-04-23  07:39:25
+Commandline: apt-get install --reinstall libncurses6:arm64
+Reinstall: libncurses6:arm64 (6.2-0ubuntu2)
+End-Date: 2020-04-23  07:39:26
+
+Start-Date: 2020-04-23  07:39:28
+Commandline: apt-get install --reinstall libncursesw6:arm64
+Reinstall: libncursesw6:arm64 (6.2-0ubuntu2)
+End-Date: 2020-04-23  07:39:29
+
+Start-Date: 2020-04-23  07:39:32
+Commandline: apt-get install --reinstall libnettle7:arm64
+Reinstall: libnettle7:arm64 (3.5.1+really3.5.1-2)
+End-Date: 2020-04-23  07:39:33
+
+Start-Date: 2020-04-23  07:39:36
+Commandline: apt-get install --reinstall libp11-kit0:arm64
+Reinstall: libp11-kit0:arm64 (0.23.20-1build1)
+End-Date: 2020-04-23  07:39:38
+
+Start-Date: 2020-04-23  07:39:40
+Commandline: apt-get install --reinstall libpam-modules:arm64
+Reinstall: libpam-modules:arm64 (1.3.1-5ubuntu4)
+End-Date: 2020-04-23  07:39:42
+
+Start-Date: 2020-04-23  07:39:45
+Commandline: apt-get install --reinstall libpam-modules-bin
+Reinstall: libpam-modules-bin:arm64 (1.3.1-5ubuntu4)
+End-Date: 2020-04-23  07:39:46
+
+Start-Date: 2020-04-23  07:39:49
+Commandline: apt-get install --reinstall libpam-runtime
+Reinstall: libpam-runtime:arm64 (1.3.1-5ubuntu4)
+End-Date: 2020-04-23  07:39:50
+
+Start-Date: 2020-04-23  07:39:53
+Commandline: apt-get install --reinstall libpam0g:arm64
+Reinstall: libpam0g:arm64 (1.3.1-5ubuntu4)
+End-Date: 2020-04-23  07:39:54
+
+Start-Date: 2020-04-23  07:39:57
+Commandline: apt-get install --reinstall libpcre2-8-0:arm64
+Reinstall: libpcre2-8-0:arm64 (10.34-7)
+End-Date: 2020-04-23  07:39:58
+
+Start-Date: 2020-04-23  07:40:01
+Commandline: apt-get install --reinstall libpcre3:arm64
+Reinstall: libpcre3:arm64 (2:8.39-12build1)
+End-Date: 2020-04-23  07:40:02
+
+Start-Date: 2020-04-23  07:40:05
+Commandline: apt-get install --reinstall libprocps8:arm64
+Reinstall: libprocps8:arm64 (2:3.3.16-1ubuntu2)
+End-Date: 2020-04-23  07:40:06
+
+Start-Date: 2020-04-23  07:40:09
+Commandline: apt-get install --reinstall libseccomp2:arm64
+Reinstall: libseccomp2:arm64 (2.4.3-1ubuntu1)
+End-Date: 2020-04-23  07:40:10
+
+Start-Date: 2020-04-23  07:40:13
+Commandline: apt-get install --reinstall libselinux1:arm64
+Reinstall: libselinux1:arm64 (3.0-1build2)
+End-Date: 2020-04-23  07:40:14
+
+Start-Date: 2020-04-23  07:40:17
+Commandline: apt-get install --reinstall libsemanage-common
+Reinstall: libsemanage-common:arm64 (3.0-1build2)
+End-Date: 2020-04-23  07:40:18
+
+Start-Date: 2020-04-23  07:40:21
+Commandline: apt-get install --reinstall libsemanage1:arm64
+Reinstall: libsemanage1:arm64 (3.0-1build2)
+End-Date: 2020-04-23  07:40:22
+
+Start-Date: 2020-04-23  07:40:25
+Commandline: apt-get install --reinstall libsepol1:arm64
+Reinstall: libsepol1:arm64 (3.0-1)
+End-Date: 2020-04-23  07:40:26
+
+Start-Date: 2020-04-23  07:40:29
+Commandline: apt-get install --reinstall libsmartcols1:arm64
+Reinstall: libsmartcols1:arm64 (2.34-0.1ubuntu9)
+End-Date: 2020-04-23  07:40:30
+
+Start-Date: 2020-04-23  07:40:33
+Commandline: apt-get install --reinstall libss2:arm64
+Reinstall: libss2:arm64 (1.45.5-2ubuntu1)
+End-Date: 2020-04-23  07:40:34
+
+Start-Date: 2020-04-23  07:40:37
+Commandline: apt-get install --reinstall libstdc++6:arm64
+Reinstall: libstdc++6:arm64 (10-20200411-0ubuntu1)
+End-Date: 2020-04-23  07:40:38
+
+Start-Date: 2020-04-23  07:40:41
+Commandline: apt-get install --reinstall libsystemd0:arm64
+Reinstall: libsystemd0:arm64 (245.4-4ubuntu3)
+End-Date: 2020-04-23  07:40:42
+
+Start-Date: 2020-04-23  07:40:45
+Commandline: apt-get install --reinstall libtasn1-6:arm64
+Reinstall: libtasn1-6:arm64 (4.16.0-2)
+End-Date: 2020-04-23  07:40:47
+
+Start-Date: 2020-04-23  07:40:49
+Commandline: apt-get install --reinstall libtinfo6:arm64
+Reinstall: libtinfo6:arm64 (6.2-0ubuntu2)
+End-Date: 2020-04-23  07:40:51
+
+Start-Date: 2020-04-23  07:40:53
+Commandline: apt-get install --reinstall libudev1:arm64
+Reinstall: libudev1:arm64 (245.4-4ubuntu3)
+End-Date: 2020-04-23  07:40:55
+
+Start-Date: 2020-04-23  07:40:57
+Commandline: apt-get install --reinstall libunistring2:arm64
+Reinstall: libunistring2:arm64 (0.9.10-2)
+End-Date: 2020-04-23  07:40:59
+
+Start-Date: 2020-04-23  07:41:02
+Commandline: apt-get install --reinstall libuuid1:arm64
+Reinstall: libuuid1:arm64 (2.34-0.1ubuntu9)
+End-Date: 2020-04-23  07:41:03
+
+Start-Date: 2020-04-23  07:41:06
+Commandline: apt-get install --reinstall libzstd1:arm64
+Reinstall: libzstd1:arm64 (1.4.4+dfsg-3)
+End-Date: 2020-04-23  07:41:07
+
+Start-Date: 2020-04-23  07:41:10
+Commandline: apt-get install --reinstall login
+Reinstall: login:arm64 (1:4.8.1-1ubuntu5)
+End-Date: 2020-04-23  07:41:11
+
+Start-Date: 2020-04-23  07:41:14
+Commandline: apt-get install --reinstall logsave
+Reinstall: logsave:arm64 (1.45.5-2ubuntu1)
+End-Date: 2020-04-23  07:41:15
+
+Start-Date: 2020-04-23  07:41:18
+Commandline: apt-get install --reinstall lsb-base
+Reinstall: lsb-base:arm64 (11.1.0ubuntu2)
+End-Date: 2020-04-23  07:41:19
+
+Start-Date: 2020-04-23  07:41:22
+Commandline: apt-get install --reinstall mawk
+Reinstall: mawk:arm64 (1.3.4.20200120-2)
+End-Date: 2020-04-23  07:41:23
+
+Start-Date: 2020-04-23  07:41:26
+Commandline: apt-get install --reinstall mount
+Reinstall: mount:arm64 (2.34-0.1ubuntu9)
+End-Date: 2020-04-23  07:41:27
+
+Start-Date: 2020-04-23  07:41:30
+Commandline: apt-get install --reinstall ncurses-base
+Reinstall: ncurses-base:arm64 (6.2-0ubuntu2)
+End-Date: 2020-04-23  07:41:31
+
+Start-Date: 2020-04-23  07:41:34
+Commandline: apt-get install --reinstall ncurses-bin
+Reinstall: ncurses-bin:arm64 (6.2-0ubuntu2)
+End-Date: 2020-04-23  07:41:35
+
+Start-Date: 2020-04-23  07:41:38
+Commandline: apt-get install --reinstall passwd
+Reinstall: passwd:arm64 (1:4.8.1-1ubuntu5)
+End-Date: 2020-04-23  07:41:40
+
+Start-Date: 2020-04-23  07:41:42
+Commandline: apt-get install --reinstall perl-base
+Reinstall: perl-base:arm64 (5.30.0-9build1)
+End-Date: 2020-04-23  07:41:44
+
+Start-Date: 2020-04-23  07:41:47
+Commandline: apt-get install --reinstall procps
+Reinstall: procps:arm64 (2:3.3.16-1ubuntu2)
+End-Date: 2020-04-23  07:41:48
+
+Start-Date: 2020-04-23  07:41:51
+Commandline: apt-get install --reinstall sed
+Reinstall: sed:arm64 (4.7-1)
+End-Date: 2020-04-23  07:41:52
+
+Start-Date: 2020-04-23  07:41:55
+Commandline: apt-get install --reinstall sensible-utils
+Reinstall: sensible-utils:arm64 (0.0.12+nmu1)
+End-Date: 2020-04-23  07:41:56
+
+Start-Date: 2020-04-23  07:41:59
+Commandline: apt-get install --reinstall sysvinit-utils
+Reinstall: sysvinit-utils:arm64 (2.96-2.1ubuntu1)
+End-Date: 2020-04-23  07:42:00
+
+Start-Date: 2020-04-23  07:42:03
+Commandline: apt-get install --reinstall tar
+Reinstall: tar:arm64 (1.30+dfsg-7)
+End-Date: 2020-04-23  07:42:04
+
+Start-Date: 2020-04-23  07:42:07
+Commandline: apt-get install --reinstall ubuntu-keyring
+Reinstall: ubuntu-keyring:arm64 (2020.02.11.2)
+End-Date: 2020-04-23  07:42:08
+
+Start-Date: 2020-04-23  07:42:11
+Commandline: apt-get install --reinstall util-linux
+Reinstall: util-linux:arm64 (2.34-0.1ubuntu9)
+End-Date: 2020-04-23  07:42:14
+
+Start-Date: 2020-04-23  07:42:17
+Commandline: apt-get install --reinstall zlib1g:arm64
+Reinstall: zlib1g:arm64 (1:1.2.11.dfsg-2ubuntu1)
+End-Date: 2020-04-23  07:42:18
+
+Start-Date: 2022-11-11  10:59:26
+Commandline: apt install sudo wget -y
+Install: publicsuffix:arm64 (20200303.0012-1, automatic), openssl:arm64 (1.1.1f-1ubuntu2.16, automatic), libpsl5:arm64 (0.21.0-1ubuntu1, automatic), sudo:arm64 (1.8.31-1ubuntu1.2), ca-certificates:arm64 (20211016~20.04.1, automatic), wget:arm64 (1.20.3-1ubuntu2), libssl1.1:arm64 (1.1.1f-1ubuntu2.16, automatic)
+End-Date: 2022-11-11  11:00:02
+
+Start-Date: 2022-11-11  11:01:01
+Commandline: apt install udisks2 -y
+Install: libgssapi3-heimdal:arm64 (7.7.0+dfsg-1ubuntu1.1, automatic), libpolkit-gobject-1-0:arm64 (0.105-26ubuntu1.3, automatic), libdevmapper1.02.1:arm64 (2:1.02.167-1ubuntu1, automatic), dmsetup:arm64 (2:1.02.167-1ubuntu1, automatic), fuse:arm64 (2.9.9-3, automatic), dosfstools:arm64 (4.1-2, automatic), libpopt0:arm64 (1.16-14, automatic), libdbus-1-3:arm64 (1.12.16-2ubuntu2.3, automatic), libwind0-heimdal:arm64 (7.7.0+dfsg-1ubuntu1.1, automatic), networkd-dispatcher:arm64 (2.1-2~ubuntu20.04.3, automatic), gnupg-utils:arm64 (2.2.19-3ubuntu2.2, automatic), libsasl2-modules-db:arm64 (2.1.27+dfsg-2ubuntu0.1, automatic), gpg-wks-client:arm64 (2.2.19-3ubuntu2.2, automatic), libldap-2.4-2:arm64 (2.4.49+dfsg-2ubuntu1.9, automatic), libblockdev-swap2:arm64 (2.23-2ubuntu3, automatic), libgirepository-1.0-1:arm64 (1.64.1-1~ubuntu20.04.1, automatic), gnupg-l10n:arm64 (2.2.19-3ubuntu2.2, automatic), libargon2-1:arm64 (0~20171227-0.2, automatic), libpython3.8-minimal:arm64 (3.8.10-0ubuntu1~20.04.5, automatic), ntfs-3g:arm64 (1:2017.3.23AR.3-3ubuntu1.3, automatic), xdg-user-dirs:arm64 (0.17-2ubuntu1, automatic), libheimntlm0-heimdal:arm64 (7.7.0+dfsg-1ubuntu1.1, automatic), libparted2:arm64 (3.3-4ubuntu0.20.04.1, automatic), libksba8:arm64 (1.3.5-2ubuntu0.20.04.1, automatic), dbus:arm64 (1.12.16-2ubuntu2.3, automatic), libkmod2:arm64 (27-1ubuntu2.1, automatic), libsqlite3-0:arm64 (3.31.1-4ubuntu0.5, automatic), libicu66:arm64 (66.1-2ubuntu2.1, automatic), libgpgme11:arm64 (1.13.1-7ubuntu2, automatic), libheimbase1-heimdal:arm64 (7.7.0+dfsg-1ubuntu1.1, automatic), gpg-wks-server:arm64 (2.2.19-3ubuntu2.2, automatic), python3.8:arm64 (3.8.10-0ubuntu1~20.04.5, automatic), gpg:arm64 (2.2.19-3ubuntu2.2, automatic), python3:arm64 (3.8.2-0ubuntu2, automatic), libblockdev-crypto2:arm64 (2.23-2ubuntu3, automatic), libpolkit-agent-1-0:arm64 (0.105-26ubuntu1.3, automatic), udev:arm64 (245.4-4ubuntu3.18, automatic), mime-support:arm64 (3.64ubuntu1, automatic), libsasl2-2:arm64 (2.1.27+dfsg-2ubuntu0.1, automatic), readline-common:arm64 (8.0-4, automatic), libblockdev-loop2:arm64 (2.23-2ubuntu3, automatic), libblockdev-fs2:arm64 (2.23-2ubuntu3, automatic), libmagic1:arm64 (1:5.38-4, automatic), libassuan0:arm64 (2.5.3-7ubuntu2, automatic), libntfs-3g883:arm64 (1:2017.3.23AR.3-3ubuntu1.3, automatic), libmpdec2:arm64 (2.4.2-3, automatic), libblockdev-part2:arm64 (2.23-2ubuntu3, automatic), libgudev-1.0-0:arm64 (1:233-1, automatic), libparted-fs-resize0:arm64 (3.3-4ubuntu0.20.04.1, automatic), libexpat1:arm64 (2.2.9-1ubuntu0.4, automatic), libapparmor1:arm64 (2.13.3-7ubuntu5.1, automatic), systemd-timesyncd:arm64 (245.4-4ubuntu3.18, automatic), dirmngr:arm64 (2.2.19-3ubuntu2.2, automatic), gdisk:arm64 (1.0.5-1, automatic), groff-base:arm64 (1.22.4-4build1, automatic), udisks2:arm64 (2.8.4-1ubuntu2), python3-minimal:arm64 (3.8.2-0ubuntu2, automatic), libmagic-mgc:arm64 (1:5.38-4, automatic), libsasl2-modules:arm64 (2.1.27+dfsg-2ubuntu0.1, automatic), gir1.2-glib-2.0:arm64 (1.64.1-1~ubuntu20.04.1, automatic), libcap2:arm64 (1:2.32-1, automatic), libpython3-stdlib:arm64 (3.8.2-0ubuntu2, automatic), libfuse2:arm64 (2.9.9-3, automatic), python3.8-minimal:arm64 (3.8.10-0ubuntu1~20.04.5, automatic), systemd-sysv:arm64 (245.4-4ubuntu3.18, automatic), libblockdev2:arm64 (2.23-2ubuntu3, automatic), libldap-common:arm64 (2.4.49+dfsg-2ubuntu1.9, automatic), libhcrypto4-heimdal:arm64 (7.7.0+dfsg-1ubuntu1.1, automatic), libpam-systemd:arm64 (245.4-4ubuntu3.18, automatic), xz-utils:arm64 (5.2.4-1ubuntu1.1, automatic), parted:arm64 (3.3-4ubuntu0.20.04.1, automatic), shared-mime-info:arm64 (1.15-1, automatic), systemd:arm64 (245.4-4ubuntu3.18, automatic), libvolume-key1:arm64 (0.3.12-3.1, automatic), eject:arm64 (2.1.5+deb1+cvs20081104-14, automatic), libblockdev-utils2:arm64 (2.23-2ubuntu3, automatic), libreadline8:arm64 (8.0-4, automatic), libnss-systemd:arm64 (245.4-4ubuntu3.18, automatic), python3-dbus:arm64 (1.2.16-1build1, automatic), libblockdev-part-err2:arm64 (2.23-2ubuntu3, automatic), libuchardet0:arm64 (0.0.6-3build1, automatic), libglib2.0-data:arm64 (2.64.6-1~ubuntu20.04.4, automatic), policykit-1:arm64 (0.105-26ubuntu1.3, automatic), libxml2:arm64 (2.9.10+dfsg-5ubuntu0.20.04.4, automatic), file:arm64 (1:5.38-4, automatic), python3-gi:arm64 (3.36.0-1, automatic), libpython3.8-stdlib:arm64 (3.8.10-0ubuntu1~20.04.5, automatic), libnss3:arm64 (2:3.49.1-1ubuntu1.8, automatic), libroken18-heimdal:arm64 (7.7.0+dfsg-1ubuntu1.1, automatic), libudisks2-0:arm64 (2.8.4-1ubuntu2, automatic), libasn1-8-heimdal:arm64 (7.7.0+dfsg-1ubuntu1.1, automatic), libkrb5-26-heimdal:arm64 (7.7.0+dfsg-1ubuntu1.1, automatic), libcryptsetup12:arm64 (2:2.2.2-3ubuntu2.4, automatic), gnupg:arm64 (2.2.19-3ubuntu2.2, automatic), libjson-c4:arm64 (0.13.1+dfsg-7ubuntu0.3, automatic), pinentry-curses:arm64 (1.1.0-3build1, automatic), libnpth0:arm64 (1.6-1, automatic), libhx509-5-heimdal:arm64 (7.7.0+dfsg-1ubuntu1.1, automatic), libip4tc2:arm64 (1.8.4-3ubuntu2, automatic), gpg-agent:arm64 (2.2.19-3ubuntu2.2, automatic), libglib2.0-0:arm64 (2.64.6-1~ubuntu20.04.4, automatic), libatasmart4:arm64 (0.19-5, automatic), libnspr4:arm64 (2:4.25-1, automatic), gpgconf:arm64 (2.2.19-3ubuntu2.2, automatic), gpgsm:arm64 (2.2.19-3ubuntu2.2, automatic), tzdata:arm64 (2022f-0ubuntu0.20.04.0, automatic)
+Upgrade: libsystemd0:arm64 (245.4-4ubuntu3, 245.4-4ubuntu3.18), libudev1:arm64 (245.4-4ubuntu3, 245.4-4ubuntu3.18), gpgv:arm64 (2.2.19-3ubuntu2, 2.2.19-3ubuntu2.2)
+End-Date: 2022-11-11  11:06:32
+
+Start-Date: 2022-11-11  18:06:40
+Commandline: apt-get install keyboard-configuration -y
+Install: liblocale-gettext-perl:arm64 (1.07-4, automatic), keyboard-configuration:arm64 (1.194ubuntu3)
+End-Date: 2022-11-11  18:06:45
+
+Start-Date: 2022-11-11  18:06:53
+Commandline: apt-get install sudo wget nano inetutils-tools dialog -y
+Install: dialog:arm64 (1.3-20190808-1), nano:arm64 (4.8-1ubuntu1), inetutils-tools:arm64 (2:1.9.4-11ubuntu0.1)
+End-Date: 2022-11-11  18:06:57
+
+Start-Date: 2022-11-11  18:10:22
+Commandline: apt-get install xfce4 xfce4-goodies xfce4-terminal exo-utils tigervnc-standalone-server tigervnc-common dbus-x11 --no-install-recommends -y
+Install: xfburn:arm64 (0.6.2-1, automatic), xfce4-pulseaudio-plugin:arm64 (0.4.3-0ubuntu1, automatic), libjson-glib-1.0-0:arm64 (1.4.4-2ubuntu2, automatic), libxdmcp6:arm64 (1:1.1.3-0ubuntu1, automatic), xfce4-systemload-plugin:arm64 (1:1.2.3-1ubuntu1, automatic), libsoup-gnome2.4-1:arm64 (2.70.0-1, automatic), iso-codes:arm64 (4.4-1, automatic), xfce4-appfinder:arm64 (4.14.0-1, automatic), libwebp6:arm64 (0.6.1-2ubuntu0.20.04.1, automatic), libkrb5-3:arm64 (1.17-6ubuntu4.1, automatic), libgssapi-krb5-2:arm64 (1.17-6ubuntu4.1, automatic), xfce4-sensors-plugin:arm64 (1.3.0-2build1, automatic), libisofs6:arm64 (1.5.2-1, automatic), libpangoft2-1.0-0:arm64 (1.44.7-2ubuntu4, automatic), thunar-media-tags-plugin:arm64 (0.3.0-2, automatic), dbus-x11:arm64 (1.12.16-2ubuntu2.3), exo-utils:arm64 (0.12.11-1ubuntu1.20.04.1), glib-networking-services:arm64 (2.64.2-1ubuntu0.1, automatic), libthunarx-3-0:arm64 (1.8.14-0ubuntu1, automatic), thunar-data:arm64 (1.8.14-0ubuntu1, automatic), libfontenc1:arm64 (1:1.1.4-0ubuntu1, automatic), libvte-2.91-0:arm64 (0.60.3-0ubuntu1~20.04, automatic), libcups2:arm64 (2.3.1-9ubuntu1.2, automatic), libvulkan1:arm64 (1.2.131.2-1, automatic), libwayland-egl1:arm64 (1.18.0-1ubuntu0.1, automatic), xfce4-datetime-plugin:arm64 (0.8.0-1, automatic), libdrm-nouveau2:arm64 (2.4.107-8ubuntu1~20.04.2, automatic), xfce4-netload-plugin:arm64 (1.3.2-1, automatic), xfce4-timer-plugin:arm64 (1.7.0-1, automatic), libxklavier16:arm64 (5.4-4, automatic), libxcb-xfixes0:arm64 (1.14-2, automatic), libxfce4ui-common:arm64 (4.14.1-1ubuntu1, automatic), mousepad:arm64 (0.4.2-1, automatic), xfce4-screenshooter:arm64 (1.9.7-1, automatic), xfce4-mailwatch-plugin:arm64 (1.2.0-3, automatic), tigervnc-common:arm64 (1.10.1+dfsg-3), xfce4-xkb-plugin:arm64 (1:0.8.1-2, automatic), libgdk-pixbuf2.0-0:arm64 (2.40.0+dfsg-3ubuntu0.4, automatic), libproxy1v5:arm64 (0.4.15-10ubuntu1.2, automatic), liblcms2-2:arm64 (2.9-4, automatic), dconf-service:arm64 (0.36.0-1, automatic), libcairo-gobject2:arm64 (1.16.0-4ubuntu1, automatic), xfce4-cpugraph-plugin:arm64 (1.1.0-1, automatic), libxfce4panel-2.0-4:arm64 (4.14.3-1, automatic), libbrotli1:arm64 (1.0.7-6ubuntu0.1, automatic), glib-networking:arm64 (2.64.2-1ubuntu0.1, automatic), libgtk-3-common:arm64 (3.24.20-0ubuntu1.1, automatic), libxcb-present0:arm64 (1.14-2, automatic), libgtk-3-0:arm64 (3.24.20-0ubuntu1.1, automatic), libgl1:arm64 (1.3.2-1~ubuntu0.20.04.2, automatic), xfce4-whiskermenu-plugin:arm64 (2.4.3-1, automatic), libglapi-mesa:arm64 (21.2.6-0ubuntu0.1~20.04.2, automatic), libxfce4util7:arm64 (4.14.0-1, automatic), libpixman-1-0:arm64 (0.38.4-0ubuntu2.1, automatic), libxkbfile1:arm64 (1:1.1.0-1, automatic), libxpresent1:arm64 (1.0.0-2build1, automatic), liborc-0.4-0:arm64 (1:0.4.31-1, automatic), librsvg2-common:arm64 (2.48.9-1ubuntu0.20.04.1, automatic), libxrender1:arm64 (1:0.9.10-1, automatic), xfce4-dict:arm64 (0.8.3-1, automatic), libelf1:arm64 (0.176-1.1build1, automatic), libogg0:arm64 (1.3.4-0ubuntu1, automatic), humanity-icon-theme:arm64 (0.6.15, automatic), libbsd0:arm64 (0.10.0-1, automatic), libwrap0:arm64 (7.6.q-30, automatic), tigervnc-standalone-server:arm64 (1.10.1+dfsg-3), libavahi-common-data:arm64 (0.7-4ubuntu7.1, automatic), dconf-gsettings-backend:arm64 (0.36.0-1, automatic), perl-modules-5.30:arm64 (5.30.0-9ubuntu0.3, automatic), libavahi-common3:arm64 (0.7-4ubuntu7.1, automatic), libxcb-util1:arm64 (0.4.0-0ubuntu3, automatic), libgtk2.0-0:arm64 (2.24.32-4ubuntu4, automatic), libxfce4ui-utils:arm64 (4.14.1-1ubuntu1, automatic), netbase:arm64 (6.1, automatic), libxcursor1:arm64 (1:1.2.0-2, automatic), xfce4-settings:arm64 (4.14.3-0ubuntu1, automatic), libgtksourceview-3.0-common:arm64 (3.24.11-2, automatic), libthai-data:arm64 (0.1.28-3, automatic), libxfce4ui-1-0:arm64 (4.14.1-1ubuntu1, automatic), libexo-1-0:arm64 (0.12.11-1ubuntu1.20.04.1, automatic), libk5crypto3:arm64 (1.17-6ubuntu4.1, automatic), xfce4-goodies:arm64 (4.14.0), libxfce4ui-2-0:arm64 (4.14.1-1ubuntu1, automatic), libexo-2-0:arm64 (0.12.11-1ubuntu1.20.04.1, automatic), libxcb-shm0:arm64 (1.14-2, automatic), libepoxy0:arm64 (1.5.4-1, automatic), gsettings-desktop-schemas:arm64 (3.36.0-1ubuntu1, automatic), xfce4-panel:arm64 (4.14.3-1, automatic), x11-xkb-utils:arm64 (7.7+5, automatic), libxcb-render0:arm64 (1.14-2, automatic), xfce4-notifyd:arm64 (0.4.4-1, automatic), xkb-data:arm64 (2.29-2, automatic), fontconfig-config:arm64 (2.13.1-2ubuntu3, automatic), xfwm4:arm64 (4.14.1-0ubuntu1, automatic), libx11-6:arm64 (2:1.6.9-2ubuntu1.2, automatic), glib-networking-common:arm64 (2.64.2-1ubuntu0.1, automatic), xfce4-smartbookmark-plugin:arm64 (0.5.1-1, automatic), libsoup2.4-1:arm64 (2.70.0-1, automatic), libxshmfence1:arm64 (1.3-1, automatic), libsm6:arm64 (2:1.2.3-1, automatic), libwayland-client0:arm64 (1.18.0-1ubuntu0.1, automatic), thunar-archive-plugin:arm64 (0.4.0-2, automatic), libperl5.30:arm64 (5.30.0-9ubuntu0.3, automatic), libstartup-notification0:arm64 (0.12-6, automatic), xfce4-terminal:arm64 (0.8.9.1-1), libxnvctrl0:arm64 (470.57.01-0ubuntu0.20.04.3, automatic), libdrm-amdgpu1:arm64 (2.4.107-8ubuntu1~20.04.2, automatic), libexif12:arm64 (0.6.21-6ubuntu0.4, automatic), libllvm12:arm64 (1:12.0.0-3ubuntu1~20.04.5, automatic), fontconfig:arm64 (2.13.1-2ubuntu3, automatic), libtiff5:arm64 (4.1.0+git191117-2ubuntu0.20.04.6, automatic), libxau6:arm64 (1:1.0.9-0ubuntu1, automatic), libxaw7:arm64 (2:1.0.13-1, automatic), libatk1.0-0:arm64 (2.35.1-1ubuntu2, automatic), libxcomposite1:arm64 (1:0.4.5-1, automatic), adwaita-icon-theme:arm64 (3.36.1-2ubuntu0.20.04.2, automatic), libpangocairo-1.0-0:arm64 (1.44.7-2ubuntu4, automatic), libpulse0:arm64 (1:13.99.1-1ubuntu3.13, automatic), xfce4-wavelan-plugin:arm64 (0.6.1-1, automatic), libxcb1:arm64 (1.14-2, automatic), libxtst6:arm64 (2:1.2.3-1, automatic), libatspi2.0-0:arm64 (2.36.0-2, automatic), librsvg2-2:arm64 (2.48.9-1ubuntu0.20.04.1, automatic), libxi6:arm64 (2:1.7.10-0ubuntu1, automatic), libkrb5support0:arm64 (1.17-6ubuntu4.1, automatic), libxt6:arm64 (1:1.1.5-1, automatic), libvorbisenc2:arm64 (1.3.6-2ubuntu1, automatic), libtag1v5:arm64 (1.11.1+dfsg.1-0.3ubuntu2, automatic), xfconf:arm64 (4.14.1-1, automatic), libpulse-mainloop-glib0:arm64 (1:13.99.1-1ubuntu3.13, automatic), libxinerama1:arm64 (2:1.1.4-2, automatic), libcap2-bin:arm64 (1:2.32-1, automatic), libgdbm6:arm64 (1.18.1-5, automatic), fonts-dejavu-core:arm64 (2.37-1, automatic), libexo-common:arm64 (0.12.11-1ubuntu1.20.04.1, automatic), ucf:arm64 (3.0038+nmu1, automatic), xfce4-battery-plugin:arm64 (1.1.3-1, automatic), libkeyutils1:arm64 (1.6-6ubuntu1.1, automatic), libxmuu1:arm64 (2:1.1.3-0ubuntu1, automatic), libburn4:arm64 (1.5.2-1, automatic), libjson-glib-1.0-common:arm64 (1.4.4-2ubuntu2, automatic), libxfont2:arm64 (1:2.0.3-1, automatic), libxrandr2:arm64 (2:1.5.2-0ubuntu1, automatic), libgstreamer-plugins-base1.0-0:arm64 (1.16.3-0ubuntu1.1, automatic), libsndfile1:arm64 (1.0.28-7ubuntu0.1, automatic), libjpeg8:arm64 (8c-2ubuntu8, automatic), libdrm2:arm64 (2.4.107-8ubuntu1~20.04.2, automatic), libglx0:arm64 (1.3.2-1~ubuntu0.20.04.2, automatic), libcolord2:arm64 (1.4.4-2, automatic), libutempter0:arm64 (1.1.6-4, automatic), thunar:arm64 (1.8.14-0ubuntu1, automatic), hicolor-icon-theme:arm64 (0.17-2, automatic), xfdesktop4:arm64 (4.14.2-1, automatic), libxfixes3:arm64 (1:5.0.3-2, automatic), libthai0:arm64 (0.1.28-3, automatic), libfontconfig1:arm64 (2.13.1-2ubuntu3, automatic), libwnck-3-0:arm64 (3.36.0-1, automatic), libasyncns0:arm64 (0.8-6, automatic), libx11-data:arm64 (2:1.6.9-2ubuntu1.2, automatic), libgl1-mesa-dri:arm64 (21.2.6-0ubuntu0.1~20.04.2, automatic), libupower-glib3:arm64 (0.99.11-1build2, automatic), libgdk-pixbuf2.0-common:arm64 (2.40.0+dfsg-3ubuntu0.4, automatic), xfce4-clipman:arm64 (2:1.4.4-1, automatic), libgtk2.0-common:arm64 (2.24.32-4ubuntu4, automatic), libgtksourceview-3.0-1:arm64 (3.24.11-2, automatic), libunwind8:arm64 (1.2.1-9build1, automatic), libgraphite2-3:arm64 (1.3.13-11build1, automatic), libxxf86vm1:arm64 (1:1.1.4-1build1, automatic), libjpeg-turbo8:arm64 (2.0.3-0ubuntu1.20.04.3, automatic), libxdamage1:arm64 (1:1.1.5-2, automatic), xfce4-genmon-plugin:arm64 (4.0.2-1, automatic), librest-0.7-0:arm64 (0.8.1-1, automatic), libatk-bridge2.0-0:arm64 (2.34.2-0ubuntu2~20.04.1, automatic), xfce4-verve-plugin:arm64 (2.0.0-1, automatic), libjbig0:arm64 (2.1-3.1build1, automatic), libvte-2.91-common:arm64 (0.60.3-0ubuntu1~20.04, automatic), libxmu6:arm64 (2:1.1.3-0ubuntu1, automatic), libflac8:arm64 (1.3.3-1build1, automatic), libgarcon-gtk3-1-0:arm64 (0.6.4-1, automatic), xfce4-cpufreq-plugin:arm64 (1.2.1-1, automatic), libedit2:arm64 (3.1-20191231-1, automatic), xfce4-weather-plugin:arm64 (0.10.2-0ubuntu0.20.04.1, automatic), libwnck-3-common:arm64 (3.36.0-1, automatic), libsensors-config:arm64 (1:3.6.0-2ubuntu1.1, automatic), libfreetype6:arm64 (2.10.1-2ubuntu0.2, automatic), perl:arm64 (5.30.0-9ubuntu0.3, automatic), xauth:arm64 (1:1.1-0ubuntu1, automatic), libgarcon-common:arm64 (0.6.4-1, automatic), libxres1:arm64 (2:1.2.0-4, automatic), x11-common:arm64 (1:7.7+19ubuntu14, automatic), gtk-update-icon-cache:arm64 (3.24.20-0ubuntu1.1, automatic), libtagc0:arm64 (1.11.1+dfsg.1-0.3ubuntu2, automatic), libdrm-radeon1:arm64 (2.4.107-8ubuntu1~20.04.2, automatic), libxpm4:arm64 (1:3.5.12-1, automatic), libvorbis0a:arm64 (1.3.6-2ubuntu1, automatic), xfce4-session:arm64 (4.14.2-0ubuntu1, automatic), libatk1.0-data:arm64 (2.35.1-1ubuntu2, automatic), libharfbuzz0b:arm64 (2.6.4-1ubuntu4.2, automatic), libxfce4util-common:arm64 (4.14.0-1, automatic), ristretto:arm64 (0.10.0-1, automatic), libtag1v5-vanilla:arm64 (1.11.1+dfsg.1-0.3ubuntu2, automatic), libgdbm-compat4:arm64 (1.18.1-5, automatic), libkeybinder-3.0-0:arm64 (0.3.2-1ubuntu1, automatic), libice6:arm64 (2:1.0.10-0ubuntu1, automatic), libcairo2:arm64 (1.16.0-4ubuntu1, automatic), libavahi-client3:arm64 (0.7-4ubuntu7.1, automatic), libxcb-glx0:arm64 (1.14-2, automatic), libfile-readbackwards-perl:arm64 (1.05-2, automatic), libpango-1.0-0:arm64 (1.44.7-2ubuntu4, automatic), xfce4-clipman-plugin:arm64 (2:1.4.4-1, automatic), desktop-file-utils:arm64 (0.24-1ubuntu3, automatic), libxcb-dri2-0:arm64 (1.14-2, automatic), libxkbcommon0:arm64 (0.10.0-1, automatic), libxfconf-0-3:arm64 (4.14.1-1, automatic), libsensors5:arm64 (1:3.6.0-2ubuntu1.1, automatic), xfce4-places-plugin:arm64 (1.8.1-1, automatic), xfdesktop4-data:arm64 (4.14.2-1, automatic), libgstreamer1.0-0:arm64 (1.16.3-0ubuntu1.1, automatic), libnotify4:arm64 (0.7.9-1ubuntu3.20.04.2, automatic), ubuntu-mono:arm64 (19.04-0ubuntu3, automatic), xfce4-diskperf-plugin:arm64 (2.6.2-1, automatic), libxcb-dri3-0:arm64 (1.14-2, automatic), libdconf1:arm64 (0.36.0-1, automatic), libgarcon-1-0:arm64 (0.6.4-1, automatic), xfce4-fsguard-plugin:arm64 (1.1.1-1, automatic), libqrencode4:arm64 (4.0.2-2, automatic), libjte2:arm64 (1.22-3build1, automatic), libx11-xcb1:arm64 (2:1.6.9-2ubuntu1.2, automatic), xfce4:arm64 (4.14), libfribidi0:arm64 (1.0.8-2ubuntu0.1, automatic), libxcb-sync1:arm64 (1.14-2, automatic), libexo-helpers:arm64 (0.12.11-1ubuntu1.20.04.1, automatic), libxext6:arm64 (2:1.3.4-0ubuntu1, automatic), libdatrie1:arm64 (0.2.12-3, automatic), libglx-mesa0:arm64 (21.2.6-0ubuntu0.1~20.04.2, automatic), xfce4-taskmanager:arm64 (1.2.3-0ubuntu1, automatic), libglvnd0:arm64 (1.3.2-1~ubuntu0.20.04.2, automatic), libdrm-common:arm64 (2.4.107-8ubuntu1~20.04.2, automatic), libwayland-cursor0:arm64 (1.18.0-1ubuntu0.1, automatic), libpng16-16:arm64 (1.6.37-2, automatic)
+Upgrade: perl-base:arm64 (5.30.0-9build1, 5.30.0-9ubuntu0.3)
+End-Date: 2022-11-11  18:25:09
+
+Start-Date: 2022-11-11  18:25:35
+Commandline: apt install software-properties-common gnupg --no-install-recommends -y -qq
+Install: libpackagekit-glib2-18:arm64 (1.1.13-2ubuntu1.1, automatic), python3-software-properties:arm64 (0.99.9.8, automatic), python3-urllib3:arm64 (1.25.8-2ubuntu0.1, automatic), python-apt-common:arm64 (2.0.0ubuntu0.20.04.8, automatic), python3-idna:arm64 (2.8-1, automatic), python3-six:arm64 (1.14.0-2, automatic), python3-requests:arm64 (2.22.0-2ubuntu1, automatic), liblmdb0:arm64 (0.9.24-1, automatic), libglib2.0-bin:arm64 (2.64.6-1~ubuntu20.04.4, automatic), distro-info-data:arm64 (0.43ubuntu1.11, automatic), python3-pkg-resources:arm64 (45.2.0-1, automatic), packagekit:arm64 (1.1.13-2ubuntu1.1, automatic), lsb-release:arm64 (11.1.0ubuntu2, automatic), gir1.2-packagekitglib-1.0:arm64 (1.1.13-2ubuntu1.1, automatic), python3-requests-unixsocket:arm64 (0.2.0-2, automatic), libappstream4:arm64 (0.12.10-2, automatic), libyaml-0-2:arm64 (0.2.2-1, automatic), libstemmer0d:arm64 (0+svn585-2, automatic), python3-certifi:arm64 (2019.11.28-1, automatic), python3-chardet:arm64 (3.0.4-4build1, automatic), python3-apt:arm64 (2.0.0ubuntu0.20.04.8, automatic), software-properties-common:arm64 (0.99.9.8)
+End-Date: 2022-11-11  18:26:19
+
+Start-Date: 2022-11-11  18:28:25
+Commandline: apt install chromium -y
+Install: libmpc3:arm64 (1.1.0-1, automatic), alsa-topology-conf:arm64 (1.2.2-1, automatic), libx265-179:arm64 (3.2.1-1build1, automatic), libhttp-daemon-perl:arm64 (6.06-1ubuntu0.1, automatic), libusb-1.0-0:arm64 (2:1.0.23-2build1, automatic), libhttp-message-perl:arm64 (6.22-1, automatic), libavformat58:arm64 (7:4.2.7-0ubuntu0.1, automatic), libsnappy1v5:arm64 (1.1.8-1build1, automatic), libopenjp2-7:arm64 (2.3.1-1ubuntu4.20.04.1, automatic), libwww-robotrules-perl:arm64 (6.02-1, automatic), libencode-locale-perl:arm64 (1.05-1, automatic), libplist3:arm64 (2.1.0-4build2, automatic), libchromaprint1:arm64 (1.4.3-3build1, automatic), libauthen-sasl-perl:arm64 (2.1600-1, automatic), libfile-basedir-perl:arm64 (0.08-1, automatic), libnet-ssleay-perl:arm64 (1.88-2ubuntu1, automatic), libhtml-form-perl:arm64 (6.07-1, automatic), alsa-ucm-conf:arm64 (1.2.2-1ubuntu0.13, automatic), libmpfr6:arm64 (4.0.2-1, automatic), libdata-dump-perl:arm64 (1.23-1, automatic), gcc-9-base:arm64 (9.4.0-1ubuntu1~20.04.1, automatic), va-driver-all:arm64 (2.7.0-2, automatic), libswresample3:arm64 (7:4.2.7-0ubuntu0.1, automatic), libtry-tiny-perl:arm64 (0.30-1, automatic), libfile-desktopentry-perl:arm64 (0.22-1, automatic), libhttp-negotiate-perl:arm64 (6.01-1, automatic), libipc-system-simple-perl:arm64 (1.26-1, automatic), cpp-9:arm64 (9.4.0-1ubuntu1~20.04.1, automatic), libasound2-data:arm64 (1.2.2-2.1ubuntu2.5, automatic), libicu63:arm64 (63.1-6+deb10u3, automatic), cpp:arm64 (4:9.3.0-1ubuntu2, automatic), libopenmpt0:arm64 (0.4.11-1build1, automatic), libminizip1:arm64 (1.1-8+b1, automatic), libhttp-date-perl:arm64 (6.05-1, automatic), liblwp-mediatypes-perl:arm64 (6.04-1, automatic), libvdpau1:arm64 (1.3-1ubuntu2, automatic), chromium:arm64 (89.0.4389.114-1~deb10u1), libmp3lame0:arm64 (3.100-3, automatic), libnuma1:arm64 (2.0.12-1, automatic), libvorbisfile3:arm64 (1.3.6-2ubuntu1, automatic), libu2f-udev:arm64 (1.1.10-1, automatic), libwww-perl:arm64 (6.43-1, automatic), upower:arm64 (0.99.11-1build2, automatic), xdg-utils:arm64 (1.1.3-2ubuntu1.20.04.2, automatic), libx11-protocol-perl:arm64 (0.56-7, automatic), libio-html-perl:arm64 (1.001-1, automatic), libwavpack1:arm64 (5.2.0-1ubuntu0.1, automatic), libbdplus0:arm64 (0.1.2-3, automatic), libnet-http-perl:arm64 (6.19-1, automatic), vdpau-driver-all:arm64 (1.3-1ubuntu2, automatic), libopus0:arm64 (1.3.1-0ubuntu1, automatic), libisl22:arm64 (0.22.1-1, automatic), libvpx5:arm64 (1.7.0-3+deb10u1, automatic), libvpx6:arm64 (1.8.2-1build1, automatic), chromium-sandbox:arm64 (89.0.4389.114-1~deb10u1, automatic), libnet-smtp-ssl-perl:arm64 (1.04-1, automatic), libio-socket-ssl-perl:arm64 (2.067-1, automatic), libwebpdemux2:arm64 (0.6.1-2+deb10u1, automatic), libgbm1:arm64 (21.2.6-0ubuntu0.1~20.04.2, automatic), libaom0:arm64 (1.0.0.errata1-3build1, automatic), chromium-common:arm64 (89.0.4389.114-1~deb10u1, automatic), libusbmuxd6:arm64 (2.0.1-2, automatic), libhtml-tagset-perl:arm64 (3.20-4, automatic), libva2:arm64 (2.7.0-2, automatic), libfile-mimeinfo-perl:arm64 (0.29-1, automatic), libfile-listing-perl:arm64 (6.04-1, automatic), libx264-155:arm64 (2:0.155.2917+git0a84d98-2, automatic), libre2-5:arm64 (20200101+dfsg-1build1, automatic), libmpg123-0:arm64 (1.25.13-1, automatic), libxvidcore4:arm64 (2:1.3.7-1, automatic), libimobiledevice6:arm64 (1.2.1~git20191129.9f79242-1build1, automatic), liblwp-protocol-https-perl:arm64 (6.07-2ubuntu2, automatic), libzvbi0:arm64 (0.2.35-17, automatic), libxv1:arm64 (2:1.0.11-1, automatic), libnet-dbus-perl:arm64 (1.2.0-1, automatic), libspeex1:arm64 (1.2~rc1.2-1.1ubuntu1.20.04.1, automatic), libhtml-tree-perl:arm64 (5.07-2, automatic), libaacs0:arm64 (0.9.0-2, automatic), libio-stringy-perl:arm64 (2.111-3, automatic), libavcodec58:arm64 (7:4.2.7-0ubuntu0.1, automatic), libxml-twig-perl:arm64 (1:3.50-2, automatic), libmailtools-perl:arm64 (2.21-1, automatic), libxft2:arm64 (2.3.3-0ubuntu1, automatic), perl-openssl-defaults:arm64 (4, automatic), libavutil56:arm64 (7:4.2.7-0ubuntu0.1, automatic), libtie-ixhash-perl:arm64 (1.23-2, automatic), libtheora0:arm64 (1.1.1+dfsg.1-15ubuntu2, automatic), libxcb-shape0:arm64 (1.14-2, automatic), libgomp1:arm64 (10.3.0-1ubuntu1~20.04, automatic), libgme0:arm64 (0.6.2-1build1, automatic), libssh-gcrypt-4:arm64 (0.9.3-2ubuntu2.2, automatic), libfont-afm-perl:arm64 (1.20-2, automatic), libhttp-cookies-perl:arm64 (6.08-1, automatic), libsoxr0:arm64 (0.1.3-2build1, automatic), libwebpmux3:arm64 (0.6.1-2+deb10u1, automatic), libxxf86dga1:arm64 (2:1.1.5-0ubuntu1, automatic), libasound2:arm64 (1.2.2-2.1ubuntu2.5, automatic), x11-xserver-utils:arm64 (7.7+8, automatic), libshine3:arm64 (3.1.1-2, automatic), libtimedate-perl:arm64 (2.3200-1, automatic), usbmuxd:arm64 (1.1.1~git20191130.9af2b12-1, automatic), libevent-2.1-6:arm64 (2.1.8-stable-4, automatic), libtwolame0:arm64 (0.4.0-2, automatic), libgsm1:arm64 (1.0.18-2, automatic), libva-x11-2:arm64 (2.7.0-2, automatic), libcodec2-0.9:arm64 (0.9.2-2, automatic), libxml-parser-perl:arm64 (2.46-1, automatic), libva-drm2:arm64 (2.7.0-2, automatic), x11-utils:arm64 (7.7+5, automatic), mesa-vdpau-drivers:arm64 (21.2.6-0ubuntu0.1~20.04.2, automatic), ocl-icd-libopencl1:arm64 (2.2.12-2, automatic), libatomic1:arm64 (10.3.0-1ubuntu1~20.04, automatic), libjsoncpp1:arm64 (1.7.4-3.1ubuntu2, automatic), libtext-iconv-perl:arm64 (1.7-7, automatic), libzvbi-common:arm64 (0.2.35-17, automatic), fonts-liberation:arm64 (1:1.07.4-11, automatic), libhtml-parser-perl:arm64 (3.72-5, automatic), liburi-perl:arm64 (1.76-2, automatic), libjpeg62-turbo:arm64 (1:1.5.2-2+deb10u1, automatic), libbluray2:arm64 (1:1.2.0-1, automatic), libwayland-server0:arm64 (1.18.0-1ubuntu0.1, automatic), mesa-va-drivers:arm64 (21.2.6-0ubuntu0.1~20.04.2, automatic), libxslt1.1:arm64 (1.1.34-4ubuntu0.20.04.1, automatic), libxml-xpathengine-perl:arm64 (0.14-1, automatic), libhtml-format-perl:arm64 (2.12-1, automatic)
+Upgrade: gcc-10-base:arm64 (10-20200411-0ubuntu1, 10.3.0-1ubuntu1~20.04), libgcc-s1:arm64 (10-20200411-0ubuntu1, 10.3.0-1ubuntu1~20.04), libstdc++6:arm64 (10-20200411-0ubuntu1, 10.3.0-1ubuntu1~20.04)
+End-Date: 2022-11-11  18:29:52
+
+Start-Date: 2022-11-11  18:39:16
+Commandline: apt install pavucontrol
+Install: sound-theme-freedesktop:arm64 (0.8-2ubuntu1, automatic), libpulsedsp:arm64 (1:13.99.1-1ubuntu3.13, automatic), pulseaudio:arm64 (1:13.99.1-1ubuntu3.13, automatic), rtkit:arm64 (0.12-4, automatic), libatkmm-1.6-1v5:arm64 (2.28.0-2build1, automatic), libsigc++-2.0-0v5:arm64 (2.10.2-1build1, automatic), libcanberra-gtk3-module:arm64 (0.30-7ubuntu1, automatic), libltdl7:arm64 (2.4.6-14, automatic), pavucontrol:arm64 (4.0-1build1), libjack-jackd2-0:arm64 (1.9.12~dfsg-2ubuntu2, automatic), libcanberra-gtk3-0:arm64 (0.30-7ubuntu1, automatic), libcairomm-1.0-1v5:arm64 (1.12.2-4build1, automatic), libspeexdsp1:arm64 (1.2~rc1.2-1.1ubuntu1.20.04.1, automatic), libtdb1:arm64 (1.4.3-0ubuntu0.20.04.1, automatic), libasound2-plugins:arm64 (1.2.2-1ubuntu1, automatic), libglibmm-2.4-1v5:arm64 (2.64.2-1, automatic), libsnapd-glib1:arm64 (1.58-0ubuntu0.20.04.0, automatic), libpangomm-1.4-1v5:arm64 (2.42.0-2build1, automatic), dbus-user-session:arm64 (1.12.20-0+deb10u1, automatic), libcanberra0:arm64 (0.30-7ubuntu1, automatic), pulseaudio-utils:arm64 (1:13.99.1-1ubuntu3.13, automatic), libsamplerate0:arm64 (0.1.9-2, automatic), libwebrtc-audio-processing1:arm64 (0.3.1-0ubuntu3, automatic), libgtkmm-3.0-1v5:arm64 (3.24.2-1build1, automatic)
+Upgrade: dbus-x11:arm64 (1.12.16-2ubuntu2.3, 1.12.20-0+deb10u1), libdbus-1-3:arm64 (1.12.16-2ubuntu2.3, 1.12.20-0+deb10u1), dbus:arm64 (1.12.16-2ubuntu2.3, 1.12.20-0+deb10u1)
+End-Date: 2022-11-11  18:39:42
+
+Start-Date: 2022-11-11  18:50:51
+Commandline: apt install audacious -y
+Install: timgm6mb-soundfont:arm64 (1.3-3, automatic), libnghttp2-14:arm64 (1.40.0-1build1, automatic), audacious-plugins-data:arm64 (3.10.1-1build2, automatic), libssh-4:arm64 (0.9.3-2ubuntu2.2, automatic), libsndio7.0:arm64 (1.5.0-3, automatic), libcdio18:arm64 (2.0.0-2, automatic), audacious:arm64 (3.10.1-1build1), libaudcore5:arm64 (3.10.1-1build1, automatic), libaudtag3:arm64 (3.10.1-1build1, automatic), libcdio-cdda2:arm64 (10.2+2.0.0-1, automatic), libfluidsynth2:arm64 (2.1.1-2, automatic), libaudgui5:arm64 (3.10.1-1build1, automatic), librtmp1:arm64 (2.4+20151223.gitfa8646d.1-2build1, automatic), gtk2-engines-pixbuf:arm64 (2.24.32-4ubuntu4, automatic), libneon27-gnutls:arm64 (0.30.2-4, automatic), libcddb2:arm64 (1.3.2-6fakesync1, automatic), unzip:arm64 (6.0-25ubuntu1.1, automatic), libsdl2-2.0-0:arm64 (2.0.10+dfsg1-3, automatic), audacious-plugins:arm64 (3.10.1-1build2, automatic), libinstpatch-1.0-2:arm64 (1.1.2-2build1, automatic), libmodplug1:arm64 (1:0.8.9.0-2build1, automatic), libbs2b0:arm64 (3.1.0+dfsg-2.2build1, automatic), libxss1:arm64 (1:1.2.3-1, automatic), libsidplayfp4:arm64 (1.8.8-1build1, automatic), liblirc-client0:arm64 (0.10.1-6.3~deb10u1, automatic), libmms0:arm64 (0.6.4-3, automatic), libfaad2:arm64 (2.10.0-1~deb10u1, automatic), libcurl3-gnutls:arm64 (7.68.0-1ubuntu2.14, automatic), libcue2:arm64 (2.2.1-2, automatic)
+End-Date: 2022-11-11  18:51:09
+
+Start-Date: 2022-11-11  19:03:25
+Commandline: apt install locales
+Install: locales:arm64 (2.31-0ubuntu9.9)
+End-Date: 2022-11-11  19:03:41
+
+Start-Date: 2022-11-11  19:10:16
+Commandline: apt install mpd
+Install: libupnp13:arm64 (1:1.8.4-2ubuntu2, automatic), libldb2:arm64 (2:2.2.3-0ubuntu0.20.04.3, automatic), libadplug-2.3.1-0:arm64 (2.3.1+dfsg-2build1, automatic), libao4:arm64 (1.2.2+20180113-1ubuntu1, automatic), javascript-common:arm64 (11, automatic), libixml10:arm64 (1:1.8.4-2ubuntu2, automatic), libopenal1:arm64 (1:1.19.1-1, automatic), libwbclient0:arm64 (2:4.13.17~dfsg-0ubuntu1.20.04.1, automatic), libshout3:arm64 (2.4.3-1, automatic), python3-ldb:arm64 (2:2.2.3-0ubuntu0.20.04.3, automatic), libbinio1v5:arm64 (1.5+dfsg-0.1, automatic), libpython3.8:arm64 (3.8.10-0ubuntu1~20.04.5, automatic), libjs-jquery:arm64 (3.3.1~dfsg-3+deb10u1, automatic), libjs-underscore:arm64 (1.9.1~dfsg-1+deb10u1, automatic), libyajl2:arm64 (2.1.0-3, automatic), libid3tag0:arm64 (0.15.1b-14, automatic), libwildmidi2:arm64 (0.4.3-1, automatic), libopenal-data:arm64 (1:1.19.1-1, automatic), libtalloc2:arm64 (2.3.1-0ubuntu0.20.04.1, automatic), mpd:arm64 (0.21.20-1build1), samba-libs:arm64 (2:4.13.17~dfsg-0ubuntu1.20.04.1, automatic), libcdio-paranoia2:arm64 (10.2+2.0.0-1, automatic), libao-common:arm64 (1.2.2+20180113-1ubuntu1, automatic), libzzip-0-13:arm64 (0.13.62-3.2+deb10u1, automatic), libmad0:arm64 (0.15.1b-10ubuntu1, automatic), libsmbclient:arm64 (2:4.13.17~dfsg-0ubuntu1.20.04.1, automatic), libnfs13:arm64 (4.0.0-1, automatic), libmpdclient2:arm64 (2.18-1, automatic), python3-talloc:arm64 (2.3.1-0ubuntu0.20.04.1, automatic), libaudiofile1:arm64 (0.3.6-5build1, automatic), libmpcdec6:arm64 (2:0.1~r495-2, automatic), libmikmod3:arm64 (3.3.11.1-4, automatic), libjansson4:arm64 (2.12-1build1, automatic), libjs-sphinxdoc:arm64 (1.8.5-7ubuntu3, automatic), libtevent0:arm64 (0.10.2-0ubuntu0.20.04.1, automatic), libiso9660-11:arm64 (2.0.0-2, automatic)
+End-Date: 2022-11-11  19:10:43
+
+Start-Date: 2022-11-11  19:45:11
+Commandline: apt install clementine
+Install: clementine:arm64 (1.4.0~rc1+dfsg-1), libaa1:arm64 (1.4p5-46, automatic), gstreamer1.0-alsa:arm64 (1.16.3-0ubuntu1.1, automatic), libraw1394-11:arm64 (2.1.2-1+b1, automatic), libqt5svg5:arm64 (5.12.8-0ubuntu1, automatic), libxcb-icccm4:arm64 (0.4.1-1.1, automatic), libmtp9:arm64 (1.1.17-3, automatic), libwacom-common:arm64 (1.3-2ubuntu3, automatic), libegl1:arm64 (1.3.2-1~ubuntu0.20.04.2, automatic), qt5-gtk-platformtheme:arm64 (5.12.8+dfsg-0ubuntu2.1, automatic), libdv4:arm64 (1.0.0-12, automatic), libopencore-amrnb0:arm64 (0.1.5-1, automatic), libegl-mesa0:arm64 (21.2.6-0ubuntu0.1~20.04.2, automatic), libcdparanoia0:arm64 (3.10.2+debian-13, automatic), libcrypto++6:arm64 (5.6.4-9build1, automatic), liblastfm5-1:arm64 (1.0.9-1.1build1, automatic), gstreamer1.0-plugins-good:arm64 (1.16.3-0ubuntu1.1, automatic), libxcb-render-util0:arm64 (0.3.9-1+b1, automatic), libdvdread7:arm64 (6.1.0+really6.0.2-1, automatic), libxcb-util0:arm64 (0.3.8-3+b2, automatic), libqt5dbus5:arm64 (5.12.8+dfsg-0ubuntu2.1, automatic), libqt5sql5-sqlite:arm64 (5.12.8+dfsg-0ubuntu2.1, automatic), liba52-0.7.4:arm64 (0.7.4-20, automatic), libmygpo-qt5-1:arm64 (1.1.0-3build1, automatic), libqt5widgets5:arm64 (5.12.8+dfsg-0ubuntu2.1, automatic), libmtdev1:arm64 (1.1.5-1.1, automatic), libopencore-amrwb0:arm64 (0.1.5-1, automatic), libwacom-bin:arm64 (1.3-2ubuntu3, automatic), gstreamer1.0-plugins-base:arm64 (1.16.3-0ubuntu1.1, automatic), libxcb-randr0:arm64 (1.14-2, automatic), libgpod4:arm64 (0.8.3-15, automatic), libgstreamer-plugins-good1.0-0:arm64 (1.16.3-0ubuntu1.1, automatic), libdvdnav4:arm64 (6.0.1-1build1, automatic), libqt5xml5:arm64 (5.12.8+dfsg-0ubuntu2.1, automatic), libxkbcommon-x11-0:arm64 (0.10.0-1, automatic), libqt5concurrent5:arm64 (5.12.8+dfsg-0ubuntu2.1, automatic), libinput-bin:arm64 (1.15.5-1ubuntu0.3, automatic), libmtp-runtime:arm64 (1.1.17-3, automatic), libqt5gui5:arm64 (5.12.8+dfsg-0ubuntu2.1, automatic), libcaca0:arm64 (0.99.beta19-2.1ubuntu1.20.04.2, automatic), libxcb-image0:arm64 (0.4.0-1+b2, automatic), libqt5x11extras5:arm64 (5.12.8-0ubuntu1, automatic), libiec61883-0:arm64 (1.2.0-3, automatic), libgpod-common:arm64 (0.8.3-15, automatic), libxcb-xinerama0:arm64 (1.14-2, automatic), libxcb-keysyms1:arm64 (0.4.0-1+b2, automatic), gstreamer1.0-x:arm64 (1.16.3-0ubuntu1.1, automatic), libqt5core5a:arm64 (5.12.8+dfsg-0ubuntu2.1, automatic), libmpeg2-4:arm64 (0.5.1-9, automatic), libgpm2:arm64 (1.20.7-5, automatic), libfftw3-double3:arm64 (3.3.8-2ubuntu1, automatic), libvisual-0.4-0:arm64 (0.4.0-17, automatic), libsidplay1v5:arm64 (1.36.59-11build1, automatic), qttranslations5-l10n:arm64 (5.12.8-0ubuntu1, automatic), libwacom2:arm64 (1.3-2ubuntu3, automatic), libsgutils2-2:arm64 (1.44-1ubuntu2, automatic), libv4l-0:arm64 (1.18.0-2build1, automatic), libqt5network5:arm64 (5.12.8+dfsg-0ubuntu2.1, automatic), libv4lconvert0:arm64 (1.18.0-2build1, automatic), libprotobuf17:arm64 (3.6.1.3-2ubuntu5, automatic), libavc1394-0:arm64 (0.5.4-5, automatic), libxcb-xinput0:arm64 (1.14-2, automatic), libpcre2-16-0:arm64 (10.34-7ubuntu0.1, automatic), libmtp-common:arm64 (1.1.17-3, automatic), libxcb-xkb1:arm64 (1.14-2, automatic), libqt5sql5:arm64 (5.12.8+dfsg-0ubuntu2.1, automatic), libinput10:arm64 (1.15.5-1ubuntu0.3, automatic), gstreamer1.0-plugins-ugly:arm64 (1.16.2-2build1, automatic), libdouble-conversion3:arm64 (3.1.5-4ubuntu1, automatic), libslang2:arm64 (2.3.2-4, automatic), libevdev2:arm64 (1.9.0+dfsg-1ubuntu0.2, automatic)
+End-Date: 2022-11-11  19:46:10
+
+Start-Date: 2022-11-11  20:03:17
+Commandline: apt install gimp
+Install: liblapack3:arm64 (3.9.0-1build1, automatic), libumfpack5:arm64 (1:5.7.1+dfsg-2, automatic), libgegl-0.4-0:arm64 (0.4.22-3, automatic), libraw19:arm64 (0.19.5-1ubuntu1.1, automatic), libgs9:arm64 (9.50~dfsg-5ubuntu4.6, automatic), fonts-urw-base35:arm64 (20170801.1-3, automatic), libgegl-common:arm64 (0.4.22-3, automatic), libccolamd2:arm64 (1:5.7.1+dfsg-2, automatic), gimp-data:arm64 (2.10.18-1, automatic), fonts-droid-fallback:arm64 (1:6.0.1r16-1.1, automatic), libsuitesparseconfig5:arm64 (1:5.7.1+dfsg-2, automatic), libwmf0.2-7:arm64 (0.2.8.4-17ubuntu1, automatic), libamd2:arm64 (1:5.7.1+dfsg-2, automatic), libgexiv2-2:arm64 (0.12.0-2, automatic), libpaper1:arm64 (1.1.28, automatic), gimp:arm64 (2.10.18-1), libjbig2dec0:arm64 (0.18-1ubuntu1, automatic), libilmbase24:arm64 (2.3.0-6build1, automatic), libmypaint-1.5-1:arm64 (1.5.1-1, automatic), libmetis5:arm64 (5.1.0.dfsg-5+b2, automatic), libbabl-0.1-0:arm64 (0.1.74-1, automatic), libgfortran5:arm64 (10.3.0-1ubuntu1~20.04, automatic), libcolamd2:arm64 (1:5.7.1+dfsg-2, automatic), libpaper-utils:arm64 (1.1.28, automatic), ghostscript:arm64 (9.50~dfsg-5ubuntu4.6, automatic), libijs-0.35:arm64 (0.35-15, automatic), libswscale5:arm64 (7:4.2.7-0ubuntu0.1, automatic), libopenexr24:arm64 (2.3.0-6ubuntu0.5, automatic), libgs9-common:arm64 (9.50~dfsg-5ubuntu4.6, automatic), libcamd2:arm64 (1:5.7.1+dfsg-2, automatic), libgimp2.0:arm64 (2.10.18-1, automatic), libcholmod3:arm64 (1:5.7.1+dfsg-2, automatic), libidn11:arm64 (1.33-2.2ubuntu2, automatic), libblas3:arm64 (3.9.0-1build1, automatic), libexiv2-27:arm64 (0.27.2-8ubuntu2.7, automatic), libpoppler-glib8:arm64 (0.86.1-0ubuntu1.1, automatic), libpoppler97:arm64 (0.86.1-0ubuntu1.1, automatic), fonts-noto-mono:arm64 (20200323-1build1~ubuntu20.04.1, automatic), poppler-data:arm64 (0.4.9-2, automatic), libheif1:arm64 (1.6.1-1build1, automatic), libde265-0:arm64 (1.0.4-1build1, automatic), libmng2:arm64 (2.0.3+dfsg-3, automatic), libmypaint-common:arm64 (1.5.1-1, automatic)
+End-Date: 2022-11-11  20:04:22
+
+Start-Date: 2022-11-12  07:27:26
+Commandline: apt install git
+Install: git-man:arm64 (1:2.25.1-1ubuntu3.6, automatic), git:arm64 (1:2.25.1-1ubuntu3.6), libfido2-1:arm64 (1.3.1-1ubuntu2, automatic), openssh-client:arm64 (1:8.2p1-4ubuntu0.5, automatic), patch:arm64 (2.7.6-6, automatic), libcbor0.6:arm64 (0.6.0-0ubuntu1, automatic), less:arm64 (551-1ubuntu0.1, automatic), liberror-perl:arm64 (0.17029-1, automatic)
+End-Date: 2022-11-12  07:27:39
+
+Start-Date: 2022-11-12  07:38:00
+Commandline: apt install ssh
+Install: python3-distro:arm64 (1.4.0-1, automatic), openssh-sftp-server:arm64 (1:8.2p1-4ubuntu0.5, automatic), ssh:arm64 (1:8.2p1-4ubuntu0.5), ncurses-term:arm64 (6.2-0ubuntu2, automatic), openssh-server:arm64 (1:8.2p1-4ubuntu0.5, automatic), ssh-import-id:arm64 (5.10-0ubuntu1, automatic)
+End-Date: 2022-11-12  07:38:21
+
+Start-Date: 2022-11-12  08:13:58
+Commandline: apt install build-essential
+Install: manpages:arm64 (5.05-1, automatic), binutils-aarch64-linux-gnu:arm64 (2.34-6ubuntu1.3, automatic), linux-libc-dev:arm64 (5.4.0-131.147, automatic), libfakeroot:arm64 (1.24-1, automatic), libc6-dev:arm64 (2.31-0ubuntu9.9, automatic), libctf-nobfd0:arm64 (2.34-6ubuntu1.3, automatic), libalgorithm-diff-perl:arm64 (1.19.03-2, automatic), libalgorithm-merge-perl:arm64 (0.08-3, automatic), binutils:arm64 (2.34-6ubuntu1.3, automatic), libitm1:arm64 (10.3.0-1ubuntu1~20.04, automatic), g++:arm64 (4:9.3.0-1ubuntu2, automatic), gcc:arm64 (4:9.3.0-1ubuntu2, automatic), libasan5:arm64 (9.4.0-1ubuntu1~20.04.1, automatic), libstdc++-9-dev:arm64 (9.4.0-1ubuntu1~20.04.1, automatic), build-essential:arm64 (12.8ubuntu1.1), libcrypt-dev:arm64 (1:4.4.10-10ubuntu4, automatic), libtsan0:arm64 (10.3.0-1ubuntu1~20.04, automatic), libubsan1:arm64 (10.3.0-1ubuntu1~20.04, automatic), g++-9:arm64 (9.4.0-1ubuntu1~20.04.1, automatic), make:arm64 (4.2.1-1.2, automatic), fakeroot:arm64 (1.24-1, automatic), gcc-9:arm64 (9.4.0-1ubuntu1~20.04.1, automatic), liblsan0:arm64 (10.3.0-1ubuntu1~20.04, automatic), manpages-dev:arm64 (5.05-1, automatic), binutils-common:arm64 (2.34-6ubuntu1.3, automatic), libc-dev-bin:arm64 (2.31-0ubuntu9.9, automatic), libbinutils:arm64 (2.34-6ubuntu1.3, automatic), libcc1-0:arm64 (10.3.0-1ubuntu1~20.04, automatic), libdpkg-perl:arm64 (1.19.8, automatic), libalgorithm-diff-xs-perl:arm64 (0.04-6, automatic), libctf0:arm64 (2.34-6ubuntu1.3, automatic), libgcc-9-dev:arm64 (9.4.0-1ubuntu1~20.04.1, automatic), dpkg-dev:arm64 (1.19.8, automatic)
+Upgrade: libc6:arm64 (2.31-0ubuntu9, 2.31-0ubuntu9.9)
+End-Date: 2022-11-12  08:14:59
+
+Start-Date: 2022-11-12  08:18:12
+Commandline: apt install meson ninja-build
+Install: meson:arm64 (0.53.2-2ubuntu2), ninja-build:arm64 (1.10.0-1build1)
+End-Date: 2022-11-12  08:18:18
+
+Start-Date: 2022-11-12  08:20:03
+Commandline: apt install cmake
+Install: libcurl4:arm64 (7.68.0-1ubuntu2.14, automatic), libarchive13:arm64 (3.4.0-2ubuntu1.2, automatic), librhash0:arm64 (1.3.9-1, automatic), cmake-data:arm64 (3.16.3-1ubuntu1, automatic), libuv1:arm64 (1.34.2-1ubuntu1.3, automatic), cmake:arm64 (3.16.3-1ubuntu1)
+End-Date: 2022-11-12  08:20:19
+
+Start-Date: 2022-11-12  08:22:28
+Commandline: apt install -y pkg-config
+Install: pkg-config:arm64 (0.29.1-0ubuntu4)
+End-Date: 2022-11-12  08:22:32
+
+Start-Date: 2022-11-12  19:04:04
+Commandline: apt install libgstreamer1.0-dev
+Install: libpcre16-3:arm64 (2:8.39-12ubuntu0.1, automatic), libltdl-dev:arm64 (2.4.6-14, automatic), libcroco3:arm64 (0.6.13-1, automatic), autotools-dev:arm64 (20180224.1, automatic), libsub-override-perl:arm64 (0.09-2, automatic), libmail-sendmail-perl:arm64 (0.80-1, automatic), python3-distutils:arm64 (3.8.10-0ubuntu1~20.04, automatic), libpcre3-dev:arm64 (2:8.39-12ubuntu0.1, automatic), m4:arm64 (1.4.18-4, automatic), libgstreamer1.0-dev:arm64 (1.16.3-0ubuntu1.1), intltool-debian:arm64 (0.35.0+20060710.5, automatic), libarchive-zip-perl:arm64 (1.67-2, automatic), libarchive-cpio-perl:arm64 (0.10-1, automatic), bsdmainutils:arm64 (11.1.2+b1, automatic), libffi-dev:arm64 (3.3-4, automatic), libpcre2-32-0:arm64 (10.34-7ubuntu0.1, automatic), dwz:arm64 (0.13-5, automatic), dh-autoreconf:arm64 (19, automatic), automake:arm64 (1:1.16.1-4ubuntu6, automatic), libdebhelper-perl:arm64 (12.10ubuntu1, automatic), libselinux1-dev:arm64 (3.0-1build2, automatic), libpcre32-3:arm64 (2:8.39-12ubuntu0.1, automatic), zlib1g-dev:arm64 (1:1.2.11.dfsg-2ubuntu1.5, automatic), libpipeline1:arm64 (1.5.2-2build1, automatic), dh-strip-nondeterminism:arm64 (1.7.0-1, automatic), libfile-stripnondeterminism-perl:arm64 (1.7.0-1, automatic), libmount-dev:arm64 (2.34-0.1ubuntu9.3, automatic), po-debconf:arm64 (1.0.21, automatic), autoconf:arm64 (2.69-11.1, automatic), libglib2.0-dev-bin:arm64 (2.64.6-1~ubuntu20.04.4, automatic), man-db:arm64 (2.9.1-1, automatic), libpcre2-dev:arm64 (10.34-7ubuntu0.1, automatic), python3-lib2to3:arm64 (3.8.10-0ubuntu1~20.04, automatic), libglib2.0-dev:arm64 (2.64.6-1~ubuntu20.04.4, automatic), libsepol1-dev:arm64 (3.0-1ubuntu0.1, automatic), uuid-dev:arm64 (2.34-0.1ubuntu9.3, automatic), debhelper:arm64 (12.10ubuntu1, automatic), libpcre2-posix2:arm64 (10.34-7ubuntu0.1, automatic), gir1.2-gstreamer-1.0:arm64 (1.16.3-0ubuntu1.1, automatic), autopoint:arm64 (0.19.8.1-10build1, automatic), libpcrecpp0v5:arm64 (2:8.39-12ubuntu0.1, automatic), gettext-base:arm64 (0.19.8.1-10build1, automatic), gettext:arm64 (0.19.8.1-10build1, automatic), libblkid-dev:arm64 (2.34-0.1ubuntu9.3, automatic), libsys-hostname-long-perl:arm64 (1.5-1, automatic), libtool:arm64 (2.4.6-14, automatic), libsigsegv2:arm64 (2.12-2, automatic)
+Upgrade: libmount1:arm64 (2.34-0.1ubuntu9, 2.34-0.1ubuntu9.3), zlib1g:arm64 (1:1.2.11.dfsg-2ubuntu1, 1:1.2.11.dfsg-2ubuntu1.5), libsepol1:arm64 (3.0-1, 3.0-1ubuntu0.1), libblkid1:arm64 (2.34-0.1ubuntu9, 2.34-0.1ubuntu9.3), libpcre3:arm64 (2:8.39-12build1, 2:8.39-12ubuntu0.1), libuuid1:arm64 (2.34-0.1ubuntu9, 2.34-0.1ubuntu9.3), libpcre2-8-0:arm64 (10.34-7, 10.34-7ubuntu0.1)
+End-Date: 2022-11-12  19:05:06
+
+Start-Date: 2022-11-12  19:15:16
+Commandline: apt install python2
+Install: libpython2-stdlib:arm64 (2.7.17-2ubuntu4, automatic), python2.7-minimal:arm64 (2.7.18-1~20.04.3, automatic), python2.7:arm64 (2.7.18-1~20.04.3, automatic), python2:arm64 (2.7.17-2ubuntu4), python2-minimal:arm64 (2.7.17-2ubuntu4, automatic), libpython2.7-minimal:arm64 (2.7.18-1~20.04.3, automatic), libpython2.7-stdlib:arm64 (2.7.18-1~20.04.3, automatic)
+End-Date: 2022-11-12  19:15:34
+
+Start-Date: 2022-11-12  19:22:55
+Commandline: apt upgrade
+Upgrade: libpam0g:arm64 (1.3.1-5ubuntu4, 1.3.1-5ubuntu4.3), fdisk:arm64 (2.34-0.1ubuntu9, 2.34-0.1ubuntu9.3), ubuntu-keyring:arm64 (2020.02.11.2, 2020.02.11.4), libseccomp2:arm64 (2.4.3-1ubuntu1, 2.5.1-1ubuntu1~20.04.2), libcom-err2:arm64 (1.45.5-2ubuntu1, 1.45.5-2ubuntu1.1), libfdisk1:arm64 (2.34-0.1ubuntu9, 2.34-0.1ubuntu9.3), libpam-modules:arm64 (1.3.1-5ubuntu4, 1.3.1-5ubuntu4.3), apt:arm64 (2.0.2, 2.0.9), e2fsprogs:arm64 (1.45.5-2ubuntu1, 1.45.5-2ubuntu1.1), libgmp10:arm64 (2:6.2.0+dfsg-4, 2:6.2.0+dfsg-4ubuntu0.1), util-linux:arm64 (2.34-0.1ubuntu9, 2.34-0.1ubuntu9.3), passwd:arm64 (1:4.8.1-1ubuntu5, 1:4.8.1-1ubuntu5.20.04.2), procps:arm64 (2:3.3.16-1ubuntu2, 2:3.3.16-1ubuntu2.3), libpam-runtime:arm64 (1.3.1-5ubuntu4, 1.3.1-5ubuntu4.3), libprocps8:arm64 (2:3.3.16-1ubuntu2, 2:3.3.16-1ubuntu2.3), libapt-pkg6.0:arm64 (2.0.2, 2.0.9), libss2:arm64 (1.45.5-2ubuntu1, 1.45.5-2ubuntu1.1), mount:arm64 (2.34-0.1ubuntu9, 2.34-0.1ubuntu9.3), libext2fs2:arm64 (1.45.5-2ubuntu1, 1.45.5-2ubuntu1.1), dpkg:arm64 (1.19.7ubuntu3, 1.19.7ubuntu3.2), libc-bin:arm64 (2.31-0ubuntu9, 2.31-0ubuntu9.9), tar:arm64 (1.30+dfsg-7, 1.30+dfsg-7ubuntu0.20.04.2), libgcrypt20:arm64 (1.8.5-5ubuntu1, 1.8.5-5ubuntu1.1), liblz4-1:arm64 (1.9.2-2, 1.9.2-2ubuntu0.20.04.1), libsmartcols1:arm64 (2.34-0.1ubuntu9, 2.34-0.1ubuntu9.3), login:arm64 (1:4.8.1-1ubuntu5, 1:4.8.1-1ubuntu5.20.04.2), libhogweed5:arm64 (3.5.1+really3.5.1-2, 3.5.1+really3.5.1-2ubuntu0.2), libpam-modules-bin:arm64 (1.3.1-5ubuntu4, 1.3.1-5ubuntu4.3), bsdutils:arm64 (1:2.34-0.1ubuntu9, 1:2.34-0.1ubuntu9.3), libnettle7:arm64 (3.5.1+really3.5.1-2, 3.5.1+really3.5.1-2ubuntu0.2), bash:arm64 (5.0-6ubuntu1, 5.0-6ubuntu1.2), libgnutls30:arm64 (3.6.13-2ubuntu1, 3.6.13-2ubuntu1.7), libp11-kit0:arm64 (0.23.20-1build1, 0.23.20-1ubuntu0.1), libzstd1:arm64 (1.4.4+dfsg-3, 1.4.4+dfsg-3ubuntu0.1), logsave:arm64 (1.45.5-2ubuntu1, 1.45.5-2ubuntu1.1), gzip:arm64 (1.10-0ubuntu4, 1.10-0ubuntu4.1), liblzma5:arm64 (5.2.4-1, 5.2.4-1ubuntu1.1), base-files:arm64 (11ubuntu5, 11ubuntu5.6)
+End-Date: 2022-11-12  19:24:36
+
+Start-Date: 2022-11-12  19:27:14
+Commandline: apt install python
+Install: python-is-python2:arm64 (2.7.17-4)
+End-Date: 2022-11-12  19:27:17
+
+Start-Date: 2022-11-12  19:31:04
+Commandline: apt install python pip
+Install: python3-dev:arm64 (3.8.2-0ubuntu2, automatic), libpython3.8-dev:arm64 (3.8.10-0ubuntu1~20.04.5, automatic), libexpat1-dev:arm64 (2.2.9-1ubuntu0.4, automatic), python3-pip:arm64 (20.0.2-5ubuntu1.6), python3-wheel:arm64 (0.34.2-1, automatic), python3.8-dev:arm64 (3.8.10-0ubuntu1~20.04.5, automatic), libpython3-dev:arm64 (3.8.2-0ubuntu2, automatic), python-pip-whl:arm64 (20.0.2-5ubuntu1.6, automatic), python3-setuptools:arm64 (45.2.0-1, automatic)
+End-Date: 2022-11-12  19:31:16
+
+Start-Date: 2022-11-12  20:05:53
+Commandline: apt-get install libcairo2-dev
+Install: libcairo-script-interpreter2:arm64 (1.16.0-4ubuntu1, automatic), libpthread-stubs0-dev:arm64 (0.4-1, automatic), libice-dev:arm64 (2:1.0.10-0ubuntu1, automatic), libxext-dev:arm64 (2:1.3.4-0ubuntu1, automatic), libcairo2-dev:arm64 (1.16.0-4ubuntu1), libpng-dev:arm64 (1.6.37-2, automatic), libsm-dev:arm64 (2:1.2.3-1, automatic), xtrans-dev:arm64 (1.4.0-1, automatic), x11proto-xext-dev:arm64 (2019.2-1ubuntu1, automatic), libxcb1-dev:arm64 (1.14-2, automatic), libfontconfig1-dev:arm64 (2.13.1-2ubuntu3, automatic), x11proto-core-dev:arm64 (2019.2-1ubuntu1, automatic), libxau-dev:arm64 (1:1.0.9-0ubuntu1, automatic), libfreetype6-dev:arm64 (2.10.1-2ubuntu0.2, automatic), libxdmcp-dev:arm64 (1:1.1.3-0ubuntu1, automatic), libxcb-shm0-dev:arm64 (1.14-2, automatic), libxcb-render0-dev:arm64 (1.14-2, automatic), libxrender-dev:arm64 (1:0.9.10-1, automatic), libx11-dev:arm64 (2:1.6.9-2ubuntu1.2, automatic), xorg-sgml-doctools:arm64 (1:1.11-1, automatic), libpng-tools:arm64 (1.6.37-2, automatic), libpixman-1-dev:arm64 (0.38.4-0ubuntu2.1, automatic), x11proto-dev:arm64 (2019.2-1ubuntu1, automatic), liblzo2-2:arm64 (2.10-2, automatic), libfreetype-dev:arm64 (2.10.1-2ubuntu0.2, automatic)
+End-Date: 2022-11-12  20:06:11
+
+Start-Date: 2022-11-12  20:10:02
+Commandline: apt install libgirepository1.0-dev
+Install: libgirepository1.0-dev:arm64 (1.64.1-1~ubuntu20.04.1), python3-mako:arm64 (1.1.0+ds1-1ubuntu2.1, automatic), python3-markdown:arm64 (3.1.1-3, automatic), gir1.2-freedesktop:arm64 (1.64.1-1~ubuntu20.04.1, automatic), python3-pyparsing:arm64 (2.4.6-1, automatic), gobject-introspection:arm64 (1.64.1-1~ubuntu20.04.1, automatic), python3-markupsafe:arm64 (1.1.0-1build2, automatic), python3-yaml:arm64 (5.3.1-1ubuntu0.1, automatic), python3-pygments:arm64 (2.3.1+dfsg-1ubuntu2.2, automatic), python3-packaging:arm64 (20.3-1, automatic)
+End-Date: 2022-11-12  20:10:24
+
+Start-Date: 2022-11-12  20:51:00
+Commandline: apt remove meson
+Remove: meson:arm64 (0.53.2-2ubuntu2)
+End-Date: 2022-11-12  20:51:06
+
+Start-Date: 2022-11-12  20:55:05
+Commandline: apt install meson
+Install: meson:arm64 (0.53.2-2ubuntu2)
+End-Date: 2022-11-12  20:55:12
+
+Start-Date: 2022-11-12  21:35:34
+Commandline: apt-get install libssl-dev
+Install: libssl-dev:arm64 (1.1.1f-1ubuntu2.16)
+End-Date: 2022-11-12  21:35:39
+
+Start-Date: 2022-11-13  17:51:24
+Commandline: apt install gnome-session gdm3
+Install: gkbd-capplet:arm64 (3.26.1-1, automatic), libgoa-backend-1.0-1:arm64 (3.36.1-0ubuntu1, automatic), xserver-xorg-input-all:arm64 (1:7.7+19ubuntu14, automatic), hunspell-en-us:arm64 (1:2018.04.16-1, automatic), libqmi-proxy:arm64 (1.30.4-1~ubuntu20.04.1, automatic), network-manager-pptp:arm64 (1.2.8-2, automatic), bluez:arm64 (5.53-0ubuntu3.6, automatic), python3-defer:arm64 (1.0.6-2.1, automatic), gnome-control-center-data:arm64 (1:3.36.5-0ubuntu4, automatic), evolution-data-server-common:arm64 (3.36.5-0ubuntu1, automatic), libgdata-common:arm64 (0.17.12-1, automatic), gnome-keyring:arm64 (3.36.0-1ubuntu1, automatic), gnome-settings-daemon-common:arm64 (3.36.1-0ubuntu1.1, automatic), xserver-xorg:arm64 (1:7.7+19ubuntu14, automatic), libnl-route-3-200:arm64 (3.4.0-1, automatic), libteamdctl0:arm64 (1.30-1, automatic), libcogl20:arm64 (1.22.6-1, automatic), python3-cupshelpers:arm64 (1.5.12-0ubuntu1.1, automatic), python3-ibus-1.0:arm64 (1.5.22-2ubuntu2.1, automatic), xserver-xorg-video-vesa:arm64 (1:2.4.0-2, automatic), libgusb2:arm64 (0.3.4-0.1, automatic), bolt:arm64 (0.9.1-2~ubuntu20.04.1, automatic), libgphoto2-port12:arm64 (2.5.25-0ubuntu0.1, automatic), libcrack2:arm64 (2.9.6-3.2, automatic), gnome-accessibility-themes:arm64 (3.28-1ubuntu1, automatic), libieee1284-3:arm64 (0.2.11-13build1, automatic), libclutter-1.0-0:arm64 (1.26.4+dfsg-1, automatic), gir1.2-nm-1.0:arm64 (1.22.10-1ubuntu2.3, automatic), gnome-session:arm64 (3.36.0-2ubuntu1), libedataserverui-1.2-2:arm64 (3.36.5-0ubuntu1, automatic), libgtop2-common:arm64 (2.40.0-2, automatic), xserver-xorg-video-nouveau:arm64 (1:1.0.16-1, automatic), libclutter-gst-3.0-0:arm64 (3.0.27-1, automatic), mobile-broadband-provider-info:arm64 (20190618-3, automatic), iptables:arm64 (1.8.4-3ubuntu2, automatic), xserver-xorg-video-amdgpu:arm64 (19.1.0-1ubuntu0.1, automatic), gnome-session-common:arm64 (3.36.0-2ubuntu1, automatic), gir1.2-gtk-3.0:arm64 (3.24.20-0ubuntu1.1, automatic), system-config-printer:arm64 (1.5.12-0ubuntu1.1, automatic), gir1.2-mutter-6:arm64 (3.36.9-0ubuntu0.20.04.2, automatic), libpcsclite1:arm64 (1.8.26-3, automatic), gnome-control-center:arm64 (1:3.36.5-0ubuntu4, automatic), iw:arm64 (5.4-1, automatic), session-migration:arm64 (0.3.5, automatic), libgcr-base-3-1:arm64 (3.36.0-2build1, automatic), gir1.2-notify-0.7:arm64 (0.7.9-1ubuntu3.20.04.2, automatic), xserver-common:arm64 (2:1.20.13-1ubuntu1~20.04.3, automatic), gir1.2-secret-1:arm64 (0.20.4-0ubuntu1, automatic), gir1.2-soup-2.4:arm64 (2.70.0-1, automatic), sgml-base:arm64 (1.29.1, automatic), xserver-xorg-core:arm64 (2:1.20.13-1ubuntu1~20.04.3, automatic), adwaita-icon-theme-full:arm64 (3.36.1-2ubuntu0.20.04.2, automatic), libgphoto2-6:arm64 (2.5.25-0ubuntu0.1, automatic), gir1.2-gdkpixbuf-2.0:arm64 (2.40.0+dfsg-3ubuntu0.4, automatic), python3-wadllib:arm64 (1.3.3-3build1, automatic), libcogl-path20:arm64 (1.22.6-1, automatic), sane-utils:arm64 (1.0.29-0ubuntu5.2, automatic), gnome-user-docs:arm64 (3.36.2+git20200704-0ubuntu0.1, automatic), libgoa-1.0-0b:arm64 (3.36.1-0ubuntu1, automatic), cracklib-runtime:arm64 (2.9.6-3.2, automatic), python3-macaroonbakery:arm64 (1.3.1-1, automatic), libgoa-1.0-common:arm64 (3.36.1-0ubuntu1, automatic), libfprint-2-2:arm64 (1:1.90.2+tod1-0ubuntu1~20.04.9, automatic), libnl-genl-3-200:arm64 (3.4.0-1, automatic), python3-jwt:arm64 (1.7.1-2ubuntu2.1, automatic), libgweather-3-16:arm64 (3.36.1-1~ubuntu20.04.1, automatic), acl:arm64 (2.2.53-6, automatic), libpciaccess0:arm64 (0.16-0ubuntu1, automatic), libpam-fprintd:arm64 (1.90.9-1~ubuntu20.04.1, automatic), apg:arm64 (2.2.3.dfsg.1-5, automatic), libgd3:arm64 (2.2.5-5.2ubuntu2.1, automatic), cups-pk-helper:arm64 (0.2.6-1ubuntu3, automatic), libavahi-glib1:arm64 (0.7-4ubuntu7.1, automatic), libgjs0g:arm64 (1.64.5-0ubuntu0.20.04.01, automatic), python3-systemd:arm64 (234-3build2, automatic), libcogl-common:arm64 (1.22.6-1, automatic), libedata-cal-2.0-1:arm64 (3.36.5-0ubuntu1, automatic), gnome-desktop3-data:arm64 (3.36.8-0ubuntu1, automatic), yelp:arm64 (3.36.2-0ubuntu1, automatic), libyelp0:arm64 (3.36.2-0ubuntu1, automatic), libdbusmenu-glib4:arm64 (16.04.1+18.10.20180917-0ubuntu6, automatic), fprintd:arm64 (1.90.9-1~ubuntu20.04.1, automatic), libsecret-1-0:arm64 (0.20.4-0ubuntu1, automatic), libwoff1:arm64 (1.0.2-1build2, automatic), python3-protobuf:arm64 (3.6.1.3-2ubuntu5, automatic), gir1.2-atk-1.0:arm64 (2.35.1-1ubuntu2, automatic), fonts-cantarell:arm64 (0.111-2, automatic), libwhoopsie0:arm64 (0.2.69ubuntu0.3, automatic), libsnmp-base:arm64 (5.8+dfsg-2ubuntu2.5, automatic), python3-aptdaemon.gtk3widgets:arm64 (1.1.1+bzr982-0ubuntu32.3, automatic), bind9-host:arm64 (1:9.16.1-0ubuntu2.11, automatic), language-selector-common:arm64 (0.204.2, automatic), docbook-xml:arm64 (4.5-9, automatic), p11-kit:arm64 (0.23.20-1ubuntu0.1, automatic), xserver-xorg-video-fbdev:arm64 (1:0.5.0-1ubuntu1, automatic), libqmi-glib5:arm64 (1.30.4-1~ubuntu20.04.1, automatic), pptp-linux:arm64 (1.10.0-1build1, automatic), at-spi2-core:arm64 (2.36.0-2, automatic), xdg-dbus-proxy:arm64 (0.1.2-1, automatic), gir1.2-geoclue-2.0:arm64 (2.5.6-0ubuntu1, automatic), ubuntu-wallpapers-focal:arm64 (20.04.2-0ubuntu1, automatic), dnsmasq-base:arm64 (2.80-1.1ubuntu1.5, automatic), libgdata22:arm64 (0.17.12-1, automatic), python3-keyring:arm64 (18.0.1-2ubuntu1, automatic), xfonts-utils:arm64 (1:7.7+6, automatic), gir1.2-accountsservice-1.0:arm64 (0.6.55-0ubuntu12~20.04.5, automatic), python3-entrypoints:arm64 (0.3-2ubuntu1, automatic), xserver-xorg-input-libinput:arm64 (0.29.0-1, automatic), gcr:arm64 (3.36.0-2build1, automatic), libgnome-bluetooth13:arm64 (3.34.3-0ubuntu1, automatic), xserver-xorg-legacy:arm64 (2:1.20.13-1ubuntu1~20.04.3, automatic), libgphoto2-l10n:arm64 (2.5.25-0ubuntu0.1, automatic), gjs:arm64 (1.64.5-0ubuntu0.20.04.01, automatic), gnome-settings-daemon:arm64 (3.36.1-0ubuntu1.1, automatic), libgupnp-1.2-0:arm64 (1.2.4-0ubuntu1, automatic), libcogl-pango20:arm64 (1.22.6-1, automatic), gir1.2-pango-1.0:arm64 (1.44.7-2ubuntu4, automatic), mousetweaks:arm64 (3.32.0-2, automatic), libharfbuzz-icu0:arm64 (2.6.4-1ubuntu4.2, automatic), libdaemon0:arm64 (0.14-7, automatic), libip6tc2:arm64 (1.8.4-3ubuntu2, automatic), python3-lazr.restfulclient:arm64 (0.14.2-2build1, automatic), libnm0:arm64 (1.22.10-1ubuntu2.3, automatic), libpwquality-common:arm64 (1.4.2-1build1, automatic), evolution-data-server:arm64 (3.36.5-0ubuntu1, automatic), libappindicator3-1:arm64 (12.10.1+20.04.20200408.1-0ubuntu1, automatic), libsecret-common:arm64 (0.20.4-0ubuntu1, automatic), libwhoopsie-preferences0:arm64 (22, automatic), whoopsie-preferences:arm64 (22, automatic), libgraphene-1.0-0:arm64 (1.10.0-1build2, automatic), libnftnl11:arm64 (1.1.5-1, automatic), network-manager-gnome:arm64 (1.8.24-1ubuntu3, automatic), libgles2:arm64 (1.3.2-1~ubuntu0.20.04.2, automatic), libhyphen0:arm64 (2.8.8-7, automatic), gdm3:arm64 (3.36.3-0ubuntu0.20.04.4), iio-sensor-proxy:arm64 (2.8-1ubuntu2, automatic), python3-lazr.uri:arm64 (1.0.3-4build1, automatic), bubblewrap:arm64 (0.4.0-1ubuntu4, automatic), network-manager:arm64 (1.22.10-1ubuntu2.3, automatic), libmutter-6-0:arm64 (3.36.9-0ubuntu0.20.04.2, automatic), librygel-server-2.6-2:arm64 (0.38.3-1ubuntu1, automatic), xserver-xorg-input-wacom:arm64 (1:0.39.0-0ubuntu1, automatic), colord-data:arm64 (1.4.4-2, automatic), p11-kit-modules:arm64 (0.23.20-1ubuntu0.1, automatic), gir1.2-gdm-1.0:arm64 (3.36.3-0ubuntu0.20.04.4, automatic), python3-httplib2:arm64 (0.14.0-1ubuntu1, automatic), kmod:arm64 (27-1ubuntu2.1, automatic), libgcr-ui-3-1:arm64 (3.36.0-2build1, automatic), python3-cups:arm64 (1.9.73-3build1, automatic), ibus-gtk:arm64 (1.5.22-2ubuntu2.1, automatic), libpam-gnome-keyring:arm64 (3.36.0-1ubuntu1, automatic), ibus-gtk3:arm64 (1.5.22-2ubuntu2.1, automatic), mutter-common:arm64 (3.36.9-0ubuntu0.20.04.2, automatic), geoclue-2.0:arm64 (2.5.6-0ubuntu1, automatic), gir1.2-gnomedesktop-3.0:arm64 (3.36.8-0ubuntu1, automatic), libgeocode-glib0:arm64 (3.26.2-2, automatic), python3-pymacaroons:arm64 (0.13.0-3, automatic), libgeoclue-2-0:arm64 (2.5.6-0ubuntu1, automatic), librygel-db-2.6-2:arm64 (0.38.3-1ubuntu1, automatic), libndp0:arm64 (1.7-0ubuntu1, automatic), python3-simplejson:arm64 (3.16.0-2ubuntu2, automatic), libaspell15:arm64 (0.60.8-1ubuntu0.1, automatic), xserver-xephyr:arm64 (2:1.20.13-1ubuntu1~20.04.3, automatic), libpangoxft-1.0-0:arm64 (1.44.7-2ubuntu4, automatic), apport:arm64 (2.20.11-0ubuntu27.24, automatic), libgdm1:arm64 (3.36.3-0ubuntu0.20.04.4, automatic), gir1.2-gck-1:arm64 (3.36.0-2build1, automatic), libnfnetlink0:arm64 (1.0.1-3build1, automatic), xml-core:arm64 (0.18+nmu1, automatic), libebackend-1.2-10:arm64 (3.36.5-0ubuntu1, automatic), libmediaart-2.0-0:arm64 (1.9.4-2, automatic), ppp:arm64 (2.4.7-2+4.1ubuntu5.1, automatic), libsnmp35:arm64 (5.8+dfsg-2ubuntu2.5, automatic), libgnome-autoar-0-0:arm64 (0.2.3-2ubuntu0.4, automatic), ubuntu-docs:arm64 (20.04.3, automatic), libgnome-desktop-3-19:arm64 (3.36.8-0ubuntu1, automatic), libgee-0.8-2:arm64 (0.20.3-1, automatic), python3-cryptography:arm64 (2.8-3ubuntu0.1, automatic), libnss-mdns:arm64 (0.14.1-1ubuntu1, automatic), libboost-thread1.71.0:arm64 (1.71.0-6ubuntu6, automatic), libebook-1.2-20:arm64 (3.36.5-0ubuntu1, automatic), pci.ids:arm64 (0.0~2020.03.20-1, automatic), yelp-xsl:arm64 (3.36.0-1, automatic), gir1.2-graphene-1.0:arm64 (1.10.0-1build2, automatic), gir1.2-vte-2.91:arm64 (0.60.3-0ubuntu1~20.04, automatic), sgml-data:arm64 (2.0.11, automatic), gir1.2-gweather-3.0:arm64 (3.36.1-1~ubuntu20.04.1, automatic), python3-apport:arm64 (2.20.11-0ubuntu27.24, automatic), im-config:arm64 (0.44-1ubuntu1.3, automatic), avahi-daemon:arm64 (0.7-4ubuntu7.1, automatic), gir1.2-gnomebluetooth-1.0:arm64 (3.34.3-0ubuntu1, automatic), libnewt0.52:arm64 (0.52.21-4ubuntu2, automatic), libxcb-res0:arm64 (1.14-2, automatic), python3-cffi-backend:arm64 (1.14.0-1build1, automatic), libgstreamer-gl1.0-0:arm64 (1.16.3-0ubuntu1.1, automatic), libnl-3-200:arm64 (3.4.0-1, automatic), libavahi-core7:arm64 (0.7-4ubuntu7.1, automatic), libxcb-xv0:arm64 (1.14-2, automatic), gnome-shell-common:arm64 (3.36.9-0ubuntu0.20.04.2, automatic), zenity:arm64 (3.32.0-5, automatic), libnetfilter-conntrack3:arm64 (1.0.7-2, automatic), python3-blinker:arm64 (1.4+dfsg1-0.3ubuntu1, automatic), libmm-glib0:arm64 (1.18.6-1~ubuntu20.04.1, automatic), gir1.2-gcr-3:arm64 (3.36.0-2build1, automatic), libgck-1-0:arm64 (3.36.0-2build1, automatic), system-config-printer-udev:arm64 (1.5.12-0ubuntu1.1, automatic), xwayland:arm64 (2:1.20.13-1ubuntu1~20.04.3, automatic), libnma0:arm64 (1.8.24-1ubuntu3, automatic), gnome-startup-applications:arm64 (3.36.0-2ubuntu1, automatic), libcanberra-pulse:arm64 (0.30-7ubuntu1, automatic), libmozjs-68-0:arm64 (68.6.0-1ubuntu1, automatic), usb.ids:arm64 (2020.03.19-1, automatic), libwebkit2gtk-4.0-37:arm64 (2.36.8-0ubuntu0.20.04.1, automatic), gnome-online-accounts:arm64 (3.36.1-0ubuntu1, automatic), gir1.2-upowerglib-1.0:arm64 (0.99.11-1build2, automatic), libmbim-proxy:arm64 (1.26.2-1~ubuntu20.04.1, automatic), wpasupplicant:arm64 (2:2.9-1ubuntu4.3, automatic), gir1.2-atspi-2.0:arm64 (2.36.0-2, automatic), python3-rfc3339:arm64 (1.1-2, automatic), usb-modeswitch-data:arm64 (20191128-3, automatic), rygel:arm64 (0.38.3-1ubuntu1, automatic), libenchant-2-2:arm64 (2.2.8-1ubuntu0.20.04.1, automatic), xserver-xorg-video-all:arm64 (1:7.7+19ubuntu14, automatic), xserver-xorg-video-ati:arm64 (1:19.1.0-1, automatic), mysql-common:arm64 (5.8+1.0.5ubuntu2, automatic), emacsen-common:arm64 (3.0.4, automatic), aspell:arm64 (0.60.8-1ubuntu0.1, automatic), yaru-theme-gnome-shell:arm64 (20.04.11.1, automatic), enchant-2:arm64 (2.2.8-1ubuntu0.20.04.1, automatic), libsodium23:arm64 (1.0.18-1, automatic), aptdaemon-data:arm64 (1.1.1+bzr982-0ubuntu32.3, automatic), libmysqlclient21:arm64 (8.0.31-0ubuntu0.20.04.1, automatic), libgssdp-1.2-0:arm64 (1.2.3-0ubuntu0.20.04.1, automatic), gnome-session-bin:arm64 (3.36.0-2ubuntu1, automatic), libcheese-gtk25:arm64 (3.34.0-1ubuntu1, automatic), libgsound0:arm64 (1.0.2-4, automatic), cheese-common:arm64 (3.34.0-1ubuntu1, automatic), switcheroo-control:arm64 (2.1-1, automatic), libdbusmenu-gtk3-4:arm64 (16.04.1+18.10.20180917-0ubuntu6, automatic), libcolord-gtk1:arm64 (0.2.0-0ubuntu1, automatic), libxtables12:arm64 (1.8.4-3ubuntu2, automatic), gir1.2-gdesktopenums-3.0:arm64 (3.36.0-1ubuntu1, automatic), dictionaries-common:arm64 (1.28.1, automatic), gnome-control-center-faces:arm64 (1:3.36.5-0ubuntu4, automatic), ibus:arm64 (1.5.22-2ubuntu2.1, automatic), libpwquality1:arm64 (1.4.2-1build1, automatic), python3-cairo:arm64 (1.16.2-2ubuntu2, automatic), python3-aptdaemon:arm64 (1.1.1+bzr982-0ubuntu32.3, automatic), xserver-xorg-video-radeon:arm64 (1:19.1.0-1, automatic), libphonenumber7:arm64 (7.1.0-5ubuntu11, automatic), ubuntu-wallpapers:arm64 (20.04.2-0ubuntu1, automatic), libsane-common:arm64 (1.0.29-0ubuntu5.2, automatic), libmaxminddb0:arm64 (1.4.2-0ubuntu1.20.04.1, automatic), xfonts-base:arm64 (1:1.0.5, automatic), python3-tz:arm64 (2019.3-1, automatic), libebook-contacts-1.2-3:arm64 (3.36.5-0ubuntu1, automatic), libibus-1.0-5:arm64 (1.5.22-2ubuntu2.1, automatic), pulseaudio-module-bluetooth:arm64 (1:13.99.1-1ubuntu3.13, automatic), libgupnp-dlna-2.0-3:arm64 (0.10.5-4, automatic), libedata-book-1.2-26:arm64 (3.36.5-0ubuntu1, automatic), libpcap0.8:arm64 (1.9.1-3, automatic), gir1.2-ibus-1.0:arm64 (1.5.22-2ubuntu2.1, automatic), python3-oauthlib:arm64 (3.1.0-1ubuntu2, automatic), python3-launchpadlib:arm64 (1.10.13-1, automatic), libcheese8:arm64 (3.34.0-1ubuntu1, automatic), modemmanager:arm64 (1.18.6-1~ubuntu20.04.1, automatic), libecal-2.0-1:arm64 (3.36.5-0ubuntu1, automatic), dns-root-data:arm64 (2019052802, automatic), python3-nacl:arm64 (1.3.0-5, automatic), gnome-keyring-pkcs11:arm64 (3.36.0-1ubuntu1, automatic), gnome-shell:arm64 (3.36.9-0ubuntu0.20.04.2, automatic), crda:arm64 (3.18-1build1, automatic), avahi-utils:arm64 (0.7-4ubuntu7.1, automatic), libical3:arm64 (3.0.8-1, automatic), libhunspell-1.7-0:arm64 (1.7.0-2build2, automatic), librygel-core-2.6-2:arm64 (0.38.3-1ubuntu1, automatic), usb-modeswitch:arm64 (2.5.2+repack0-2ubuntu3, automatic), aptdaemon:arm64 (1.1.1+bzr982-0ubuntu32.3, automatic), mesa-vulkan-drivers:arm64 (21.2.6-0ubuntu0.1~20.04.2, automatic), gir1.2-json-1.0:arm64 (1.4.4-2ubuntu2, automatic), librygel-renderer-2.6-2:arm64 (0.38.3-1ubuntu1, automatic), accountsservice:arm64 (0.6.55-0ubuntu12~20.04.5, automatic), gnome-themes-extra-data:arm64 (3.28-1ubuntu1, automatic), language-selector-gnome:arm64 (0.204.2, automatic), libgnomekbd8:arm64 (3.26.1-1, automatic), gir1.2-polkit-1.0:arm64 (0.105-26ubuntu1.3, automatic), system-config-printer-common:arm64 (1.5.12-0ubuntu1.1, automatic), libpci3:arm64 (1:3.6.4-1ubuntu0.20.04.1, automatic), gstreamer1.0-clutter-3.0:arm64 (3.0.27-1, automatic), libcamel-1.2-62:arm64 (3.36.5-0ubuntu1, automatic), libbluetooth3:arm64 (5.53-0ubuntu3.6, automatic), apport-symptoms:arm64 (0.23, automatic), xfonts-encodings:arm64 (1:1.0.5-0ubuntu1, automatic), libcolorhug2:arm64 (1.4.4-2, automatic), pinentry-gnome3:arm64 (1.1.0-3build1, automatic), libgnomekbd-common:arm64 (3.26.1-1, automatic), libclutter-1.0-common:arm64 (1.26.4+dfsg-1, automatic), ibus-data:arm64 (1.5.22-2ubuntu2.1, automatic), gnome-themes-extra:arm64 (3.28-1ubuntu1, automatic), libgupnp-av-1.0-2:arm64 (0.12.11-2, automatic), libjavascriptcoregtk-4.0-18:arm64 (2.36.8-0ubuntu0.20.04.1, automatic), dconf-cli:arm64 (0.36.0-1, automatic), libmbim-glib4:arm64 (1.26.2-1~ubuntu20.04.1, automatic), gir1.2-rsvg-2.0:arm64 (2.48.9-1ubuntu0.20.04.1, automatic), python3-secretstorage:arm64 (2.3.1-2ubuntu1, automatic), python3-problem-report:arm64 (2.20.11-0ubuntu27.24, automatic), libedataserver-1.2-24:arm64 (3.36.5-0ubuntu1, automatic), wireless-regdb:arm64 (2022.06.06-0ubuntu1~20.04.1, automatic), bind9-libs:arm64 (1:9.16.1-0ubuntu2.11, automatic), libgweather-common:arm64 (3.36.1-1~ubuntu20.04.1, automatic), zenity-common:arm64 (3.32.0-5, automatic), gir1.2-nma-1.0:arm64 (1.8.24-1ubuntu3, automatic), libsane:arm64 (1.0.29-0ubuntu5.2, automatic), gstreamer1.0-gl:arm64 (1.16.3-0ubuntu1.1, automatic), wamerican:arm64 (2018.04.16-1, automatic), libmnl0:arm64 (1.0.4-2, automatic), update-inetd:arm64 (4.50, automatic), libgtop-2.0-11:arm64 (2.40.0-2, automatic), libaccountsservice0:arm64 (0.6.55-0ubuntu12~20.04.5, automatic), libsbc1:arm64 (1.4-1, automatic), ippusbxd:arm64 (1.34-2ubuntu1, automatic), colord:arm64 (1.4.4-2, automatic), mutter:arm64 (3.36.9-0ubuntu0.20.04.2, automatic), libclutter-gtk-1.0-0:arm64 (1.8.4-4, automatic), aspell-en:arm64 (2018.04.16-0-1, automatic), gnome-menus:arm64 (3.36.0-1ubuntu1, automatic)
+End-Date: 2022-11-13  18:10:46
+
+Start-Date: 2022-11-13  18:15:08
+Commandline: apt install tasksel
+Install: tasksel-data:arm64 (3.34ubuntu16, automatic), laptop-detect:arm64 (0.16, automatic), dmidecode:arm64 (3.2-3, automatic), tasksel:arm64 (3.34ubuntu16)
+End-Date: 2022-11-13  18:15:15
+
+Start-Date: 2022-11-13  18:29:31
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y -o APT::Install-Recommends=true -o APT::Get::AutomaticRemove=true -o APT::Acquire::Retries=3 install ubuntu-desktop^
+Install: speech-dispatcher-espeak-ng:arm64 (0.9.1-4), speech-dispatcher-audio-plugins:arm64 (0.9.1-4), ubuntu-settings:arm64 (20.04.6), python3-pexpect:arm64 (4.6.0-1build1), libreoffice-style-breeze:arm64 (1:6.4.7-0ubuntu0.20.04.6), evince:arm64 (3.36.10-0ubuntu1), dmz-cursor-theme:arm64 (0.4.5ubuntu1), alsa-base:arm64 (1.0.25+dfsg-0ubuntu5), libreoffice-math:arm64 (1:6.4.7-0ubuntu0.20.04.6), fonts-tlwg-laksaman:arm64 (1:0.7.1-3), libdjvulibre-text:arm64 (3.5.27.1-14ubuntu0.1), fonts-lao:arm64 (0.0.20060226-9ubuntu1), python3-distro-info:arm64 (0.23ubuntu1, automatic), gnome-power-manager:arm64 (3.32.0-2), hplip-data:arm64 (3.20.3+dfsg0-2), fonts-tlwg-purisa:arm64 (1:0.7.1-3), libqpdf26:arm64 (9.1.1-1ubuntu0.1), libefivar1:arm64 (37-2ubuntu2.2), gnome-calendar:arm64 (3.36.2-0ubuntu1), libgpgmepp6:arm64 (1.13.1-7ubuntu2), liblangtag-common:arm64 (0.6.3-1), liblouisutdml-data:arm64 (2.8.0-3), tracker-extract:arm64 (2.3.3-2ubuntu0.20.04.1), poppler-utils:arm64 (0.86.1-0ubuntu1.1), gnome-shell-extension-desktop-icons:arm64 (20.04.0-3~ubuntu20.04.6), ubuntu-desktop-minimal:arm64 (1.450.2), fonts-thai-tlwg:arm64 (1:0.7.1-3), uno-libs-private:arm64 (1:6.4.7-0ubuntu0.20.04.6), gnome-video-effects:arm64 (0.5.0-1ubuntu1), fonts-gubbi:arm64 (1.3-3), gir1.2-gtksource-4:arm64 (4.6.0-1), update-manager-core:arm64 (1:20.04.10.10, automatic), gedit:arm64 (3.36.2-0ubuntu1), printer-driver-splix:arm64 (2.0.0+svn315-7fakesync1build1), libpkcs11-helper1:arm64 (1.26-1), transmission-common:arm64 (2.94-2ubuntu3), python3-fasteners:arm64 (0.14.1-2), gvfs-backends:arm64 (1.44.1-1ubuntu1.1), libexttextcat-data:arm64 (3.4.5-1), gir1.2-gmenu-3.0:arm64 (3.36.0-1ubuntu1), libgtksourceview-4-common:arm64 (4.6.0-1), python3-dateutil:arm64 (2.7.3-3ubuntu1), bc:arm64 (1.07.1-2build1), dc:arm64 (1.07.1-2build1), gnome-logs:arm64 (3.34.0-1ubuntu1), fonts-indic:arm64 (2:1.3), libridl-java:arm64 (1:6.4.7-0ubuntu0.20.04.6), whoopsie:arm64 (0.2.69ubuntu0.3), python3-olefile:arm64 (0.46-2), printer-driver-c2esp:arm64 (27-6), libevdocument3-4:arm64 (3.36.10-0ubuntu1), mscompress:arm64 (0.4-7), printer-driver-m2300w:arm64 (0.51-14), libgtk2.0-bin:arm64 (2.24.32-4ubuntu4), fonts-beng-extra:arm64 (1.0-7), gstreamer1.0-plugins-base-apps:arm64 (1.16.3-0ubuntu1.1), librevenge-0.0-0:arm64 (0.0.4-6ubuntu5), libuno-salhelpergcc3-3:arm64 (1:6.4.7-0ubuntu0.20.04.6), libspeechd2:arm64 (0.9.1-4), speech-dispatcher:arm64 (0.9.1-4), app-install-data-partner:arm64 (19.04), gvfs-bin:arm64 (1.44.1-1ubuntu1.1), libboost-iostreams1.71.0:arm64 (1.71.0-6ubuntu6), libnotify-bin:arm64 (0.7.9-1ubuntu3.20.04.2), bluez-cups:arm64 (5.53-0ubuntu3.6), libllvm9:arm64 (1:9.0.1-12), fonts-tlwg-purisa-ttf:arm64 (1:0.7.1-3), printer-driver-hpcups:arm64 (3.20.3+dfsg0-2), gnome-system-monitor:arm64 (3.36.1-0ubuntu0.20.04.1), gir1.2-clutter-1.0:arm64 (1.26.4+dfsg-1, automatic), libvncclient1:arm64 (0.9.12+dfsg-9ubuntu0.3), libgxps2:arm64 (0.3.1-1), libdw1:arm64 (0.176-1.1build1), libgrilo-0.3-0:arm64 (0.3.12-1ubuntu0.1), fonts-tlwg-norasi:arm64 (1:0.7.1-3), libc6-dbg:arm64 (2.31-0ubuntu9.9), appstream:arm64 (0.12.10-2), fonts-deva:arm64 (2:1.2), libreoffice-gtk3:arm64 (1:6.4.7-0ubuntu0.20.04.6), fonts-smc-gayathri:arm64 (1.100-1), foomatic-db-compressed-ppds:arm64 (20200401-1), python3-xkit:arm64 (0.5.0ubuntu4), update-notifier-common:arm64 (3.192.30.11), baobab:arm64 (3.34.0-1), vino:arm64 (3.22.0-5ubuntu2.2), fonts-guru-extra:arm64 (2.0-5), apturl-common:arm64 (0.5.2ubuntu19), gnome-sudoku:arm64 (1:3.36.0-1), yaru-theme-icon:arm64 (20.04.11.1), fonts-tlwg-typewriter-ttf:arm64 (1:0.7.1-3), fonts-samyak-deva:arm64 (1.2.2-4), shotwell-common:arm64 (0.30.10-0ubuntu0.1), libcmis-0.5-5v5:arm64 (0.5.2-1ubuntu1), fonts-telu-extra:arm64 (2.0-4), libclucene-contribs1v5:arm64 (2.3.3.4+dfsg-1build1), gstreamer1.0-tools:arm64 (1.16.3-0ubuntu1.1), fonts-smc:arm64 (1:7.1), libjuh-java:arm64 (1:6.4.7-0ubuntu0.20.04.6), fonts-tlwg-typist:arm64 (1:0.7.1-3), fonts-gargi:arm64 (2.0-4), fonts-deva-extra:arm64 (3.0-5), openvpn:arm64 (2.4.7-1ubuntu2.20.04.4), wireless-tools:arm64 (30~pre9-13ubuntu1), fonts-smc-karumbi:arm64 (1.1.2-1), libreoffice-core:arm64 (1:6.4.7-0ubuntu0.20.04.6), seahorse:arm64 (3.36-1), fonts-tlwg-norasi-ttf:arm64 (1:0.7.1-3), gsettings-ubuntu-schemas:arm64 (0.0.7+17.10.20170922-0ubuntu1), lp-solve:arm64 (5.5.0.15-4build1), xul-ext-ubufox:arm64 (3.4-0ubuntu1.17.10.1), policykit-desktop-privileges:arm64 (0.21), fonts-kalapi:arm64 (1.0-3), libproxy1-plugin-gsettings:arm64 (0.4.15-10ubuntu1.2), snapd:arm64 (2.57.5+20.04), printer-driver-foo2zjs:arm64 (20171202dfsg0-4), update-manager:arm64 (1:20.04.10.10), printer-driver-postscript-hp:arm64 (3.20.3+dfsg0-2), ubuntu-advantage-tools:arm64 (27.11.3~20.04.1, automatic), fonts-noto-cjk:arm64 (1:20190410+repack1-2), squashfs-tools:arm64 (1:4.4-1ubuntu0.3), rhythmbox-plugin-alternative-toolbar:arm64 (0.19.3-1.1), libexttextcat-2.0-0:arm64 (3.4.5-1), fonts-navilu:arm64 (1.2-2), liblangtag1:arm64 (0.6.3-1), liblouis20:arm64 (3.12.0-3ubuntu0.1), libtracker-sparql-2.0-0:arm64 (2.3.6-0ubuntu1), libwpd-0.10-10:arm64 (0.10.3-1build1), python3-reportlab-accel:arm64 (3.5.34-1ubuntu1), libamtk-5-common:arm64 (5.0.2-1build1), fonts-smc-chilanka:arm64 (1.400-1), fonts-orya:arm64 (2:1.2), lsof:arm64 (4.93.2+dfsg-1ubuntu0.20.04.1, automatic), python3-gi-cairo:arm64 (3.36.0-1), simple-scan:arm64 (3.36.3-0ubuntu0.20.04.0), libgspell-1-common:arm64 (1.8.3-1), linux-sound-base:arm64 (1.0.25+dfsg-0ubuntu5), libefiboot1:arm64 (37-2ubuntu2.2), libgail-common:arm64 (2.24.32-4ubuntu4), remmina-common:arm64 (1.4.2+dfsg-1ubuntu1), eog:arm64 (3.36.3-0ubuntu1), libiw30:arm64 (30~pre9-13ubuntu1), libunity-protocol-private0:arm64 (7.1.4+19.04.20190319-0ubuntu3), libnatpmp1:arm64 (20150609-7build1), python3-brlapi:arm64 (6.0+dfsg-4ubuntu6), python3-pil:arm64 (7.0.0-4ubuntu0.6), libbabeltrace1:arm64 (1.5.8-1build1), anacron:arm64 (2.3-29), ubuntu-session:arm64 (3.36.0-2ubuntu1), linux-base:arm64 (4.5ubuntu3.7), libpeas-1.0-0:arm64 (1.26.0-2), fonts-tlwg-kinnari:arm64 (1:0.7.1-3), fonts-pagul:arm64 (1.0-7), fonts-tlwg-mono:arm64 (1:0.7.1-3), libeot0:arm64 (0.01-5), librdf0:arm64 (1.0.17-1.1ubuntu1), libimagequant0:arm64 (2.12.2-1.1), ubuntu-desktop:arm64 (1.450.2), libextutils-pkgconfig-perl:arm64 (1.16-1), fonts-kacst-one:arm64 (5.0+svn11846-10), gdb:arm64 (9.2-0ubuntu1~20.04.1), fonts-knda:arm64 (2:1.2), grilo-plugins-0.3-base:arm64 (0.3.11-1ubuntu1), gnome-session-canberra:arm64 (0.30-7ubuntu1), libwinpr2-2:arm64 (2.2.0+dfsg1-0ubuntu0.20.04.3), plymouth-label:arm64 (0.9.4git20200323-0ubuntu6.2), libjcat1:arm64 (0.1.4-0ubuntu0.20.04.1, automatic), python3-pyatspi:arm64 (2.36.0-1), libbrlapi0.7:arm64 (6.0+dfsg-4ubuntu6), python3-louis:arm64 (3.12.0-3ubuntu0.1), fonts-smc-meera:arm64 (7.0.3-1), printer-driver-min12xxw:arm64 (0.0.9-11), printer-driver-pxljr:arm64 (1.4+repack0-5), x11-apps:arm64 (7.7+8), gnome-mahjongg:arm64 (1:3.36.1-1), xbrlapi:arm64 (6.0+dfsg-4ubuntu6), fonts-smc-raghumalayalamsans:arm64 (2.2.1-1), libboost-locale1.71.0:arm64 (1.71.0-6ubuntu6), rhythmbox-plugins:arm64 (3.4.4-1ubuntu2), cups-server-common:arm64 (2.3.1-9ubuntu1.2), xinit:arm64 (1.4.1-0ubuntu2), libwps-0.4-4:arm64 (0.4.10-1build1), inputattach:arm64 (1:1.7.0-1), alsa-utils:arm64 (1.2.2-1ubuntu2.1), gnome-screenshot:arm64 (3.36.0-1ubuntu1), fonts-tibetan-machine:arm64 (1.901b-5), python3-monotonic:arm64 (1.5-0ubuntu2), libgail18:arm64 (2.24.32-4ubuntu4), libklibc:arm64 (2.0.7-1ubuntu5.1), orca:arm64 (3.36.2-1ubuntu1~20.04.2), isc-dhcp-common:arm64 (4.4.1-2.1ubuntu5.20.04.4, automatic), libtotem-plparser-common:arm64 (3.26.5-1ubuntu1), yaru-theme-gtk:arm64 (20.04.11.1), libgsf-1-114:arm64 (1.14.46-1), libdazzle-1.0-0:arm64 (3.36.0-1), libhandy-0.0-0:arm64 (0.0.13-1), cups-common:arm64 (2.3.1-9ubuntu1.2), nautilus-extension-gnome-terminal:arm64 (3.36.2-1ubuntu1~20.04), sound-icons:arm64 (0.1-7), fonts-sahadeva:arm64 (1.0-4), libisc-export1105:arm64 (1:9.11.16+dfsg-3~ubuntu1, automatic), packagekit-tools:arm64 (1.1.13-2ubuntu1.1), gnome-bluetooth:arm64 (3.34.3-0ubuntu1), software-properties-gtk:arm64 (0.99.9.8), initramfs-tools-bin:arm64 (0.136ubuntu6.7), libqqwing2v5:arm64 (1.3.4-1.1build1), ssl-cert:arm64 (1.0.39), python3-uno:arm64 (1:6.4.7-0ubuntu0.20.04.6), libtepl-4-0:arm64 (4.4.0-1), libatk-adaptor:arm64 (2.34.2-0ubuntu2~20.04.1), cheese:arm64 (3.34.0-1ubuntu1), libminiupnpc17:arm64 (2.1.20190824-0ubuntu2), fonts-tlwg-typewriter:arm64 (1:0.7.1-3), libxmlb1:arm64 (0.1.15-2ubuntu1~20.04.1), libxmlb2:arm64 (0.3.6-2build1~20.04.1, automatic), fonts-smc-keraleeyam:arm64 (3.0.2-1), libuno-cppuhelpergcc3-3:arm64 (1:6.4.7-0ubuntu0.20.04.6), fonts-lohit-deva:arm64 (2.95.4-4), fonts-smc-suruma:arm64 (3.2.3-1), libboost-filesystem1.71.0:arm64 (1.71.0-6ubuntu6), fonts-tlwg-garuda:arm64 (1:0.7.1-3), lz4:arm64 (1.9.2-2ubuntu0.20.04.1), fonts-sil-abyssinica:arm64 (2.000-1), tracker-miner-fs:arm64 (2.3.3-2ubuntu0.20.04.1), gtk2-engines-murrine:arm64 (0.98.2-3), xcursor-themes:arm64 (1.0.6-0ubuntu1), libtracker-miner-2.0-0:arm64 (2.3.6-0ubuntu1), libexempi8:arm64 (2.5.1-1ubuntu0.1), gnome-disk-utility:arm64 (3.36.3-0ubuntu1), gstreamer1.0-pulseaudio:arm64 (1.16.3-0ubuntu1.1), libfprint-2-tod1:arm64 (1:1.90.2+tod1-0ubuntu1~20.04.9), fonts-taml:arm64 (2:1.3), x11-session-utils:arm64 (7.7+4), libfile-fcntllock-perl:arm64 (0.22-3build4), fonts-tlwg-kinnari-ttf:arm64 (1:0.7.1-3), libplymouth5:arm64 (0.9.4git20200323-0ubuntu6.2, automatic), libvisio-0.1-1:arm64 (0.1.7-1build2), libxmlsec1-nss:arm64 (1.2.28-2), python3-renderpm:arm64 (3.5.34-1ubuntu1), thunderbird-gnome-support:arm64 (1:102.4.2+build2-0ubuntu0.20.04.1), apturl:arm64 (0.5.2ubuntu19), python3-xdg:arm64 (0.26-1ubuntu1), gir1.2-rb-3.0:arm64 (3.4.4-1ubuntu2), gir1.2-clutter-gst-3.0:arm64 (3.0.27-1, automatic), deja-dup:arm64 (40.7-0ubuntu2), libreoffice-base-core:arm64 (1:6.4.7-0ubuntu0.20.04.6), libavahi-ui-gtk3-0:arm64 (0.7-4ubuntu7.1), fonts-samyak-taml:arm64 (1.2.2-4), libspectre1:arm64 (0.2.8-2), libcairo-perl:arm64 (1.107-1), aisleriot:arm64 (1:3.22.9-1), libespeak-ng1:arm64 (1.50+dfsg-6), libgnome-todo:arm64 (3.28.1-5), xorg-docs-core:arm64 (1:1.7.1-1.1), rhythmbox-data:arm64 (3.4.4-1ubuntu2), fonts-tlwg-waree:arm64 (1:0.7.1-3), gnome-font-viewer:arm64 (3.34.0-2), nautilus-share:arm64 (0.7.3-2ubuntu3), libwpg-0.3-3:arm64 (0.3.3-1build1), libreoffice-ogltrans:arm64 (1:6.4.7-0ubuntu0.20.04.6), gnome-calculator:arm64 (1:3.36.0-1ubuntu1), fonts-tlwg-typo:arm64 (1:0.7.1-3), gstreamer1.0-gtk3:arm64 (1.16.3-0ubuntu1.1), libwmf0.2-7-gtk:arm64 (0.2.8.4-17ubuntu1), gir1.2-totemplparser-1.0:arm64 (3.26.5-1ubuntu1), cups-filters:arm64 (1.27.4-1), fonts-ubuntu:arm64 (0.83-4ubuntu1), fonts-noto-color-emoji:arm64 (0~20200916-1~ubuntu20.04.1), fonts-lklug-sinhala:arm64 (0.6-3), libuno-purpenvhelpergcc3-3:arm64 (1:6.4.7-0ubuntu0.20.04.6), gir1.2-cogl-1.0:arm64 (1.22.6-1, automatic), python3-future:arm64 (0.18.2-2), libreoffice-impress:arm64 (1:6.4.7-0ubuntu0.20.04.6), evince-common:arm64 (3.36.10-0ubuntu1), xdg-desktop-portal-gtk:arm64 (1.6.0-1ubuntu1), libboost-date-time1.71.0:arm64 (1.71.0-6ubuntu6), ubuntu-drivers-common:arm64 (1:0.9.0~0.20.04.7), libreoffice-style-elementary:arm64 (1:6.4.7-0ubuntu0.20.04.6), gvfs-libs:arm64 (1.44.1-1ubuntu1.1), gvfs-fuse:arm64 (1.44.1-1ubuntu1.1), nautilus:arm64 (1:3.36.3-0ubuntu1.20.04.1), python3-speechd:arm64 (0.9.1-4), libpeas-common:arm64 (1.26.0-2), libnautilus-extension1a:arm64 (1:3.36.3-0ubuntu1.20.04.1), media-player-info:arm64 (24-2), fonts-telu:arm64 (2:1.2), fonts-lohit-orya:arm64 (2.91.2-1), gir1.2-wnck-3.0:arm64 (3.36.0-1), libfreerdp2-2:arm64 (2.2.0+dfsg1-0ubuntu0.20.04.3), remmina:arm64 (1.4.2+dfsg-1ubuntu1), gir1.2-peas-1.0:arm64 (1.26.0-2), libgtk-3-bin:arm64 (3.24.20-0ubuntu1.1), python3-distupgrade:arm64 (1:20.04.39, automatic), librsync2:arm64 (2.0.2-1ubuntu1), python3-debconf:arm64 (1.5.73), distro-info:arm64 (0.23ubuntu1, automatic), branding-ubuntu:arm64 (0.10), cups-ppdc:arm64 (2.3.1-9ubuntu1.2), psmisc:arm64 (23.3-1, automatic), libtotem-plparser18:arm64 (3.26.5-1ubuntu1), libsysmetrics1:arm64 (1.6.1), libodfgen-0.1-1:arm64 (0.1.7-1ubuntu2), python3-update-manager:arm64 (1:20.04.10.10, automatic), libevview3-3:arm64 (3.36.10-0ubuntu1), kerneloops:arm64 (0.12+git20140509-6ubuntu2), gir1.2-snapd-1:arm64 (1.58-0ubuntu0.20.04.0), printer-driver-sag-gdi:arm64 (0.1-7), ubuntu-release-upgrader-core:arm64 (1:20.04.39, automatic), libatm1:arm64 (1:2.5.1-4, automatic), libjurt-java:arm64 (1:6.4.7-0ubuntu0.20.04.6), fonts-tlwg-sawasdee:arm64 (1:0.7.1-3), network-manager-openvpn:arm64 (1.8.12-1), hplip:arm64 (3.20.3+dfsg0-2), liblouisutdml9:arm64 (2.8.0-3), fonts-tlwg-umpush:arm64 (1:0.7.1-3), libfwupdplugin1:arm64 (1.5.11-0ubuntu1~20.04.2), libfwupdplugin5:arm64 (1.7.9-1~20.04.1, automatic), libdee-1.0-4:arm64 (1.2.7+17.10.20170616-4ubuntu6), libclucene-core1v5:arm64 (2.3.3.4+dfsg-1build1), fonts-lohit-knda:arm64 (2.5.4-2), libcupsfilters1:arm64 (1.27.4-1), libhpmud0:arm64 (3.20.3+dfsg0-2), fonts-smc-rachana:arm64 (7.0.2-1), python3-click:arm64 (7.0-3, automatic), libgif7:arm64 (5.1.9-1), fonts-tlwg-loma:arm64 (1:0.7.1-3), libsonic0:arm64 (0.2.0-8), libgsf-1-common:arm64 (1.14.46-1), guile-2.2-libs:arm64 (2.2.7+1-4), fonts-smc-manjari:arm64 (1.710-1), libreoffice-style-colibre:arm64 (1:6.4.7-0ubuntu0.20.04.6), espeak-ng-data:arm64 (1.50+dfsg-6), fonts-gujr:arm64 (2:1.3), ure:arm64 (1:6.4.7-0ubuntu0.20.04.6), brltty:arm64 (6.0+dfsg-4ubuntu6), libunity9:arm64 (7.1.4+19.04.20190319-0ubuntu3), fonts-guru:arm64 (2:1.2), ibus-table:arm64 (1.9.25-1), libreoffice-writer:arm64 (1:6.4.7-0ubuntu0.20.04.6), libgtksourceview-4-0:arm64 (4.6.0-1), liborcus-0.15-0:arm64 (0.15.3-3build2), libreoffice-common:arm64 (1:6.4.7-0ubuntu0.20.04.6), fonts-smc-uroob:arm64 (2.0.2-1), fonts-samyak-gujr:arm64 (1.2.2-4), gedit-common:arm64 (3.36.2-0ubuntu1), fonts-tlwg-waree-ttf:arm64 (1:0.7.1-3), libpcaudio0:arm64 (1.1-4), libgom-1.0-0:arm64 (0.4-1), fonts-nakula:arm64 (1.0-3), gir1.2-goa-1.0:arm64 (3.36.1-0ubuntu1), plymouth-theme-spinner:arm64 (0.9.4git20200323-0ubuntu6.2), fonts-lohit-beng-bengali:arm64 (2.91.5-1), libproxy1-plugin-networkmanager:arm64 (0.4.15-10ubuntu1.2), libdbus-glib-1-2:arm64 (0.110-5fakssync1), rfkill:arm64 (2.34-0.1ubuntu9.3), libgdk-pixbuf2.0-bin:arm64 (2.40.0+dfsg-3ubuntu0.4), shotwell:arm64 (0.30.10-0ubuntu0.1), openprinting-ppds:arm64 (20200401-1), libfontembed1:arm64 (1.27.4-1), libgspell-1-2:arm64 (1.8.3-1), libglu1-mesa:arm64 (9.0.1-1build1), libglib-perl:arm64 (3:1.329.2-1), gir1.2-gst-plugins-base-1.0:arm64 (1.16.3-0ubuntu1.1), liblua5.3-0:arm64 (5.3.3-1.1ubuntu2), fonts-tlwg-garuda-ttf:arm64 (1:0.7.1-3), fonts-orya-extra:arm64 (2.0-6), totem-plugins:arm64 (3.34.1-2ubuntu2), libtotem0:arm64 (3.34.1-2ubuntu2), fonts-tlwg-sawasdee-ttf:arm64 (1:0.7.1-3), gnome-todo-common:arm64 (3.28.1-5), gnome-shell-extension-appindicator:arm64 (33.1-0ubuntu0.20.04.2), nautilus-sendto:arm64 (3.8.6-3ubuntu0.20.04.1), gir1.2-totem-1.0:arm64 (3.34.1-2ubuntu2), fonts-mlym:arm64 (2:1.2), iproute2:arm64 (5.5.0-1ubuntu1, automatic), ghostscript-x:arm64 (9.50~dfsg-5ubuntu4.6), libgnome-games-support-common:arm64 (1.6.1-1), libmhash2:arm64 (0.9.9.9-8), libgnome-games-support-1-3:arm64 (1.6.1-1), fonts-lohit-taml:arm64 (2.91.3-1), fonts-tlwg-typo-ttf:arm64 (1:0.7.1-3), xorg:arm64 (1:7.7+19ubuntu14), libfwupd2:arm64 (1.7.9-1~20.04.1), fonts-beng:arm64 (2:1.2), libmwaw-0.3-3:arm64 (0.3.15-2build1), libgnome-menu-3-0:arm64 (3.36.0-1ubuntu1), zip:arm64 (3.0-11build1), libdns-export1109:arm64 (1:9.11.16+dfsg-3~ubuntu1, automatic), liblouisutdml-bin:arm64 (2.8.0-3), gnome-initial-setup:arm64 (3.36.2-0ubuntu2), fwupd-signed:arm64 (1.27.1ubuntu7+1.2-2~20.04.1), avahi-autoipd:arm64 (0.7-4ubuntu7.1), fonts-samyak-mlym:arm64 (1.2.2-4), thunderbird:arm64 (1:102.4.2+build2-0ubuntu0.20.04.1), tracker:arm64 (2.3.6-0ubuntu1), apt-config-icons-hidpi:arm64 (0.12.10-2, automatic), libsane-hpaio:arm64 (3.20.3+dfsg0-2), network-manager-config-connectivity-ubuntu:arm64 (1.22.10-1ubuntu2.3), libsynctex2:arm64 (2019.20190605.51237-3build2), fonts-yrsa-rasa:arm64 (1.002-2), usbutils:arm64 (1:012-2, automatic), genisoimage:arm64 (9:1.1.11-3.1ubuntu1), libtss2-esys0:arm64 (2.3.2-1ubuntu0.20.04.1), remmina-plugin-rdp:arm64 (1.4.2+dfsg-1ubuntu1), plymouth:arm64 (0.9.4git20200323-0ubuntu6.2, automatic), libmessaging-menu0:arm64 (13.10.1+18.10.20180918-0ubuntu2), libgcab-1.0-0:arm64 (1.4-1), gnome-characters:arm64 (3.34.0-1), bluez-obexd:arm64 (5.53-0ubuntu3.6), fonts-tlwg-loma-ttf:arm64 (1:0.7.1-3), printer-driver-pnm2ppa:arm64 (1.13+nondbs-0ubuntu6), fonts-khmeros-core:arm64 (5.0-7ubuntu1), cups-filters-core-drivers:arm64 (1.27.4-1), gir1.2-coglpango-1.0:arm64 (1.22.6-1, automatic), libuno-cppu3:arm64 (1:6.4.7-0ubuntu0.20.04.6), gvfs:arm64 (1.44.1-1ubuntu1.1), file-roller:arm64 (3.36.3-0ubuntu1.1), libdjvulibre21:arm64 (3.5.27.1-14ubuntu0.1), librhythmbox-core10:arm64 (3.4.4-1ubuntu2), apport-gtk:arm64 (2.20.11-0ubuntu27.24), ubuntu-release-upgrader-gtk:arm64 (1:20.04.39), libevent-2.1-7:arm64 (2.1.11-stable-1), fonts-smc-dyuthi:arm64 (3.0.2-1), fonts-opensymbol:arm64 (2:102.11+LibO6.4.7-0ubuntu0.20.04.6), pciutils:arm64 (1:3.6.4-1ubuntu0.20.04.1, automatic), python3-paramiko:arm64 (2.6.0-2ubuntu0.1), fwupd:arm64 (1.7.9-1~20.04.1), libpagemaker-0.0-0:arm64 (0.0.4-1build1), gir1.2-webkit2-4.0:arm64 (2.36.8-0ubuntu0.20.04.1), cpio:arm64 (2.13+dfsg-2ubuntu0.3, automatic), gnome-terminal-data:arm64 (3.36.2-1ubuntu1~20.04), python3-ptyprocess:arm64 (0.6.0-1ubuntu1), unattended-upgrades:arm64 (2.3ubuntu0.3), libtracker-control-2.0-0:arm64 (2.3.6-0ubuntu1), gnome-todo:arm64 (3.28.1-5), transmission-gtk:arm64 (2.94-2ubuntu3), fonts-lohit-telu:arm64 (2.5.5-1), fonts-tlwg-mono-ttf:arm64 (1:0.7.1-3), fonts-kacst:arm64 (2.01+mry-14), libcairo-gobject-perl:arm64 (1.005-2), liblouis-data:arm64 (3.12.0-3ubuntu0.1), firefox:arm64 (106.0.5+build1-0ubuntu0.20.04.1), remmina-plugin-secret:arm64 (1.4.2+dfsg-1ubuntu1), rsync:arm64 (3.1.3-8ubuntu0.4, automatic), totem-common:arm64 (3.34.1-2ubuntu2), libreoffice-pdfimport:arm64 (1:6.4.7-0ubuntu0.20.04.6), gvfs-common:arm64 (1.44.1-1ubuntu1.1), apparmor:arm64 (2.13.3-7ubuntu5.1, automatic), totem:arm64 (3.34.1-2ubuntu2), fonts-gujr-extra:arm64 (1.0.1-1), libetonyek-0.1-1:arm64 (0.1.9-3), gdbserver:arm64 (9.2-0ubuntu1~20.04.1), network-manager-openvpn-gnome:arm64 (1.8.12-1), spice-vdagent:arm64 (0.19.0-2ubuntu0.2), nautilus-data:arm64 (1:3.36.3-0ubuntu1.20.04.1), libgc1c2:arm64 (1:7.6.4-0.4ubuntu1), cups-bsd:arm64 (2.3.1-9ubuntu1.2), libreoffice-style-tango:arm64 (1:6.4.7-0ubuntu0.20.04.6), gnome-mines:arm64 (1:3.36.0-1), cron:arm64 (3.0pl1-136ubuntu1, automatic), libdmapsharing-3.0-2:arm64 (2.9.39-6), libuno-sal3:arm64 (1:6.4.7-0ubuntu0.20.04.6), remmina-plugin-vnc:arm64 (1.4.2+dfsg-1ubuntu1), libraptor2-0:arm64 (2.0.15-0ubuntu1.20.04.1), python3-bcrypt:arm64 (3.1.7-2ubuntu1), cups-core-drivers:arm64 (2.3.1-9ubuntu1.2), fonts-tlwg-typist-ttf:arm64 (1:0.7.1-3), libunity-scopes-json-def-desktop:arm64 (7.1.4+19.04.20190319-0ubuntu3), libpoppler-cpp0v5:arm64 (0.86.1-0ubuntu1.1), python3-lockfile:arm64 (1:0.12.2-2ubuntu2), duplicity:arm64 (0.8.11.1612-1), cups-daemon:arm64 (2.3.1-9ubuntu1.2), fonts-sil-padauk:arm64 (4.000-1), fonts-smc-anjalioldlipi:arm64 (7.1.2-1), libgtk3-perl:arm64 (0.037-1), libglib-object-introspection-perl:arm64 (0.048-2build1), librasqal3:arm64 (0.9.33-0.1), libextutils-depends-perl:arm64 (0.8000-1), libreoffice-gnome:arm64 (1:6.4.7-0ubuntu0.20.04.6), fonts-lohit-beng-assamese:arm64 (2.91.5-1), libunoloader-java:arm64 (1:6.4.7-0ubuntu0.20.04.6), ubuntu-report:arm64 (1.6.1), xinput:arm64 (1.6.3-1), python3-reportlab:arm64 (3.5.34-1ubuntu1), libcupsimage2:arm64 (2.3.1-9ubuntu1.2), fonts-lohit-gujr:arm64 (2.92.4-4), xbitmaps:arm64 (1.1.1-2), libepubgen-0.1-1:arm64 (0.1.1-1ubuntu2), python3-debian:arm64 (0.1.36ubuntu1), xfonts-scalable:arm64 (1:1.0.3-1.1), printer-driver-ptouch:arm64 (1.4.2-3), fonts-lohit-guru:arm64 (2.91.2-1), libmspub-0.1-1:arm64 (0.1.4-1build3), libreoffice-calc:arm64 (1:6.4.7-0ubuntu0.20.04.6), libdotconf0:arm64 (1.3-0.3fakesync1), gnome-terminal:arm64 (3.36.2-1ubuntu1~20.04), cups:arm64 (2.3.1-9ubuntu1.2), gstreamer1.0-packagekit:arm64 (1.1.13-2ubuntu1.1), apt-config-icons:arm64 (0.12.10-2, automatic), libcdr-0.1-1:arm64 (0.1.6-1build2), isc-dhcp-client:arm64 (4.4.1-2.1ubuntu5.20.04.4, automatic), libmythes-1.2-0:arm64 (2:1.2.4-3build1), cups-client:arm64 (2.3.1-9ubuntu1.2), cups-ipp-utils:arm64 (2.3.1-9ubuntu1.2), klibc-utils:arm64 (2.0.7-1ubuntu5.1), liblcms2-utils:arm64 (2.9-4), network-manager-pptp-gnome:arm64 (1.2.8-2), update-notifier:arm64 (3.192.30.11), xdg-user-dirs-gtk:arm64 (0.10-3), xdg-desktop-portal:arm64 (1.6.0-1ubuntu1), gvfs-daemons:arm64 (1.44.1-1ubuntu1.1), python3-colorama:arm64 (0.4.3-1build1, automatic), libfreerdp-client2-2:arm64 (2.2.0+dfsg1-0ubuntu0.20.04.3), fonts-freefont-ttf:arm64 (20120503-10), gir1.2-gtkclutter-1.0:arm64 (1.8.4-4, automatic), fonts-liberation2:arm64 (2.1.0-1), libe-book-0.1-1:arm64 (0.1.3-1build3), libabw-0.1-1:arm64 (0.1.3-1build1), pcmciautils:arm64 (018-11), fonts-tlwg-umpush-ttf:arm64 (1:0.7.1-3), libxmlsec1:arm64 (1.2.28-2), initramfs-tools-core:arm64 (0.136ubuntu6.7), gnome-getting-started-docs:arm64 (3.36.2-0ubuntu0.1), fonts-tlwg-laksaman-ttf:arm64 (1:0.7.1-3), initramfs-tools:arm64 (0.136ubuntu6.7), printer-driver-foo2zjs-common:arm64 (20171202dfsg0-4), tpm-udev:arm64 (0.4), libatopology2:arm64 (1.2.2-2.1ubuntu2.5), libreoffice-draw:arm64 (1:6.4.7-0ubuntu0.20.04.6), fonts-sarai:arm64 (1.0-2), gir1.2-javascriptcoregtk-4.0:arm64 (2.36.8-0ubuntu0.20.04.1), fonts-lohit-mlym:arm64 (2.92.2-1), fonts-lohit-taml-classical:arm64 (2.5.4-1), rhythmbox:arm64 (3.4.4-1ubuntu2), cups-browsed:arm64 (1.27.4-1), libamtk-5-0:arm64 (5.0.2-1build1), libfftw3-single3:arm64 (3.3.8-2ubuntu1), gnome-shell-extension-ubuntu-dock:arm64 (68ubuntu1~20.04.1), libfreehand-0.1-1:arm64 (0.1.2-2ubuntu1), yaru-theme-sound:arm64 (20.04.11.1), printer-driver-brlaser:arm64 (6-1build1), busybox-initramfs:arm64 (1:1.30.1-4ubuntu6.4), libkpathsea6:arm64 (2019.20190605.51237-3build2)
+End-Date: 2022-11-13  18:39:44
+
+Start-Date: 2022-11-13  19:30:36
+Commandline: apt autoremove xfce4 xfce4-goodies
+Remove: xfburn:arm64 (0.6.2-1), xfce4-pulseaudio-plugin:arm64 (0.4.3-0ubuntu1), xfce4-systemload-plugin:arm64 (1:1.2.3-1ubuntu1), xfce4-appfinder:arm64 (4.14.0-1), xfce4-sensors-plugin:arm64 (1.3.0-2build1), libisofs6:arm64 (1.5.2-1), thunar-media-tags-plugin:arm64 (0.3.0-2), xfce4-datetime-plugin:arm64 (0.8.0-1), xfce4-netload-plugin:arm64 (1.3.2-1), xfce4-timer-plugin:arm64 (1.7.0-1), mousepad:arm64 (0.4.2-1), xfce4-screenshooter:arm64 (1.9.7-1), xfce4-mailwatch-plugin:arm64 (1.2.0-3), xfce4-xkb-plugin:arm64 (1:0.8.1-2), xfce4-cpugraph-plugin:arm64 (1.1.0-1), xfce4-whiskermenu-plugin:arm64 (2.4.3-1), xfce4-dict:arm64 (0.8.3-1), libxfce4ui-utils:arm64 (4.14.1-1ubuntu1), libgtksourceview-3.0-common:arm64 (3.24.11-2), libexo-1-0:arm64 (0.12.11-1ubuntu1.20.04.1), xfce4-goodies:arm64 (4.14.0), xfce4-panel:arm64 (4.14.3-1), xfce4-smartbookmark-plugin:arm64 (0.5.1-1), thunar-archive-plugin:arm64 (0.4.0-2), libxnvctrl0:arm64 (470.57.01-0ubuntu0.20.04.3), xfce4-wavelan-plugin:arm64 (0.6.1-1), xfce4-battery-plugin:arm64 (1.1.3-1), libburn4:arm64 (1.5.2-1), thunar:arm64 (1.8.14-0ubuntu1), xfce4-clipman:arm64 (2:1.4.4-1), libgtksourceview-3.0-1:arm64 (3.24.11-2), xfce4-genmon-plugin:arm64 (4.0.2-1), xfce4-verve-plugin:arm64 (2.0.0-1), xfce4-cpufreq-plugin:arm64 (1.2.1-1), xfce4-weather-plugin:arm64 (0.10.2-0ubuntu0.20.04.1), libtagc0:arm64 (1.11.1+dfsg.1-0.3ubuntu2), ristretto:arm64 (0.10.0-1), libkeybinder-3.0-0:arm64 (0.3.2-1ubuntu1), xfce4-clipman-plugin:arm64 (2:1.4.4-1), xfce4-places-plugin:arm64 (1.8.1-1), xfce4-diskperf-plugin:arm64 (2.6.2-1), xfce4-fsguard-plugin:arm64 (1.1.1-1), libqrencode4:arm64 (4.0.2-2), libjte2:arm64 (1.22-3build1), xfce4:arm64 (4.14), xfce4-taskmanager:arm64 (1.2.3-0ubuntu1)
+End-Date: 2022-11-13  19:30:59
+
+Start-Date: 2022-11-13  19:37:46
+Commandline: apt install lightdm
+Install: libunity-settings-daemon1:arm64 (15.04.1+20.04.20200325-0ubuntu1, automatic), accountsservice-ubuntu-schemas:arm64 (0.0.7+17.10.20170922-0ubuntu1, automatic), indicator-common:arm64 (16.10.0+18.04.20180321.1-0ubuntu4, automatic), libfcitx-gclient1:arm64 (1:4.2.9.7-3, automatic), indicator-sound:arm64 (12.10.2+18.10.20180612-0ubuntu1, automatic), indicator-keyboard:arm64 (0.0.0+19.10.20190716-0ubuntu3, automatic), libindicator3-7:arm64 (16.10.0+18.04.20180321.1-0ubuntu4, automatic), ubuntu-touch-sounds:arm64 (15.08, automatic), libgnome-panel0:arm64 (1:3.36.2-0ubuntu1, automatic), libunity-gtk2-parser0:arm64 (0.0.0+18.04.20171202-0ubuntu2, automatic), unity-greeter:arm64 (18.04.0+20.04.20200312-0ubuntu2, automatic), indicator-session:arm64 (17.3.20+19.10.20190921-0ubuntu1, automatic), libfcitx-config4:arm64 (1:4.2.9.7-3, automatic), libbamf3-2:arm64 (0.5.3+18.04.20180207.2-0ubuntu2, automatic), unity-gtk-module-common:arm64 (0.0.0+18.04.20171202-0ubuntu2, automatic), unity-gtk2-module:arm64 (0.0.0+18.04.20171202-0ubuntu2, automatic), libunity-gtk3-parser0:arm64 (0.0.0+18.04.20171202-0ubuntu2, automatic), indicator-bluetooth:arm64 (0.0.6+17.10.20170605-0ubuntu3, automatic), indicator-datetime:arm64 (15.10+20.04.20200217-0ubuntu1, automatic), libaccounts-glib0:arm64 (1.23+17.04.20161104-0ubuntu3, automatic), gnome-screensaver:arm64 (3.6.1-11ubuntu4, automatic), libfcitx-utils0:arm64 (1:4.2.9.7-3, automatic), indicator-application:arm64 (12.10.1+19.04.20190308.1-0ubuntu3, automatic), libido3-0.1-0:arm64 (13.10.0+17.04.20161028-0ubuntu2, automatic), unity-settings-daemon:arm64 (15.04.1+20.04.20200325-0ubuntu1, automatic), indicator-appmenu:arm64 (15.02.0+16.10.20160927-0ubuntu5, automatic), indicator-applet:arm64 (12.10.2+20.04.20200409-0ubuntu1, automatic), indicator-power:arm64 (12.10.6+17.10.20170829.1-0ubuntu5, automatic), unity-gtk3-module:arm64 (0.0.0+18.04.20171202-0ubuntu2, automatic), lightdm:arm64 (1.30.0-0ubuntu4~20.04.2), liblightdm-gobject-1-0:arm64 (1.30.0-0ubuntu4~20.04.2, automatic), unity-settings-daemon-schemas:arm64 (15.04.1+20.04.20200325-0ubuntu1, automatic), indicator-messages:arm64 (13.10.1+18.10.20180918-0ubuntu2, automatic), liburl-dispatcher1:arm64 (0.1+17.04.20170328-0ubuntu4, automatic), indicator-printers:arm64 (0.1.7+17.10.20171101-0ubuntu2, automatic)
+End-Date: 2022-11-13  19:39:17
+
+Start-Date: 2022-11-13  19:42:03
+Commandline: apt install xfce4 xfce4-goodies
+Install: xfburn:arm64 (0.6.2-1, automatic), xfce4-pulseaudio-plugin:arm64 (0.4.3-0ubuntu1, automatic), xfce4-systemload-plugin:arm64 (1:1.2.3-1ubuntu1, automatic), xfce4-appfinder:arm64 (4.14.0-1, automatic), xfce4-sensors-plugin:arm64 (1.3.0-2build1, automatic), libisofs6:arm64 (1.5.2-1, automatic), thunar-media-tags-plugin:arm64 (0.3.0-2, automatic), xfce4-power-manager:arm64 (1.6.6-1, automatic), xfce4-datetime-plugin:arm64 (0.8.0-1, automatic), tango-icon-theme:arm64 (0.8.90-7, automatic), xfce4-netload-plugin:arm64 (1.3.2-1, automatic), xfce4-timer-plugin:arm64 (1.7.0-1, automatic), mousepad:arm64 (0.4.2-1, automatic), xfce4-screenshooter:arm64 (1.9.7-1, automatic), xfce4-mailwatch-plugin:arm64 (1.2.0-3, automatic), xfce4-xkb-plugin:arm64 (1:0.8.1-2, automatic), libtumbler-1-0:arm64 (0.2.8-1, automatic), xfce4-cpugraph-plugin:arm64 (1.1.0-1, automatic), xfce4-whiskermenu-plugin:arm64 (2.4.3-1, automatic), xfce4-dict:arm64 (0.8.3-1, automatic), xfce4-power-manager-plugins:arm64 (1.6.6-1, automatic), libxfce4ui-utils:arm64 (4.14.1-1ubuntu1, automatic), libgtksourceview-3.0-common:arm64 (3.24.11-2, automatic), libexo-1-0:arm64 (0.12.11-1ubuntu1.20.04.1, automatic), xfce4-goodies:arm64 (4.14.0), xfce4-panel:arm64 (4.14.3-1, automatic), thunar-volman:arm64 (0.9.5-1, automatic), xfce4-smartbookmark-plugin:arm64 (0.5.1-1, automatic), fonts-quicksand:arm64 (0.2016-2, automatic), thunar-archive-plugin:arm64 (0.4.0-2, automatic), libxnvctrl0:arm64 (470.57.01-0ubuntu0.20.04.3, automatic), xfce4-wavelan-plugin:arm64 (0.6.1-1, automatic), hddtemp:arm64 (0.3-beta15-53, automatic), tumbler:arm64 (0.2.8-1, automatic), xfce4-battery-plugin:arm64 (1.1.3-1, automatic), libburn4:arm64 (1.5.2-1, automatic), thunar:arm64 (1.8.14-0ubuntu1, automatic), tumbler-common:arm64 (0.2.8-1, automatic), xfce4-clipman:arm64 (2:1.4.4-1, automatic), libgtksourceview-3.0-1:arm64 (3.24.11-2, automatic), desktop-base:arm64 (10.0.3ubuntu1, automatic), xfce4-genmon-plugin:arm64 (4.0.2-1, automatic), xfce4-verve-plugin:arm64 (2.0.0-1, automatic), xfce4-cpufreq-plugin:arm64 (1.2.1-1, automatic), lm-sensors:arm64 (1:3.6.0-2ubuntu1.1, automatic), xfce4-weather-plugin:arm64 (0.10.2-0ubuntu0.20.04.1, automatic), libtagc0:arm64 (1.11.1+dfsg.1-0.3ubuntu2, automatic), ristretto:arm64 (0.10.0-1, automatic), libkeybinder-3.0-0:arm64 (0.3.2-1ubuntu1, automatic), xfce4-clipman-plugin:arm64 (2:1.4.4-1, automatic), xfce4-places-plugin:arm64 (1.8.1-1, automatic), xfce4-diskperf-plugin:arm64 (2.6.2-1, automatic), xfce4-fsguard-plugin:arm64 (1.1.1-1, automatic), libqrencode4:arm64 (4.0.2-2, automatic), libjte2:arm64 (1.22-3build1, automatic), xfce4:arm64 (4.14), xfce4-taskmanager:arm64 (1.2.3-0ubuntu1, automatic), xfce4-power-manager-data:arm64 (1.6.6-1, automatic)
+End-Date: 2022-11-13  19:43:16
+
+Start-Date: 2022-11-14  00:24:49
+Commandline: apt install bleachbit
+Install: bleachbit:arm64 (3.9.0-1)
+End-Date: 2022-11-14  00:25:00
+
+Start-Date: 2022-11-15  19:49:24
+Commandline: apt install synaptic
+Install: libxapian30:arm64 (1.4.14-2, automatic), libept1.6.0:arm64 (1.1+nmu3ubuntu3, automatic), synaptic:arm64 (0.84.6ubuntu5)
+End-Date: 2022-11-15  19:49:36
+
+Start-Date: 2022-11-15  19:59:15
+Commandline: apt install pulseeffects
+Install: calf-plugins:arm64 (0.90.3-1build2, automatic), libdc1394-22:arm64 (2.2.5-2.1, automatic), libgupnp-igd-1.0-4:arm64 (0.2.5-5, automatic), libnice10:arm64 (0.1.16-1, automatic), libebur128-1:arm64 (1.2.4-2, automatic), libsrtp2-1:arm64 (2.3.0-2, automatic), libvo-aacenc0:arm64 (0.1.3-2, automatic), libsratom-0-0:arm64 (0.6.4-1, automatic), libofa0:arm64 (0.9.3-21, automatic), zam-plugins:arm64 (3.9~repack3-1build1, automatic), liblilv-0-0:arm64 (0.24.6-1ubuntu0.1, automatic), libusrsctp1:arm64 (0.9.3.0+20190901-1, automatic), gstreamer1.0-crystalizer-pulseeffects:arm64 (4.7.1-2, automatic), libdca0:arm64 (0.0.6-1, automatic), libzbar0:arm64 (0.23-1.3, automatic), libsrt1:arm64 (1.4.0-1build1, automatic), gstreamer1.0-plugins-bad:arm64 (1.16.3-0ubuntu1, automatic), gstreamer1.0-convolver-pulseeffects:arm64 (4.7.1-2, automatic), libzita-convolver3:arm64 (3.1.0-7build1, automatic), mda-lv2:arm64 (1.2.4-1, automatic), gstreamer1.0-adapter-pulseeffects:arm64 (4.7.1-2, automatic), libass9:arm64 (1:0.14.0-2, automatic), libmplex2-2.1-0:arm64 (1:2.1.0+debian-6build1, automatic), libmpeg2encpp-2.1-0:arm64 (1:2.1.0+debian-6build1, automatic), libsoundtouch1:arm64 (2.1.2+ds1-1build1, automatic), pulseeffects:arm64 (4.7.1-2), libmjpegutils-2.1-0:arm64 (1:2.1.0+debian-6build1, automatic), libvo-amrwbenc0:arm64 (0.1.3-2, automatic), libsord-0-0:arm64 (0.16.4-1, automatic), libspandsp2:arm64 (0.0.6+dfsg-2, automatic), gir1.2-gst-plugins-bad-1.0:arm64 (1.16.3-0ubuntu1, automatic), libkate1:arm64 (0.4.1-11build1, automatic), rubberband-ladspa:arm64 (1.8.2-1build1, automatic), libserd-0-0:arm64 (0.30.2-1, automatic), libgstreamer-plugins-bad1.0-0:arm64 (1.16.3-0ubuntu1, automatic), libflite1:arm64 (2.1-release-3, automatic), gstreamer1.0-autogain-pulseeffects:arm64 (4.7.1-2, automatic)
+End-Date: 2022-11-15  19:59:53
+
+Start-Date: 2022-11-17  10:05:24
+Commandline: apt remove chromium
+Remove: chromium:arm64 (89.0.4389.114-1~deb10u1)
+End-Date: 2022-11-17  10:05:37
+
+Start-Date: 2022-11-17  10:06:11
+Commandline: apt remove firefox
+Remove: firefox:arm64 (106.0.5+build1-0ubuntu0.20.04.1)
+End-Date: 2022-11-17  10:06:15
+
+Start-Date: 2022-11-17  10:07:49
+Commandline: apt remove thunderbird
+Remove: thunderbird-gnome-support:arm64 (1:102.4.2+build2-0ubuntu0.20.04.1), thunderbird:arm64 (1:102.4.2+build2-0ubuntu0.20.04.1)
+End-Date: 2022-11-17  10:07:55

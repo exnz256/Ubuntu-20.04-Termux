@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="deesser" xml:lang="pt-BR">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    </info>
+    <title>Deesser</title>
+    <p>PulseEffects usa o deesser desenvolvido por Calf Studio. Um deesser é usado para reduzir dinamicamente altas frequências. O campo padrão de uso é a redução de "sssss" e "shhhh" em trilhas vocais.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Frouxidão</em>
+            </title>
+            <p>A reação do deesser. Valores maiores não afetarão picos realmente curtos.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Limiar</em>
+            </title>
+            <p>Se um sinal subir acima deste nível ele afetará a redução de ganho.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Razão</em>
+            </title>
+            <p>Configura a razão pela a qual o sinal é reduzido.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Ganho de Saída</em>
+            </title>
+            <p>Amplifique seu sinal após o processamento.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Separado</em>
+            </title>
+            <p>A frequência de separação. Todos os sinais acima desta frequência afetarão a redução de ganho(e em modo separado eles também serão afetados pela redução).</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Ganho</em>
+            </title>
+            <p>Desloca o volume da banda mais alta. Em modo de banda ampla ele afeta a cadeia lateral. Em modo separado ele também afeta as altas frequências processadas.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Pico</em>
+            </title>
+            <p>Frequência central do filtro de sino. Permite uma seleção mais precisa do sinal da cadeia lateral.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Nível</em>
+            </title>
+            <p>Aumenta ou diminui a amplitude das frequências em torno da frequência central do sino.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Pico Q</em>
+            </title>
+            <p>Define a qualidade do sino. Valores maiores afetarão um intervalo de frequência mais estreito. Valores menores afetarão uma faixa mais ampla.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Detecção</em>
+            </title>
+            <p>Escolha se o deesser deve tomar o pico do sinal para detecção ou o valor RMS (é mais suave).</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Modo</em>
+            </title>
+            <p>Selecione seu modo de operação entre banda ampla ou separado</p>
+        </item>
+    </terms>
+    <section>
+        <title>Referências</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/De-essing" its:translate="no">
+                        https://en.wikipedia.org/wiki/De-essing
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://calf-studio-gear.org/doc/Deesser.html" its:translate="no">
+                        https://calf-studio-gear.org/doc/Deesser.html
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

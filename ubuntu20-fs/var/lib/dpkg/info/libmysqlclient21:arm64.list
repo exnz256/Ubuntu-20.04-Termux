@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/lib
+/usr/lib/aarch64-linux-gnu
+/usr/lib/aarch64-linux-gnu/libmysqlclient.so.21.2.31
+/usr/share
+/usr/share/doc
+/usr/share/doc/libmysqlclient21
+/usr/share/doc/libmysqlclient21/NEWS.Debian.gz
+/usr/share/doc/libmysqlclient21/changelog.Debian.gz
+/usr/share/doc/libmysqlclient21/copyright
+/usr/lib/aarch64-linux-gnu/libmysqlclient.so.21

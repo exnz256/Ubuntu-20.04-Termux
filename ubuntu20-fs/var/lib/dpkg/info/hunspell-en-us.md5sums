@@ -1,0 +1,5 @@
+e6af0257ca3be63025094bf3dc49e143  usr/share/doc/hunspell-en-us/changelog.Debian.gz
+0fbaa6c7d3579c6e4e1c9c9de3838771  usr/share/doc/hunspell-en-us/copyright
+eaae9bae63b305440b412a48e1653a26  usr/share/hunspell/en_US.aff
+3f1595d4fec794468f2127dd3399c239  usr/share/hunspell/en_US.dic
+4d768c86f22c072e004267e174e87a14  var/lib/dictionaries-common/hunspell/hunspell-en-us

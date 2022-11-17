@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="saturated" style="2column" xml:lang="pt-BR">
+    <info>
+        <link type="guide" xref="index#ui"/>
+    </info>
+    <title>Aviso de Saturação</title>
+    <media type="image" src="figures/saturated.png" its:translate="no"/>
+    <p>Se o sinal de áudio que chega à entrada do plugin estiver muito alto, ruídos muito desagradáveis serão produzidos. Caso isso aconteça, o aviso na imagem acima é mostrado para que o usuário possa reduzir o nível de áudio.</p>
+</page>

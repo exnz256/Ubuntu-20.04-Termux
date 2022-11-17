@@ -1,0 +1,15 @@
+{
+ "unity-lens-applications": ["applications-applications.scope", "commands.scope", "applications-scopes.scope"],
+ "unity-lens-files": ["files-local.scope"],
+ "unity-lens-music": ["music-rhythmbox.scope"],
+ "unity-lens-photos": ["photos-shotwell.scope"],
+ "unity-lens-video": ["video-local.scope"],
+ "unity-scope-video-remote": ["video-remote.scope"],
+ "unity-scope-calculator": ["info-calculator.scope"],
+ "unity-scope-chromiumbookmarks": ["web-chromiumbookmarks.scope"],
+ "unity-scope-firefoxbookmarks": ["web-firefoxbookmarks.scope"],
+ "unity-scope-home": ["home.scope", "applications.scope", "books.scope", "boxes.scope", "calendar.scope", "code.scope", "files.scope", "graphics.scope", "help.scope", "info.scope", "more_suggestions.scope", "music.scope", "news.scope", "notes.scope", "photos.scope", "recipes.scope", "reference.scope", "searchin.scope", "video.scope", "weather.scope", "web.scope"],
+ "unity-scope-gnote": ["notes-gnote.scope"], 
+ "unity-scope-virtualbox": ["boxes-virtualbox.scope"],
+ "unity-scope-yelp": ["help-yelp.scope"],
+}

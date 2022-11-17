@@ -1,0 +1,13 @@
+[Plugin]
+Name = Score
+Module = score
+Description = A small score to measure your productivity
+Version = 3.28.1
+Authors = Georges Basile Stavracas Neto <gbsneto@gnome.org>
+Copyright = Copyleft © The To Do maintainers
+Website = https://wiki.gnome.org/Apps/Todo
+Builtin = false
+Hidden = false
+License = GPL
+Loader = python3
+Depends =

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="limiter" xml:lang="it-IT">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Digitalone</mal:name>
+      <mal:email>kurmikon@libero.it</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+    <title>Limitatore</title>
+    <p>Il Limitatore consente ai segnali al di sotto di una determinata soglia di passare inalterati, mentre attenua i picchi di segnale che superano tale soglia.</p>
+    <p>PulseEffects usa il Limitatore sviluppato da Calf Studio.</p>
+    <title>Limitatore</title>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Guadagno in Ingresso</em>
+            </title>
+            <p>Aumenta il volume del segnale prima di essere processato.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Limite</em>
+            </title>
+            <p>Il segnale in uscita non avrà picchi oltre questa soglia.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Lookahead</em>
+            </title>
+            <p>Il limitatore applicherà l'attenuazione nel tempo in millisecondi specificato (l'uscita sarà ritardata due volte questo tempo).</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Rilascio</em>
+            </title>
+            <p>Arresta l'attenuazione dopo questo tempo in millisecondi.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Sovracampionamento</em>
+            </title>
+            <p>Aumenta il campionamento del segnale per una migliore rilevazione dei picchi. La frequenza di campionamento originale sarà reimpostata al termine dell'elaborazione.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">ASC</em>
+            </title>
+            <p>Quando la riduzione del guadagno è sempre necessaria, l'ASC impone un livello medio di riduzione, invece di ottenere una riduzione di 0 nel tempo di rilascio.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Livello di ASC</em>
+            </title>
+            <p>Seleziona quanto il tempo di rilascio è influenzato dall'ASC. 0 indica quasi nessun cambiamento nel tempo di rilascio, mentre 1 produce tempi di rilascio più elevati.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Note</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Limiter" its:translate="no">
+                        https://en.wikipedia.org/wiki/Limiter
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://calf-studio-gear.org/doc/Limiter.html" its:translate="no">
+                        https://calf-studio-gear.org/doc/Limiter.html
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

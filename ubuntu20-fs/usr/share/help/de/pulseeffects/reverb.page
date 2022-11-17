@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="reverb" xml:lang="de">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>David Keller</mal:name>
+      <mal:email>davidkeller@tuta.io</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+    <title>Nachhall</title>
+    <p>Der Nachhall ist in der Psychoakustik und Akustik ein Fortbestehen des Schalls nach der Schallerzeugung. Ein Nachhall, oder Reverb, entsteht, wenn ein Schall oder ein Signal reflektiert wird, wobei sich eine große Anzahl von Reflexionen aufbaut und dann abklingt, wenn der Schall von den Oberflächen der Objekte im Raum absorbiert wird. Mit Hall-Plugins kann dieser Effekt künstlich erzeugt werden.</p>
+    <p>PulseEffects verwendet den Nachhall von Calf Studio.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Vorverzögerung</em>
+            </title>
+            <p>Zusätzliche Verzögerung - entspricht dem Abstand zwischen der Schallquelle und der nächsten Wand.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Abklingzeit</em>
+            </title>
+            <p>Die Zeit bis zum Ausklingen des Nachhalls.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Betrag</em>
+            </title>
+            <p>Menge des bearbeiteten Signals (Nachhall) im Ausgang.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Trocken</em>
+            </title>
+            <p>Menge des unverarbeiteten Signals im Ausgang.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Bassschnitt</em>
+            </title>
+            <p>Entfernt tiefe Frequenzen aus dem Nachhall.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Höhenschnitt</em>
+            </title>
+            <p>Entfernt hohe Frequenzen aus dem Nachhall.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Verbreitung</em>
+            </title>
+            <p>Erhöhe den Wert für weniger gleichmäßigen Nachhall.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Raumgröße</em>
+            </title>
+            <p>Die Größe des Raumes, in dem der simulierte Nachhall auftritt - bestimmt die Zeiten zwischen den Reflexionen.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Hochfrequenz-Dämpfung</em>
+            </title>
+            <p>Abgrenzung von Reflexionen hoher Frequenzen - bewirkt, dass höhere Frequenzen schneller abklingen.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Referenzen</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Reverberation" its:translate="no">
+                        https://en.wikipedia.org/wiki/Reverberation
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://calf-studio-gear.org/doc/Reverb.html" its:translate="no">
+                        https://calf-studio-gear.org/doc/Reverb.html
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

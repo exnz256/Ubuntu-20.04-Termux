@@ -1,0 +1,7 @@
+a8c3ad58e964f4225f480f972685ccbd  usr/lib/tasksel/info/desktop.preinst
+b5e0db2a8227d42d8650b9cb0210df46  usr/lib/tasksel/tests/default-desktop
+bdc0df7f3d1cc76a3a72915ef66a7859  usr/lib/tasksel/tests/desktop
+62d7ccf19c6539f3f40a004416c9fb4e  usr/lib/tasksel/tests/laptop
+a84a911ae322f3cdf9cff3b27940279c  usr/lib/tasksel/tests/limited
+5720cd8cbabca493aa65e3a5fad17faa  usr/lib/tasksel/tests/server
+c48b0b84f346dd074cf89ac0575acbab  usr/share/tasksel/descs/ubuntu-tasks.desc

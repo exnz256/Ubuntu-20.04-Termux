@@ -1,0 +1,3 @@
+# actually there is but the parser is confused because it's in the second
+# section
+xfburn: desktop-mime-but-no-exec-code usr/share/applications/xfburn.desktop

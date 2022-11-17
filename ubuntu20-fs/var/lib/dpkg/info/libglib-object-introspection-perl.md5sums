@@ -1,0 +1,8 @@
+218d25f33b9f9d45b17e61dc4075c683  usr/bin/perli11ndoc
+47b8c023b64101a128331f91fe9160ee  usr/lib/aarch64-linux-gnu/perl5/5.30/Glib/Object/Introspection.pm
+aa1abdaf4d47aecd35f7219e6e743260  usr/lib/aarch64-linux-gnu/perl5/5.30/Glib/Object/Introspection/Install/Files.pm
+58dac6e8e6065eee981fd19992a93097  usr/lib/aarch64-linux-gnu/perl5/5.30/auto/Glib/Object/Introspection/Introspection.so
+af50daca8ecb34596b9f9f21f2923798  usr/share/doc/libglib-object-introspection-perl/README
+62170743c2d006dde8652be56b8c4f12  usr/share/doc/libglib-object-introspection-perl/changelog.Debian.gz
+ce197cb574af7f33664ac0b70e4ca8e3  usr/share/doc/libglib-object-introspection-perl/copyright
+112475a686f67531214a3535325e2de0  usr/share/man/man3/Glib::Object::Introspection.3pm.gz

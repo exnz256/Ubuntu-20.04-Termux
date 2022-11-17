@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="net-chat-skype" xml:lang="ca">
+  <info>
+    <link type="guide" xref="net-chat" group="#last"/>
+    <link type="seealso" xref="net-chat-video"/>
+
+    <revision version="18.04" date="2018-03-19" status="review"/>
+
+    <credit type="author">
+      <name>Equip de documentació de l'Ubuntu</name>
+    </credit>
+
+    <desc>L'<app>Skype</app> és programari privatiu i l'heu d'instal·lar de forma manual a l'Ubuntu.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>Com puc utilitzar l'Skype a l'Ubuntu?</title>
+
+  <p>L'<app>Skype</app> és un programari privatiu que us permet de fer trucades per Internet usant el vostre ordinador.</p>
+
+  <p>L'Skype usa tecnologies descentralitzades de parells, de manera que les vostres trucades no van per un servidor central, sinó per servidors distribuïts i altres usuaris.</p>
+
+  <p>L'ús del programari Skype és gratis, però no és programari lliure; el codi font és privatiu i no es troba disponible per la seva modificació.</p>
+
+  <p>L'Skype no s'instaŀla per defecte a l'Ubuntu. Segui aquestes passes per tal d'instaŀlar l'<app>Skype per Linux</app>:</p>
+
+  <list type="disc">
+
+    <item><p>Obriu el vostre navegador web i aneu a la pàgina <link href="https://www.skype.com/get-skype/">Download Skype</link>.</p></item>
+
+    <item><p>Cliqueu el botó <gui>Get Skype for Linux DEB</gui>.</p></item>
+
+    <item><p>A la finestra que es mostra a dalt, seleccioneu <gui>Open with</gui> and <gui>Software Install (default)</gui>, i llavors cliqueu el botó <gui>OK</gui>.</p></item>
+
+    <item><p>S'obre l'<app>Ubuntu Software</app>. Cliqueu el botó <gui>Instaŀla</gui> i autentiqueu-vos.</p></item>
+
+  </list>
+
+</page>

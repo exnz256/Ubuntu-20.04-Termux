@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="addremove-creator" xml:lang="zh-CN">
+
+  <info>
+    <credit type="author">
+      <name>Ubuntu 文档团队</name>
+    </credit>
+
+    <desc>将 USB 闪存驱动器转换为可以启动和安装 Ubuntu 的卷。</desc>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <link type="guide" xref="disk"/>
+    <link type="guide" xref="addremove" group="#last"/>
+
+    <revision version="17.10" date="2017-09-26" status="review"/>
+  </info>
+
+  <title>创建一个启动盘</title>
+
+  <p>在这种情况下，启动盘是 USB 闪存驱动器，您可以从中启动并 <link href="https://www.ubuntu.com/download/desktop/install-ubuntu-desktop">安装 Ubuntu </link>。 USB 闪存驱动器的容量必须至少为2GB。创建启动盘时，USB 闪存驱动器上的所有数据都会丢失。</p>
+
+  <p>假设您已经下载了 Ubuntu ISO 映像。</p>
+
+  <p>从一个 Ubuntu ISO 镜像创建启动盘：</p>
+    
+  <steps>
+    <item>
+      <p>通过<em>活动</em>搜索栏打开<app>启动盘创建器</app>。</p>
+    </item>
+    <item>
+      <p>如果您的 ISO 镜像在<gui>下载</gui>文件夹并且只有一个时，<app>启动盘创建器</app>将预先选择它，否则请选择正确的 ISO 镜像。</p>
+    </item>
+    <item>
+      <p>当您的计算机只有一个 USB 闪存驱动器可用时，<app>启动盘创建器</app>将预先选择它，否则请选择正确的驱动器。</p>
+    </item>
+    <item>
+      <p>点击<gui>制作启动盘</gui>。</p>
+    </item>
+    <item>
+      <p>点击 <gui>是</gui>进行确认。整个过程最多需要十分钟。</p>
+    </item>
+
+    <item>
+      <p>当“安装完成”窗口出现后，请点击<gui>退出</gui>。</p>
+    </item>
+
+  </steps>
+
+
+
+</page>

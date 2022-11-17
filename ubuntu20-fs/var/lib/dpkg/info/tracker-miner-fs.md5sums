@@ -1,0 +1,7 @@
+41f1ce9a868f9c25bde143e07c97f462  usr/lib/sysctl.d/30-tracker.conf
+cb5354c708bd3c437e453ef5e3819388  usr/lib/systemd/user/tracker-miner-fs.service
+8b090cc491d650c4d3ec281579cc1138  usr/libexec/tracker-miner-fs
+505b4fb496788a5e7a00aeea4a9b83ae  usr/share/dbus-1/services/org.freedesktop.Tracker1.Miner.Files.service
+c1d90f2d950638bf3e324ef00d1233fa  usr/share/doc/tracker-miner-fs/copyright
+b283cdd2be3bbdd20535f3241cfaf261  usr/share/lintian/overrides/tracker-miner-fs
+4d1bfffd03e90b004aebf31047866e35  usr/share/man/man1/tracker-miner-fs.1.gz

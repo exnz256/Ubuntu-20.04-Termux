@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="reverb" xml:lang="pt-BR">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    </info>
+    <title>Reverberação</title>
+    <p>A reverberação, em psicoacústica e acústica, é uma persistência de som depois que o som é produzido. Uma reverberação, ou reverberação, é criada quando um som ou sinal é refletido causando um grande número de reflexões a serem construídas e decaindo quando o som é absorvido pelas superfícies dos objetos no espaço. Os plugins de reverberação podem ser usados para produzir artificialmente esse efeito.</p>
+    <p>PulseEffects usa o reverberador desenvolvido por Calf Studio.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Pré Atraso</em>
+            </title>
+            <p>Atraso adicional - corresponde a uma distância entre a fonte de som e a parede mais próxima.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Tempo de Decaimento</em>
+            </title>
+            <p>Tempo que leva para a reverberação desaparecer.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Quantidade</em>
+            </title>
+            <p>A quantidade de sinal processado(reverberação) na saída.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Seco</em>
+            </title>
+            <p>A quantidade de sinal não processado na saída.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Corte de Grave</em>
+            </title>
+            <p>Remove baixas frequências da reverberação.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Corte de Agudo</em>
+            </title>
+            <p>Remove altas frequências da reverberação.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Difusão</em>
+            </title>
+            <p>Aumente seu valor para uma reverberação menos uniforme.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Tamanho do quarto</em>
+            </title>
+            <p>Tamanho do espaço no qual a reverberação ocorre - determina os tempos entre as reflecções.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Amortecimento de Alta Frequência</em>
+            </title>
+            <p>Corta alta frequência das reflexões - faz com que as frequências mais altas diminuam mais rapidamente.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Referências</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Reverberation" its:translate="no">
+                        https://en.wikipedia.org/wiki/Reverberation
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://calf-studio-gear.org/doc/Reverb.html" its:translate="no">
+                        https://calf-studio-gear.org/doc/Reverb.html
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

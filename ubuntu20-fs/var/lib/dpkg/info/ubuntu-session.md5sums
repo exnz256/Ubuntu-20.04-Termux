@@ -1,0 +1,7 @@
+15365240c6300e07de04f5f04d7bafdf  usr/share/doc/ubuntu-session/copyright
+59cfc67107bff3e626ea8ef6fa2ef93e  usr/share/gnome-session/sessions/ubuntu.session
+f51c95591a7896ad7901be809ea88098  usr/share/lightdm/lightdm.conf.d/50-ubuntu.conf
+4152b38017c3c89f7ae959bec8696202  usr/share/session-migration/scripts/ubuntu-settings-migrate-to-defaults.18.10.1.py
+145899b44ca7420864d5a02f230c776a  usr/share/session-migration/scripts/unity-gnome-shell-migration.17.10.py
+53e8a1870d7b0524e1beffc69f57fba9  usr/share/wayland-sessions/ubuntu-wayland.desktop
+f3e51c6a8aa7144e062a45e7937dcc3f  usr/share/xsessions/ubuntu.desktop

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="filter" xml:lang="de">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>David Keller</mal:name>
+      <mal:email>davidkeller@tuta.io</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+    <title>Filter</title>
+    <p>Audiofilter können einige Frequenzbereiche verstärken, durchlassen oder abschwächen (abschneiden).</p>
+    <p>PulseEffects verwendet den Filter von Calf Studio. Mit ihm können definierte Teile eines Frequenzspektrums entfernt werden.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Frequenz</em>
+            </title>
+            <p>Die Mitten- oder Grenzfrequenz des Filters.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Resonanz</em>
+            </title>
+            <p>Fügt der Mittenfrequenz eine Betonung hinzu. Beim Einsatz auf einem Bandpass werden die umgebenden Frequenzen im Pegel abgesenkt und das Band wird schmaler, ein Bandreject wird auf eine dünne Nadel eingegrenzt.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Trägheit</em>
+            </title>
+            <p>Glättet die Sprünge zwischen den Frequenzen.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Referenzen</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Audio_filter" its:translate="no">
+                        https://en.wikipedia.org/wiki/Audio_filter
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://calf-studio-gear.org/doc/Filter.html" its:translate="no">
+                        https://calf-studio-gear.org/doc/Filter.html
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

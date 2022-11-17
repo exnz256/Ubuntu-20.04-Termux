@@ -1,0 +1,1 @@
+/data/data/com.termux/files/home/ubuntu20-fs/usr/lib/python3.8/lib2to3/pgen2/.l2s.tokenize.py.dpkg-new0001

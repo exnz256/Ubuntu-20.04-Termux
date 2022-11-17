@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.22.1
+
+Remmina - The GTK+ Remmina Remote Desktop Client
+Copyright (C) Antenore Gatta & Giovanni Panozzo 2014-2020
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+-->
+<interface domain="remmina">
+  <requires lib="gtk+" version="3.12"/>
+  <!-- interface-license-type gplv2 -->
+  <!-- interface-name Remmina -->
+  <!-- interface-description The GTK+ Remmina Remote Desktop Client -->
+  <!-- interface-copyright Antenore Gatta & Giovanni Panozzo 2014-2020 -->
+  <object class="GtkEntryCompletion" id="entrycompletion">
+    <property name="inline_completion">True</property>
+    <property name="inline_selection">True</property>
+  </object>
+  <object class="GtkImage" id="find_toggle_image">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="icon_name">edit-find-symbolic</property>
+  </object>
+  <object class="GtkImage" id="image_new">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="icon_name">document-new-symbolic</property>
+  </object>
+  <object class="GtkImage" id="image_news">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-info</property>
+  </object>
+  <object class="GtkImage" id="view_toggle_icon">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="icon_name">view-list-symbolic</property>
+    <property name="use_fallback">True</property>
+  </object>
+  <object class="GtkWindow" id="RemminaMain">
+    <property name="can_focus">False</property>
+    <property name="icon_name">org.remmina.Remmina</property>
+    <signal name="delete-event" handler="remmina_main_on_delete_event" swapped="no"/>
+    <signal name="destroy" handler="remmina_main_destroy" swapped="no"/>
+    <signal name="drag-data-received" handler="remmina_main_on_drag_data_received" swapped="no"/>
+    <signal name="show" handler="remmina_main_on_show" swapped="no"/>
+    <signal name="window-state-event" handler="remmina_main_on_window_state_event" swapped="no"/>
+    <child type="titlebar">
+      <object class="GtkHeaderBar" id="main_headerbar">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="title">Remmina</property>
+        <property name="subtitle">Remote Desktop Client</property>
+        <property name="spacing">10</property>
+        <property name="show_close_button">True</property>
+        <child>
+          <object class="GtkButton" id="button_new">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="tooltip_text" translatable="yes">New connection profile</property>
+            <property name="halign">start</property>
+            <property name="image">image_new</property>
+            <property name="always_show_image">True</property>
+            <signal name="clicked" handler="remmina_main_on_action_connection_new" swapped="no"/>
+          </object>
+        </child>
+        <child>
+          <object class="GtkToggleButton" id="search_toggle">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">False</property>
+            <property name="tooltip_text" translatable="yes">Show search bar</property>
+            <property name="image">find_toggle_image</property>
+            <property name="active">True</property>
+            <signal name="toggled" handler="remmina_main_on_search_toggle" swapped="no"/>
+          </object>
+          <packing>
+            <property name="position">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button_news">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="action_name">main.news</property>
+            <property name="image">image_news</property>
+            <property name="always_show_image">True</property>
+          </object>
+          <packing>
+            <property name="position">3</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkMenuButton" id="menu_header_button">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="popup">menu_popup_full</property>
+            <property name="use_popover">False</property>
+            <child>
+              <object class="GtkImage" id="image_menu">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="icon_name">open-menu-symbolic</property>
+                <property name="icon_size">1</property>
+              </object>
+            </child>
+            <child internal-child="accessible">
+              <object class="AtkObject" id="menu_header_button-atkobject">
+                <property name="AtkObject::accessible-name" translatable="yes">Actions</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="pack_type">end</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkToggleButton" id="view_toggle_button">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">False</property>
+            <property name="tooltip_text" translatable="yes">Toggle view</property>
+            <property name="image">view_toggle_icon</property>
+            <signal name="toggled" handler="remmina_main_on_view_toggle" swapped="no"/>
+          </object>
+          <packing>
+            <property name="pack_type">end</property>
+            <property name="position">2</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="GtkBox" id="box_main">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GtkSearchBar" id="search_bar">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="search_mode_enabled">True</property>
+            <child>
+              <object class="GtkBox" id="box_quick_connect">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="valign">baseline</property>
+                <property name="hexpand">True</property>
+                <child>
+                  <object class="GtkComboBoxText" id="combo_quick_connect_protocol">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="active">0</property>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">1</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="entry_quick_connect_server">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="has_focus">True</property>
+                    <property name="is_focus">True</property>
+                    <property name="can_default">True</property>
+                    <property name="has_default">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="tooltip_text" translatable="yes">Search string or server name/IP address for “Quick Connect”</property>
+                    <property name="hexpand">True</property>
+                    <property name="width_chars">61</property>
+                    <property name="secondary_icon_name">edit-clear</property>
+                    <property name="primary_icon_tooltip_text" translatable="yes">Server name or IP address</property>
+                    <property name="secondary_icon_tooltip_text" translatable="yes">Clear</property>
+                    <property name="primary_icon_tooltip_markup" translatable="yes">Server name or IP address</property>
+                    <property name="secondary_icon_tooltip_markup" translatable="yes">Clear</property>
+                    <property name="completion">entrycompletion</property>
+                    <property name="input_hints">GTK_INPUT_HINT_WORD_COMPLETION | GTK_INPUT_HINT_NONE</property>
+                    <signal name="activate" handler="remmina_main_quickconnect_on_click" swapped="no"/>
+                    <signal name="changed" handler="remmina_main_quick_search_on_changed" swapped="no"/>
+                    <signal name="focus-in-event" handler="remmina_main_quick_search_enter" swapped="no"/>
+                    <signal name="icon-press" handler="remmina_main_quick_search_on_icon_press" swapped="no"/>
+                    <signal name="insert-at-cursor" handler="remmina_main_load_files_cb" swapped="no"/>
+                    <accelerator key="f" signal="grab-focus" modifiers="GDK_CONTROL_MASK"/>
+                  </object>
+                  <packing>
+                    <property name="expand">True</property>
+                    <property name="fill">True</property>
+                    <property name="position">2</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkSeparator" id="separator2">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">3</property>
+                  </packing>
+                </child>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkMenuBar" id="menubar_main">
+            <property name="app_paintable">True</property>
+            <property name="can_focus">False</property>
+            <child>
+              <object class="GtkMenuItem" id="menuitem_popup">
+                <property name="app_paintable">True</property>
+                <property name="can_focus">False</property>
+                <property name="label">Popup menu</property>
+                <child type="submenu">
+                  <object class="GtkMenu" id="menu_popup">
+                    <property name="visible">True</property>
+                    <property name="app_paintable">True</property>
+                    <property name="can_focus">False</property>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem_popup_connect">
+                        <property name="visible">True</property>
+                        <property name="app_paintable">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="action_name">main.connect</property>
+                        <property name="label" translatable="yes">Connect</property>
+                        <property name="use_underline">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkSeparatorMenuItem" id="separatormenuitem1">
+                        <property name="visible">True</property>
+                        <property name="app_paintable">True</property>
+                        <property name="can_focus">False</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem_popup_copy">
+                        <property name="visible">True</property>
+                        <property name="app_paintable">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="action_name">main.copy</property>
+                        <property name="label" translatable="yes">Copy</property>
+                        <property name="use_underline">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem_popup_edit">
+                        <property name="visible">True</property>
+                        <property name="app_paintable">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="action_name">main.edit</property>
+                        <property name="label" translatable="yes">Edit</property>
+                        <property name="use_underline">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem_popup_delete">
+                        <property name="visible">True</property>
+                        <property name="app_paintable">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="action_name">main.delete</property>
+                        <property name="label" translatable="yes">Delete</property>
+                        <property name="use_underline">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem_popup_externaltools">
+                        <property name="visible">True</property>
+                        <property name="app_paintable">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="action_name">main.exttools</property>
+                        <property name="label" translatable="yes">Tools</property>
+                        <property name="use_underline">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem_popup_collapse">
+                        <property name="visible">True</property>
+                        <property name="app_paintable">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="action_name">main.collapse</property>
+                        <property name="label" translatable="yes">Collapse all</property>
+                        <property name="use_underline">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem_popup_expand">
+                        <property name="visible">True</property>
+                        <property name="app_paintable">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="action_name">main.expand</property>
+                        <property name="label" translatable="yes">Expand all</property>
+                        <property name="use_underline">True</property>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkMenuItem" id="menuitem_popup_full">
+                <property name="app_paintable">True</property>
+                <property name="can_focus">False</property>
+                <property name="label">Menu Popup HeaderBar</property>
+                <child type="submenu">
+                  <object class="GtkMenu" id="menu_popup_full">
+                    <property name="visible">True</property>
+                    <property name="app_paintable">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="halign">start</property>
+                    <property name="valign">start</property>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem_edit_preferences">
+                        <property name="visible">True</property>
+                        <property name="app_paintable">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="action_name">main.preferences</property>
+                        <property name="label" translatable="yes">_Preferences</property>
+                        <property name="use_underline">True</property>
+                        <accelerator key="p" signal="activate" modifiers="GDK_CONTROL_MASK"/>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem_tools_mpchange">
+                        <property name="visible">True</property>
+                        <property name="app_paintable">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="action_name">main.mpchange</property>
+                        <property name="label" translatable="yes">Multi password changer</property>
+                        <property name="use_underline">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem_help_debug">
+                        <property name="visible">True</property>
+                        <property name="app_paintable">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="action_name">main.debug</property>
+                        <property name="label" translatable="yes">Debugging</property>
+                        <property name="use_underline">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem_tools_import">
+                        <property name="visible">True</property>
+                        <property name="app_paintable">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="action_name">main.import</property>
+                        <property name="label" translatable="yes">Import</property>
+                        <property name="use_underline">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem_tools_export">
+                        <property name="visible">True</property>
+                        <property name="app_paintable">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="action_name">main.export</property>
+                        <property name="label" translatable="yes">Export</property>
+                        <property name="use_underline">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem_help_news">
+                        <property name="visible">True</property>
+                        <property name="app_paintable">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="action_name">main.news</property>
+                        <property name="label" translatable="yes">News</property>
+                        <property name="use_underline">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem_set_default">
+                        <property name="visible">True</property>
+                        <property name="app_paintable">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="action_name">main.default</property>
+                        <property name="label" translatable="yes">Set as default remote desktop client</property>
+                        <property name="use_underline">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem_tools_plugins">
+                        <property name="visible">True</property>
+                        <property name="app_paintable">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="action_name">main.plugins</property>
+                        <property name="label" translatable="yes">Plugins</property>
+                        <property name="use_underline">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkSeparatorMenuItem" id="menuitem_help_separator1">
+                        <property name="visible">True</property>
+                        <property name="app_paintable">True</property>
+                        <property name="can_focus">False</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem_help_homepage">
+                        <property name="visible">True</property>
+                        <property name="app_paintable">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="action_name">main.homepage</property>
+                        <property name="label" translatable="yes">Homepage</property>
+                        <property name="use_underline">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem_help_donations">
+                        <property name="visible">True</property>
+                        <property name="app_paintable">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="action_name">main.donations</property>
+                        <property name="label" translatable="yes">Donations</property>
+                        <property name="use_underline">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem_help_wiki">
+                        <property name="visible">True</property>
+                        <property name="app_paintable">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="action_name">main.wiki</property>
+                        <property name="label" translatable="yes">Wiki</property>
+                        <property name="use_underline">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem_help_community">
+                        <property name="visible">True</property>
+                        <property name="app_paintable">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="action_name">main.community</property>
+                        <property name="label" translatable="yes" comments="Remmina community website">Online Community</property>
+                        <property name="use_underline">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkSeparatorMenuItem" id="menuitem_tools_separator">
+                        <property name="visible">True</property>
+                        <property name="app_paintable">True</property>
+                        <property name="can_focus">False</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkSeparatorMenuItem" id="menuitem_quit_separator1">
+                        <property name="visible">True</property>
+                        <property name="app_paintable">True</property>
+                        <property name="can_focus">False</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem_help_about">
+                        <property name="visible">True</property>
+                        <property name="app_paintable">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="action_name">main.about</property>
+                        <property name="label" translatable="yes">About</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem_connection_quit">
+                        <property name="visible">True</property>
+                        <property name="app_paintable">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="action_name">main.quit</property>
+                        <property name="label" translatable="yes">_Quit</property>
+                        <property name="use_underline">True</property>
+                        <accelerator key="q" signal="activate" modifiers="GDK_CONTROL_MASK"/>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkScrolledWindow" id="scrolled_files_list">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <child>
+              <object class="GtkTreeView" id="tree_files_list">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="search_column">3</property>
+                <property name="enable_grid_lines">both</property>
+                <signal name="button-press-event" handler="remmina_main_file_list_on_button_press" swapped="no"/>
+                <signal name="key-press-event" handler="remmina_main_file_list_on_key_press" swapped="no"/>
+                <signal name="row-activated" handler="remmina_main_file_list_on_row_activated" swapped="no"/>
+                <child internal-child="selection">
+                  <object class="GtkTreeSelection" id="treeview-selection3"/>
+                </child>
+                <child>
+                  <object class="GtkTreeViewColumn" id="column_files_list_name">
+                    <property name="resizable">True</property>
+                    <property name="title" translatable="yes">Name</property>
+                    <property name="clickable">True</property>
+                    <property name="sort_column_id">1</property>
+                    <child>
+                      <object class="GtkCellRendererPixbuf" id="renderer_files_list_icon">
+                        <property name="stock_size">1</property>
+                      </object>
+                      <attributes>
+                        <attribute name="icon-name">0</attribute>
+                      </attributes>
+                    </child>
+                    <child>
+                      <object class="GtkCellRendererText" id="renderer_files_list_name"/>
+                      <attributes>
+                        <attribute name="text">1</attribute>
+                      </attributes>
+                    </child>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkTreeViewColumn" id="column_files_list_group">
+                    <property name="resizable">True</property>
+                    <property name="title" translatable="yes">Group</property>
+                    <property name="clickable">True</property>
+                    <property name="sort_column_id">2</property>
+                    <child>
+                      <object class="GtkCellRendererText" id="renderer_files_list_group"/>
+                      <attributes>
+                        <attribute name="text">2</attribute>
+                      </attributes>
+                    </child>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkTreeViewColumn" id="column_files_list_server">
+                    <property name="resizable">True</property>
+                    <property name="title" translatable="yes">Server</property>
+                    <property name="clickable">True</property>
+                    <property name="sort_column_id">3</property>
+                    <child>
+                      <object class="GtkCellRendererText" id="renderer_files_list_server"/>
+                      <attributes>
+                        <attribute name="text">3</attribute>
+                      </attributes>
+                    </child>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkTreeViewColumn" id="column_files_list_plugin">
+                    <property name="resizable">True</property>
+                    <property name="title" translatable="yes">Plugin</property>
+                    <property name="clickable">True</property>
+                    <property name="sort_column_id">4</property>
+                    <child>
+                      <object class="GtkCellRendererText" id="renderer_files_list_plugin"/>
+                      <attributes>
+                        <attribute name="text">4</attribute>
+                      </attributes>
+                    </child>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkTreeViewColumn" id="column_files_list_date">
+                    <property name="resizable">True</property>
+                    <property name="title" translatable="yes">Last used</property>
+                    <property name="clickable">True</property>
+                    <property name="sort_indicator">True</property>
+                    <property name="sort_order">descending</property>
+                    <property name="sort_column_id">5</property>
+                    <signal name="clicked" handler="remmina_main_on_date_column_sort_clicked" swapped="no"/>
+                    <child>
+                      <object class="GtkCellRendererText" id="renderer_files_list_date"/>
+                      <attributes>
+                        <attribute name="text">5</attribute>
+                      </attributes>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">True</property>
+            <property name="fill">True</property>
+            <property name="position">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkStatusbar" id="statusbar_main">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">3</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

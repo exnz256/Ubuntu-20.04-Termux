@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Cards
+Comment=Card games
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=gnome-aisleriot
+Type=Directory
+X-Ubuntu-Gettext-Domain=gnome-menus-3.0

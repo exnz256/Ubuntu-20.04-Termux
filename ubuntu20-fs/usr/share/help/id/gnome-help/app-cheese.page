@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="app-cheese" xml:lang="id">
+
+  <info>
+    <credit type="author">
+      <name>Tim Dokumentasi Ubuntu</name>
+      <email>ubuntu-doc@lists.ubuntu.com</email>
+    </credit>
+    <desc>Hal ini seperti kios foto pribadi Anda sendiri.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <link type="guide" xref="media#videos"/>
+    <revision version="16.04" date="2016-03-16" status="review"/>
+  </info>
+
+  <title>Membuat foto dan video yang menyenangkan dengan webcam Anda</title>
+
+  <p>Dengan aplikasi <app>Cheese</app> dan webcam Anda, Anda dapat mengambil foto dan video, menerapkan efek khusus yang menyenangkan dan berbagi kesenangan dengan orang lain.</p>
+
+  <p>Untuk bantuan menggunakan Cheese, baca <link href="help:cheese">Panduan pengguna Cheese</link>.</p>
+
+</page>

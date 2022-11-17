@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="net-chat-empathy" xml:lang="id">
+  <info>
+    <link type="guide" xref="net-chat"/>
+    <link type="seealso" xref="net-chat-video"/>
+    
+    <revision version="17.10" date="2017-05-02" status="review"/>
+
+    <credit type="author">
+      <name>Tim Dokumentasi Ubuntu</name>
+      <email>ubuntu-doc@lists.ubuntu.com</email>
+    </credit>
+
+    <desc>Dengan <app>Empathy</app> Anda dapat mengobrol, memanggil, dan memanggil video dengan teman dan kolega pada berbagai jaringan</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>Pesan instan di Ubuntu</title>
+
+  <p>Dengan aplikasi <app>Empathy</app>, Anda dapat mengobrol dengan orang daring dan dengan teman dan kolega yang menggunakan Google Talk, AIM, Windows Live, dan banyak program obrolan lainnya. Dengan mikrofon atau webcam Anda juga dapat memiliki panggilan audio atau video.</p>
+
+  <p>Empathy tidak diinstal secara default di Ubuntu, tetapi Anda dapat <link href="apt:empathy">menginstalnya</link> dari arsip paket Ubuntu. Untuk bantuan dengan menggunakan Empathy, bacalah <link href="help:empathy">manual Empathy</link>.</p>
+
+</page>

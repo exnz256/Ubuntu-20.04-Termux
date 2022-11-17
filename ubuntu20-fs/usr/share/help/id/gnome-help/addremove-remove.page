@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="addremove-remove" xml:lang="id">
+
+  <info>
+    <credit type="author">
+      <name>Tim Dokumentasi Ubuntu</name>
+    </credit>
+    <desc>Menghapus aplikasi yang tidak lagi digunakan.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <link type="guide" xref="addremove" group="#first"/>
+    <link type="seealso" xref="addremove-install-synaptic"/>
+    <revision version="18.04" date="2018-03-18" status="review"/>
+  </info>
+
+  <title>Menghapus aplikasi</title>
+
+  <p>Aplikasi adalah perangkat lunak yang memiliki antarmuka pengguna grafis (GUI). Anda dapat menggunakan <app>Perangkat Lunak Ubuntu</app> untuk menghapus aplikasi yang tidak lagi digunakan.</p>
+
+   <p>Aplikasi tersedia dalam dua format: paket snap dan paket Debian. Sebuah aplikasi yang tersedia sebagai paket snap dari sekarang disebut sebagai <em>snap</em>. Beberapa aplikasi tersedia dalam kedua format. Dalam kasus seperti itu di <app>Perangkat Lunak Ubuntu</app> snap akan dicantumkan pertama.</p> 
+
+   <p>Anda mungkin juga ingin menghapus perangkat lunak yang tidak memiliki GUI. Untuk menghapus perangkat lunak tersebut, Anda dapat menggunakan <link xref="addremove-install-synaptic">Synaptic</link>. Perhatikan bahwa <app>Synaptic</app> tidak menampilkan daftar snap.</p>
+
+  <p>Untuk menghapus aplikasi:</p>
+    
+  <steps>
+    <item>
+      <p>Klik ikon <app>Perangkat Lunak Ubuntu</app> di <gui>Dok</gui>, atau cari <input>Perangkat Lunak</input> di bilah pencarian <em>Aktivitas</em>.</p>
+    </item>
+    <item>
+      <p>Ketika membuka <app>Perangkat Lunak Ubuntu</app>, klik tombol <gui>Terpasang</gui> di bagian atas.</p>
+    </item>
+    <item>
+      <p>Temukan aplikasi yang ingin Anda hapus dengan menggunakan kotak pencarian atau dengan melihat melalui daftar aplikasi yang diinstal.</p>
+    </item>
+    <item>
+      <p>Pilih aplikasi dan klik <gui>Hapus</gui>.</p>
+    </item>
+    <item>
+      <p>Konfirmasi bahwa Anda ingin menghapus aplikasi.</p>
+    </item>
+    <item>
+      <p>Anda akan diminta untuk mengotentikasi dengan memasukkan kata sandi Anda. Setelah Anda melakukan itu, aplikasi akan dihapus.</p>
+    </item>
+
+  </steps>
+
+  <note>
+    <p>Beberapa aplikasi tergantung pada aplikasi lain untuk bekerja dengan baik. Jika Anda mencoba untuk menghapus aplikasi yang diperlukan oleh aplikasi lain, keduanya akan dihapus. Anda akan diminta untuk mengkonfirmasi apakah Anda ingin hal ini terjadi sebelum aplikasi dihapus.</p>
+  </note>
+
+</page>

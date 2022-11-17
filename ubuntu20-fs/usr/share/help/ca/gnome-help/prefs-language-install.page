@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="prefs-language-install" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="addremove" group="#last"/>
+    <link type="seealso" xref="prefs-language"/>
+
+    <desc>Instaŀleu més traduccions i paquets de suport d'idiomes relacionats.</desc>
+    <revision version="17.10" date="2017-09-25" status="review"/>
+    <credit type="author">
+      <name>Gunnar Hjalmarsson</name>
+      <email>gunnarhj@ubuntu.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>Instaŀleu idiomes</title>
+
+  <p>Quan instaŀleu l'Ubuntu, l'idioma que seleccioneu a la instaŀlació s'instaŀla juntament amb l'anglès, però hi podeu afegir més idiomes.</p>
+
+  <steps>
+    <item>
+      <p>Obriu les <gui xref="shell-introduction#activities">Activitats</gui> i comenceu a escriure <gui>Regió i idioma</gui>.</p>
+    </item>
+    <item>
+      <p>Cliqueu a <gui>Regió i idioma</gui> per tal d'obrir el panell.</p>
+    </item>
+    <item>
+      <p>Cliqueu el botó <gui>Gestiona els idiomes instaŀlats</gui> per tal d'obrir el <gui>Suport d'idioma</gui>.</p>
+    </item>
+    <item>
+      <p>Cliqueu <gui>Instaŀla / Elimina idiomes...</gui>. La finestra <gui>Idiomes instaŀlats</gui> llista tots els idiomes disponibles, amb els idiomes actualment instaŀlats marcats.</p>
+    </item>
+    <item>
+      <p>Marqueu els idiomes que voleu instaŀlar i desmarqueu els que estan instaŀlats i que voleu eliminar.</p>
+    </item>
+    <item>
+      <p>Cliqueu <gui>Aplica els canvis</gui>.</p>
+    </item>
+    <item>
+      <p>Es requereixen <link xref="user-admin-explain">privilegis administratius</link>. Introduïu la vostra contrasenya o la contrasenya de l'administrador requerida.</p>
+    </item>
+  </steps>
+
+  <p>A més de les traduccions que es fan servir per mostrar els menús i els missatges, amb un nou idioma hi ha components de suport d'idioma com diccionaris per verificació ortogràfica, fonts i mètodes d'introducció.</p>
+
+  <note>
+    <p>Algunes traduccions poden estar incompletes, i certes aplicacions poden no tenir suport per al vostre idioma en absolut.</p>
+  </note>
+
+</page>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="stereotools" xml:lang="pt-BR">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    </info>
+    <title>Ferramentas Stereo</title>
+    <p>PulseEffects usa as ferramentas stereo desenvolvidas por Calf Studio.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Clipe Macio</em>
+            </title>
+            <p>Faça uma espécie de distorção analógica em vez de um duro recorte digital de 0 db.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Balanço</em>
+            </title>
+            <p>Configura o balanço entre ambos os canais.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Nível de S/C</em>
+            </title>
+            <p/>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Modo</em>
+            </title>
+            <p>Escolha o comportamento estéreo normal (ED - ED) ou converta entre ML e ED.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Nível Lateral</em>
+            </title>
+            <p>Nível do sinal lateral.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Balanço Lateral</em>
+            </title>
+            <p>Balanço do sinal Lateral.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Nível do Meio</em>
+            </title>
+            <p>Posição do sinal do meio no panorama stereo.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Atraso E/D</em>
+            </title>
+            <p>Atrase o canal esquerdo ou direito (milissegundos). Valores negativos atrasam o canal esquerdo e valores positivos no canal direito.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Base Stereo</em>
+            </title>
+            <p>Defina a base estéreo do seu material entre mono e canais invertidos.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Fase Stereo</em>
+            </title>
+            <p>Configura a fase stereo do seu material.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Referências</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://calf-studio-gear.org/doc/Stereo%20Tools.html" its:translate="no">
+                        https://calf-studio-gear.org/doc/Stereo%20Tools.html
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

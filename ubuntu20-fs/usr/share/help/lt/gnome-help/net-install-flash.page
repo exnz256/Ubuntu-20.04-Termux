@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:ui="http://projectmallard.org/ui/1.0/" type="topic" style="task" id="net-install-flash" xml:lang="lt">
+  <info>
+    <link type="guide" xref="net-browser"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+    <revision version="18.04" date="2018-01-23" status="review"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ubuntu documentacijos komanda</name>
+    </credit>
+
+    <desc>Jums gali tekti įdiegti „Flash“ priedą naršyklėms, kad galėtumėte pilnai naudotis senesnėmis interneto svetainėmis, kuriose yra vaizdo įrašų arba interaktyvių elementų.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>Įdiegti Flash priedą naršyklėms</title>
+
+<p>Flash - tai <em>papildinys</em> interneto naršyklei, kuris senesniuose interneto puslapiuose leidžia rodyti įvairių formatų video bei kurti interaktyves svetaines ir internetinius žaidimus. Vietoj pasenusios „Flash“ technologijos dabar naudojama modernus HTML5 standartas, tačiau vis dar yra seniau sukurtų interneto svetainių bei žaidimų kuriems būtinas <em>Flash priedas</em>.</p>
+
+<p>Jei Flash priedas neįdiegtas į operacinę sistemą, naršant interneto puslapius jums gali atsirasti pranešimas dėl neįdiegto „Flash plugin“. Flash priedas yra nemokamas (bet ne atvirojo kodo) visoms populiariausioms interneto naršyklėms.</p>
+
+<note style="warning">
+ <p>Adobe has announced that they will stop updating and distributing the Flash Player at the end
+ of 2020. Consequently, for security reasons, the Flash plug-in should not be used after 2020.</p>
+</note>
+
+<p>Priedai yra 2 tipų:</p>
+
+<list>
+ <item>
+  <p><em>NPAPI</em>, skirtas <app>Firefox</app> ir kitoms „Gecko“ pagrindu sukurtoms interneto naršyklėms</p>
+ </item>
+ <item>
+  <p><em>PPAPI</em>,skirtas <app>Chromium</app> ir kitoms „Blink“ pagrindu sukurtoms interneto naršyklėms, kaip <app>Opera</app> ir <app>Vivaldi</app></p>
+ </item>
+</list>
+
+<note>
+ <p><app>Google Chrome</app> interneto naršyklė platinama su įdiegtu Flash priedu, todėl ją naudojantiems nereikia įdiegti papildomai.</p>
+</note>
+
+<section id="flashplugin-installer">
+ <title>flashplugin-installer paketas</title>
+
+ <p>The <app>flashplugin-installer</app> pakete yra Flash (NPAPI) priedas Firefox naršyklei. <link href="apt:flashplugin-installer">Įdiekite paketą</link> ir paleiskite naršyklę iš naujo.</p>
+
+</section>
+
+<section id="adobe-flashplugin">
+ <title>adobe-flashplugin paketas</title>
+
+ <p>The <app>adobe-flashplugin</app> pakete yra Flash (NPAPI bei PPAPI) priedai tinkantys ir Firefox, ir Chromium bei jų pagrindu sukurtoms naršyklėms.</p>
+
+ <steps>
+  <item>
+   <p>Įsitikinkite, kad <link xref="addremove-sources#canonical-partner">Canonical Partner saugykla yra įjungta</link>.</p>
+  </item>
+  <item>
+   <p>Įdiekite <link href="apt:adobe-flashplugin">adobe-flashplugin</link> paketą ir paleiskite naršyklę iš naujo.</p>
+  </item>
+  <item>
+   <p>Perleiskite naršyklę iš naujo.</p>
+  </item>
+ </steps>
+
+</section>
+
+<section id="browser-plugin-freshplayer-pepperflash">
+ <title>browser-plugin-freshplayer-pepperflash paketas</title>
+
+ <p>Keletas „Flash“ PPAPI priedo galimybių, kaip aparatinis 3D spartinimas bei DRM užkoduotų vaizdo įrašų rodymas nepalaikomos NPAPI priedo. Naudojantys Firefox ar kitą „Gecko“ pagrindu sukurtą interneto naršyklę gali įdiegti <app>browser-plugin-freshplayer-pepperflash</app> paketą. Šis paketas suteikia galimybę Firefox (ir kitoms „Gecko“ naršyklėms) naudotis the PPAPI priedo teikiamomis galimybėmis.</p>
+
+ <steps>
+  <item>
+   <p>Įsitikinkite, kad <app>adobe-flashplugin</app>yra įdiegtas.</p>
+  </item>
+  <item>
+   <p>Atverkite komandų įvedimo terminalo langą paspausdami <keyseq><key>Ctrl</key><key>Alt</key><key>T</key></keyseq> klavišus ir įdiekite <app>browser-plugin-freshplayer-pepperflash</app> paketą įrašydami komandą:</p>
+   <p><cmd its:translate="no">sudo apt install browser-plugin-freshplayer-pepperflash</cmd></p>
+  </item>
+  <item>
+   <p>Perleiskite naršyklę iš naujo.</p>
+  </item>
+ </steps>
+
+</section>
+
+<section id="snap">
+ <title>Naršyklėms įdiegtoms iš „snap“ paketų</title>
+
+ <p>Jei naudojate iš „snap“ paketų įdiegtą <app>Chromium</app> ar <app>Firefox</app> interneto naršyklę, tuomet aukščiau paminėtų „flash“ paketų įdiegimas netiks. Norėdami naudoti „Flash“ priedą iš naršyklėms įdiegtoms iš „snap“ paketų vadovaukitės žemiau nurodytomis instrukcijomis.</p>
+
+ <p>Please note that you are supposed to always use the latest version of Flash. It means that you
+ need to repeat step 2 - 7 once in a while to keep accessing web services which require Flash.</p>
+
+ <steps ui:expanded="false">
+ <title>„Flash“ priedo įdiegimas Firefox naršyklei iš „snap“ paketų</title>
+  <item>
+   <p its:locNote="Translators: Don't translate 'plugins' - it's the name of a folder on the file    system.">Sukurkite aplanką <sys>plugins</sys>:</p>
+   <p><cmd its:translate="no">mkdir ~/snap/firefox/common/.mozilla/plugins</cmd></p>
+  </item>
+  <item>
+   <p>Nueikite į svetainę <link href="https://get.adobe.com/flashplayer/">https://get.adobe.com/flashplayer/</link>.</p>
+  </item>
+  <item>
+   <p>Atsisiųskite <sys>.tar.gz</sys> failą Linux operacinei sistemai.</p>
+  </item>
+  <item>
+   <p>Nueikite į atsiųstų failų aplanką su failų naršykle.</p>
+  </item>
+  <item>
+   <p>Išskleiskite atsiųstą „flash“ priedo archyvo failą (flash*tar.gz) paspausdami ant jo dešinį pelės klavišą arba įvykdydami komandą:</p>
+   <p><cmd its:translate="no">tar xf flash_player*</cmd></p>
+  </item>
+  <item>
+   <p>Nukopijuokite <sys>libflashplayer.so</sys> failą į <sys>plugins</sys> aplanką:</p>
+   <p><cmd its:translate="no">cp libflashplayer.so ~/snap/firefox/common/.mozilla/plugins</cmd></p>
+  </item>
+  <item>
+   <p>Perleiskite naršyklę iš naujo.</p>
+  </item>
+ </steps>
+
+ <steps ui:expanded="false">
+ <title>„Flash“ priedo įdiegimas Chromium naršyklei iš „snap“ paketų</title>
+  <item>
+   <p its:locNote="Translators: Don't translate 'lib' - it's the name of a folder on the file    system.">Sukurkite <sys>lib</sys> aplanką:</p>
+   <p><cmd its:translate="no">mkdir ~/snap/chromium/current/.local/lib</cmd></p>
+  </item>
+  <item>
+   <p>Nueikite į svetainę <link href="https://get.adobe.com/flashplayer/">https://get.adobe.com/flashplayer/</link>.</p>
+  </item>
+  <item>
+   <p>Atsisiųskite <sys>.tar.gz</sys> failą Linux operacinei sistemai.</p>
+  </item>
+  <item>
+   <p>Nueikite į atsiųstų failų aplanką su failų naršykle.</p>
+  </item>
+  <item>
+   <p>Išskleiskite atsiųstą „flash“ priedo archyvo failą (flash*tar.gz) paspausdami ant jo dešinį pelės klavišą arba įvykdydami komandą:</p>
+   <p><cmd its:translate="no">tar xf flash_player*</cmd></p>
+  </item>
+  <item>
+   <p>Nukopijuokite <sys>libpepflashplayer.so</sys> failą į <sys>lib</sys> aplanlą:</p>
+   <p><cmd its:translate="no">cp libpepflashplayer.so ~/snap/chromium/current/.local/lib</cmd></p>
+  </item>
+  <item>
+   <p>Perleiskite naršyklę iš naujo.</p>
+  </item>
+ </steps>
+
+</section>
+
+</page>

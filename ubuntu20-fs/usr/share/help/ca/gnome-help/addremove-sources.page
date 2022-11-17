@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="addremove-sources" xml:lang="ca">
+
+  <info>
+    <credit type="author">
+      <name>Equip de documentació de l'Ubuntu</name>
+    </credit>
+    <desc>Afegiu repositoris per estendre les fonts de programari que usa l'Ubuntu per les instaŀlacions i les actualitzacions.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <link type="guide" xref="addremove"/>
+    <revision version="18.04" date="2018-03-18" status="review"/>
+  </info>
+
+  <title>Afegeix repositoris de programari</title>
+
+  <p>Hi ha programari disponibles de fonts de terceres parts, així com dels dipòsits predeterminats de l'Ubuntu. Si voleu instal·lar programari d'un dipòsit de programari d'una tercera part, l'heu d'afegir a la llista de dipòsits disponibles de l'Ubuntu.</p>
+
+  <note style="warning">
+    <p>Afegiu només dipòsits de programari de fonts en les quals confieu.</p>
+    <p>Els dipòsits de programari de terceres parts no estan verificats en quant a la seva seguretat o fiabilitat per membres de l'Ubuntu, i poden contenir programari que pot ser danyí per al vostre ordinador.</p>
+  </note>
+
+<p>
+</p>
+   <p>
+   To add a repository:
+   </p>
+
+  <steps>
+    <item>
+      <p>Cliqueu la icona de l'<app>Ubuntu Software</app> a l'<gui>Acoblador</gui>, o cerqueu <input>Programari</input> a la barra de cerca <em>Activitats</em>.</p>
+    </item>
+    <item>
+      <p>Quan s'iniciï el <app>Programari de l'Ubuntu</app>, cliqueu <gui>Programari i actualitzacions</gui></p>
+    </item>
+    <item>
+      <p>Se us demanarà entrar la contrasenya. Un cop que heu fet això, canvieu a la pestanya <gui>Altre programari</gui>.</p>
+    </item>
+    <item>
+      <p>Cliqueu <gui>Afegeix</gui> i entre la línia APT per al dipòsit. Això hauria d'estar disponible al lloc web del dipòsit, i hauria de ser semblant a:</p>
+      <p>
+        <code its:translate="no">deb http://archive.ubuntu.com/ubuntu/ focal main</code>
+      </p>
+    </item>
+    <item>
+      <p>Cliqueu <gui>Afegir font</gui> i tanqueu la finestra de  <app>Programari i actualitzacions</app>. El <app>Programari de l'Ubuntu</app> cercarà noves actualitzacions a les fonts de programari.</p>
+    </item>
+    <item>
+      <p>La majoria dels repositoris proveeixen una clau de signatura per poder verificar els paquets descarregats. Així, a més dels passos de dalt, hauríeu de seguir les instruccions possibles sobre com descarregar i instal·lar la clau de signatura (clau GPG).</p>
+    </item>
+  </steps>
+
+  <section id="canonical-partner">
+    <title>Activa el dipòsit Socis de Canonical</title>
+    <p>El repositori Canonical Partner ofereix algunes aplicacions privatives que no costen diners, però que són de codi tancat. Inclouen programari com l'<app>Adobe Flash Plugin</app>. El programari d'aquest repositori que apareixerà als resultats de les cerques a l'<app>Ubuntu Software</app> no es podrà instaŀlar fins que s'habiliti aquest repositori.</p>
+    <p>Per habilitar el repositori, seguiu els passos de dalt per obrir la pestanya <gui>Altre programari</gui> a <app>Programari i actualitzacions</app>. Si veieu el repositori <gui>Socis de Canonical</gui> a la llista, assegureu-vos que està marcat i després tanqueu la finestra <app>Programari i actualitzacions</app>. Si no el veieu, cliqueu <gui>Afegeix</gui> i entreu:</p>
+    <p>
+      <code its:translate="no">deb http://archive.canonical.com/ubuntu focal partner</code>
+    </p>
+    <p>Cliqueu <gui>Afegeix font</gui> i després tanqueu la finestra <app>Programari i actualitzacions</app>. Espereu un moment que el <app>Programari de l'Ubuntu</app> descarregui la informació del repositori.</p>
+  </section>
+
+</page>

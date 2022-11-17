@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="userpresets" style="2column" xml:lang="it-IT">
+    <info>
+        <link type="guide" xref="index#ui"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Digitalone</mal:name>
+      <mal:email>kurmikon@libero.it</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+    <title>Creazione e Importazione dei Profili Utente</title>
+    <media type="image" src="figures/userpresets.png" its:translate="no"/>
+    <p>Si possono creare e salvare profili personalizzati scegliendo un titolo e cliccando sul pulsante di aggiunta. I profili possono essere importati facendo clic sul pulsante a sinistra.</p>
+    <p>Quando un profilo viene salvato, la configurazione corrente di tutti i plugin viene esportata nel file di profilo. Ciò significa che si possono avere più profili che combinano gli effetti di diversi plugin.</p>
+    <p>È inoltre possibile creare un profilo caricabile automaticamente quando un dispositivo di ingresso o di uscita viene connesso al sistema. È sufficiente cliccare sul pulsante con le frecce ricurve mentre il dispositivo desiderato è selezionato come predefinito per il sistema.</p>
+</page>

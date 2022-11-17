@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="addremove-remove" xml:lang="ca">
+
+  <info>
+    <credit type="author">
+      <name>Equip de documentació de l'Ubuntu</name>
+    </credit>
+    <desc>Elimina les aplicacions que ja no feu servir</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <link type="guide" xref="addremove" group="#first"/>
+    <link type="seealso" xref="addremove-install-synaptic"/>
+    <revision version="18.04" date="2018-03-18" status="review"/>
+  </info>
+
+  <title>Suprimiu una aplicació</title>
+
+  <p>Una aplicació és programari que té una interfície d'usuari gràfica. Podeu emprar <app>Ubuntu Software</app> per eliminar les aplicacions que ja no utilitzeu.</p>
+
+   <p>Les aplicacions estan disponibles en dos formats: paquets snap i paquets Debian. Una aplicació disponible com a paquet snap és al que ens referirem d'ara endavant com a <em>snap</em>. Algunes aplicacions estan disponibles en tots dos formats. En aquest cas, a l' <app>Ubuntu Software</app> l'snap estarà llistat el primer.</p> 
+
+   <p>També podeu eliminar programari que no tingui interfície gràfica d'usuari. Per eliminar aquesta mena de programari, podeu fer servir el <link xref="addremove-install-synaptic">Synaptic</link>. Tingueu en compte que el <app>Synaptic</app> no llista snaps.</p>
+
+  <p>Per eliminar una aplicació:</p>
+    
+  <steps>
+    <item>
+      <p>Cliqueu la icona de l'<app>Ubuntu Software</app> a l'<gui>Acoblador</gui>, o cerqueu <input>Programari</input> a la barra de cerca <em>Activitats</em>.</p>
+    </item>
+    <item>
+      <p>Quan el <app>Programari de l'Ubuntu</app> s'iniciï, cliqueu el botó <gui>Instal·lat</gui> a dalt.</p>
+    </item>
+    <item>
+      <p>Trobeu l'aplicació que voleu suprimir usant el quadre de cerca o mirant a través de la llista d'aplicacions instal·lades.</p>
+    </item>
+    <item>
+      <p>Seleccioneu l'aplicació i feu clic a <gui>Suprimeix-lo</gui>.</p>
+    </item>
+    <item>
+      <p>Confirmeu que voleu eliminar l'aplicació</p>
+    </item>
+    <item>
+      <p>Se us demanarà autenticar-vos introduint la vostra contrasenya. Quan ho hagueu fet, l'aplicació s'eliminarà.</p>
+    </item>
+
+  </steps>
+
+  <note>
+    <p>Algunes aplicacions depenen d'altres aplicacions per funcionar correctament. Si intenteu suprimir una aplicació que es necessita a una altra aplicació, ambdues seran suprimides. Se us demanarà confirmar si voleu que això passi abans que se suprimeixin les aplicacions.</p>
+  </note>
+
+</page>

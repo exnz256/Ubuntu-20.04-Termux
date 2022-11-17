@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="addremove-sources" xml:lang="lt">
+
+  <info>
+    <credit type="author">
+      <name>Ubuntu documentacijos komanda</name>
+    </credit>
+    <desc>Pridėdami papildomas programų saugyklas galite išplėsti programų sąrašą, kurias galima įdiegti ar atnaujinti.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <link type="guide" xref="addremove"/>
+    <revision version="18.04" date="2018-03-18" status="review"/>
+  </info>
+
+  <title>Pridėti programų saugyklas</title>
+
+  <p>Programinę įrangą galima įdiegti ir iš kitų tiekėjų saugyklų, taip pat, kaip iš numatytųjų Ubuntu programų saugyklų. Jei norite įdiegti programas iš kitų tiekėjų saugyklų, prieš tai privalote pridėti tas saugyklas prie įjungtų saugyklų sąrašo.</p>
+
+  <note style="warning">
+    <p>Pridėkite tik patikimas programinės įrangos saugyklas!</p>
+    <p>Kitų tiekėjų programinės įrangos saugyklos nėra tikrinamos Ubuntu kūrėjų dėl saugumo spragų bei patikimumo, todėl čia gali būti jūsų kompiuteriui pavojingų programų.</p>
+  </note>
+
+<p>
+</p>
+   <p>Programų saugyklą pridėsite:</p>
+
+  <steps>
+    <item>
+      <p>Spustelėkite ant <app>„Programų centras“</app> (<app>Programinė įranga</app>) leistuko <gui>Skydelyje</gui> arba ieškokite įvesdami <input>program</input> <em>Apžvalgos</em> paieškoje.</p>
+    </item>
+    <item>
+      <p>Susiraskite <app>Programų saugyklos, atnaujinimai</app> įrankyje <app>Programinė įranga</app> arba per <em>Apžvalgos</em> paiešką</p>
+    </item>
+    <item>
+      <p>Jei paprašys patvirtinti tapatybę - įveskite savo arba saugyklų keitimo teises turinčio naudotojo slaptažodį. Tada pereikite į kortelę <gui>Kitos programų saugyklos</gui>.</p>
+    </item>
+    <item>
+      <p>Spustelėkite mygtuką <gui>Pridėti...</gui> ir atsidariusiame langelyje įveskite saugykos „APT“ (deb) eilutę. Ją turite rasti saugyklos puslapyje internete, atrodo panašiai į:</p>
+      <p>
+        <code its:translate="no">deb http://archive.ubuntu.com/ubuntu/ focal main</code>
+      </p>
+    </item>
+    <item>
+      <p>Paspauskite mygtuką <gui>Pridėti saugyklą</gui> ir užverkite <app>Programų saugyklos, atnaujinimai</app> langą. Jei paprašys patvirtinti tapatybę - įveskite savo arba administravimo teises turinčio naudotojo slaptažodį. <app>Programų centras</app> patikrins ir atsiųs naujai prieinamų programų sąrašą iš saugyklų.</p>
+    </item>
+    <item>
+      <p>Patikima saugykla turi pateikti el. parašo (GPG) raktą, kad galėtų patikrinti atsiųstus programų paketus. Todėl pridėdami kitų tiekėjų saugyklas papildomai turėtumėte įdiegti saugyklos viešąjį raktą (GPG key), kaip tai padaryti turėtų būti aprašyta saugyklos tiekėjo interneto puslapyje.</p>
+    </item>
+  </steps>
+
+  <section id="canonical-partner">
+    <title>„Canonical Partner“ saugyklos įjungimas</title>
+    <p>Canonical Partner saugykloje yra keletas nuosavybinių nemokamų, uždaro kodo programų, kaip <app>Adobe Flash Plugin</app>. Partner saugykloje esančią programinę įrangą galėsite įdiegti tik įjungę šią saugyklą.</p>
+    <p>Partner saugyklos  įjungimui atverkite <gui>Kitos programų saugyklos</gui> kortelę <app>Programų saugyklos, atnaujinimai</app> lange, kaip parašyta aukščiau. Jei čia matote <gui>Canonical Partners</gui> eilutę - uždėkite varnelę pradžioje, tuomet užverkite <app>Programų saugyklos, atnaujinimai</app> langą. Jei sąraše nėra <gui>Canonical Partners</gui> - paspauskite mygtuką <gui>Pridėti</gui> ir įveskite:</p>
+    <p>
+      <code its:translate="no">deb http://archive.canonical.com/ubuntu focal partner</code>
+    </p>
+    <p>Paspauskite mygtuką <gui>Pridėti saugyklą</gui> ir užverkite <app>Programos, atnaujinimai, saugyklos</app> langą. Jei paprašys patvirtinti tapatybę - įveskite savo arba administravimo teises turinčio naudotojo slaptažodį ir luktelėkite kol <app>Programų centras</app> patikrins ir atsiųs naujai prieinamų programų sąrašą iš saugyklų.</p>
+  </section>
+
+</page>

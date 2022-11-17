@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="convolver" xml:lang="de">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>David Keller</mal:name>
+      <mal:email>davidkeller@tuta.io</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+    <title>Convolver</title>
+    <p>Ein Convolver erzeugt eine Simulation einer Audioumgebung. Er basiert auf der mathematischen Faltungsoperation und verwendet ein voraufgezeichnetes Audio-Sample der Impulsantwort des zu modellierenden Raumes.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Impuls importieren</em>
+            </title>
+            <p>Importiert eine Impulsantwortdatei in das Konfigurationsverzeichnis von PulseEffects.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Stereo-Breite</em>
+            </title>
+            <p>Ändert die Breite des Stereobildes der Impulsantwort.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Spektrum</em>
+            </title>
+            <p>Visualisiere das Frequenzspektrum des ausgewählten Kanals.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Referenzen</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Convolution_reverb" its:translate="no">
+                        https://en.wikipedia.org/wiki/Convolution_reverb
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

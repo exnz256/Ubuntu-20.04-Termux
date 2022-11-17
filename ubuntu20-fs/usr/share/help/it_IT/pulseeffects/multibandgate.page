@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="multibandgate" xml:lang="it-IT">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Digitalone</mal:name>
+      <mal:email>kurmikon@libero.it</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+    <title>Gate Multibanda</title>
+    <p>Questo tipo di Gate divide il segnale in quattro diverse bande di frequenza. Queste bande vengono processate separatamente e i loro segnali verranno rimescolati al termine dell'elaborazione.</p>
+    <p>PulseEffects usa il Gate Multibanda sviluppato da Calf Studio.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Attacco</em>
+            </title>
+            <p>Valore in millisecondi per cui il segnale deve rimanere oltre la soglia affinchè la compressione venga applicata interamente.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Rilascio</em>
+            </title>
+            <p>Valore in millisecondi per cui il segnale deve rimanere sotto la soglia affinchè la compressione venga terminata.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Riduzione</em>
+            </title>
+            <p>Il livello di riduzione per la banda selezionata.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Soglia</em>
+            </title>
+            <p>Se il segnale supera il valore specificato, verrà applicata la compressione.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Rapporto</em>
+            </title>
+            <p>Imposta il rapporto di compressione. 1 non applica alcuna compressione, mentre valori maggiori applicano una compressione più marcata.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Curvatura</em>
+            </title>
+            <p>Valore che determina la fluidità con cui si entra nella fase di compressione. 0 indica un'applicazione immediata, mentre valori più alti applicano la compressione in modo più soffice.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Guadagno</em>
+            </title>
+            <p>Valore di amplificazione del segnale dopo l'applicazione della compressione.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Bypass</em>
+            </title>
+            <p>Non elabora nulla, fa passare inalterato il segnale della banda selezionata.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Rilevamento</em>
+            </title>
+            <p>Imposta se il compressore multibanda deve assumere il picco del segnale o il valore RMS (più morbido) per il rilevamento.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Isola</em>
+            </title>
+            <p>Silenzia tutte le tracce non selezionate.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Modalità</em>
+            </title>
+            <p>La modalità crossover. Si può scegliere tra il quarto ordine Linkwitz-Riley (LR4) e l'ottavo ordine Linkwitz-Riley (LR8).</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Frequenza Split 1/2</em>
+            </title>
+            <p>Frequenza che separa la sottobanda e la banda bassa.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Frequenza Split 2/3</em>
+            </title>
+            <p>Frequenza che separa la banda bassa e la banda media.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Frequenza Split 3/4</em>
+            </title>
+            <p>Frequenza che separa la banda media e la banda alta.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Note</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://calf-studio-gear.org/doc/Multiband Gate.html" its:translate="no">
+                        https://calf-studio-gear.org/doc/Multiband Gate.html
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Noise_gate" its:translate="no">
+                        https://en.wikipedia.org/wiki/Noise_gate
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

@@ -1,0 +1,89 @@
+﻿#locale/sv/symbols.dic
+#A part of NonVisual Desktop Access (NVDA)
+#Copyright (c) 2011 Mesar Hameed <mhameed@src.gnome.org>
+#Copyright (c) 2014 Daniel Johansson <daniel.johansson@coeptus.se>
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+#
+#to help with the Swedish localization, contact mhameed@src.gnome.org
+
+symbols:
+# identifier	replacement[[	level][	preserve]][	# display name]
+
+# Complex symbols
+. sentence ending	punkt
+! sentence ending	utropstecken
+? sentence ending	frågetecken
+; phrase ending	semikolon
+: phrase ending	kolon
+in-word '	apostrof
+
+# Whitespace
+\0	blank
+\t	tab
+\n	ny rad
+\f	sidbrytning
+\r	radbrytning
+ 	mellanslag
+ 	mellanslag # no-break space
+
+# Standard punctuation/symbols
+!	utropstecken
+"	citat
+\#	nummer
+$	dollar
+£	pund
+€	euro
+%	procent
+&	och
+'	apostrof
+(	vänster parentes
+)	höger parentes
+*	stjärna
++	plus
+,	komma
+-	streck
+.	punkt
+/	snedstreck
+:	kolon
+;	semikolon
+<	mindre än
+>	större än
+=	likhetstecken
+?	frågetecken
+@	snabel-a
+[	vänster hakparentes
+]	höger hakparentes
+\\	omvänt snedstreck
+^	markör
+_	understreck
+`	grav accent
+{	vänster klammer
+}	höger klammer
+|	vertikalt streck
+~	tilde
+
+# Other characters
+•	bomb
+…	punkt punkt punkt
+	bomb
+“	vänster citat
+”	höger citat
+‘	vänster apostrof
+’	höger apostrof
+–	en dash
+—	em dash
+●	cirkel
+¨	diaeresis	most
+

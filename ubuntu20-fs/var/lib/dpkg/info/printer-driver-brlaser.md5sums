@@ -1,0 +1,6 @@
+8f0b1347b6ff34be6cb405e588496015  usr/lib/cups/filter/rastertobrlaser
+b1c3230cc7f3e740d4170b042828ea29  usr/share/cups/drv/brlaser.drv
+846b31d0da7e0b7cf327370b736483cf  usr/share/cups/ppd-updaters/printer-driver-brlaser.ppd-updater
+5c9ef8c0c29597db2c0662c9287cb71e  usr/share/doc/printer-driver-brlaser/README.md
+8f87560eade74d7f2dd28aafab161bbb  usr/share/doc/printer-driver-brlaser/changelog.Debian.gz
+18c9f1667ff9153d9f31f6d02f7fd83f  usr/share/doc/printer-driver-brlaser/copyright

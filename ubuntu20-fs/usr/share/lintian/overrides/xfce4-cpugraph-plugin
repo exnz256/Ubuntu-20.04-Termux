@@ -1,0 +1,2 @@
+# we do build with hardening flags
+xfce4-cpugraph-plugin: hardening-no-fortify-functions usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libcpugraph.so

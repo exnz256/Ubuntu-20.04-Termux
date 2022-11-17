@@ -1,0 +1,6 @@
+ae6ef6f007f8575e5abf599a5d4247fd  usr/share/bug/libjurt-java/presubj
+c92f3a9b7fc07358987f755d5060ce80  usr/share/doc/libjurt-java/copyright
+fcf81ff7c338f9ad47bf2647a9e97e78  usr/share/java/jurt-6.4.7.jar
+80e992f6cd3e895f119d16c402048bb0  usr/share/lintian/overrides/libjurt-java
+0789332ddcc9977bdf273621378aa132  usr/share/maven-repo/org/libreoffice/jurt/6.4.7/jurt-6.4.7.pom
+a197b2e1a90d30e6691f177cfc4e6e72  usr/share/maven-repo/org/libreoffice/jurt/debian/jurt-debian.pom

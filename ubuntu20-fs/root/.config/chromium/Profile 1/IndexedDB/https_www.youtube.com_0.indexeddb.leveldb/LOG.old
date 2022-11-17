@@ -1,0 +1,5 @@
+2022/11/11-18:35:39.336 3e27 Reusing MANIFEST /root/.config/chromium/Profile 1/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/11-18:36:54.839 3e27 Level-0 table #5: started
+2022/11/11-18:36:54.869 3e27 Level-0 table #5: 71466 bytes OK
+2022/11/11-18:36:54.893 3e27 Delete type=0 #3
+2022/11/11-18:36:54.898 3e27 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- -*- Mode: XML; indent-tabs-mode: nil; tab-width: 2 -*- -->
+<!--
+SPDX-License-Identifier: CC-BY-SA-4.0
+SPDX-FileCopyrightText: Michael Terry
+-->
+<component xmlns:its="http://www.w3.org/2005/11/its" type="desktop-application" its:version="2.0">
+  <id>org.gnome.DejaDup</id>
+  <name>Déjà Dup Backup Tool</name>
+  <name xml:lang="zh_TW">Déjà Dup 備份工具</name>
+  <name xml:lang="zh_HK">Déjà Dup 備份工具</name>
+  <name xml:lang="zh_CN">Déjà Dup 备份工具</name>
+  <name xml:lang="vi">Công cụ Sao lưu Déjà Dup</name>
+  <name xml:lang="uk">Резервне копіювання з Déjà Dup</name>
+  <name xml:lang="ug">Déjà Dup زاپاسلاش قورالى</name>
+  <name xml:lang="tr">Déjà Dup Yedekleme Aracı</name>
+  <name xml:lang="th">เครื่องมือสำรองข้อมูล Déjà Dup</name>
+  <name xml:lang="te">డిజ డప్ బ్యాక్అప్ సాధనం</name>
+  <name xml:lang="ta">தேஜா டப் காப்புக் கருவி</name>
+  <name xml:lang="szl">Noczynie do tworzynio kopiji ibrycznych Déjà Dup</name>
+  <name xml:lang="sv">Déjà Dup säkerhetskopiering</name>
+  <name xml:lang="sr">Безбедни сеф алат за резерве</name>
+  <name xml:lang="sq">Déjà Dup Mjet Për Ruajtje</name>
+  <name xml:lang="sl">Orodje Déjà Dup za ustvarjanje varnostnih kopij</name>
+  <name xml:lang="sk">Déjà Dup - zálohovací nástroj</name>
+  <name xml:lang="ru">Программа резервного копирования Déjà Dup</name>
+  <name xml:lang="ro">Utilitarul pentru realizarea copiilor de siguranță Déjà Dup</name>
+  <name xml:lang="pt_BR">Ferramenta de cópia de segurança Déjà Dup</name>
+  <name xml:lang="pl">Narzędzie do tworzenia kopii zapasowych Déjà Dup</name>
+  <name xml:lang="pa">ਡੇਜਾ ਡੁਪ ਬੈਕਅੱਪ ਟੂਲ</name>
+  <name xml:lang="oc">Aisina de salvament Déjà Dup</name>
+  <name xml:lang="nn">Déjà Dup tryggleikskopiering</name>
+  <name xml:lang="nl">Déjà Dup reservekopie maken</name>
+  <name xml:lang="nb">Déjà Dup verktøy for sikkerhetskopiering</name>
+  <name xml:lang="ms">Alat Sandar Déjà Dup</name>
+  <name xml:lang="mnw">Déjà Dup ကပေါတ်သီဂိုၚ်</name>
+  <name xml:lang="ml">Déjà Dup ബാക്കപ്പ് ടൂള്‍</name>
+  <name xml:lang="lv">Déjà Dup dublēšanas rīks</name>
+  <name xml:lang="lt">Déjà Dup atsarginių kopijų įrankis</name>
+  <name xml:lang="ko">데이자 둡 백업 도구</name>
+  <name xml:lang="km">ឧបករណ៍​បម្រុង​ទុក Déjà Dup</name>
+  <name xml:lang="ja">Déjà Dup バックアップツール</name>
+  <name xml:lang="it">Strumento di backup Déjà Dup</name>
+  <name xml:lang="io">Déjà Dup Sekurkopilo</name>
+  <name xml:lang="id">Peralatan Backup Déjà Dup</name>
+  <name xml:lang="hu">Déjà Dup biztonságimentés-kezelő</name>
+  <name xml:lang="hr">Déjà Dup alat sigurnosnog kopiranja</name>
+  <name xml:lang="he">כלי הגיבוי Déjà Dup</name>
+  <name xml:lang="gl">Ferramenta de copia de seguranza Déjà Dup</name>
+  <name xml:lang="gd">Inneal lethbhreacan-glèidhidh Déjà Dup</name>
+  <name xml:lang="fy">Déjà Dup Reservekopy Ark</name>
+  <name xml:lang="fr_CA">Outil de sauvegarde Déjà Dup</name>
+  <name xml:lang="fr">Outil de sauvegarde Déjà Dup</name>
+  <name xml:lang="fo">Déjà Dup trygdarritinghar amboð</name>
+  <name xml:lang="fi">Déjà Dup -varmuuskopiointi</name>
+  <name xml:lang="fa">ابزار پشتیبان گیری Déjà Dup</name>
+  <name xml:lang="eu">Déjà Dup babeskopietarako tresna</name>
+  <name xml:lang="et">Déjà Dup varundustööriist</name>
+  <name xml:lang="es">Herramienta de respaldo Déjà Dup</name>
+  <name xml:lang="eo">Déjà Dup sekurkopiilo</name>
+  <name xml:lang="en_GB">Déjà Dup Backup Tool</name>
+  <name xml:lang="en_CA">Déjà Dup Backup Tool</name>
+  <name xml:lang="en_AU">Déjà Dup Backup Tool</name>
+  <name xml:lang="el">Εργαλείο Αντιγράφων Ασφαλείας Déjà Dup</name>
+  <name xml:lang="de">Déjà Dup – Datensicherungswerkzeug</name>
+  <name xml:lang="da">Déjà Dup sikkerhedskopieringsværktøj</name>
+  <name xml:lang="cs">Zálohovací nástroj Déjà Dup</name>
+  <name xml:lang="ca@valencia">Eina de còpies de seguretat Déjà Dup</name>
+  <name xml:lang="ca">Eina de còpies de seguretat Déjà Dup</name>
+  <name xml:lang="bs">Alat za kreiranje sigurnosne kopije</name>
+  <name xml:lang="bn">Déjà Dup ব্যাকআপ টুল</name>
+  <name xml:lang="bg">Инструмент за създаване на резервни копия Déjà Dup</name>
+  <name xml:lang="be">Праграма рэзервовага капіявання Deja Dup</name>
+  <name xml:lang="ast">Ferramienta de respaldu Déjà Dup</name>
+  <name xml:lang="ar">أداة النسخ الاحتياطي «ديجا دوب»</name>
+  <summary>Keep your important documents safe from disaster</summary>
+  <summary xml:lang="zh_TW">讓您的重要資料遠離意外</summary>
+  <summary xml:lang="zh_CN">保护您的重要文件</summary>
+  <summary xml:lang="uk">Зберігайте усі ваші важливі документи у безпеці від катастрофи</summary>
+  <summary xml:lang="ug">مۇھىم ھۆججەتلىرىڭىزنى بالا قازادىن ساقلايدۇ</summary>
+  <summary xml:lang="tr">Önemli belgelerinizi felaketten uzak tutun</summary>
+  <summary xml:lang="th">จัดเก็บเอกสารสำคัญของคุณให้ปลอดภัยจากภัยคุกคาม</summary>
+  <summary xml:lang="szl">Trzim ważne dokumynta z daleka ôd niybezpieczyństw</summary>
+  <summary xml:lang="sv">Skydda dina viktiga dokument från katastrofer</summary>
+  <summary xml:lang="sr">Чувајте ваша важна документа на најбезбеднијем месту на планети</summary>
+  <summary xml:lang="sl">Ohranite vaše pomembne dokumente pred katastrofo</summary>
+  <summary xml:lang="ru">Сохраняйте важные документы в безопасности от возможных катастроф</summary>
+  <summary xml:lang="pt_BR">Mantenha seus documentos importantes protegidos contra desastres</summary>
+  <summary xml:lang="pl">Trzymaj ważne dokumenty z dala od niebezpieczeństw</summary>
+  <summary xml:lang="nl">Behoed uw belangrijke documenten voor rampen</summary>
+  <summary xml:lang="nb">Beskytt viktige dokumenter mot ulykkeshendelser</summary>
+  <summary xml:lang="ms">Simpan dokumen penting anda dari bencana</summary>
+  <summary xml:lang="mnw">ဂိုၚ်စွံကပေါတ်ၟမၞးနူကဵုဘဲဒဏ်</summary>
+  <summary xml:lang="lv">Glabājiet sev svarīgos dokumentus drošībā no katastrofas</summary>
+  <summary xml:lang="km">រក្សាទុកឯកសារដ៏សំខាន់របស់អ្នកឳ្យមានសុវត្ថិភាពពីគ្រោះមហន្តរាយ</summary>
+  <summary xml:lang="ja">重要なドキュメントを災害から守る</summary>
+  <summary xml:lang="it">Mantenere i propri documenti importanti al sicuro da qualsiasi disastro</summary>
+  <summary xml:lang="id">Menjaga dokumen-dokumen penting Anda tetap aman dari bencana</summary>
+  <summary xml:lang="hu">Tartsa a fontos dokumentumait biztonságban</summary>
+  <summary xml:lang="hr">Držite vaše bitne dokumente sigurnim od katastrofe</summary>
+  <summary xml:lang="gl">Manteña os documentos importantes a salvo</summary>
+  <summary xml:lang="gd">Cum na sgrìobhainnean cudromach agad sàbhailte o chunnartan</summary>
+  <summary xml:lang="fr_CA">Conservez vos documents importants à l'abri d'une catastrophe</summary>
+  <summary xml:lang="fr">Conservez vos documents importants à l'abri d'une catastrophe</summary>
+  <summary xml:lang="fi">Varmuuskopioi tiedostosi suuronnettomuuden varalta</summary>
+  <summary xml:lang="eu">Babestu dokumentu garrantzitsuak hondamenetik</summary>
+  <summary xml:lang="es">Mantenga sus documentos importantes a salvo de cualquier peligro</summary>
+  <summary xml:lang="en_GB">Keep your important documents safe from disaster</summary>
+  <summary xml:lang="en_AU">Keep your important documents safe from disaster</summary>
+  <summary xml:lang="el">Διατηρήστε τα σημαντικά σας έγγραφα ασφαλή από πιθανή καταστροφή</summary>
+  <summary xml:lang="de">Schützen Sie Ihre wichtigen Dokumente vor Katastrophen</summary>
+  <summary xml:lang="da">Beskyt dine dokumenter mod katastrofer</summary>
+  <summary xml:lang="cs">Chraňte své důležité dokumenty před katastrofou</summary>
+  <summary xml:lang="ca">Mantingueu els vostres documents importants salvats del desastre</summary>
+  <summary xml:lang="ast">Caltén los documentos importantes a salvo de desastres</summary>
+  <description>
+    <p>Déjà Dup is a simple backup tool. It hides the complexity of backing up the Right Way (encrypted, off-site, and regular) and uses duplicity as the backend.</p>
+    <p xml:lang="zh_TW">Déjà Dup 是個簡易備份工具。其將備份背後的複雜性 (加密、離站、定期) 隱藏得很好，並以 dupicity 作為後端程式。</p>
+    <p xml:lang="zh_CN">Déjà Dup 是一个简易备份工具，使用 dupicity 作为后端程序，隐藏了合理备份背后的复杂机制(加密、异地、定期)。</p>
+    <p xml:lang="uk">Déjà Dup — це простий засіб резервного копіювання. Він приховує складність правильного створення резервних копій (використуння шифрування, зберігання окремо від комп’ютера, регулярність копіювання) й використовує duplicity у якості внутрішнього інтерфейсу.</p>
+    <p xml:lang="ug">Déjà Dup بولسا بىر ئاددى بولغان زاپاسلاش قۇرالى، duplicityنى ئارقا سوپىدا ئىجرا بولىدىغان پرۇگرامما ئورنىدا ئىشلىتىپ، مۇۋاپىق زاپاسلاش ئارقىسىدىكى مۇرەككەپ جەريانلارنى يوشۇرىدۇ(ئىم سېلىش، باشقا جاي، قەرەللىك)</p>
+    <p xml:lang="tr">Déjà Dup basit bir yedekleme aracıdır. Doğru Yolda yedekleme karmaşasını (şifreli, dışarıda ve düzenli) gizler ve arkauç olarak duplicity kullanır.</p>
+    <p xml:lang="th">Déjà Dup เป็นเครื่องมือสำรองข้อมูลอย่างง่าย ซึ่งซ่อนความซ้ำซ้อนของการสำรองข้อมูลในวิธีที่ถูกต้อง (เข้ารหัส นอกสถานที่ และปกติ) โดยใช้ duplicity เป็นแบ็กเอนด์</p>
+    <p xml:lang="szl">Déjà Dup to ajnfachowe noczynie do robiynio kopiji ibrycznych. Kryje słożōność noleżnego tworzynio kopiji ibrycznych (szyfrowanych, regularnych, poza kōmputrym) i używo programu duplicity.</p>
+    <p xml:lang="sv">Déjà Dup är ett enkelt verktyg för säkerhetskopiering. Det döljer hur komplicerat det kan vara att sköta processen på rätt sätt (kryptering, annan plats, och vanlig) och använder duplicity som bakände.</p>
+    <p xml:lang="sr">Безбедни сеф је једноставан алат за резерве. Скрива сложеност прављења резерви „Правог начина“ (шифроване, ван сајта, и редовне) и користи дуплирање као услужни програм.</p>
+    <p xml:lang="sq">Déjà Dup është një mjet i thjeshtë ruajtjeje. Ai e fsheh kompleksitetin e ruajtjes në Mënyrën e Duhur (kriptuar, larg kompjuterit dhe të rregullt) dhe përdor duplicity si mbështetje.</p>
+    <p xml:lang="sl">Deja Dup je enostavno orodje varnostnih kopij. Skrije zapletenost ustvarjanja varnostnih kopij na pravi način (šifrirano, drugod in redno). Kot zaledje uporablja duplicity.</p>
+    <p xml:lang="ru">Déjà Dup — это простое средство резервного копирования. Оно скрывает сложность правильного создания резервных копий (использование шифрования, хранение отдельно от компьютера, регулярность копирования) и использует duplicity в качестве внутреннего интерфейса.</p>
+    <p xml:lang="ro">Déjà Dup este un utilitar simplu pentru realizarea de copii de siguranță. El ascunde capacitatea de a realiza copii de siguranță în maniera Right Way (criptate, off-site și obișnuite) și utilizează duplicity ca program de bază.</p>
+    <p xml:lang="pt_BR">Déjà Dup é uma ferramenta de backup simples. Ela esconde a complexidade de fazer um backup da maneira correta (encriptado, fora do local e regular) e usa o duplicity como back-end.</p>
+    <p xml:lang="pl">Déjà Dup to proste narzędzie do robienia kopii zapasowych. Ukrywa ono złożoność kopii zapasowych (regularnie szyfrując je i przechowując poza komputerem) i używa programu duplicity.</p>
+    <p xml:lang="oc">Déjà Dup es una aisina de salvament simpla. Amaga la complexitat necessària per salvar coma cal (chifrada, fòra site e normala) e utiliza lo motor duplicity.</p>
+    <p xml:lang="nl">Déjà Dup is een simpel hulpmiddel om een reservekopie te maken. Het is simpel, hoewel het toch op de enige 'juiste manier' een reservekopie maakt (versleuteld, off-site en regelmatig) en maakt gebruik van het programma ´duplicity´.</p>
+    <p xml:lang="nb">Déjà Dup er et enkelt verktøy for sikkerhetskopiering. Det hjelper deg - via programmet duplicity - med å ta sikkerhetskopi på rett måte: kryptert, fysisk adskilt fra pc-en din, og regelmessig.</p>
+    <p xml:lang="ms">Déjà Dup merupakan alat sandar yang ringkas. Ia sembunyikan kerumitan menyandar dengan Cara yang Betul (tersuliy, luar-laman, dan biasa) dan gunakan pendua sebagai bahagian belakang.</p>
+    <p xml:lang="mnw">Déjà Dup ဂှ် ကရိယာ ဂိုၚ်စွံကပေါတ်သောၚ်သောၚ်မွဲရ။ ဍေံဂှ်သီဂိုၚ်စွံကဵုဒၞါဲသောၚ်ၚ်ဂွံတုဲ ညံၚ်ဖှာၚ်ဟွံဂွံထပ်လေဝ်ဍေံသ္ပကဵုမာန်ရ။</p>
+    <p xml:lang="lv">Déjà Dup ir vienkāršs rezerves kopiju veidošanas rīks. Tas slēpj pareizās dublēšanas (šifrēti, regulāri un uz citu datoru) sarežģītību un izmanto duplicity kā aizmuguri.</p>
+    <p xml:lang="km">Déjà Dup is a simple backup tool. It hides the complexity of backing up the Right Way (encrypted, off-site, and regular) and uses duplicity as the backend.</p>
+    <p xml:lang="ja">Déjà Dup はシンプルなバックアップツールです。バックアップに特有の複雑な設定は見せずに、適切に (暗号化して/別の場所に/定期的に) バックアップします。バックエンドとして duplicity を用いています。</p>
+    <p xml:lang="it">Déjà Dup è un semplice strumento di backup. Nasconde la complessità dell'esecuzione di un corretto backup  (cifrato, esterno o normale) e usa Duplicity come backend.</p>
+    <p xml:lang="id">Déjà Dup adalah perkakas backup sederhana. Ini menyembunyikan kerumitan melakukan backup Yang Baik dan Benar (dienkripsi, luar situs, berkala) dan memakai duplicity sebagai backend.</p>
+    <p xml:lang="hu">A Déjà Dup egy egyszerű biztonsági mentést készítő eszköz. Elrejti a biztonsági mentések Helyes Módjának (titkosított, külön helyű és rendszeres) összetettségét, és háttérprogramként a duplicity-t használja.</p>
+    <p xml:lang="hr">Déjà Dup je jednostavan alat sigurnosnog kopiranja. Sakriva složenost sigurnosnog kopiranja na pravi način (šifrirano, vanmrežno i redovno) i koristi dvostrukost kao pozadinu.</p>
+    <p xml:lang="gl">O Déjà Dup é unha ferramenta sinxela para a creación de copias de seguranza. Elimina a complexidade da creación de copias de seguranza correctas (con cifrado, fóra do sitio e con regularidade) e emprega duplicity como infraestrutura.</p>
+    <p xml:lang="gd">'S e inneal lethbhreacan-glèidhidh simplidh a tha sa Déjà Dup. Falaichidh e dè cho toinnte 's a th' ann lethbhreacan-glèidhidh a dhèanamh mar bu chòir (crioptaichte, air làrach cèin 's gu cunbhalach) agus cleachdaidh e duplicity mar backend.</p>
+    <p xml:lang="fr_CA">Déjà Dup est un outil de sauvegarde simple. Il cache la complexité de sauvegarder de la bonne manière (chiffrée, hors site et régulièrement) et utilise duplicity comme dorsale.</p>
+    <p xml:lang="fr">Déjà Dup est un outil de sauvegarde simple. Il cache la complexité nécessaire pour sauvegarder de la bonne façon (chiffrée, hors-site et normale) et utilise le moteur duplicity.</p>
+    <p xml:lang="fi">Déjà Dup on yksinkertainen työkalu varmuuskopiointiin. Se piilottaa oikeaoppisen varmuuskopioinnin (salattuna, etäsijainteihin ja säännöllisin väliajoin) monimutkaisuuden. Déjà Dupin toiminta pohjautuu duplicity-ohjelmistoon.</p>
+    <p xml:lang="eu">Déjà Dup babeskopiak sortzeko tresna erabilerraza da. Babeskopiak behar bezala (zifratuta, kanpoko kokalekuan, eta maiztasunez) egitearen konplexutasuna barnean ezkutatzen du, backend gisa duplicity erabiliz.</p>
+    <p xml:lang="es">Déjà Dup es una herramienta sencilla para realizar copias de seguridad, que oculta la complejidad del proceso de respaldo «correcto» (cifrado, en ubicación externa y regular), y utiliza duplicity como su motor.</p>
+    <p xml:lang="en_GB">Déjà Dup is a simple backup tool. It dispels the complexity of backing up the Right Way (encrypted, off-site, and regular) and uses duplicity as the backend.</p>
+    <p xml:lang="en_CA">Déjà Dup is a simple backup tool. It hides the complexity of backing up the Right Way (encrypted, off-site, and regular) and uses duplicity as the backend.</p>
+    <p xml:lang="en_AU">Déjà Dup is a simple backup tool. It hides the complexity of backing up the Right Way (encrypted, off-site, and regular) and uses duplicity as the backend.</p>
+    <p xml:lang="el">Το Déjà Dup είναι ένα απλό εργαλείο αντιγράφων ασφαλείας. Κρύβει την πολυπλοκότητα της διαδικασίας δημιουργίας αντιγράφων ασφαλείας με τον σωστό τρόπο (κρυπτογραφημένα, σε άλλη τοποθεσία και τακτικά) και χρησιμοποιεί παρασκηνιακά το πρόγραμμα duplicity.</p>
+    <p xml:lang="de">Déjà Dup ist ein einfaches Datensicherungswerkzeug. Es versteckt die Komplexität einer korrekten Datensicherung (Verschlüsselung, getrennter Speicherplatz, Regelmäßigkeit) und benutzt dafür duplicity als Grundlage.</p>
+    <p xml:lang="da">Déjà Dup er et enkelt sikkerhedskopieringsværktøj. Det skjuler kompleksiteten ved sikkerhedskopiering på den rette måde (krypteret, andetsteds og regelmæssigt), og bruger duplicity som sin motor.</p>
+    <p xml:lang="cs">Déjà Dup je jednoduchý zálohovací nástroj. Postará se za vás o komplexitu správně prováděného zálohování (šifrování, ukládání záloh dále od zálohovaných dat a hlavně pravidelnost). Jedná se o nadstavbu k nástroji duplicity.</p>
+    <p xml:lang="ca">El Déjà Dup és una eina simple de còpies de seguretat. Amaga la complexitat de fer còpies de seguretat de la manera correcta (amb encriptat, mantenint les còpies a un lloc remot i de forma regular) i usa duplicitat com a dorsal.</p>
+    <p xml:lang="ast">Déjà Dup ye una ferramienta cenciella pa crear copies de seguridá. Tapez la complexidá de crear copies de seguridá de manera correuta (cifraes, esternes y con regularidá) y usa duplicity como infraestructura.</p>
+    <ul>
+      <li>Support for local, remote, or cloud backup locations such as Google Drive</li>
+      <li xml:lang="zh_TW">支援本機、遠端備份，以及 Google Drive 之類的雲端備份</li>
+      <li xml:lang="tr">Yerel, uzak veya Google Drive gibi bulut yedekleme konumlarını destekler</li>
+      <li xml:lang="pl">Obsługa lokalnych, zdalnych oraz umieszczonych w chmurze kopii zapasowych, takich jak Google Drive</li>
+      <li xml:lang="mnw">ထံက်ပၚ်အပ္ဍဲစက်၊ မ္ၚးစက် ကေုာံ ဒၞါဲသီဂိုၚ်လ္တူလပှ်ကျာ ဗီုကဵု ဂူဂဴဒရိုက်(ဖ်)</li>
+      <li xml:lang="ja">ローカル、リモート、Google ドライブといったクラウドのバックアップ場所をサポート</li>
+      <li xml:lang="en_GB">Support for local, remote, or cloud backup locations such as Google Drive</li>
+      <li xml:lang="da">Understøttelse af placering af sikkerhedskopi lokalt, fjernt eller i skyen såsom Google Drive</li>
+      <li>Securely encrypts and compresses your data</li>
+      <li xml:lang="zh_TW">安全地加密並儲存您的資料</li>
+      <li xml:lang="zh_CN">安全地加密并压缩您的数据</li>
+      <li xml:lang="uk">Надійно шифрує та стискає дані</li>
+      <li xml:lang="tr">Verilerinizi güvenli bir şekilde şifreler ve sıkıştırır</li>
+      <li xml:lang="th">เข้ารหัสและบีบอัดข้อมูลของคุณอย่างปลอดภัย</li>
+      <li xml:lang="szl">Bezpiecznie szyfruje i kōmpresuje dane</li>
+      <li xml:lang="sv">Krypterar och komprimerar din data säkert</li>
+      <li xml:lang="sr">Безбедно шифрујте и запакујте ваше податке</li>
+      <li xml:lang="sq">I kripton dhe ngjesh të dhënat tuaja me siguri</li>
+      <li xml:lang="sl">Varno  šifrira in stisne vaše podatke</li>
+      <li xml:lang="ru">Надежно шифрует и сжимает данные</li>
+      <li xml:lang="ro">Criptează și arhivează în manieră securizată datele dumneavoastră</li>
+      <li xml:lang="pt_BR">Criptografa e comprime seus dados com segurança</li>
+      <li xml:lang="pl">Bezpiecznie szyfruje i kompresuje dane</li>
+      <li xml:lang="oc">Chifra e compressa vòstras donadas</li>
+      <li xml:lang="nl">Déjà Dup versleutelt en pakt uw data op een veilige manier in</li>
+      <li xml:lang="nb">Krypterer og komprimerer dataene dine på en sikker måte</li>
+      <li xml:lang="ms">Sulit dan mampatkan data anda secara selamat</li>
+      <li xml:lang="mnw">ဂိုၚ်စွံကဵုခိုၚ်ၚ်ကၠိုက်က် ကေုာံ သှ်ကဵုတၚ်နၚ် ဂီုဂီုကၠီုကၠီုမာန်ရ</li>
+      <li xml:lang="lv">Droši šifrē un saspiež jūsu datus</li>
+      <li xml:lang="lt">Saugiau užšifruoja ir suglaudina duomenis</li>
+      <li xml:lang="km">Securely encrypts and compresses your data</li>
+      <li xml:lang="ja">あなたのデータを安全に暗号化、圧縮</li>
+      <li xml:lang="it">Cifratura e compressione sicura dei propri dati</li>
+      <li xml:lang="id">Secara aman mengenkripsi dan mengkompresi data Anda</li>
+      <li xml:lang="hu">Biztonságosan titkosítja és tömöríti adatait</li>
+      <li xml:lang="hr">Pouzdano šifrira i sažima vaše podatke</li>
+      <li xml:lang="gl">Realiza cifrados seguros e comprime os datos</li>
+      <li xml:lang="gd">Crioptaichidh 's dùmhlaichidh e an dàta agad gu tèarainte</li>
+      <li xml:lang="fr_CA">Chiffre et compresse vos données en toute sécurité</li>
+      <li xml:lang="fr">Chiffre et compresse vos données en toute sécurité</li>
+      <li xml:lang="fi">Pakkaa ja salaa tietosi turvallisesti</li>
+      <li xml:lang="eu">Zure datuak modu seguruan zifratu eta trinkotzen ditu</li>
+      <li xml:lang="es">Cifra y comprime sus datos de manera segura</li>
+      <li xml:lang="en_GB">Securely encrypts and compresses your data</li>
+      <li xml:lang="en_CA">Securely encrypts and compresses your data</li>
+      <li xml:lang="en_AU">Securely encrypts and compresses your data</li>
+      <li xml:lang="el">Κρυπτογραφεί και συμπιέζει με ασφάλεια τα δεδομένα σας</li>
+      <li xml:lang="de">Verschlüsselt und komprimiert Ihre Daten auf sichere Weise</li>
+      <li xml:lang="da">Krypterer og komprimerer dine data sikkert</li>
+      <li xml:lang="cs">Komprimuje data a zabezpečuje je šifrováním</li>
+      <li xml:lang="ca@valencia">Encripta i comprimeix les vostres dades amb seguretat</li>
+      <li xml:lang="ca">Encripta i comprimeix les vostres dades amb seguretat</li>
+      <li xml:lang="ast">Cifra y comprime los datos con seguridá</li>
+      <li>Incrementally backs up, letting you restore from any particular backup</li>
+      <li xml:lang="zh_TW">增量式備份，讓您可從任何一個備份還原資料</li>
+      <li xml:lang="zh_CN">增量式备份，方便您从任意备份点恢复</li>
+      <li xml:lang="uk">Поетапне резервне копіювання, що дозволяє вам  відновитися з будь-якої конкретної резервної копії</li>
+      <li xml:lang="ug">زىيادە شەكىلدە زاپاسلاپ، خالىغان زاپاسلاش ئورنىدىن ئاسانلا ئەسلىگە كەلتۈرەلەيسىز</li>
+      <li xml:lang="tr">Aşama aşama yedekler ve size herhangi bir yedeklemeden geri yükleme imkan sağlar</li>
+      <li xml:lang="th">สำรองข้อมูลแบบเพิ่มหน่วย และให้คุณเรียกคืนข้อมูลสำรองใด ๆ ที่ต้องการ</li>
+      <li xml:lang="szl">Tworzi przirostowe kopije ibryczne i przizwolo na prziwrocanie z leda jakij chwile</li>
+      <li xml:lang="sv">Säkerhetskopierar stegvis så att du kan återställa från vilken specifik säkerhetskopia du vill</li>
+      <li xml:lang="sr">Правите увећавајуће резерве, допуштајући вам да вратите из неке нарочите резерве</li>
+      <li xml:lang="sq">Ruan në mënyrën në rritje, duke ju mundësuar rikthimin nga çdo ruajtje e veçantë</li>
+      <li xml:lang="sl">Postopno ustvarja varnostno kopijo, kar vam omogoča obnovitev iz določene varnostne kopije</li>
+      <li xml:lang="ru">Поэтапное резервное копирование, позволяет вам выполнять восстановление из определённых резервных копий</li>
+      <li xml:lang="ro">Copiile de siguranță sunt realizate incremental, cu posibilitatea de a restaura datele din orice copie de siguranță</li>
+      <li xml:lang="pt_BR">Faz seu backup de forma incremental, deixando que você retome qualquer backup em particular.</li>
+      <li xml:lang="pl">Tworzy przyrostowe kopie zapasowe, umożliwiając przywracanie z dowolnej chwili</li>
+      <li xml:lang="nl">Incrementele reservekopieën geven u de mogelijkheid om te herstellen vanaf een bepaalde reservekopie</li>
+      <li xml:lang="nb">Lager økende (også kalt inkrementelle) sikkerhetskopier, og lar deg gjenopprette fra den kopien du ønsker</li>
+      <li xml:lang="ms">Sandar secara tokokan, membolehkan anda pulihkan dari mana-mana sandar yang ada</li>
+      <li xml:lang="mnw">ဂိုၚ်စွံကပေါတ်လောဲလောဲမာန်ကီု သီုကဵုမၞးကလေၚ်ဂိုၚ်စွံနူ ဒၞါဲတၞဟ်ဟ်မာန်ရ</li>
+      <li xml:lang="lv">Pakāpeniski dublē, ļaujot jums atjaunot no jebkura noteikta dublējuma</li>
+      <li xml:lang="km">Incrementally backs up, letting you restore from any particular backup</li>
+      <li xml:lang="ja">差分バックアップにより特定のバックアップからの復元が可能</li>
+      <li xml:lang="it">Esecuzione di backup incrementali, con la possibilità di ripristino da ogni backup effettuato</li>
+      <li xml:lang="id">Secara inkremental melakukan backup, memungkinkan Anda memulihkan dari sebarang backup tertentu</li>
+      <li xml:lang="hu">Növekményesen ment, lehetővé téve a visszaállítást bármely konkrét mentésből</li>
+      <li xml:lang="hr">Postepeno sigurnosno kopira, dopuštajući vam vraćanje iz određene sigurnosne kopije</li>
+      <li xml:lang="gl">Copias de seguranza incrementais, permitindo restabelecer calquera copia en particular</li>
+      <li xml:lang="gd">Nì e lethbhreacan-glèidhidh ioncramaideach a leigeas leat aiseag o gach lethbhreac-glèidhidh a thogras tu</li>
+      <li xml:lang="fr_CA">Sauvegardes incrémentales vous permettant de restaurer à partir de n'importe quelle sauvegarde</li>
+      <li xml:lang="fr">Sauvegarde par incrémentation, vous laissant la possibilité de restaurer à partir d'une sauvegarde donnée.</li>
+      <li xml:lang="fi">Vähittäiset varmuuskopiot mahdollistavat palautuksen mistä tahansa yksittäisestä varmuuskopiosta.</li>
+      <li xml:lang="eu">Babeskopia inkrementalak egiten ditu, edozein kopiatatik berreskuratzen utziz</li>
+      <li xml:lang="es">Realiza copias de seguridad de forma incremental, lo que le permite restaurar desde cualquier respaldo</li>
+      <li xml:lang="en_GB">Incrementally backs up, letting you restore from any particular backup</li>
+      <li xml:lang="en_CA">Incrementally backs up, letting you restore from any particular backup</li>
+      <li xml:lang="en_AU">Incrementally backs up, letting you restore from any particular backup</li>
+      <li xml:lang="el">Βηματικά (ή αυξητικά) αντίγραφα ασφαλείας που επιτρέπουν την αποκτάστασή τους από οποιοδήποτε συγκεκριμένο αντίγραφο ασφαλείας</li>
+      <li xml:lang="de">Stufenweise Datensicherungen, Wiederherstellung von beliebigen Sicherungen</li>
+      <li xml:lang="da">Trinvis sikkerhedskopiering, lader dig genoprette fra hver enkelt sikkerhedskopi</li>
+      <li xml:lang="cs">Zálohuje přírůstkově, obnovit lze z libovolné konkrétní zálohy</li>
+      <li xml:lang="ca">Fa còpies de seguretat incrementalment, deixant-vos restaurar des de qualsevol còpia de seguretat particular</li>
+      <li xml:lang="ast">Fai copies de seguridá incrementales, permitiendo restaurar dende cualquier copia en particular</li>
+      <li>Schedules regular backups</li>
+      <li xml:lang="zh_TW">定期備份</li>
+      <li xml:lang="zh_CN">日常定期备份</li>
+      <li xml:lang="uk">Розклад регулярного резервного копіювання</li>
+      <li xml:lang="tr">Düzenli yedeklemelerinizi zamanlar</li>
+      <li xml:lang="th">จัดตารางการกู้คืนข้อมูลธรรมดา</li>
+      <li xml:lang="szl">Planuje regularne kopije ibryczne</li>
+      <li xml:lang="sv">Schemalägger regelbundna säkerhetskopieringar</li>
+      <li xml:lang="sr">Испланирајте редовно прављење резрви</li>
+      <li xml:lang="sq">Skedon ruajtje të rregullta</li>
+      <li xml:lang="sl">Razporedi redne varnostne kopije</li>
+      <li xml:lang="ru">Планирование регулярного резервного копирования</li>
+      <li xml:lang="ro">Programează copii de siguranță la intervale regulate</li>
+      <li xml:lang="pt_BR">Agenda backups regulares</li>
+      <li xml:lang="pl">Planuje regularne kopie zapasowe</li>
+      <li xml:lang="oc">Salvaments regulars planificats</li>
+      <li xml:lang="nl">Reservekopieën op regelmatige tijden plannen</li>
+      <li xml:lang="nb">Planlegger regemessig sikkerhetskopiering</li>
+      <li xml:lang="ms">Jadualkan sandar tetap</li>
+      <li xml:lang="mnw">ချိုၚ်အခိၚ်သွက်ဂွံဂိုၚ်စွံလၟိုန်</li>
+      <li xml:lang="lv">Veic regulāru dublēšanu</li>
+      <li xml:lang="km">Schedules regular backups</li>
+      <li xml:lang="ja">定期的なバップアップをスケジュール</li>
+      <li xml:lang="it">Pianificazione di backup regolari</li>
+      <li xml:lang="id">Menjadwalkan backup berkala</li>
+      <li xml:lang="hu">Rendszeres mentéseket ütemez</li>
+      <li xml:lang="hr">Raspored redovite sigurnosne kopije</li>
+      <li xml:lang="gl">Programa copias regularmente</li>
+      <li xml:lang="gd">Cuiridh e lethbhreacan cunbhalach air an sgeideal</li>
+      <li xml:lang="fr_CA">Planifie des sauvegardes régulières</li>
+      <li xml:lang="fr">Sauvegardes régulières planifiées</li>
+      <li xml:lang="fi">Ajastaa säännölliset varmuuskopioinnit</li>
+      <li xml:lang="eu">Babeskopien maiztasuna programatzen du</li>
+      <li xml:lang="en_GB">Schedules regular backups</li>
+      <li xml:lang="en_CA">Schedules regular backups</li>
+      <li xml:lang="en_AU">Schedules regular backups</li>
+      <li xml:lang="el">Προγραμματίζει τακτικά αντίγραφα ασφαλείας</li>
+      <li xml:lang="de">Zeitgesteuerte regelmäßige Datensicherungen</li>
+      <li xml:lang="da">Planlæg regelmæssige sikkerhedskopieringer</li>
+      <li xml:lang="cs">Plánuje pravidelné zálohy</li>
+      <li xml:lang="ca@valencia">Planifica còpies de seguretat</li>
+      <li xml:lang="ca">Planifica còpies de seguretat</li>
+      <li xml:lang="ast">Programa copies de seguridá regulares</li>
+      <li xml:lang="ar">جدولة نسخ احتياطية منتظمة</li>
+      <li>Integrates well into your GNOME desktop</li>
+      <li xml:lang="zh_TW">與 GNOME 桌面緊密整合</li>
+      <li xml:lang="zh_CN">融入 GNOME 桌面</li>
+      <li xml:lang="uk">Добра інтеграція з вашею стільницею GNOME</li>
+      <li xml:lang="tr">Gnome masaüstünüzle sorunsuz bütünleşir</li>
+      <li xml:lang="th">ทำงานร่วมกับเดสก์ท็อป GNOME ของคุณอย่างดี</li>
+      <li xml:lang="szl">Dobrze integruje sie ze strzodowiskym GNOME</li>
+      <li xml:lang="sv">Integrerar bra med ditt GNOME-skrivbord</li>
+      <li xml:lang="sr">Лепо се уклапа у вашу Гномову радну површ</li>
+      <li xml:lang="sq">Integrohet mirë me desktopin tuaj GNOME</li>
+      <li xml:lang="sl">Lepo se vključi v vaše namizje GNOME</li>
+      <li xml:lang="ru">Интегрируется на должном уровне с рабочим столом GNOME</li>
+      <li xml:lang="ro">Se integrează bine cu mediul desktop GNOME</li>
+      <li xml:lang="pt_BR">Integra-se bem ao seu desktop GNOME</li>
+      <li xml:lang="pl">Dobrze integruje się ze środowiskiem GNOME</li>
+      <li xml:lang="oc">S'intègra plan amb lo burèu GNOME</li>
+      <li xml:lang="nl">Integreert goed met de GNOME-werkomgeving</li>
+      <li xml:lang="nb">Godt integrert på GNOME-skrivebordet</li>
+      <li xml:lang="ms">Sepadu ke dekstop GNOME anda dengan baik</li>
+      <li xml:lang="mnw">သကဵုပံၚ်စပ်အာခိုဟ်ဟ် ပ္ဍဲGNOME desktop</li>
+      <li xml:lang="lv">Labi integrējas GNOME darbvirsmā</li>
+      <li xml:lang="km">Integrates well into your GNOME desktop</li>
+      <li xml:lang="ja">GNOME デスクトップに高度に統合</li>
+      <li xml:lang="it">Perfetta integrazone con l'ambiente GNOME</li>
+      <li xml:lang="id">Terintegrasi dengan baik ke deskto GNOME Anda</li>
+      <li xml:lang="hu">Jól integrálódik a GNOME asztali környezetbe</li>
+      <li xml:lang="hr">Integrira se dobro u GNOME radno okruženje</li>
+      <li xml:lang="gl">Intégrase ben no escritorio GNOME</li>
+      <li xml:lang="gd">Amalaichidh e gu math san deasg GNOME agad</li>
+      <li xml:lang="fr_CA">S'intégre bien avec votre bureau GNOME</li>
+      <li xml:lang="fr">Il s'intégre bien avec le bureau GNOME</li>
+      <li xml:lang="fi">Integroituu hyvin Gnome-työpöydälle</li>
+      <li xml:lang="eu">Ondo integratzen da zure GNOME mahaigainean</li>
+      <li xml:lang="es">Se integra bien en su escritorio GNOME</li>
+      <li xml:lang="en_GB">Integrates well into your GNOME desktop</li>
+      <li xml:lang="en_CA">Integrates well into your GNOME desktop</li>
+      <li xml:lang="en_AU">Integrates well into your GNOME desktop</li>
+      <li xml:lang="el">Ενσωματώνεται καλά στο GNOME περιβάλλον εργασίας σας</li>
+      <li xml:lang="de">Gut in die GNOME-Arbeitsumgebung integriert</li>
+      <li xml:lang="da">Integrerer godt med dit GNOME-skrivebord</li>
+      <li xml:lang="cs">Je dobře začleněné do prostředí GNOME</li>
+      <li xml:lang="ca@valencia">S'integra bé a l'escriptori de GNOME</li>
+      <li xml:lang="ca">S'integra bé a l'escriptori de GNOME</li>
+      <li xml:lang="ast">Intégrase bien nel escritoriu GNOME</li>
+    </ul>
+    <p>Déjà Dup focuses on ease of use and recovering from personal, accidental data loss. If you need a full system backup or an archival program, you may prefer other backup apps.</p>
+    <p xml:lang="zh_TW">Déjà Dup 的目標是要讓使用者可以在個人資料遺失，或資料意外遺失的狀況下輕鬆還原。如果您需要完整的系統備份功能，或是封存檔案用的程式，您可能要參考其他備份軟體。</p>
+    <p xml:lang="pl">Celem programu Déjà Dup jest łatwość użycia i pomoc przy ratowaniu prywatnych danych po przypadkowej utracie. Jeśli potrzebna jest kopia zapasowa całego komputera lub narzędzie do archwizacji, lepiej jest spróbować innego programu.</p>
+    <p xml:lang="mnw">Déjà Dup ပတဝ်က္ဍိုပ်ကဵုဗီုသုၚ်စောဲ တုဲ ကလေၚ်ဂိုၚ်ကေတ်တၚ်နၚ်ပူဂဵု ကေုာံ တၚ်နၚ်လီုအာတုဲတုဲတံ။ ယဝ်မၞးမိက်ဂွံဂွံ ဂိုၚ်စွံသၞောတ်စက်သီုမွဲမဟွံသေၚ်မ္ဂး သပ်ဝဴဂိုၚ်စွံမွဲမွဲမ္ဂးမၞးသုၚ်စောဲသပ်ဝဴတၞဟ်ဟ်မာန်ရ။</p>
+    <p xml:lang="ja">Déjà Dup は、使いやすさと、個人が不測の事態によって失ったデータを復元することに、焦点を置いています。システム全体のバックアップやアーカイバルなプログラムが必要な場合は、他のバックアップアプリを選択することをお勧めします。</p>
+    <p xml:lang="da">Déjà Dup har fokus på at være let at bruge og at genoprette fra utilsigtet tab af data. Hvis du har brug for en fuld systemsikkerhedskopiering eller et arkiveringsprogram, så kan det være du vil foretrække andre sikkerhedskopieringsprogrammer.</p>
+  </description>
+  <kudos>
+    <kudo>HiDpiIcon</kudo>
+    <kudo>HighContrast</kudo>
+    <kudo>ModernToolkit</kudo>
+    <kudo>Notifications</kudo>
+    <kudo>UserDocs</kudo>
+  </kudos>
+  <provides>
+    <binary>deja-dup</binary>
+    <id>deja-dup.desktop</id>
+    <id>deja-dup-preferences.desktop</id>
+    <id>io.snapcraft.deja-dup-FWBFbkKw7QOrYcJDRBwoDT2JNsavuet8</id>
+    <id>org.gnome.DejaDup.desktop</id>
+  </provides>
+  <categories>
+    <category>Utility</category>
+  </categories>
+  <project_license>GPL-3.0-or-later</project_license>
+  <launchable type="desktop-id">org.gnome.DejaDup.desktop</launchable>
+  <translation type="gettext">deja-dup</translation>
+  <content_rating type="oars-1.1"/>
+  <url type="homepage">https://wiki.gnome.org/Apps/DejaDup</url>
+  <url type="help">https://wiki.gnome.org/Apps/DejaDup/Help</url>
+  <url type="bugtracker">https://bugs.launchpad.net/deja-dup</url>
+  <url type="translate">https://translations.launchpad.net/deja-dup</url>
+  <url type="faq">https://wiki.gnome.org/Apps/DejaDup/Details</url>
+  <url type="donation">https://wiki.gnome.org/Apps/DejaDup/Donate</url>
+  <metadata_license>CC-BY-SA-4.0</metadata_license>
+  <developer_name its:translate="no">Michael Terry</developer_name>
+  <update_contact>deja-dup-list@gnome.org</update_contact>
+  <screenshots>
+    <screenshot type="default">
+      <image type="source" width="1280" height="720">https://gitlab.gnome.org/World/deja-dup/raw/40.7/data/screenshots/main.png</image>
+    </screenshot>
+    <screenshot>
+      <image type="source" width="1280" height="720">https://gitlab.gnome.org/World/deja-dup/raw/40.7/data/screenshots/location.png</image>
+    </screenshot>
+    <screenshot>
+      <image type="source" width="1280" height="720">https://gitlab.gnome.org/World/deja-dup/raw/40.7/data/screenshots/restore.png</image>
+    </screenshot>
+    <screenshot>
+      <image type="source" width="1280" height="720">https://gitlab.gnome.org/World/deja-dup/raw/40.7/data/screenshots/accolades.png</image>
+    </screenshot>
+  </screenshots>
+  <releases>
+    <release version="40.7" date="2020-06-14">
+      <description its:translate="no">
+        <p>Fixes a bug that prevented restoring from Google Drive accounts if you haven't backed up yet.</p>
+      </description>
+    </release>
+    <release version="40.6" date="2019-12-08">
+      <description its:translate="no">
+        <p>Fixes a bug that prevented backing up to Google Drive accounts with unlimited quotas.</p>
+      </description>
+    </release>
+    <release version="40.5" date="2019-11-23">
+      <description its:translate="no">
+        <p>Fixes a bug that prevented backing up to Google Drive in some rare situations.</p>
+      </description>
+    </release>
+    <release version="40.4" date="2019-11-14">
+      <description its:translate="no">
+        <p>Fixes a bug that prevented the first login to Google Drive.</p>
+      </description>
+    </release>
+    <release version="40.3" date="2019-11-13">
+      <description its:translate="no">
+        <p>Fixes a bug that prevented resuming a full backup.</p>
+      </description>
+    </release>
+    <release version="40.2" date="2019-10-23">
+      <description its:translate="no">
+        <p>Fixes 2038 date problems by using 64-bit dates internally.</p>
+      </description>
+    </release>
+  </releases>
+</component>

@@ -1,0 +1,10 @@
+a60cfd7238956d6b232091f969b2f008  usr/share/doc/gnome-session/AUTHORS
+366808b46b7bff024afee130f43e2af7  usr/share/doc/gnome-session/NEWS.gz
+68b5d3b7983e6b8692a754db30fcce64  usr/share/doc/gnome-session/README
+855dada7c1c46498897ae97d590aa1f6  usr/share/doc/gnome-session/README.Debian
+15365240c6300e07de04f5f04d7bafdf  usr/share/doc/gnome-session/copyright
+de5a4a14ddb5c43112fcba3506f09466  usr/share/doc/gnome-session/dbus/gnome-session.html
+1d5fe884eba2dcda71f89e7a4d664664  usr/share/gnome-session/sessions/gnome-dummy.session
+ade981ccd759a7e1ca915faeb79f4cac  usr/share/gnome-session/sessions/gnome.session
+b9316e4eba9423b660a5843ac3c0f4ae  usr/share/wayland-sessions/gnome.desktop
+481f9650ed8e6404628e00dc33086ccf  usr/share/xsessions/gnome-xorg.desktop

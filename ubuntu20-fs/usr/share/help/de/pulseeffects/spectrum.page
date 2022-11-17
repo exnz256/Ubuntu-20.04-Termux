@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="spectrum" xml:lang="de">
+    <info>
+        <link type="guide" xref="settingsmenu"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>David Keller</mal:name>
+      <mal:email>davidkeller@tuta.io</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+    <title>Spektrum</title>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Anzeigen</em>
+            </title>
+            <p>Das Spektrum verbergen oder anzeigen.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Punkte</em>
+            </title>
+            <p>Anzahl der angezeigten Punkte.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Höhe</em>
+            </title>
+            <p>Spektrumhöhe.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Skala</em>
+            </title>
+            <p>Skalierungsfaktor der Balkenhöhe.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Exponent</em>
+            </title>
+            <p>Skalierungsfaktor Exponent.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Abtastrate</em>
+            </title>
+            <p>Aktualisierungsfrequenz des Spektrums.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Linienbreite</em>
+            </title>
+            <p>Balkenlinienbreite.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Ausfüllen</em>
+            </title>
+            <p>Ausgefüllte Balken zeichnen.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Grenze</em>
+            </title>
+            <p>Balkengrenze anzeigen.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Benutzerdefinierte Farbe benutzen</em>
+            </title>
+            <p>Eine Benutzerdefinierte Farbe oder die GTK Themenfarbe nutzen.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Spektrumfarbe</em>
+            </title>
+            <p>Benutzerdefinierte Farbe.</p>
+        </item>
+    </terms>
+</page>

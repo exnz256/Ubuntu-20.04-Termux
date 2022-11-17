@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="blacklist" xml:lang="it-IT">
+    <info>
+        <link type="guide" xref="settingsmenu"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Digitalone</mal:name>
+      <mal:email>kurmikon@libero.it</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+    <title>Applicazioni Escluse</title>
+    <media type="image" src="figures/blacklist.png" its:translate="no"/>
+    <p>Nel menu delle impostazioni è presente un'opzione che consente all'utente di applicare effetti a tutte le applicazioni, senza la necessità di abilitarle individualmente. Tuttavia ci sono casi in cui l'utente vuole che una particolare applicazione sia esclusa dalla funzione "Abilita Tutte le Applicazioni". In questo caso è possibile usare una lista di esclusione. È sufficiente aggiungere a tale lista il nome dell'applicazione esattamente come viene mostrata nella voce "Applicazioni".</p>
+</page>

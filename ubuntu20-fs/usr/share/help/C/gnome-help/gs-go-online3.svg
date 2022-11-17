@@ -1,0 +1,391 @@
+<ns0:svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" xmlns:ns2="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns3="http://www.openswatchbook.org/uri/2009/osb" xmlns:ns4="http://www.w3.org/1999/xlink" xmlns:ns6="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="840" height="500" id="svg10075" version="1.1" ns1:version="0.91 r13725" ns2:docname="gs-go-online3.svg">
+  <ns0:defs id="defs10077">
+    <ns0:linearGradient ns1:collect="always" id="linearGradient14901">
+      <ns0:stop style="stop-color:#000000;stop-opacity:1;" offset="0" id="stop14903" />
+      <ns0:stop style="stop-color:#000000;stop-opacity:0;" offset="1" id="stop14905" />
+    </ns0:linearGradient>
+    <ns0:linearGradient ns3:paint="gradient" id="RHEL7">
+      <ns0:stop id="stop13323" offset="0" style="stop-color:#a3dbe8;stop-opacity:1;" />
+      <ns0:stop id="stop13325" offset="1" style="stop-color:#a3dbe8;stop-opacity:1;" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="GNOME" ns3:paint="gradient">
+      <ns0:stop style="stop-color:#eeedec;stop-opacity:1;" offset="0" id="stop11074" />
+      <ns0:stop style="stop-color:#eeedec;stop-opacity:1" offset="1" id="stop11076" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="BLANK" ns3:paint="gradient">
+      <ns0:stop style="stop-color:#eeedec;stop-opacity:0;" offset="0" id="stop7012" />
+      <ns0:stop style="stop-color:#eeedec;stop-opacity:0" offset="1" id="stop7014" />
+    </ns0:linearGradient>
+    <ns0:linearGradient ns1:collect="always" ns4:href="#GNOME" id="linearGradient7064" gradientTransform="matrix(1.1834379,0,0,0.896461,5.7016703,415.60382)" x1="-18.33782" y1="490.54935" x2="713.42853" y2="490.54935" gradientUnits="userSpaceOnUse" />
+    <ns0:linearGradient ns1:collect="always" ns4:href="#linearGradient5716" id="linearGradient5885" x1="29.089951" y1="11.772627" x2="33.971455" y2="9.7093649" gradientUnits="userSpaceOnUse" />
+    <ns0:linearGradient id="linearGradient5716">
+      <ns0:stop style="stop-color:#000000;stop-opacity:1;" offset="0" id="stop5718" />
+      <ns0:stop style="stop-color:#484848;stop-opacity:1;" offset="1" id="stop5720" />
+    </ns0:linearGradient>
+    <ns0:linearGradient ns1:collect="always" ns4:href="#linearGradient5716" id="linearGradient17441" x1="29.089951" y1="11.772627" x2="33.971455" y2="9.7093649" gradientUnits="userSpaceOnUse" />
+    <ns0:linearGradient id="linearGradient17443">
+      <ns0:stop style="stop-color:#000000;stop-opacity:1;" offset="0" id="stop17445" />
+      <ns0:stop style="stop-color:#484848;stop-opacity:1;" offset="1" id="stop17447" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="linearGradient3962-1-1-9-5-4-2">
+      <ns0:stop id="stop3964-5-0-1-9-6-6" offset="0.0000000" style="stop-color: rgb(211, 233, 255); stop-opacity: 1;" />
+      <ns0:stop id="stop4134-0-8-0-8-6-6" offset="0.15517241" style="stop-color: rgb(243, 249, 255); stop-opacity: 1;" />
+      <ns0:stop id="stop4346-9-1-1-2-3-4" offset="0.63108921" style="stop-color: rgb(55, 100, 151); stop-opacity: 1;" />
+      <ns0:stop style="stop-color: rgb(39, 62, 93); stop-opacity: 1;" offset="0.81554461" id="stop6610-2-9-0-2-7" />
+      <ns0:stop id="stop3966-7-2-7-7-1-3" offset="1" style="stop-color: rgb(82, 110, 165); stop-opacity: 1;" />
+    </ns0:linearGradient>
+    <ns0:radialGradient ns1:collect="always" ns4:href="#linearGradient6868-5-7-5-4-3" id="radialGradient68893" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,0.931606,0,1.57305)" cx="24.881451" cy="22.999987" fx="24.881451" fy="22.999987" r="19.18985" />
+    <ns0:linearGradient id="linearGradient6868-5-7-5-4-3" ns1:collect="always">
+      <ns0:stop id="stop6870-84-7-0-1-8" offset="0" style="stop-color: rgb(0, 0, 0); stop-opacity: 1;" />
+      <ns0:stop id="stop6872-0-5-0-7-1" offset="1" style="stop-color: rgb(0, 0, 0); stop-opacity: 0;" />
+    </ns0:linearGradient>
+    <ns0:radialGradient ns1:collect="always" ns4:href="#linearGradient6868-5-7-5-4-3" id="radialGradient68891" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,0.931606,0,1.57305)" cx="24.881451" cy="22.999987" fx="24.881451" fy="22.999987" r="19.18985" />
+    <ns0:radialGradient ns1:collect="always" ns4:href="#linearGradient6868-5-7-5-4-3" id="radialGradient68897" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,0.931606,0,1.57305)" cx="24.881451" cy="22.999987" fx="24.881451" fy="22.999987" r="19.18985" />
+    <ns0:radialGradient ns1:collect="always" ns4:href="#linearGradient6868-5-7-5-4-3" id="radialGradient68895" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,0.931606,0,1.57305)" cx="24.881451" cy="22.999987" fx="24.881451" fy="22.999987" r="19.18985" />
+    <ns0:radialGradient ns1:collect="always" ns4:href="#linearGradient6868-5-7-5-4-3" id="radialGradient68901" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,0.931606,0,1.57305)" cx="24.881451" cy="22.999987" fx="24.881451" fy="22.999987" r="19.18985" />
+    <ns0:radialGradient ns1:collect="always" ns4:href="#linearGradient6868-5-7-5-4-3" id="radialGradient68899" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,0.931606,0,1.57305)" cx="24.881451" cy="22.999987" fx="24.881451" fy="22.999987" r="19.18985" />
+    <ns0:radialGradient ns1:collect="always" ns4:href="#linearGradient6868-5-7-5-4-3" id="radialGradient68905" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,0.931606,0,1.57305)" cx="24.881451" cy="22.999987" fx="24.881451" fy="22.999987" r="19.18985" />
+    <ns0:radialGradient ns1:collect="always" ns4:href="#linearGradient6868-5-7-5-4-3" id="radialGradient68903" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,0.931606,0,1.57305)" cx="24.881451" cy="22.999987" fx="24.881451" fy="22.999987" r="19.18985" />
+    <ns0:radialGradient ns1:collect="always" ns4:href="#linearGradient6868-5-7-5-4-3" id="radialGradient68909" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,0.931606,0,1.57305)" cx="24.881451" cy="22.999987" fx="24.881451" fy="22.999987" r="19.18985" />
+    <ns0:radialGradient ns1:collect="always" ns4:href="#linearGradient6868-5-7-5-4-3" id="radialGradient68907" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,0.931606,0,1.57305)" cx="24.881451" cy="22.999987" fx="24.881451" fy="22.999987" r="19.18985" />
+    <ns0:radialGradient ns1:collect="always" ns4:href="#linearGradient6868-5-7-5-4-3" id="radialGradient68913" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,0.931606,0,1.57305)" cx="24.881451" cy="22.999987" fx="24.881451" fy="22.999987" r="19.18985" />
+    <ns0:radialGradient ns1:collect="always" ns4:href="#linearGradient6868-5-7-5-4-3" id="radialGradient68911" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,0.931606,0,1.57305)" cx="24.881451" cy="22.999987" fx="24.881451" fy="22.999987" r="19.18985" />
+    <ns0:radialGradient ns1:collect="always" ns4:href="#linearGradient6868-5-7-5-4-3" id="radialGradient68917" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,0.931606,0,1.57305)" cx="24.881451" cy="22.999987" fx="24.881451" fy="22.999987" r="19.18985" />
+    <ns0:radialGradient ns1:collect="always" ns4:href="#linearGradient6868-5-7-5-4-3" id="radialGradient68915" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,0.931606,0,1.57305)" cx="24.881451" cy="22.999987" fx="24.881451" fy="22.999987" r="19.18985" />
+    <ns0:radialGradient ns1:collect="always" ns4:href="#linearGradient6868-5-7-5-4-3" id="radialGradient68921" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,0.931606,0,1.57305)" cx="24.881451" cy="22.999987" fx="24.881451" fy="22.999987" r="19.18985" />
+    <ns0:radialGradient ns1:collect="always" ns4:href="#linearGradient6868-5-7-5-4-3" id="radialGradient68919" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,0.931606,0,1.57305)" cx="24.881451" cy="22.999987" fx="24.881451" fy="22.999987" r="19.18985" />
+    <ns0:radialGradient ns1:collect="always" ns4:href="#linearGradient6868-5-7-5-4-3" id="radialGradient68925" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,0.931606,0,1.57305)" cx="24.881451" cy="22.999987" fx="24.881451" fy="22.999987" r="19.18985" />
+    <ns0:radialGradient ns1:collect="always" ns4:href="#linearGradient6868-5-7-5-4-3" id="radialGradient68923" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,0.931606,0,1.57305)" cx="24.881451" cy="22.999987" fx="24.881451" fy="22.999987" r="19.18985" />
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath56767">
+      <ns0:path ns2:nodetypes="ccccc" ns1:connector-curvature="0" id="path56769" d="m 228.45991,29.202459 833.57379,0 0,290.286071 c -330.23641,0 -408.68316,175.76954 -833.57379,175.76954 z" style="color:#000000;fill:#babdb6;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath14882">
+      <ns0:path ns2:type="arc" style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:8.72566223;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="path14884" ns2:cx="2246" ns2:cy="390" ns2:rx="482" ns2:ry="482" d="m 2728,390 a 482,482 0 1 1 -964,0 482,482 0 1 1 964,0 z" transform="matrix(0.35527386,0,0,0.35527386,119.03054,9.4159878)" />
+    </ns0:clipPath>
+    <ns0:linearGradient ns1:collect="always" ns4:href="#linearGradient14901" id="linearGradient14907" x1="532.43353" y1="187.53497" x2="532.43353" y2="314.62036" gradientUnits="userSpaceOnUse" />
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath6279-7-9">
+      <ns0:rect style="color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" id="rect6281-1-9" width="3.8250003" height="6.3750005" x="26.85" y="220.75" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath6265-3-4">
+      <ns0:rect style="color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" id="rect6267-1-9" width="2.8977277" height="5.21591" x="26.96591" y="221.32954" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath6259-8-81">
+      <ns0:rect style="color:#bebebe;fill:#bebebe;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" id="rect6261-6-6" width="1.8762827" height="4.8734746" x="26.998718" y="221.50153" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clipPath6279-6-2-7-1">
+      <ns0:rect style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="rect6281-3-4-6-6" y="220.75" x="26.85" height="6.3750005" width="3.8250003" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clipPath6265-33-1-4-3">
+      <ns0:rect style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="rect6267-6-9-5-5" y="221.32954" x="26.96591" height="5.21591" width="2.8977277" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clipPath6259-6-3-9">
+      <ns0:rect style="color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="rect6261-4-5-4" y="221.50153" x="26.998718" height="4.8734746" width="1.8762827" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clipPath25942">
+      <ns0:rect style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="rect25944" y="220.75" x="26.85" height="6.3750005" width="3.8250003" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clipPath25946">
+      <ns0:rect style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="rect25948" y="221.32954" x="26.96591" height="5.21591" width="2.8977277" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clipPath25950">
+      <ns0:rect style="color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="rect25952" y="221.50153" x="26.998718" height="4.8734746" width="1.8762827" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clipPath6279-6-9-6-0">
+      <ns0:rect style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="rect6281-3-1-6-2" y="220.75" x="26.85" height="6.3750005" width="3.8250003" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clipPath6265-33-6-4-2-8">
+      <ns0:rect style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="rect6267-6-9-19-7-4" y="221.32954" x="26.96591" height="5.21591" width="2.8977277" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clipPath6259-6-8-2-8-7-5">
+      <ns0:rect style="color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="rect6261-4-9-2-7-6-1" y="221.50153" x="26.998718" height="4.8734746" width="1.8762827" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clipPath25960">
+      <ns0:rect style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="rect25962" y="220.75" x="26.85" height="6.3750005" width="3.8250003" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clipPath25964">
+      <ns0:rect style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="rect25966" y="221.32954" x="26.96591" height="5.21591" width="2.8977277" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clipPath25968">
+      <ns0:rect style="color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="rect25970" y="221.50153" x="26.998718" height="4.8734746" width="1.8762827" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clipPath25972">
+      <ns0:rect style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="rect25974" y="220.75" x="26.85" height="6.3750005" width="3.8250003" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clipPath25976">
+      <ns0:rect style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="rect25978" y="221.32954" x="26.96591" height="5.21591" width="2.8977277" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clipPath25980">
+      <ns0:rect style="color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="rect25982" y="221.50153" x="26.998718" height="4.8734746" width="1.8762827" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clipPath25984">
+      <ns0:rect style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="rect25986" y="220.75" x="26.85" height="6.3750005" width="3.8250003" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clipPath25988">
+      <ns0:rect style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="rect25990" y="221.32954" x="26.96591" height="5.21591" width="2.8977277" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clipPath25992">
+      <ns0:rect style="color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="rect25994" y="221.50153" x="26.998718" height="4.8734746" width="1.8762827" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clipPath25996">
+      <ns0:rect style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="rect25998" y="220.75" x="26.85" height="6.3750005" width="3.8250003" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clipPath26000">
+      <ns0:rect style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="rect26002" y="221.32954" x="26.96591" height="5.21591" width="2.8977277" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clipPath26004">
+      <ns0:rect style="color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="rect26006" y="221.50153" x="26.998718" height="4.8734746" width="1.8762827" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clipPath24971-0" clipPathUnits="userSpaceOnUse">
+      <ns0:rect y="-354.29291" x="624" height="93" width="276" id="rect24973-5" style="color:#000000;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clipPath6279-6-2-7">
+      <ns0:rect style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="rect6281-3-4-6" y="220.75" x="26.85" height="6.3750005" width="3.8250003" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clipPath6265-33-1-4">
+      <ns0:rect style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="rect6267-6-9-5" y="221.32954" x="26.96591" height="5.21591" width="2.8977277" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clipPath6259-6-3">
+      <ns0:rect style="color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="rect6261-4-5" y="221.50153" x="26.998718" height="4.8734746" width="1.8762827" />
+    </ns0:clipPath>
+    <ns0:mask maskUnits="userSpaceOnUse" id="mask12112-0-6-5-3-8-1-7">
+      <ns0:rect style="fill:url(#radialGradient12116-6-2-9-3-0-9-9);fill-opacity:1;stroke:none" id="rect12114-2-9-0-8-2-5-6" width="221" height="16" x="16.5" y="434" />
+    </ns0:mask>
+    <ns0:radialGradient ns1:collect="always" ns4:href="#linearGradient12104-5-1-5-6-8-5-5" id="radialGradient12116-6-2-9-3-0-9-9" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,0.07239819,-1.5,410)" cx="128.5" cy="442" fx="128.5" fy="442" r="110.5" />
+    <ns0:linearGradient ns1:collect="always" id="linearGradient12104-5-1-5-6-8-5-5">
+      <ns0:stop style="stop-color:#cccccc;stop-opacity:1;" offset="0" id="stop12106-3-0-0-5-2-4-1" />
+      <ns0:stop style="stop-color:#cccccc;stop-opacity:0;" offset="1" id="stop12108-4-0-4-9-5-8-15" />
+    </ns0:linearGradient>
+    <ns0:clipPath id="clipPath4201-6-8-5-59">
+      <ns0:path style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="path4203-1-2-5-0" ns1:connector-curvature="0" d="m 101,177 0,5 2,0 0,2 1,0 0,-4 7,0 0,4 1,0 0,-2 2,0 0,-5 -13,0 z" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clipPath6279-6-9-6">
+      <ns0:rect style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="rect6281-3-1-6" y="220.75" x="26.85" height="6.3750005" width="3.8250003" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clipPath6265-33-6-4-2">
+      <ns0:rect style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="rect6267-6-9-19-7" y="221.32954" x="26.96591" height="5.21591" width="2.8977277" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clipPath6259-6-8-2-8-7">
+      <ns0:rect style="color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="rect6261-4-9-2-7-6" y="221.50153" x="26.998718" height="4.8734746" width="1.8762827" />
+    </ns0:clipPath>
+    <ns0:mask maskUnits="userSpaceOnUse" id="mask12112-0-6-5-3-8-3-7">
+      <ns0:rect style="fill:url(#radialGradient12116-6-2-9-3-0-75-13);fill-opacity:1;stroke:none" id="rect12114-2-9-0-8-2-6-5" width="221" height="16" x="16.5" y="434" />
+    </ns0:mask>
+    <ns0:radialGradient ns1:collect="always" ns4:href="#linearGradient12104-5-1-5-6-8-7-2" id="radialGradient12116-6-2-9-3-0-75-13" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,0.07239819,-1.5,410)" cx="128.5" cy="442" fx="128.5" fy="442" r="110.5" />
+    <ns0:linearGradient ns1:collect="always" id="linearGradient12104-5-1-5-6-8-7-2">
+      <ns0:stop style="stop-color:#cccccc;stop-opacity:1;" offset="0" id="stop12106-3-0-0-5-2-8-92" />
+      <ns0:stop style="stop-color:#cccccc;stop-opacity:0;" offset="1" id="stop12108-4-0-4-9-5-04-00" />
+    </ns0:linearGradient>
+    <ns0:mask maskUnits="userSpaceOnUse" id="mask12112-0-6-5-3-8-0-0">
+      <ns0:rect style="fill:url(#radialGradient12116-6-2-9-3-0-7-75);fill-opacity:1;stroke:none" id="rect12114-2-9-0-8-2-3-8" width="221" height="16" x="16.5" y="434" />
+    </ns0:mask>
+    <ns0:radialGradient ns1:collect="always" ns4:href="#linearGradient12104-5-1-5-6-8-9-1" id="radialGradient12116-6-2-9-3-0-7-75" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,0.07239819,-1.5,410)" cx="128.5" cy="442" fx="128.5" fy="442" r="110.5" />
+    <ns0:linearGradient ns1:collect="always" id="linearGradient12104-5-1-5-6-8-9-1">
+      <ns0:stop style="stop-color:#cccccc;stop-opacity:1;" offset="0" id="stop12106-3-0-0-5-2-3-4" />
+      <ns0:stop style="stop-color:#cccccc;stop-opacity:0;" offset="1" id="stop12108-4-0-4-9-5-0-50" />
+    </ns0:linearGradient>
+    <ns0:mask maskUnits="userSpaceOnUse" id="mask12112-0-6-5-3-8-4">
+      <ns0:rect style="fill:url(#radialGradient12116-6-2-9-3-0-3);fill-opacity:1;stroke:none" id="rect12114-2-9-0-8-2-0" width="221" height="16" x="16.5" y="434" />
+    </ns0:mask>
+    <ns0:radialGradient ns1:collect="always" ns4:href="#linearGradient12104-5-1-5-6-8-77" id="radialGradient12116-6-2-9-3-0-3" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,0.07239819,-1.5,410)" cx="128.5" cy="442" fx="128.5" fy="442" r="110.5" />
+    <ns0:linearGradient ns1:collect="always" id="linearGradient12104-5-1-5-6-8-77">
+      <ns0:stop style="stop-color:#cccccc;stop-opacity:1;" offset="0" id="stop12106-3-0-0-5-2-87" />
+      <ns0:stop style="stop-color:#cccccc;stop-opacity:0;" offset="1" id="stop12108-4-0-4-9-5-7" />
+    </ns0:linearGradient>
+    <ns0:linearGradient ns1:collect="always" id="linearGradient14901-1">
+      <ns0:stop style="stop-color:#000000;stop-opacity:1;" offset="0" id="stop14903-7" />
+      <ns0:stop style="stop-color:#000000;stop-opacity:0;" offset="1" id="stop14905-2" />
+    </ns0:linearGradient>
+    <ns0:linearGradient gradientTransform="matrix(0.75098334,0,0,0.75098334,-170.84871,-42.430559)" y2="314.62036" x2="532.43353" y1="187.53497" x1="532.43353" gradientUnits="userSpaceOnUse" id="linearGradient27012" ns4:href="#linearGradient14901-1" ns1:collect="always" />
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath6279-7-9-9">
+      <ns0:rect style="color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" id="rect6281-1-9-8" width="3.8250003" height="6.3750005" x="26.85" y="220.75" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath6265-3-4-4">
+      <ns0:rect style="color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" id="rect6267-1-9-6" width="2.8977277" height="5.21591" x="26.96591" y="221.32954" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath6259-8-81-2">
+      <ns0:rect style="color:#bebebe;fill:#bebebe;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" id="rect6261-6-6-7" width="1.8762827" height="4.8734746" x="26.998718" y="221.50153" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath6279-6-1">
+      <ns0:rect style="color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" id="rect6281-3-1" width="3.8250003" height="6.3750005" x="26.85" y="220.75" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath6265-33-4">
+      <ns0:rect style="color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" id="rect6267-6-5" width="2.8977277" height="5.21591" x="26.96591" y="221.32954" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath6259-6-4">
+      <ns0:rect style="color:#bebebe;fill:#bebebe;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" id="rect6261-4-9" width="1.8762827" height="4.8734746" x="26.998718" y="221.50153" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath32041">
+      <ns0:rect style="color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" id="rect32043" width="3.8250003" height="6.3750005" x="26.85" y="220.75" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath32045">
+      <ns0:rect style="color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" id="rect32047" width="2.8977277" height="5.21591" x="26.96591" y="221.32954" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath6259-6-8-25-4">
+      <ns0:rect style="color:#bebebe;fill:#bebebe;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" id="rect6261-4-9-24-2" width="1.8762827" height="4.8734746" x="26.998718" y="221.50153" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath6279-6-1-4-5">
+      <ns0:rect style="color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" id="rect6281-3-0-3-5" width="3.8250003" height="6.3750005" x="26.85" y="220.75" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath6265-33-6-5-1-3">
+      <ns0:rect style="color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" id="rect6267-6-9-1-4-8" width="2.8977277" height="5.21591" x="26.96591" y="221.32954" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath6259-6-8-2-1-6-6">
+      <ns0:rect style="color:#bebebe;fill:#bebebe;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" id="rect6261-4-9-2-0-9-0" width="1.8762827" height="4.8734746" x="26.998718" y="221.50153" />
+    </ns0:clipPath>
+    <ns0:linearGradient ns1:collect="always" ns4:href="#linearGradient5716-6" id="linearGradient48287" gradientUnits="userSpaceOnUse" x1="29.089951" y1="11.772627" x2="33.971455" y2="9.7093649" />
+    <ns0:linearGradient id="linearGradient5716-6">
+      <ns0:stop style="stop-color:#000000;stop-opacity:1;" offset="0" id="stop5718-7" />
+      <ns0:stop style="stop-color:#484848;stop-opacity:1;" offset="1" id="stop5720-7" />
+    </ns0:linearGradient>
+    <ns0:linearGradient ns1:collect="always" ns4:href="#linearGradient5716-6" id="linearGradient48289" gradientUnits="userSpaceOnUse" x1="29.089951" y1="11.772627" x2="33.971455" y2="9.7093649" />
+    <ns0:linearGradient id="linearGradient33938">
+      <ns0:stop style="stop-color:#000000;stop-opacity:1;" offset="0" id="stop33940" />
+      <ns0:stop style="stop-color:#484848;stop-opacity:1;" offset="1" id="stop33942" />
+    </ns0:linearGradient>
+    <ns0:linearGradient y2="9.7093649" x2="33.971455" y1="11.772627" x1="29.089951" gradientUnits="userSpaceOnUse" id="linearGradient33948" ns4:href="#linearGradient5716-6" ns1:collect="always" />
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath6279-7-9-7">
+      <ns0:rect style="color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" id="rect6281-1-9-2" width="3.8250003" height="6.3750005" x="26.85" y="220.75" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath6265-3-4-4-0">
+      <ns0:rect style="color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" id="rect6267-1-9-2" width="2.8977277" height="5.21591" x="26.96591" y="221.32954" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath6259-8-81-2-5">
+      <ns0:rect style="color:#bebebe;fill:#bebebe;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" id="rect6261-6-6-2" width="1.8762827" height="4.8734746" x="26.998718" y="221.50153" />
+    </ns0:clipPath>
+    <ns1:path-effect effect="spiro" id="path-effect8915-0-8-2-7-4-4-8" is_visible="true" />
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath6279-6-1-7">
+      <ns0:rect style="color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" id="rect6281-3-1-66" width="3.8250003" height="6.3750005" x="26.85" y="220.75" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath6265-33-4-1">
+      <ns0:rect style="color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" id="rect6267-6-5-2" width="2.8977277" height="5.21591" x="26.96591" y="221.32954" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath6259-6-4-8">
+      <ns0:rect style="color:#bebebe;fill:#bebebe;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" id="rect6261-4-9-3" width="1.8762827" height="4.8734746" x="26.998718" y="221.50153" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath70862">
+      <ns0:rect style="color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" id="rect70864" width="3.8250003" height="6.3750005" x="26.85" y="220.75" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath70866">
+      <ns0:rect style="color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" id="rect70868" width="2.8977277" height="5.21591" x="26.96591" y="221.32954" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath6259-6-8-25-4-4">
+      <ns0:rect style="color:#bebebe;fill:#bebebe;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" id="rect6261-4-9-24-2-7" width="1.8762827" height="4.8734746" x="26.998718" y="221.50153" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath6279-6-1-4-5-0">
+      <ns0:rect style="color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" id="rect6281-3-0-3-5-7" width="3.8250003" height="6.3750005" x="26.85" y="220.75" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath6265-33-6-5-1-3-3">
+      <ns0:rect style="color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" id="rect6267-6-9-1-4-8-3" width="2.8977277" height="5.21591" x="26.96591" y="221.32954" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath6259-6-8-2-1-6-6-3">
+      <ns0:rect style="color:#bebebe;fill:#bebebe;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" id="rect6261-4-9-2-0-9-0-4" width="1.8762827" height="4.8734746" x="26.998718" y="221.50153" />
+    </ns0:clipPath>
+  </ns0:defs>
+  <ns2:namedview id="base" pagecolor="#eeeeec" bordercolor="#666666" borderopacity="1.0" ns1:pageopacity="1" ns1:pageshadow="2" ns1:zoom="1" ns1:cx="381.3163" ns1:cy="114.76815" ns1:document-units="px" ns1:current-layer="g27126" showgrid="false" borderlayer="true" ns1:showpageshadow="false" ns1:window-width="2560" ns1:window-height="1376" ns1:window-x="0" ns1:window-y="27" ns1:window-maximized="1" width="0px" height="0px" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0">
+    <ns1:grid type="xygrid" id="grid17504" empspacing="5" visible="true" enabled="true" snapvisiblegridlinesonly="true" />
+  </ns2:namedview>
+  <ns0:metadata id="metadata10080">
+    <rdf:RDF>
+      <ns6:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </ns6:Work>
+    </rdf:RDF>
+  </ns0:metadata>
+  <ns0:g ns1:label="bg" ns1:groupmode="layer" id="layer1" transform="translate(0,-992.3622)" ns2:insensitive="true">
+    <ns0:rect style="fill:url(#BLANK);" id="background" width="866" height="656" x="-16" y="855.36218" ns1:label="background" />
+  </ns0:g>
+  <ns0:g ns1:groupmode="layer" id="layer2" ns1:label="fg" transform="translate(0,-540)">
+    <ns0:g id="g27126" transform="translate(9.5625,-167.29113)">
+      <ns0:g id="g15031" transform="translate(-51,24.637831)">
+        <ns0:circle transform="translate(2,453.36217)" id="path15033" style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:0.27522936;stroke:none;stroke-width:1.06985807;marker:none;enable-background:accumulate" cx="120" cy="278" r="17" />
+        <ns0:text ns2:linespacing="125%" id="text15035" y="736.36218" x="122.29289" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" xml:space="preserve"><ns0:tspan y="736.36218" x="122.29289" id="tspan15037" ns2:role="line">4</ns0:tspan></ns0:text>
+      </ns0:g>
+      <ns0:rect style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5.77363062;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" id="rect17558" width="394.59302" height="353.14359" x="196.20349" y="774.2193" rx="7.7971802" ry="7.7971802" />
+      <ns0:text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none" x="263.45731" y="808.12811" id="text12012-1" ns2:linespacing="125%"><ns0:tspan ns2:role="line" id="tspan12014-2" x="263.45731" y="808.12811">Wi-Fi Networks</ns0:tspan></ns0:text>
+      <ns0:rect style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:1.96981525;stroke-opacity:1;marker:none;enable-background:accumulate" id="rect12010-4" width="363.19278" height="213.93021" x="212.00003" y="847.29114" rx="6.3674316" ry="6.3674316" />
+      <ns0:g id="g17909" transform="translate(-33,140.29111)">
+        <ns0:text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none" x="521.99988" y="964.00006" id="text17496-8" ns2:linespacing="125%"><ns0:tspan ns2:role="line" id="tspan17498-4" x="521.99988" y="964.00006">Connect</ns0:tspan></ns0:text>
+      </ns0:g>
+      <ns0:text ns2:linespacing="125%" id="text17640" y="877.12811" x="232.45731" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none" xml:space="preserve"><ns0:tspan y="877.12811" x="232.45731" id="tspan17642" ns2:role="line">homenetwork</ns0:tspan></ns0:text>
+      <ns0:text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none" x="232.45731" y="917.12811" id="text17893" ns2:linespacing="125%"><ns0:tspan ns2:role="line" id="tspan17895" x="232.45731" y="917.12811">wireless</ns0:tspan></ns0:text>
+      <ns0:text ns2:linespacing="125%" id="text17897" y="957.12811" x="232.45731" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none" xml:space="preserve"><ns0:tspan y="957.12811" x="232.45731" id="tspan17899" ns2:role="line">netgear</ns0:tspan></ns0:text>
+      <ns0:text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none" x="232.45731" y="997.12811" id="text17901" ns2:linespacing="125%"><ns0:tspan ns2:role="line" id="tspan17903" x="232.45731" y="997.12811">weak</ns0:tspan></ns0:text>
+      <ns0:text ns2:linespacing="125%" id="text17905" y="1037.1281" x="232.45731" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none" xml:space="preserve"><ns0:tspan y="1037.1281" x="232.45731" id="tspan17907" ns2:role="line">private</ns0:tspan></ns0:text>
+      <ns0:text ns2:linespacing="125%" id="text70589" y="828.12811" x="263.45731" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none" xml:space="preserve"><ns0:tspan y="828.12811" x="263.45731" id="tspan70591" ns2:role="line">Select a network</ns0:tspan></ns0:text>
+      <ns0:g style="display:inline" transform="matrix(2,0,0,2,138.99997,402.29113)" id="g70712" ns1:label="network-wireless-signal-good">
+        <ns0:path clip-path="url(#clipPath6279-6-1)" ns2:type="arc" style="display:inline;fill:none;stroke:#000000;stroke-width:2.54999995;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" id="path70714" ns2:cx="24.9375" ns2:cy="223.9375" ns2:rx="3.1875" ns2:ry="3.1875" d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0.933597,2.2539 3.1875,3.1875 0 0 1 -0.933597,2.2539" transform="matrix(0,-0.784314,0.784314,0,-128.137,227.059)" ns2:open="true" ns2:start="5.4977871" ns2:end="0.78539819" />
+        <ns0:path clip-path="url(#clipPath6265-33-4)" transform="matrix(0,-1.72549,1.72549,0,-338.902,250.529)" d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0.933597,2.2539 3.1875,3.1875 0 0 1 -0.933597,2.2539" ns2:ry="3.1875" ns2:rx="3.1875" ns2:cy="223.9375" ns2:cx="24.9375" id="path70716" style="display:inline;fill:none;stroke:#000000;stroke-width:1.15909004;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" ns2:type="arc" ns2:open="true" ns2:start="5.4977871" ns2:end="0.78539819" />
+        <ns0:rect transform="matrix(0,-1,1,0,0,0)" ns1:label="audio-volume-high" y="40" x="-212" height="16" width="16" id="rect70718" style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none" />
+        <ns0:circle transform="matrix(1.5,0,0,1.5,5.5,-105)" id="path70720" style="display:inline;fill:#000000;fill-opacity:1;stroke:none" cx="28" cy="209" r="1" />
+        <ns0:path ns2:end="0.78539819" ns2:start="5.4977871" ns2:open="true" transform="matrix(0,-2.66667,2.66667,0,-549.666,274)" d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0.933597,2.2539 3.1875,3.1875 0 0 1 -0.933597,2.2539" ns2:ry="3.1875" ns2:rx="3.1875" ns2:cy="223.9375" ns2:cx="24.9375" id="path70722" style="display:inline;opacity:0.35;fill:none;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" ns2:type="arc" clip-path="url(#clipPath6259-6-8-25-4)" />
+      </ns0:g>
+      <ns0:g transform="translate(299,521.29113)" ns1:label="channel-secure" id="g4076-8-6" style="display:inline">
+        <ns0:g id="g4053-1-5" ns1:label="lock" transform="translate(181,233)" style="fill:#bebebe;fill-opacity:1">
+          <ns0:rect ns1:label="a" y="276" x="20" height="16" width="16" id="rect4055-6-4" style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none" />
+        </ns0:g>
+        <ns0:path ns2:nodetypes="csccccscc" ns1:connector-curvature="0" id="rect4063-8-6" d="m 205,516 c -0.554,0 -1.18921,0.47931 -1,1 l 0,0.53125 0,4.46875 10,0 0,-4.46875 L 214,517 c 0,-0.554 -0.446,-1 -1,-1 z" style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none" />
+        <ns0:rect style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" id="rect4291-5-4" width="6" height="8" x="206" y="512" rx="2" ry="2" />
+      </ns0:g>
+      <ns0:g style="display:inline" id="g70754" ns1:label="channel-secure" transform="translate(299,481.29113)">
+        <ns0:g style="fill:#bebebe;fill-opacity:1" transform="translate(181,233)" ns1:label="lock" id="g70756">
+          <ns0:rect style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none" id="rect70758" width="16" height="16" x="20" y="276" ns1:label="a" />
+        </ns0:g>
+        <ns0:path style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none" d="m 205,516 c -0.554,0 -1.18921,0.47931 -1,1 l 0,0.53125 0,4.46875 10,0 0,-4.46875 L 214,517 c 0,-0.554 -0.446,-1 -1,-1 z" id="path70760" ns1:connector-curvature="0" ns2:nodetypes="csccccscc" />
+      </ns0:g>
+      <ns0:g transform="translate(-261,140.29111)" id="g70764">
+        <ns0:text ns2:linespacing="125%" id="text70768" y="964.00006" x="556.99988" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none" xml:space="preserve"><ns0:tspan y="964.00006" x="556.99988" id="tspan70770" ns2:role="line">Cancel</ns0:tspan></ns0:text>
+      </ns0:g>
+      <ns0:g transform="translate(299,357.29113)" ns1:label="channel-secure" id="g70772" style="display:inline">
+        <ns0:g id="g70774" ns1:label="lock" transform="translate(181,233)" style="fill:#bebebe;fill-opacity:1">
+          <ns0:rect ns1:label="a" y="276" x="20" height="16" width="16" id="rect70776" style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none" />
+        </ns0:g>
+        <ns0:path ns2:nodetypes="csccccscc" ns1:connector-curvature="0" id="path70778" d="m 205,516 c -0.554,0 -1.18921,0.47931 -1,1 l 0,0.53125 0,4.46875 10,0 0,-4.46875 L 214,517 c 0,-0.554 -0.446,-1 -1,-1 z" style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none" />
+        <ns0:rect style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" id="rect70780" width="6" height="8" x="206" y="512" rx="2" ry="2" />
+      </ns0:g>
+      <ns0:rect style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" id="rect70782" width="10" height="100" x="569" y="150" rx="8.9878149" ry="6.0560889" transform="translate(-9,707.29113)" />
+      <ns0:g style="display:inline" id="g14485" ns1:label="object-select" transform="translate(268.9998,76.29113)">
+        <ns0:path ns2:nodetypes="ccc" ns1:connector-curvature="0" ns1:original-d="m 85.00055,794.99698 2.99991,2.99886 5.99983,-5.99773" ns1:path-effect="#path-effect8915-0-8-2-7-4-4-8" id="path8913-6-7-1-5" d="m 85.00055,794.99698 2.99991,2.99886 5.99983,-5.99773" style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <ns0:rect ns1:label="a" y="787" x="61.000198" height="16" width="16" id="rect8856-7" style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none" />
+      </ns0:g>
+      <ns0:g style="display:inline" id="g3922" transform="translate(507,687.29113)" ns1:label="network-wireless-signal-excellent">
+        <ns0:path ns2:end="0.78539819" ns2:start="5.4977871" ns2:open="true" transform="matrix(0,-0.784314,0.784314,0,-148.137,209.059)" d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0.933597,2.2539 3.1875,3.1875 0 0 1 -0.933597,2.2539" ns2:ry="3.1875" ns2:rx="3.1875" ns2:cy="223.9375" ns2:cx="24.9375" id="path2933" style="display:inline;fill:none;stroke:#000000;stroke-width:2.54999995;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" ns2:type="arc" clip-path="url(#clipPath6279-6-1-7)" />
+        <ns0:path ns2:end="0.78539819" ns2:start="5.4977871" ns2:open="true" ns2:type="arc" style="display:inline;fill:none;stroke:#000000;stroke-width:1.15909004;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" id="path2935" ns2:cx="24.9375" ns2:cy="223.9375" ns2:rx="3.1875" ns2:ry="3.1875" d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0.933597,2.2539 3.1875,3.1875 0 0 1 -0.933597,2.2539" transform="matrix(0,-1.72549,1.72549,0,-358.902,232.529)" clip-path="url(#clipPath6265-33-4-1)" />
+        <ns0:path ns2:end="0.78539819" ns2:start="5.4977871" ns2:open="true" transform="matrix(0,-2.66667,2.66667,0,-569.666,256)" d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0.933597,2.2539 3.1875,3.1875 0 0 1 -0.933597,2.2539" ns2:ry="3.1875" ns2:rx="3.1875" ns2:cy="223.9375" ns2:cx="24.9375" id="path2937" style="display:inline;fill:none;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" ns2:type="arc" clip-path="url(#clipPath6259-6-4-8)" />
+        <ns0:rect style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none" id="rect2941" width="16" height="16" x="-194" y="20" ns1:label="audio-volume-high" transform="matrix(0,-1,1,0,0,0)" />
+        <ns0:circle style="display:inline;fill:#000000;fill-opacity:1;stroke:none" id="path2948" transform="matrix(1.5,0,0,1.5,-14.5,-123)" cx="28" cy="209" r="1" />
+      </ns0:g>
+      <ns0:g style="display:inline" transform="translate(485,705.29113)" id="g3944" ns1:label="network-wireless-signal-good">
+        <ns0:path clip-path="url(#clipPath6279-6-1-7)" ns2:type="arc" style="display:inline;fill:none;stroke:#000000;stroke-width:2.54999995;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" id="path3743" ns2:cx="24.9375" ns2:cy="223.9375" ns2:rx="3.1875" ns2:ry="3.1875" d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0.933597,2.2539 3.1875,3.1875 0 0 1 -0.933597,2.2539" transform="matrix(0,-0.784314,0.784314,0,-128.137,227.059)" ns2:open="true" ns2:start="5.4977871" ns2:end="0.78539819" />
+        <ns0:path clip-path="url(#clipPath6265-33-4-1)" transform="matrix(0,-1.72549,1.72549,0,-338.902,250.529)" d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0.933597,2.2539 3.1875,3.1875 0 0 1 -0.933597,2.2539" ns2:ry="3.1875" ns2:rx="3.1875" ns2:cy="223.9375" ns2:cx="24.9375" id="path3745-5" style="display:inline;fill:none;stroke:#000000;stroke-width:1.15909004;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" ns2:type="arc" ns2:open="true" ns2:start="5.4977871" ns2:end="0.78539819" />
+        <ns0:rect transform="matrix(0,-1,1,0,0,0)" ns1:label="audio-volume-high" y="40" x="-212" height="16" width="16" id="rect3749" style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none" />
+        <ns0:circle transform="matrix(1.5,0,0,1.5,5.5,-105)" id="path3751" style="display:inline;fill:#000000;fill-opacity:1;stroke:none" cx="28" cy="209" r="1" />
+        <ns0:path ns2:end="0.78539819" ns2:start="5.4977871" ns2:open="true" transform="matrix(0,-2.66667,2.66667,0,-549.666,274)" d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0.933597,2.2539 3.1875,3.1875 0 0 1 -0.933597,2.2539" ns2:ry="3.1875" ns2:rx="3.1875" ns2:cy="223.9375" ns2:cx="24.9375" id="path2937-7" style="display:inline;opacity:0.35;fill:none;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" ns2:type="arc" clip-path="url(#clipPath6259-6-8-25-4-4)" />
+      </ns0:g>
+      <ns0:g style="display:inline" transform="translate(446,793.29113)" id="g3955" ns1:label="network-wireless-signal-weak">
+        <ns0:rect transform="matrix(0,-1,1,0,0,0)" ns1:label="audio-volume-high" y="80" x="-212" height="16" width="16" id="rect3769" style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none" />
+        <ns0:circle transform="matrix(1.5,0,0,1.5,45.5,-105)" id="path3771" style="display:inline;fill:#000000;fill-opacity:1;stroke:none" cx="28" cy="209" r="1" />
+        <ns0:path ns2:end="0.78539819" ns2:start="5.4977871" ns2:open="true" transform="matrix(0,-0.784314,0.784314,0,-88.1372,227.059)" d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0.933597,2.2539 3.1875,3.1875 0 0 1 -0.933597,2.2539" ns2:ry="3.1875" ns2:rx="3.1875" ns2:cy="223.9375" ns2:cx="24.9375" id="path3753-6-8" style="display:inline;opacity:0.35;fill:none;stroke:#000000;stroke-width:2.54999995;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" ns2:type="arc" clip-path="url(#clipPath6279-6-1-4-5-0)" />
+        <ns0:path clip-path="url(#clipPath6265-33-6-5-1-3-3)" transform="matrix(0,-1.72549,1.72549,0,-298.902,250.529)" d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0.933597,2.2539 3.1875,3.1875 0 0 1 -0.933597,2.2539" ns2:ry="3.1875" ns2:rx="3.1875" ns2:cy="223.9375" ns2:cx="24.9375" id="path3745-5-4-5" style="display:inline;opacity:0.35;fill:none;stroke:#000000;stroke-width:1.15909004;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" ns2:type="arc" ns2:open="true" ns2:start="5.4977871" ns2:end="0.78539819" />
+        <ns0:path ns2:end="0.78539819" ns2:start="5.4977871" ns2:open="true" transform="matrix(0,-2.66667,2.66667,0,-509.666,274)" d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0.933597,2.2539 3.1875,3.1875 0 0 1 -0.933597,2.2539" ns2:ry="3.1875" ns2:rx="3.1875" ns2:cy="223.9375" ns2:cx="24.9375" id="path2937-7-7-0" style="display:inline;opacity:0.35;fill:none;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" ns2:type="arc" clip-path="url(#clipPath6259-6-8-2-1-6-6-3)" />
+      </ns0:g>
+      <ns0:g ns1:label="network-wireless-signal-good" id="g70973" transform="translate(485,749.29113)" style="display:inline">
+        <ns0:path ns2:end="0.78539819" ns2:start="5.4977871" ns2:open="true" transform="matrix(0,-0.784314,0.784314,0,-128.137,227.059)" d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0.933597,2.2539 3.1875,3.1875 0 0 1 -0.933597,2.2539" ns2:ry="3.1875" ns2:rx="3.1875" ns2:cy="223.9375" ns2:cx="24.9375" id="path70975" style="display:inline;fill:none;stroke:#000000;stroke-width:2.54999995;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" ns2:type="arc" clip-path="url(#clipPath6279-6-1-7)" />
+        <ns0:path ns2:end="0.78539819" ns2:start="5.4977871" ns2:open="true" ns2:type="arc" style="display:inline;fill:none;stroke:#000000;stroke-width:1.15909004;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" id="path70977" ns2:cx="24.9375" ns2:cy="223.9375" ns2:rx="3.1875" ns2:ry="3.1875" d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0.933597,2.2539 3.1875,3.1875 0 0 1 -0.933597,2.2539" transform="matrix(0,-1.72549,1.72549,0,-338.902,250.529)" clip-path="url(#clipPath6265-33-4-1)" />
+        <ns0:rect style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none" id="rect70979" width="16" height="16" x="-212" y="40" ns1:label="audio-volume-high" transform="matrix(0,-1,1,0,0,0)" />
+        <ns0:circle style="display:inline;fill:#000000;fill-opacity:1;stroke:none" id="path70981" transform="matrix(1.5,0,0,1.5,5.5,-105)" cx="28" cy="209" r="1" />
+        <ns0:path clip-path="url(#clipPath6259-6-8-25-4-4)" ns2:type="arc" style="display:inline;opacity:0.35;fill:none;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" id="path70983" ns2:cx="24.9375" ns2:cy="223.9375" ns2:rx="3.1875" ns2:ry="3.1875" d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0.933597,2.2539 3.1875,3.1875 0 0 1 -0.933597,2.2539" transform="matrix(0,-2.66667,2.66667,0,-549.666,274)" ns2:open="true" ns2:start="5.4977871" ns2:end="0.78539819" />
+      </ns0:g>
+      <ns0:g ns1:label="network-wireless-signal-weak" id="g70985" transform="translate(446,833.29113)" style="display:inline">
+        <ns0:rect style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none" id="rect70987" width="16" height="16" x="-212" y="80" ns1:label="audio-volume-high" transform="matrix(0,-1,1,0,0,0)" />
+        <ns0:circle style="display:inline;fill:#000000;fill-opacity:1;stroke:none" id="path70989" transform="matrix(1.5,0,0,1.5,45.5,-105)" cx="28" cy="209" r="1" />
+        <ns0:path clip-path="url(#clipPath6279-6-1-4-5-0)" ns2:type="arc" style="display:inline;opacity:0.35;fill:none;stroke:#000000;stroke-width:2.54999995;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" id="path70991" ns2:cx="24.9375" ns2:cy="223.9375" ns2:rx="3.1875" ns2:ry="3.1875" d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0.933597,2.2539 3.1875,3.1875 0 0 1 -0.933597,2.2539" transform="matrix(0,-0.784314,0.784314,0,-88.1372,227.059)" ns2:open="true" ns2:start="5.4977871" ns2:end="0.78539819" />
+        <ns0:path ns2:end="0.78539819" ns2:start="5.4977871" ns2:open="true" ns2:type="arc" style="display:inline;opacity:0.35;fill:none;stroke:#000000;stroke-width:1.15909004;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" id="path70993" ns2:cx="24.9375" ns2:cy="223.9375" ns2:rx="3.1875" ns2:ry="3.1875" d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0.933597,2.2539 3.1875,3.1875 0 0 1 -0.933597,2.2539" transform="matrix(0,-1.72549,1.72549,0,-298.902,250.529)" clip-path="url(#clipPath6265-33-6-5-1-3-3)" />
+        <ns0:path clip-path="url(#clipPath6259-6-8-2-1-6-6-3)" ns2:type="arc" style="display:inline;opacity:0.35;fill:none;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" id="path70995" ns2:cx="24.9375" ns2:cy="223.9375" ns2:rx="3.1875" ns2:ry="3.1875" d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0.933597,2.2539 3.1875,3.1875 0 0 1 -0.933597,2.2539" transform="matrix(0,-2.66667,2.66667,0,-509.666,274)" ns2:open="true" ns2:start="5.4977871" ns2:end="0.78539819" />
+      </ns0:g>
+      <ns0:path style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:0.52156863;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:new" d="m 194,1071.7911 396,0" id="path18399" ns1:connector-curvature="0" />
+      <ns0:path style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:0.52156863;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:new" d="m 386,1071.2911 0,56" id="path18401" ns1:connector-curvature="0" />
+    </ns0:g>
+  </ns0:g>
+</ns0:svg>

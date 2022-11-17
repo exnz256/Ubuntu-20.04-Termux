@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="crossfeed" xml:lang="pt-BR">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    </info>
+    <title>Crossfeed</title>
+    <p>O PulseEffects usa o crossfeed do GStreamer. Este plugin é baseado na biblioteca bs2b e pode ser usado para melhorar a audição de áudio estéreo via fones de ouvido. Ele faz isso misturando os canais esquerdo e direito de uma forma que simula a configuração de um alto-falante estéreo durante o uso de fones de ouvido.</p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Corte</em>
+            </title>
+            <p>Frequência de corte do filtro passa baixas.</p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Alimentação</em>
+            </title>
+            <p>Quantidade de sinal de um canal que enviada para o outro.</p>
+        </item>
+    </terms>
+    <section>
+        <title>Referências</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Crossfeed" its:translate="no">
+                        https://en.wikipedia.org/wiki/Crossfeed
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="http://bs2b.sourceforge.net/" its:translate="no">
+                        http://bs2b.sourceforge.net/
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link href="https://gstreamer.freedesktop.org/data/doc/gstreamer/head/gst-plugins-bad/html/gst-plugins-bad-plugins-bs2b.html" its:translate="no">
+                        https://gstreamer.freedesktop.org/data/doc/gstreamer/head/gst-plugins-bad/html/gst-plugins-bad-plugins-bs2b.html
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>
